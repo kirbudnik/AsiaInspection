@@ -1,0 +1,72 @@
+{% if app.request.locale == "ar" %} {% set twigBase = "AIResponsiveBundle:RTL:extra/extraBase.html.twig" %} {% else %} {% set twigBase = "AIResponsiveBundle:extra:extraBase.html.twig" %} {% endif %}
+{% extends twigBase %}
+
+{% block title %}QCA {{"now"|date("Y")}} Member Testing Program - AsiaInspection.com{% endblock %}
+{% block pageDescription %}As your QCA preferred laboratory partner, we continuously look for ways to add value to your membership.{% endblock %}
+{% block pageKeywords %}{% endblock %}
+
+{% block bigTitle %}QCA {{"now"|date("Y")}} Member Testing Program{% endblock %}
+{% block smallText %}{% endblock %}
+{% block pagename %}qcamember{% endblock %}
+
+{% block mainBlock %}
+
+    {% if userlogin is defined and userlogin == true %}
+
+        <div style="margin-top:20px;">
+
+            <h2>Enjoy every advantage of your AI partnership!</h2>
+        
+            <p><b>Discounts for Testing Services</b><br /></p>
+            <p><b>AI will not be increasing testing costs in {{"now"|date("Y")}}.</b> QCA members whose accounts are in good standing will continue receiving the following discounts for testing services with AI:</p></p>
+            <ul style="padding-left: 15px;">
+                <li style="margin-bottom:5px;">20% discount off list prices in Buffalo for all member companies (applicant, accredited and DAC members);</li>
+                <li style="margin-bottom:5px;">20% discount off list prices in Hong Kong for applicant and DAC member companies;</li>
+                <li style="margin-bottom:5px;">30% discount off list prices in Hong Kong for accredited member companies.</li>
+                <li>
+                    All-inclusive pricing for QC services, $285 USD per man day for inspections and $629 USD for audits in China.<br /><i>*Pricing for other countries available upon request</i>
+                </li>
+            </ul>
+        
+            <br />
+            <h2>Awards</h2>
+        
+            <p><b>Service Award:</b> Complimentary 3-Day Express Service for one submission (one AI ID number) with monthly testing volume of $5,000/location. This benefit can be used every month in which your testing volume meets the requirements – which means that every year, QCA accredited member companies can receive up to twelve 3-Day Express Services per lab location – at no additional surcharge!</p>
+            <p><b>Anniversary Award:</b> Complimentary 3-Day Express Service offered with every anniversary of your partnership with AI. This annual benefit is available to current AI clients that are QCA members and applies to applicant members, accredited members, and DAC members alike!</p>
+            <p><b>Easy Invoicing</b> To simplify things, you can make payments directly to our Buffalo office location, regardless of which of our laboratories provided you services . Terms of Net 30 Days must be adhered to in order to receive the agreed-upon pricing package, awards, and other member benefits.<br /></p>
+            <p><a href="/conditions-of-service">AI Terms and Conditions</a></p>
+            <br />
+        
+            <p><b><a href="{{assetsDomain}}/files/QCA-2017-US-Test-Cost-Reference-Final-102517.pdf" target="_blank">Click here</a> to download the QCA {{"now"|date("Y")}} Test Cost Reference Sheets</b><br />
+            for the list sorted by category, <a href="{{assetsDomain}}/files/QCA-2017-Product-Category-Reference-Final-102517.pdf" target="_blank">click here.</a></p>
+            <p><b>Ready to begin testing?</b><br />
+            Download and complete the QCA Member Service Request Form (SRF) <a href="{{assetsDomain}}/files/CS-BF-FM048-QCA-SRF.docx" target="_blank">USA SRF</a> | <a href="{{assetsDomain}}/files/CS-HK-SRF019-QCA.doc" target="_blank">Hong Kong SRF</a></p>
+            <p><b>If you’re new to AI</b><br />
+            In the USA, contact <a href="mailto:lisa.maxwell@asiainspection.com">Lisa Maxwell</a><br />
+            In Hong Kong, contact <a href="mailto:fanny.leung@asiainspection.com">Fanny Leung</a></p>
+            <p><b>Already a client?</b> Great to have you on board! Contact your current client service representative, and they will be happy to assist you!</p>
+        </div>
+
+    {% else %}
+    
+        <div class="col-xs-12" style="background-color:#E6E6E6; margin-top:20px;">
+            <form class="validate-form" method="post" action="/qca-member-discount">
+                <div style="margin-top:20px;">
+                    <div class="col-xs-12 paddingZero">
+                        <center>
+                            <p>This content is password protected.<br />To view it please enter your password below.{% if error is defined %}<p style="color:red;">{{error}}</p>{% endif %}</p><br />
+                            <div style="margin-right:15px; display:inline-block;"><b>Password:</b></div>
+                            <input type="password" size="20" name="password" style="display:inline-block;" required />
+                            <button type="submit" class="btn-primary" style="border:0px; margin-top:15px; margin-bottom:20px; display:block;">Submit</button>
+                        </center>
+                    </div>
+                </div>
+            </form>
+        </div>
+    
+    {% endif %}
+
+
+
+{% endblock %}
+

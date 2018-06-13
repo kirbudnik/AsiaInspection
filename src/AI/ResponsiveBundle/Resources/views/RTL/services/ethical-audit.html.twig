@@ -1,0 +1,60 @@
+{% extends 'AIResponsiveBundle:RTL:services/audits.html.twig'%}
+
+{% block content %}
+  {% if app.request.locale == "en" %}
+  <!-- only displays content for EN language -->
+    <h2>{% trans %}Ethical Audit Standards{% endtrans %}</h2>
+    <p>{% trans %}For a modern business, an ethical supply chain is no longer an optional "feel-good" PR tool. Today, consumers, governments and NGOs are putting increasing pressure on brands and retailers to ensure transparency throughout their supply chains. Social accountability is an important element of a company's sourcing and marketing strategy, which helps ensure better product quality, foster consumer loyalty, and emphasize good corporate citizenship{% endtrans %}</p>
+    <p>{% trans %}AI offers comprehensive ethical audit programs that can be conducted according to international standards, your company's in-house specifications or our own Best-In-Class Protocol.{% endtrans %}</p>
+    <p>{% trans %}All AI ethical audit programs cover the following aspects:{% endtrans %}</p>
+    <ul>
+      <li>{% trans %}Hygiene, health and safety{% endtrans %}</li>
+      <li>{% trans %}Waste management{% endtrans %}</li>
+      <li>{% trans %}Child and young labor{% endtrans %}</li>
+      <li>{% trans %}Labor practices, including forced labor, worker representation, disciplinary practices and discrimination.{% endtrans %}</li>
+      <li>{% trans %}Working hours and wages{% endtrans %}</li>
+    </ul>
+
+    <h2>{% trans %}Client-Specific Ethical Audit Protocols{% endtrans %}</h2>
+    <p>{% trans %}If your company already has a social accountability program in place, AI can tailor its existing ethical audit programs to suit your needs and ensure the compliance of your suppliers to your specific requirements.{% endtrans %}</p>
+
+    <h2>{% trans %}Ethical Audits to International Standards{% endtrans %}</h2>
+    <p>{% trans %}Our professionally certified auditors can conduct ethical audits according to all major internationally recognized social audits standards, including:{% endtrans %}</p>
+    <ul>
+      <li>{% trans %}SA 8000{% endtrans %}</li>
+      <li><a href="/smeta-audit">{% trans %}SMETA (Sedex){% endtrans %}</a></li>
+      <li><a href="/bsci-supplier-audits">{% trans %}BSCI{% endtrans %}</a></li>
+      <li>{% trans %}ETI (ILO){% endtrans %}</li>
+      <li>{% trans %}Responsible Jewelry Council (RJC){% endtrans %}</li>
+      <li>{% trans %}Initiative Clause Sociale (ICS){% endtrans %}</li>
+    </ul>
+
+    <h2>{% trans %}AI's Best-In-Class Ethical Audit Protocol{% endtrans %}</h2>
+    <p>{% trans %}Using the best practices of existing standards and building on our own experience from performing over 10,000 audits every year, we have developed our own Best-In-Class ethical audit protocol.{% endtrans %}</p>
+    <p>{% trans %}When AI auditors visit a factory, they use GPS coordinates to confirm that your products are only being manufactured at the approved facility, and no unauthorized subcontracting is taking place.{% endtrans %}</p>
+    <p>{% trans %}Our on-site process consists of:{% endtrans %}</p>
+    <ul>
+      <li>{% trans %}Opening meeting{% endtrans %}</li>
+      <li>{% trans %}Factory tour{% endtrans %}</li>
+      <li>{% trans %}Document review{% endtrans %}</li>
+      <li>{% trans %}Worker interviews (group and individual){% endtrans %}</li>
+      <li>{% trans %}Closing meeting with Corrective Action Plan (CAP) review{% endtrans %}</li>
+    </ul>
+    <p>{% trans %}Furthermore, our Supplier Workshops (held before and during the audit) help educate your suppliers about the audit program, get them more involved and help them achieve compliance.{% endtrans %}</p>
+    <p>{% trans %}Our worker interviews are structured and held in a way that ensures transparency and honesty. During the interview, our auditors use voice stress analysis and cross-check information to detect any deception or inconsistencies. Factory staff are also given an opportunity to provide anonymous feedback.{% endtrans %}</p>
+
+    <h2>{% trans %}AI Ethical Auditors{% endtrans %}</h2>
+    <p>{% trans %}AI has adopted an approach based on the key competences of auditors – attitude, skills and knowledge – in line with the reference tools developed by the Global Social Compliance Programme (GSCP){% endtrans %}.</p>
+    <p>{% trans %}All AI auditors are professionally certified and undergo regular training to stay up to date with the latest standards and regulatory requirements. The average AI ethical auditor has performed 580 audits.{% endtrans %}</p>
+
+    <h2>{% trans %}Why Perform an Ethical Audit?{% endtrans %}</h2>
+    <ul>
+      <li>{% trans %}Ensure decent working conditions and human rights throughout your supply chain{% endtrans %}</li>
+      <li>{% trans %}Comply with statutory requirements (e.g. Modern Slavery Act 2015){% endtrans %}</li>
+      <li>{% trans %}Prevent unauthorized subcontracting{% endtrans %}</li>
+      <li>{% trans %}Receive an accurate picture of ethical compliance in your supply chain{% endtrans %}</li>
+      <li>{% trans %}Foster cooperative relations with your suppliers{% endtrans %}</li>
+      <li>{% trans %}Improve brand image and increase consumer loyalty{% endtrans %}</li>
+    </ul>
+  {% endif %}
+{% endblock %}

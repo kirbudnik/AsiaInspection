@@ -1,0 +1,54 @@
+{% if app.request.locale == "ar" %} {% set twigBase = "AIResponsiveBundle:RTL:extra/extraBase.html.twig" %} {% else %} {% set twigBase = "AIResponsiveBundle:extra:extraBase.html.twig" %} {% endif %}
+{% extends twigBase %}
+
+{% block title %}Quality Control in China: Product Inspections, Audits &amp; Lab Testing | AsiaInspection{% endblock %}
+{% block pageDescription %}AsiaInspection offers product inspections, supplier audits and lab testing in all of China. Find out how we can help you with quality control in China.{% endblock %}
+{% block pageKeywords %}quality control in china, product inspection in china, audit in china, lab testing in china{% endblock %}
+
+{% block bigTitle %}{% trans %}qcinchina-title{% endtrans %}{% endblock %}
+{% block smallText %}{% trans %}qcinchina-subtext{% endtrans %}{% endblock %}
+{% block pagename %}QCinChina{% endblock %}
+
+{% block mainBlock %}
+    <h2 class="marginZero padding15">{% trans %}qcinchina-qcsevices{% endtrans %}</h2>
+    <p>{% trans %}qcinchina-qcsevices-subtext{% endtrans %}</p>
+    <p>{% trans %}qcinchina-qcsevices-subtext1{% endtrans %}</p>
+    
+    <h2 class="marginZero padding15">{% trans %}qcinchina-supplierAudit-title{% endtrans %}</h2>
+    <p>{% trans %}qcinchina-supplierAudit-subtext{% endtrans %}</p>
+    <p>{% trans %}qcinchina-supplierAudit-subtext1{% endtrans %}</p>
+    <ul>{% trans %}qcinchina-supplierAudit-list{% endtrans %}</ul>
+    
+    <h2 class="marginZero padding15">{% trans %}qcinchina-labTesting{% endtrans %}</h2>
+    <p>{% trans %}qcinchina-labTesting-subtext{% endtrans %}</p>
+    <p>{% trans %}qcinchina-labTesting-subtext1{% endtrans %}</p>
+    <ul>{% trans %}qcinchina-labTesting-list{% endtrans %}</ul>
+
+    <h2 class="marginZero padding15">{% trans %}qcinchina-ProdInsp{% endtrans %}</h2>
+    <p>{% trans %}qcinchina-ProdInsp-subtext{% endtrans %}</p>
+    <p>{% trans %}qcinchina-ProdInsp-subtext1{% endtrans %}</p>
+    <ul>{% trans %}qcinchina-ProdInsp-list{% endtrans %}</ul>
+    
+    <h2 class="marginZero padding15">{% trans %}qcinchina-whyAI{% endtrans %}</h2>
+    <p style="font-weight:bold;">{% trans %}qcinchina-why-reason1{% endtrans %}</p>
+    <ul>{% trans %}qcinchina-why-reason1-text{% endtrans %}</ul>
+
+    <p style="font-weight:bold;">{% trans %}qcinchina-why-reason2{% endtrans %}</p>
+    <ul>{% trans %}qcinchina-why-reason2-text{% endtrans %}</ul>
+
+    <p style="font-weight:bold;">{% trans %}qcinchina-why-reason3{% endtrans %}</p>
+    <ul>{% trans %}qcinchina-why-reason3-text{% endtrans %}</ul>
+
+    <p>{% trans %}qcinchina-why-reason4{% endtrans %}</p>
+    <p>{% trans %}qcinchina-why-reason5{% endtrans %}</p>
+    <p>{% trans %}qcinchina-why-reason6{% endtrans %}</p>
+    <p>{% trans %}qcinchina-why-reason7{% endtrans %}</p>
+    
+    <h2 class="marginZero padding15">{% trans %}qcinchina-sourcing-challenges{% endtrans %}</h2>
+    <p>{% trans %}qcinchina-sourcing-challenges-text{% endtrans %}</p>
+    <p>{% trans %}qcinchina-sourcing-challenges-text1{% endtrans %}</p>
+    <p>{% trans %}qcinchina-sourcing-challenges-text2{% endtrans %}</p>
+
+{% endblock %}
+
+

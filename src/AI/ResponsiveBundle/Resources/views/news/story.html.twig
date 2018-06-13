@@ -1,0 +1,35 @@
+{% extends 'AIResponsiveBundle:news:newsBase.html.twig' %}
+{% block title %}{% if pageTitle is defined %}{{pageTitle}}{% else %}{% trans %}News{% endtrans %}{% endif %}{% endblock %}
+{% block pagename %}PressRelease{% endblock %}
+{% block headerTitle %}{% if headerTitle is defined %}{{headerTitle}}{% else %}{% trans %}Press Release{% endtrans %}{% endif %}{% endblock %}
+
+{% block newsBody %}
+ <div class="container wrapper" style="background-color:white; width:100%;">
+    <div class="storyContainer col-xl-12 col-xl-offset-0  col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12" >
+        {% block news %}
+            <div  style="padding:0px;float:right;">
+                <div style="display:inline-block; padding-top:8px; padding-left:2em; float:left; font-weight:bold;">{%trans%}Share This On{%endtrans%}:&nbsp;&nbsp;</div>
+                <div id="shareBtnSmall" style="display:inline-block;">
+                    <span class='st_twitter_large' displayText='Tweet'></span>
+                    <span class='st_facebook_large' displayText='Facebook'></span>
+                    <span class='st_linkedin_large' displayText='LinkedIn'></span>
+                    <span class='st_email_large' displayText='Email'></span>
+                    <span class='st_sharethis_large' displayText='ShareThis'></span>
+                </div>
+            </div>
+            {% include path ignore missing %}
+        {% endblock %}
+    </div>
+</div>
+
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+    stLight.options({
+        publisher:'12345',
+        doNotHash:true,
+        doNotCopy:true,
+        hashAddressBar:false
+    });
+</script>
+{% endblock %}
+

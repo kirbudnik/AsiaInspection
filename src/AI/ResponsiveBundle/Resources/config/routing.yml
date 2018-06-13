@@ -1,0 +1,764 @@
+remove_trailing_slash:
+    path: /{url}
+    defaults: { _controller: AIResponsiveBundle:Global:removeTrailingSlash }
+    requirements:
+        #url: .*/$
+        url: ^(?!leads-tool/register/).*/$ #excluding a url in the leads tool FOS bundle
+    methods: [GET]
+
+laboratory-testing:
+        pattern: /laboratory-testing
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /
+            permanent: true
+
+register:
+        pattern: /register
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /register
+            permanent: true
+
+customClient:
+        pattern: /client/{clientName}
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /client/{clientName}
+            permanent: true
+
+
+regsuccess:
+        pattern: /regsuccess
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /
+            permanent: true
+
+fos_user_security:
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+    prefix: /leads-tool
+
+fos_user_profile:
+    resource: "@FOSUserBundle/Resources/config/routing/profile.xml"
+    prefix: /leads-tool/profile
+
+fos_user_register:
+    resource: "@FOSUserBundle/Resources/config/routing/registration.xml"
+    prefix: /leads-tool/register
+
+fos_user_resetting:
+    resource: "@FOSUserBundle/Resources/config/routing/resetting.xml"
+    prefix: /leads-tool/resetting
+
+fos_user_change_password:
+    resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
+    prefix: /leads-tool/profile
+
+
+mobile:
+        pattern: /mobile
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /
+            permanent: true
+
+quality-control-bangladesh:
+        pattern: /quality-control-bangladesh
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /
+            permanent: true
+
+quality-control-vietnam:
+        pattern: /quality-control-vietnam
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /
+            permanent: true
+
+phthalate-toys-laboratory-testing:
+        pattern: /phthalate-toys-laboratory-testing
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /
+            permanent: true
+
+toy-safety-laboratory-testing-2010:
+        pattern: /toy-safety-laboratory-testing-2010
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /toy-safety-laboratory-testing
+            permanent: true
+
+affiliate-program:
+        pattern: /affiliate-program
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /
+            permanent: true
+
+asia-inspection-privacy-policy:
+        pattern: /asia-inspection-privacy-policy
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /conditions-of-service#privacyPolicy
+            permanent: true
+
+termsandconditions:
+        pattern: /termsandconditions
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /conditions-of-service
+            permanent: true
+
+aql-acceptable-quality-limit:
+        pattern: /aql-acceptable-quality-limit
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /
+            permanent: true
+
+akzeptables-qualitaetslimit-aql:
+        pattern: /akzeptables-qualitaetslimit-aql
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /aql-acceptable-quality-limit
+            permanent: true
+
+affiliate-registration:
+        pattern: /affiliate-registration
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /
+            permanent: true
+
+service-coverage:
+        pattern: /service-coverage
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /quality-control-coverage
+            permanent: true
+
+candidature-emploi-asie:
+        pattern: /candidature-emploi-asie
+        defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /job-application
+            permanent: true
+
+qui-sommes-nous:
+    pattern: /qui-sommes-nous
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /who-we-are
+        permanent: true
+
+prix-inspections-audits-tests:
+    pattern: /prix-inspections-audits-tests
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /quality-control-pricing
+        permanent: true
+
+reseau-inspecteurs-asie:
+    pattern: /reseau-inspecteurs-asie
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /quality-control-coverage
+        permanent: true
+
+responsabilite-societale:
+    pattern: /responsabilite-societale
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /corporate-values
+        permanent: true
+
+nos-valeurs:
+    pattern: /nos-valeurs
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /corporate-values
+        permanent: true
+
+temoignages-inspection-produit-audit-fournisseur:
+    pattern: /temoignages-inspection-produit-audit-fournisseur
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /asiainspection-testimonials
+        permanent: true
+
+opportunites-carriere-asie:
+    pattern: /opportunites-carriere-asie
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /career-opportunities
+        permanent: true
+
+candidature-emploi-asie:
+    pattern: /candidature-emploi-asie
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /job-application
+        permanent: true
+
+enregistrement:
+    pattern: /enregistrement
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /register
+        permanent: true
+
+contact:
+    pattern: /contact
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /contact-us
+        permanent: true
+
+actualites-asiainspection:
+    pattern: /actualites-asiainspection
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /asia-inspection-news
+        permanent: true
+
+services-controle-qualite-chine-inde-asie:
+    pattern: /services-controle-qualite-chine-inde-asie
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /quality-control-services
+        permanent: true
+
+inspection-produit-avant-expedition:
+    pattern: /inspection-produit-avant-expedition
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /pre-shipment-inspection
+        permanent: true
+
+suivi-production:
+    pattern: /suivi-production
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /production-monitoring
+        permanent: true
+
+inspection-en-cours-de-production:
+    pattern: /inspection-en-cours-de-production
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /during-production-inspection
+        permanent: true
+
+controle-intial-production:
+    pattern: /controle-intial-production
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /initial-production-check
+        permanent: true
+
+controle-de-chargement-conteneur:
+    pattern: /controle-de-chargement-conteneur
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /container-loading-check
+        permanent: true
+
+audit-social:
+    pattern: /audit-social
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /ethical-audit
+        permanent: true
+
+conformite-c-tpat:
+    pattern: /conformite-c-tpat
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /c-tpat-compliance
+        permanent: true
+
+test-laboratoire-certification:
+    pattern: /test-laboratoire-certification
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /laboratory-testing
+        permanent: true
+
+cpsia-test-laboratoire:
+    pattern: /cpsia-test-laboratoire
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /cpsia-testing
+        permanent: true
+
+reach-regulation-svhc:
+    pattern: /reach-regulation-svhc
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /reach-testing
+        permanent: true
+
+audit-usine-fournisseur:
+    pattern: /audit-usine-fournisseur
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /manufacturing-audit
+        permanent: true
+
+asia-inspection-privacy-policy:
+    pattern: /asia-inspection-privacy-policy
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /conditions-of-service#privacyPolicy
+        permanent: true
+
+conditions-fr:
+    pattern: /conditions-fr
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /conditions-of-service
+        permanent: true
+
+plan:
+    pattern: /plan
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /asia-inspection-site-map
+        permanent: true
+
+partenaires:
+    pattern: /partenaires
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /asia-inspection-partners
+        permanent: true
+
+inspection-produit-avant-expedition:
+    pattern: /inspection-produit-avant-expedition
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /pre-shipment-inspection
+        permanent: true
+
+customer-satisfaction-survey:
+    pattern: /customer-satisfaction-survey
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: http://aius3.asiainspection.com/customer-satisfaction-survey-reports
+        permanent: true
+
+quality-control-services-china-india-asia:
+    pattern: /quality-control-services-china-india-asia
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /quality-control-services
+        permanent: true
+
+christine-lagarde:
+    pattern: /christine-lagarde
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /asia-inspection-news/christine-lagarde
+        permanent: true
+
+wer-sind-wir:
+    pattern: /wer-sind-wir
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /who-we-are
+        permanent: true
+
+wer-wir-sind:
+    pattern: /wer-wir-sind
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /who-we-are
+        permanent: true
+
+inspektion-preise:
+    pattern: /inspektion-preise
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /quality-control-pricing
+        permanent: true
+
+qualitätskontrolle-kosten:
+    pattern: /qualitätskontrolle-kosten
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /quality-control-pricing
+        permanent: true
+
+inspektor-netzwerk:
+    pattern: /inspektor-netzwerk
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /quality-control-coverage
+        permanent: true
+
+inspektion-ethikkodex:
+    pattern: /inspektion-ethikkodex
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /corporate-values
+        permanent: true
+
+job-application:
+    pattern: /job-application
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /job-application
+        permanent: true
+
+registrieren:
+    pattern: /registrieren
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /register
+        permanent: true
+
+kontakt:
+    pattern: /kontakt
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /contact-us
+        permanent: true
+
+neues:
+    pattern: /neues
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /asia-inspection-news
+        permanent: true
+
+qualitatskontrolldienste-china-indien-asien:
+    pattern: /qualitatskontrolldienste-china-indien-asien
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /quality-control-services
+        permanent: true
+
+qualitaetskontrolle:
+    pattern: /qualitaetskontrolle
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /quality-control-services
+        permanent: true
+
+prufung-vor-dem-versand:
+    pattern: /prufung-vor-dem-versand
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /pre-shipment-inspection
+        permanent: true
+
+produktinspektion-vor-versand:
+    pattern: /produktinspektion-vor-versand
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /pre-shipment-inspection
+        permanent: true
+
+fertigungsuberwachung:
+    pattern: /fertigungsuberwachung
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /production-monitoring
+        permanent: true
+
+laufende-fertigungsuberwachung:
+    pattern: /laufende-fertigungsuberwachung
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /production-monitoring
+        permanent: true
+
+produktionskontrolle:
+    pattern: /produktionskontrolle
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /during-production-inspection
+        permanent: true
+
+kontrolle-vor-produktionsbeginn:
+    pattern: /kontrolle-vor-produktionsbeginn
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /initial-production-check
+        permanent: true
+
+vorbereitende-produktionskontrolle:
+    pattern: /vorbereitende-produktionskontrolle
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /initial-production-check
+        permanent: true
+
+containerkontrolle:
+    pattern: /containerkontrolle
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /container-loading-check
+        permanent: true
+
+versandinspektion-containercheck:
+    pattern: /versandinspektion-containercheck
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /container-loading-check
+        permanent: true
+
+soziales-audit:
+    pattern: /soziales-audit
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /ethical-audit
+        permanent: true
+
+umweltaudit:
+    pattern: /umweltaudit
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /environmental-audit
+        permanent: true
+
+fabriksicherheit-gebaeudeinspektion:
+    pattern: /fabriksicherheit-gebaeudeinspektion
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /structural-audits
+        permanent: true
+
+ctpat-audit:
+    pattern: /ctpat-audit
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /c-tpat-compliance
+        permanent: true
+
+labortests-produktsicherung:
+    pattern: /labortests-produktsicherung
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /laboratory-testing
+        permanent: true
+
+cpsia-test:
+    pattern: /cpsia-test
+    defaults:
+      _controller: FrameworkBundle:Redirect:urlRedirect
+      path: /cpsia-testing
+      permanent: true
+
+hardlines-inspektion-test:
+    pattern: /hardlines-inspektion-test
+    defaults:
+      _controller: FrameworkBundle:Redirect:urlRedirect
+      path: /industry-hardline
+      permanent: true
+
+komponenten-bauteile-kontrolle:
+    pattern: /komponenten-bauteile-kontrolle
+    defaults:
+      _controller: FrameworkBundle:Redirect:urlRedirect
+      path: /industry-techparts
+      permanent: true
+
+labortests:
+    pattern: /labortests
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /laboratory-testing
+        permanent: true
+
+reach-konformitat:
+    pattern: /reach-konformitat
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /reach-testing
+        permanent: true
+
+reach-test:
+    pattern: /reach-test
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /reach-testing
+        permanent: true
+
+rohs-test:
+    pattern: /rohs-test
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /rohs-testing
+        permanent: true
+
+softlines-inspektion-test:
+    pattern: /softlines-inspektion-test
+    defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /industry-softline
+            permanent: true
+
+datenschutz:
+    pattern: /datenschutz
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /conditions-of-service
+        permanent: true
+
+konditionen:
+    pattern: /konditionen
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /conditions-of-service
+        permanent: true
+
+ubersicht:
+    pattern: /ubersicht
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /asia-inspection-site-map
+        permanent: true
+
+partner-und-links:
+    pattern: /partner-und-links
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /asia-inspection-partners
+        permanent: true
+
+werksinspektion:
+    pattern: /werksinspektion
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /manufacturing-audit
+        permanent: true
+
+unsubscribe:
+    pattern: /unsubscribe
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /emailPreferences
+        permanent: true
+
+whitepapers:
+    pattern: /whitepapers
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /supply-chain-insights
+        permanent: true
+
+textile-fabric-quality-control:
+    pattern: /testing/textiles
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /testing/textile-fabric-quality-control
+        permanent: true
+
+toy-safety-and-lab-testing:
+    pattern: /testing/toys
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /testing/toy-safety-and-lab-testing
+        permanent: true
+
+quality-control-for-processed-food:
+    pattern: /testing/processed-food
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /testing/quality-control-for-processed-food
+        permanent: true
+
+food-packaging-and-containers:
+    pattern: /testing/food-containers
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /testing/food-packaging-and-containers
+        permanent: true
+
+gmp-food-audits-and-compliance:
+    pattern: /food-good-manufacturing-practice-audits
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /gmp-food-audits-and-compliance
+        permanent: true
+
+food-testing-and-certification-lab:
+    pattern: /food-testing
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /food-testing-and-certification-lab
+        permanent: true
+
+ghp-food-hygiene-audits:
+    pattern: /food-hygiene-audits
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /ghp-food-hygiene-audits
+        permanent: true
+
+testing/food-inspection-services:
+    pattern: /testing/food-inspections
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /testing/food-inspection-services
+        permanent: true
+
+testing/produce-inspections-and-quality-control:
+    pattern: /testing/produce
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /testing/produce-inspections-and-quality-control
+        permanent: true
+
+testing/produce-inspections-and-quality-control-two:
+    pattern: /produce
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /testing/produce-inspections-and-quality-control
+        permanent: true
+
+testing/beverage-quality-control:
+    pattern: /testing/beverages
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /testing/beverage-quality-control
+        permanent: true
+
+food-safety-testing:
+    pattern: /industry-food
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /food-safety-testing
+        permanent: true
+
+third-party-food-safety-audits:
+    pattern: /food-audits
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /third-party-food-safety-audits
+        permanent: true
+
+ilo-infographic:
+    pattern: /ILO_infographic
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /modern-slavery-infographic
+        permanent: true
+
+precios-inspeccion:
+    pattern: /precios-inspeccion
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /quality-control-pricing
+        permanent: true
+
+logos:
+    pattern: /logo
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: https://s3.asiainspection.com/files/AI_Logo.zip
+        permanent: true

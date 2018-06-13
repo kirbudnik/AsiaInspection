@@ -1,0 +1,2317 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="homepage_barometer_thumb_title">
+                <source>homepage_barometer_thumb_title</source>
+                <target>Барометр Q4 AI: Сезонный пик производства ставит новые задачи с точки зрения качества и этики</target>
+            </trans-unit>
+            <trans-unit id="1">
+                <source>Cookie_Banner_Message</source>
+                <target><![CDATA[We use cookies to enhance your user experience. <a href=\"/conditions-of-service#privacyPolicy_8.5\">Learn more.</a>]]></target>
+            </trans-unit>
+           <trans-unit id="107">
+             <source>homepage-publications-latestWhitepaperTitle</source>
+             <target>Доклад: Что означает скорость на рынке для потребительской безопасности?</target>
+           </trans-unit>
+           <trans-unit id="Pricing_Zone_A">
+             <source>Pricing_Zone_A</source>
+             <target>Zone A: China, Bangladesh, India, Vietnam, Thailand, Cambodia, Africa and Latin America</target>
+           </trans-unit>
+           <trans-unit id="Pricing_Zone_B">
+             <source>Pricing_Zone_B</source>
+             <target>Зона B: Европа, Северная Америка, Большая Азия и Бразилия</target>
+           </trans-unit>
+            <trans-unit id="viewIndustryReport">
+                <source>View a Sample Report for Your Industry</source>
+                <target>Просмотреть примера отчета для вашей отрасли</target>
+            </trans-unit>
+
+         <!-- Nav -->
+            <trans-unit id="nav-softlines">
+                <source>nav-softlines</source>
+                <target>Текстильные товары</target>
+            </trans-unit>
+            <trans-unit id="nav-garments-apparel">
+                <source>nav-garments-apparel</source>
+                <target>Одежда</target>
+            </trans-unit>
+            <trans-unit id="nav-textiles-fabrics">
+                <source>nav-textiles-fabrics</source>
+                <target>Текстиль и ткани</target>
+            </trans-unit>
+            <trans-unit id="nav-footwear">
+                <source>nav-footwear</source>
+                <target>Обувь</target>
+            </trans-unit>
+            <trans-unit id="nav-other-softlines">
+                <source>nav-other-softlines</source>
+                <target>Other Softlines</target>
+            </trans-unit>
+            <trans-unit id="nav-hardlines">
+                <source>nav-hardlines</source>
+                <target>Товары для быта</target>
+            </trans-unit>
+            <trans-unit id="nav-cosmetics">
+                <source>nav-cosmetics</source>
+                <target>Косметика</target>
+            </trans-unit>
+            <trans-unit id="nav-electrical-electronics">
+                <source>nav-electrical-electronics</source>
+                <target>Электрические и электронные товары</target>
+            </trans-unit>
+            <trans-unit id="nav-eyewear">
+                <source>nav-eyewear</source>
+                <target>Очки</target>
+            </trans-unit>
+            <trans-unit id="nav-jewelry">
+                <source>nav-jewelry</source>
+                <target>Ювелирные изделия</target>
+            </trans-unit>
+            <trans-unit id="nav-promotional-products">
+                <source>nav-promotional-products</source>
+                <target>Рекламные товары</target>
+            </trans-unit>
+            <trans-unit id="nav-toys-recreational">
+                <source>nav-toys-recreational</source>
+                <target>Игрушки и товары для отдыха</target>
+            </trans-unit>
+            <trans-unit id="nav-other-hardlines">
+                <source>nav-other-hardlines</source>
+                <target>Other Hardlines</target>
+            </trans-unit>
+            <trans-unit id="nav-food">
+                <source>nav-food</source>
+                <target>Продовольственные товары</target>
+            </trans-unit>
+            <trans-unit id="nav-fresh-produce">
+                <source>nav-fresh-produce</source>
+                <target>Свежая продукция</target>
+            </trans-unit>
+            <trans-unit id="nav-processed-foods">
+                <source>nav-processed-foods</source>
+                <target>Переработанная пищевая продукция</target>
+            </trans-unit>
+            <trans-unit id="nav-seafood">
+                <source>nav-seafood</source>
+                <target>Морепродукты</target>
+            </trans-unit>
+            <trans-unit id="nav-meat-and-poultry">
+                <source>nav-meat-and-poultry</source>
+                <target>Мясо и птица</target>
+            </trans-unit>
+            <trans-unit id="nav-beverages">
+                <source>nav-beverages</source>
+                <target>напитки</target>
+            </trans-unit>
+            <trans-unit id="nav-food-containers">
+                <source>nav-food-containers</source>
+                <target>Пищевые емкости</target>
+            </trans-unit>
+            <trans-unit id="nav-tech-parts">
+                <source>nav-tech-parts</source>
+                <target>Технические детали</target>
+            </trans-unit>
+            <trans-unit id="nav-saso-coc">
+                <source>SASO Certificate of Conformity</source>
+                <target>Сертификат соответствия SASO</target>
+            </trans-unit>
+            <trans-unit id="nav-berries">
+                <source>nav-berries</source>
+                <target>Fresh Berries</target>
+            </trans-unit>
+            <trans-unit id="nav-Assemblies-etc">
+                <source>nav-Assemblies-etc</source>
+                <target>(Сборные детали и формы, автомобильные запчасти, машинное оборудование, прецизионные инструменты)</target>
+            </trans-unit>
+            <!-- newly added Nav -->
+            <trans-unit id="nav-During-Production-Check">
+                <source>During Production Check</source>
+                <target>Инспекция в ходе производства</target>
+            </trans-unit>
+            <trans-unit id="nav-Initial-Production-Check">
+                <source>Initial Production Check</source>
+                <target>Первоначальная проверка производства</target>
+            </trans-unit>
+            <trans-unit id="nav-Container-Loading-Check">
+                <source>Container Loading Check</source>
+                <target>Проверка загрузки контейнеров</target>
+            </trans-unit>
+            <trans-unit id="nav-Food-Inspections">
+                <source>Food Inspections</source>
+                <target>Инспекция пищевых товаров</target>
+            </trans-unit>
+            <trans-unit id="nav-Supplier-Audit-Programs">
+                <source>Supplier Audit Programs</source>
+                <target>Программы аудита поставщиков</target>
+            </trans-unit>
+            <trans-unit id="nav-Manufacturing-Audits">
+                <source>Manufacturing Audits</source>
+                <target>Производственные аудиты</target>
+            </trans-unit>
+            <trans-unit id="nav-Ethical-Audits">
+                <source>Ethical Audits</source>
+                <target>Этические аудиты</target>
+            </trans-unit>
+            <trans-unit id="nav-Environmental-Audits">
+                <source>Environmental Audits</source>
+                <target>Экологические аудиты</target>
+            </trans-unit>
+            <trans-unit id="nav-Structural-Audits">
+                <source>Structural Audits</source>
+                <target>Структурные аудиты</target>
+            </trans-unit>
+            <trans-unit id="nav-Food-Audits">
+                <source>Food Audits (GMP and GHP)</source>
+                <target>Аудиты пищевых продуктов (GMP и GHP)</target>
+            </trans-unit>
+            <trans-unit id="nav-Lab-Testing-and-Certifications">
+                <source>Lab Testing and Certifications</source>
+                <target>Лабораторные тестирования и сертификации</target>
+            </trans-unit>
+            <trans-unit id="nav-See-Our-Labs">
+                <source>See Our Labs</source>
+                <target>Посмотрите наши лаборатории</target>
+            </trans-unit>
+            <trans-unit id="nav-Lab-Testing">
+                <source>Lab Testing</source>
+                <target>Лабораторные тестирования</target>
+            </trans-unit>
+            <trans-unit id="nav-Food-Testing">
+                <source>Food Testing</source>
+                <target>Тестирование пищевых продуктов</target>
+            </trans-unit>
+            <trans-unit id="nav-Quality-Assurance-for-Products">
+                <source>Quality Assurance for Products</source>
+                <target>Гарантия качества для товаров</target>
+            </trans-unit>
+            <trans-unit id="nav-Service-Details">
+                <source>Service Details</source>
+                <target>Подробности услуг</target>
+            </trans-unit>
+            <trans-unit id="nav-Pricing">
+                <source>Pricing</source>
+                <target>Расценки</target>
+            </trans-unit>
+            <trans-unit id="nav-Service-Coverage">
+                <source>Service Coverage</source>
+                <target>Зона охвата услугами</target>
+            </trans-unit>
+            <trans-unit id="nav-Reference-Samples">
+                <source>Reference Samples</source>
+                <target>Эталонные образцы</target>
+            </trans-unit>
+            <trans-unit id="nav-footwear-garments-etc">
+                <source>( Footwear, Garments and Apparel, Luggage and Bags, Soft Toys, Textiles and Fabrics )</source>
+                <target>(Обувь, одежда, багаж и сумки, мягкие игрушки, текстиль и ткани)</target>
+            </trans-unit>
+            <trans-unit id="nav-electrical-etc">
+                <source><![CDATA[( Electrical &amp; Lighting, Gifts &amp; Premiums, Home &amp; Gardenware, Industrial &amp; Construction, Toys &amp; Recreational )]]></source>
+                <target>(Электротовары и осветительные приборы, подарки и товары премиум-класса, товары для дома и сада, товары для промышленности и строительства, игрушки и товары для отдыха)</target>
+            </trans-unit>
+            <trans-unit id="nav-Seafood-Meat-etc">
+                <source><![CDATA[( Seafood, Meat &amp; Poultry, Fruits &amp; Vegetables, Canned &amp; Frozen Food, Baby Food, Food Packaging )]]></source>
+                <target>(морепродукты, мясо и птица, фрукты и овощи, консервы и замороженные продукты, детское питание, пищевая упаковка)</target>
+            </trans-unit>
+            <trans-unit id="nav-Company-Values">
+                <source>Company Values</source>
+                <target>Ценности компании</target>
+            </trans-unit>
+            <trans-unit id="nav-Accreditations">
+                <source>Accreditations</source>
+                <target>Аккредитации</target>
+            </trans-unit>
+            <trans-unit id="Log-In">
+                <source>Log In</source>
+                <target>Войти</target>
+            </trans-unit>
+            <trans-unit id="Our-Services">
+                <source>Our Services</source>
+                <target>Наши услуги</target>
+            </trans-unit>
+            <trans-unit id="Your-Industry">
+                <source>Your Industry</source>
+                <target>Ваша отрасль</target>
+            </trans-unit>
+            <trans-unit id="About-Us">
+                <source>About Us</source>
+                <target>О нас</target>
+            </trans-unit>
+            <trans-unit id="Careers">
+                <source>Careers</source>
+                <target>Вакансии</target>
+            </trans-unit>
+            <trans-unit id="Contact">
+                <source>Contact</source>
+                <target>Контактная информация</target>
+            </trans-unit>
+            <trans-unit id="Create-Your-Account">
+                <source>Create Your Account</source>
+                <target>Создайте свою учетную запись</target>
+            </trans-unit>
+
+         <!--company values page-->
+            <trans-unit id="2">
+                <source>aboutUs-values-title</source>
+                <target>Ценности нашей компании</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>aboutUs-values-subtitle</source>
+                <target>AsiaInspection поддерживает корпоративную культуру, основанную на следующих 8 принципах.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>aboutUs-values-v1-title</source>
+                <target>КЛИЕНТ НА ПЕРВОМ МЕСТЕ</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>aboutUs-values-v1-subtitle</source>
+                <target>Наша цель - добиться, чтобы наши клиенты были более успешны в своей области. Мы принимаем решения и действуем, в первую очередь думая о том, как добиться уважения и удовлетворенности наших клиентов. Мы внимательно прислушиваемся к их мнению.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>aboutUs-values-v2-title</source>
+                <target>ЧЕСТНОСТЬ</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>aboutUs-values-v2-subtitle</source>
+                <target>Мы продаем доверие. Мы не допускаем компромиссов в отношении честности и открытости и стремимся поддерживать высокие этические стандарты во всем, что делаем.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>aboutUs-values-v3-title</source>
+                <target>КОМПАНИЯ ДЛЯ ЛЮДЕЙ</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>aboutUs-values-v3-subtitle</source>
+                <target>Наше богатство - это наши люди. Мы ценим талант и стараемся привлечь и удержать лучших сотрудников. Мы стимулируем личностный рост каждого за счет обучения по принципу "равный равному" и поощряем чувство личной ответственности.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>aboutUs-values-v4-title</source>
+                <target>ПРОСТОТА</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>aboutUs-values-v4-subtitle</source>
+                <target>Мы стремимся облегчить жизнь клиентам, предлагая интуитивные и простые решения.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>aboutUs-values-v5-title</source>
+                <target>ТАЛАНТЛИВЫЕ НОВАТОРЫ</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>aboutUs-values-v5-subtitle</source>
+                <target>Изменения для нас - это норма. Фокусируясь на новых технологиях и бенчмаркинге, мы находим эффективные решения для поддержания наших высоких стандартов успеха.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>aboutUs-values-v6-title</source>
+                <target>БЕССТРАШИЕ</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>aboutUs-values-v6-subtitle</source>
+                <target>Мы измеряем наши успехи и практические результаты аналитически и не скрываем поражения. Мы встречаем проблемы прямо и быстро действуем, чтобы найти решение. Мы не оборачиваемся назад и не ищем отговорок, мы смотрим вперед и ищем решения.</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>aboutUs-values-v7-title</source>
+                <target>МНОГООБРАЗИЕ</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>aboutUs-values-v7-subtitle</source>
+                <target>Мы любим разнообразие наших культур и стремимся получить лучшее от каждой из них. Это наше богатство.</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>aboutUs-values-v8-title</source>
+                <target>СОЦИАЛЬНЫЕ ЦЕННОСТИ</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-values-v8-subtitle">
+                <source>aboutUs-values-v8-subtitle</source>
+                <target>Мы гордимся тем, что привносим доверие в глобальную торговлю, помогаем улучшить безопасность потребителей и условия работы, а также обучаем местных экспертов соответствовать глобальным стандартам.</target>
+            </trans-unit>
+
+          <!-- /accrediation page [start] -->
+            <trans-unit id="aboutUs-accred-title">
+                <source>aboutUs-accred-title</source>
+                <target>Аккредитации</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-subtitle">
+                <source>aboutUs-accred-subtitle</source>
+                <target>AsiaInspection имеет аккредитации от следующих регулирующих органов и в соответствии со следующими международными стандартами.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-link">
+                <source>aboutUs-accred-link</source>
+                <target>Посетите их веб-сайт</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-memberships">
+                <source>aboutUs-accred-memberships</source>
+                <target>Членства</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-iso-name">
+                <source>aboutUs-accred-iso-name</source>
+                <target>Сертификация ISO 9001:2008</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-iso-desc">
+                <source>aboutUs-accred-iso-desc</source>
+                <target>Протоколы AsiaInspection сертифицированы на соответствие со стандартом ISO 9001:2008 (No.04610Q11564R0M), международным стандартом лучших практик менеджмента качества. Эта сертификация означает строгое следование требованиям ISO и активную заинтересованность в удовлетворенности клиента. Стандартам ISO 9001:2008 следуют более миллиона организаций в 176 странах.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aqsiq-name">
+                <source>aboutUs-accred-aqsiq-name</source>
+                <target>Лицензия AQSIQ</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aqsiq-desc">
+                <source>aboutUs-accred-aqsiq-desc</source>
+                <target>AsiaInspection имеет лицензию AQSIQ (Лицензия No.134), обязательную для предоставления услуг по контролю качества в Китайской Народной Республике. Генеральное управление по надзору за качеством, инспекциям и карантинам (AQSIQ) - это орган, занимающийся безопасностью и качеством национального экспорта и импорта, а также сертификацией, аккредитацией и стандартизацией в Китайской Народной Республике.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cnas-name">
+                <source>aboutUs-accred-cnas-name</source>
+                <target>Аккредитация CNAS (ISO17020 и ISO17025)</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cnas-desc">
+                <source>aboutUs-accred-cnas-desc</source>
+                <target><![CDATA[
+                    AsiaInspection имеет аккредитацию CNAS для проведения инспекции и лабораторных тестирований в Китае (аккредитационные сертификаты: ANSECO Group Гонконг (№ CNAS L7805), Центральная служба охраны окружающей среды Веньчжоу (№ CNAS IB0199), Инспекция качества продукции Yajian, Шеньчжень (№ CNAS L3438). Эта аккредитация подтверждает, что лаборатории AI удовлетворяют стандартам CNAS и нормам общенационального сертификационного органа CNCA (Администрация по сертификации и аккредитации Китайской Народной Республики). 
+                    <br /><br />
+                    AsiaInspection придерживается Заявления о независимости, беспристрастности и честности CNAS, полной текст которого можно найти <a href="http://www.wipo.int/amc/en/domains/statement/panel.html" target="_blank">здесь</a>.
+                    ]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cma-name">
+                <source>aboutUs-accred-cma-name</source>
+                <target>CMA - Китайская метрологическая аккредитация</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cma-desc">
+                <source>aboutUs-accred-cma-desc</source>
+                <target>AsiaInspection имеет обязательную аккредитацию CMA (№ 2012111018U) для проведения лабораторных тестирований на территории Китая. Эта аккредитация позволяет AsiaInspection выдавать отчеты по тестам и сертификаты с отметкой CMA в подтверждение того, что протестированная продукция соответствует обязательным стандартам качества и безопасности. Наши отчеты принимаются в Китае в качестве официальных документов.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ifia-name">
+                <source>aboutUs-accred-ifia-name</source>
+                <target>IFIA | Международная Федерация инспекционных агентств</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ifia-desc">
+                <source>aboutUs-accred-ifia-desc</source>
+                <target><![CDATA[IFIA - это некоммерческая торговая федерация, представляющая более 40 крупнейших международных компаний, занимающихся тестированием, инспекциями и сертификацией. IFIA стремится улучшить методы, стандарты и процедуры безопасности, используемые ее членами, для выгоды каждого из членов и их акционеров.<br /><br /> Все кандидаты на вступление в IFIA должны соблюдать Кодекс соответствия IFIA, и все члены федерации ежегодно проходят независимый аудит, чтобы подтвердить свое соответствие.<br /><br /> Задавайте вопросы о нашем Кодексе соответствия, присылайте запросы, жалобы и отзывы на: <a href="mailto:compliance@asiaInspection.com">compliance@asiaInspection.com</a>. ]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-anab-name">
+                <source>aboutUs-accred-anab-name</source>
+                <target>ANAB</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-anab-desc">
+                <source>aboutUs-accred-anab-desc</source>
+                <target><![CDATA[
+                    Лаборатории AsiaInspection имеют аккредитацию Национального совета по аккредитации ANSI-ASQ (ANAB) на то, чтобы выпускать отчеты тестов, подтвержденные ANAB (сертификаты: аккредитации ANSECO Group (№ AT-1407) и ANSECO Group Гонконг (№ AT-1500)). Эта аккредитация подтверждает, что обе лаборатории отвечают требованиям международного стандарта ISO/IEC 17025:2005, демонстрируя техническую компетентность в области тестирования.
+                    <br /><br />
+                    ANAB (ранее ACLASS) - это некоммерческая организация, предоставляющая аккредитацию лабораториям по тестированию и калибровке, инспекционным и сертификационным органам, производителям эталонного материала и органам по проверке квалификации. С помощью своих аккредитаций ANAB стремится покончить с излишними аудитами и тестами, облегчить международную торговлю, одновременно гарантируя безопасность товаров, услуг и защиту окружающей среды.
+                    ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cpsc-name">
+                <source>aboutUs-accred-cpsc-name</source>
+                <target>CPSC (CPSIA)</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cpsc-desc">
+                <source>aboutUs-accred-cpsc-desc</source>
+                <target><![CDATA[
+                    AsiaInspection имеет разрешение CPSC на проведение независимых тестирований в соответствии с требованиями Закона о повышении безопасности потребительских товаров (аккредитационные сертификаты: ANSECO Group (лабораторный код 1199), ANSECO Group Гонконг (лабораторный код 1322), ANSECO Буффало (лабораторный код 1199), и AsiaInspection Testing Technology Ханчжоу (лабораторный код 1195). 
+                    <br /><br />
+                    Основанный около 40 лет назад, CPSC (Комитет по безопасности потребительских товаров США) регулирует производство и продажу более 1 500 потребительских товаров. Его задача состоит в том, чтобы защитить потребителей от товаров, представляющих пожарную, электрическую, химическую или механическую опасность путем установления требований безопасности, поиска потенциальных факторов риска, а также путем запрета и отзыва опасной продукции.
+                    ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-hoklas-name">
+                <source>aboutUs-accred-hoklas-name</source>
+                <target>HOKLAS</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-hoklas-desc">
+                <source>aboutUs-accred-hoklas-desc</source>
+                <target><![CDATA[
+                    AsiaInspection была аккредитована Службой аккредитации Гонконга (HKAS) согласно Системе лабораторных аккредитаций Гонконга (HOKLAS). Получение аккредитации HKAS - это независимое формальное доказательство нашей компетентности в областях, входящих в сферу аккредитации HKAS. Все организации по оценке соответствия, аккредитованные HKAS, должны принимать эффективные меры по обеспечению качества в аккредитованных сферах деятельности.
+                    <br /><br />
+                    Служба аккредитации Гонконга, действующая с 1985 года, предоставляет аккредитации для лабораторий, сертификационных и инспектирующих органов на территории Гонконга. Ее цель - повышение стандартов работы органов по оценке соответствия и эффективности оценки соответствия с помощью взаимного признания и одобрения.
+                ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-rjc-name">
+                <source>aboutUs-accred-rjc-name</source>
+                <target>RJC</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-rjc-desc">
+                <source>aboutUs-accred-rjc-desc</source>
+                <target><![CDATA[
+                    AsiaInspection имеет аккредитацию Совета по ответственной практике в ювелирном бизнесе (RJC), что гарантирует соответствие Кодексу практик RJC и Протоколу ответственного происхождения. Аккредитация RJC подтверждает, что AsiaInspection является независимым аудитором с опытом и квалификацией, необходимыми для проведения этических аудитов производства, оптовой и розничной торговли ювелирными изделиями. 
+                    <br /><br />
+                    Совет по ответственной практике в ювелирном бизнесе - это некоммерческая организация по стандартизации и сертификации, которая объединяет более 800 компаний, участвующих в цепочке поставок ювелирных изделий. Свод практических правил RJC - это международный стандарт ответственной деловой практики в цепочке поставок ювелирного бизнеса, в том числе что касается прав человека, трудового права, воздействия на окружающую среду и других ключевых вопросов.
+                ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ics-name">
+                <source>aboutUs-accred-ics-name</source>
+                <target>ICS (Социальная инициатива)</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ics-desc">
+                <source>aboutUs-accred-ics-desc</source>
+                <target><![CDATA[
+                    AsiaInspection - один из партнеров-аудиторов ICS (Initiative Clause Sociale - Социальная инициатива), имеющих аккредитацию на проведение этических аудитов, гарантирующих соответствие поставщика Кодексу ICS.
+                    <br /><br />
+                    ICS - это основанная в 1998 году группа из 20 предприятий розничной торговли, работающих вместе над улучшением рабочих условий в соответствии с принципами прав человека и местными социальными нормами. Кодекс ICS охватывает ключевые вопросы социальной деятельности поставщиков и производственной этики.
+                    ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-saso-name">
+                <source>aboutUs-accred-saso-name</source>
+                <target>SASO CoC</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-saso-desc">
+                <source>aboutUs-accred-saso-desc</source>
+                <target><![CDATA[
+                    AsiaInspection была аккредитована Министерством торговли и промышленности Саудовской Аравии (сертификат № 0051) в качестве сертификационного органа, который имеет право выдавать сертификаты соответствия SASO (SASO CoC) на разные категории товаров из Азии и Австралии. Сертификаты CoC являются обязательными для прохождения таможни Саудовской Аравии.
+                    <br /><br />
+                    Организация стандартов, качества и метрологии Саудовской Аравии (SASO), учрежденная в 1972 году, определяет стандарты для товаров и услуг на территории Королевства Саудовская Аравия, а также обеспечивает их применение.
+                ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-sedex-name">
+                <source>aboutUs-accred-sedex-name</source>
+                <target>Associate Auditor Group - Sedex</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-sedex-desc">
+                <source>aboutUs-accred-sedex-desc</source>
+                <target>AsiaInspection является членом ассоциированной аудиторской группы Sedex (AAG), некоммерческой организации, состоящей из коммерческих аудиторских компаний и неправительственных организаций, прилагающих усилия к этическим улучшениям в глобальной цепочке поставок.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-icphso-title">
+                <source>aboutUs-accred-icphso-title</source>
+                <target>ICPHSO</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-icphso-desc">
+                <source>aboutUs-accred-icphso-desc</source>
+                <target>Организация ICPHSO была основана в 1993 году как международный форум для профессионалов в области здравоохранения и безопасности. Ее ежегодные симпозиумы и региональные семинары упрощают международный диалог по вопросам продовольственной безопасности и предоставляют место для обмена опытом производителям, предприятиям розничной торговли, общественным организациям и другим заинтересованным сторонам.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ppai-title">
+                <source>aboutUs-accred-ppai-title</source>
+                <target>Международная ассоциация презентационной продукции</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ppai-desc">
+                <source>aboutUs-accred-ppai-desc</source>
+                <target>AsiaInspection является членом Международной ассоциации презентационной продукции (PPAI), старейшей и крупнейшей международной некоммерческой ассоциации презентационной продукции, которая объединяет более 13000 компаний. PPAI содействует росту и инновациям в области презентационной продукции, проводит программу по обеспечению безопасности и соответствия для рекламных товаров и организует крупнейшую в своей отрасли ежегодную выставку PPAI Expo.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-astra-title">
+                <source>aboutUs-accred-astra-title</source>
+                <target>ASTRA</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-astra-desc">
+                <source>aboutUs-accred-astra-desc</source>
+                <target>AsiaInspection является членом Американской ассоциации розничной торговли игрушками (ASTRA), крупнейшей ассоциации в отрасли, насчитывающей более 1 700 членов. ASTRA видит свою миссию в том, чтобы "показать путь с помощью игры", и стремится дать детям безопасные высококачественные игрушки, поддерживая своих членов и содействуя сотрудничеству в области производства игрушек.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-tia-title">
+                <source>aboutUs-accred-tia-title</source>
+                <target>Ассоциация производителей игрушек</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-tia-desc">
+                <source>aboutUs-accred-tia-desc</source>
+                <target>AsiaInspection является членом-корреспондентом Ассоциации производителей игрушек, некоммерческой торговой ассоциации, представляющей любой бизнес, производящий игрушки и юношеские товары для досуга. Более 35 лет назад TIA помогла разработать первый всеобъемлющий стандарт для игрушек и остается представителем отрасли по юридическим и торговым вопросам, делая акцент на безопасности и филантропии.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aafa-title">
+                <source>aboutUs-accred-aafa-title</source>
+                <target>Американская ассоциация одежды и обуви</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aafa-desc">
+                <source>aboutUs-accred-aafa-desc</source>
+                <target>AsiaInspection входит в Американскую ассоциацию одежды и обуви (AAFA), представляющую более 1000 всемирно известных брендов и являющуюся голосом одежной и обувной промышленности США. AAFA дает своим членам нужную информацию для принятия правильных решений, чтобы повысить прибыльность и уменьшить риски.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-gscc-title">
+                <source>aboutUs-accred-gscc-title</source>
+                <target>Совет по глобальному управлению цепочками поставок</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-gscc-desc">
+                <source>aboutUs-accred-gscc-desc</source>
+                <target>AsiaInspection - член Совета по глобальному управлению цепочками поставок, возможно самого влиятельного поставщика информации и технологий в области цепочек поставок B2B в Азии. Медиа-группа Chain Media сочетает отраслевой опыт с глобальным охватом и предоставляет отчеты высокого качества, обращаясь к ключевым фигурам индустрии во всем мире.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ciqa-title">
+                <source>aboutUs-accred-ciqa-title</source>
+                <target>Инспекция ввоза и вывоза и Карантинная ассоциация Китая</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ciqa-desc">
+                <source>aboutUs-accred-ciqa-desc</source>
+                <target>AsiaInspection официально представляет Инспекцию ввоза и вывоза и Ассоциацию по карантину Китая (CIQA), административный орган Главного управления инспекции надзора за качеством и карантина (AQSIQ) Китая CIQA занимается в первую очередь повышением качества и безопасности импортируемых и экспортируемых товаров.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-apsca-title">
+                <source>aboutUs-accred-apsca-title</source>
+                <target>Ассоциация профессиональных аудиторов по вопросам социального соответствия (APSCA)</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-apsca-desc">
+                <source>aboutUs-accred-apsca-desc</source>
+                <target>AsiaInspection - член Ассоциации профессиональных аудиторов по вопросам социального соответствия (APSCA), инициативы практикующих специалистов для продвижения использования независимых социальных аудитов с целью улучшения рабочих условий по всему миру. Миссия APSCA - повышать профессионализм, взаимодействие и убедительность индивидуальных аудиторов и организаций, занимающихся независимым социальным аудитом.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fcchk-title">
+                <source>aboutUs-accred-fcchk-title</source>
+                <target>French Chamber of Commerce Hong Kong</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fcchk-desc">
+                <source>aboutUs-accred-fcchk-desc</source>
+                <target>The French Chamber is the largest European Chamber in Hong Kong. With more than 900 members of various nationalities, our mission is to contribute to developing and fostering business relations between France and Hong Kong. The Chamber offers 15 business-oriented committees and organizes over 70 events per year.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fccchina-title">
+                <source>aboutUs-accred-fccchina-title</source>
+                <target>French Chamber of Commerce China</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fccchina-desc">
+                <source>aboutUs-accred-fccchina-desc</source>
+                <target>The French Chamber of Commerce represents a network of more than 1,511 member organizations doing business in China. The Chamber’s main mission is to help companies succeed in China through information, networking and business support services. The French Chamber is a non-profit organization, governed by a steering committee of 30 members.</target>
+            </trans-unit>
+          <!-- /accrediation page [start] -->
+
+          <!--/testimonials-->
+            <trans-unit id="46">
+                <source>aboutUs-test-title</source>
+                <target>Отзывы</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>aboutUs-test-subtitle</source>
+                <target><![CDATA["In support of its high standards for social responsibility and conduct, the Boy Scouts of America uses AsiaInspection to conduct social compliance audits to ensure that our supplier network abides by the highest health, social and safety standards."<hr align="left" style="color:white; width:80%; border-width:2px;">Global Sourcing<br />Boy Scouts of America]]></target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>aboutUs-test-test1-quote</source>
+                <target>"Designs for Hope is a non-profit whose goal is to provide sustainable electricity, clean water and technology to the world’s poorest with a unique challenge: to provide an extremely long-lasting low cost product while only working with manufacturers who pay their employees a fair wage and provide safe working conditions. With their onsite audits, AsiaInspection ensures we only work with suppliers who provide a safe working environment and who meet the highest social standards."</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>aboutUs-test-test1-who</source>
+                <target><![CDATA[Executive Director<br><b>Designs for Hope</b><br/><a href="http://www.designsforhope.org/" target="_blank">www.designsforhope.org</a><br>]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-test-abbyshot-quote">
+                <source>aboutUs-test-abbyshot-quote</source>
+                <target>"Four years ago, we started working with the AsiaInspection team and we quickly learned that they always go above and beyond for their clients.They became our dedicated boots on the ground extension team, for our quality control and offered us flexibility and versatility in customizing our inspection needs. We have a global reputation for making the best screen-accurate clothing - a reputation earned by near-obsessive attention to the details of garment accuracy, quality, and durability. Thank you to the AsiaInspection team who empower us to surpass these expectations with each and every inspection!"</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-test-abbyshot-who">
+                <source>aboutUs-test-abbyshot-who</source>
+                <target><![CDATA[Risk Manager<br /><b>AbbyShot Clothiers</b><br /><a href="http://www.abbyshot.com" target="_blank">www.abbyshot.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>aboutUs-test-test2-quote</source>
+                <target>"We have been extremely pleased with the quality of service received from AsiaInspection. Timely and detailed reports leave nothing to question; the user-friendly online platform is efficient and uncomplicated, making it easy to book and manage our quality control process online. Our dedicated account manager provides unparalleled service and is a true supply chain partner. We look forward to continue working with AsiaInspection!"</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>aboutUs-test-test2-who</source>
+                <target><![CDATA[President/CEO<br><b>AVID Products</b><br/><a href="http://www.avidproducts.com" target="_blank">www.avidproducts.com</a><br>]]></target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>aboutUs-test-test3-quote</source>
+                <target>"If you need a service that is second to none, AsiaInspection can help your company move forward quickly. Making a booking with AsiaInspection could not be easier using their online booking service. The reports I receive are very detailed and help me to make sure that I never get shipped any partial shipments or sub-standard products. In business little things make a big difference and AsiaInspection fully understand our needs."</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>aboutUs-test-test3-who</source>
+                <target><![CDATA[Head Buyer<br /><b>Garden Buildings Direct</b><br /><i>The UK's #1 Garden Buildings Retailer</i><br /><a href="http://www.gardenbuildingsdirect.co.uk" target="_blank">www.gardenbuildingsdirect.co.uk</a><br />]]></target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>aboutUs-test-test4-quote</source>
+                <target>"AsiaInspection has truly been our eyes in the factory. Full integration into our business has meant that any inspection performed follows our exact specifications and guidelines. This has allowed us to improve our product quality and safeguard our quality control process. In addition, the online booking and same day reporting provide us with greater flexibility to manage quality control throughout production and shipment."</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>aboutUs-test-test4-who</source>
+                <target><![CDATA[Account Manager<br><b>Urban Leisure</b><br/>Hard Good Leisure Specialists<br><a href="http://www.macvad.com/urban-leisure.html" target="_blank">www.macvad.com</a><br>]]></target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>aboutUs-test-test5-quote</source>
+                <target>"Just the mention of AsiaInspection got me instant results. When I told my factory representative in China that I was sending in a team from AsiaInspection,the agent hesitated and then reluctantly admitted that there was no factory, despite pictures of a busy factory on their website. Lesson learned, I never start production without sending AsiaInspection in first. As a result, I now have a good relationship with an inspired representative and a trusted new factory. My sincere thanks for the peace of mind and security you give me. I truly feel you protect me and my business interests."</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>aboutUs-test-test5-who</source>
+                <target><![CDATA[Director<br><b>Audio Traveler</b><br><i>Leading Producers of City Audio Guides</i><br/><a href="http://www.audiotraveler.com" target="_blank">www.audiotraveler.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>aboutUs-test-test6-quote</source>
+                <target>"Thank you for helping us with our factory, social compliance and C-TPAT audits and getting the reports to us so quickly.  I really enjoy working with AsiaInspection. Your service is top notch!"</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>aboutUs-test-test6-who</source>
+                <target><![CDATA[Quality Manager<br><b>Bob Barker Company</b><br><i>Leading supplier of apparel & home textiles</i><br/><a href="http://www.bobbarker.com" target="_blank">www.bobbarker.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>aboutUs-test-test7-quote</source>
+                <target>"As a Quality Manager, I recognize the necessity of timely and accurate inspection reports. When it comes to AsiaInspection, the professionalism of their staff, the promptness of communication and the rich detail included in every report are exactly what I need to stay on top of every aspect of my production.  Without hesitation I have and will continue to recommend your services to my peers and colleagues."</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>aboutUs-test-test7-who</source>
+                <target><![CDATA[Quality Manager<br><b>Unger Enterprises Inc.</b><br><i>Quality Tools for Smart Cleaning</i><br/><a href="http://www.ungerglobal.com" target="_blank">www.ungerglobal.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>aboutUs-test-test8-quote</source>
+                <target>"I have worked with several inspection and auditing agencies over the past 20 years and I have never experienced one that is more professional and efficient than AsiaInspection! Not only are their inspectors qualified and professional, their management team is always available to help you with any concerns or with any assistance you may need. They complete the inspections and audits on time and results are available very quickly! Their reports are clear with very good visual aids. When they say "Your Eyes in the Factory", they really mean it. I highly recommend AsiaInspection."</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>aboutUs-test-test8-who</source>
+                <target><![CDATA[Director<br><b>Fox Run Brands</b><br><i>Leading supplier of kitchen products</i><br/><a href="http://www.foxrunbrands.com" target="_blank">www.foxrunbrands.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>aboutUs-test-test9-quote</source>
+                <target><![CDATA[
+                    "I would like to take this opportunity to thank AsiaInspection for the exceptional service I have received since we first began to work together.(...)
+                    There is no way on earth that I could possibly look after our company's quality control needs the way in which your company can.(...)
+                    The reports are very professional and we now send them to our customers to show them their actual product being inspected. I would recommend AsiaInspection to any company producing product overseas.
+                    Thank you and every one at AsiaInspection for helping me sleep through the night again without worrying about quality control issues in China.<br>
+                    Best regards,"]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>aboutUs-test-test9-who</source>
+                <target><![CDATA[Senior Vice President<br><b>HeadzGamez</b><br><i>North America Sport Board Games company</i><br/><a href="http://griddlygames.strikingly.com" target="_blank">griddlygames.strikingly.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>aboutUs-test-test10-quote</source>
+                <target><![CDATA[
+                    "Dear AsiaInspection team,<br>
+                    Many thanks for your two recent detailed report concerning inspection at XXXXXXX factory. This is very helpful to make decision. I just wanted to let you know that as we have many quality and delivery issues with this manufacturer, will certainly discontinue commercial relationship with this factory very soon, and transfer production to XXXXXXX factory at Chaozhou where relationship and quality is constantly improving. Thanks a lot for your support and accurate analysis every time.<br>
+                    Warm regards."]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>aboutUs-test-test10-who</source>
+                <target><![CDATA[Buyer<br><b>Allibert</b><br/><i>European leader in Homeware products</i><br/><a href="http://www.allibert.fr" target="_blank">www.allibert.fr</a>]]></target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>aboutUs-test-test11-quote</source>
+                <target>"Part of our activity involves purchasing promotional products in Asia. We are very conscious of the risks but cannot perform the assessments ourselves: we need a partner we can trust. We use AsiaInspection to control our production and we're very satisfied so far. They have proved very efficient and the quality of their interactive reports is amazing. Their service allows us to prevent problems before they occur and to inform our customers in time. They are really making our business with Asia safer!"</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>aboutUs-test-test11-who</source>
+                <target><![CDATA[Sales Director<br><b>Fotorama UK Ltd</b><br><i>UK Promotion Agency</i><br/><a href="http://www.fotorama.co.uk" target="_blank">www.fotorama.co.uk</a>]]></target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>aboutUs-test-test12-quote</source>
+                <target>"Five years ago we completely outsourced our quality inspection in Asia to AsiaInspection. Together, we have designed a tailor-made inspection program, specific to our lamps &amp; lighting equipment. AsiaInspection has dedicated a specialized and well-trained team to inspect our products and audit our factories. It is almost as if they were part of our company, except they gather the information for us and let us make informed decisions?AsiaInspection is definitely the partner we were looking for to enhance our business in Asia."</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>aboutUs-test-test12-who</source>
+                <target><![CDATA[Purchasing Manager<br><b>COREP</b><br><i>Leading French importer of lamps &amp; lighting equipment</i><br/><a href="http://www.corep.com" target="_blank">www.corep.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>aboutUs-test-test13-quote</source>
+                <target>"AsiaInspection has been amazing for Bamko thus far.  The quality of their report and the overall customer service we have received from our account manager has been incredible."</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>aboutUs-test-test13-who</source>
+                <target><![CDATA[President<br><b>Bamko Promotional Items</b><br><i>U.S. Promotional merchandise importer</i><br/><a href="http://www.bamko.net" target="_blank">www.bamko.net</a>]]></target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Contact a local office</source>
+                <target>Связаться с местным офисом</target>
+            </trans-unit>
+            <!-- Homepage - START -->
+            <trans-unit id="75">
+                <source>homepage_video_header</source>
+                <target>Мы привносим доверие и этические нормы в глобальную торговлю</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>homepage_video_subheading</source>
+                <target>AI осуществляет аудит поставщиков на местах, инспекцию продукции и лабораторные тесты для глобальных брендов, предприятий розничной торговли и импортеров для обеспечения безопасности и управления цепочкой поставок.</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>homepage_video_get_started_button</source>
+                <target>Начать</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>homepage_video_create_free_account</source>
+                <target>Создайте бесплатную учетную запись и попробуйте наши услуги</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>homepage_mobile_management_title</source>
+                <target>Управление с мобильного телефона и онлайн</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>homepage_mobile_management_text</source>
+                <target><![CDATA[Управляйте соответствием своей продукции и поставщиков через учетную запись онлайн. Используйте приложение AI, когда вы в поездке!]]></target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>homepage_leading_turnaround_title</source>
+                <target>Быстрота и гибкость</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>homepage_leading_turnaround_text</source>
+                <target>Прибытие на место в течение 48 часов. Отчеты в тот же день. Отмена до 16:00 накануне.</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>homepage_chain_intelligence_title</source>
+                <target>Данные о цепочке поставок</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>homepage_chain_intelligence_text</source>
+                <target>С помощью приборной панели, работающей в реальном времени, находите и сравнивайте ваших лучших поставщиков с эталонными данными.</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>homepage_product_expertise_title</source>
+                <target>Экспертиза продукции</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>homepage_product_expertise_text</source>
+                <target>Более 1000 готовых персонализируемых контрольных списков для различных видов продукции.</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>homepage_watch_a_demo</source>
+                <target>Смотреть демо-ролик</target>
+            </trans-unit>
+            <trans-unit id="watchademo">
+                <source>Watch a Demo</source>
+                <target>Смотреть демо-ролик
+                </target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>homepage_services_1</source>
+                <target>В распоряжении AsiaInspection более %total_Inspectors% инспекторов, аудиторов и лабораторных экспертов, которые являются специалистами в своей отрасли. Это позволяет вам убедиться в соответствии вашей продукции и поставщиков нормам безопасности и производительности, действующим на вашем целевом рынке.</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>homepage_services_2</source>
+                <target>Получите онлайн доступ к сотням готовых персонализируемых контрольных списков и квалифицированные советы касательно требований к безопасности вашей продукции и аудиторских программ для поставщиков, чтобы убедиться на местах в их соответствии нормам.</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>homepage_assurance_title</source>
+                <target>Ваша цепочка поставок в надежных руках</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>homepage_assurance_global</source>
+                <target><![CDATA[Нам доверяют глобальные торговые сети, бренды и импортеры из <span class="sliderTextHighlight">%total_Client_Countries% </span> стран.]]></target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>homepage_assurance_staff</source>
+                <target><![CDATA[%total_Offices% 20 офисов по всему миру. %total_Staff% сотрудников, работающих в <span class="sliderTextHighlight">%total_Operating_Countries% странах</span>.]]></target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>homepage_assurance_factories</source>
+                <target><![CDATA[AI проводит аудит заводов, на которых ежегодно работает <span class="sliderTextHighlight">1,6 миллиона</span> человек.]]></target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>homepage_assurance_defects</source>
+                <target><![CDATA[<span class="sliderTextHighlight">2,012,564 дефектов</span> обнаружено и отражено в отчетах во время инспекций в 2016 году.]]></target>
+            </trans-unit>
+            <trans-unit id="Latest-Publications">
+                <source>Latest Publications</source>
+                <target>Последние публикации</target>
+            </trans-unit>
+            <trans-unit id="SimplePricing">
+                <source>Simple, All-Inclusive Pricing</source>
+                <target>Понятное ценообразование по принципу "все включено"</target>
+            </trans-unit>
+            <trans-unit id="Book-Now">
+                <source>Book Now</source>
+                <target>Заказать сейчас</target>
+            </trans-unit>
+            <trans-unit id="home-assembly">
+                <source><![CDATA[Assemblies &amp; Molds]]></source>
+                <target>Сборные детали и формы,</target>
+            </trans-unit>
+            <trans-unit id="home-auto-parts">
+                <source>Automotive Parts</source>
+                <target>автомобильные запчасти,</target>
+            </trans-unit>
+            <trans-unit id="home-Machinery">
+                <source>Machinery</source>
+                <target>машинное оборудование</target>
+            </trans-unit>
+            <trans-unit id="home-Precision-Tooling">
+                <source>Precision Tooling</source>
+                <target>прецизионные инструменты</target>
+            </trans-unit>
+            <trans-unit id="softlines">
+                <source>Softlines</source>
+                <target>Текстильные товары</target>
+            </trans-unit>
+            <trans-unit id="hardlines">
+                <source>Hardlines</source>
+                <target>Товары для быта</target>
+            </trans-unit>
+            <trans-unit id="technical-parts">
+                <source>Technical Parts</source>
+                <target>Технические детали</target>
+            </trans-unit>
+           <trans-unit id="food">
+                <source>Food</source>
+                <target>Продовольственные товары</target>
+            </trans-unit>
+            <trans-unit id="inspection_services">
+                <source>Inspection Services</source>
+                <target>Инспекционные услуги</target>
+            </trans-unit>
+            <trans-unit id="news-and-content">
+                <source>News &amp; Content</source>
+                <target>News &amp; Content</target>
+            </trans-unit>
+           <trans-unit id="latest-news">
+                <source>Latest News</source>
+                <target>Latest News</target>
+            </trans-unit>
+            <trans-unit id="from">
+                <source>from</source>
+                <target>от</target>
+            </trans-unit>
+            <!-- Homepage - END -->
+            <trans-unit id="108">
+                <source>news_meta_title</source>
+                <target>Supply Chain Quality Control – Industry News | AsiaInspection</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>news_meta_desc</source>
+                <target>Новости AsiaInspection - это свежая информация о контроле качества в цепочке поставок. Читайте новости индустрии, квартальные отчеты и многое другое от лидеров в области контроля качества.</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>news_meta_keys</source>
+                <target>новости индустрии контроля качества, новости контроля качества</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>news_header_title</source>
+                <target>Контроль качества цепочки поставок - Новости индустрии</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>news_header_subtitle</source>
+                <target>AsiaInspection (AI) - лидер рынка в области оказания услуг по глобальному контролю качества и соответствия нормам. Мы сотрудничаем с брендами, предприятиями розничной торговли и импортерами по всему миру, чтобы обезопасить и оптимизировать управление их цепочками поставок. Здесь вы найдете новости индустрии, квартальные отчеты и сводки последних новостей, касающихся контроля качества.</target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.title">
+                <source>Inspections.Benefits.title</source>
+                <target>Преимущества AI</target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.whyUsTitle">
+                <source>Inspections.Benefits.whyUsTitle</source>
+                <target>Почему стоит предпочесть AsiaInspection</target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.whyUsList">
+                <source>Inspections.Benefits.whyUsList</source>
+                <target><![CDATA[
+                    <li>Цена по принципу "все включено"</li>
+                    <li>Прибытие инспектора на место в течение 48 часов<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup></li>
+                    <li>Аудиторские отчеты в тот же день<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup></li>
+                    <li>Простое онлайн-планирование услуг</li>
+                ]]></target>
+            </trans-unit>
+            <trans-unit id="Audits.Benefits.whyUsList">
+                <source>Audits.Benefits.whyUsList</source>
+                <target><![CDATA[
+                    <li>Цены по принципу "все включено" (никакой дополнительной платы за расходы аудитора)</li>
+                    <li>Подробные отчеты и предоставление информации о ключевых показателях эффективности</li>
+                    <li>Прибытие аудитора на место в течение 48 часов <sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup></li>
+                    <li>Простое планирование услуг онлайн: заказывайте аудиты и проверяйте отчеты онлайн с помощью вашей удобной учетной записи или через мобильное приложение</li>
+                ]]></target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.hoverOne">
+                <source>Inspections.Benefits.hoverOne</source>
+                <target><![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]></target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.hoverTwo">
+                <source>Inspections.Benefits.hoverTwo</source>
+                <target>80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.</target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.whyUse.reason">
+                <source>Inspections.Benefits.whyUse.reason</source>
+                <target><![CDATA[
+            <p style="padding-bottom:5px;"><b>Мы будем вашими глазами в цепочке поставок!&reg;</b> - Мы являемся независимой, сертифицированной и лицензированной компанией по контролю за качеством. Мы работаем вместе с вами, чтобы защитить интересы вашего бизнеса на уровне цепочки поставок.</p>
+            <p style="padding-bottom:5px;"><b>Управляйте процессом контроля качества онлайн</b> - Создавайте бесплатную учетную запись, планируйте инспекцию онлайн, оплачивайте и получайте подробный отчет об инспекции в электронном виде.</p>
+            <p style="padding-bottom:5px;"><b>Безопасность</b> - AsiaInspection применяет строжайшие международные стандарты для обеспечения безопасности продукции и соответствия нормативным требованиям.</p>
+            <p style="padding-bottom:5px;"><b>Быстрота и гибкость</b> - Мы гарантируем прибытие на любой завод в Азии в течение 48 часов.<sup class="hoverText" cargo="txtFastReport"><a href="javascript://">[2]</a></sup> Клиенты могут изменить или отменить заказ до 16:00 (Китайское время) накануне запланированной инспекции.</p>
+            <p style="padding-bottom:5px;"><b>Всеобъемлющие отчеты по инспекции</b> - 80 % наших отчетов доставляются в день проведения инспекции. Каждый отчет содержит подробные иллюстрации; вы видите то, что видит инспектор.</p>
+                ]]></target>
+            </trans-unit>
+            <trans-unit id="Audits.Benefits.whyUse.reason">
+                <source>Audits.Benefits.whyUse.reason</source>
+                <target><![CDATA[
+                    <p style="padding-bottom:5px;"><b>Мы будем вашими глазами в цепочке поставок!&reg;</b> - Мы являемся независимой, сертифицированной и лицензированной аудиторской компанией. Мы работаем вместе с вами, чтобы защитить интересы вашего бизнеса на уровне цепочки поставок.</p>
+                    <p style="padding-bottom:5px;"><b>Управляйте процессом контроля качества онлайн</b> - Создавайте бесплатную учетную запись, планируйте аудиты онлайн, оплачивайте и получайте подробный отчет об аудитах в электронном виде.</p>
+                    <p style="padding-bottom:5px;"><b>Высокая техническая квалификация</b> - Чтобы предоставить вам аудит высочайшего качества, каждый аудитор специализируется на отдельном виде аудитов и проходит обязательное углубленное обучение, а также подвергается внутренним аудитам.</p>
+                    <p style="padding-bottom:5px;"><b>Всеобъемлющие аудиторские программы</b> - AI может создать для вас глобальную аудиторскую программу, чтобы проверить каждого нового поставщика, которого вы хотите завербовать. Каждый отчет содержит копии отчетных материалов завода, собеседования с руководством и изображения, гарантируя полную характеристику на вашего поставщика. Вы получаете информацию о ключевых показателях эффективности и отчеты, чтобы создать на поставщика подробное досье.</p>
+                ]]></target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.whyUse.hoverOne">
+                <source>Inspections.Benefits.whyUse.hoverOne</source>
+                <target><![CDATA[80% of all inspection reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.]]></target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.Title">
+                <source>Benefits.LabTests.Title</source>
+                <target>Почему вам следует предпочесть лаборатории AI?</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.One">
+                <source>Benefits.LabTests.WhyList.One</source>
+                <target>Глобальный охват услугами (%total_Operating_Countries% стран)</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Two">
+                <source>Benefits.LabTests.WhyList.Two</source>
+                <target>Самая высокая скорость работы в отрасли (меньше 48 часов для 80 % тестов)</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Three">
+                <source>Benefits.LabTests.WhyList.Three</source>
+                <target>Огромное количество тестов (более 6000)</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Four">
+                <source>Benefits.LabTests.WhyList.Four</source>
+                <target>Выбор тестов и заказ онлайн</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Five">
+                <source>Benefits.LabTests.WhyList.Five</source>
+                <target>Панель управления в реальном времени и мобильный доступ</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Six">
+                <source>Benefits.LabTests.WhyList.Six</source>
+                <target>Выделенный для вас персональный менеджер</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Seven">
+                <source>Benefits.LabTests.WhyList.Seven</source>
+                <target>Техническое руководство и доступ к последним нормативным обновлениям</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.LearnMore">
+                <source>Benefits.LabTests.LearnMore</source>
+                <target>Узнайте подробнее о том, как мы можем помочь вам обеспечить безопасность продукции в вашей отрасли:</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.ChildrenProducts">
+                <source>Benefits.LabTests.CatLink.ChildrenProducts</source>
+                <target>Товары для детей</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Promotional">
+                <source>Benefits.LabTests.CatLink.Promotional</source>
+                <target>Рекламные товары</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Food">
+                <source>Benefits.LabTests.CatLink.Food</source>
+                <target>Предметы, контактирующие с пищей</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Hardlines">
+                <source>Benefits.LabTests.CatLink.Hardlines</source>
+                <target>Товары для быта</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Textiles">
+                <source>Benefits.LabTests.CatLink.Textiles</source>
+                <target>Текстиль</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Jewlery">
+                <source>Benefits.LabTests.CatLink.Jewlery</source>
+                <target>Ювелирные изделия</target>
+            </trans-unit>
+            <trans-unit id="nav.supplyChainInsights">
+                <source>White Papers</source>
+                <target>Удачные идеи для цепочки поставок</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-title1">
+                <source>benefitsBox-title1</source>
+                <target>Почему следует обратиться в AI для проверки продукции и поставщиков на соответствие нормам?</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-ourBenefits">
+                <source>benefitsBox-ourBenefits</source>
+                <target>Преимущества AI</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-onlineManagement">
+                <source>benefitsBox-onlineManagement</source>
+                <target><![CDATA[<b>Comprehensive Online Management</b> - complete reports stored in your online account for quick decisions.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-flexibility">
+                <source>benefitsBox-flexibility</source>
+                <target><![CDATA[<b>Leading Turnaround & Flexibility</b> - reports uploaded the same day as the Inspection.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-globalCoverage">
+                <source>benefitsBox-globalCoverage</source>
+                <target><![CDATA[<b>Global Coverage</b> - a presence in all main production regions.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-expertInspectors">
+                <source>benefitsBox-expertInspectors</source>
+                <target><![CDATA[<b>Expert Inspector Teams</b> - our inspectors are highly trained agriculture professionals with years of experience in the field.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-industryExpertise">
+                <source>benefitsBox-industryExpertise</source>
+                <target><![CDATA[<b>Industry Expertise</b> - we are fully equipped to inspect every kind of produce, including berries.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-strictSampling">
+                <source>benefitsBox-strictSampling</source>
+                <target><![CDATA[<b>Strict Sampling Procedures</b> - our inspection protocols ensure representative sample collection and in-depth produce inspection.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-supplyIntelligence">
+                <source>benefitsBox-supplyIntelligence</source>
+                <target>Вы получите сведения о своей цепочке поставок: информацию о поставщике и качестве в реальном времени</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-leadingTurnaround">
+                <source>benefitsBox-leadingTurnaround</source>
+                <target>Мы быстрее всех в отрасли проводим аудиты, тестирования и инспекции</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-onlineMobile">
+                <source>benefitsBox-onlineMobile</source>
+                <target>Вы можете управлять заказами и работать с информацией везде и в любое время, онлайн или через мобильное приложение</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-allIncPricing">
+                <source>benefitsBox-allIncPricing</source>
+                <target>Цены по принципу "все включено": единая ставка для инспекции и аудитов; мгновенное выставление сметы для тестов</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-totals">
+                <source>benefitsBox-totals</source>
+                <target>%total_Inspectors% аудиторов и инспекторов, 4 собственные лаборатории и работа в %total_Operating_Countries% странах</target>
+            </trans-unit>
+            <trans-unit id="registration-sidebar-client-trust">
+                <source>registration-sidebar-client-trust</source>
+                <target>Нам доверяют более 6000 клиентов более чем в 120 странах</target>
+            </trans-unit>
+                    <!-- QC in China -->
+            <trans-unit id="qcinchina-title">
+                <source>qcinchina-title</source>
+                <target>Контроль качества в Китае</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-subtext">
+                <source>qcinchina-subtext</source>
+                <target>AsiaInspection предлагает инспекцию продукции, аудит поставщиков и лабораторные тестирования на всей территории Китая. Мы гарантируем прибытие инспектора на место в течение 48 часов от совершения заказа.</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-qcsevices">
+                <source>qcinchina-qcsevices</source>
+                <target>Услуги по контролю качества в Китае</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-qcsevices-subtext">
+                <source>qcinchina-qcsevices-subtext</source>
+                <target>В наши дни Китай является главной производительной силой и основным поставщиков для брендов и предприятий розничной торговли всего мира. В мировом масштабе "сделано в Китае" больше не означает низкое качество, но поиск эффективных механизмов контроля качества остается приоритетным для любого бизнеса, стремящегося обеспечить безопасность цепочки поставок.</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-qcsevices-subtext1">
+                <source>qcinchina-qcsevices-subtext1</source>
+                <target><![CDATA[Благодаря офисам и лабораториям в Гонконге, Гуандуне, Сычуане, Чжецзяне AI проводит инспекцию продукции, лабораторные тестирования и аудиты поставщиков по всему Китаю, помогая вам гарантировать качество продукции, избежать сбоев в цепочке поставок и защитить репутацию вашего бренда.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-supplierAudit-title">
+                <source>qcinchina-supplierAudit-title</source>
+                <target>Аудит поставщиков в Китае</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-supplierAudit-subtext">
+                <source>qcinchina-supplierAudit-subtext</source>
+                <target><![CDATA[Высококвалифицированные аудиторы AI могут проводить производственные, этические, структурные, экологические и C-TPAT аудиты заводов ваших поставщиков в Китае, помогая вам работать с этичными и эффективными поставщиками. AI проводит аудиты в соответствии с рядом международных стандартов, по вашей внутренней методике или по нашему собственному протоколу Best-In-Class.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-supplierAudit-subtext1">
+                <source>qcinchina-supplierAudit-subtext1</source>
+                <target>Аудиты поставщиков в Китае от AI помогут вам:</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-supplierAudit-list">
+                <source>qcinchina-supplierAudit-list</source>
+                <target><![CDATA[
+                    <li>Защитить ваш бренд от производственных и этических рисков</li>
+                    <li>Гарантировать безопасность и этичность условий работы в вашей цепочке поставок</li>
+                    <li>Получить всеобъемлющие характеристики вашего поставщика в Китае перед тем, как впустить его в ваш бизнес.</li>]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-labTesting">
+                <source>qcinchina-labTesting</source>
+                <target>Лабораторные тестирования в Китае</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-labTesting-subtext">
+                <source>qcinchina-labTesting-subtext</source>
+                <target><![CDATA[AI оперирует четырьмя тестирующими лабораториями в Гонконге, Ханчжоу и Веньчжоу, полностью аккредитованными для проведения широкого ряда тестов продукции в Китае. Лаборатории AI предлагают более 6 000 тестов для ряда категорий продукции, в том числе: одежда и обувь, товары для быта, очки, рекламная продукция, текстиль, игрушки, продукция для детей и многое другое.]]></target>
+            </trans-unit>          
+            <trans-unit id="qcinchina-labTesting-subtext1">
+                <source>qcinchina-labTesting-subtext1</source>
+                <target>Наши тестирующие лаборатории в Китае получили аккредитации от следующих регулирующих органов и в соответствии со следующими международными стандартами:</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-labTesting-list">
+                <source>qcinchina-labTesting-list</source>
+                <target><![CDATA[
+                    <li>CNAS</li>
+                    <li>CMA</li>
+                    <li>ANAB</li>
+                    <li>HOKLAS</li>
+                    <li>CPSC</li>
+                    <li>ISO 17025</li>
+                    ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="qcinchina-ProdInsp">
+                <source>qcinchina-ProdInsp</source>
+                <target>Инспекция продукции в Китае</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-ProdInsp-subtext">
+                <source>qcinchina-ProdInsp-subtext</source>
+                <target>Проведите инспекцию вашей продукции перед тем, как она покинет завод поставщика в Китае, и предотвратите проблемы с качеством далее по цепочке поставок. Мы гарантируем присутствие инспектора на любом заводе в Китае в течение 48 часов, а отчет об инспекции будет доставлен вам в день проведения инспекции.</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-ProdInsp-subtext1">
+                <source>qcinchina-ProdInsp-subtext1</source>
+                <target>Опытные инспекторы продукции AI помогут вам обеспечить качество продукции на каждом этапе производства:</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-ProdInsp-list">
+                <source>qcinchina-ProdInsp-list</source>
+                <target><![CDATA[
+                    <li><a href="/initial-production-check">IPC – Initial Production Check</a></li>
+                    <li><a href="/during-production-inspection">DUPRO – During Production Inspection</a></li>
+                    <li><a href="/pre-shipment-inspection">PSI – Pre-Shipment Inspection</a></li>
+                    <li><a href="/container-loading-check">CLC – Container Loading Check</a></li>
+                    <li><a href="/production-monitoring">PM – Production Monitoring</a></li>
+                    ]]>
+                </target>
+            </trans-unit>
+             <trans-unit id="qcinchina-whyAI">
+                <source>qcinchina-whyAI</source>
+                <target>Why AsiaInspection</target>
+            </trans-unit>
+             <trans-unit id="qcinchina-why-reason1">
+                <source>qcinchina-why-reason1</source>
+                <target>Прозрачное ценообразование:</target>
+            </trans-unit>
+             <trans-unit id="qcinchina-why-reason1-text">
+                <source>qcinchina-why-reason1-text</source>
+                <target><![CDATA[
+                        <li><b>Инспекция продукции в Китае</b>: $%price_Inspect_Low% длр США за человеко-день по системе "все включено"</li>
+                        <li><b>Аудиты поставщиков в Китае</b>: от $%price_Audit_Low%  длр США за человеко-день по системе "все включено"</li>
+                        <li><b>Лабораторные тесты</b>: мгновенное составление сметы онлайн</li>
+                        ]]>
+                </target>
+            </trans-unit>
+             <trans-unit id="qcinchina-why-reason2">
+                <source>qcinchina-why-reason2</source>
+                <target>Быстрота:</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason2-text">
+                <source>qcinchina-why-reason2-text</source>
+                <target><![CDATA[
+                        <li>Прибытие инспекторов и аудиторов на любую фабрику в течение 48 часов</li>
+                        <li>Отчеты об инспекциях в тот же день</li>
+                        ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason3">
+                <source>qcinchina-why-reason3</source>
+                <target>Простое и гибкое составление графика:</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason3-text">
+                <source>qcinchina-why-reason3-text</source>
+                <target><![CDATA[
+                        <li>Управляйте заказами и инспекциями онлайн или через мобильное приложение</li>
+                        <li>Изменяйте или отменяйте заказы вплоть до 16:00 (время Китая) накануне запланированной инспекции</li>
+                        ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason4">
+                <source>qcinchina-why-reason4</source>
+                <target><![CDATA[<b>Мы будем вашими глазами в цепочке поставок!&copy;</b> - Мы являемся независимой, сертифицированной и лицензированной компанией по контролю за качеством. Мы работаем вместе с вами, чтобы защитить интересы вашего бизнеса на уровне цепочки поставок.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason5">
+                <source>qcinchina-why-reason5</source>
+                <target><![CDATA[<b>Управляйте процессом контроля качества онлайн</b> - Создавайте бесплатную учетную запись, планируйте инспекции онлайн, оплачивайте и получайте подробный отчет об инспекции в электронном виде.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason6">
+                <source>qcinchina-why-reason6</source>
+                <target><![CDATA[<b>Безопасность</b> - AI применяет строжайшие международные стандарты для обеспечения безопасности продукции и соответствия нормативным требованиям.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason7">
+                <source>qcinchina-why-reason7</source>
+                <target><![CDATA[<b>Всеобъемлющие отчеты</b> – Отчеты об инспекциях содержат подробные изображения, чтобы вы могли увидеть то, что видят инспекторы. Аудиторские отчеты содержат копии отчетных материалов завода, собеседования с руководством и изображения, гарантируя полную характеристику на вашего поставщика.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-sourcing-challenges">
+                <source>qcinchina-sourcing-challenges</source>
+                <target>Поиск поставщиков в Китае - Современные задачи</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-sourcing-challenges-text">
+                <source>qcinchina-sourcing-challenges-text</source>
+                <target>Данные недавних инспекций продукции показывают, что доля товаров ниже уровня AQL в Китае колеблется на уровне около 30 %, что незначительно лучше средних значений по азиатскому и тихоокеанскому региону, но ощутимо лучше других локомотивов производства, таких как Индия и Бангладеш (где доля товарных неудач достигает соответственно 46 % и 54 %). Тем не менее, цепочка поставок, в которой одна треть товаров отзывается еще до отправки, оставляет достаточно пространства для улучшений, особенно в случае с брендами и предприятиями розничной торговли, закупающимися в больших объемах.</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-sourcing-challenges-text1">
+                <source>qcinchina-sourcing-challenges-text1</source>
+                <target><![CDATA[В свете этих цифр любой бренд и предприятие розничной торговли, имеющий поставщиков из Китая, должен проявлять осмотрительность. Это особенно верно для таких категорий высокого уровня риска, как игрушки и товары для детей, так как игрушки из Китая по-прежнему остаются в лидерах по числу отзыва продукции в ЕС.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-sourcing-challenges-text2">
+                <source>qcinchina-sourcing-challenges-text2</source>
+                <target><![CDATA[Эти данные подчеркивают важность контроля качества и надежных услуг по инспекции на местах. Для любого западного бренда, имеющего производство в Китае, идеальный независимый инспектор должен сочетать в себе отраслевую квалификацию со знанием локальных особенностей. Заслуживающие доверия услуги по контролю качества должны охватывать весь цикл снабжения: от инспекции продукции на местах на различных стадиях процесса производства до всесторонних аудитов поставщиков и лабораторных тестирований.]]></target>
+            </trans-unit>
+            <!-- End QC in China -->
+            <!-- [Begin] Our Labs 360 Page -->
+            <trans-unit id="ourlabs.title">
+                <source>ourlabs.title</source>
+                <target><![CDATA[Обзор наших лабораторий на 360&deg;]]></target>
+            </trans-unit>
+            <trans-unit id="ourlabs.subitle">
+                <source>ourlabs.subtitle</source>
+                <target>Получите полное представление о лабораториях AsiaInspection, где мы решаем проблемы соответствия нормам безопасности продукции наших клиентов из %total_Client_Countries% стран.</target>
+            </trans-unit>
+            <trans-unit id="ourlabs.accredidationLine">
+                <source>ourlabs.accredidationLine</source>
+                <target><![CDATA[AI provides testing to international, national, and regional standards. See all our <a href="/accreditations">accreditations</a>.]]></target>
+            </trans-unit>
+            <trans-unit id="ourlabs.headingOne">
+                <source>ourlabs.headingOne</source>
+                <target>Our Labs</target>
+            </trans-unit>
+            <trans-unit id="ourlabs.contentOne">
+                <source>ourlabs.contentOne</source>
+                <target><![CDATA[<p>AI предоставляет всеобъемлющие тестирующие мощности, специфические для разных отраслей. Это %total_Labs% собственных лаборатории с аккредитацией ISO в США, Гонконге и Китае, а также широкая сеть проверенных лабораторий-партнеров по всему миру. AI собрала команду из более чем 130 опытных химиков, инженеров, технических специалистов и лабораторных менеджеров, чтобы обеспечить ваши нужды касательно качества и соответствия нормам для игрушек и продукции для детей, текстиля, общей продукции, очков, подарков, аксессуаров и многого другого.</p><p>Мы поддерживаем желание наших клиентов посетить наши лаборатории, но если ваши планы не позволяют сделать этого в реальности, вы можете посетить лаборатории виртуально.</p>]]></target>
+            </trans-unit>
+            <!-- [End] Our Labs 360 Page -->
+            <!-- [Begin] astmtoys -->
+            <trans-unit id="astmtoys-bigTitle">
+                <source>astmtoys-bigTitle</source>
+                <target>Overview of Changes in ASTM F963-16 Toy Safety Standard</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-smallText">
+                <source>astmtoys-smallText</source>
+                <target>On October 20, 2016, a new version (2016) of the ASTM F963 standard was published. The revision summary is listed below.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-subheader1">
+                <source>astmtoys-subheader1</source>
+                <target>Обзор изменений в Стандарте безопасности игрушек ASTM F963-16</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-subtext1">
+                <source>astmtoys-subtext1</source>
+                <target><![CDATA[Стандарт ASTM F963 долгое время был ключевым в области тестирования игрушек на безопасность. Этот стандарт рассматривает требования безопасности для игрушек, которые разработаны, произведены или продаются в качества игрового предмета для детей младше 14 лет (кроме продукции, перечисленной в Дополнении А).]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-blueArrow1">
+                <source>astmtoys-blueArrow1</source>
+                <target><![CDATA[<b><u>20 октября 2016,</u></b><br />
+                Публикация версии 2016 г.<br />
+                стандарта ASTM F963<br />]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-blueArrow2">
+                <source>astmtoys-blueArrow2</source>
+                <target><![CDATA[<b><u>До конца января 2017 года</u></b><br />
+                CPSC примет решение касательно принятия обновленного стандарта<br />]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-blueArrow3">
+                <source>astmtoys-blueArrow3</source>
+                <target><![CDATA[<b><u>В апреле 2017 года</u></b><br />
+                Стандарт станет обязательным, в случае если CPSC его примет<br />]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-tableHeader1">
+                <source>astmtoys-tableHeader1</source>
+                <target>Раздел</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-tableHeader2">
+                <source>astmtoys-tableHeader2</source>
+                <target>Нормы</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-tableHeader3">
+                <source>astmtoys-tableHeader3</source>
+                <target>Значительные изменения</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-elements">
+                <source>astmtoys-elements</source>
+                <target>Тяжелые элементы</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list1.0">
+                <source>astmtoys-list1.0</source>
+                <target>Добавлен альтернативный метод скрининга тяжелых металлов для гомогенных полимеров: HD-XRF</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list1.1">
+                <source>astmtoys-list1.1</source>
+                <target>Уточненное исключение, согласно 16 CFR 1500.91, применяется только к общему содержанию свинца и распространяется только на растворимый свинец, а не на другие элементы (за исключением бумаги и картона, которые не проходят тестирование растворением для всех элементов).</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list1.2">
+                <source>astmtoys-list1.2</source>
+                <target>Уточнен критерий исключения для стикеров и принтованного текстиля.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list1.3">
+                <source>astmtoys-list1.3</source>
+                <target>Уточнено, что если полный скрининг-тест для кадмия ниже 75 ppm, мелкие металлические компоненты считаются совместимыми с тестом на экстракцию кадмия.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element1">
+                <source>astmtoys-element1</source>
+                <target>Микробиологическая безопасность</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.0">
+                <source>astmtoys-list2.0</source>
+                <target>Добавлены товары из птичьего пера в плане микробиологической безопасности.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.1">
+                <source>astmtoys-list2.1</source>
+                <target>Указаны допустимые пределы микробиологической чистоты материалов (См. Дополнение B).</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.2">
+                <source>astmtoys-list2.2</source>
+                <target>Обновлены ссылки на методы тестирования и критерии чистоты материалов:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.3">
+                <source>astmtoys-list2.3</source>
+                <target><![CDATA[USP 35 &lt;61&gt; и &lt;62&gt;]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.4">
+                <source>astmtoys-list2.4</source>
+                <target>Микробиологические директивы CTFA, методы тестирования M-1 и M-2</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.5">
+                <source>astmtoys-list2.5</source>
+                <target>Следующие организмы не должны выявляться:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.6">
+                <source>astmtoys-list2.6</source>
+                <target>Псевдомонады (Pseudomonas sp.)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.7">
+                <source>astmtoys-list2.7</source>
+                <target>Кишечная палочка (Escherichia coli)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.8">
+                <source>astmtoys-list2.8</source>
+                <target>Коагулаза-положительный стафилококк (Coagulase-positive Staphylococcus sp.)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.9">
+                <source>astmtoys-list2.9</source>
+                <target>Сальмонелла (Salmonella)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.10">
+                <source>astmtoys-list2.10</source>
+                <target>Шигелла (Shigella sp.) (только для птичьего пера)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.11">
+                <source>astmtoys-list2.11</source>
+                <target>Обновлены ссылки на методы тестирования и критерии эффективности консервантов:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.12">
+                <source>astmtoys-list2.12</source>
+                <target><![CDATA[USP 35 &lt;51&gt;]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.13">
+                <source>astmtoys-list2.13</source>
+                <target>Микробиологические директивы CTFA, методы тестирования M-3 и M-6</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.14">
+                <source>astmtoys-list2.14</source>
+                <target>Следующие организмы, как минимум, используются для испытания продукта:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.15">
+                <source>astmtoys-list2.15</source>
+                <target>Staphylococcus aureus</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.16">
+                <source>astmtoys-list2.16</source>
+                <target>Кишечная палочка (Escherichia coli)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.17">
+                <source>astmtoys-list2.17</source>
+                <target>Синегнойная палочка (Pseudomonas aeruginosa)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.18">
+                <source>astmtoys-list2.18</source>
+                <target>Кандида Альбиканс (Candida albicans)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.19">
+                <source>astmtoys-list2.19</source>
+                <target>Аспергилл черный (Aspergillus brasiliensis)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element2">
+                <source>astmtoys-element2</source>
+                <target>Требования к набивочным материалам</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list3">
+                <source>astmtoys-list3</source>
+                <target>Убраны требования штата Пенсильвания</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list3.1">
+                <source>astmtoys-list3.1</source>
+                <target>Упрощен оценочный метод благодаря разрешению визуальной инспекции с помощью стереомикроскопа широкого поля обзора или эквивалентной аппаратуры</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element3">
+                <source>astmtoys-element3</source>
+                <target>Акустика</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list4">
+                <source>astmtoys-list4</source>
+                <target>Изменена процедура оценки для приведения в соответствие с нормами ISO 8124-1 и EN 71-1</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list4.1">
+                <source>astmtoys-list4.1</source>
+                <target>Обновлен параметр теста (скорость) для игрушек для толкания с 2 м/с до 1 м/с</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list4.2">
+                <source>astmtoys-list4.2</source>
+                <target>Повышен предел С-взвешенного уровня звука для игрушек, которые подносятся близко к уху, с 96 дБ до 110 дБ (приведено в соответствие с EN 71-1)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element4">
+                <source>astmtoys-element4</source>
+                <target>Приводимые в действие ртом метательные игрушки</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list5">
+                <source>astmtoys-list5</source>
+                <target>Добавлены требования и методы тестирования для приводимых в действие ртом метательных игрушек касательно мелких деталей, могущих привести к удушью.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element5">
+                <source>astmtoys-element5</source>
+                <target>Веревки, ремешки и резинки в игрушках</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list6">
+                <source>astmtoys-list6</source>
+                <target>Добавлено исключение для ремешков, используемых в качестве поясных ремней на игрушках-каталках, касательно требований свободной длины и размеров петли.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element6">
+                <source>astmtoys-element6</source>
+                <target>Игрушки-каталки</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list7">
+                <source>astmtoys-list7</source>
+                <target>Добавлено исключение для продукции с колесами в 150 мм или менее кроме тех, которые по существу своему являются неустойчивыми (см. EN 71-1 для продукции, которая изначально неустойчива).</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list7.1">
+                <source>astmtoys-list7.1</source>
+                <target>Изменен тест на перегрузки для игрушек-каталок, предназначенных для нескольких детей.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element7">
+                <source>astmtoys-element7</source>
+                <target>Метательные игрушки</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8">
+                <source>astmtoys-list8</source>
+                <target>Приведено в соответствие с ISO 8124-1 и EN 71-1, кроме параметра размеров перезарядки.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8.1">
+                <source>astmtoys-list8.1</source>
+                <target>Добавлена мера оценки наконечника снарядов с ребристым передним краем.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8.2">
+                <source>astmtoys-list8.2</source>
+                <target>Добавлено требование длины (57 мм) для снарядов с вакуумными присосками.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8.3">
+                <source>astmtoys-list8.3</source>
+                <target>Добавлены требования для испытания на удар для снарядов с накопленной энергией и стрел, выпущенных без накопленной энергии.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8.4">
+                <source>astmtoys-list8.4</source>
+                <target>Допустимая плотность кинетической энергии (KED) снаряда теперь 2500 Дж/м2.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8.5">
+                <source>astmtoys-list8.5</source>
+                <target>Добавлено исключение для мелких частичек пены, выделяемых из снарядов после тестов.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element8">
+                <source>astmtoys-element8</source>
+                <target>Сжимаемые игрушки</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list9">
+                <source>astmtoys-list9</source>
+                <target>Пояснено, что требование касательно рисков, связанных со сдавливанием, относится только к той части игрушки, которая имеет функцию сжимания.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element9">
+                <source>astmtoys-element9</source>
+                <target>Игрушки с аккумулятором</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10">
+                <source>astmtoys-list10</source>
+                <target>Добавлены требования для заряжаемых батареек и аккумуляторов, в том числе литиевых аккумуляторов и никель-метал-гидридных аккумуляторов:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.1">
+                <source>astmtoys-list10.1</source>
+                <target>Тест перезарядки аккумулятора</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.2">
+                <source>astmtoys-list10.2</source>
+                <target>Тест повторной перезарядки</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.3">
+                <source>astmtoys-list10.3</source>
+                <target>Тест зарядки на одиночную ошибку</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.4">
+                <source>astmtoys-list10.4</source>
+                <target>Тест на защиту от короткого замыкания</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.5">
+                <source>astmtoys-list10.5</source>
+                <target>Добавлены требования по маркировке для продукции, работающей от плоских или дисковых батареек</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.6">
+                <source>astmtoys-list10.6</source>
+                <target>Добавлены требования для игрушек, работающих от литий-ионных или от литий-ионных полимерных аккумуляторов насчет того, что аккумуляторы должны соответствовать по крайней мере одному из следующих стандартов:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.7">
+                <source>astmtoys-list10.7</source>
+                <target>ANSI C18.2M Часть 2</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.8">
+                <source>astmtoys-list10.8</source>
+                <target>UL 1642 или UL 2054</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.9">
+                <source>astmtoys-list10.9</source>
+                <target>Добавлены новые эталонные стандарты для аккумуляторов и зарядных устройств:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element10">
+                <source>astmtoys-element10</source>
+                <target>Магниты</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list11">
+                <source>astmtoys-list11</source>
+                <target>Добавлено дополнительное тестирование для приведения в соответствие с ISO 8124-1 и EN 71-1:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list11.1">
+                <source>astmtoys-list11.1</source>
+                <target>Тест на впитывание для деревянных игрушек и попадающих в рот деталей приводимых в действие ртом игрушек должен проводиться перед другими тестами правильной и неправильной эксплуатации.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list11.2">
+                <source>astmtoys-list11.2</source>
+                <target>Испытание на сжатие</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list11.3">
+                <source>astmtoys-list11.3</source>
+                <target>Drop test</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list11.4">
+                <source>astmtoys-list11.4</source>
+                <target>Точно указан металлический диск для использования в процессе испытания при циклических нагрузках, когда игрушка не содержит парных металлических частей.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element11">
+                <source>astmtoys-element11</source>
+                <target>Расширяющиеся материалы</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list12">
+                <source>astmtoys-list12</source>
+                <target>Новые требования для некоторых игрушек, которые могут существенно увеличиваться в объеме после проглатывания ребенком, приводя к закупорке желудка и кишечника.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element12">
+                <source>astmtoys-element12</source>
+                <target>Ящики для игрушек</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list13">
+                <source>astmtoys-list13</source>
+                <target>Снова введены требования для ящиков для игрушек из ASTM F963-07e1</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element13">
+                <source>astmtoys-element13</source>
+                <target>Маркировка / Инструкции / Маркировка изготовителя</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14">
+                <source>astmtoys-list14</source>
+                <target>Добавлены нормы для:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.1">
+                <source>astmtoys-list14.1</source>
+                <target>Маркировки плоских или дисковых аккумуляторных батареек</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.2">
+                <source>astmtoys-list14.2</source>
+                <target>Инструкций для ящиков для игрушек и маркировки производителя</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.3">
+                <source>astmtoys-list14.3</source>
+                <target>Инструкций для игрушек-каталок на аккумуляторах</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.4">
+                <source>astmtoys-list14.4</source>
+                <target>Пересмотрены нормы для:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.5">
+                <source>astmtoys-list14.5</source>
+                <target>Маркировки магнитов</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.6">
+                <source>astmtoys-list14.6</source>
+                <target>Инструкций игрушек с аккумулятором</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-italicNote">
+                <source>astmtoys-italicNote</source>
+                <target>В соответствии с Законом о повышении безопасности потребительских товаров (CPSIA) обновленный стандарт примет законную силу и станет обязательным через 180 дней после того, как ASTM уведомила Комиссию по безопасности потребительских товаров (CPSC), если только пересмотренная версия не была отклонена CPSC в течение 90 дней.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-subheader2">
+                <source>astmtoys-subheader2</source>
+                <target>Дополнение A</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element14">
+                <source>astmtoys-element14</source>
+                <target>Продукция, не охватываемая ASTM F963-16:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15">
+                <source>astmtoys-list15</source>
+                <target>Велосипеды / Трехколесные велосипеды</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.1">
+                <source>astmtoys-list15.1</source>
+                <target>Безмоторные скутеры</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.2">
+                <source>astmtoys-list15.2</source>
+                <target>Прогулочные моторизованные скутеры / Минимотоциклы</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.3">
+                <source>astmtoys-list15.4</source>
+                <target>Рогатки / Остроконечные дротики</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.4">
+                <source>astmtoys-list15.4</source>
+                <target>Оборудование для детских площадок</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.5">
+                <source>astmtoys-list15.5</source>
+                <target>Непороховые пистолеты</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.6">
+                <source>astmtoys-list15.6</source>
+                <target>Воздушные змеи</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.7">
+                <source>astmtoys-list15.7</source>
+                <target>Изделия для хобби и рукоделия, которые в готовом виде не имеют игрового предназначения</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.8">
+                <source>astmtoys-list15.8</source>
+                <target>Макеты, которые в готовом виде не имеют игрового предназначения</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.9">
+                <source>astmtoys-list15.9</source>
+                <target>Цветные карандаши, краски, мелки и другие сходные материалы для творчества, материал которых или конечный продукт не имеют игрового предназначения; при этом все материалы для творчества, являющиеся или не являющиеся компонентами игрушек, должны соответствовать нормам LHAMA</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.10">
+                <source>astmtoys-list15.10</source>
+                <target>Спортивные товары / Походные товары / Товары для легкой атлетики / Музыкальные инструменты / Товары для самых маленьких / Мебель (хотя игрушки, являющиеся ее точными копиями, подпадают под охват)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.11">
+                <source>astmtoys-list15.11</source>
+                <target>Моторизованные модели самолетов / Ракеты / Корабли / Сухопутные средства передвижения (хотя игрушки, являющиеся их точными копиями, подпадают под охват)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.12">
+                <source>astmtoys-list15.12</source>
+                <target>Надувные изделия постоянного давления</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-subheader3">
+                <source>astmtoys-subheader3</source>
+                <target>Дополнение Б</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Header">
+                <source>astmtoys-table1Header</source>
+                <target>Категории продукции</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Header1">
+                <source>astmtoys-table1Header1</source>
+                <target><![CDATA[Микробиологические пределы<br />(КОЕ/мл или КОЕ/гм)]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Element">
+                <source>astmtoys-table1Element</source>
+                <target>Продукция для младенцев</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Element1">
+                <source>astmtoys-table1Element1</source>
+                <target>Такие товары как грим для лица и косметика, предназначенные для детей и кукол, и схожая продукция (кроме бальзамов, блесков, помады для губ и схожей продукции), которые с большой вероятностью могут быть использованы в районе глаза.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Element2">
+                <source>astmtoys-table1Element2</source>
+                <target>Продукция из птичьего пера</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Element3">
+                <source>astmtoys-table1Element3</source>
+                <target>Все другие товары</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Element4">
+                <source>astmtoys-table1Element4</source>
+                <target><![CDATA[Примечание<br />1. Из-за изменчивости, вызванной процессом разбавления, допустимым результатом для продукции для младенцев и грима для лица является величина до 5 x 102 КОЕ/мл или КОЕ/гм, а для остальных товаров - 5 x 103 КОЕ/мл или КОЕ/гм.]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-summary">
+                <source>astmtoys-summary</source>
+                <target>Этот обзор не может считаться исчерпывающим и не может быть истолкован как юридический совет.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-question">
+                <source>astmtoys-question</source>
+                <target>У вас есть вопрос по поводу стандартов ASTM?</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-contact">
+                <source>astmtoys-contact</source>
+                <target>Связаться с нами</target>
+            </trans-unit>
+            <!-- [End] astmtoys -->
+            <!-- QAS Begins-->
+            <trans-unit id="QAS-Title">
+                <source>Quality Assurance Services for Products</source>
+                <target>Услуги по гарантии качества для товаров</target>
+            </trans-unit>
+            <trans-unit id="QAS-subtext">
+                <source>QAS-subtext</source>
+                <target>Эксперты AI предлагают советы, чтобы помочь вам принять критически важные решения на всем протяжении ваших процессов развития, производства и закупки.</target>
+            </trans-unit>
+            <trans-unit id="QAS-subTitle1">
+                <source>QAS-subTitle1</source>
+                <target>Что такое услуги по гарантии качества для товаров?</target>
+            </trans-unit>
+            <trans-unit id="QAS-subtext1">
+                <source>QAS-subtext1</source>
+                <target>С помощью наших услуг клиенты могут поставлять на рынок продукцию, соответствующую глобальным, федеральным и региональным требованиям, а также научить своих работников принимать меры в соответствии с внутренними или клиентскими спецификациями. AI стремится превзойти ожидания клиентов, работая над текущими требованиями соответствия, и готова помочь в поиске решений по обеспечению безопасности и качества продукции.</target>
+            </trans-unit>
+            <trans-unit id="QAS-ListTitle">
+                <source>QAS-ListTitle</source>
+                <target>Услуги по гарантии качества AI включают в себя следующее (но не только):</target>
+            </trans-unit>
+            <trans-unit id="QAS-list">
+                <source>QAS-list</source>
+                <target>Нормативные исследования и толкование</target>
+            </trans-unit>
+            <trans-unit id="QAS-list1">
+                <source>QAS-list1</source>
+                <target>Оценка факторов риска для Европы и служба технической информации</target>
+            </trans-unit>
+            <trans-unit id="QAS-list2">
+                <source>QAS-list2</source>
+                <target>Обзор периодических программ тестирования</target>
+            </trans-unit>
+            <trans-unit id="QAS-list3">
+                <source>QAS-list3</source>
+                <target>Услуги по обзору документации</target>
+            </trans-unit>
+            <trans-unit id="QAS-list4">
+                <source>QAS-list4</source>
+                <target>Техническое обучение и семинары</target>
+            </trans-unit>
+            <trans-unit id="QAS-list5">
+                <source>QAS-list5</source>
+                <target>Руководства по спецификациям и стандартам для продукции</target>
+            </trans-unit>
+            <trans-unit id="QAS-list6">
+                <source>QAS-list6</source>
+                <target>Проверки на местах</target>
+            </trans-unit>
+            <trans-unit id="QAS-list7">
+                <source>QAS-list7</source>
+                <target>Оценка разработок</target>
+            </trans-unit>
+            <trans-unit id="QAS-list8">
+                <source>QAS-list8</source>
+                <target>Разработка, обзор или обновление ваших стандартных операционных процедур соответствия</target>
+            </trans-unit>
+            <trans-unit id="QAS-subTitle2">
+                <source>QAS-subTitle2</source>
+                <target>Поддержка для вашей команды</target>
+            </trans-unit>
+            <trans-unit id="QAS-subText2">
+                <source>QAS-subText2</source>
+                <target><![CDATA[Наша цель - повсеместная поддержка клиентов всеобъемлющими услугами, которые могут служить продолжением уже существующих инициатив по контролю качества или стать совместной работой для создания новых программ. Наши предметные эксперты обладают широким опытом в лабораторных тестированиях, соответствии глобальным нормам, анализе дефектов продукции и производства, так же как и в контроле и гарантии качества. С помощью основной команды в головной лаборатории Гонконга, которой помогает сеть экспертов по всему миру, AI предоставляет клиентам глобальную поддержку.]]></target>
+            </trans-unit>
+            <trans-unit id="QAS-subTitle3">
+                <source>QAS-subTitle3</source>
+                <target>AI предоставляет специальные знания и экспертные консультации</target>
+            </trans-unit>
+            <trans-unit id="QAS-subText3">
+                <source>QAS-subText3</source>
+                <target><![CDATA[Команда экспертов AI обладает широким опытом в лабораторных тестированиях, соответствии глобальным нормам, анализе дефектов продукции и производства, так же как и в контроле и гарантии качества. Мы предлагаем нашим клиентам консультационные услуги, оценку разработок продукции, помощь в исследованиях, тестирование сырья и техническое руководство, чтобы помочь в принятии критически важных решений на протяжении всех циклов развития и производства. Кроме того, AI предлагает тренинги и образовательные программы по множеству нормативных вопросов, а также в связи с вашей программой соответствия, чтобы помочь создать базу знаний для ваших сотрудников или цепочки поставок.]]></target>
+            </trans-unit>
+            <trans-unit id="QAS-AIBenefits">
+                <source>QAS-AIBenefits</source>
+                <target>The AI Benefits</target>
+            </trans-unit>
+            <trans-unit id="QAS-AIBenefits-reason1">
+                <source>QAS-AIBenefits-reason1</source>
+                <target>Почему стоит предпочесть AsiaInspection:</target>
+            </trans-unit>
+            <trans-unit id="QAS-AIBenefits-reason2">
+                <source>QAS-AIBenefits-reason2</source>
+                <target>Глобальный охват услугами (%total_Operating_Countries% стран)</target>
+            </trans-unit>
+            <trans-unit id="QAS-AIBenefits-reason3">
+                <source>QAS-AIBenefits-reason3</source>
+                <target>Назначенный именно вам персональный менеджер</target>
+            </trans-unit>
+            <trans-unit id="QAS-AIBenefits-reason4">
+                <source>QAS-AIBenefits-reason4</source>
+                <target>Техническое руководство и доступ к последним нормативным обновлениям</target>
+            </trans-unit>
+            <!-- QAS End -->
+            <trans-unit id="accred-pageTitle">
+                <source>accred-pageTitle</source>
+                <target>Accreditations from Regulatory Bodies &amp; International Standards (for lab testing, audits,  inspections)</target>
+            </trans-unit>
+            <trans-unit id="accred-pageDesc">
+                <source>accred-pageDesc</source>
+                <target>AsiaInspection is accredited by and in accordance with several regulatory bodies and international standards. View the full list and learn more about our inspection and audit qualifications here.</target>
+            </trans-unit>
+            <trans-unit id="accred-offerBox-testimonial">
+                <source>accred-offerBox-testimonial</source>
+                <target>As a Quality Manager, I recognize the necessity of timely and accurate inspection reports. When it comes to AsiaInspection, the professionalism of...</target>
+            </trans-unit>
+            <trans-unit id="accred-offerBox-companyDesc">
+                <source>accred-offerBox-companyDesc</source>
+                <target>Quality Tools for Smart Cleaning</target>
+            </trans-unit>
+            <!-- BSCI Audits [Begin] -->
+            <trans-unit id="bsci-header-title">
+                <source>bsci-header-title</source>
+                <target>Аудиты на соответствие стандартам BSCI </target>
+            </trans-unit>
+            <trans-unit id="bsci-header-subheading">
+                <source>bsci-header-subheading</source>
+                <target>Аудиты на соответствие поставщиков стандартам BSCI (Инициатива социальной ответственности бизнеса) позволяют брендам и предприятиям розничной торговли обеспечить надлежащие условия труда и высокий уровень социальной ответственности в своей цепочке поставок.</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-title">
+                <source>bsci-sectionOne-title</source>
+                <target>Аудиты поставщиков на соответствие стандартам BSCI</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-pgphOne">
+                <source>bsci-sectionOne-pgphOne</source>
+                <target><![CDATA[В наши дни предприятиям, стремящимся построить этическую и ответственную цепочку поставок, предлагается множество схем социального аудита. Протокол BSCI (Инициатива социальной ответственности бизнеса) является одним из фундаментальных протоколов социального аудита, и его выбирают компании по всему миру. AI, будучи аккредитованным органом для проведения BSCI-аудитов, предлагает широкий спектр аудиторских программ для производителей, брендов и предприятий розничной торговли во всем мире.]]></target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-pgphTwo">
+                <source>bsci-sectionOne-pgphTwo</source>
+                <target>Наши квалифицированные аудиторы проверят производство вашего поставщика на соответствие всем требованиям Кодекса поведения BSCI, в том числе в следующих аспектах:</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list1">
+                <source>bsci-sectionOne-list1</source>
+                <target>Часы работы и справедливая оплата труда</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list2">
+                <source>bsci-sectionOne-list2</source>
+                <target>Здоровье и безопасность работников на производстве</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list3">
+                <source>bsci-sectionOne-list3</source>
+                <target>Детский труд и защита для молодых работников</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list4">
+                <source>bsci-sectionOne-list4</source>
+                <target>Принудительный труд и ненадежная занятость</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list5">
+                <source>bsci-sectionOne-list5</source>
+                <target>Свобода объединений и коллективное договорное право</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list6">
+                <source>bsci-sectionOne-list6</source>
+                <target>Этические основы ведения бизнеса</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list7">
+                <source>bsci-sectionOne-list7</source>
+                <target>Дискриминация</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list8">
+                <source>bsci-sectionOne-list8</source>
+                <target>Защита окружающей среды</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionTwo-title">
+                <source>bsci-sectionTwo-title</source>
+                <target>Что такое аудит на соответствие стандартам BSCI?</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionTwo-pgphOne">
+                <source>bsci-sectionTwo-pgphOne</source>
+                <target><![CDATA[Инициатива социальной ответственности бизнеса (BSCI) была разработана некоммерческой организацией <a href="http://www.amfori.org/content/amfori-bsci" target="_blank">AMFORI</a> в 2003 году с целью улучшения социальной деятельности в условиях все большего усложнения глобальных цепочек поставок. Кодекс поведения BSCI, включающий в себя 11 фундаментальных принципов, основан на трудовых стандартах Международной организации труда, Всеобщей декларации прав человека ООН и других ключевых международных и национальных нормах в сфере прав человека.]]></target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionTwo-pgphTwo">
+                <source>bsci-sectionTwo-pgphTwo</source>
+                <target>Аудит, гарантирующий соответствие стандартам Кодекса поведения BSCI, должен проводиться аккредитованным органом и предполагает тщательную оценку производственных мощностей поставщика профессиональными социальными аудиторами. Результаты полного BSCI-аудита действительны два года, а затем требуется проведение нового аудита.</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-title">
+                <source>bsci-sectionThree-title</source>
+                <target>Зачем проводить BSCI-аудит?</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list1">
+                <source>bsci-sectionThree-list1</source>
+                <target>Чтобы продемонстрировать вашу заинтересованность в этических источниках поставок</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list2">
+                <source>bsci-sectionThree-list2</source>
+                <target>Чтобы гарантировать справедливые условия труда в вашей цепочке поставок</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list3">
+                <source>bsci-sectionThree-list3</source>
+                <target>Чтобы закрепить успехи вашего бренда в сфере корпоративной социальной ответственности</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list4">
+                <source>bsci-sectionThree-list4</source>
+                <target>Чтобы соответствовать нормативным требованиям (напр., Закону о современном рабстве)</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list5">
+                <source>bsci-sectionThree-list5</source>
+                <target>Чтобы установить долговременные и продуктивные отношения с вашими поставщиками и/или покупателями</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-one">
+                <source>bsci-benefits-one</source>
+                <target>Упрощенный процесс заказа аудита</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-two">
+                <source>bsci-benefits-two</source>
+                <target>Быстрое составление отчетов</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-three">
+                <source>bsci-benefits-three</source>
+                <target>Передовой опыт и обширные знания в области аудита</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-four">
+                <source>bsci-benefits-four</source>
+                <target>Глубокий анализ данных и технические решения для управления ключевыми показателями эффективности и усовершенствования программ аудита</target>
+            </trans-unit>
+            <!-- BSCI Audits [End] -->
+            <!-- [Begin] Footer-->
+            <trans-unit id="Learn-More">
+                <source>Learn More</source>
+                <target>Подробнее</target>
+            </trans-unit>
+            <trans-unit id="LEARN-MORE">
+                <source>LEARN MORE</source>
+                <target>подробнее</target>
+            </trans-unit>
+            <trans-unit id="Why-Use-Our-QC-Services?">
+                <source>Why Use Our QC Services?</source>
+                <target>Зачем вам нужны наши услуги по контролю качества?</target>
+            </trans-unit>
+            <trans-unit id="Why-Do-You-Need-Inspections?">
+                <source>Why Do You Need Inspections?</source>
+                <target>Зачем вам нужно проводить инспекции?</target>
+            </trans-unit>
+            <trans-unit id="Why-Do-You-Need-Audits?">
+                <source>Why Do You Need Audits?</source>
+                <target>Зачем вам нужно проводить аудиты?</target>
+            </trans-unit>
+            <trans-unit id="Why-Do-You-Need-Lab-Tests?">
+                <source>Why Do You Need Lab Tests?</source>
+                <target>Зачем вам нужны лабораторные тесты?</target>
+            </trans-unit>
+            <trans-unit id="Pricing-and-Conditions">
+                <source>Pricing and Conditions</source>
+                <target>Цены и условия</target>
+            </trans-unit>
+            <trans-unit id="Operation-Regions">
+                <source>Operation Regions</source>
+                <target>Регионы, где мы работаем</target>
+            </trans-unit>
+            <trans-unit id="Quality-and-Risk-Management">
+                <source>Quality and Risk Management</source>
+                <target>Менеджмент качества и рисков</target>
+            </trans-unit>
+            <trans-unit id="Quality-Control-on-your-Mobile">
+                <source>Quality Control on your Mobile</source>
+                <target>Контроль качества на вашем мобильном устройстве</target>
+            </trans-unit>
+            <trans-unit id="Acceptable-Quality-Limit-(AQL)">
+                <source>Acceptable Quality Limit (AQL)</source>
+                <target>Предел приемлемого качества (AQL)</target>
+            </trans-unit>
+            <trans-unit id="Clothing-Textile-Inspection">
+                <source>Clothing Textile Inspection</source>
+                <target>Инспекции одежного текстиля</target>
+            </trans-unit>
+            <trans-unit id="Quality-Control-in-Bangladesh">
+                <source>Quality Control in Bangladesh</source>
+                <target>Контроль качества в Бангладеш</target>
+            </trans-unit>
+            <trans-unit id="Quality-Control-in-China">
+                <source>Quality Control in China</source>
+                <target>Контроль качества в Китае</target>
+            </trans-unit>
+            <trans-unit id="Quality-Control-in-Vietnam">
+                <source>Quality Control in Vietnam</source>
+                <target>Контроль качества во Вьетнаме</target>
+            </trans-unit>
+            <trans-unit id="Quality-Control-in-Africa">
+                <source>Quality Control in Africa</source>
+                <target>Контроль качества в Африке</target>
+            </trans-unit>
+            <trans-unit id="Food-Safety">
+                <source>Food Safety</source>
+                <target>Безопасность продовольственных товаров</target>
+            </trans-unit>
+            <trans-unit id="Audits">
+                <source>Audits</source>
+                <target>Аудиты</target>
+            </trans-unit>
+            <trans-unit id="Compliance-Testing">
+                <source>Compliance Testing</source>
+                <target>Тестирование на соответствие нормам</target>
+            </trans-unit>
+            <trans-unit id="Heavy-Metal-Test">
+                <source>Heavy Metal Test</source>
+                <target>Тестирование на тяжелые металлы</target>
+            </trans-unit>
+            <trans-unit id="RoHS-Compliance">
+                <source>RoHS Compliance</source>
+                <target>Соответствие нормам RoHS</target>
+            </trans-unit>
+            <trans-unit id="Consumer-Product-Safety">
+                <source>Consumer Product Safety</source>
+                <target>Безопасность потребительских товаров</target>
+            </trans-unit>
+            <trans-unit id="REACH-Regulation">
+                <source>REACH Regulation</source>
+                <target>Регламент REACH</target>
+            </trans-unit>
+            <trans-unit id="Phthalates-Testing">
+                <source>Phthalates Testing</source>
+                <target>Тестирование на фталаты</target>
+            </trans-unit>
+            <trans-unit id="Toy-Safety-Tips">
+                <source>Toy Safety Tips</source>
+                <target>Советы по безопасности игрушек</target>
+            </trans-unit>
+            <trans-unit id="ASTM-F963-16-Toy-Safety-Testing">
+                <source>ASTM F963-16 Toy Safety Testing</source>
+                <target>Тестирование ASTM F963-16 на безопасность игрушек</target>
+            </trans-unit>
+            <trans-unit id="SASO-Certificate-of-Conformity">
+                <source>SASO Certificate of Conformity</source>
+                <target>Сертификат соответствия SASO</target>
+            </trans-unit>
+            <trans-unit id="CA-Proposition-65-Compliance">
+                <source>CA Proposition 65 Compliance</source>
+                <target>Соответствие нормам Законодательной инициативы 65 штата Калифорния</target>
+            </trans-unit>
+            <trans-unit id="Corporate">
+                <source>Corporate</source>
+                <target>Корпоративная информация</target>
+            </trans-unit>
+            <trans-unit id="About-AsiaInspection">
+                <source>About AsiaInspection</source>
+                <target>Об AsiaInspection</target>
+            </trans-unit>
+            <trans-unit id="CareersHome">
+                <source>Careers</source>
+                <target>Вакансии</target>
+            </trans-unit>
+            <trans-unit id="Legal">
+                <source>Legal</source>
+                <target>Правовая информация</target>
+            </trans-unit>
+            <trans-unit id="Sitemap">
+                <source>Sitemap</source>
+                <target>Карта сайта</target>
+            </trans-unit>
+            <trans-unit id="Partners">
+                <source>Partners</source>
+                <target>Партнеры</target>
+            </trans-unit>
+            <trans-unit id="footer-demo">
+                <source>Demo</source>
+                <target>Демо-ролик</target>
+            </trans-unit>
+            <trans-unit id="footer-qca">
+                <source>QCA Member Testing Program</source>
+                <target>Программа тестирования для членов QCA</target>
+            </trans-unit>
+            <!-- [End] Footer -->
+            <!-- [Begin] PricingBox -->
+            <trans-unit id="PricingBox-Pricing">
+                <source>Pricing</source>
+                <target>Расценки</target>
+            </trans-unit>
+            <trans-unit id="PricingBox-Pricing-Per-Man-day">
+                <source>Pricing Per Man-day</source>
+                <target>Цена за человеко-день</target>
+            </trans-unit>
+            <trans-unit id="PricingBox-Download-Sample-Report">
+                <source>Download a Sample Report</source>
+                <target>Скачать образец отчета</target>
+            </trans-unit>
+            <trans-unit id="PricingBox-Get-Started">
+                <source>Get Started</source>
+                <target>Начать</target>
+            </trans-unit><trans-unit id="PricingBox-ZoneA">
+                <source>China, India, Bangladesh, Vietnam, Cambodia, Thailand, Africa and Latin America</source>
+                <target>Китай, Индия, Бангладеш, Вьетнам, Камбоджа, Таиланд, Африка и Латинская Америка</target>
+            </trans-unit>
+            <trans-unit id="PricingBox-ZoneB">
+                <source>Europe, Greater Asia and Brazil</source>
+                <target>Европа, Большая Азия и Бразилия</target>
+            </trans-unit>
+            <trans-unit id="PricingBox-See-Demo">
+                <source>See a Demo</source>
+                <target>Смотреть демо-ролик</target>
+            </trans-unit>
+            <trans-unit id="222">
+                <source>Per Man-day</source>
+                <target>За человеко-день</target>
+            </trans-unit>
+            <trans-unit id="223">
+                <source>GET A QUOTE</source>
+                <target>OBTENHA UM ORÇAMENTO</target>
+            </trans-unit>
+            <trans-unit id="224">
+                <source>See detailed pricing</source>
+                <target>См. подробную тарификацию</target>
+            </trans-unit>
+            <trans-unit id="297">
+                <source>Download Now</source>
+                <target>Скачать сейчас</target>
+            </trans-unit>
+            <trans-unit id="311">
+                <source>View Now</source>
+                <target>Просмотреть сейчас</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>BOOK AN INSPECTION</source>
+                <target>ЗАКАЗАТЬ ИНСПЕКЦИЮ</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>BOOK AN AUDIT</source>
+                <target>ЗАКАЗАТЬ АУДИТ</target>
+            </trans-unit>
+            <trans-unit id="contact-india">
+                <source>India:</source>
+                <target>Índia:</target>
+            </trans-unit>
+            <trans-unit id="pricing-quote">
+                <source>Instant Quote</source>
+                <target>Мгновенное составление сметы</target>
+            </trans-unit>
+            <trans-unit id="267">
+                <source>This site is protected by copyright and trademark laws under US and international law.</source>
+                <target>Этот сайт защищен законами об авторском праве и товарных знаках в соответствии с американским и международным законодательствами.</target>
+            </trans-unit>
+            <!-- new -->
+            <trans-unit id="note-ceo">
+                <source>A Note From our CEO</source>
+                <target>Слово Исполнительного директора</target>
+            </trans-unit>
+            <trans-unit id="Who-We-Are">
+                <source>Who We Are</source>
+                <target>Кто мы</target>
+            </trans-unit>
+            <trans-unit id="Client-Testimonial">
+                <source>Client Testimonial</source>
+                <target>Отзыв клиента</target>
+            </trans-unit>
+            <trans-unit id="Career-Opportunities">
+                <source>Career Opportunities</source>
+                <target>ВОЗМОЖНОСТИ ДЛЯ КАРЬЕРЫ</target>
+            </trans-unit>
+            <trans-unit id="See-Opportunities">
+                <source>See Opportunities</source>
+                <target>Смотреть вакансии</target>
+            </trans-unit>
+            <trans-unit id="In-The-News">
+                <source>In The News</source>
+                <target>НОВОСТИ</target>
+            </trans-unit>
+            <trans-unit id="Memberships">
+                <source>Memberships</source>
+                <target>Членства</target>
+            </trans-unit>
+            <trans-unit id="Show-Insights">
+                <source>Show Insights</source>
+                <target>Show Insights</target>
+            </trans-unit>
+            <trans-unit id="By-Service-Type">
+                <source>By Service Type</source>
+                <target>по типу услуг</target>
+            </trans-unit>
+            <trans-unit id="sample-reports">
+                <source>Sample Reports</source>
+                <target>Образцы отчетов</target>
+            </trans-unit>
+            <!-- sample reports -->
+            <trans-unit id="Bangladesh-Audit">
+                <source>Bangladesh Audit</source>
+                <target>Аудит в Бангладеш</target>
+            </trans-unit>
+            <trans-unit id="Ethical-Audit">
+                <source>Ethical Audit</source>
+                <target>Этический аудит</target>
+            </trans-unit>
+            <trans-unit id="Manufacturing-Audit">
+                <source>Manufacturing Audit</source>
+                <target>Производственные аудиты</target>
+            </trans-unit>
+            <trans-unit id="Pre-Shipment Inspection">
+                <source>Pre-Shipment Inspection</source>
+                <target>Предотгрузочная проверка</target>
+            </trans-unit>
+            <trans-unit id="C-TPAT-Audit">
+                <source>C-TPAT Audit</source>
+                <target>Аудиты C-TPAT</target>
+            </trans-unit>
+            <trans-unit id="DUPRO-Report">
+                <source>DUPRO Report</source>
+                <target>Отчет DUPRO</target>
+            </trans-unit>
+            <trans-unit id="Environmental-Audit">
+                <source>Environmental Audit</source>
+                <target>Экологический аудит</target>
+            </trans-unit>
+            <trans-unit id="Production Monitoring">
+                <source>Production Monitoring</source>
+                <target>Мониторинг производства</target>
+            </trans-unit>
+            <trans-unit id="Structural-Audit">
+                <source>Structural Audit</source>
+                <target>Структурные аудиты</target>
+            </trans-unit>
+            <trans-unit id="Featured-Reports">
+                <source>Featured Reports</source>
+                <target>Избранные отчеты</target>
+            </trans-unit>
+            <!-- sample reports end -->
+            <!-- register -->
+            <trans-unit id="Free">
+                <source>Free</source>
+                <target>Бесплатно</target>
+            </trans-unit>
+            <trans-unit id="No-commitment">
+                <source>No-commitment</source>
+                <target>Без обязательств</target>
+            </trans-unit>
+            <trans-unit id="Key-Benefits">
+                <source>Key Benefits</source>
+                <target>Ключевые преимущества</target>
+            </trans-unit>
+            <trans-unit id="dedicated-account-manager">
+                <source>A dedicated Account Manager to guide you</source>
+                <target>Персональный менеджер направит вас по нужному пути</target>
+            </trans-unit>
+            <trans-unit id="online-dashboard">
+                <source>Your Online Dashboard (rank suppliers, track quality KPIs)</source>
+                <target>Ваша онлайн панель управления (давайте оценки поставщикам, следите за ключевыми показателями эффективности)</target>
+            </trans-unit>
+            <trans-unit id="product-checklist">
+                <source>Hundreds of customizable Product Checklists</source>
+                <target>Сотни персонализируемых контрольных списков для продукции</target>
+            </trans-unit>
+            <trans-unit id="access-mobile-app">
+                <source>Access to the AI Mobile App</source>
+                <target>Доступ к мобильному приложению AI</target>
+            </trans-unit>
+            <trans-unit id="Create-an-Account">
+                <source>Create an Account</source>
+                <target>Создать учетную запись</target>
+            </trans-unit>
+            <trans-unit id="Per-Man-Day">
+                <source>Per Man Day</source>
+                <target>За человеко-день</target>
+            </trans-unit>
+            <trans-unit id="Instant-Pricing">
+                <source>Instant Pricing</source>
+                <target>Мгновенное выставление сметы</target>
+            </trans-unit>
+            <trans-unit id="register-creating-account">
+                <source>By creating an account you agree to the</source>
+                <target>Создавая учетную запись, вы соглашаетесь с</target>
+            </trans-unit>
+            <trans-unit id="register-terms-conditions">
+                <source>terms and conditions</source>
+                <target>Условиями и положениями</target>
+            </trans-unit>
+            <trans-unit id="register-creating-an-account">
+                <source>Creating an account</source>
+                <target>Создание учетной записи</target>
+            </trans-unit>
+            <trans-unit id="register-Show-Password">
+                <source>Show Password</source>
+                <target>Показать пароль</target>
+            </trans-unit>
+            <trans-unit id="register-have-account">
+                <source>Already have an account?</source>
+                <target>У вас уже есть учетная запись?</target>
+            </trans-unit>
+            <trans-unit id="register-first-name">
+                <source>First Name</source>
+                <target>Имя</target>
+            </trans-unit>
+            <trans-unit id="register-last-name">
+                <source>Last Name</source>
+                <target>Фамилия</target>
+            </trans-unit>
+            <trans-unit id="registerCountry">
+                <source>Country</source>
+                <target>Страна</target>
+            </trans-unit>
+            <trans-unit id="registerCompany">
+                <source>Company</source>
+                <target>Компания</target>
+            </trans-unit>
+            <trans-unit id="registerIndustry">
+                <source>Industry</source>
+                <target>Отрасль</target>
+            </trans-unit>
+            <trans-unit id="registerTelephone">
+                <source>Telephone</source>
+                <target>Телефон</target>
+            </trans-unit>
+            <trans-unit id="registerUserName">
+                <source>User Name</source>
+                <target>Имя пользователя</target>
+            </trans-unit>
+            <trans-unit id="registerPassword">
+                <source>Password</source>
+                <target>Пароль</target>
+            </trans-unit>
+            <trans-unit id="registerCreate-Account">
+                <source>Create my Account</source>
+                <target>Создать учетную запись</target>
+            </trans-unit>
+             <!-- [End] register -->
+             <trans-unit id="Regulatory-Update">
+                <source>Regulatory Updates</source>
+                <target>Обновления норм и регламентов</target>
+            </trans-unit>
+            <trans-unit id="Service-Coverage">
+                <source>Service Coverage</source>
+                <target>Зона охвата услугами</target>
+            </trans-unit>
+            <trans-unit id="bsci-meta-pagetitle">
+                <source>bsci-meta-pagetitle</source>
+                <target>BSCI-аудит - Аудиты заводов поставщика и социальные аудиты | AsiaInspection - Услуги по контролю качества</target>
+            </trans-unit>
+            <trans-unit id="bsci-meta-pagedesc">
+                <source>bsci-meta-pagedesc</source>
+                <target>AsiaInspection проводит аудиты на соответствие стандартам BSCI (Инициатива социальной ответственности бизнеса). Обеспечьте достойные условия труда и социальную ответственность в вашей цепочке поставок, сделав AI вашим доверенным партнером.</target>
+            </trans-unit>
+            <trans-unit id="bsci-meta-pagekeywords">
+                <source>bsci-meta-pagekeywords</source>
+                <target>bsci аудит, социальный bsci аудит, bsci аудит заводов</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

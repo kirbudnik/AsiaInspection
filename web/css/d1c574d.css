@@ -1,0 +1,59 @@
+/* CSS Overrides for Arabic Site */
+/*the container for the AsiaInspection logo in the header*/
+.navbar-header {
+  text-align: right;
+  float: right;
+  margin-top: 11px; }
+
+.dropdown {
+  float: right !important; }
+
+.tab {
+  float: right !important; }
+
+.pull-right {
+  float: left !important; }
+
+.fix-dir {
+  direction: ltr; }
+
+.navbar-ai .dropdown-menu {
+  right: 0px;
+  left: 0px; }
+  .navbar-ai .dropdown-menu.navmenu_Service {
+    width: 720px;
+    right: -100px; }
+  .navbar-ai .dropdown-menu.navmenu_Industry {
+    width: 930px;
+    right: -250px; }
+  .navbar-ai .dropdown-menu.navmenu_About {
+    right: -100px; }
+  .navbar-ai .dropdown-menu .navMenuCol {
+    border-right: 0px; }
+
+/* End of .navbar-ai */
+.navbar-toggle {
+  float: left !important;
+  margin-right: 0px;
+  margin-left: 15px; }
+
+#nmiBox select {
+  background: none; }
+
+#SliderAssurance > ul {
+  position: absolute !important; }
+
+@media screen and (max-width: 768px) {
+  .navbar-header {
+    margin-left: 0px;
+    margin-right: 8.33333%; }
+
+  #mainNav .tab, #mainNav .dropdown {
+    display: block;
+    width: 100%;
+    float: none;
+    text-align: center; }
+
+  .navbar-ai .dropdown-menu.navmenu_Service, .navbar-ai .dropdown-menu.navmenu_Industry, .navbar-ai .dropdown-menu.navmenu_About {
+    width: 100%;
+    right: auto; } }

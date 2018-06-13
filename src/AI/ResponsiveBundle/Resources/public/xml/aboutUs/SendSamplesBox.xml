@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<en>
+		<title>How to Send Samples</title>
+		<box1content>
+			<![CDATA[
+			We <b>highly recommend</b> you send approved samples of your product to serve as a reference for inspection.]]>
+		</box1content>
+		<box1content2>
+			<![CDATA[To ensure customs clearance, include <a href="https://s3.asiainspection.com/files/Proforma-invoice-template.doc">this pro forma invoice</a> and write "Samples of no commercial value" and a declared value of $5 USD.
+			]]>
+		</box1content2>
+		<box2title>Customs Clearance</box2title>
+		<box2content>
+			<![CDATA[
+			Any sample you send us must clear customs. Some items that <b>may not</b> pass customs include:
+			]]>
+		</box2content>
+		<box2linkText>See What You Can't Ship [+/-]</box2linkText>
+		<cantShip>
+			<li>all powders</li>
+			<li>all liquids</li>
+			<li>magnetic products</li>
+			<li>gas and oil products</li>
+			<li>videos / CDs / DVDs</li>
+			<li>batteries</li>
+			<li>cosmetics</li>
+			<li>flamable products</li>
+		</cantShip>
+	</en>
+	<ar>
+		<title>كيفية إرسال العينات</title>
+		<box1content>
+			<![CDATA[
+			نوصي <b> بشدة</b> بإرسال العينات المعتمدة من منتجك لتمثل مرجعًا للفحص..]]>
+		</box1content>
+		<box1content2>
+			<![CDATA[لضمان التخليص الجمركي، عليك تضمين <a href="https://s3.asiainspection.com/files/Proforma-invoice-template.doc">هذه الفاتورة الصورية</a> وكتابة "عينات بدون قيمة تجارية"  ومبلغ تخليص بقيمة 5 دولارات أمريكية..
+			]]>
+		</box1content2>
+		<box2title>التخليص الجمركي</box2title>
+		<box2content>
+			<![CDATA[
+			أي عينة ترسلها يجب أن يتم تخليصها من الجمارك. من بين العناصر التي <b>قد لا</b> تصرح بها الجمارك:
+			]]>
+		</box2content>
+		<box2linkText>تعرف على ما لا يمكنك شحنه [+/-]</box2linkText>
+		<cantShip>
+			<li>all powders</li>
+			<li>all liquids</li>
+			<li>magnetic products</li>
+			<li>gas and oil products</li>
+			<li>videos / CDs / DVDs</li>
+			<li>batteries</li>
+			<li>cosmetics</li>
+			<li>flamable products</li>
+		</cantShip>
+	</ar>
+	<zh>
+		<title>如何寄送样品</title>
+		<box1content>
+			<![CDATA[
+			我们<b>强烈建议</b>您提前将产品的确认样寄来作为验货参考。<br><br>为了确保清关顺利，请附上写有”仅为样品，无商业价值“的<a href="https://s3.asiainspection.com/files/Proforma-invoice-template.doc">发票</a>。
+			]]>
+		</box1content>
+		<box2title>清关提醒</box2title>
+		<box2content>
+			<![CDATA[
+			您寄给我们的任何样品都必须清关，但有些物品<b>也许无法</b>通过海关，包括：
+			]]>
+		</box2content>
+		<box2linkText>查看哪些物品不能寄送[+/-]</box2linkText>
+		<cantShip>
+			<li>所有粉末状物品</li>
+			<li>所有液态物品</li>
+			<li>磁性制品</li>
+			<li>气体或石油制品</li>
+			<li>录像制品/CD/DVD</li>
+			<li>电池</li>
+			<li>化妆品</li>
+			<li>易燃易爆物品</li>
+		</cantShip>
+	</zh>
+
+	<fr>
+		<title>Envoyer un échantillon</title>
+		<box1content>
+			<![CDATA[
+			Nous <b>recommandons fortement</b> de nous envoyer un échantillon approuvé de votre produit pour servir de modèle de référence durant l’inspection. <br><br>Pour assurer un passage en douane sans difficulté, ajoutez à votre envoi notre<a href="https://s3.asiainspection.com/files/Proforma-invoice-template.doc"> facture pro forma</a> indiquez « Echantillons sans valeur marchande » et déclarez une valeur de $5 USD.
+			]]>
+		</box1content>
+		<box2title>Ce que vous ne pouvez pas nous envoyer</box2title>
+		<box2content>
+			<![CDATA[
+			Vos échantillons doivent pouvoir passer les contrôles de douanes. Certains articles sont ainsi à proscrire :
+			]]>
+		</box2content>
+		<box2linkText>Voir la liste de ce qui est à proscrire [+/-]</box2linkText>
+		<cantShip>
+			<li>Tous types de poudres</li>
+			<li>Tous types de liquides</li>
+			<li>Matériaux magnétiques</li>
+			<li>Gaz et essence</li>
+			<li>Vidéos / CD / DVD</li>
+			<li>Batteries, piles</li>
+			<li>Cosmétiques</li>
+			<li>Produits inflammables</li>
+		</cantShip>
+	</fr>
+
+	<de>
+		<title>Senden von Mustern</title>
+		<box1content>
+			<![CDATA[
+			Wir <b>empfehlen</b> Ihnen, genehmigte Muster Ihres Produkts als Referenz für die Inspektion einzureichen. <br><br>Legen Sie <a href="https://s3.asiainspection.com/files/Proforma-invoice-template.doc">unsere Rechnung </a> für den Zoll bei und geben Sie den Vermerk "Warenprobe" mit einem Warenwert von 5&nbsp;US-Dollar an.
+			]]>
+		</box1content>
+		<box2title>Verzollung</box2title>
+		<box2content>
+			<![CDATA[
+			Alle Samples werden durch den Zoll überprüft. Folgende Waren <b>können</b> von der Einfuhr ausgeschlossen werden:
+			]]>
+		</box2content>
+		<box2linkText>Liste von verbotenen Waren [+/-]</box2linkText>
+		<cantShip>
+			<li>Pulver/Puder</li>
+			<li>Flüssigkeiten</li>
+			<li>Magnetische Produkte</li>
+			<li>Gas- und Ölprodukte</li>
+			<li>Videos/CDs/DVDs</li>
+			<li>Batterien</li>
+			<li>Kosmetika</li>
+			<li>Feuergefährliche Produkte</li>
+		</cantShip>
+	</de>
+	<ru>
+		<title>Как отсылать образцы</title>
+		<box1content>
+			<![CDATA[
+			Мы настоятельно рекомендует отсылать отборные образцы продукции в качестве материала для сравнения. <br><br>Чтобы обеспечить  прохождение таможенного контроля, включите в посылку этот <a href="https://s3.asiainspection.com/files/Proforma-invoice-template.doc"> счет-фактуру </a> и напишите "образцы, не имеющие коммерческой ценности", с заявленной стоимостьюв 5 долларов США.
+			]]>
+		</box1content>
+		<box2title>Таможенный контроль</box2title>
+		<box2content>
+			<![CDATA[
+			Любой отосланный Вами образец должен пройти через таможню. Некоторые вещи, которые <b>не могут</b> пройти таможню:
+
+			]]>
+		</box2content>
+		<box2linkText>Просмотрите список того, что не стоит отправлять [+/-]</box2linkText>
+		<cantShip>
+			<li>все порошки и пудры</li>
+			<li>любые жидкости</li>
+			<li>намагниченные изделия</li>
+			<li>нефтегазовая продукция</li>
+			<li>видео/ компакт-диски/ DVD</li>
+			<li>батареи и аккумуляторы</li>
+			<li>косметика</li>
+			<li>легковоспламеняющиеся изделия</li>
+		</cantShip>
+	</ru>
+	<es>
+		<title>¿Cómo enviar las muestras?</title>
+		<box1content>
+			<![CDATA[
+				Le <b>recomendamos encarecidamente</b> que envíe muestras aprobadas de su producto que sirvan de referencia para la inspección.<br><br>Como prueba de la autorización del cliente, incluya <a href="https://s3.asiainspection.com/files/Proforma-invoice-template.doc">nuestra factura</a> y escriba "Muestras sin valor comercial" con un valor declarado de 5 USD.
+			]]>
+		</box1content>
+		<box2title>Despacho Aduanero</box2title>
+		<box2content>
+			<![CDATA[
+			Cualquier muestra que nos envie debe pasar la aduana. Algunos productos que pueden no pasar la aduana son:
+			]]>
+		</box2content>
+		<box2linkText>Mira lo que no puede embarcar [+/-]</box2linkText>
+		<cantShip>
+			<li>cualquier producto en polvo</li>
+			<li>cualquier producto líquido</li>
+			<li>productos magnéticos</li>
+			<li>productos que contengan gasolina o petróleo</li>
+			<li>vídeos / CD / DVD</li>
+			<li>baterías</li>
+			<li>cosméticos </li>
+		</cantShip>
+	</es>
+
+	<it>
+		<title>Come inviare i campioni</title>
+		<box1content>
+			<![CDATA[
+			Ti <b>consigliamo</b> caldamente di inviare dei campioni approvati del prodotto come riferimento per l'ispezione. <br><br>Per assicurare lo sdoganamento dei campioni, ti invitiamo a includere <a href="https://s3.asiainspection.com/files/Proforma-invoice-template.doc">nella spedizione la nostra fattura</a> a scrivere sulla confezione la dicitura "Campioni di nessun valore commerciale" e a dichiarare un valore di 5 dollari.
+			]]>
+		</box1content>
+		<box2title>Operazioni Doganali</box2title>
+		<box2content>
+			<![CDATA[
+			Ogni campione che ci invii deve passare i controlli doganali. Alcuni dei prodotti che <b>potrebbero</b> non superare i controlli doganali sono:
+
+			]]>
+		</box2content>
+		<box2linkText>Vedi cosa non puoi spedire [+/-]</box2linkText>
+		<cantShip>
+			<li>qualsiasi sostanza liquida</li>
+			<li>qualsiasi sostanza in polvere</li>
+			<li>sostanze gassose o oleose</li>
+			<li>prodotti magnetici</li>
+			<li>video / CD / DVD</li>
+			<li>batterie</li>
+			<li>cosmetici</li>
+			<li> prodotti infiammabili</li>
+		</cantShip>
+	</it>
+
+	<pt>
+		<title>Como Enviar Amostras</title>
+		<box1content>
+			<![CDATA[
+			Recomendamos <b>vivamente</b> que envie amostras aprovadas do seu produto para usarmos como referência para a inspeção. <br><br>
+			Para garantir o desembaraço alfandegário, inclua <a href="https://s3.asiainspection.com/files/Proforma-invoice-template.doc">esta fatura pro forma</a> e escreva "Samples of no commercial value" (Amostras sem valor comercial) e um valor declarado de 5 USD.
+			]]>
+		</box1content>
+		<box2title>Desembaraço Alfandegário</box2title>
+		<box2content>
+			<![CDATA[
+			Qualquer amostra que nos envie tem de passar na alfândega. Alguns itens que poderão <b>não</b> passar na alfândega incluem:
+			]]>
+		</box2content>
+		<box2linkText>Veja o que você não pode enviar [+/-]</box2linkText>
+		<cantShip>
+			<li>todos os pós</li>
+			<li>produtos magnéticos</li>
+			<li>vídeos/CD/DVD</li>
+			<li>cosméticos</li>
+			<li>todos os líquidos</li>
+			<li>produtos de gás e petrolíferos</li>
+			<li>baterias/pilhas</li>
+			<li>produtos inflamáveis</li>
+		</cantShip>
+	</pt>
+
+	<tr>
+		<title>Nasıl Numune Gönderilir</title>
+		<box1content>
+			<![CDATA[
+			Muayene için referans olarak kullanılması için ürününüzün onaylı numunelerini göndermenizi öneriyoruz.]]>
+		</box1content>
+		<box1content2>
+			<![CDATA[Gümrükten çekme işlemi için <a href="https://s3.asiainspection.com/files/Proforma-invoice-template.doc">bu proforma faturayı</a> ekleyin ve "Ticari değeri olmayan numune" yazın ve $5 USD değer gösterin.
+			]]>
+		</box1content2>
+		<box2title>Gümrükten Çekme</box2title>
+		<box2content>
+			<![CDATA[
+			Tarafımıza gönderdiğiniz her türlü numunenin gümrük muayenesi gerekir. Gümrükten geçemeyebilecek bazı kalemler:
+			]]>
+		</box2content>
+		<box2linkText>Neleri Gönderemeyeceğinize Bakın [+/-]</box2linkText>
+		<cantShip>
+			<li>all powders</li>
+			<li>all liquids</li>
+			<li>magnetic products</li>
+			<li>gas and oil products</li>
+			<li>videos / CDs / DVDs</li>
+			<li>batteries</li>
+			<li>cosmetics</li>
+			<li>flamable products</li>
+		</cantShip>
+	</tr>
+</document>

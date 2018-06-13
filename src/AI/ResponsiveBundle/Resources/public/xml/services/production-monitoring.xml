@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>Production Monitoring &amp; Quality Control | Process &amp; Product Assurance</en>
+			<ar>	خدمة مراقبة عملية الإنتاج | ضمان المنتج</ar>
+			<es>Servicios de Control de Calidad: Monitoreo de Producción | Asiainspection.com</es>
+			<fr>Contrôle Qualité : Suivi de production, Production monitoring | AsiaInspection.fr</fr>
+			<zh>质量检测服务 ： 生产检测服务 | ChinaInspection.com</zh>
+			<de>Laufende Fertigungsüberwachung und Qualitätssicherung</de>
+			<pt>Servicos de controle de qualidade: Monitoração da produção (PM) | AsiaInspection.pt</pt>
+			<ru>Мониторинг производства и контроль качества | Технологии и гарантия качества продукции</ru>
+			<tr>Üretim Takibi ve Kalite Kontrol | Süreçler ve Ürün Güvencesi</tr>
+			<it>Monitoraggio della Produzione e Controllo della Qualità | Garanzia di Processo e di Prodotto</it>
+		</pageTitle>
+		<pageDesc>
+			<ar>شركة AsiaInspection تقدم خدمة مراقبة جودة المنتجات، إحصل على رحت البال وضمن للمنتج. تعلم المزيد عن خدماتنا هنا </ar>
+			<es>Monitoreo de producción y servicios de inspección en toda mundo.</es>
+			<en>AI provides production monitoring inspection services. For challenging or sensitive orders, have an inspector monitor your production and report back daily.</en>
+			<fr>Surveillance et inspections des services de production à travers.</fr>
+			<zh>AsiaInspection 在中国、印度等亚洲其他国家提供工厂生产检测。确保您的中国供货商及进口货物满意达标。</zh>
+			<ru>Услуги по мониторингу производства.</ru>
+			<de>Einige Fertigungsprozesse sind so kritisch, dass Fehler unmittelbar korrigiert werden müssen. Laufende Fertigungsüberwachung hilft, Qualität zu garantieren.</de>
+			<tr>Üretim takibi muayene hizmetleri.</tr>
+			<it>Servizi di ispezione per il monitoraggio della produzione</it>
+		</pageDesc>
+	</pageMeta>
+
+	<en>
+		<title>Production Monitoring</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">For challenging or sensitive orders, have an inspector monitor your production and report daily to identify and fix problems in real-time.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>Why You Need Production Monitoring: </b> Production Monitoring puts an inspector onsite during the production cycle, representing your interests, to ensure production, materials, quality, schedules are at the level you and your manufacturer initially agreed upon.</p>
+			]]>
+		</subtext2>
+		<whyUsTitle>Neden AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD all-inclusive per man-day]]></li>
+			<li><![CDATA[An inspector onsite within 48 hours<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> and same day reports<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Easy online scheduling with customizable checklists</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</en>
+
+	<es>
+		<title>Monitorización de Producción</title>
+		<subtext>
+			<![CDATA[
+			<p>Para pedidos complicados o que entrañen alguna dificultad, puede utilizar un inspector que monitorice su producción. Recibirá un informe diario que le permitirá identificar y solucionar problemas.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>¿Por qué necesita una Monitorización de Producción?</b>La Monitorización de Producción sitúa al inspector en la fábrica durante el ciclo de producción, y representando sus intereses, confirmará que la producción, los materiales, la calidad y los plazos se cumplen.</p>
+			]]>
+
+		</subtext2>
+		<whyUsTitle>¿Por qué elegir AsiaInspection?:</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[{{priceIA}} USD todo incluido por persona y día]]></li>
+			<li><![CDATA[Un inspector irá a su fábrica en menos de 48 horas<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> y usted recibirá el reporte el mismo día<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Reserve online y cree su protocolo de inspección a medida.</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantiza disponer de un inspector destinado en su fábrica en menos de 48 horas.<br /><br />Este plazo, sin embargo, no garantiza que la fábrica está preparada o que colabore con AsiaInspection. Tampoco está garantizada nuestra presencia debida a factores externos fuera del control de AsiaInspection, como retrasos en el transporte o cualquier otro evento de fuerza mayor.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% de nuestros informes de inspección son enviados el mismo día. Siempre dependiendo de la colaboración por parte de la fábrica durante nuesta visita.
+		</hoverTwo>
+		<schedButton url="/crear-cuenta">¡Empiece ya!</schedButton>
+	</es>
+
+	<zh>
+		<title>生产监测</title>
+		<subtext>
+			<![CDATA[
+			<p>对于具有挑战性的或敏感的订单，可在整个生产过程中安排一个验货员在工厂监测并每日提交报告，以便您实时发现并解决相关问题。</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>为什么您需要进行生产监测：</b> 生产监测让验货员在整个生产周期中都代表您在现场进行监督，以确保生产过程、生产原料、产品质量以及生产进度都达到您与您制造商的原始协议的标准。</p>
+			]]>
+
+		</subtext2>
+		<whyUsTitle>为什么选择 AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[每人每天检验仅需 US${{priceIA}}]]></li>
+			<li><![CDATA[检验人员48小时内<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup>到达现场并当天出具检验报告<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>自定义检验标准，简易在线排程</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection保证将在48小时内派遣验货员到达工厂。<br /><br />但是这个时间期限也有赖于工厂的准备工作是否完成，并且是否与AsiaInspection充分合作。此外，如果遭遇其它不可控因素如交通晚点或其他任何意外事故，该时间期限将不能保证。]]>
+		</hoverOne>
+		<hoverTwo>
+			正常情况下，80%的检验报告都将在检验当天出具。但是，报告是否能当天出具也取决于工厂是否配合。
+		</hoverTwo>
+		<schedButton url="/register">咨询详情</schedButton>
+	</zh>
+
+	<fr>
+		<title>Suivi de production</title>
+		<subtext>
+			<![CDATA[
+			<p>Lors de commandes à risque, un inspecteur contrôle votre production quotidiennement pour identifier et régler les problèmes en temps réel. </p>
+
+			]]>
+		</subtext>
+		<whyUsTitle>Pourquoi AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD tout compris par jour-homme.]]></li>
+			<li><![CDATA[Inspecteur sur site sous 48 heures<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> et rapport le jour même<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Commande en ligne facile et protocole d'inspection personnalisé.</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantit l’intervention d’un inspecteur sur site dans les 48 heures.<br /><br />Cette fenêtre d’intervention est toutefois sujette à la coopération de l’usine et à son niveau de préparation. La garantie ne couvre pas les facteurs indépendants de la volonté d’AsiaInspection, tels que les retards dans les transports, ou tout autre cas de force majeure. ]]>
+		</hoverOne>
+		<hoverTwo>
+			80% des rapports sont remis le jour même de l’inspection. La remise du rapport le jour même dépend de la coopération totale de l’usine.
+		</hoverTwo>
+		<schedButton url="/register">Commencer</schedButton>
+	</fr>
+
+	<ar>
+		<title>خدمة مراقبة عملية الإنتاج</title>
+		<subtext>
+			<![CDATA[
+			<p>للمنتجات ذات الطبيعة الحساسة لدينا مفتشين لمراقبة عملية إنتاج منتجاتك و تقديم تقرير يومي إليك لتساعدك علي تحديد و إصلاح المشاكل في الوقت المناسب</p>
+			<p><b>"لماذا تحتاج إلي خدمة مراقبة عملية الإنتاج : </b>" خدمة مراقبة عملية الإنتاج تضع مفتشآ في الموقع أثناء عملية الإنتاج للإهتمام بالمصالح الخاصة بكو لضمان إن الإنتاج و الواد
+			و الجودة و الجداول الزمنية تطابق الإتفاق الذي تم بينك و بين المورد"</p>
+			]]>
+		</subtext>
+		<whyUsTitle>لماذا شركتنا هي الافضل في هذا المجال</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[سعر الخدمة هو {{priceIE}} دولار امريكي شامل جميع التكاليف في اليوم للمفتش الواحد ]]></li>
+			<li><![CDATA[مفتشنا في الوقع المحدد في أقل من ٤٨ ساعة<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> و التقارير الخاصة بمنتجاتك في نفس اليوم<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>يمكنك تحديد ميعاد للخدمة بكل سهولة عن طريق موقعنا علي الإنترنت</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">إبدأ الحجز الأن</schedButton>
+	</ar>
+
+	<ru>
+		<title>Мониторинг производства</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">В случае трудного или деликатного заказа инспектор может ежедневно проводить мониторинг производства и отсылать вам отчеты, чтобы выявить и устранить проблемы в режиме реального времени.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>Why You Need Production Monitoring: </b> Production Monitoring puts an inspector onsite during the production cycle, representing your interests, to ensure production, materials, quality, schedules are at the level you and your manufacturer initially agreed upon.</p>
+			]]>
+		</subtext2>
+		<whyUsTitle>Почему Вам необходимы услуги именно AsiaInspection?</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[{{priceIA}} долларов США за все аспекты работы в человеко-день]]></li>
+			<li><![CDATA[Инспектор на месте в течение 48 часов<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> и отчет в тот же день<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Удобная форма заказа онлайн с настраиваемыми перечнями</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection гарантирует есть аудитор готов быть на заводе по аудиту в течение 48 часов. <br/> <br/> Этот срок не означает, однако, гарантируют готовность завода или сотрудничества с AsiaInspection. Он также не гарантирует от ограничивающих факторов вне контроля AsiaInspection, таких, как транспорт задержками, или любое событие рассматривается Закон Божий.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% всех аудиторских отчетов доставляется в тот же день. Отчеты доставляются в тот же день зависит от того, полное сотрудничество завода.
+		</hoverTwo>
+		<schedButton url="/register">Регистрация</schedButton>
+	</ru>
+
+	<de>
+		<title>Laufende Fertigungsüberwachung</title>
+		<subtext>
+			<![CDATA[
+			<p>Bei besonders kritischen Lieferungen kann ein Inspektor vor Ort den gesamten Produktionsprozess begleiten und täglich Bericht erstatten.</p>
+			<p><b>Wozu kontinuierliche Fertigungsüberwachung: </b> durch kontinuierliche Produktionskontrollen sind Sie zu jeder Zeit über alle Faktoren informiert, die Ihren Auftrag betreffen. Sie können so schnell eingreifen, wenn es zu Missständen kommt.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Warum AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} pro Manntag all-inclusive]]></li>
+			<li><![CDATA[Vorbuchungsfrist von 48 Stunden<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> und Berichte am gleichen Tag<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Einfaches online-Buchungssystem und vielfältige Optionen zur Anpassung an Ihre Bedürfnisse</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInsepction garantiert, einen Kontrolleur oder einen Auditor bereitzustellen, der innerhalb von 48 Stunden in der Fabrik sein kann.<br /><br />Dieser Zeitrahmen garantiert jedoch in keinem Fall, dass die Fabrik vorbereitet ist oder mit AsiaInspection kooperieren wird. Die Garantie gilt auch nicht auf Faktoren, auf die AsiaInspection keinen Einfluss hat, wie zum Beispiel Transportverzögerungen oder höhere Gewalt.]]>
+		</hoverOne>
+		<hoverTwo>
+			80 % aller Prüfberichte werden noch am selben Tag geliefert. Berichte, die am gleichen Tag geliefert werden sollen, erfordern die  volle Unterstützung der Fabrik.
+		</hoverTwo>
+		<schedButton url="/register">Erste Schritte</schedButton>
+	</de>
+
+	<it>
+		<title>Monitoraggio della produzione</title>
+		<subtext>
+			<![CDATA[
+			<p>Per ordini particolarmente complessi, è consigliabile avere un ispettore in fabbrica per tutta la durata della produzione, per ricevere un report giornaliero, identificare e risolvere eventuali problemi in tempo reale.</p>
+			<p><b>Perché ha bisogno di monitorare la produzione: </b>Un ispettore sarà presente in tutta la fase produttiva assicurandosi che la produzione, la qualità e i materiali utilizzati rispondano ai requisiti stabiliti.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Perché AsiaInspection:</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD tutto compreso al giorno per ispettore.]]></li>
+			<li><![CDATA[Possibilità di avere un ispettore in situ in 48 ore<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> e di ricevere il report lo stesso giorno<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Possibilità di prenotare l'ispezione comodamente online tramite liste di controllo personalizzabili</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantisce la disponibilità di un ispettore pronto per visitare la fabbrica in 48 ore. <br /><br />Questo lasso di tempo, tuttavia, non assicura che la fabbrica sia pronta o cooperi con AsiaInspection. Né assicura ogni eventuale ritardo dovuto a fattori esterni, come ritardi nei trasporti, disastri naturali, ecc...]]>
+		</hoverOne>
+		<hoverTwo>
+			L'80% dei report sono consegnati il giorno stesso. La consegna di un report nello stesso giorno è condizionata da una completa collaborazione da parte della fabbrica.
+		</hoverTwo>
+		<schedButton url="/register">Inizia ora!</schedButton>
+	</it>
+
+	<pt>
+		<title>Monitoração da produção</title>
+		<subtext>
+			<![CDATA[
+			<p>Para pedidos complexos ou confidenciais, recomenda-se a presença de um inspetor na fábrica durante todo o processo de produção, monitorando o seu pedido e informando você diariamente para que possa identificar e corrigir os problemas em tempo real.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Por que usar a AsiaInspection?</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[US${{priceIA}} com tudo incluso por dia de trabalho]]></li>
+			<li><![CDATA[Um inspetor no local em 48 horas<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> and same day reports<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Agendamento fácil com listas de verificação personalizáveis</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[A AsiaInspection garante ter um inspetor ou auditor pronto para se apresentar na fábrica num prazo de 48 horas.<br/><br/> Este prazo não garante, no entanto, a preparação ou cooperação da fábrica com a AsiaInspection. Também não oferece garantias contra fatores limitadores fora do controlo da AsiaInspection, como atrasos de viagem, ou qualquer evento considerado de força maior.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% de todos os relatórios de auditoria são entregues no mesmo dia. Os relatórios entregues no mesmo dia dependem da total cooperação da fábrica.
+		</hoverTwo>
+		<schedButton url="/register">Introdução</schedButton>
+	</pt>
+
+	<tr>
+		<title>Üretim Takibi</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">Zorlu ya da hassas siparişler için, üretiminizi takip edecek ve sorunları gerçek zamanlı belirleyip gidermek için günlük rapor verecek bir denetçiniz olsun.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>Why You Need Production Monitoring: </b> Production Monitoring puts an inspector onsite during the production cycle, representing your interests, to ensure production, materials, quality, schedules are at the level you and your manufacturer initially agreed upon.</p>
+			]]>
+		</subtext2>
+		
+		<whyUsTitle>Neden AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD Her şey dahil fiyatlandırma]]></li>
+			<li><![CDATA[48 seat içinde sahada olan denetçi<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> Aynı gun denetim raporları<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Kolay çevrimiçi hizmet düzenlemeleri</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</tr>
+</document>

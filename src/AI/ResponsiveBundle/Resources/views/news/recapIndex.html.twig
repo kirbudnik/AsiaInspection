@@ -1,0 +1,84 @@
+{% extends '::base.html.twig' %}
+{% block title %}{% trans %}Regulatory Updates - Product Safety Standards &amp; Regulations{% endtrans %}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% else %}AI provides you with regular updates on new product safety standards and regulations to help you keep on top of your products' compliance. Get the latest updates here.{% endif %}{% endblock %}
+{% block pagename %}RegulatoryUpdates{% endblock %}
+{% block body %}
+
+    <div  class="headerbox">
+        <div class="container vcenter_parent wrapper">
+            <div class="col-xs-12 vcenter_parent wrapper paddingLeftZero">
+                <div class="{% if app.request.locale == "ar" %} col-xl-7 col-xl-offset-5 col-lg-7 col-lg-offset-4 {% else %}col-lg-7 col-lg-offset-1 col-xl-offset-0{% endif %}  col-xs-10 col-md-8 col-md-offset-1 col-xs-offset-1 vcenter_parent" id="bigWidth" style="padding-left:0px;padding-right:0px;">
+                    <div class="vcenter {% if isSafari is defined and isSafari==true %}headerTitle{% endif %}" style="display:inline-block;">
+                        <h1 class="mainHeader">{% trans %}Regulatory Updates{% endtrans %}</h1>
+                        <div class="mainSubHeader">{% trans %}AI provides you with regular updates on new product safety standards and regulations to help you keep on top of your products' compliance.{% endtrans %}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container wrapper mainBlock">
+        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-7 col-xl-offset-0 col-xl-8" style="margin-top:20px;background-color:white; padding:20px 20px 0px;">
+            {% for section in Items %}
+                <div style="margin-bottom:20px;">
+                    <div style='padding:10px; background-color:#e3e7ea;'>
+                        <h2>{{section.Title}}</h2>
+                        <div style='margin-bottom:10px;'>{{section.IntroText}}</div>
+                        <div style='position:relative; float:right; width:30%; min-width:120px; max-width:270px; box-sizing:border-box;'>
+                            <a href="/regulatory/{{section.URL}}" class="one-btn btn btn-primary">{% trans %}Read More{% endtrans %}</a>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="col-md-offset-0 col-md-4 smHide" style=" margin-top:20px;">
+            <!-- Contact Us By Phone Box [Begin] -->
+            <div class="offer-box">
+                <h5>{% trans %}Contact Us By Phone{% endtrans %}</h5>
+                <hr />
+                <div class="numers_China_contact" style="display:none;">
+                    <b>{% trans %}Operations{% endtrans %}:</b>
+                    <p>+86 755 2223 9888</p>
+                    <b>{% trans %}Sales{% endtrans %}:</b>
+                    <p>+86 755 2223 9086</p>
+                    <b>{% trans %}Lab Testing{% endtrans %}:</b>
+                    <p>+86 577 6160 3663</p>
+                </div>
+                <b>{% trans %}Phone{% endtrans %}</b>
+                <div class="ui-select">
+                    <p>{% trans %}Contact a local office{% endtrans %}</p>
+                    <select class="ContactNumberSelect2">
+                        {% for region in contacts.Locations.region %}
+                        <option style="background-color:#B31820; font-weight:bold; color:#FFFFFF;" disabled="disabled">{{region.name.en}}</option>
+                        {% for office in region.office %}
+                        <option phone="{{office.number}}" country="{{office.countryCode}}" {% if userCountry==office.countryCode %}selected{% endif %}>{{office.en}}</option>
+                        {% endfor %}
+                        <option disabled="disabled"></option>
+                        {% endfor %}
+                    </select>
+                </div><br />
+                <div class="ContactNumberBox1" style="margin:10px 0px 20px 0px;">
+                    <p>
+                        {% trans %}For any questions you may have:{% endtrans %}<br />
+                        <span class="ContactNumberTollfree1" style="display: none;"><a href="" class="ui-link1"></a><br></span>
+                       <span class="ContactNumberPhone2">
+                            {%for region in contacts.Locations.region%}
+                                {%for office in region.office%}
+                                     {%if userCountry==office.countryCode %}<a href="tel:{{office.number}}" class="ui-link2">{{office.number}}</a>{%endif%}
+                                {%endfor%}
+                            {%endfor%}
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <!-- Contact Us By Phone Box [End] -->
+            <!-- Need More Information Box [Begin] -->
+                {% include 'AIResponsiveBundle:Default:NeedMoreInfo.html.twig' %}
+            <!-- Need More Information Box [End] -->
+        </div>
+    </div>
+
+    <img src="{{assetsDomain}}/images/responsive/headerImages/RegulatoryUpdates_[lg].jpg" alt="Product Safety Standards & Regulations Updates | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+
+{% endblock %}

@@ -1,0 +1,2301 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="homepage_barometer_thumb_title">
+                <source>homepage_barometer_thumb_title</source>
+                <target>AI Q4 Barometre: Manufacturing Peak Season Brings New Quality and Ethical Challenges</target>
+            </trans-unit>
+            <trans-unit id="1">
+                <source>Cookie_Banner_Message</source>
+                <target><![CDATA[We use cookies to enhance your user experience. <a href=\"/conditions-of-service#privacyPolicy_8.5\">Learn more.</a>]]></target>
+            </trans-unit>
+           <trans-unit id="107">
+             <source>homepage-publications-latestWhitepaperTitle</source>
+             <target>Tanıtım Yazısı: What Does Speed to Market Mean for Consumer Safety?</target>
+           </trans-unit>
+           <trans-unit id="Pricing_Zone_A">
+             <source>Pricing_Zone_A</source>
+             <target>A Bölgesi: Çin, Bangladeş, Hindistan, Vietnam, Tayland, Kamboçya, Afrika ve Latin Amerika</target>
+           </trans-unit>
+           <trans-unit id="Pricing_Zone_B">
+             <source>Pricing_Zone_B</source>
+             <target>B Bölgesi: Avrupa, Kuzey Amerika, Büyük Asya ve Brezilya</target>
+           </trans-unit>
+            <trans-unit id="viewIndustryReport">
+                <source>View a Sample Report for Your Industry</source>
+                <target>Endüstrinizden bir Rapor Örneği Görün</target>
+            </trans-unit>
+            <trans-unit id="viewNow">
+                <source>View Now</source>
+                <target>Şimdi Bak</target>
+            </trans-unit>
+            <trans-unit id="downloadNow">
+                <source>Download Now</source>
+                <target>Şimdi İndir</target>
+            </trans-unit>
+
+         <!-- Nav -->
+            <trans-unit id="nav-softlines">
+                <source>nav-softlines</source>
+                <target>Soft Ürünler</target>
+            </trans-unit>
+            <trans-unit id="nav-garments-apparel">
+                <source>nav-garments-apparel</source>
+                <target>Giyim ve Konfeksiyon</target>
+            </trans-unit>
+            <trans-unit id="nav-textiles-fabrics">
+                <source>nav-textiles-fabrics</source>
+                <target>Tekstil ve Kumaşlar</target>
+            </trans-unit>
+            <trans-unit id="nav-footwear">
+                <source>nav-footwear</source>
+                <target>Ayakkabı</target>
+            </trans-unit>
+            <trans-unit id="nav-other-softlines">
+                <source>nav-other-softlines</source>
+                <target>Other Softlines</target>
+            </trans-unit>
+            <trans-unit id="nav-hardlines">
+                <source>nav-hardlines</source>
+                <target>Katı Ürünler</target>
+            </trans-unit>
+            <trans-unit id="nav-cosmetics">
+                <source>nav-cosmetics</source>
+                <target>Kozmetik</target>
+            </trans-unit>
+            <trans-unit id="nav-electrical-electronics">
+                <source>nav-electrical-electronics</source>
+                <target>Elektrik ve Elektronik</target>
+            </trans-unit>
+            <trans-unit id="nav-eyewear">
+                <source>nav-eyewear</source>
+                <target>Gözlük</target>
+            </trans-unit>
+            <trans-unit id="nav-jewelry">
+                <source>nav-jewelry</source>
+                <target>Mücevher</target>
+            </trans-unit>
+            <trans-unit id="nav-promotional-products">
+                <source>nav-promotional-products</source>
+                <target>Promosyon Ürünleri</target>
+            </trans-unit>
+            <trans-unit id="nav-toys-recreational">
+                <source>nav-toys-recreational</source>
+                <target>Oyuncak ve Eğlence Araçları</target>
+            </trans-unit>
+            <trans-unit id="nav-other-hardlines">
+                <source>nav-other-hardlines</source>
+                <target>Other Hardlines</target>
+            </trans-unit>
+            <trans-unit id="nav-food">
+                <source>nav-food</source>
+                <target>Gıda</target>
+            </trans-unit>
+            <trans-unit id="nav-fresh-produce">
+                <source>nav-fresh-produce</source>
+                <target>Taze Mahsul</target>
+            </trans-unit>
+            <trans-unit id="nav-processed-foods">
+                <source>nav-processed-foods</source>
+                <target>İşlenmiş Gıdalar</target>
+            </trans-unit>
+            <trans-unit id="nav-seafood">
+                <source>nav-seafood</source>
+                <target>Deniz Ürünü</target>
+            </trans-unit>
+            <trans-unit id="nav-meat-and-poultry">
+                <source>nav-meat-and-poultry</source>
+                <target>Et ve Kümes Hayvanları</target>
+            </trans-unit>
+            <trans-unit id="nav-beverages">
+                <source>nav-beverages</source>
+                <target>İçecekler</target>
+            </trans-unit>
+            <trans-unit id="nav-food-containers">
+                <source>nav-food-containers</source>
+                <target>Gıda Paketleme</target>
+            </trans-unit>
+            <trans-unit id="nav-tech-parts">
+                <source>nav-tech-parts</source>
+                <target>Teknik Parçalar</target>
+            </trans-unit>
+            <trans-unit id="nav-saso-coc">
+                <source>SASO Certificate of Conformity</source>
+                <target>SASO Certificate of Conformity</target>
+            </trans-unit>
+            <trans-unit id="nav-berries">
+                <source>nav-berries</source>
+                <target>Taze meyve</target>
+            </trans-unit>
+            <trans-unit id="183">
+                <source>Inspection Services</source>
+                <target>Muayene Hizmetleri</target>
+            </trans-unit>
+            <trans-unit id="Log-In">
+                <source>Log In</source>
+                <target>Giriş</target>
+            </trans-unit>
+            <trans-unit id="Our-Services">
+                <source>Our Services</source>
+                <target>Hizmetlerimiz</target>
+            </trans-unit>
+            <trans-unit id="Your-Industry">
+                <source>Your Industry</source>
+                <target>Sektörünüz</target>
+            </trans-unit>
+            <trans-unit id="About-Us">
+                <source>About Us</source>
+                <target>Hakkımızda</target>
+            </trans-unit>
+            <trans-unit id="Careers">
+                <source>Careers</source>
+                <target>Kariyer</target>
+            </trans-unit>
+            <trans-unit id="Contact">
+                <source>Contact</source>
+                <target>İletişim</target>
+            </trans-unit>
+            <trans-unit id="Create-Your-Account">
+                <source>Create Your Account</source>
+                <target>Hesap Oluştur</target>
+            </trans-unit>
+            <trans-unit id="nav-During-Production-Check">
+                <source>During Production Check</source>
+                <target>Üretim Sırasında Kontrol</target>
+            </trans-unit>
+            <trans-unit id="nav-Initial-Production-Check">
+                <source>Initial Production Check</source>
+                <target>İlk Üretim Kontrolü</target>
+            </trans-unit>
+            <trans-unit id="nav-Container-Loading-Check">
+                <source>Container Loading Check</source>
+                <target>Konteyner Yükleme Kontrolü</target>
+            </trans-unit>
+            <trans-unit id="nav-Food-Inspections">
+                <source>Food Inspections</source>
+                <target>Gıda Muayeneleri</target>
+            </trans-unit>
+            <trans-unit id="nav-Supplier-Audit-Programs">
+                <source>Supplier Audit Programs</source>
+                <target>Tedarikçi Denetim Programları</target>
+            </trans-unit>
+            <trans-unit id="nav-Manufacturing-Audits">
+                <source>Manufacturing Audits</source>
+                <target>İmalat Denetimleri</target>
+            </trans-unit>
+            <trans-unit id="nav-Ethical-Audits">
+                <source>Ethical Audits</source>
+                <target>Etik Denetimleri</target>
+            </trans-unit>
+            <trans-unit id="nav-Environmental-Audits">
+                <source>Environmental Audits</source>
+                <target>Çevre Denetimleri</target>
+            </trans-unit>
+            <trans-unit id="nav-Structural-Audits">
+                <source>Structural Audits</source>
+                <target>Yapısal Denetimler</target>
+            </trans-unit>
+            <trans-unit id="nav-Food-Audits">
+                <source>Food Audits (GMP and GHP)</source>
+                <target>Gıda Denetimleri (GMP ve GHP)</target>
+            </trans-unit>
+            <trans-unit id="nav-Lab-Testing-and-Certifications">
+                <source>Lab Testing and Certifications</source>
+                <target>Laboratuvar Testi ve Belgelendirmeler</target>
+            </trans-unit>
+            <trans-unit id="nav-See-Our-Labs">
+                <source>See Our Labs</source>
+                <target>Laboratuvarlarımızı Görün</target>
+            </trans-unit>
+            <trans-unit id="nav-Lab-Testing">
+                <source>Lab Testing</source>
+                <target>Laboratuvar Testi</target>
+            </trans-unit>
+            <trans-unit id="nav-Food-Testing">
+                <source>Food Testing</source>
+                <target>Gıda Testi</target>
+            </trans-unit>
+            <trans-unit id="nav-Quality-Assurance-for-Products">
+                <source>Quality Assurance for Products</source>
+                <target>Ürünler için Kalite Güvencesi</target>
+            </trans-unit>
+            <trans-unit id="nav-Service-Details">
+                <source>Service Details</source>
+                <target>Hizmet Detayları</target>
+            </trans-unit>
+            <trans-unit id="nav-Pricing">
+                <source>Pricing</source>
+                <target>Fiyatlandırma</target>
+            </trans-unit>
+            <trans-unit id="nav-Service-Coverage">
+                <source>Service Coverage</source>
+                <target>Hizmet Kapsamı</target>
+            </trans-unit>
+            <trans-unit id="nav-Reference-Samples">
+                <source>Reference Samples</source>
+                <target>Referans Numuneler</target>
+            </trans-unit>
+            <trans-unit id="nav-footwear-garments-etc">
+                <source>( Footwear, Garments and Apparel, Luggage and Bags, Soft Toys, Textiles and Fabrics )</source>
+                <target>Ayakkabı, Giyim ve Konfeksiyon, Bavul ve Çantalar, Yumuşak Oyuncaklar, Tekstil ve Kumaşlar)</target>
+            </trans-unit>
+            <trans-unit id="nav-electrical-etc">
+                <source><![CDATA[( Electrical &amp; Lighting, Gifts &amp; Premiums, Home &amp; Gardenware, Industrial &amp; Construction, Toys &amp; Recreational )]]></source>
+                <target><![CDATA[(Elektrik ve Aydınlatma, Hediyeler ve Ödüller, Ev ve Bahçe Eşyaları, Endüstriyel ve İnşaat, Oyuncaklar ve Eğlence Araçları)]]></target>
+            </trans-unit>
+            <trans-unit id="nav-Seafood-Meat-etc">
+                <source><![CDATA[( Seafood, Meat &amp; Poultry, Fruits &amp; Vegetables, Canned &amp; Frozen Food, Baby Food, Food Packaging )]]></source>
+                <target>(Deniz ürünü, Et ve Kümes Hayvanları, Sebze ve Meyveler, Konserve ve Dondurulmuş Gıda, Bebek Maması, Gıda Paketleme)</target>
+            </trans-unit>
+            <trans-unit id="nav-Assemblies-etc">
+                <source>nav-Assemblies-etc</source>
+                <target>(Düzenekler ve Kalıplar, Otomobil Parçaları, Makineler, Hassas Aletlerle İşleme)</target>
+            </trans-unit>
+            <trans-unit id="nav-Company-Values">
+                <source>Company Values</source>
+                <target>Şirket Değerleri</target>
+            </trans-unit>
+            <trans-unit id="nav-Accreditations">
+                <source>Accreditations</source>
+                <target>Akreditasyonlar</target>
+            </trans-unit>
+            <trans-unit id="nav-Who-We-Are">
+                <source>Who We Are</source>
+                <target>Biz Kimiz</target>
+            </trans-unit>
+            <trans-unit id="nav-testimonials">
+                <source>Testimonials</source>
+                <target>Referanslar</target>
+            </trans-unit>
+           <trans-unit id="nav-partners">
+                <source>Our Partners</source>
+                <target>Ortaklarımızın </target>
+            </trans-unit>
+            <trans-unit id="nav-news">
+                <source>News &amp; Content</source>
+                <target>Sektör Haberleri</target>
+            </trans-unit>
+           <trans-unit id="nav-latest-news">
+                <source>Latest News</source>
+                <target>Son Haberler</target>
+            </trans-unit>
+            <trans-unit id="nav-sample-reports">
+                <source>Sample Reports</source>
+                <target>Numune Raporları</target>
+            </trans-unit>
+           <trans-unit id="nav-regrecap">
+                <source>Regulatory Updates</source>
+                <target>Mevzuata İlişkin Araştırma</target>
+            </trans-unit>
+            <!-- [End] Nav -->
+         <!--company values page-->
+            <trans-unit id="2">
+                <source>aboutUs-values-title</source>
+                <target>Our Company Values</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>aboutUs-values-subtitle</source>
+                <target>AsiaInspection promotes a corporate culture based on the following 8 values</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>aboutUs-values-v1-title</source>
+                <target>ÖNCE MÜŞTERİ</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>aboutUs-values-v1-subtitle</source>
+                <target>Amacımız müşterilerimizi yaptıkları işte daha başarılı olmalarını sağlamaktır. Öncelikle ve en başta müşterilerimizin saygı ve memnuniyetini kazanmaya karar veriyor ve bu şekilde hareket ediyoruz. Geribildirimlerini istiyor ve dikkatle dinliyoruz.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>aboutUs-values-v2-title</source>
+                <target>DOĞRULUK</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>aboutUs-values-v2-subtitle</source>
+                <target>Güven satıyoruz. Doğruluk ve dürüstlükten ödün vermiyor, yaptığımız her işte etik standartlarını en yüksek seviyede tutuyoruz.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>aboutUs-values-v3-title</source>
+                <target>BİR AİLE ŞİRKETİ</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>aboutUs-values-v3-subtitle</source>
+                <target>İnsanlarımız varlığımızdır. Yeteneğe değer veriyor ve en iyileri çekiyor ve elimizde tutuyoruz. Herkesi kişisel bir sorumluluk duygusu geliştirmeye teşvik ederken, birebir eğitimlerle bireysel gelişimi sağlıyoruz.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>aboutUs-values-v4-title</source>
+                <target>BASİTLİK</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>aboutUs-values-v4-subtitle</source>
+                <target>Sezgisel ve basit çözümler önererek müşterilerimizin denetimlerini kolaylaştırmaya çalışıyoruz.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>aboutUs-values-v5-title</source>
+                <target>ZEKİ YENİLİKÇİLER</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>aboutUs-values-v5-subtitle</source>
+                <target>Değişimi kucaklıyoruz. Yeni teknolojiler ve değerlendirmelere odaklanarak, yüksek başarı standardımızı koruyacak etkin çözümler buluyoruz.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>aboutUs-values-v6-title</source>
+                <target>CESARET</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>aboutUs-values-v6-subtitle</source>
+                <target>Analitik olarak performansımızı ve çıktılarımızı ölçüyoruz ve başarısız olduğumuzda bunu saklamıyoruz. Sorunlarla açık şekilde yüzleşiyoruz ve bunların üstesinden gelmek için çabuk hareket ediyoruz. Geçmişe bakmıyor ya da bahaneler aramıyoruz, ileriye bakıyor ve çözümler buluyoruz.</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>aboutUs-values-v7-title</source>
+                <target>ÇEŞİTLİLİK</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>aboutUs-values-v7-subtitle</source>
+                <target>Farklı kültürlerimizi kucaklıyor ve her birinin sunduklarından en iyisini çıkartıyoruz. Bu bizim hazinemiz.</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>aboutUs-values-v8-title</source>
+                <target>SOSYAL AMAÇ</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-values-v8-subtitle">
+                <source>aboutUs-values-v8-subtitle</source>
+                <target>Ticarete küresel anlamda güven getirmekle, tüketici güvenini ve çalışma koşullarını iyileştirmekle ve yerel uzmanları global standartlarda eğitmekle gurur duyuyoruz.</target>
+            </trans-unit>
+
+          <!-- /accrediation page [start] -->
+            <trans-unit id="aboutUs-accred-title">
+                <source>aboutUs-accred-title</source>
+                <target>Akreditasyonlar</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-subtitle">
+                <source>aboutUs-accred-subtitle</source>
+                <target>AsiaInspection aşağıdaki düzenleyici makamlar ve uluslararası standartlar tarafından ve bunlara uygun olarak ruhsatlandırılmıştır.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-link">
+                <source>aboutUs-accred-link</source>
+                <target>Web sitelerini ziyaret et</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-memberships">
+                <source>aboutUs-accred-memberships</source>
+                <target>Memberships</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-iso-name">
+                <source>aboutUs-accred-iso-name</source>
+                <target>ISO 9001:2008 Sertifikalı</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-iso-desc">
+                <source>aboutUs-accred-iso-desc</source>
+                <target>AsiaInspection protokolleri kalite yönetimi en iyi uygulamaları için uluslararası standart olan 9001:2008 ISO Standardı (No.04610Q11564R0M) ile uyumludur. Bu sertifika ISO gerekliliklerine sıkı sıkıya bağlılığı ve müşteri memnuniyetini arttırma taahhüdünü temsil eder. ISO 9001:2008 Sertifikası 176 ülkede bir milyondan fazla kuruluş tarafından yürürlüğe koyulmuştur.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aqsiq-name">
+                <source>aboutUs-accred-aqsiq-name</source>
+                <target>AQSIQ Lisansı</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aqsiq-desc">
+                <source>aboutUs-accred-aqsiq-desc</source>
+                <target>AsiaInspection Win Halk Cumhuriyeti'nde kalite kontrol hizmetleri gerçekleştirmesi için gerekli olan AQSIQ (Lisans No.134) lisansına sahiptir. Kalite Teftiş, Denetim ve Karantina Genel Yönetimi (AQSIQ) Çin Halk Cumhuriyeti'nde ulusal ithalat/ihracat güvenliği, kalite, onaylama, akreditasyon ve standartlaştırmadan sorumlu kurumdur.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cnas-name">
+                <source>aboutUs-accred-cnas-name</source>
+                <target>CNAS Onayı (ISO17020 ve ISO17025)</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cnas-desc">
+                <source>aboutUs-accred-cnas-desc</source>
+                <target><![CDATA[
+                    AsiaInspection Çin'de muayene ve laboratuvar testleri yürütebilmek için CNAS akreditasyonuna sahiptir (ANSECO Group Hong Kong altında sertifika akreditasyonu (No. CNAS L7805), Wenzhou Merkezi Teftiş Çevre Koruma (No. CNAS IB0199), ve Yajian Ürün Kalite Denetimi, Shenzhen (No. CNAS L3438). Bu akreditasyon AI ve laboratuvarlarının CNAS standartlarını ve CNCA (Çin Halk Cumhuriyeti Sertifikasyon ve Akreditasyon Kurumu) ulusal sertifikasyon düzenlemelerini karşıladığını onaylar.
+                    <br /><br />
+                    AsiaInspection tam metnine burden <a href="http://www.wipo.int/amc/en/domains/statement/panel.html" target="_blank">ulaşılabilen</a> CNAS Bağımsızlık, Tarafsızlık ve Dürüstlük Beyanı'na bağlıdır.
+                    ]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cma-name">
+                <source>aboutUs-accred-cma-name</source>
+                <target>CMA - Çin Metroloji Akreditasyonu</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cma-desc">
+                <source>aboutUs-accred-cma-desc</source>
+                <target>AsiaInspection Çin'de Laboratuvar Testi gerçekleştirmek için zorunlu CMA Akreditasyonuna (No. 2012111018U) sahiptir. Bu akreditasyon AsiaInspection'ın test edilen ürünün/ürünlerin zorunlu kalite ve güvenlik standartlarına uygun olduğunu doğrulayan CMA damgası taşıyan test raporları ve sertifikaları vermesini sağlar. Raporlar Çin'de yasal belgeler olarak kabul edilir.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ifia-name">
+                <source>aboutUs-accred-ifia-name</source>
+                <target>IFIA | Uluslararası Denetleme Acenteleri Federasyonu</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ifia-desc">
+                <source>aboutUs-accred-ifia-desc</source>
+                <target><![CDATA[IFIA dünyanın önde gelen uluslararası test, muayene ve sertifikasyon firmasının 40'ından fazlasını temsil eden kar amacı gütmeyen bir ticaret federasyonudur. IFIA hem kendileri, hem hissedarlarının yararına üyeleri tarafından kullanılan metodlar, standartlar, güvenlik prosedürleri ve kuralların iyileştirilmesini amaçlar.<br /><br />Tüm IFIA üyeliği başvuru sahiplerinin IFIA Uygunluk Kanunu'nu uygulamaya koyması gerekir ve üyelerin uygunluğunun devamlılığı yıllık olarak bağımsız şekilde denetlenir.<br /><br />Uygunluk Kanunu icing bizden bilgi alın ve soru, şikayet ya da geribildirimlerinizi gönderin:<a href="mailto:compliance@asiaInspection.com">compliance@asiaInspection.com.</a>.]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-anab-name">
+                <source>aboutUs-accred-anab-name</source>
+                <target>ANAB</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-anab-desc">
+                <source>aboutUs-accred-anab-desc</source>
+                <target><![CDATA[
+                    AsiaInspection laboratuvarları ANAB onaylı test raporları verebilmek için ANSI-ASQ Unusual Akreditasyon Kurulu tarafından akredite edilmiştir (ANSECO Group altındaki akreditasyon sertifikaları (No. AT-1407) ve ANSECO Group Hong Kong (No. AT-1500)). Bu akreditasyon laboratuvarların test yapılan ananda teknik yeterliliği gösterirken, uluslararası ISO/IEC 17025:2005 standardının gereklelerinin karşılandığını onaylar.
+                    <br /><br />
+                    ANAB (eski adıyla ACLASS) test ve kalibrasyon laboratuvarları, denetim ve sertifikasyon kurumları, referans malzeme imalatçıları ve yeterli testi sağlayıcılarına akreditasyon sağlayan kaç amacı gütmeden bir kurumdur. ANAB akreditasyon çabalarıyla gereksiz denetim ve testleri ortadan kaldırmayı ve mal, hizmet ve çevre güvenliğini sağlarken uluslararası ticareti kolaylaştırmayı amaçlamaktadır.
+                    ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cpsc-name">
+                <source>aboutUs-accred-cpsc-name</source>
+                <target>CPSC (CPSIA)</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cpsc-desc">
+                <source>aboutUs-accred-cpsc-desc</source>
+                <target><![CDATA[
+                    AsiaInspection Tüketici Ürünleri Güvenliğini Geliştirme Yasası (ANSECO Group altındaki sertifika akreditasyonu (iş kanunu 1199), ANSECO Group Hong Kong (iş kanunu 1322), ANSECO Buffalo (iş kanunu 1199) ve HangZhou AsiaInspection Test Teknolojisi  (iş kanunu 1195) gerekliliklerine uygun üçüncü taraf hizmetler sağlaması için CPSC kabulüne sahiptir. 
+                    <br /><br />
+                    40 yıldan uzun bir süre önce kurulan CPSC (ABD Tüketici Ürünleri Güvenlik Kurulu) 1500'ün üzerinde tüketici ürününün imalat ve satışını düzenler. Misyonu güvenlik koşulları oluşturarak, potansiyel tehlikeleri araştırarak, tehlikeli ürünleri yasaklayarak ve geri çağırarak, tüketicileri yangın, elektrik, kimyasal ya da mekanik tehlikeler arz eden ürünlerden korumaktır.
+                    ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-hoklas-name">
+                <source>aboutUs-accred-hoklas-name</source>
+                <target>HOKLAS</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-hoklas-desc">
+                <source>aboutUs-accred-hoklas-desc</source>
+                <target><![CDATA[
+                    AsiaInspection Hong Kong Laboratuvar Akreditasyon Tasarısı (HOKLAS) altındaki Hong Kong Akreditasyon Servisi (HKAS) tarafından akredite edilmiştir. Bizim HKAS akreditasyonumuz bağımsız bir üçüncü taraf resmi kanıttır, HKAS akreditasyonu kapsamına dagil edilen faaliyetleri gerçekleştirme yeterliğimiz bulunmaktadır. HKAS tarafından akredite edilen tüm uygunluk değerlendirme kuruluşlarının kendi akredite faaliyetlerinin kalitesini sağlamak için etkin kalite güvence tedbirleri uygulaması gerekir.
+                    <br /><br />
+                    1985 yılından bu yana çalışan Hong Kong Akreditasyon Servisi Hong Kong'daki laboratuvarlar, sertifikasyon kuruluşları ve denetim kuruluşları için akreditasyon sağlamaktadır. Hedefi uygunluk değerlendirme kuruluşlarının çalışma standartlarını yükseltmek ve karşılıklı tanıma ve onaylama ile uygunluk değerlendirme verimliliğini arttırmaktır.
+                ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-rjc-name">
+                <source>aboutUs-accred-rjc-name</source>
+                <target>RJC</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-rjc-desc">
+                <source>aboutUs-accred-rjc-desc</source>
+                <target><![CDATA[
+                    AsiaInspection RJC Uygulama Kanunu ve Damga Sorumlusu Kaynak Sağlama Protokülü ile uygunluğun kontrol edilmesi için Sorumlu Mücevher Konseyi (RJC) tarafından akredite edilmiştir. RJC akreditasyonu AsiaInspection'ın mücevher imalatı, toptan ve perakende satışında etik denetimleri yürütmek için gerekli deneyim ve uzmanlığa sahip tarafsız bir üçüncü taraf denetleyici olduğunu onaylar.
+                    <br /><br />
+                    Sorumlu Mücevher Konseyi mücevher tedarik zincirinin her adımına dahil olan 800'ün üzerindeki firmayı içeren, kar amacı gütmeyen, standart belirleyen ve sertifika düzenleyen bir kurumdur. RJC Uygulama Kanunu insan hakları, işçi hakları, çevresel etki ve diğer önemli değerlendirmeleri içeren, mücevher tedarik zincirindeki sorumlu iş uygulamalarında uluslararası bir standarttır.
+                ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ics-name">
+                <source>aboutUs-accred-ics-name</source>
+                <target>ICS (Toplumsal Sözleşme İnisiyatifi)</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ics-desc">
+                <source>aboutUs-accred-ics-desc</source>
+                <target><![CDATA[
+                    AsiaInspection tedarikçilerin ICS İş Ahlakı ile uyumunu değerlendiren etik denetimleri yürütmek için akredite edilen, ISC (Toplumsal Sözleşme İnisiyatifi) iş ortağı denetim kuruluşlarından biridir. 
+                    <br /><br />
+                    1998 yılında kurulan ICS evrensel insan hakları ilkeleri ve yerel sosyal düzenlemelerle yönlendirilen, sürdürülebilir şekilde çalışma koşullarının iyileştirilmesi için birlikte çalışan yirmi perakendecinin oluşturduğu bir gruptur. ICS İş Ahlakı tedarikçilerin sosyal performansı ve imalat etiklerinin önemli bölümlerini kapsar.
+                    ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-saso-name">
+                <source>aboutUs-accred-saso-name</source>
+                <target>SASO CoC</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-saso-desc">
+                <source>aboutUs-accred-saso-desc</source>
+                <target><![CDATA[
+                    AsiaInspection Asya ve Avustralya kaynaklı birçok ürün kategorisi için SASO Uygunluk Belgesi (SASO CoC) vermekle yetkili bir ruhsatlandırma kurumu olarak Suudi Sanayi ve Ticaret Bakanlığı tarafından akredite edilmiştir (Sertifika No 0051). Suudi gümrüğünden çekilecek tüm ithal ürünler için CoC zorunludur. 
+                    <br /><br />
+                    Suudi Standartlar, Kalite ve Metroloji Kurumu (SASO) 1972 yılında kurulmuştur, Suudi Arabistan Krallığı içerisindeki ürün ve hizmetler için onaylanmış standartları belirler ve uygulatır.
+                ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-sedex-name">
+                <source>aboutUs-accred-sedex-name</source>
+                <target>Birleşmiş Denetçiler Grubu - Sedex</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-sedex-desc">
+                <source>aboutUs-accred-sedex-desc</source>
+                <target>AsiaInspection küresel tedarik zincirlerinde etik gelişmeleri yürüten hükümet dışı kurumlar ve ticari denetim firmalarından oluşan, kar amacı gütmeyen bir kurum olan Sedex Birleşmiş Denetçiler Grubu'nun (AAG) üyesidir.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-icphso-title">
+                <source>aboutUs-accred-icphso-title</source>
+                <target>ICPHSO</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-icphso-desc">
+                <source>aboutUs-accred-icphso-desc</source>
+                <target>ICPHSO 1993 yılında sağlık ve güvenlik profesyonelleri için global bir forum olarak kurulmuştur. Yıllık sempozyumları ve bölgesel atölyeleri ürün güvenliği sorunları üzerine uluslararası diyaloğu kolaylaştırır ve imalatçı, perakendeci, hükümet dışı kuruluşlar ve diğer tüm paydaşların deneyim paylaştıkları bir alan sunar.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ppai-title">
+                <source>aboutUs-accred-ppai-title</source>
+                <target>Uluslararası Promosyon Ürünleri Birliği</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ppai-desc">
+                <source>aboutUs-accred-ppai-desc</source>
+                <target>AsiaInspection 13000 firmayı bir araya getiren, en eski ve en büyük, kar amacı gütmeyen promosyon ürünleri birliği olan Uluslararası Promosyon Ürünleri Birliği (PPAI) üyesidir. PPAI promosyon ürünleri sektörünün büyümesi ve inovasyonunu teşvik eder, promosyon ürünleri için önde gelen güvenlik ve uygunluk programını yürütür ve sektörün en büyük ticaret fuarı olan yıllık PPAI Expo'yu düzenler.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-astra-title">
+                <source>aboutUs-accred-astra-title</source>
+                <target>ASTRA</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-astra-desc">
+                <source>aboutUs-accred-astra-desc</source>
+                <target>AsiaInspection 1700'den fazla üyesiyle özel oyuncak sektöründeki en büyük birlik olan Amerikan Özel Oyuncak Perakendecilik Birliği (ASTRA) üyesidir. "Oyuna giden yolu göster" misyonlarıyla ASTRA üyelerini destekleyip özel oyuncak sektöründe işbirliğini teşvik ederken, çocuklara güvenli, yüksek oyun değeri olan, yüksek kalitede oyuncaklar sağlamayı taahhüt etmiştir.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-tia-title">
+                <source>aboutUs-accred-tia-title</source>
+                <target>Oyuncak Sektörü Birliği</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-tia-desc">
+                <source>aboutUs-accred-tia-desc</source>
+                <target>AsiaInspection oyuncak ve gençler için eğlence ürünleri yaratan tüm işletmeleri temsil eden, kar amacı gütmeyen bir ticari birlik olan Oyuncak Sektörü Birliği'nin ortak üyesidir. TIA ilk kapsamlı oyuncak standardını 35 yıl önce geliştirmiş ve güvenlik ve insan sevgisine odaklanarak ticari ve yasal sorunlar konusunda sektörün avukatlığını sürdürmektedir.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aafa-title">
+                <source>aboutUs-accred-aafa-title</source>
+                <target>Amerikan Giyim ve Ayakkabı Birliği</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aafa-desc">
+                <source>aboutUs-accred-aafa-desc</source>
+                <target>AsiaInspection 1000'den fazla ünlü isme sahip markanın temsilcisi ve ABD'nin sesi olan Amerikan Giyim ve Ayakkabı Birliği'nin bir üyesidir. giyim ve ayakkabı sektörü. AAFA üyelerine karlılığı arttırmak ve riski azaltmak konusunda akıllı iş kararları almaları için ihtiyaçları olan bilgileri sağlar.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-gscc-title">
+                <source>aboutUs-accred-gscc-title</source>
+                <target>Küresel Tedarik Zinciri Kurulu</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-gscc-desc">
+                <source>aboutUs-accred-gscc-desc</source>
+                <target>AsiaInspection Asya'da muhtemelen B2B tedarik zincirine en güçlü medya, içerik ve teknoloji sağlayıcısı olan Küresel Tedarik Zinciri Kurulu üyesidir. Zincir Medya dünya çapındaki büyük sektör üyelerine raporlama yaparken, tedarik zincirinde kusursuzluk sağlamak için global kapsamıyla sektör deneyimini bir araya getirir.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ciqa-title">
+                <source>aboutUs-accred-ciqa-title</source>
+                <target>Çin Giriş-Çıkış Muayene ve Karantina Birliği</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ciqa-desc">
+                <source>aboutUs-accred-ciqa-desc</source>
+                <target>AsiaInspection Çin'de Kalite Gözetim Denetimi ve Karantina Genel Yönetimi'nin (AQSIQ) idari bir kurumu olan Çin Giriş-Çıkış Muayene ve Karantina Birliği (CIQA) adına hareket etmek için resmi vekalete sahiptir.  CIQA esas olarak ithal ve ihraç mallarının kalite ve güvenliğinin geliştirilmesini taahhüt etmektedir.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-apsca-title">
+                <source>aboutUs-accred-apsca-title</source>
+                <target>Profesyonel Sosyal Uygunluk Denetçileri Birliği (APSCA)</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-apsca-desc">
+                <source>aboutUs-accred-apsca-desc</source>
+                <target>AsiaInspection dünya genelinde iş koşullarının iyileştirilmesi için bağımsız sosyal uygunluk denetimlerinin kullanımının teşvik edilmesi için oluşturulmuş, uygulayıcıların yönetttiği bir inisiyatif olan Profesyonel Sosyal Uygunluk Denetçileri Birliği (APSCA) üyesidir. APSCA'nın misyonu bağımsız sosyal uygunluk denetimleri yapan birey ve kurumların profesyonelliğini, tutarlılığını ve güvenilirliğini arttırmaktır.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fcchk-title">
+                <source>aboutUs-accred-fcchk-title</source>
+                <target>French Chamber of Commerce Hong Kong</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fcchk-desc">
+                <source>aboutUs-accred-fcchk-desc</source>
+                <target>The French Chamber is the largest European Chamber in Hong Kong. With more than 900 members of various nationalities, our mission is to contribute to developing and fostering business relations between France and Hong Kong. The Chamber offers 15 business-oriented committees and organizes over 70 events per year.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fccchina-title">
+                <source>aboutUs-accred-fccchina-title</source>
+                <target>French Chamber of Commerce China</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fccchina-desc">
+                <source>aboutUs-accred-fccchina-desc</source>
+                <target>The French Chamber of Commerce represents a network of more than 1,511 member organizations doing business in China. The Chamber’s main mission is to help companies succeed in China through information, networking and business support services. The French Chamber is a non-profit organization, governed by a steering committee of 30 members.</target>
+            </trans-unit>
+          <!-- /accrediation page [start] -->
+
+            <trans-unit id="30">
+                <source>Read More</source>
+                <target>Devamını Oku</target>
+            </trans-unit>
+
+          <!--/testimonials-->
+            <trans-unit id="46">
+                <source>aboutUs-test-title</source>
+                <target>Referanslar</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>aboutUs-test-subtitle</source>
+                <target><![CDATA["In support of its high standards for social responsibility and conduct, the Boy Scouts of America uses AsiaInspection to conduct social compliance audits to ensure that our supplier network abides by the highest health, social and safety standards."<hr align="left" style="color:white; width:80%; border-width:2px;">Global Sourcing<br />Boy Scouts of America]]></target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>aboutUs-test-test1-quote</source>
+                <target>"Designs for Hope is a non-profit whose goal is to provide sustainable electricity, clean water and technology to the world’s poorest with a unique challenge: to provide an extremely long-lasting low cost product while only working with manufacturers who pay their employees a fair wage and provide safe working conditions. With their onsite audits, AsiaInspection ensures we only work with suppliers who provide a safe working environment and who meet the highest social standards."</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>aboutUs-test-test1-who</source>
+                <target><![CDATA[Executive Director<br><b>Designs for Hope</b><br/><a href="http://www.designsforhope.org/" target="_blank">www.designsforhope.org</a><br>]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-test-abbyshot-quote">
+                <source>aboutUs-test-abbyshot-quote</source>
+                <target>"Four years ago, we started working with the AsiaInspection team and we quickly learned that they always go above and beyond for their clients.They became our dedicated boots on the ground extension team, for our quality control and offered us flexibility and versatility in customizing our inspection needs. We have a global reputation for making the best screen-accurate clothing - a reputation earned by near-obsessive attention to the details of garment accuracy, quality, and durability. Thank you to the AsiaInspection team who empower us to surpass these expectations with each and every inspection!"</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-test-abbyshot-who">
+                <source>aboutUs-test-abbyshot-who</source>
+                <target><![CDATA[Risk Manager<br /><b>AbbyShot Clothiers</b><br /><a href="http://www.abbyshot.com" target="_blank">www.abbyshot.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>aboutUs-test-test2-quote</source>
+                <target>"We have been extremely pleased with the quality of service received from AsiaInspection. Timely and detailed reports leave nothing to question; the user-friendly online platform is efficient and uncomplicated, making it easy to book and manage our quality control process online. Our dedicated account manager provides unparalleled service and is a true supply chain partner. We look forward to continue working with AsiaInspection!"</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>aboutUs-test-test2-who</source>
+                <target><![CDATA[President/CEO<br><b>AVID Products</b><br/><a href="http://www.avidproducts.com" target="_blank">www.avidproducts.com</a><br>]]></target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>aboutUs-test-test3-quote</source>
+                <target>"If you need a service that is second to none, AsiaInspection can help your company move forward quickly. Making a booking with AsiaInspection could not be easier using their online booking service. The reports I receive are very detailed and help me to make sure that I never get shipped any partial shipments or sub-standard products. In business little things make a big difference and AsiaInspection fully understand our needs."</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>aboutUs-test-test3-who</source>
+                <target><![CDATA[Head Buyer<br /><b>Garden Buildings Direct</b><br /><i>The UK's #1 Garden Buildings Retailer</i><br /><a href="http://www.gardenbuildingsdirect.co.uk" target="_blank">www.gardenbuildingsdirect.co.uk</a><br />]]></target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>aboutUs-test-test4-quote</source>
+                <target>"AsiaInspection has truly been our eyes in the factory. Full integration into our business has meant that any inspection performed follows our exact specifications and guidelines. This has allowed us to improve our product quality and safeguard our quality control process. In addition, the online booking and same day reporting provide us with greater flexibility to manage quality control throughout production and shipment."</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>aboutUs-test-test4-who</source>
+                <target><![CDATA[Account Manager<br><b>Urban Leisure</b><br/>Hard Good Leisure Specialists<br><a href="http://www.macvad.com/urban-leisure.html" target="_blank">www.macvad.com</a><br>]]></target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>aboutUs-test-test5-quote</source>
+                <target>"Just the mention of AsiaInspection got me instant results. When I told my factory representative in China that I was sending in a team from AsiaInspection,the agent hesitated and then reluctantly admitted that there was no factory, despite pictures of a busy factory on their website. Lesson learned, I never start production without sending AsiaInspection in first. As a result, I now have a good relationship with an inspired representative and a trusted new factory. My sincere thanks for the peace of mind and security you give me. I truly feel you protect me and my business interests."</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>aboutUs-test-test5-who</source>
+                <target><![CDATA[Director<br><b>Audio Traveler</b><br><i>Leading Producers of City Audio Guides</i><br/><a href="http://www.audiotraveler.com" target="_blank">www.audiotraveler.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>aboutUs-test-test6-quote</source>
+                <target>"Thank you for helping us with our factory, social compliance and C-TPAT audits and getting the reports to us so quickly.  I really enjoy working with AsiaInspection. Your service is top notch!"</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>aboutUs-test-test6-who</source>
+                <target><![CDATA[Quality Manager<br><b>Bob Barker Company</b><br><i>Leading supplier of apparel & home textiles</i><br/><a href="http://www.bobbarker.com" target="_blank">www.bobbarker.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>aboutUs-test-test7-quote</source>
+                <target>"As a Quality Manager, I recognize the necessity of timely and accurate inspection reports. When it comes to AsiaInspection, the professionalism of their staff, the promptness of communication and the rich detail included in every report are exactly what I need to stay on top of every aspect of my production.  Without hesitation I have and will continue to recommend your services to my peers and colleagues."</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>aboutUs-test-test7-who</source>
+                <target><![CDATA[Quality Manager<br><b>Unger Enterprises Inc.</b><br><i>Quality Tools for Smart Cleaning</i><br/><a href="http://www.ungerglobal.com" target="_blank">www.ungerglobal.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>aboutUs-test-test8-quote</source>
+                <target>"I have worked with several inspection and auditing agencies over the past 20 years and I have never experienced one that is more professional and efficient than AsiaInspection! Not only are their inspectors qualified and professional, their management team is always available to help you with any concerns or with any assistance you may need. They complete the inspections and audits on time and results are available very quickly! Their reports are clear with very good visual aids. When they say "Your Eyes in the Factory", they really mean it. I highly recommend AsiaInspection."</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>aboutUs-test-test8-who</source>
+                <target><![CDATA[Director<br><b>Fox Run Brands</b><br><i>Leading supplier of kitchen products</i><br/><a href="http://www.foxrunbrands.com" target="_blank">www.foxrunbrands.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>aboutUs-test-test9-quote</source>
+                <target><![CDATA[
+                    "I would like to take this opportunity to thank AsiaInspection for the exceptional service I have received since we first began to work together.(...)
+                    There is no way on earth that I could possibly look after our company's quality control needs the way in which your company can.(...)
+                    The reports are very professional and we now send them to our customers to show them their actual product being inspected. I would recommend AsiaInspection to any company producing product overseas.
+                    Thank you and every one at AsiaInspection for helping me sleep through the night again without worrying about quality control issues in China.<br>
+                    Best regards,"]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>aboutUs-test-test9-who</source>
+                <target><![CDATA[Senior Vice President<br><b>HeadzGamez</b><br><i>North America Sport Board Games company</i><br/><a href="http://griddlygames.strikingly.com" target="_blank">griddlygames.strikingly.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>aboutUs-test-test10-quote</source>
+                <target><![CDATA[
+                    "Dear AsiaInspection team,<br>
+                    Many thanks for your two recent detailed report concerning inspection at XXXXXXX factory. This is very helpful to make decision. I just wanted to let you know that as we have many quality and delivery issues with this manufacturer, will certainly discontinue commercial relationship with this factory very soon, and transfer production to XXXXXXX factory at Chaozhou where relationship and quality is constantly improving. Thanks a lot for your support and accurate analysis every time.<br>
+                    Warm regards."]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>aboutUs-test-test10-who</source>
+                <target><![CDATA[Buyer<br><b>Allibert</b><br/><i>European leader in Homeware products</i><br/><a href="http://www.allibert.fr" target="_blank">www.allibert.fr</a>]]></target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>aboutUs-test-test11-quote</source>
+                <target>"Part of our activity involves purchasing promotional products in Asia. We are very conscious of the risks but cannot perform the assessments ourselves: we need a partner we can trust. We use AsiaInspection to control our production and we're very satisfied so far. They have proved very efficient and the quality of their interactive reports is amazing. Their service allows us to prevent problems before they occur and to inform our customers in time. They are really making our business with Asia safer!"</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>aboutUs-test-test11-who</source>
+                <target><![CDATA[Sales Director<br><b>Fotorama UK Ltd</b><br><i>UK Promotion Agency</i><br/><a href="http://www.fotorama.co.uk" target="_blank">www.fotorama.co.uk</a>]]></target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>aboutUs-test-test12-quote</source>
+                <target>"Five years ago we completely outsourced our quality inspection in Asia to AsiaInspection. Together, we have designed a tailor-made inspection program, specific to our lamps &amp; lighting equipment. AsiaInspection has dedicated a specialized and well-trained team to inspect our products and audit our factories. It is almost as if they were part of our company, except they gather the information for us and let us make informed decisions?AsiaInspection is definitely the partner we were looking for to enhance our business in Asia."</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>aboutUs-test-test12-who</source>
+                <target><![CDATA[Purchasing Manager<br><b>COREP</b><br><i>Leading French importer of lamps &amp; lighting equipment</i><br/><a href="http://www.corep.com" target="_blank">www.corep.com</a>]]></target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>aboutUs-test-test13-quote</source>
+                <target>"AsiaInspection has been amazing for Bamko thus far.  The quality of their report and the overall customer service we have received from our account manager has been incredible."</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>aboutUs-test-test13-who</source>
+                <target><![CDATA[President<br><b>Bamko Promotional Items</b><br><i>U.S. Promotional merchandise importer</i><br/><a href="http://www.bamko.net" target="_blank">www.bamko.net</a>]]></target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Contact a local office</source>
+                <target>Contact a local office</target>
+            </trans-unit>
+            <!-- Homepage - START -->
+            <trans-unit id="75">
+                <source>homepage_video_header</source>
+                <target>Global Ticaret için Güven ve Ahlaki Standartları Getiriyoruz</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>homepage_video_subheading</source>
+                <target>AI küresel markalar, perakendeciler ve ithalatçıların tedarik zincirlerini güvenceye almaları ve yönetmeleri için sahada denetim programları, ürün denetimleri ve laboratuvar testleri yürütmektedir.</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>homepage_video_get_started_button</source>
+                <target>Başla</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>homepage_video_create_free_account</source>
+                <target>Ücretsiz Hesabınızı Oluşturun ve Hizmeti Deneyin</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>homepage_mobile_management_title</source>
+                <target>Çevrimiçi ve Mobil Yönetim</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>homepage_mobile_management_text</source>
+                <target><![CDATA[Ürün ve tedarikçi uyumunuzu çevrimiçi hesabınızdan yönetin. <a href="/app" style="font-size:1em; display:inline-block;">İş başındayken AI uygulamasını</a> kullanın!]]></target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>homepage_leading_turnaround_title</source>
+                <target>Önemli Geri Dönüş ve Esneklik</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>homepage_leading_turnaround_text</source>
+                <target>48 saat içinde yerinde. Aynı gün raporlar. Önceki gün saat 16:00'ya kadar iptal.</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>homepage_chain_intelligence_title</source>
+                <target>Tedarik Zinciri İstihbaratı</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>homepage_chain_intelligence_text</source>
+                <target>Yüksek performanslı tedarikçilerinizi değerlendirmek ve belirlemek için gerçek zamanı kontrol panelinizi kullanın.</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>homepage_product_expertise_title</source>
+                <target>Ürün Ekspertizi</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>homepage_product_expertise_text</source>
+                <target>1000'in üzerinde hazır, kişiselleştirilebilir ürüne özel denetim kontrol listeleri.</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>homepage_watch_a_demo</source>
+                <target>Bir Demo İzleyin</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>homepage_services_1</source>
+                <target>AsiaInspection hedef piyasanız için, ürün ve tedarikçilierinizin tüm güvenlik ve performans standartlarını karşılaması için endüstriye göre uzmanlaşmış %total_Inspectors%'ün üzerinde müfettiş, denetçi ve laboratuvar uzmanına sahiptir.</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>homepage_services_2</source>
+                <target>Yüzlerce kişiselleştirilebilir denetim kontrol listelerine çevrimiçi erişin, kaynağında uygunluğu sağlamak için ürün güvenliği gereksinimleriniz ve tedarikçi denetim programları hakkında uzman tavsiyesi alın.</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>homepage_assurance_title</source>
+                <target>Tedarik Zinciriniz iyi ellerde</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>homepage_assurance_global</source>
+                <target><![CDATA[<span class="sliderTextHighlight">%total_Client_Countries%</span> ülkeden global perakendeci, marka ve ithalatçının güvendiği isim.]]></target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>homepage_assurance_staff</source>
+                <target><![CDATA[Dünya çapında %total_Offices% ofis. <span class="sliderTextHighlight">%total_Operating_Countries% ülkede çalışan %total_Staff% </span>.]]></target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>homepage_assurance_factories</source>
+                <target><![CDATA[AI her yıl <span class="sliderTextHighlight">1.6 milyon</span> işçinin çalıştığı fabrikaları denetlemektedir.]]></target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>homepage_assurance_defects</source>
+                <target><![CDATA[2017 denetimleri boyunca <span class="sliderTextHighlight">2,012,564 kusur</span> bulunmuş ve raporlanmıştır.]]></target>
+            </trans-unit>
+            <trans-unit id="Latest-Publications">
+                <source>Latest Publications</source>
+                <target>En Son Yayınlar</target>
+            </trans-unit>
+            <trans-unit id="SimplePricing">
+                <source>Simple, All-Inclusive Pricing</source>
+                <target>Basit, Her Şey Dahil Fiyatlandırma</target>
+            </trans-unit>
+            <trans-unit id="Book-Now">
+                <source>Book Now</source>
+                <target>Şimdi Kayıt Ol</target>
+            </trans-unit>
+            <trans-unit id="home-assembly">
+                <source><![CDATA[Assemblies &amp; Molds]]></source>
+                <target>Düzenekler ve Kalıplar</target>
+            </trans-unit>
+            <trans-unit id="home-auto-parts">
+                <source>Automotive Parts</source>
+                <target>Otomobil Parçaları</target>
+            </trans-unit>
+            <trans-unit id="home-Machinery">
+                <source>Machinery</source>
+                <target>Makineler</target>
+            </trans-unit>
+            <trans-unit id="home-Precision-Tooling">
+                <source>Precision Tooling</source>
+                <target>Hassas Aletlerle İşleme</target>
+            </trans-unit>
+            <!-- Homepage - END -->
+            <trans-unit id="108">
+                <source>news_meta_title</source>
+                <target>Tedarik Zinciri Kalite Kontrolü – Sektör Haberleri | AsiaInspection</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>news_meta_desc</source>
+                <target>AsiaInspection haberleri tedarik zinciri kalite kontrolündeki en son haberleri içerir. Sektör güncellemelerini, üç aylık raporları ve kalite kontrol liderlerinden daha fazlasını bulun.</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>news_meta_keys</source>
+                <target>tedarik zinciri sektör haberleri, kalite kontrol haberleri</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>news_header_title</source>
+                <target>Tedarik Zinciri Kalite Kontrolü – Sektör Haberleri</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>news_header_subtitle</source>
+                <target>AsiaInspection (AI) dünyanın önde gelen kalite kontrol ve uygunluk hizmet sağlayıcısıdır. Markalar, perakendeciler ve ithalatçıların tedarik zincirlerini güvenceye almak, yönetmek ve optimize etmek için ortaklık kuruyoruz. Burada sektör güncellemelerini, üç aylık raporları ve kalite kontrol sektöründeki en son haberleri bulabilirsiniz.</target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.title">
+                <source>Inspections.Benefits.title</source>
+                <target>AI Faydaları</target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.whyUsTitle">
+                <source>Inspections.Benefits.whyUsTitle</source>
+                <target>Neden AsiaInspection</target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.whyUsList">
+                <source>Inspections.Benefits.whyUsList</source>
+                <target><![CDATA[
+                    <li>Her şey dahil fiyatlandırma</li>
+                    <li>48 seat içinde sahada olan denetçi<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> <li>Aynı gun denetim raporları<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup></li>
+                    <li>Kolay çevrimiçi hizmet düzenlemeleri</li>
+                ]]></target>
+            </trans-unit>
+            <trans-unit id="Audits.Benefits.whyUsList">
+                <source>Audits.Benefits.whyUsList</source>
+                <target><![CDATA[
+                    <li>Her şey dahil fiyatlandırma (Denetçi masrafları için ekstra tahsilat yok)</li>
+                    <li>Ayrıntılı ve işleme sokulabilir raporlar ve Temel Performans Göstergesi raporlaması</li>
+                    <li>48 saat içinde tesiste olacak bir denetçi <sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup></li>
+                    <li>İnternet üzerinden kolay hizmet planlama: İnternet hesabınızın ve Al mobil uygulamasının verdiği rahatlıkla denetimleri planlamak ve raporları kontrol etmek</li>
+                ]]></target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.hoverOne">
+                <source>Inspections.Benefits.hoverOne</source>
+                <target><![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]></target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.hoverTwo">
+                <source>Inspections.Benefits.hoverTwo</source>
+                <target>80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.</target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.whyUse.reason">
+                <source>Inspections.Benefits.whyUse.reason</source>
+                <target><![CDATA[
+            <p style="padding-bottom:5px;"><b>Supply Chain!&reg;'deki Gözleriniz</b> - Tedarik zincirinde sizin iş çıkarlarınızı korumak için sizin tarafınızda çalışan, bağımsız, sertifikalı ve lisanslı bir tedarikçi denetimi firmasıdır.</p>
+            <p style="padding-bottom:5px;"><b>Kalite Kontrol Sürecinizi İnternet Üzerinden Yönetin</b> - Ücretsiz bir hesap oluşturun, denetimleri internet üzerinden planlayın, ödemeleri düzenleyin ve elektronik ortamda ayrıntılı denetim raporunuzu alın.</p>
+            <p style="padding-bottom:5px;"><b>STeknik Uzmanlıkafer</b> - En yüksek kalite denetimlerini sunmak amacıyla, her denetçi denetim türüne göre uzmanlaşmıştır ve zorunlu derinlemesine eğitimler almakta ve sıkı kurum içi denetimlere tabi tutulmaktadır.</p>
+            <p style="padding-bottom:5px;"><b>Hız ve Esneklik</b> - Asya'da 48 saat içinde her fabrikada olabileceğimizi garanti ediyoruz.<sup class="hoverText" cargo="txtFastReport"><a href="javascript://">[2]</a></sup> Müşteriler, planlanan denetim tarihinden önceki gün saat 16:00'ya (Çin yerel saati ile) kadar siparişlerinde değişiklik yapabilir veya siparişlerini iptal edebilirler.</p>
+            <p style="padding-bottom:5px;"><b>Kapsamlı Denetim Raporları</b> - Olguların %80'inde denetimle aynı günde teslim edilir. Her rapor ayrıntılı resimleri içerir; denetçinin gördüğünü görürsünüz.</p>
+                ]]></target>
+            </trans-unit>
+            <trans-unit id="Audits.Benefits.whyUse.reason">
+                <source>Audits.Benefits.whyUse.reason</source>
+                <target><![CDATA[
+                    <p style="padding-bottom:5px;"><b>Supply Chain!&reg; deki Gözleriniz</b> - Tedarik zincirinde sizin iş çıkarlarınızı korumak için sizin tarafınızda çalışan, bağımsız, sertifikalı ve lisanslı bir tedarikçi denetimi firmasıdır.</p>
+                    <p style="padding-bottom:5px;"><b>Kalite Kontrol Sürecinizi İnternet Üzerinden Yönetin</b> -  Ücretsiz bir hesap oluşturun, denetimleri internet üzerinden planlayın, ödemeleri düzenleyin ve elektronik ortamda ayrıntılı denetim raporunuzu alın.</p>
+                    <p style="padding-bottom:5px;"><b>Teknik Uzmanlık</b> - En yüksek kalite denetimlerini sunmak amacıyla, her denetçi denetim türüne göre uzmanlaşmıştır ve zorunlu derinlemesine eğitimler almakta ve sıkı kurum içi denetimlere tabi tutulmaktadır.</p>
+                    <p style="padding-bottom:5px;"><b>Kapsamlı Denetim Programlar</b> -  Al sizi çalışmaya başladığınız her yeni tedarikçiyi onaylamaya yönelik global denetim programlarını uygulamanızda destekleyebilir. Her rapor fabrika kayıtlarının, yönetim mülakatlarının ve görüntülerin kopyalarını içerir -- Böylece, tedarikçinizin eksiksiz bir profilini sağlar.</p>
+                ]]></target>
+            </trans-unit>
+
+            <trans-unit id="Inspections.Benefits.whyUse.hoverOne">
+                <source>Inspections.Benefits.whyUse.hoverOne</source>
+                <target><![CDATA[80% of all inspection reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.]]></target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.Title">
+                <source>Benefits.LabTests.Title</source>
+                <target>Why AI Labs?</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.One">
+                <source>Benefits.LabTests.WhyList.One</source>
+                <target>Global service coverage (%total_Operating_Countries% countries)</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Two">
+                <source>Benefits.LabTests.WhyList.Two</source>
+                <target>Leading industry turnaround (under 48 hours for 80% of tests)</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Three">
+                <source>Benefits.LabTests.WhyList.Three</source>
+                <target>Extensive range of tests (over 6,000)</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Four">
+                <source>Benefits.LabTests.WhyList.Four</source>
+                <target>Online test selection and booking</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Five">
+                <source>Benefits.LabTests.WhyList.Five</source>
+                <target>Real-time dashboard and mobile access</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Six">
+                <source>Benefits.LabTests.WhyList.Six</source>
+                <target>Dedicated account manager</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Seven">
+                <source>Benefits.LabTests.WhyList.Seven</source>
+                <target>Technical guidance and access to latest regulatory updates</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.LearnMore">
+                <source>Benefits.LabTests.LearnMore</source>
+                <target>Learn more about how we can help addressing product safety compliance needs for your industry:</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.ChildrenProducts">
+                <source>Benefits.LabTests.CatLink.ChildrenProducts</source>
+                <target>Children’s Products</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Promotional">
+                <source>Benefits.LabTests.CatLink.Promotional</source>
+                <target>Promotional Products</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Food">
+                <source>Benefits.LabTests.CatLink.Food</source>
+                <target>Food Contact Items</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Hardlines">
+                <source>Benefits.LabTests.CatLink.Hardlines</source>
+                <target>Katı Ürünler</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Textiles">
+                <source>Benefits.LabTests.CatLink.Textiles</source>
+                <target>Textiles</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Jewlery">
+                <source>Benefits.LabTests.CatLink.Jewlery</source>
+                <target>Jewelry</target>
+            </trans-unit>
+            <trans-unit id="nav.supplyChainInsights">
+                <source>White Papers</source>
+                <target>Tanıtım Yazısı</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-title1">
+                <source>benefitsBox-title1</source>
+                <target>Ürün ve Tedarikçi Uyumu için Neden AI?</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-ourBenefits">
+                <source>benefitsBox-ourBenefits</source>
+                <target>AI Faydaları</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-onlineManagement">
+                <source>benefitsBox-onlineManagement</source>
+                <target><![CDATA[<b>Comprehensive Online Management</b> - complete reports stored in your online account for quick decisions.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-flexibility">
+                <source>benefitsBox-flexibility</source>
+                <target><![CDATA[<b>Leading Turnaround & Flexibility</b> - reports uploaded the same day as the Inspection.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-globalCoverage">
+                <source>benefitsBox-globalCoverage</source>
+                <target><![CDATA[<b>Global Coverage</b> - a presence in all main production regions.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-expertInspectors">
+                <source>benefitsBox-expertInspectors</source>
+                <target><![CDATA[<b>Expert Inspector Teams</b> - our inspectors are highly trained agriculture professionals with years of experience in the field.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-industryExpertise">
+                <source>benefitsBox-industryExpertise</source>
+                <target><![CDATA[<b>Industry Expertise</b> - we are fully equipped to inspect every kind of produce, including berries.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-strictSampling">
+                <source>benefitsBox-strictSampling</source>
+                <target><![CDATA[<b>Strict Sampling Procedures</b> - our inspection protocols ensure representative sample collection and in-depth produce inspection.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-supplyIntelligence">
+                <source>benefitsBox-supplyIntelligence</source>
+                <target>Tedarik zinciri istihbaratı: tedarikçi ve kalite istatistiklerini gerçek zamanlı alın</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-leadingTurnaround">
+                <source>benefitsBox-leadingTurnaround</source>
+                <target>Denetim, test ve muayeneler için sektör lideri geri dönüş</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-onlineMobile">
+                <source>benefitsBox-onlineMobile</source>
+                <target>Çevrimiçi ve mobil: her an, her yerde siparişlerinizi yönetim ve verilerinize ulaşın</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-allIncPricing">
+                <source>benefitsBox-allIncPricing</source>
+                <target>Her şey dahil fiyatlandırma: muayene ve denetimler için sabit fiyatlar; testler için anında teklifler</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-totals">
+                <source>benefitsBox-totals</source>
+                <target>%total_Operating_Countries% ülkede %total_Inspectors% denetçi ve müfettiş, %total_Labs% tesis içi laboratuvar ve operasyonlar</target>
+            </trans-unit>
+            <trans-unit id="registration-sidebar-client-trust">
+                <source>registration-sidebar-client-trust</source>
+                <target>Trusted by 6,000+ clients in over 120 countries</target>
+            </trans-unit>
+                    <!-- QC in China -->
+            <trans-unit id="qcinchina-title">
+                <source>qcinchina-title</source>
+                <target>Quality Control in China</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-subtext">
+                <source>qcinchina-subtext</source>
+                <target>AsiaInspection offers Product Inspections, Supplier Audits and Lab Testing in all of China. We guarantee an inspector on-site within 48 hours of your order.</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-qcsevices">
+                <source>qcinchina-qcsevices</source>
+                <target>Quality Control Services in China</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-qcsevices-subtext">
+                <source>qcinchina-qcsevices-subtext</source>
+                <target>Today, China is Asia's major manufacturing powerhouse and a prime sourcing destination for brands and retailers worldwide. Globally, "made in China" is no longer always synonymous with poor quality, but effective quality control mechanisms remain a priority for any business looking to secure their supply chain.</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-qcsevices-subtext1">
+                <source>qcinchina-qcsevices-subtext1</source>
+                <target><![CDATA[With offices and labs in Hong Kong, Guangdong, Sichuan, Zhejiang, AI performs <a href="/pre-shipment-inspection">product inspections</a>, <a href="/quality-control-services/laboratory-testing">lab testing</a> and <a href="/manufacturing-audit">supplier audits</a> in all of China, helping you ensure product quality, avoid supply chain disruptions and protect your brand reputation.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-supplierAudit-title">
+                <source>qcinchina-supplierAudit-title</source>
+                <target>Supplier Audits in China</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-supplierAudit-subtext">
+                <source>qcinchina-supplierAudit-subtext</source>
+                <target><![CDATA[AI's highly qualified auditors can conduct <a href="/manufacturing-audit">Manufacturing</a>, <a href="/ethical-audit">Ethical</a>, <a href="/structural-audits">Structural</a>, <a href="/environmental-audit">Environmental</a> and <a href="/c-tpat-compliance">C-TPAT</a> audits of your Chinese suppliers' factories, helping you engage with capable and ethical suppliers. AI conducts audits to a number of international standards, our own Best-in-Class protocol or your in-house requirements.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-supplierAudit-subtext1">
+                <source>qcinchina-supplierAudit-subtext1</source>
+                <target>AI Supplier Audits in China help you:</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-supplierAudit-list">
+                <source>qcinchina-supplierAudit-list</source>
+                <target><![CDATA[
+                    <li>Protect your brand against operational and ethical risks</li>
+                    <li>Ensure safe and ethical working conditions in your supply chain</li>
+                    <li>Get a comprehensive profile of your Chinese supplier – before you give them your business</li>]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-labTesting">
+                <source>qcinchina-labTesting</source>
+                <target>Lab Testing in China</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-labTesting-subtext">
+                <source>qcinchina-labTesting-subtext</source>
+                <target><![CDATA[AI operates four testing labs in Hong Kong, Hangzhou and Wenzhou which are fully accredited to perform a wide range of tests on products in China. AI labs offer over 6,000 tests in a number of categories, including <a href="/industry-softline">softlines</a>, <a href="/industry-hardline">hardlines</a>, <a href="/testing/eyewear">eyewear</a>, promotional items, textiles, <a href="/testing/garments-apparel">apparel</a>, <a href="/testing/toy-safety-and-lab-testing">toys and children's products</a>, and more.]]></target>
+            </trans-unit>          
+            <trans-unit id="qcinchina-labTesting-subtext1">
+                <source>qcinchina-labTesting-subtext1</source>
+                <target>Our lab testing capabilities in China are accredited by and in accordance with the following regulatory bodies and international standards:</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-labTesting-list">
+                <source>qcinchina-labTesting-list</source>
+                <target><![CDATA[
+                    <li>CNAS</li>
+                    <li>CMA</li>
+                    <li>ANAB</li>
+                    <li>HOKLAS</li>
+                    <li>CPSC</li>
+                    <li>ISO 17025</li>
+                    ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="qcinchina-ProdInsp">
+                <source>qcinchina-ProdInsp</source>
+                <target>Product Inspections in China</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-ProdInsp-subtext">
+                <source>qcinchina-ProdInsp-subtext</source>
+                <target>Inspect your product before it leaves your Chinese supplier's factory, and prevent quality problems down the line. We guarantee an inspector on-site of any factory in China within 48 hours, and the inspection report will be delivered to you on the day of the inspection.</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-ProdInsp-subtext1">
+                <source>qcinchina-ProdInsp-subtext1</source>
+                <target>Experienced AI product inspectors help you safeguard the quality of your product at every stage of manufacturing:</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-ProdInsp-list">
+                <source>qcinchina-ProdInsp-list</source>
+                <target><![CDATA[
+                    <li><a href="/initial-production-check">IPC – Initial Production Check</a></li>
+                    <li><a href="/during-production-inspection">DUPRO – During Production Inspection</a></li>
+                    <li><a href="/pre-shipment-inspection">PSI – Pre-Shipment Inspection</a></li>
+                    <li><a href="/container-loading-check">CLC – Container Loading Check</a></li>
+                    <li><a href="/production-monitoring">PM – Production Monitoring</a></li>
+                    ]]>
+                </target>
+            </trans-unit>
+             <trans-unit id="qcinchina-whyAI">
+                <source>qcinchina-whyAI</source>
+                <target>Why AsiaInspection</target>
+            </trans-unit>
+             <trans-unit id="qcinchina-why-reason1">
+                <source>qcinchina-why-reason1</source>
+                <target>Transparent Pricing:</target>
+            </trans-unit>
+             <trans-unit id="qcinchina-why-reason1-text">
+                <source>qcinchina-why-reason1-text</source>
+                <target><![CDATA[
+                        <li><b>Product inspections in China</b>: $%price_Inspect_Low% USD all-inclusive per man-day</li>
+                        <li><b>Supplier audits in China</b>: from $%price_Audit_Low% USD all-inclusive per man-day</li>
+                        <li><b>Lab tests</b>: instant online quotes</li>
+                        ]]>
+                </target>
+            </trans-unit>
+             <trans-unit id="qcinchina-why-reason2">
+                <source>qcinchina-why-reason2</source>
+                <target>Fast Turnaround:</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason2-text">
+                <source>qcinchina-why-reason2-text</source>
+                <target><![CDATA[
+                        <li>Inspectors and auditors on-site of any factory within 48 hours</li>
+                        <li>Same-day inspection reports </li>
+                        ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason3">
+                <source>qcinchina-why-reason3</source>
+                <target>Easy and Flexible Scheduling:</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason3-text">
+                <source>qcinchina-why-reason3-text</source>
+                <target><![CDATA[
+                        <li>Manage orders and inspections online or via mobile app</li>
+                        <li>Modify or cancel orders up until 4 pm (China time) the day before the scheduled inspection</li>
+                        ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason4">
+                <source>qcinchina-why-reason4</source>
+                <target><![CDATA[<b>Your Eyes in the Supply Chain!&copy;</b> - We are an independent, certified and licensed quality control company, working on your side to protect your business interests in the supply chain.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason5">
+                <source>qcinchina-why-reason5</source>
+                <target><![CDATA[<b>Manage Your Quality Control Process Online</b> - Create your free account, schedule your Inspections online, make payment arrangements, and receive your detailed Inspection report electronically.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason6">
+                <source>qcinchina-why-reason6</source>
+                <target><![CDATA[<b>Safer</b> - AI utilizes the strictest international standards ensuring product safety and regulatory requirements are met.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-why-reason7">
+                <source>qcinchina-why-reason7</source>
+                <target><![CDATA[<b>Comprehensive Reports</b> – Inspection reports include detailed pictures to let you see what our inspectors see. Audit reports include copies of factory records, management interviews, and images, ensuring a complete profile of your supplier.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-sourcing-challenges">
+                <source>qcinchina-sourcing-challenges</source>
+                <target>Sourcing from China – Current Challenges</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-sourcing-challenges-text">
+                <source>qcinchina-sourcing-challenges-text</source>
+                <target>Recent product inspection data shows that China's beyond AQL rates are hovering around the 30% percent mark, a slight improvement on the average value for Asia and Asia Pacific, and a distinct advantage against other manufacturing powerhouses, such as India and Bangladesh (where failure rates reach 46% and 54%, respectively). Nevertheless, a supply chain where one-third must be reworked before they are shipped leaves ample room for improvement, especially for brands and retailers sourcing on a large scale.</target>
+            </trans-unit>
+            <trans-unit id="qcinchina-sourcing-challenges-text1">
+                <source>qcinchina-sourcing-challenges-text1</source>
+                <target><![CDATA[In the face of these figures, <b>any brand and retailer sourcing from China must remain vigilant</b>. This is especially the case for high-risk product categories, such as <a href="/testing/toy-safety-and-lab-testing">toys and children's products</a>, as shown by the fact that China-sourced toys firmly remain in the lead among the EU's recalls.]]></target>
+            </trans-unit>
+            <trans-unit id="qcinchina-sourcing-challenges-text2">
+                <source>qcinchina-sourcing-challenges-text2</source>
+                <target><![CDATA[This data serves to emphasize the importance of quality control and reliable on-site inspection services. For any Western-based brand manufacturing in China, the perfect third-party inspector must combine industry expertise with local knowledge and experience. Dependable quality control services must span the entire sourcing cycle: from onsite product inspections at different manufacturing stages, to comprehensive <a href="/manufacturing-audit">supplier audits</a> and <a href="/quality-control-services/laboratory-testing">lab testing</a>.]]></target>
+            </trans-unit>
+            <!-- End QC in China -->
+            <!-- [Begin] Our Labs 360 Page -->
+            <trans-unit id="ourlabs.title">
+                <source>ourlabs.title</source>
+                <target><![CDATA[Laboratuvarlarımızda 360&deg; Gezinti]]></target>
+            </trans-unit>
+            <trans-unit id="ourlabs.subitle">
+                <source>ourlabs.subtitle</source>
+                <target>%total_Client_Countries% ülkedeki müşterilerin ürün güvenliği uygunluk ihtiyaçlarını karşıladığımız AsiaInspection laboratuvarlarını açık olarak görün.</target>
+            </trans-unit>
+            <trans-unit id="ourlabs.accredidationLine">
+                <source>ourlabs.accredidationLine</source>
+                <target><![CDATA[AI uluslararası, ulusal ve bölgesel standartlarda testler sağlamaktadır. Tüm <a href="/accreditations">akreditasyonlarımızı</a> görün.]]></target>
+            </trans-unit>
+            <trans-unit id="ourlabs.headingOne">
+                <source>ourlabs.headingOne</source>
+                <target>Laboratuvarlarımız</target>
+            </trans-unit>
+            <trans-unit id="ourlabs.contentOne">
+                <source>ourlabs.contentOne</source>
+                <target><![CDATA[<p>AI, ABD, Hong Kong ve Çin'de dört ISO sertifikalı kurum içi laboratuvarlarla birlikte dünya genelinde muayene edilmiş geniş laboratuvar iştirakleri ağıyla müşterilerinin sektörüne özel geniş test imkanları sağlamaktadır. Oyuncak ve çocuk ürünleri, kumaşlar, genel ticari ürünler, gözlük, hediyeler, aksesuarlar ve daha fazlası için uygunluk ve kalite ihtiyaçlarınızı karşılamak için %total_Labs%'un üzerinde kimyager, mühendis, teknisyen ve laboratuvar yöneticisinden oluşan bir ekip toplamıştır.</p><p>Müşterilerimizi laboratuvarlarımızı ziyaret etmeye ve bir gezinti yapmaya teşvik ediyoruz, ancak programınız müsait değilse bir sanal tur sağlıyoruz.</p>]]></target>
+            </trans-unit>
+            <trans-unit id="ourlabs.drag">
+                <source>Drag left or right for a 360° view</source>
+                <target>360° görünüm için sağa veya sola sürükleyin</target>
+            </trans-unit>
+            <!-- [End] Our Labs 360 Page -->
+             <!-- [Begin] Footer-->
+            <trans-unit id="Why-Use-Our-QC-Services?">
+                <source>Why Use Our QC Services?</source>
+                <target>Neden Kalite Kontrol Hizmetleri Kullanmalıyım?</target>
+            </trans-unit>
+            <trans-unit id="Why-Do-You-Need-Inspections?">
+                <source>Why Do You Need Inspections?</source>
+                <target>Neden Muayenelere İhtiyacınız Var?</target>
+            </trans-unit>
+            <trans-unit id="Why-Do-You-Need-Audits?">
+                <source>Why Do You Need Audits?</source>
+                <target>Neden Denetimlere İhtiyacınız Var?</target>
+            </trans-unit>
+            <trans-unit id="Why-Do-You-Need-Lab-Tests?">
+                <source>Why Do You Need Lab Tests?</source>
+                <target>Neden Laboratuvar Testlerine İhtiyacınız Var?</target>
+            </trans-unit>
+            <trans-unit id="Pricing-and-Conditions">
+                <source>Pricing and Conditions</source>
+                <target>Fiyatlandırma ve Koşullar</target>
+            </trans-unit>
+            <trans-unit id="Operation-Regions">
+                <source>Operation Regions</source>
+                <target>Operasyon Bölgeleri</target>
+            </trans-unit>
+            <trans-unit id="Quality-and-Risk-Management">
+                <source>Quality and Risk Management</source>
+                <target>Kalite ve Risk Yönetimi</target>
+            </trans-unit>
+            <trans-unit id="Quality-Control-on-your-Mobile">
+                <source>Quality Control on your Mobile</source>
+                <target>Mobil cihazınızdan Kalite Kontrolü</target>
+            </trans-unit>
+            <trans-unit id="Acceptable-Quality-Limit-(AQL)">
+                <source>Acceptable Quality Limit (AQL)</source>
+                <target>Kabul Edilebilir Kalite Limiti (AQL)</target>
+            </trans-unit>
+            <trans-unit id="Clothing-Textile-Inspection">
+                <source>Clothing Textile Inspection</source>
+                <target>Giyim Tekstil Muayenesi</target>
+            </trans-unit>
+            <trans-unit id="Quality-Control-in-Bangladesh">
+                <source>Quality Control in Bangladesh</source>
+                <target>Bangladeş'te Kalite Kontrolü</target>
+            </trans-unit>
+            <trans-unit id="Quality-Control-in-China">
+                <source>Quality Control in China</source>
+                <target>Çin'de Kalite Kontrolü</target>
+            </trans-unit>
+            <trans-unit id="Quality-Control-in-Vietnam">
+                <source>Quality Control in Vietnam</source>
+                <target>Vietnam'da Kalite Kontrolü</target>
+            </trans-unit>
+            <trans-unit id="Quality-Control-in-Africa">
+                <source>Quality Control in Africa</source>
+                <target>Afrika'da Kalite Kontrolü</target>
+            </trans-unit>
+            <trans-unit id="Food-Safety">
+                <source>Food Safety</source>
+                <target>Gıda Güvenliği</target>
+            </trans-unit>
+            <trans-unit id="Audits">
+                <source>Audits</source>
+                <target>Denetimler</target>
+            </trans-unit>
+            <trans-unit id="Compliance-Testing">
+                <source>Compliance Testing</source>
+                <target>Uygunluk Testi</target>
+            </trans-unit>
+            <trans-unit id="Heavy-Metal-Test">
+                <source>Heavy Metal Test</source>
+                <target>Ağır Metal Testi</target>
+            </trans-unit>
+            <trans-unit id="RoHS-Compliance">
+                <source>RoHS Compliance</source>
+                <target>RoHS Uygunluğu</target>
+            </trans-unit>
+            <trans-unit id="Consumer-Product-Safety">
+                <source>Consumer Product Safety</source>
+                <target>Tüketici Ürünü Güvenliği</target>
+            </trans-unit>
+            <trans-unit id="REACH-Regulation">
+                <source>REACH Regulation</source>
+                <target>REACH Düzenlemesi</target>
+            </trans-unit>
+            <trans-unit id="Phthalates-Testing">
+                <source>Phthalates Testing</source>
+                <target>Fatalat Testi</target>
+            </trans-unit>
+            <trans-unit id="Toy-Safety-Tips">
+                <source>Toy Safety Tips</source>
+                <target>Oyuncak Güvenliği İpuçları</target>
+            </trans-unit>
+            <trans-unit id="ASTM-F963-16-Toy-Safety-Testing">
+                <source>ASTM F963-16 Toy Safety Testing</source>
+                <target>ASTM F963-16 Oyuncak Güvenliği Testi</target>
+            </trans-unit>
+            <trans-unit id="SASO-Certificate-of-Conformity">
+                <source>SASO Certificate of Conformity</source>
+                <target>SASO Uygunluk Belgesi</target>
+            </trans-unit>
+            <trans-unit id="CA-Proposition-65-Compliance">
+                <source>CA Proposition 65 Compliance</source>
+                <target>CA Öneri 65 Uygunluk</target>
+            </trans-unit>
+            <trans-unit id="Corporate">
+                <source>Corporate</source>
+                <target>Kurumsal</target>
+            </trans-unit>
+            <trans-unit id="About-AsiaInspection">
+                <source>About AsiaInspection</source>
+                <target>AsiaInspection Hakkında</target>
+            </trans-unit>
+            <trans-unit id="CareersHome">
+                <source>Careers</source>
+                <target>Kariyer</target>
+            </trans-unit>
+            <trans-unit id="Legal">
+                <source>Legal</source>
+                <target>Yasal</target>
+            </trans-unit>
+            <trans-unit id="Sitemap">
+                <source>Sitemap</source>
+                <target>Site Haritası</target>
+            </trans-unit>
+            <trans-unit id="Partners">
+                <source>Partners</source>
+                <target>İş Ortakları</target>
+            </trans-unit>
+            <!-- [End] Footer -->
+
+            <trans-unit id="Regulatory-Update">
+                <source>Regulatory Update</source>
+                <target>Mevzuata İlişkin Güncellemeler</target>
+            </trans-unit>
+            <!-- [Begin] astmtoys -->
+            <trans-unit id="astmtoys-bigTitle">
+                <source>astmtoys-bigTitle</source>
+                <target>ASTM F963-16 Oyuncak Güvenlik Standardı'ndaki Değişikliklere Genel Bakış</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-smallText">
+                <source>astmtoys-smallText</source>
+                <target>20 Ekim 2016 tarihinde, ASTM F963 standardının yeni bir versiyonu (2016) yayımlanmıştır. Revizyon özeti aşağıda listelenmiştir.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-subheader1">
+                <source>astmtoys-subheader1</source>
+                <target>ASTM F963 Oyuncak Güvenlik Standardı</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-subtext1">
+                <source>astmtoys-subtext1</source>
+                <target><![CDATA[ASTM F963 uzun süredir oyuncak güvenliği testlerinde temel bir standarttır. Bu standart 14 yaş altındaki çocuklar için oyuncak olarak tasarlanmış, üretilmiş ya da pazarlanmış her türlü nesne olan oyuncaklar için güvenlik gereksinimlerine değinmektedir.]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-blueArrow1">
+                <source>astmtoys-blueArrow1</source>
+                <target><![CDATA[<b><u>20 Ekim 2016</u></b><br />
+            ASTM F963 versiyon 2016'nın<br />
+            yayımlanması<br />]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-blueArrow2">
+                <source>astmtoys-blueArrow2</source>
+                <target><![CDATA[<b><u>Ocak 2017 sonundan önce</u></b><br />
+            CPSC güncellenmiş standardın kabul edilmesi için kararı verecektir<br />]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-blueArrow3">
+                <source>astmtoys-blueArrow3</source>
+                <target><![CDATA[<b><u>Nisan 2017'de</u></b><br />
+            Standart CPSC tarafından kabul edilirse zorunlu hale gelecektir<br />]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-tableHeader1">
+                <source>astmtoys-tableHeader1</source>
+                <target>Bölüm</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-tableHeader2">
+                <source>astmtoys-tableHeader2</source>
+                <target>Zorunluluklar</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-tableHeader3">
+                <source>astmtoys-tableHeader3</source>
+                <target>Önemli Değişiklikler</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-elements">
+                <source>astmtoys-elements</source>
+                <target>Ağır Elementler</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list1.0">
+                <source>astmtoys-list1.0</source>
+                <target>Homojen polimerler için alternatif toplam ağır metal tarama yöntemi eklenmiştir: HD-XRF</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list1.1">
+                <source>astmtoys-list1.1</source>
+                <target>16 CFR 1500.91'e göre netlik kazandırılmış muafiyet sadece toplam kurşuna uygulanır ve bu muafiyet sadece çözünür kurşuna genişletilmiştir, başka elementlere uygulanmaz (tüm elementler için çözünürlük testinden muaf olan kağıt ve mukavva hariç)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list1.2">
+                <source>astmtoys-list1.2</source>
+                <target>Çıkartma ve baskılı kumaşlardaki netlik kazandırılmış muafiyet kriteri</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list1.3">
+                <source>astmtoys-list1.3</source>
+                <target>Kadmiyum için toplam tarama testi 75 ppm altındaysa, küçük metal parçalı bileşenlerin kadmiyum testi çıkartmasına uygun olduğu kabul edilmiştir.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element1">
+                <source>astmtoys-element1</source>
+                <target>Mikrobiyolojik Güvenlik</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.0">
+                <source>astmtoys-list2.0</source>
+                <target>Mikrobiyolojik güvenlik kapsamına Kuş Tüyü Kaynaklı Maddeler Eklenmiştir</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.1">
+                <source>astmtoys-list2.1</source>
+                <target>Materyallerin temizliği için belirlenmiş kabul edilebilir mikrobik limitler (Ek B'ye bakın)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.2">
+                <source>astmtoys-list2.2</source>
+                <target>Materyallerin temizliği için güncellenmiş test yöntemi referansları ve kriterleri:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.3">
+                <source>astmtoys-list2.3</source>
+                <target><![CDATA[USP 35 &lt;61&gt; ve &lt;62&gt;]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.4">
+                <source>astmtoys-list2.4</source>
+                <target>CTFA Mikrobiyoloji Kuralları, test yöntemleri M-1 ve M-2</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.5">
+                <source>astmtoys-list2.5</source>
+                <target>Aşağıdaki organizmalar tespit edilmemelidir:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.6">
+                <source>astmtoys-list2.6</source>
+                <target>Psödomonas türü</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.7">
+                <source>astmtoys-list2.7</source>
+                <target>Koli basili</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.8">
+                <source>astmtoys-list2.8</source>
+                <target>Koagülas pozitif stafilokok türü</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.9">
+                <source>astmtoys-list2.9</source>
+                <target>Salmonelle türü</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.10">
+                <source>astmtoys-list2.10</source>
+                <target>Şigellla türü (sadece Kuş Tüyü için)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.11">
+                <source>astmtoys-list2.11</source>
+                <target>Koruyucu etkinlik için güncellenmiş test yöntemi referansları ve kriterleri</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.12">
+                <source>astmtoys-list2.12</source>
+                <target><![CDATA[USP 35 &lt;51&gt;]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.13">
+                <source>astmtoys-list2.13</source>
+                <target>CTFA Mikrobiyoloji Kuralları, test yöntemleri M-3 ve M-6</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.14">
+                <source>astmtoys-list2.14</source>
+                <target>Ürün yüklemede minimum düzeyde aşağıdaki organizmalar kullanılmıştır:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.15">
+                <source>astmtoys-list2.15</source>
+                <target>Staphylococcus aureus</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.16">
+                <source>astmtoys-list2.16</source>
+                <target>Koli basili</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.17">
+                <source>astmtoys-list2.17</source>
+                <target>Psödomonas aeruginosa</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.18">
+                <source>astmtoys-list2.18</source>
+                <target>Candida albicans</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list2.19">
+                <source>astmtoys-list2.19</source>
+                <target>Aspergillus brasiliensis</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element2">
+                <source>astmtoys-element2</source>
+                <target>Dolgu Malzemesi Gereksinimleri</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list3">
+                <source>astmtoys-list3</source>
+                <target>Pennsylvania eyaleti gereksinimleri çıkartılmıştır</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list3.1">
+                <source>astmtoys-list3.1</source>
+                <target>Geniş Stereo Mikroskop ya da dengi cihaz kullanılarak gözle muayeneye izin veren basitleştirilmiş değerlendirme yöntemi</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element3">
+                <source>astmtoys-element3</source>
+                <target>Akustik</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list4">
+                <source>astmtoys-list4</source>
+                <target>Değerlendirme prosedürü ISO 8124-1 ve EN 71-1'e daha uygun olması için değiştirilmiştir</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list4.1">
+                <source>astmtoys-list4.1</source>
+                <target>Çekmeli-itmeli oyuncaklar için 2 m/s'den 1 m/s'ye güncellenmiş test parametresi (Hız)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list4.2">
+                <source>astmtoys-list4.2</source>
+                <target>Kulağa yakın oyuncaklar için C-ağırlıklı tepe limiti 95 dB'den 110 dB'ye yükseltilmiştir (EN 71-1'ye uygun)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element4">
+                <source>astmtoys-element4</source>
+                <target>Ağızla harekete geçirilen Projektil Oyuncaklar</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list5">
+                <source>astmtoys-list5</source>
+                <target>Boğma tehlikesine neden olabilecek küçük parçalarla ilgili ağızla harekete geçirilen projektil oyuncaklar için ilave edilen gereksinimler ve test yöntemleri</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element5">
+                <source>astmtoys-element5</source>
+                <target>Oyuncaklardaki Teller, Kayış ve Lastikler</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list6">
+                <source>astmtoys-list6</source>
+                <target>Üzerine binilen oyuncaklarda beli kısıtlamak için kullanılan kayışlara serbest uzunluk ve halka yapma gereksinimleri muafiyeti eklenmiştir</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element6">
+                <source>astmtoys-element6</source>
+                <target>Üzerine Binilen Oyuncaklar</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list7">
+                <source>astmtoys-list7</source>
+                <target>Doğası gereği dengesiz olanlardan ayrı olarak 150 mm ya da daha küçük tekerlekli ürün için muafiyet eklenmiştir (Doğal olarak denge için tasarlanmamış ürünler için EN 71-1'i takip edin)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list7.1">
+                <source>astmtoys-list7.1</source>
+                <target>Üzerine birçok çocuğun binmesine yönelik oyuncaklar için değişiklik yapılmış aşırı yük testi</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element7">
+                <source>astmtoys-element7</source>
+                <target>Projektil Oyuncaklar</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8">
+                <source>astmtoys-list8</source>
+                <target>Kalem içi için boyut parametreleri hariç ISO 8124-1 ve EN 71-1 ile uyum</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8.1">
+                <source>astmtoys-list8.1</source>
+                <target>Çıkıntılı ön kenara sahip projektil için uç değerlendirme kalibresi eklenmiştir.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8.2">
+                <source>astmtoys-list8.2</source>
+                <target>Vakum ağızlı projektil için uzunluk gereksinimi (57 mm) eklenmiştir.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8.3">
+                <source>astmtoys-list8.3</source>
+                <target>Depolanmış enerjili projektil ve depolanmış enerji olmadan ateşlenen oklar için darbe testi gereksinimleri eklenmiştir.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8.4">
+                <source>astmtoys-list8.4</source>
+                <target>İzin verilen Kinetik Enerji Yoğunluğu (KED) artık 2,500 J/m2'dir</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list8.5">
+                <source>astmtoys-list8.5</source>
+                <target>Testten sonra projektillerden çıkan küçük köpük parçalar için muafiyet eklenmiştir.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element8">
+                <source>astmtoys-element8</source>
+                <target>Sıkılan Oyuncaklar</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list9">
+                <source>astmtoys-list9</source>
+                <target>Sıkışma tehlikesi gereksiniminin sadece oyuncağın sıkma fonksiyonu bulunan bölümüne uygulanacağı açıklığa kavuşturulmuştur.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element9">
+                <source>astmtoys-element9</source>
+                <target>Pilli Oyuncaklar</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10">
+                <source>astmtoys-list10</source>
+                <target>Gereksinimlere lityum piller ve nikel metal hibrit piller gibi, yeniden şarj edilebilir hücre ve piller eklenmiştir.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.1">
+                <source>astmtoys-list10.1</source>
+                <target>Pil aşırı yük testi</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.2">
+                <source>astmtoys-list10.2</source>
+                <target>Tekrarlayan aşırı yük testi</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.3">
+                <source>astmtoys-list10.3</source>
+                <target>Tek hatalı şarj testi</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.4">
+                <source>astmtoys-list10.4</source>
+                <target>Kısa devre koruması testi</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.5">
+                <source>astmtoys-list10.5</source>
+                <target>Düğme pillerle çalışan ürünlere etiketleme gereksinimleri eklenmiştir.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.6">
+                <source>astmtoys-list10.6</source>
+                <target>Hücrenin aşağıdaki standartlardan en az birine uygun olması gereken, lityum iyon ya da lityum iyon polimer pillerle çalışan oyuncak için gereksinimler eklenmiştir:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.7">
+                <source>astmtoys-list10.7</source>
+                <target>ANSI C18.2M Part 2</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.8">
+                <source>astmtoys-list10.8</source>
+                <target>UL 1642 veya UL 2054</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list10.9">
+                <source>astmtoys-list10.9</source>
+                <target>Pil ve şarj cihazları için yeni referans standartlar eklenmiştir:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element10">
+                <source>astmtoys-element10</source>
+                <target>Mıknatıslar</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list11">
+                <source>astmtoys-list11</source>
+                <target>ISO 8124-1 ve EN 71-1'e uyumlu hale getirilecek ilave testler eklenmiştir:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list11.1">
+                <source>astmtoys-list11.1</source>
+                <target>Tahta oyuncaklar ve ağız ile çalışan oyuncakların ağız parçaları için daldırma testi diğer kullanım ve kontrol testlerinden önce yapılacaktır</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list11.2">
+                <source>astmtoys-list11.2</source>
+                <target>Basınç testi</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list11.3">
+                <source>astmtoys-list11.3</source>
+                <target>Düşürme testi</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list11.4">
+                <source>astmtoys-list11.4</source>
+                <target>Oyuncakta geçme metal parça bulunmaması halinde çevrim testi için özel metal disk kullanımı belirtilmiştir</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element11">
+                <source>astmtoys-element11</source>
+                <target>Genişleyen Materyaller</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list12">
+                <source>astmtoys-list12</source>
+                <target>Çocuk tarafından yutulduktan sonra, gastrointestinal blokaj oluşturarak önemli derecede genişleyebilecek oyuncaklar için yeni gereksinimler</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element12">
+                <source>astmtoys-element12</source>
+                <target>Oyuncak Sandıkları</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list13">
+                <source>astmtoys-list13</source>
+                <target>Oyuncak sandıkları için gereksinimler ASTM F963-07e1'den yeniden bir araya getirilmiştir</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element13">
+                <source>astmtoys-element13</source>
+                <target>Etiketleme/Talimat/İmalatçı İşaretleri</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14">
+                <source>astmtoys-list14</source>
+                <target>Aşağıdakiler için eklenen gereksinimler:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.1">
+                <source>astmtoys-list14.1</source>
+                <target>Düğme piller için etiketleme</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.2">
+                <source>astmtoys-list14.2</source>
+                <target>Oyuncak sandıkları talimatı ve üretici işaretleri</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.3">
+                <source>astmtoys-list14.3</source>
+                <target>Pille çalışan üzerine binilen oyuncaklar için talimat</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.4">
+                <source>astmtoys-list14.4</source>
+                <target>Aşağıdakiler için revize edilen gereksinimler:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.5">
+                <source>astmtoys-list14.5</source>
+                <target>Mıknatıs etiketleme</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list14.6">
+                <source>astmtoys-list14.6</source>
+                <target>Pilli oyuncaklar için talimat</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-italicNote">
+                <source>astmtoys-italicNote</source>
+                <target>Tüketici Ürünlerinde Güvenliğin İyileştirilmesi Kanunu'na (CPSIA) göre, güncellenmiş standart ASTM'nin Tüketici Ürünleri Güvenlik Komisyonu'nu (CPSC) bilgilendirdikten sonra, CPSC'nin 90 gün içinde revizyonu reddetmemesi halinde, 180 gün sonra uygulanacak ve zorunlu hale gelecektir.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-subheader2">
+                <source>astmtoys-subheader2</source>
+                <target>Ek A</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-element14">
+                <source>astmtoys-element14</source>
+                <target>ASTM F963-16 kapsamında olmayan ürünler:</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15">
+                <source>astmtoys-list15</source>
+                <target>Bisikletler/Üç Tekerlekli Bisikletler</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.1">
+                <source>astmtoys-list15.1</source>
+                <target>Motorsuz Skuterler</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.2">
+                <source>astmtoys-list15.2</source>
+                <target>Eğlence Amaçlı Elektrikli Skuterler/Mini Motosikletler</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.3">
+                <source>astmtoys-list15.4</source>
+                <target>Sapanlar/keskin uçlu dartlar</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.4">
+                <source>astmtoys-list15.4</source>
+                <target>Park Ekipmanı</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.5">
+                <source>astmtoys-list15.5</source>
+                <target>Barutsuz Tabancalar</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.6">
+                <source>astmtoys-list15.6</source>
+                <target>Uçurtmalar</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.7">
+                <source>astmtoys-list15.7</source>
+                <target>Bitmiş ürünün birincil oyun değeri olmayan Hobi ve El İşi Ürünleri</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.8">
+                <source>astmtoys-list15.8</source>
+                <target>bitmiş ürünün birincil oyun değeri olmayan Model Kit</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.9">
+                <source>astmtoys-list15.9</source>
+                <target>Pastel Boya, Boyalar, Tebeşirler ve bir oyuncak parçası olsun ya da olmasın tüm sanat malzemeleri hariç, materyalin kendisinin ya da bitmiş ürünün birincil oyun değeri olmadığı diğer benzer sanat malzemeleri LHAMA'ya uygun olmalıdır</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.10">
+                <source>astmtoys-list15.10</source>
+                <target>Spor Ürünleri / Kamp Ürünleri / Spor Malzemeleri / Müzik Enstrümanları / Çocuk Ürünleri / Mobilya (Bununla birlikte benzerleri olan oyuncaklar kapsam dahilindedir)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.11">
+                <source>astmtoys-list15.11</source>
+                <target>Elektrikli Uçak / Roket / Gemi / Kara Araçları Modelleri (Bununla birlikte benzerleri olan oyuncaklar kapsam dahilindedir)</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-list15.12">
+                <source>astmtoys-list15.12</source>
+                <target>Sabit Havayla Şişirilenler</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-subheader3">
+                <source>astmtoys-subheader3</source>
+                <target>Ek B</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Header">
+                <source>astmtoys-table1Header</source>
+                <target>Ürün Kategorileri</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Header1">
+                <source>astmtoys-table1Header1</source>
+                <target><![CDATA[Mikrobik Limitler<br />(cfu/mL ya da cfu/gm)]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Element">
+                <source>astmtoys-table1Element</source>
+                <target>Bebek ürünü</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Element1">
+                <source>astmtoys-table1Element1</source>
+                <target>Göz bölgesinde kullanım ihtimali yüksek, çocuk tarafından ya da bir bebek ya da benzeri ürün üzerinde (dudak balzamları, dudak parlatıcıları, dudak boyaları ve benzer ürünler dışında) kullanıma yönelik yüz boyaları ya da kozmetikler gibi ürünler</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Element2">
+                <source>astmtoys-table1Element2</source>
+                <target>Kuş tüyü ürünler</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Element3">
+                <source>astmtoys-table1Element3</source>
+                <target>Diğer tüm ürünler</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-table1Element4">
+                <source>astmtoys-table1Element4</source>
+                <target><![CDATA[Not:<br />1. Seyreltme işleminin getirdiği değişkenlik nedeniyle, bebek veya yüz boyası için 5 x 102 cfu/mL veya cfu/gm'ye kadar ve diğer tüm ürünler için 5 x 103 cfu/ml veya cfu/gm'ye kadar kabul edilebilir değer olarak ele alınacaktır.]]></target>
+            </trans-unit>
+            <trans-unit id="astmtoys-summary">
+                <source>astmtoys-summary</source>
+                <target>Bu özet eksiksiz olarak düşünülmemelidir ve yasal uyarı niteliğinde hazırlanmamıştır.</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-question">
+                <source>astmtoys-question</source>
+                <target>ASTM standartları hakkında herhangi bir sorunuz ya da danışacağınız bir husus mu var?</target>
+            </trans-unit>
+            <trans-unit id="astmtoys-contact">
+                <source>astmtoys-contact</source>
+                <target>Bize Ulaşın</target>
+            </trans-unit>
+            <!-- [End] astmtoys -->
+            <!-- AQS Begins-->
+            <trans-unit id="QAS-Title">
+                <source>QAS-Title</source>
+                <target>Ürünler için Kalite Güvence Hizmetleri</target>
+            </trans-unit>
+            <trans-unit id="QAS-subtext">
+                <source>QAS-subtext</source>
+                <target>AI uzmanları ürün geliştirme, imalat ve tedarik süreçleriniz boyunca kritik kararlar almanıza yardıcı olacak rehberlik hizmeti sunmaktadır.</target>
+            </trans-unit>
+            <trans-unit id="QAS-subTitle1">
+                <source>QAS-subTitle1</source>
+                <target>Ürünler için Kalite Güvence Hizmetleri Nedir?</target>
+            </trans-unit>
+            <trans-unit id="QAS-subtext1">
+                <source>QAS-subtext1</source>
+                <target>Hizmetlerimiz müşterilerimize global, federal ve devlet şartlarına uygun ürünler teslim etmelerine yardımcı olmakla birlikte, tüm kurum içi ya da müşteri şartnamelerini karşılamak için kendi ekipleriyle çalışmalarına da yardımcı olur. AI uyumluluk için devam eden taahhütlerini desteklerken müşterilerimizin beklentilerini aşmayı taahhüt ederken, güvenlik ve kalite kaygılarını çözmeye yönelik çözümlerin belirlenmesine yardımcı olmak için hazırlıklıdır.</target>
+            </trans-unit>
+            <trans-unit id="QAS-ListTitle">
+                <source>QAS-ListTitle</source>
+                <target>AI kalite güvence hizmetlerine aşağıdakiler dahildir, ancak bunlarla sınırlı değildir:</target>
+            </trans-unit>
+            <trans-unit id="QAS-list">
+                <source>QAS-list</source>
+                <target>Mevzuata İlişkin Araştırma ve Yorumlama</target>
+            </trans-unit>
+            <trans-unit id="QAS-list1">
+                <source>QAS-list1</source>
+                <target>Avrupa Tehdit Değerlendirmesi ve Teknik Dosya Hizmetleri</target>
+            </trans-unit>
+            <trans-unit id="QAS-list2">
+                <source>QAS-list2</source>
+                <target>Periyodik Test Programlarının Gözden Geçirilmesi</target>
+            </trans-unit>
+            <trans-unit id="QAS-list3">
+                <source>QAS-list3</source>
+                <target>Dokümantasyon İnceleme Hizmetleri</target>
+            </trans-unit>
+            <trans-unit id="QAS-list4">
+                <source>QAS-list4</source>
+                <target>Teknik Eğitim ve Atölyeler</target>
+            </trans-unit>
+            <trans-unit id="QAS-list5">
+                <source>QAS-list5</source>
+                <target>Ürün Standartları ve Şartname Kılavuzları</target>
+            </trans-unit>
+            <trans-unit id="QAS-list6">
+                <source>QAS-list6</source>
+                <target>Tesis İçi Hat İncelemeleri</target>
+            </trans-unit>
+            <trans-unit id="QAS-list7">
+                <source>QAS-list7</source>
+                <target>Tasarım Değerlendirmeleri</target>
+            </trans-unit>
+            <trans-unit id="QAS-list8">
+                <source>QAS-list8</source>
+                <target>Geliştirme, inceleme veya uygunluk SOP'larınızın güncellenmesi</target>
+            </trans-unit>
+            <trans-unit id="QAS-subTitle2">
+                <source>QAS-subTitle2</source>
+                <target>Ekibinizi Genişletme</target>
+            </trans-unit>
+            <trans-unit id="QAS-subText2">
+                <source>QAS-subText2</source>
+                <target>Hedefimiz önceden mevcut olan kalite güvencesi girişimlerinin bir uzantısı olarak işlev görecek kapsamlı hizmetlerle ya da yeni programlar oluşturmak üzere kendi ekipleriyle çalışarak müşterilerimizi global olarak desteklemektir. İhtisas uzmanlarımız laboratuvar testi, global mevzuata uygunluk, ürün kusuru analizi ve imalatta olduğu kadar kalite kontrol ve kalite güvencesi konusunda da kapsamlı deneyimlere sahiptir. Global uzmanlar ağıyla tamalanan Hong Kong Genel Merkez laboratuvarında bulunan çekirdek ekibimizle, AI müşterilerimize küresel destek sağlamaktadır.</target>
+            </trans-unit>
+            <trans-unit id="QAS-subTitle3">
+                <source>QAS-subTitle3</source>
+                <target>AI Uzmanlık ve Rehberlik Sağlar</target>
+            </trans-unit>
+            <trans-unit id="QAS-subText3">
+                <source>QAS-subText3</source>
+                <target>AI'nin uzmanlardan oluşan ekibi laboratuvar testi, global mevzuata uygunluk, ürün kusuru analizi ve imalatta olduğu kadar kalite kontrol ve kalite güvencesi konusunda da kapsamlı deneyimlere sahiptir. Müşterilerimize ürün geliştirme ve imalat aşamalarında, kritik kararlar almalarında yardımcı olmak için danışmanlık hizmetleri, ürün tasarımı değerlendirmeleri, araştırma yardımı, hammadde testi ve teknik rehberlik sağlarız. İlave olarak, kurum içi personel ya da tedarik zincirinizin bilgi tabanının oluşturulmasına yardımcı olmak için, AI mevzuatla ilişkili çeşitli konularda olduğu gibi kendi uygunluk programınız için de çalışma ve eğitim programları sunmaktadır.</target>
+            </trans-unit>
+            <trans-unit id="QAS-AIBenefits">
+                <source>QAS-AIBenefits</source>
+                <target>AI Faydaları</target>
+            </trans-unit>
+            <trans-unit id="QAS-AIBenefits-reason1">
+                <source>QAS-AIBenefits-reason1</source>
+                <target>Neden AsiaInspection:</target>
+            </trans-unit>
+            <trans-unit id="QAS-AIBenefits-reason2">
+                <source>QAS-AIBenefits-reason2</source>
+                <target>Küresel hizmet kapsamı (85 ülke)</target>
+            </trans-unit>
+            <trans-unit id="QAS-AIBenefits-reason3">
+                <source>QAS-AIBenefits-reason3</source>
+                <target>Özel bir müşteri yöneticisi</target>
+            </trans-unit>
+            <trans-unit id="QAS-AIBenefits-reason4">
+                <source>QAS-AIBenefits-reason4</source>
+                <target>Teknik rehberlik ve en son mevzuat güncellemelerine erişim</target>
+            </trans-unit>
+            <!-- QAS End -->
+            <trans-unit id="note-ceo">
+                <source>A Note From our CEO</source>
+                <target>CEO'muzdan bi̇r not</target>
+            </trans-unit>
+            <trans-unit id="Who-We-Are">
+                <source>Who We Are</source>
+                <target>Biz Kimiz</target>
+            </trans-unit>
+            <trans-unit id="Client-Testimonial">
+                <source>Client Testimonial</source>
+                <target>MÜŞTERİ REFERANSI</target>
+            </trans-unit>
+            <trans-unit id="Career-Opportunities">
+                <source>Career Opportunities</source>
+                <target>Kari̇yer firsatlari</target>
+            </trans-unit>
+            <trans-unit id="See-Opportunities">
+                <source>See Opportunities</source>
+                <target>Ver oportunidades</target>
+            </trans-unit>
+            <trans-unit id="In-The-News">
+                <source>In The News</source>
+                <target>Haberlerde</target>
+            </trans-unit>
+            <trans-unit id="Memberships">
+                <source>Memberships</source>
+                <target>Üyelikler</target>
+            </trans-unit>
+            <trans-unit id="Show-Insights">
+                <source>Show Insights</source>
+                <target>İçgörüleri Göster</target>
+            </trans-unit>
+            <trans-unit id="By-Service-Type">
+                <source>By Service Type</source>
+                <target>Hizmet Türüne Göre</target>
+            </trans-unit>
+            <!-- sample reports -->
+            <trans-unit id="Bangladesh-Audit">
+                <source>Bangladesh Audit</source>
+                <target>Bangladeş Denetimi</target>
+            </trans-unit>
+            <trans-unit id="Ethical-Audit">
+                <source>Ethical Audit</source>
+                <target>Etik Denetim</target>
+            </trans-unit>
+            <trans-unit id="Manufacturing-Audit">
+                <source>Manufacturing Audit</source>
+                <target>İmalat Denetimi</target>
+            </trans-unit>
+            <trans-unit id="Pre-Shipment Inspection">
+                <source>Pre-Shipment Inspection</source>
+                <target>Sevkıyat Öncesi Muayene</target>
+            </trans-unit>
+            <trans-unit id="C-TPAT-Audit">
+                <source>C-TPAT Audit</source>
+                <target>C-TPAT Denetimi</target>
+            </trans-unit>
+            <trans-unit id="DUPRO-Report">
+                <source>DUPRO Report</source>
+                <target>DUPRO Raporu</target>
+            </trans-unit>
+            <trans-unit id="Environmental-Audit">
+                <source>Environmental Audit</source>
+                <target>Çevre Denetimi</target>
+            </trans-unit>
+            <trans-unit id="Production Monitoring">
+                <source>Production Monitoring</source>
+                <target>Üretim Takibi</target>
+            </trans-unit>
+            <trans-unit id="Structural-Audit">
+                <source>Structural Audit</source>
+                <target>Yapısal Denetim</target>
+            </trans-unit>
+            <trans-unit id="Featured-Reports">
+                <source>Featured Reports</source>
+                <target>Öne Çıkan Raporlar</target>
+            </trans-unit>
+            <!-- sample reports end -->
+            <!-- register -->
+            <trans-unit id="Free">
+                <source>Free</source>
+                <target>Ücretsiz</target>
+            </trans-unit>
+            <trans-unit id="No-commitment">
+                <source>No-commitment</source>
+                <target>Taahhütsüz</target>
+            </trans-unit>
+            <trans-unit id="Key-Benefits">
+                <source>Key Benefits</source>
+                <target>Temel Faydalar</target>
+            </trans-unit>
+            <trans-unit id="dedicated-account-manager">
+                <source>A dedicated Account Manager to guide you</source>
+                <target>Size yol gösterecek özel bir Müşteri Yöneticisi</target>
+            </trans-unit>
+            <trans-unit id="online-dashboard">
+                <source>Your Online Dashboard (rank suppliers, track quality KPIs)</source>
+                <target>Çevrimiçi Kontrol Paneliniz (tedarikçi sıralama, KPI kalitesi izleme)</target>
+            </trans-unit>
+            <trans-unit id="product-checklist">
+                <source>Hundreds of customizable Product Checklists</source>
+                <target>Yüzlerce kişiselleştirilebilir Ürün Kontrol Listeleri</target>
+            </trans-unit>
+            <trans-unit id="access-mobile-app">
+                <source>Access to the AI Mobile App</source>
+                <target>AI Mobil Uygulamasına Erişim</target>
+            </trans-unit>
+            <trans-unit id="Create-an-Account">
+                <source>Create an Account</source>
+                <target>Hesap Oluştur</target>
+            </trans-unit>
+            <trans-unit id="from">
+                <source>from</source>
+                <target>başlangıç fiyatı</target>
+            </trans-unit>
+            <trans-unit id="Per-Man-Day">
+                <source>Per Man Day</source>
+                <target>Kişi-Gün</target>
+            </trans-unit>
+            <trans-unit id="Instant-Pricing">
+                <source>Instant Pricing</source>
+                <target>Anında Fiyatlandırma</target>
+            </trans-unit>
+            <trans-unit id="register-creating-account">
+                <source>By creating an account you agree to the</source>
+                <target>Bir hesap oluşturarak kabul ediyorsunuz.</target>
+            </trans-unit>
+            <trans-unit id="register-terms-conditions">
+                <source>terms and conditions</source>
+                <target>hüküm ve koşulları</target>
+            </trans-unit>
+            <trans-unit id="register-creating-an-account">
+                <source>Creating an account</source>
+                <target>Hesap oluşturma</target>
+            </trans-unit>
+            <trans-unit id="register-Show-Password">
+                <source>Show Password</source>
+                <target>Şifreyi Göster</target>
+            </trans-unit>
+            <trans-unit id="register-have-account">
+                <source>Already have an account?</source>
+                <target>Hesabınız var mı?</target>
+            </trans-unit>
+            <trans-unit id="register-first-name">
+                <source>First Name</source>
+                <target>Ad</target>
+            </trans-unit>
+            <trans-unit id="register-last-name">
+                <source>Last Name</source>
+                <target>Soyad</target>
+            </trans-unit>
+            <trans-unit id="registerCountry">
+                <source>Country</source>
+                <target>Ülke</target>
+            </trans-unit>
+            <trans-unit id="registerCompany">
+                <source>Company</source>
+                <target>Firma</target>
+            </trans-unit>
+            <trans-unit id="registerIndustry">
+                <source>Industry</source>
+                <target>Sektör</target>
+            </trans-unit>
+            <trans-unit id="registerTelephone">
+                <source>Telephone</source>
+                <target>Telefon</target>
+            </trans-unit>
+            <trans-unit id="registerUserName">
+                <source>User Name</source>
+                <target>Kullanıcı Adı</target>
+            </trans-unit>
+            <trans-unit id="registerPassword">
+                <source>Password</source>
+                <target>Şifre</target>
+            </trans-unit>
+            <trans-unit id="registerCreate-Account">
+                <source>Create my Account</source>
+                <target>Hesabımı Oluştur</target>
+            </trans-unit>
+            <trans-unit id="registerEmail">
+                <source>Email</source>
+                <target>E-posta</target>
+            </trans-unit>
+             <!-- [End] register -->
+             <!-- [Begin] PricingBox -->
+            <trans-unit id="PricingBox-Pricing">
+                <source>Pricing</source>
+                <target>Fi̇yatlandirma</target>
+            </trans-unit>
+            <trans-unit id="PricingBox-Pricing-Per-Man-day">
+                <source>Pricing Per Man-day</source>
+                <target>Ki̇şi̇ başi günlük fi̇yatlandirma</target>
+            </trans-unit>
+            <trans-unit id="PricingBox-Download-Sample-Report">
+                <source>Download a Sample Report</source>
+                <target>Örnek Raporu İndir</target>
+            </trans-unit>
+            <trans-unit id="PricingBox-Get-Started">
+                <source>Get Started</source>
+                <target>Başla</target>
+            </trans-unit><trans-unit id="PricingBox-ZoneA">
+                <source>China, India, Bangladesh, Vietnam, Cambodia, Thailand, Africa and Latin America</source>
+                <target>Çin, Hindistan, Bangladeş, Vietnam, Kamboçya, Tayland, Afrika ve Latin Amerika</target>
+            </trans-unit>
+            <trans-unit id="PricingBox-ZoneB">
+                <source>Europe, Greater Asia and Brazil</source>
+                <target>Avrupa, Büyük Asya ve Brezilya</target>
+            </trans-unit>
+            <trans-unit id="PricingBox-See-Demo">
+                <source>See a Demo</source>
+                <target>Demoyu İzle</target>
+            </trans-unit>
+            <trans-unit id="Azo-dyes">
+                <source>Quick Guide: Azo Dyes</source>
+                <target>Hızlı Kılavuz: Azo Dyes</target>
+            </trans-unit>
+            <trans-unit id="Instant-Quote-Booking">
+                <source>Instant Quote upon Booking</source>
+                <target>Kayıtla birlikte Anında Teklif</target>
+            </trans-unit>
+            <trans-unit id="Instant-Quote">
+                <source>Instant Quote</source>
+                <target>Anında Teklif</target>
+            </trans-unit>
+            <!-- [End] pricing box -->
+            <trans-unit id="softlines">
+                <source>Softlines</source>
+                <target>Soft Ürünler</target>
+            </trans-unit>
+            <trans-unit id="hardlines">
+                <source>Hardlines</source>
+                <target>Katı Ürünler</target>
+            </trans-unit>
+            <trans-unit id="food">
+                <source>Food</source>
+                <target>Gıda</target>
+            </trans-unit>
+            <trans-unit id="tech-parts">
+                <source>Technical Parts</source>
+                <target>Teknik Parçalar</target>
+            </trans-unit>
+            <trans-unit id="accred-pageTitle">
+                <source>accred-pageTitle</source>
+                <target>Yasal Kurumlar ve Uluslararası Standartlar Akreditasyonları (laboratuvar testleri, denetimler, muayeneler için)</target>
+            </trans-unit>
+            <trans-unit id="accred-pageDesc">
+                <source>accred-pageDesc</source>
+                <target>AsiaInspection bazı düzenleyici makamlar ve uluslararası standartlar tarafından ve bunlara uygun olarak akredite edilmiştir. Buradan tam listeye bakın ve muayene ve denetim yeterliliklerimiz hakkında daha fazla bilgi alın.</target>
+            </trans-unit>
+            <trans-unit id="accred-offerBox-testimonial">
+                <source>accred-offerBox-testimonial</source>
+                <target>As a Quality Manager, I recognize the necessity of timely and accurate inspection reports. When it comes to AsiaInspection, the professionalism of...</target>
+            </trans-unit>
+            <trans-unit id="accred-offerBox-companyDesc">
+                <source>accred-offerBox-companyDesc</source>
+                <target>Quality Tools for Smart Cleaning</target>
+            </trans-unit>
+            <!-- BSCI Audits [Begin] -->
+            <trans-unit id="bsci-header-title">
+                <source>bsci-header-title</source>
+                <target>BSCI Audits</target>
+            </trans-unit>
+            <trans-unit id="bsci-header-subheading">
+                <source>bsci-header-subheading</source>
+                <target>BSCI (İş Sosyal Uygunluk Girişimi) ilkelerine uygunluğu sağlamayı amaçlayan tedarikçi denetimleri, markaların ve perakendecilerin tedarik zincirlerinde uygun çalışma koşulları ve sosyal sorumluluğun sağlanmasına yardımcı olur.</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-title">
+                <source>bsci-sectionOne-title</source>
+                <target>BSCI Tedarikçi Denetimleri</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-pgphOne">
+                <source>bsci-sectionOne-pgphOne</source>
+                <target><![CDATA[Günümüzde sorumluluk sahibi bir şekilde kaynak sağlamak ve etik tedarik zincirleri kurmak isteyen işletmeler için çeşitli sosyal denetim çerçeveleri mevcuttur. BSCI (İş Sosyal Uygunluk Girişimi), dünya genelinde şirketler tarafından tercih edilen temel sosyal denetim protokollerinden biridir. Akredite bir BSCI denetim kurumu olan AI, dünyanın pek çok yerindeki üreticilere, markalara ve perakendecilere kapsamlı denetim programları sunmaktadır.]]></target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-pgphTwo">
+                <source>bsci-sectionOne-pgphTwo</source>
+                <target>Üstün nitelikli denetçilerimiz, tedarikçinize ait tesislerinin BSCI Davranış Kuralları'nın tüm gerekliliklerini yerine getirdiğini denetler. Bu hususlardan bazıları şunlardır:</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list1">
+                <source>bsci-sectionOne-list1</source>
+                <target>Çalışma saatleri ve adil ücretlendirme</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list2">
+                <source>bsci-sectionOne-list2</source>
+                <target>İş sağlığı ve güvenliği</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list3">
+                <source>bsci-sectionOne-list3</source>
+                <target>Çocuk işçiliğinin önlenmesi ve genç işçilerin korunması</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list4">
+                <source>bsci-sectionOne-list4</source>
+                <target>Zorla / borç karşılığı çalıştırma ve güvencesiz istihdam</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list5">
+                <source>bsci-sectionOne-list5</source>
+                <target>Örgütlenme ve toplu pazarlık özgürlüğü</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list6">
+                <source>bsci-sectionOne-list6</source>
+                <target>Etik çalışma davranışları</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list7">
+                <source>bsci-sectionOne-list7</source>
+                <target>Ayrımcılık</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list8">
+                <source>bsci-sectionOne-list8</source>
+                <target>Çevrenin korunması</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionTwo-title">
+                <source>bsci-sectionTwo-title</source>
+                <target>BSCI Denetimi nedir?</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionTwo-pgphOne">
+                <source>bsci-sectionTwo-pgphOne</source>
+                <target><![CDATA[İş Sosyal Uygunluk Girişimi (BSCI), giderek daha karmaşık hale gelen küresel tedarik zincirlerinin sosyal performansının iyileştirilmesi amacıyla <a href="http://www.amfori.org/content/amfori-bsci" target="_blank">AMFORI</a> tarafından 2003 yılında kurulmuştur. 11 temel ilkeyi içeren BSCI Davranış Kuralları, Uluslararası Çalışma Örgütü, Birleşmiş Milletler İnsan Hakları Bildirgesi ve insan hakları alanında diğer önemli uluslar arası ve ulusal düzenlemelerin çalışma standartlarına dayanmaktadır.]]></target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionTwo-pgphTwo">
+                <source>bsci-sectionTwo-pgphTwo</source>
+                <target>BSCI Davranış Kurallarına uyulmasını sağlamak için düzenlenecek denetim, akredite edilmiş bir BSCI Hizmet Sağlayıcı tarafından gerçekleştirilmelidir ve tedarikçiye ait tesislerin profesyonel sosyal denetçiler tarafından yerinde ve kapsamlı bir biçimde değerlendirilmesini içermelidir. Tam bir BSCI denetiminin sonuçları iki yıl geçerlidir, bu sürenin ardından denetim tekrar edilmelidir.</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-title">
+                <source>bsci-sectionThree-title</source>
+                <target>Neden BSCI Denetimi yapılmalıdır?</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list1">
+                <source>bsci-sectionThree-list1</source>
+                <target>Etik kaynak sağlama konusuna bağlılığınızın gösterilmesi</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list2">
+                <source>bsci-sectionThree-list2</source>
+                <target>Tedarik zincirinizde adil çalışma koşullarının sağlanması</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list3">
+                <source>bsci-sectionThree-list3</source>
+                <target>Markanızın kurumsal sosyal sorumluluk imajının güçlendirilmesi</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list4">
+                <source>bsci-sectionThree-list4</source>
+                <target>Kanuni gerekliliklerin (ör. modern kölelik mevzuatı) yerine getirilmesi</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list5">
+                <source>bsci-sectionThree-list5</source>
+                <target>Tedarikçileriniz ve / veya müşterilerinizle uzun vadeli verimli ilişkilerin  kurulması</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-one">
+                <source>bsci-benefits-one</source>
+                <target>Kolaylaştırılmış denetim tarihi belirleme süreci</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-two">
+                <source>bsci-benefits-two</source>
+                <target>Hızlandırılmış rapor hazırlama</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-three">
+                <source>bsci-benefits-three</source>
+                <target>Piyasada lider saha bilgisi ve uzmanlığı</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-four">
+                <source>bsci-benefits-four</source>
+                <target>TPG'lerin belirlenmesi ve denetim programının geliştirilmesini sağlayan daha kapsamlı veri analizi ve teknoloji bilgisi</target>
+            </trans-unit>
+            <trans-unit id="bsci-meta-pagetitle">
+                <source>bsci-meta-pagetitle</source>
+                <target>BSCI Denetimi - Tedarikçi Fabrika Denetimi ve Sosyal Denetimler | AsiaInspection - Kalite Kontrol Hizmetleri</target>
+            </trans-unit>
+            <trans-unit id="bsci-meta-pagedesc">
+                <source>bsci-meta-pagedesc</source>
+                <target>AsiaInspection BSCI (İş Sosyal Uygunluk Girişimi) denetimleri sağlayan bir kurumdur. AI'yı güven ortağınız yaparak tedarik zincirinizde uygun çalışma koşullarını ve sosyal sorumluluğu güvence altına alın.</target>
+            </trans-unit>
+            <trans-unit id="bsci-meta-pagekeywords">
+                <source>bsci-meta-pagekeywords</source>
+                <target>bsci denetimi, bsci sosyal denetim, bsci fabrika denetimi</target>
+            </trans-unit>
+            <!-- BSCI Audits [End] -->
+        </body>
+    </file>
+</xliff>

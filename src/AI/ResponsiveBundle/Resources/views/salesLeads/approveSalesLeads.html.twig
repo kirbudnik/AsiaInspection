@@ -1,0 +1,155 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title %}Show Sales Leads{% endblock %}
+
+{% block content %}
+	<h1  class="margin20">{% if not is_granted('ROLE_USER') %}Tradeshow Memo and Lead Management Tool{% else %}Approve Zoho Leads{% endif %}</h1>
+	<div class="box-white">
+		<div style="margin-bottom:20px;" id="salesLeadsData">
+			<div id ="selectStatus">
+				<div class="col-md-1 paddingLeftZero" >
+				  <p class="pBold">Status:</p>
+				</div>
+
+				<div class="col-md-3 statusdrop_divbox">
+				  <select id="statusDropSelect" style="width:100%; ">
+					<option>All</option>
+					<option>Waiting</option>
+					<option>Approved</option>
+					<option>Rejected</option>
+				  </select>
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+			<br />
+			<table class="bordered tablesorter" style="width:100%;" id="salesLeadsTable">
+				<thead>
+					 <tr>
+						<th style="font-weight:bold;">Name</td>
+						<th style="font-weight:bold;">Type</td> 
+						<th style="font-weight:bold;">Tradeshow/Source</td>
+						<th style="font-weight:bold;">Status</td>
+						<th style="font-weight:bold;">File</td>
+						<th style="font-weight:bold;">Leads Uploaded</td>
+						<th style="font-weight:bold;">Uploaded Date Time</td>
+						<th style="font-weight:bold;">Approve</td>
+					</tr>
+				</thead>
+				<tbody>
+				{% for row in data %}
+					<tr class="salesLeadsRow">
+						<td>{{row['name']}}</td>
+						<td>{{row['account']}}</td>
+						<td>{{row['tradeshow']}}</td>
+						<td style="cursor:pointer;"><div class="status_tooltip" {% if row["status"] == "rejected" %}title="{{row['reject_reason_json']}}"{% else %}{% endif %} data-style="qtip-light" style="display:inline-block;" id="status_{{row['ID']}}">{{row['status']}}</div></td>
+						<td>{%if row['status']=="rejected"%}{%else%}<a href="{{link}}{{row['fileName']}}" id="file_{{row['ID']}}">Link</a>{%endif%}</td>
+						<td>{{row['leadsUploaded']}}</td>
+						<td>{{row['uploadDateTime']}}</td>
+						<td style="text-align:center;">{% if row["status"] == "waiting" %}<span class="answers text-center" id="answers_{{row['ID']}}"><button class="approveLeadsBtn btn-primary" name="q0" id="approve_{{row['ID']}}" value="{{row['ID']}}">Yes</button> <button  class="rejectLeadsBtn btn-negative"  name="q0"  id="reject_{{row['ID']}}"  value="{{row['ID']}}">No</button></span>{% elseif row['status']=="rejected" %}No{% else %}Yes{% endif %}</td>
+					</tr>
+				{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<style>
+/*! Light tooltip style */
+		
+		.ui-tooltip, .arrow:after {
+			background: white !important;
+			border: 2px solid white;
+		}
+		.ui-tooltip {
+			padding: 10px 20px;
+			color: black;
+			border-radius: 20px;
+			font: bold 14px "Helvetica Neue", Sans-Serif;
+			text-transform: uppercase;
+			box-shadow: 0 0 7px white;
+		}
+		.arrow {
+			width: 70px;
+			height: 16px;
+			overflow: hidden;
+			position: absolute;
+			left: 50%;
+			margin-left: -35px;
+			bottom: -16px;
+		}
+		.arrow.top {
+			top: -16px;
+			bottom: auto;
+		}
+		.arrow.left {
+			left: 20%;
+		}
+		.arrow:after {
+			content: "";
+			position: absolute;
+			left: 20px;
+			top: -20px;
+			width: 25px;
+			height: 25px;
+			box-shadow: 6px 5px 9px -9px white;
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+		.arrow.top:after {
+			bottom: -20px;
+			top: auto;
+		}
+		.qtip-light {
+			padding-top:5px;
+			padding-bottom:5px;
+			font-size:18px !important;
+			line-height:22px !important;
+		}
+	</style>
+	
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/qtip2/3.0.3/jquery.qtip.min.css">
+	<script src="http://cdn.jsdelivr.net/qtip2/3.0.3/jquery.qtip.min.js"></script>
+	<script>
+
+		// nl2br
+		function nl2br (str, is_xhtml) {
+			var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
+			return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+		}
+
+
+		function add_tooltip_to_selector(selector) {
+			$(selector).qtip({
+				style: {
+					classes: 'qtip-light qtip-rounded qtip-shadow',
+				},
+				position: {
+					my: 'bottom center',  // Position my top left...
+					at: 'top center', // at the bottom right of...
+					target: 'event' // my target
+				},
+				content: {
+					text: function(event, api) {
+						
+
+						// Retrieve content from custom attribute of the $('.selector') elements.
+						var title = $(this).attr('title');
+						if (title != "" && $(this).attr('title') !== undefined && $(this).attr('title') !== null) {
+							var obj = jQuery.parseJSON(title);
+							//console.info(obj);
+							title = nl2br(obj);
+						}
+						return title;
+					}
+				}
+			});
+		};
+
+		$(document).ready(function() {
+
+			add_tooltip_to_selector(".status_tooltip");
+
+		});
+	</script>
+
+{% endblock %}

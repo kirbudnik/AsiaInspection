@@ -1,0 +1,22 @@
+{% extends '::base.html.twig' %}
+{%block title%}The page you requested cannot be found |  AsiaInspection.com{%endblock%}
+
+{%block body%}
+<div id="page404" class="container margin20">
+	<div class="row offer-box wrapper" style="background-color:white;">
+		<div class="col-sm-6 col-xs-12">
+			<h1>{{xml.title}}</h1>
+			<p style="margin:20px 0px;">{{xml.intro}}</p>
+			<p style="margin:35px 0px;">
+				<a href="javascript: history.go(-1)">{{xml.back}}</a> | <a href="/">{{xml.home}}</a>
+			</p>
+			<p>{{xml.social|raw}}</p>
+			<p style="margin:35px 0px;"><i>{{ app.request.headers.get('referer') }}</i></p>
+		</div>
+		<div class="col-sm-6 col-xs-12">
+			<img id="boxQuestionMark" src="{{xml.image}}">
+		</div>
+	</div>
+</div>
+
+{%endblock%}

@@ -1,0 +1,9 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { //Targets IE10+
+
+	#footerlinks{ width:100%; }
+	#TestimonialSlider {
+		li > p { margin:0px 10px; }
+	}
+	#IndustryBGslider{ width:100% !important; }
+
+} //End of Media Query for IE10+

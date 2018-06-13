@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+    <pageMeta>
+        <pageTitle>
+            <en>Manufacturing Audit &amp; Supplier Evaluation | Quality Assurance Services</en>
+            <es>Servicios de Control de Calidad: Auditoría en Fábricas (ISO 9000 9001) | AsiaInspection.com</es>
+            <fr>Contrôle Qualité : Audits fournisseurs et audits industriels (ISO 9000 9001) | AsiaInspection.fr</fr>
+            <zh>质量检测服务：工厂审核(ISO 9000 9001)服务 | ChinaInspection.com</zh>
+            <de>Werksinspektion &amp; Zulieferer Evaluation | Qualitätskontrolle</de>
+            <pt>Serviços de controle de qualidade: Auditoria de fábrica (ISO 9000 9001) | AsiaInspection.pt</pt>
+            <ru>Услуги контроля качества: Аудит фабрик (ISO 9000 9001) |AsiaInspection.ru</ru>
+            <ar>مراجعة وتدقيق المصنع |AsiaInspection.ae</ar>
+            <tr>İmalat Denetimi ve Tedarikçi Değerlendirmesi | Kalite Güvence Hizmetleri</tr>
+            <ru>Производственный аудит и оценка поставщика | Услуги по обеспечению качества</ru>
+            <it>Audit della Produzione e Valutazione del Fornitore | Servizi di Quality Assurance</it>
+        </pageTitle>
+        <pageDesc>
+            <en>Asia Inspection provides manufacturing audit (MA) and supplier evaluation services for brands and manufacturers world wide. Learn more about our manufacturing audit process here.</en>
+            <es>Asia Inspection brinda auditorías en fábricas.</es>
+            <fr>Asie inspection fournit des audits industriels.</fr>
+            <zh>AsiaInspection 提供工厂审核服务，确保生产设施质量与工厂质量管理系统符合ISO 9000 9001认证标准</zh>
+            <ru>Asia Inspection предлагает услуги аудита фабрик для производителей.</ru>
+            <ar>مراجعة وتدقيق المصنع الخاصة بنا تلتزم بمعيار الايزو ٩٠٠١ المعترف به دوليا فى ادارة انظمة الجودة.</ar>
+            <de>Asia Inspection bietet Werksinspektionen und Evaluationen von Zulieferern für Marken und Produzenten weltweit. Erfahren Sie mehr über unsere Inspektionen.</de>
+            <tr>Asia Inspection dünya genelinde marka ve imalatçılar için imalat denetimi (MA) ve tedarikçi değerlendirme hizmetleri sunar. Buradan imalat denetim sürecimiz hakkında daha fazla bilgi alın.</tr>
+            <ru>Asia Inspection предлагает услуги по производственному аудиту (MA) и оценке поставщиков для брендов и производителей по всему миру. Здесь вы можете узнать подробнее о процессе нашего производственного аудита.</ru>
+            <it>Asia Inspection offre servizi di audit della produzione (MA) e valutazione del fornitore per marchi e produttori in tutto il mondo. Scopri di più sulla nostra procedura di audit della produzione qui.</it>
+        </pageDesc>
+        <pageKeywords>
+            <en>supplier audit, manufacturing audit, supplier evaluation</en>
+            <tr>tedarikçi denetimi, imalat denetimi, tedarikçi değerlendirme</tr>
+            <ru>аудит поставщиков, производственный аудит, оценка поставщика</ru>
+            <it>audit del fornitore, audit della produzione, valutazione del fornitore</it>
+        </pageKeywords>
+    </pageMeta>
+
+    <en>
+        <title>Manufacturing Audits (MA)</title>
+        <subtext>AsiaInspection Manufacturing Audits (MA) are the best way to evaluate your potential supplier's reliability and capabilities – before you give them your business.</subtext>
+        <whyUsTitle>Why AsiaInspection</whyUsTitle>
+        <whyUsList>
+            <!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD all-inclusive per man-day]]></li> -->
+            <li>All-inclusive pricing (no extra charge for Auditor’s expenses)</li>
+            <li hover="1">An auditor onsite within 48 hours</li>
+            <li><![CDATA[Easy online scheduling of services:<br />book Audits and check reports from the convenience of your online account and <a href='/mobile'>AI Mobile App</a>.]]></li>
+        </whyUsList>
+        <hoverOne>
+            <![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+        </hoverOne>
+        <hoverTwo>
+            80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+        </hoverTwo>
+        <schedButton url="/register">Get Started</schedButton>
+        <Benefits>
+            <section>
+                <title>Manufacturing Audits</title>
+                <pgph>Your supply chain is only as good as its weakest link. The only way to ensure smooth running of your business and uninterrupted supply of goods is to thoroughly vet potential suppliers before integrating them into your supply chain.</pgph>
+                <pgph>Manufacturing Audits by AI are a cost- and time-effective way to prepare a complete profile of your potential supplier, ensuring they will become a reliable part of your global supply chain. With an AI Audit Report in hand you will be able to confirm that the audited site is capable of delivering to your production specifications, address and prevent potential further costly disruptions once production is launched.</pgph>
+            </section>
+            <section>
+                <title>Manufacturing Audit Expertise</title>
+                <pgph>AI's Manufacturing Audits adhere to the internationally recognized ISO 9000 standards for Quality Management System. Our auditors are profiled specialists with an average of 5 years of experience in the field, and undergo regular training and attestation.</pgph>
+                <pgph>In the scope of a Manufacturing Audit, AI auditors conduct an extensive evaluation of your supplier's facilities and management systems. The standard Manufacturing Audit covers:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Factory profile</li>
+                        <li>Production capacities</li>
+                        <li>Factory facilities, including condition of machinery and equipment</li>
+                        <li>Workflow and organization charts</li>
+                        <li>Quality assurance systems in place</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+            <section>
+                <title>Customizable Audit Programs</title>
+                <pgph>Our Manufacturing Audits offer a great degree of flexibility and can be customized to fit your specific requirements.</pgph>
+                <pgph>The following additional modules can be included in an AI supplier evaluation:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Social responsibility and compliance</li>
+                        <li>Procurement conditions</li>
+                        <li>R&amp;D – sampling capacity</li>
+                        <li>Hygiene, health and safety</li>
+                        <li>Environmental impact</li>
+                        <li>RoHS standards</li>
+                        <li>Other modules as required</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+
+            <section>
+                <title>Pricing</title>
+                <pgph>AI's Manufacturing Audits are priced per man-day, depending on the geographical location of your supplier:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li><b>$%price_Audit_Low%</b> for suppliers located in China, India, Bangladesh, Vietnam, Cambodia, Thailand, Africa, and Latin America;</li>
+                        <li><b>$%price_Audit_High%</b> for suppliers located in Europe, Greater Asia, and Brazil.</li>
+                    </ul>
+                    ]]>
+                </pgph>
+                <pgph>The audit duration is usually one-man for factories employing under 500 workers, and two man-days for larger facilities.</pgph>
+                <pgph>Additional charges apply for inclusion of optional modules (see above) and/or further customization.</pgph>
+            </section>
+            <section>
+                <title>Why Perform a Manufacturing Audit</title>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>To verify that your supplier's facilities are operational and suitable for manufacturing your product</li>
+                        <li>To ensure that your supplier's sourcing policies comply with your own</li>
+                        <li>To identify and hedge against potential quality, operational, and ethical risks</li>
+                        <li>To evaluate the competence of the factory management</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+        </Benefits>
+    </en>
+    <zh>
+        <title>工厂审核 </title>
+        <subtext>
+            <![CDATA[
+            我们的工厂审核服务遵行国际通用的 ISO 9000质量管理系统标准。
+
+            ]]>
+        </subtext>
+        <subtext2>
+        审核人员将独立地对从工厂生产能力及质量管理系统，到职工设施和工作环境进行评估审核。我们将在实地考查，获取有效信息，确保您的供应商可靠高效。 我们将确认您的工厂拥有符合您标准的生产能力。
+        </subtext2>
+        <whyUsTitle>为什么选择 AsiaInspection</whyUsTitle>
+        <whyUsList>
+            <!-- <li><![CDATA[每人每天检验仅需 $<span style='font-size:inherit;' class='priceAT'></span> USD]]></li> -->
+            <li>全包价</li>
+            <li hover="1">检验人员48小时内到达现场</li>
+            <li hover="2">当天出具检验报告</li>
+            <li>简易在线安排日程</li>
+        </whyUsList>
+        <hoverOne>
+            <![CDATA[AsiaInspection保证将在48小时内派遣验货员到达工厂。<br /><br />但是这个时间期限也有赖于工厂的准备工作是否完成，并且是否与AsiaInspection充分合作。此外，如果遭遇其它不可控因素如交通晚点或其他任何意外事故，该时间期限将不能保证。]]>
+        </hoverOne>
+        <hoverTwo>
+            正常情况下，80%的检验报告都将在检验当天出具。但是，报告是否能当天出具也取决于工厂是否配合。
+        </hoverTwo>
+        <schedButton url="/register">咨询详情</schedButton>
+    </zh>
+    <fr>
+        <title>Audit industriel</title>
+        <subtext>
+            <![CDATA[
+            Nos audits industriels s'appuient sur l'ensemble de normes ISO 9000, normes internationalement reconnues pour la gestion de la qualité.<br><br>
+
+            ]]>
+        </subtext>
+        <whyUsTitle>Pourquoi AsiaInspection</whyUsTitle>
+        <whyUsList>
+            <!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD tout compris par jour-homme]]></li> -->
+            <li>Prix tout compris</li>
+            <li hover="1">Un auditeur sur site sous 48 heures</li>
+            <li hover="2">Rapport le jour même</li>
+            <li>Commande en ligne facile et protocole d'inspection personnalisé. </li>
+        </whyUsList>
+        <hoverOne>
+            <![CDATA[AsiaInspection garantit l’intervention d’un inspecteur sur site dans les 48 heures. <br /><br />Cette fenêtre d’intervention est toutefois sujette à la coopération de l’usine et à son niveau de préparation. La garantie ne couvre pas les facteurs indépendants de la volonté d’AsiaInspection, tels que les retards dans les transports, ou tout autre cas de force majeure. ]]>
+        </hoverOne>
+        <hoverTwo>
+             80% des rapports sont remis le jour même de l’inspection. La remise du rapport le jour même dépend de la coopération totale de l’usine.
+
+        </hoverTwo>
+        <schedButton url="/register">Commencer</schedButton>
+    </fr>
+    <ar>
+        <title>مراجعة وتدقيق المصنع</title>
+        <subtext>
+            <![CDATA[
+            مراجعة وتدقيق المصنع الخاصة بنا تلتزم بمعيار الايزو ٩٠٠١ المعترف به دوليا فى ادارة انظمة الجودة
+            يقوم المراجعون / المدققون العاملين لدينا بتقييم كل شئ بداية من القدرة الانتاجية و انظمة مراقبة الجودة الخاصة بالمصنع الى مرافق و ظروف بيئه العمل الخاصة بالعامليين . بمجرد تلقى حجز الخدمة نذهب مباشرة لمكان المصنع لجمع المعلومات الازمة للتاكد من جودة الموردين الخاصين بك و تاكيد ما اذا كان لديهم القدرة و الجودة الانتاجية التى تلبى احتياجاتك .
+
+            ]]>
+        </subtext>
+        <whyUsTitle>لماذا تختار شركة AsiaInspection ؟</whyUsTitle>
+        <whyUsList>
+            <!-- <li><![CDATA[سعر الخدمة <span style='font-size:inherit;' dir='ltr' class='priceAT'></span> دولار امريكى شاملا جميع المصاريف ]]></li> -->
+            <li>أسعار جميع الخدمات شاملة جميع التكاليف</li>
+            <li hover="1">يتم ارسال المراجع / المدقق الى مكان المصنع فى خلال ٤٨ ساعة </li>
+            <li hover="2">يتم ارسال تقرير فحص و مراجعة المصنع فى نفس اليوم</li>
+            <li>يتم حجز الخدمة اونلين من خلال موقعنا الالكترونى ( يلزم انشاء حساب خاص بك ... فى اقل من ٢ دقيقة )</li>
+        </whyUsList>
+        <hoverOne>
+            <![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+        </hoverOne>
+        <hoverTwo>
+            80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+        </hoverTwo>
+        <schedButton url="/register">إبدأ الحجز الأن</schedButton>
+    </ar>
+
+    <ru>
+        <title>Производственные аудиты (MA)</title>
+        <subtext>Производственный аудит (MA) от AsiaInspection - это лучший способ оценить надежность и возможности потенциального поставщика, прежде чем впустить его в ваш бизнес.</subtext>
+        <whyUsTitle>Почему стоит предпочесть AsiaInspection</whyUsTitle>
+        <whyUsList>
+            <!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD all-inclusive per man-day]]></li> -->
+            <li>Цены по принципу "все включено" (никакой дополнительной платы за расходы аудитора)</li>
+            <li hover="1">Прибытие аудитора на место в течение 48 часов</li>
+            <li><![CDATA[Простое планирование услуг онлайн:<br />заказывайте аудиты и проверяйте отчеты онлайн с помощью вашей удобной учетной записи или через мобильное приложение.]]></li>
+        </whyUsList>
+        <hoverOne>
+            <![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+        </hoverOne>
+        <hoverTwo>
+            80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+        </hoverTwo>
+        <schedButton url="/register">Начать</schedButton>
+        <Benefits>
+            <section>
+                <title>Производственные аудиты</title>
+                <pgph>Качество вашей цепочки поставок определяется качеством ее самого слабого звена. Единственный способ обеспечить бесперебойную работу вашего бизнеса и непрерывное поступление товаров заключается в тщательной проверке потенциальных поставщиков перед тем, как включить их в цепочку поставок.</pgph>
+                <pgph>Производственный аудит от AI - это выгодный и эффективный способ получить полную характеристику потенциального поставщика, чтобы гарантировать, что он станет надежным звеном вашей глобальной цепочки поставок. Получив на руки аудиторский отчет AI, вы сможете подтвердить, что прошедший аудит объект способен соответствовать вашим техническим требованиям, а также предотвратить потенциальные дорогостоящие сбои в будущем, когда производство будет запущено.</pgph>
+            </section>
+            <section>
+                <title>Квалифицированный производственный аудит</title>
+                <pgph>Производственные аудиты AI проходят в соответствии с международно признанными стандартами ISO 9000, касающимися системы менеджмента качества. Наши аудиторы - это профильные специалисты, имеющие в среднем 5 лет опыта работы в отрасли. Они регулярно проходят обучение и аттестации.</pgph>
+                <pgph>В рамках производственного аудита наши аудиторы делают обширную оценку оборудования и систем управления вашего поставщика. Стандартный производственный аудит включает в себя:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Характеристики завода</li>
+                        <li>Производственные мощности</li>
+                        <li>Заводские установки, включая состояние машин и оборудования</li>
+                        <li>Рабочий процесс и организационные графики</li>
+                        <li>Системы обеспечения качества на месте</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+            <section>
+                <title>Персонализируемые аудиторские программы</title>
+                <pgph>Наши производственные аудиты имеют высокую степень гибкости и могут быть настроены в соответствии с вашими конкретными требованиями.</pgph>
+                <pgph>Следующие дополнительные модули могут быть включены в систему оценки поставщика AI:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Социальная ответственность и соответствие нормам</li>
+                        <li>Закупочные условия</li>
+                        <li>НИОКР - возможности опробования</li>
+                        <li>Гигиена, здоровье и безопасность</li>
+                        <li>Воздействие на окружающую среду</li>
+                        <li>Стандарты RoHS</li>
+                        <li>Другие модули по запросу</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+
+            <section>
+                <title>Расценки</title>
+                <pgph>Стоимость производственных аудитов AI определяется в человеко-днях, в зависимости от географического местоположения вашего поставщика:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li><b>$%price_Audit_Low%</b> длр США для поставщиков из Китая, Индии, Бангладеш, Вьетнама, Камбоджи, Таиланда, Африки и Латинской Америки;</li>
+                        <li><b>$%price_Audit_High%</b> длр США для поставщиков из Европы, Большой Азии и Бразилии.</li>
+                    </ul>
+                    ]]>
+                </pgph>
+                <pgph>Длительность аудита для фабрик, на которых работает менее 500 человек, обычно составляет один человеко-день, а для более крупных объектов - два человеко-дня.</pgph>
+                <pgph>Дополнительная плата взимается за включение факультативных модулей (см. выше) и/или дальнейшую персонализацию.</pgph>
+            </section>
+            <section>
+                <title>Зачем проводить производственный аудит</title>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Чтобы убедиться в том, что оборудование поставщика работает и подходит для изготовления вашей продукции</li>
+                        <li>Чтобы гарантировать соответствие закупочной политики поставщика вашим принципам</li>
+                        <li>Чтобы выявить качественные, операционные и этические риски, а затем предусмотреть меры, чтобы избежать их</li>
+                        <li>Чтобы оценить компетентность управления заводом</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+        </Benefits>
+    </ru>
+
+    <es>
+        <title>Auditoría de Fábrica</title>
+        <subtext>La auditoría de fábrica de AsiaInspection es la mejor manera de evaluar la fiabilidad y la capacidad de su proveedor potencial - antes de ofrecerle su negocio.</subtext>
+        <whyUsTitle>Why AsiaInspection</whyUsTitle>
+        <whyUsList>
+            <!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD all-inclusive per man-day]]></li> -->
+            <li>All-inclusive pricing (no extra charge for Auditor’s expenses)</li>
+            <li hover="1">An auditor onsite within 48 hours</li>
+            <li><![CDATA[Easy online scheduling of services:<br />book Audits and check reports from the convenience of your online account and <a href='/mobile'>AI Mobile App</a>.]]></li>
+        </whyUsList>
+        <hoverOne>
+            <![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+        </hoverOne>
+        <hoverTwo>
+            80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+        </hoverTwo>
+        <schedButton url="/register">¡Empice ya!</schedButton>
+        <Benefits>
+            <section>
+                <title>Auditoria de fábrica</title>
+                <pgph>La única manera de garantizar el buen funcionamiento de su negocio y sin interrupciones de suministro es investigar a fondo los posibles proveedores antes de su integración en la cadena de suministro.</pgph>
+                <pgph>Las auditorías de fabricación de AI son una efectiva manera de preparar un perfil completo de su proveedor potencial en función de los costos y los tiempos, asegurando que se convertirá en una parte confiable de su cadena de suministro global. Un informe de auditoría de AI en la mano que va a ser capaz de confirmar que el sitio auditado es capaz de ofrecer a sus especificaciones de producción, dirección y prevenir posibles nuevas interrupciones costosas una vez que se puso en marcha la producción.</pgph>
+            </section>
+            <section>
+                <title>Experiencia en auditoria de fábrica</title>
+                <pgph>La auditorías de fábrica de AI se adhieren a normas reconocidas a nivel internacional ISO 9000 para el Sistema de Gestión de Calidad. Nuestros auditores están especializados con un promedio de 5 años de experiencia en el campo, y se someten a formación y certificación regularmente</pgph>
+                <pgph>Durante la auditoría de fábrica, los auditores de AI llevan a cabo una extensa evaluación las instalaciones y sistemas de gestión de su proveedor. La auditoría de fábrica estándar cubre:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+
+                         <li> Perfil de la fábrica </ li>
+                         <li> Capacidad de producción </ li>
+                         <li> Instalaciones de la fábrica, incluyendo el estado de maquinaria y equipamiento </ li>
+                         <li> Flujo de trabajo y organización </ li>
+                         <Li> Sistemas de aseguramiento de calidad </ li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+            <section>
+                <title>Programa de auditoría personalizable</title>
+                <pgph>Nuestras auditorías de fábrica ofrecen un alto grado de flexibilidad y se pueden personalizar para satisfacer sus requisitos específicos.</pgph>
+                <pgph>Los siguientes módulos adicionales se pueden incluir en una evaluación de proveedores AI:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                         <Li> Cumplimiento y Responsabilidad social</ li>
+                         <Li> Condiciones de adquisición </ li>
+                         <Li> R & D - Capacidad de toma de muestras </ li>
+                         <Li> Higiene, salud y seguridad </ li>
+                         <Li> Impacto ambiental </ li>
+                         <li> Normas RoHS </ li>
+                         <Li> Otros módulos que sean necesarios </ li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+
+            <section>
+                <title>Tarifas</title>
+                <pgph>La auditorías de fábrica AI tienen un precio por persona/día, dependiendo de la ubicación geográfica de su proveedor:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li><b>$%price_Audit_Low%</b> para proveedores ubicados en China, India, Bangladesh, Vietnam, Camboya, Thailandia, África, y Latino América;</li>
+                        <li><b>$%price_Audit_High%</b> para proveedores ubicados en Europa, resto de Asia, y Brasil.</li>
+                    </ul>
+                    ]]>
+                </pgph>
+                <pgph>La duración de la auditoría es generalmente de una persona/día para fábricas con menos de 500 trabajadores, y dos personas/días para instalaciones más grandes.</pgph>
+                <pgph>Se aplican cargos adicionales para la inclusión de módulos opcionales (ver más arriba) y / o una mayor personalización.</pgph>
+            </section>
+            <section>
+                <title>Por qué realizar una auditoría de fábrica</title>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                         <li> Para verificar que las instalaciones de su proveedor están en funcionamiento y son adecuadas para la fabricación de su producto </ li>
+                         <li> Para asegurar que las políticas de aprovisionamiento de su proveedor cumplan con las suyas </ li>
+                         <li> Identificar mala calidad potencial, operacional y riesgos éticos </ li>
+                         <li> Para evaluar la competencia de la dirección de la fábrica </ li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+        </Benefits>
+    </es>
+
+    <de>
+        <title>Werksinspektion</title>
+        <subtext>
+            <![CDATA[
+            Die Werksinspektion beruht auf der international anerkannten Norm ISO 9000 für Qualitätsmanagementsysteme.
+            Unsere qualifizierten Prüfer führen eine unabhängige Beurteilung aller Aspekte durch – von Produktionskapazitäten bis zu Ausstattung für Mitarbeiter und Arbeitsbedingungen. Wir sammeln vor Ort die Informationen, die Sie zur Auswahl hochwertiger Anbieter benötigen.
+            ]]>
+        </subtext>
+        <whyUsTitle>Warum AsiaInspection</whyUsTitle>
+        <whyUsList>
+            <!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD pro Manntag all-inclusive]]></li> -->
+            <li>All-inclusive Preise</li>
+            <li hover="1">Ein Auditor vor Ort innerhalb von 48 Stunden</li>
+            <li hover="2">Selben Tag Prüfungsberichte</li>
+            <li>Einfache Online-Planung von Services</li>
+        </whyUsList>
+        <schedButton url="/register">Erste Schritte</schedButton>
+    </de>
+
+    <it>
+        <title>Audit della Produzione (MA)</title>
+        <subtext>Gli Audit della Produzione (MA) di AsiaInspection costituiscono il modo migliore per valutare l'affidabilità e le capacità del tuo potenziale fornitore, prima di mettere la tua attività nelle sue mani.</subtext>
+        <whyUsTitle>Why AsiaInspection</whyUsTitle>
+        <whyUsList>
+            <!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD all-inclusive per man-day]]></li> -->
+            <li>All-inclusive pricing (no extra charge for Auditor’s expenses)</li>
+            <li hover="1">An auditor onsite within 48 hours</li>
+            <li><![CDATA[Easy online scheduling of services:<br />book Audits and check reports from the convenience of your online account and <a href='/mobile'>AI Mobile App</a>.]]></li>
+        </whyUsList>
+        <hoverOne>
+            <![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+        </hoverOne>
+        <hoverTwo>
+            80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+        </hoverTwo>
+        <schedButton url="/register">Get Started</schedButton>
+        <Benefits>
+            <section>
+                <title>Audit della Produzione</title>
+                <pgph>La bontà della tua filiera di produzione e approvvigionamento è quella del suo anello più debole. L'unico modo per garantirti un'attività senza problemi e una fornitura ininterrotta di beni consiste nell'esaminare attentamente i fornitori potenziali, prima di inserirli nella tua filiera di produzione a approvvigionamento.</pgph>
+                <pgph>Gli Audit della Produzione di AI costituiscono un soluzione competitiva tanto sotto il profilo dei costi quanto sotto quello dei tempi per preparare un profilo completo del tuo potenziale fornitore, avendo la garanzia che diventeranno parte affidabile della tua filiera globale di produzione e approvvigionamento. Con un Rapporto dell'Audit AI in mano, potrai avere la conferma che lo stabilimento sottoposto ad auditing è in grado di produrre secondo le tue specifiche, prevenendo ulteriori costose interruzioni una volta che la produzione sarà stata avviata.</pgph>
+            </section>
+            <section>
+                <title>Competenza nell'Audit della Produzione</title>
+                <pgph>Gli Audit della Produzione di AI si basano sugli standard ISO 9000 per il Sistema di Gestione della Qualità, riconosciuti a livello internazionale. I nostri auditor sono specialisti selezionati con 5 anni di esperienza nel settore e vengono formati e certificati con regolarità.</pgph>
+                <pgph>Nell'ambito di un Audit della Produzione, gli auditor AI effettuano un'analisi completa degli stabilimenti e dei sistemi gestionali del vostro fornitore. L'Audit della Produzione standard copre:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Il profilo della fabbrica</li>
+                        <li>Le capacità produttive</li>
+                        <li>Gli stabilimenti della fabbrica, compresi lo stato degli impianti e delle attrezzature</li>
+                        <li>Il flusso di lavoro e gli organigrammi</li>
+                        <li>I sistemi di quality assurance adottati</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+            <section>
+                <title>Programmi di Audit Personalizzabili</title>
+                <pgph>I nostri Audit della Produzione offrono un elevato livello di flessibilità e possono essere personalizzati sulla base delle tue specifiche esigenze.</pgph>
+                <pgph>In una valutazione del fornitore effettuata da AI è possibile inserire i seguenti moduli aggiuntivi:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Responsabilità sociale e conformità</li>
+                        <li>Condizioni di approvvigionamento</li>
+                        <li>R&amp;S - Capacità di campionamento</li>
+                        <li>Igiene, salute e sicurezza</li>
+                        <li>Impatto ambientale</li>
+                        <li>Standard RoHS</li>
+                        <li>Altri moduli su richiesta</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+
+            <section>
+                <title>Tariffe</title>
+                <pgph>La tariffazione degli Audit della Produzione di AI è per giorno-uomo, in base alla posizione geografica del tuo fornitore:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li><b>%price_Audit_Low% $</b> per fornitori con sede in Cina, India, Bangladesh, Vietnam, Cambogia, Thailandia, Africa e America Latina</li>
+                        <li><b>%price_Audit_High% $</b> per fornitori con sede in Europa, Asia Maggiore e Brasile.</li>
+                    </ul>
+                    ]]>
+                </pgph>
+                <pgph>Normalmente l'audit richiede un giorno-uomo per le aziende con meno di 500 dipendenti e due giorni-uomo per stabilimenti più grandi.</pgph>
+                <pgph>L'inclusione di moduli opzionali (vedi sopra) e/o ulteriori personalizzazioni prevede costi aggiuntivi.</pgph>
+            </section>
+            <section>
+                <title>Perché effettuare un Audit della Produzione</title>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Per verificare che gli stabilimenti del tuo fornitore siano operativi e adatti per la fabbricazione del tuo prodotto</li>
+                        <li>Per verificare che le politiche di approvvigionamento del tuo fornitore siano conformi alle tue</li>
+                        <li>Per identificare e proteggersi dai rischi legati alla qualità, all'operatività e all'etica</li>
+                        <li>Per valutare la competenza del management della fabbrica</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+        </Benefits>
+    </it>
+
+    <pt>
+        <title>Auditoria de fábrica</title>
+        <subtext>
+            <![CDATA[
+            Nossa Auditoria de fábrica segue os mundialmente reconhecidos padrões ISO 9000 de Sistemas de Gestão da Qualidade.<br /><br />
+            ]]>
+        </subtext>
+        <whyUsTitle>Why AsiaInspection</whyUsTitle>
+        <whyUsList>
+            <li>Preço com tudo incluído</li>
+            <li hover="1">Um inspetor no local em 48 horas</li>
+            <li hover="2">Relatórios de inspeção no mesmo dia</li>
+            <li>Agendamento de serviços on-line fácil</li>
+        </whyUsList>
+        <hoverOne>
+            <![CDATA[A AsiaInspection garante ter um inspetor ou auditor pronto para se apresentar na fábrica num prazo de 48 horas.<br/><br/> Este prazo não garante, no entanto, a preparação ou cooperação da fábrica com a AsiaInspection. Também não oferece garantias contra fatores limitadores fora do controlo da AsiaInspection, como atrasos de viagem, ou qualquer evento considerado de força maior.]]>
+        </hoverOne>
+        <hoverTwo>
+            80% de todos os relatórios de auditoria são entregues no mesmo dia. Os relatórios entregues no mesmo dia dependem da total cooperação da fábrica.
+        </hoverTwo>
+        <schedButton url="/register">Introdução</schedButton>
+        <Benefits>
+            <section>
+                <title>Auditoria de Fábrica</title>
+                <pgph>A sua cadeia de fornecimento só é tão boa quanto o seu elo mais fraco. A única maneira de garantir o bom funcionamento do seu negócio e sem interrupções de fornecimento é investigar a fundo os possíveis fornecedores antes da sua integração na sua cadeira de fornecimento.</pgph>
+                <pgph>As Auditorias de Fábrica da AI são uma maneira efetiva de preparar um perfil completo do seu fornecedor em função dos custos e do tempo, assegurando que se tornará uma parte confiável na sua cadeira de fornecimento. Com um Relatório de Auditoria da AI em mãos, será capaz de confirmar que o local auditado é capaz de oferecer as suas especificações de produção, endereço e prevenir possíveis interrupções dispendiosas, assim que a produção é colocada em marcha.</pgph>
+            </section>
+            <section>
+                <title>Experiência em Auditoria de Fábrica</title>
+                <pgph>As Auditorias de Fábrica da AI aderem às normas internacionalmente reconhecidas ISO 9000 para o Sistema de Gestão de Qualidade Os nossos auditores são especialistas com uma média de 5 anos de experiência em campo, e são submetidos a formações e certificações regularmente.</pgph>
+                <pgph>Durante a Auditoria de Fábrica, os auditores da AI conduzem uma extensa avaliação das instalações e sistemas de gestão do seu fornecedor.  A Auditoria de Fábrica padrão inclui:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Perfil da fábrica</li>
+                        <li>Capacidade de produção</li>
+                        <li>Instalações da fábrica, incluindo o estado da maquinaria e equipamento</li>
+                        <li>Fluxo de trabalho e organização</li>
+                        <li>Sistemas de garantia de qualidade no lugar</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+            <section>
+                <title>Programa de auditoria personalizável</title>
+                <pgph>As nossas Auditorias de Fábrica oferecem um grau elevado de flexibilidade e podem ser personalizadas para satisfazer os seus requisitos específicos.</pgph>
+                <pgph>Os seguintes módulos adicionais podem ser incluídos na avaliação do fornecedor da AI:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Cumprimento e responsabilidade social</li>
+                        <li>Condições de aquisição</li>
+                        <li>R&D - Capacidade de amostragem</li>
+                        <li>Higiene, saúde e segurança</li>
+                        <li>Impacto ambiental</li>
+                        <li>Normas RoHS</li>
+                        <li>Outros módulos que sejam necessários</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+
+            <section>
+                <title>Tarifas</title>
+                <pgph>As Auditorias de Fábrica da AI têm um preço por pessoa/dia, dependendo da localização geográfica do seu fornecedor:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li><b>$%price_Audit_Low%</b> para fornecedores localizados na China, Índia, Bangladesh, Vietname, Cambodja, Tailândia, África e América Latina</li>
+                        <li><b>$%price_Audit_High%</b> para fornecedores localizados na Europa, Grande Ásia e Brasil.</li>
+                    </ul>
+                    ]]>
+                </pgph>
+                <pgph>A duração da auditoria é geralmente de uma pessoa/dia para fábricas com menos de 500 trabalhadores, e de duas pessoas/dia para instalações maiores.</pgph>
+                <pgph>Aplicam-se custos adicionais para a inclusão de módulos opcionais (ver acima) e/ou uma personalização maior.</pgph>
+            </section>
+            <section>
+                <title>Porquê Realizar uma Auditoria de Fábrica</title>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Para verificar que as instalações do seu fornecedor estão em funcionamento e são adequadas para a fabricação do seu produto</li>
+                        <li>Para assegurar que as políticas de aprovisionamento do seu fornecedor cumpram com as suas</li>
+                        <li>Identificar potenciais riscos de qualidade, operacionais e éticos</li>
+                        <li>Para avaliar a competência da gestão da fábrica</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+        </Benefits>
+    </pt>
+
+    <tr>
+        <title>İmalat Denetimleri (MA)</title>
+        <subtext>AsiaInspection İmalat Denetimleri (MA) onları iş vermeden önce, potansiyel tedarikçinizin güvenilirlik ve yeteneklerini değerlendirmenin en iyi yoludur.</subtext>
+        <whyUsTitle>Neden AsiaInspection</whyUsTitle>
+        <whyUsList>
+            <li>Her şey dahil fiyatlandırma</li>
+            <li hover="1">48 seat içinde sahada olan denetçi[1]</li>
+            <li><![CDATA[Kolay çevrimiçi hizmet düzenlemeleri.]]></li>
+        </whyUsList>
+        <hoverOne>
+            <![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+        </hoverOne>
+        <hoverTwo>
+            80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+        </hoverTwo>
+        <schedButton url="/register">Get Started</schedButton>
+        <Benefits>
+            <section>
+                <title>İmalat Denetimleri</title>
+                <pgph>Tedarik zinciriniz sadece en zayıf halkası kadar iyidir. İşinizi problemsiz yürütmenizin ve kesintisiz mal tedariki sağlamanın tek yolu onları tedarik zincirinize dahil etmeden önce potansiyel tedarikçileri etraflıca araştırmaktır.</pgph>
+                <pgph>AI tarafından yapılan İmalat Denetimleri, global tedarik zincirinizin güvenilir bir parçası olmalarını sağlayarak, potansiyel tedarikçinizin eksiksiz bir profilinin hazırlanması için uygun maliyetli ve zaman tasarrufu sağlayan bir yoldur.  Elinizdeki AI Denetim Raporuyla denetlenmiş sahanın üretim şartnamelerinize göre adresinize teslimat yapabileceğini ve bir kere üretim başladıktan sonra maliyetli potansiyel aksamaların önlenebileceğini onaylayabilirsiniz.</pgph>
+            </section>
+            <section>
+                <title>İmalat Denetimi Ekspertizi</title>
+                <pgph>AI İmalat Denetimleri Kalite Yönetim Sistemi için uluslararası olarak tanınmış ISO 9000 standartlarına bağlıdır. Denetçilerimiz alanında ortalama 5 yıllık deneyime sahip, düzenli eğitim ve sertifika alan uzman profiline sahiplerdir.</pgph>
+                <pgph>Bir İmalat Denetimi kapsamında, AI denetçileri tedarikçinizin tesisleri ve yönetim sistemleri hakkında kapsamlı bir değerlendirme yürütülürler. Standart İmalat Denetimi şunları kapsar:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Fabrika profili</li>
+                        <li>Üretim kapasiteleri</li>
+                        <li>Makineler ve ekipmanların durumunu da içeren fabrika tesisleri</li>
+                        <li>İş akışı ve organizasyon şemaları</li>
+                        <li>Yerin kalite güvence sistemleri</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+            <section>
+                <title>Özelleştirilebilir Denetim Programları</title>
+                <pgph>İmalat Denetimlerimiz yüksek derecede esneklik sunar ve özel koşullarınıza uyacak şekilde özelleştirilebilir.</pgph>
+                <pgph>Bir AI tedarikçi değerlendirmesine aşağıdaki ek modüller dahil edilebilir:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Sosyal sorumluluk ve uyum</li>
+                        <li>Temin koşulları</li>
+                        <li>AR-GE – numune alma kapasitesi</li>
+                        <li>Hijyen, sağlık ve güvenlik</li>
+                        <li>Çevresel etki</li>
+                        <li>RoHS standards</li>
+                        <li>İhtiyaç halinde diğer modüller</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+
+            <section>
+                <title>Fiyatlandırma</title>
+                <pgph>AI İmalat Denetimleri tedarikçinizin coğrafi konumuna bağlı olarak, bir kişinin bir günde yapabileceği işe göre fiyatlandırılır:</pgph>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Çin, Hindistan, Bangladeş, Vietnam, Kamboçya, Tayland, Afrika ve Latin Amerika'da bulunan tedarikçiler için <b>$%price_Audit_Low%</b>;</li>
+                        <li>Avrupa, Büyük Asya ve Brezilya'da bulunan tedarikçiler için <b>$%price_Audit_High%</b>.</li>
+                    </ul>
+                    ]]>
+                </pgph>
+                <pgph>Denetim süresi 500 çalışanın altındaki fabrikalar için bir kişi ve daha geniş tesisler için iki kişi-gündür.</pgph>
+                <pgph>Opsiyonel modüllerin ilave edilmesi (yukarıya bakın) ve/veya daha fazla özelleştirme için ilave masraflar uygulanabilir.</pgph>
+            </section>
+            <section>
+                <title>Neden İmalat Denetimi Yapılmalıdır</title>
+                <pgph>
+                    <![CDATA[
+                    <ul>
+                        <li>Tedarikçinizin tesislerinin ürününüzün imalatı için uygun ve çalışır durumda olduğunu doğrulamak için</li>
+                        <li>Tedarikçinizin kaynak kullanma politikalarının sizinkine uygun olmasını sağlamak için</li>
+                        <li>Potansiyel kalite, operasyonel ve etikle ilgili riskleri belirlemek ve önlem almak için</li>
+                        <li>Fabrika yönetiminin yeterliliğinin değerlendirilmesi için</li>
+                    </ul>
+                    ]]>
+                </pgph>
+            </section>
+        </Benefits>
+    </tr>
+</document>

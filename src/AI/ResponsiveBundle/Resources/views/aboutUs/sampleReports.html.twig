@@ -1,0 +1,231 @@
+{% extends '::base.html.twig' %}
+{% block title %}{% trans %}Inspection &amp; Audit Sample Reports{% endtrans %} | AsiaInspection{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pagename %}SampleReports{% endblock %}
+
+{% block body %}
+<script src="//app-ab16.marketo.com/js/forms2/js/forms2.min.js"></script>
+<script src="/js/arrive.min.js"></script>
+
+<script type="text/javascript">
+    $(document).arrive(".mktoButton", function() {
+        $("#Email").val(getCookie('email')).attr("placeholder","Your email address");
+        mktoObj = $("form","#MarketoForm");
+        $(".mktoAsterix", mktoObj).parent().remove();
+        $(".mktoOffset", mktoObj).remove();
+        $(".mktoGutter", mktoObj).remove();
+        $(".mktoFormCol", mktoObj).css("width","100%");
+        $(".mktoFieldWrap", mktoObj).css("width","100%");
+        $(".mktoButtonRow", mktoObj).css("width","100%");
+        $("#Email", mktoObj).css({
+            "width":"100%",
+            "border":"1px solid rgb(206, 207, 209)",
+            "border-radius":"3px",
+            "box-shadow":"0 0 5px rgb(223, 224, 225) inset",
+            "background-color":"rgb(249,249,249)",
+            "box-sizing":"border-box",
+            "padding":"6px 12px",
+            "line-height":"20px",
+            "font-size":"14px",
+            "height":"34px"
+        });
+        $(".mktoButtonWrap", mktoObj).css("margin","0px");
+        $(mktoObj).css({
+            "width":"70%",
+            "min-width":"200px",
+        });
+        $(".mktoButton").attr("id","marketoSubmitButton").addClass("two-btn btn btn-primary btn-big").text("{% trans %}Get the Report{% endtrans %}").css({
+            "width":"100%",
+            "background-image":"none",
+            "background-color":"#5ba331",
+            "font-size":"16px",
+            "line-height":"27px"
+        }).click(function(){
+            contentId = "";
+            sampAuditReport = $("[name=SampleAuditReport]");
+            sampInspectReport = $("[name=SampleInspectionReport]");
+            sampLabReport = $("[name=SampleTestingReport]");
+            if( $(sampAuditReport).length > 0 ) contentId = $(sampAuditReport).val();
+            if( $(sampInspectReport).length > 0 ) contentId = $(sampInspectReport).val();
+            if( $(sampLabReport).length > 0 ) contentId = $(sampLabReport).val();
+
+            trackContentDownload('samplereport',contentId);
+            email = $("#Email").val();
+            if(email != "") {
+                setCookie("email", email, 365);
+                // Save Locally
+                $.ajax({
+                    type: "POST",
+                    url: "/getEmail",
+                    async: "false",
+                    data: "email="+email+"&target="+contentId+"&category=Sample%20Report",
+                    dataType: "text",
+                    success: function(msg){ }
+                });
+            }
+        });
+    });
+</script>
+
+<div class="overviewBanner headerbox">
+    <div class="container wrapper vcenter_parent">
+        <div class="row vcenter_parent">
+            <div class="col-xs-11 col-xs-offset-1 col-xl-offset-0 vcenter">
+                <h1 class="mainHeader">{{xml.title}}</h1>
+                <div class="mainSubHeader">{{xml.intro}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if app.request.get('aliId') is defined and app.request.get('aliId') != null %}
+    <div class="container wrapper sampleReportsBox">
+        <div class="col-xs-12 paddingLeftRightZero" style="margin-bottom:1em;">
+            <div style="text-align:center; background-color:rgba(64,64,66,0.2); padding:15px;">
+                <h3 style="font-size:14px; margin-bottom:0px; color:#5aa231;">Your sample report has been sent, please check your email.</h3>
+            </div>
+        </div>
+    </div>
+{% else %}
+    <div class="container wrapper sampleReportsBox" style="margin-top:0px; margin-bottom:0px; padding-top:10px;">
+        <div class="col-xs-12 paddingLeftRightZero">
+
+            <!-- Main white box for sample selection-->
+            <div class="col-xs-12 col-md-offset-2 col-md-8 " id="sampleReportTypeSelectBox" style="margin-bottom:10px;">
+    
+                <!-- Sample reports radio button selection service/industry -->
+                <div style="text-align:center;">
+                    {{- xml.selectDesc -}}
+                    <input type="radio" class="typeSelectBtn" name="type" value="service" id="sampleDrop_service" checked style="box-shadow:none;">
+                    <label for="q0_no">&nbsp;by {{xml.menu2.label1}}</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" class="typeSelectBtn" name="type" value="industry" id="sampleDrop_industry" style="box-shadow:none;">
+                    <label for="q0_yes">&nbsp;by {{xml.menu.label1}}</label>
+                </div>
+
+                <!-- Service dropdown menu -->
+                <div class="col-sm-6 col-xs-12 serviceMenu paddingLeftRightZero" id="serviceDropdownMain" style="cursor:pointer; clear:both; display:block;" >
+                    <span class="col-xs-12 col-lg-3 col-sm-4 paddingLeftZero sampleReportLabel" style="font-weight:bold;padding-top:5px; text-align:right;">{{xml.menu2.label1}}： &nbsp; </span>
+                    <div id="serviceDropdown" class="dropdown inline col-xs-12  col-lg-9 col-sm-8 paddingLeftRightZero" >
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width:100%;">
+                            <span class="optionSel">{{xml.defaultOptions.menu1.text1}}</span>
+                            <span class="optionSelected"></span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu service-menu" aria-labelledby="dropdownMenu1" style="cursor:pointer;">
+                            {%for option in xml.menu2.options%}
+                                {% set catid3 = 'service' ~ loop.index %}
+                                <li class="{{catid3}}">
+                                    <a>{{option.text}}</a>
+                                </li>
+                            {%endfor%}
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Industry dropdown menu -->
+                <div class="col-sm-6 col-xs-12 industryMenu paddingLeftRightZero" id="industryDropdownMain" style="display:none; clear:both;">
+                    <span class="col-xs-12 col-lg-3 col-sm-4 paddingLeftZero sampleReportLabel" style="font-weight:bold; padding-top:5px; text-align:right;">{{xml.menu.label1}}： </span>
+                    <div class="dropdown inline col-xs-12 col-lg-9 col-sm-8 paddingLeftRightZero" >
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width:100%;">
+                            <span class="optionSel">{{xml.defaultOptions.menu1.text2}}</span>
+                            <span class="optionSelected"></span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu industry-menu" aria-labelledby="dropdownMenu1" style="cursor:pointer;">
+                            {% for option in xml.menu.options %}
+                               {% set catid1 = 'industry' ~ loop.index %}
+                                <li class="{{catid1}}" id="{{option.id}}">
+                                    <a>{{option.text}}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Industry item selection dropdown menu -->
+                <div class="col-sm-6 col-xs-12 itemMenu paddingLeftRightZero" id="industryDropDown" style="display:none; clear:both;">
+                    <span class="col-xs-12 col-lg-3 col-sm-4 paddingLeftZero sampleReportLabel" style="font-weight:bold; padding-top:5px; text-align:right;">{{xml.menu.label2}} &nbsp; </span>
+                    <div class="dropdown inline col-xs-12  col-lg-9 col-sm-8 paddingLeftRightZero" >
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width:100%;">
+                            <span class="optionSel">{{xml.defaultOptions.menu2.select}}</span>
+                            <span class="optionSelected">{{xml.defaultOptions.menu2.text}}</span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu item-menu" id="industryMenu" cat="industry" aria-labelledby="dropdownMenu2" style="cursor:pointer;z-index:9999;">
+                            {% for option in xml.menu.options %}
+                                {% set catid2 = 'industry' ~ loop.index %}
+                                {% for item in option.items.item %}
+                                    {% if item.text=="" %}{% else %}<li class="{{catid2}}" id="{{item.id}}" data-category="{{item.type}}" data-image="{{assetsDomain}}/files/samplereports/thumbnails/{{item.imgUrl}}" data-download="{{item.downloadUrl}}"><a>{{item.text}}</a></li>{%endif%}
+                                {% endfor %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Services item selection dropdown menu -->
+                <div class="col-sm-6 col-xs-12 itemMenu paddingLeftRightZero" id="serviceDropDown" style="display:none; clear:both;">
+                    <span class="col-xs-12 col-lg-3 col-sm-4 paddingLeftZero sampleReportLabel" style="font-weight:bold; padding-top:5px; text-align:right;">{{xml.menu.label2}} &nbsp; </span>
+                    <div class="dropdown inline col-xs-12  col-lg-9 col-sm-8 paddingLeftRightZero" >
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width:100%;">
+                            <span class="optionSel">{{xml.defaultOptions.menuService.select}}</span>
+                            <span class="optionSelected">{{xml.defaultOptions.menuService.text}}</span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu item-menu" id="ServiceMenu" cat="service" aria-labelledby="dropdownMenu2" style="cursor:pointer;z-index:9999;">
+                            {% for option in xml.menu2.options %}
+                                {% set catid2 = 'service' ~ loop.index %}
+                                {% for item in option.items.item %}
+                                    {% if item.text=="" %}{% else %}<li class="{{catid2}}" data-category="{{item.type}}" data-image="{{assetsDomain}}/files/samplereports/thumbnails/{{item.imgUrl}}" data-download="{{item.downloadUrl}}"><a>{{item.text}}</a></li>{% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div style="clear:both;"></div>
+
+            </div>
+
+            <div class="col-xs-12 col-md-offset-2 col-md-8 paddingLeftRightZero"></div>
+
+        </div>
+
+        <div id="displaySampleReportWrapper" class="col-xs-12 col-md-offset-2 col-md-8 paddingLeftRightZero" style="background-color:white; display:none; margin-bottom:10px; margin-top:20px;">
+            <div class="displaySampleReport">
+                <div class="buttonContainer vcenter">
+                    <div id="MarketoForm" style="text-align:center;"></div>
+                    <!-- <a id="dlSampleReport" href="javascript:void(0);" onclick="SampleReport('{{xml.defaultOptions.menu2.downloadUrl}}','')" class="one-btn btn btn-primary btn-big" role="button">{{xml.button.text}}</a> -->
+                </div>
+                <img src="{{assetsDomain}}/files/samplereports/thumbnails/{{xml.defaultOptions.menu2.imgUrl}}"/>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-offset-2 col-md-8 paddingLeftRightZero" style="text-align: center; padding-top:0px;">
+            <hr style="border-color: #b6b6b6; margin-bottom:30px;" size="1" />
+            <b>{% trans %}Featured Reports{% endtrans %}</b><br/><br/>
+            <table align="center">
+                <tr>
+                    <td width="45%">
+                        <a href="/samplereport/bangladesh-audit-report">{% trans %}Bangladesh Audit{% endtrans %}</a><br />
+                        <a href="/samplereport/ethical-audit-report">{% trans %}Ethical Audit{% endtrans %}</a><br />
+                        <a href="/samplereport/manufacturing-audit-report">{% trans %}Manufacturing Audit{% endtrans %}</a><br />
+                        <a href="/samplereport/pre-shipment-inspection-report">{% trans %}Pre-Shipment Inspection{% endtrans %}</a><br />
+                        <a href="/samplereport/c-tpat-audit">{% trans %}C-TPAT Audit{% endtrans %}</a>
+                    </td>
+                    <td width="10%"> &nbsp; &nbsp;
+                    </td>
+                    <td width="45%">   
+                        <a href="/samplereport/dupro-during-production-inspection">{% trans %}DUPRO Report{% endtrans %}</a><br />
+                        <a href="/samplereport/environmental-compliance-audit">{% trans %}Environmental Audit{% endtrans %}</a><br />
+                        <a href="/samplereport/production-monitoring-report">{% trans %}Production Monitoring{% endtrans %}</a><br />
+                        <a href="/samplereport/reach-certification">REACH</a><br />
+                        <a href="/samplereport/structural-audit">{% trans %}Structural Audit{% endtrans %}</a>
+                    </td>
+                </tr>
+            </table>
+            </center>
+        </div>
+
+    </div>
+{% endif %}
+{% endblock %}

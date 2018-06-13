@@ -1,0 +1,66 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title %}View Lead Count{% endblock %}
+{% block content %}
+    <h1 class="margin20">{% if not is_granted('ROLE_USER') %}Tradeshow Memo and Lead Management Tool{% else %}View Lead Count{% endif %}</h1>
+    <div class="box-white">
+        <div style="margin-bottom:20px;">
+            <div class="tradeshowdrop_divbox" style="float:left; padding-right:15px;">
+                <p class="pBold">By Account Manager:</p>
+                <select id="salesDropSelect_count">
+                    <option value="all">All Account Managers</option>
+                    {% for row in salesNames %} 
+                        <option>{{row['name']}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="tradeshowdrop_divbox" style="float:left;">
+                <p class="pBold">By Tradeshow \ Event:</p>
+                <select id="tradeshowDropSelect_count" >
+                    <option value="all">All Shows</option>
+                    {% for tradeshow in tradeshowList %}
+                        <option>{{tradeshow}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div style="clear:both;"></div>
+            <table class="bordered tablesorter" style="width:100%;margin-top:20px;" id="leadsCountTable">
+                <thead>
+                    <tr>
+                        <th style="font-weight:bold;">Tradeshow</td>
+                        <th style="font-weight:bold;">Sales</td>
+                        <th style="font-weight:bold;">Memo Leads</td>
+                        <th style="font-weight:bold;">Uploaded Leads</td>
+                        <th style="font-weight:bold;">Days to Deadline</td>
+                        <th style="font-weight:bold;">Variance</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in rows %}
+                        {% if row.memoLeads != 0 %}
+                            <tr class="leadsCountRow">
+                                <td class="leadsCountRow_tradeshow">{{row.tradeshow}}</td>
+                                <td class="leadsCountRow_name">{{row.name}}</td>
+                                <td class="leadsCountRow_memoLeads"style='text-align:center'>{% if row.memoLeads == 0 %}No Memo Yet{% else %}{{row.memoLeads}}{% endif %}</td>
+                                <td class="leadsCountRow_uploadLeads"style='text-align:center'> {{row.uploadLeads}}</td>
+                                <td class="leadsCountRow_penaltyDays"style='text-align:center'>
+                                    {% if (row.uploadLeads == 0 and row.memoLeads > 0 ) or (row.uploadLeads / row.memoLeads < 0.7) %}
+                                        {% set penaltyDayCount = (("now"|date('U') - row.End_Date|date('U')) /(60*60*24))|round(0,'floor') %}
+                                        {% if penaltyDayCount <= 20 %}
+                                            {% if (14 - penaltyDayCount) < 1 %}
+                                                <span style='color:#b31820'>Penalty</span>
+                                            {% else %}
+                                                {{14 - penaltyDayCount}}
+                                            {% endif %}        
+                                        {% endif %}
+                                    {% endif %}
+                                </td>
+                                <td class="leadsCountRow_variance" style='text-align:center; {% if row.uploadLeads - row.memoLeads >= 0 %} background-color:#bfffd9;{% elseif (row.uploadLeads == 0 and row.memoLeads > 0 ) or (row.uploadLeads / row.memoLeads < 0.7) %} background-color:#f5bcbf;{% else %} background-color:#ffffb3;{% endif %}'>{{row.uploadLeads-row.memoLeads}}</td>
+                            </tr>
+                        {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+{% endblock %}

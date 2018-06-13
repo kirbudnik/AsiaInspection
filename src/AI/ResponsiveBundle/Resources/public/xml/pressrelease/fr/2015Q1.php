@@ -1,0 +1,67 @@
+<h1>Baromètre AsiaInspection du 1er trimestre : le lourd tribut de la main d'œuvre à bas coût en 2014</h1>
+
+<p><b>Hong Kong, le 14 janvier 2015</b> – AsiaInspection (AI), un acteur mondial leader dans le domaine du contrôle qualité qui accompagne les marques, distributeurs et importateurs internationaux pour sécuriser et optimiser leur chaîne d'approvisionnement, publie son Baromètre du 1er trimestre 2015, un condensé trimestriel de l'actualité du secteur de la sous-traitance industrielle et des services de contrôle qualité.</p>
+
+<div style="padding:0px 0px 15px 15px;width:270px;float:right;">
+	<center>
+		<iframe src="http://www.slideshare.net/slideshow/embed_code/43493405?rel=0" width="270" height="238" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+	</center>
+	<div style="clear:both;"></div>
+</div>
+
+<h2 style="font-size:18px;">Tendances qualité 2014 : de fortes disparités entre les pays</h2>
+<p style="text-align:justify;">Les données collectées par AI pour l'année 2014 révèlent des tendances intéressantes concernant la qualité de la production manufacturière (mesurée par les résultats des inspections sur site en terme d’Acceptable Quality Level, AQL) dans les quatre principales régions de sourcing en Asie. Au Bangladesh notamment, les résultats AQL se sont sensiblement améliorés au cours de l'année, passant d'un niveau élevé de rejets avec plus de 50% d'inspections au-dessus du niveau AQL acceptable à un peu plus de 25% en décembre. Cette évolution positive s'explique sans doute par les fortes pressions exercées sur les marques pour assurer une supply chain plus responsable au Bangladesh, suite à des incidents tels que l'effondrement du Rana Plaza en 2013. Les acheteurs ont été amenés à porter plus d'attention au choix de leurs fournisseurs ainsi qu'à faire pression sur ces derniers pour qu'ils ajustent leurs standards de production aux normes internationales.</p>
+<p style="text-align:justify;">Dans le domaine alimentaire, les données de AsiaFoodInspection, la filiale de AI dédiée aux contrôles sur ce secteur, montrent qu'en Chine, 48,1% des inspections qualité réalisées en 2014 ont conclut à une marchandise non conforme. La Chine fait face à un déficit de confiance des consommateurs dans le domaine alimentaire alors que de nombreux scandales ont récemment secoué le pays. Le dernier événement marquant fut la fermeture de l'usine Shanghai Husi Food Co.par les autorités suite à des allégations de fourniture de viande périmée à des groupes internationaux tels que Yum! Brands (Taco Bell, KFC, Pizza Hut...) et McDonalds.</p>
+
+<h2 style="font-size:18px;">Travail des enfants : une année d'enfances volées</h2>
+<p>Les données AI indiquent que 5,6% des audits d'éthique réalisés en 2014 en Asie ont permis de détecter des cas de travail des enfants, un chiffre en légère augmentation par rapport aux 5,5% du deuxième trimestre. Le US Department of Labor a publié en octobre dernier un rapport chiffrant à 168 millions le nombre d'enfants qui travaillent dans le monde, dont plus de 85 millions dans des conditions qui mettent en danger leur sécurité, leur santé et leur développement.<a href="#footnotes" style="text-decoration: none;"><sup style="font-size: 10px;">1</sup></a></p>
+<p>"Ce ne sont pas seulement des chiffres. Les auditeurs de AI continuent de découvrir des enfants travaillant dans des usines. On pourrait penser qu'en 2015, le travail des enfants n'existe plus, mais c'est toujours une réalité. » déclare Sébastien Breteau, Président de AI. « Il n'est pas évident pour les marques et les distributeurs de s'attaquer au problème car leurs chaînes d'approvisionnement sont de plus en plus complexes et fragmentées. Cependant, il est possible d'engager des actions concrètes afin de protéger l'enfance de ces enfants. ».</p>
+<p>Par ailleurs, l'indice annuel global de l'esclavage, mesuré par le WFF (Walk Free Foundation) rapporte que 35 millions de personnes étaient victimes de l'esclavage moderne en 2014, les premiers pays concernés étant l'Inde et la Chine.<a href="#footnotes" style="text-decoration: none;"><sup style="font-size: 10px;">2</sup></a> Par ailleurs, l'industrie de la pêche en Thaïlande, qui pèse plusieurs milliards, est en difficulté depuis que l'Organisation Mondiale du Travail (OMT) a annoncé que près de 17% des travailleurs du secteur ont été l'objet de travail forcé.<a href="#footnotes" style="text-decoration: none;"><sup style="font-size: 10px;">3</sup></a></p>
+
+<h2 style="font-size:18px;">Santé et sécurité des travailleurs : un long chemin à parcourir</h2>
+<p>Au cours de l'année écoulée, l'Asie a été marquée par une certaine agitation sociale due aux conditions de travail. Les données AI 2014 montrent que le volet "Santé et Sécurité" est, de manière systématique, la cause principale de résultat négatif aux audits d'éthique. L'Inde arrive en bas du classement des conditions "Santé et Sécurité" avec une moyenne de 3,8/10 ; tandis que le Bangladesh et la Chine sont notés respectivement 4,2 et 4,4.</p>
+<p>L'accord "Fire and Building Safety" au Bangladesh a identifié plus de 80 000 failles de sécurité dans les 1 106 usines inspectées.<a href="#footnotes" style="text-decoration: none;"><sup style="font-size: 10px;">4</sup></a> L'OMT a par ailleurs publié un rapport déclarant qu'au Vietnam, les usines ont encore beaucoup de travail à effectuer pour atteindre les standards internationaux en matière de sécurité incendie.<a href="#footnotes" style="text-decoration: none;"><sup style="font-size: 10px;">5</sup></a></p>
+<p>Le volet "Temps de Travail et Rémunération" est la seconde catégorie la plus fréquente de résultat négatif aux audits d'éthique réalisés par AI. Ici aussi, l'Inde se classe en-dessous de la Chine et du Bangladesh, avec une note moyenne de 3,9/10 contre 5,3 et 6,2 respectivement.</p>
+<p>Au Cambodge, le Labor Advisory Committee a accepté une augmentation de 28% le salaire minimum des employés du textile, à 128 dollars US par mois, applicable au 1er janvier 2015.<a href="#footnotes" style="text-decoration: none;"><sup style="font-size: 10px;">6</sup></a> Cependant, des conflits persistent et le score général du Cambodge en audits d'éthique atteignait seulement 5,2/10 en 2014. Les syndicats affirment que 1 200 ouvriers ont été licenciés sans indemnités après avoir fait une grève en décembre pour dénoncer leurs conditions de travail.<a href="#footnotes" style="text-decoration: none;"><sup style="font-size: 10px;">7</sup></a></p>
+
+<h2 style="font-size:18px;">Global Sourcing: à quoi s'attendre en 2015</h2>
+<p>Alors même que l'année 2014 n'a pas connu de désastres majeurs de l'ampleur de l'effondrement du Rana Plaza, et malgré le travail effectué pour sensibiliser au respect de l'éthique dans les usines, les supply chains globales pâtissent toujours des violations largement répandues des droits des travailleurs.  Les données AI révèlent qu'en 2014, 50% des usines auditées par AI en Inde, et 43% au Bangladesh, présentaient au moins une non-conformité majeure dans le volet "Santé et Sécurité".</p>
+<p>La transparence et le reporting de données seront des sujets majeurs en 2015. Sedex Global a publié en septembre dernier une note qui souligne les risques de corruption, décrit comment ceux-ci exacerbent les problèmes de supply chain et liste les méthodes à employer pour les réduire.<a href="#footnotes" style="text-decoration: none;"><sup style="font-size: 10px;">8</sup></a> Une des principales méthodes citées concerne les programmes d'audit joints à des systèmes de business intelligence, tels que ceux développés par AI, qui permettent une surveillance en temps réel des fournisseurs. Le Deloitte Global CPO Survey de 2014 révèle que 65% des Chief Purchasing Officers investissent dans des portails fournisseurs ; 67% citent la mauvaise qualité des données comme un frein au recours à une analytique efficace ; tandis que 40% citent le manque d'intégration des données.<a href="#footnotes" style="text-decoration: none;"><sup style="font-size: 10px;">9</sup></a> Ces systèmes seront, en 2015, un outil essentiel de compréhension des supply chains.</p>
+<p>A l'échelle mondiale, l'évolution de la compétitivité des coûts va probablement inciter les acheteurs, dans des pays comme le Mexique, à tirer profit des coûts moins élevés et de la proximité avec les marchés de consommation. L'avantage coût en Chine par rapport aux États-Unis est désormais inférieur à 5%, alors que le pays continue sa transition vers une production à haute valeur ajoutée avec un coût du travail plus élevé.<a href="#footnotes" style="text-decoration: none;"><sup style="font-size: 10px;">10</sup></a> Cela permet aussi à certains pays d'Asie du Sud ou du Sud-Est, tels que l'Inde et l'Indonésie, dont les coûts ont augmenté à un rythme relativement moins élevé, de capter de nouveaux volumes dans la confection textile ou d'autres produits manufacturés, tandis que les acheteurs développent des stratégies de sourcing dites "China +1".</p>
+
+<h2 style="font-size:18px;">Baromètre AI : principaux KPIs</h2>
+<p style="text-align:center;"><a href="https://s3.asiainspection.com/images/news/2015Q1KPIchart.png" target="_blank"><img src="https://s3.asiainspection.com/images/news/2015Q1KPIchart.png" width="100%" border="0" /></a></p>
+
+<h2 style="font-size:18px;">A propos d'AsiaInspection - Your Eyes in the Supply Chain!&trade;</h2>
+<p>AsiaInspection (AI) est un acteur mondial leader dans les domaines du contrôle qualité qui accompagne les marques, les distributeurs et les importateurs internationaux pour sécuriser, gérer et optimiser leur supply chain. AI fournit des services d'inspection de produits, des programmes d'audits fournisseurs et des tests en laboratoire à plus de 4 000 clients dans le monde.</p>
+
+<p>
+	<b>Contact Presse</b>
+	<br />Michael Mesarch
+	<br />Tel: (+86) 755 2223 9888
+	<br />Email: <a href="mailto:press@asiainspection.com">press@asiainspection.com</a>
+</p>
+
+<a name="footnotes"></a>
+<p>
+	<b>Footnotes</b><br /><br />
+	1. US Dept. of Labor, Bureau of International Labor Affairs. 2013 Findings on the Worst Forms of Child Labor. October 7th 2014.<br /><a href="http://www.dol.gov/ilab/reports/child-labor/findings/2013tda/2013tda.pdf" target="_blank">http://www.dol.gov/ilab/reports/child-labor/findings/2013tda/2013tda.pdf</a>
+	<br /><br />
+	2. Walk Free Foundation. 2014 Global Slavery Index. November 17th 2014.<br /><a href="http://www.globalslaveryindex.org/findings/" target="_blank">http://www.globalslaveryindex.org/findings/</a>
+	<br /><br />
+	3. International Labour Organisation. Employment Practices and Working Conditions in Thailand’s Fishing Sector. Accessed December 17th 2014.<br /><a href="http://www.ilo.org/wcmsp5/groups/public/---asia/---ro-bangkok/documents/publication/wcms_220596.pdf" target="_blank">http://www.ilo.org/wcmsp5/groups/public/---asia/---ro-bangkok/documents/publication/wcms_220596.pdf</a>
+	<br /><br />
+	4. Accord on Fire and Building Safety in Bangladesh. Accord Reached Important Milestone by Completing Initial Inspections of Factories in Bangladesh. October 14th 2014.<br /><a href="http://bangladeshaccord.org/2014/10/accord-reaches-important-milestone-completing-initial-inspections-factories-bangladesh/" target="_blank">http://bangladeshaccord.org/2014/10/accord-reaches-important-milestone-completing-initial-inspections-factories-bangladesh/</a>
+	<br /><br />
+	5. International Labour Organisation. Despite Some Progress, Garment Factories Need to Strengthen Fire Safety. December 11th 2014.<br /><a href="http://www.ilo.org/hanoi/Informationresources/Publicinformation/Pressreleases/WCMS_327036/lang--en/index.htm" target="_blank">http://www.ilo.org/hanoi/Informationresources/Publicinformation/Pressreleases/WCMS_327036/lang--en/index.htm</a>
+	<br /><br />
+	6. Associated Press. Cambodia Increases Garment Industry Minimum Wage. November 12th 2014.<br /><a href="http://bigstory.ap.org/article/81342bb04fe7451da943cc0da4c5575f/cambodia-increases-garment-industry-minimum-wage" target="_blank">http://bigstory.ap.org/article/81342bb04fe7451da943cc0da4c5575f/cambodia-increases-garment-industry-minimum-wage</a>
+	<br /><br />
+	7. Cambodia Daily. Unions Claim Garment Factory Fired 1,200 Workers for Strike. December 10th 2014.<br /><a href="https://www.cambodiadaily.com/news/unions-claim-garment-factory-fired-1200-workers-for-strike-73934/" target="_blank">https://www.cambodiadaily.com/news/unions-claim-garment-factory-fired-1200-workers-for-strike-73934/</a>
+	<br /><br />
+	8. Sedex. New Sedex Briefing Highlights Need for Global Response to Corruption. December 11th 2014.<br /><a href="http://www.sedexglobal.com/new-sedex-briefing-highlights-need-for-global-response-to-corruption/" target="_blank">http://www.sedexglobal.com/new-sedex-briefing-highlights-need-for-global-response-to-corruption/</a>
+	<br /><br />
+	9. Deloitte. The Deloitte Global CPO Survey 2014. December 2014. <br /><a href="http://www2.deloitte.com/uk/en/pages/operations/articles/cpo-survey.html" target="_blank">http://www2.deloitte.com/uk/en/pages/operations/articles/cpo-survey.html</a>
+	<br /><br />
+	10. Boston Consulting Group. The Shifting Economics of Global Manufacturing. August 19th 2014.<br /><a href="https://www.bcgperspectives.com/content/articles/lean_manufacturing_globalization_shifting_economics_global_manufacturing/" target="_blank">https://www.bcgperspectives.com/content/articles /lean_manufacturing_globalization_shifting_economics_global_manufacturing/</a>
+</p>

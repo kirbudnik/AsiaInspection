@@ -1,0 +1,38 @@
+{% extends '::base.html.twig' %}
+{%block title%}You Have Successfully Logged Out |  AsiaInspection.com{%endblock%}
+{%block pagename%}Logout{%endblock%}
+
+{%block body%}
+<div  class="container wrapper vcenter_parent" style="margin-bottom:1.5em;">
+    <div class="row">
+        <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-11 col-xl-offset-12 col-xl-offset-0">
+            <h2 id="logoutConfirmText">You have been logged out. We hope to see you back soon!</h2>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-10 col-xl-offset-0 col-xl-12 offer-box" style="padding:2em;">
+            <div id="logoutPhoneImage"><img src="https://s3.asiainspection.com/images/mobile_phones.jpg"/></div>
+            <h2 style="padding-bottom:0px;color:black;font-size:19px;display:inline-block;">AI Goes Mobile! Access Your Account, Wherever You Are!</h2>
+            <p>From your mobile device:</p>
+            <ul>
+                <li>Instantly see inspection results</li>
+                <li>Approve or reject shipments</li>
+                <li>Seamlessly book re-orders</li>
+                <li>Manage your quality control scheduling</li>
+                <li>Make payments</li>
+            </ul>
+            <p>All changes automatically sync on AsiaInspection.com.</p>
+            <p style="margin-top:20px;"><b>Send the access links to your device's email:</b></p>
+            <form>
+                <input type="email" class="mobileEmailSendLinks" required placeholder="Your phone's email address">
+                <button class="box_MobileLinks_submit btn-primary" type="submit">Send Now</button>
+                <div id="mobileSentEmailWait" style="display:inline-block;"><span style="display:none;"><img src="https://s3.asiainspection.com/images/loading.gif" style="height:20px;vertical-align:middle;padding-bottom:25px;"></span></div>
+            </form>
+            <div class="successMobile" style="display:none;"><p style="color:green;text-align:center;font-weight:bold;"><br/>Done! Check your emails: you should receive a link to the AI App shortly.</p></div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+</div>
+
+{%endblock%}

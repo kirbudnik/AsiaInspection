@@ -1,0 +1,11 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title %}Upload Failure{% endblock %}
+
+{% block content %}
+            <div class="box-white">
+                <h1 class="margin20">Upload Failure. (上传成功)</h1>
+                <p>There was an error during upload. Please email <a href="mailto:vincent.macdonald@asiainspection.com?subject=Error with Sales Upload Tool">Marketing Development</a> with a screenshot of this page please.</p>
+                <h2>{{error}}</h2>
+                <a href="/sales-leads">Back to upload page （继续上传）</a>
+            </div>
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends '::base.html.twig' %}
+{% block title %}{% trans %}AsiaInspection News{% endtrans %}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeys is defined %}{{pageKeys}}{% endif %}{% endblock %}
+
+{% block body %}
+<div class="headerbox">
+    <div class="container wrapper vcenter_parent" >
+        <div class="vcenter_parent">
+            <div class="vcenter">
+            
+                <div class="col-xs-12 col-md-4 right text-center">
+                    <div class="sidebarTitlebar">
+                        <h5>{{'Follow Us'|trans}}</h5>
+                    </div>
+                    <div class="sidebarContentBox">
+                        {% if app.request.locale == "zh" %}
+                          <div class="footerlinksFollowIcon" style="padding-right:10px;">
+                              <a href="http://www.weibo.com/asiainspection" target="_blank"><div class="ico_weibo"></div></a>
+                          </div>
+                          <div class="footerlinksFollowIcon" style="padding-right:10px;">
+                              <a href="http://i.youku.com/asiainspection" target="_blank"><div class="ico_youku"></div></a>
+                          </div>
+                        {% endif %}
+                        <div class="footerlinksFollowIcon" style="padding-right:10px;">
+                            <a href="http://www.facebook.com/asiainspection" target="_blank"><div class="ico_facebook"></div></a>
+                        </div>
+                        <div class="footerlinksFollowIcon" style="padding-right:10px;">
+                            <a href="http://twitter.com/asiainspection" target="_blank"><div class="ico_twitter"></div></a>
+                        </div>
+                        <div class="footerlinksFollowIcon" style="padding-right:10px;">
+                            <a href="https://www.youtube.com/user/asiainspection" target="_blank"><div class="ico_youtube"></div></a>
+                        </div>
+                        <div class="footerlinksFollowIcon">
+                            <a href="http://www.linkedin.com/company/asiainspection" target="_blank"><div class="ico_linkedin"></div></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-md-8" style="padding-left:0px;">
+                    <h1 class="mainHeader">{% block headerTitle %}{% endblock %}</h1>
+                    <div class="mainSubHeader">{% block headerText %}{% endblock %}</div>
+                </div>
+
+                <div style="clear:both;"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{% block newsBody %}{% endblock %}
+
+{% endblock %}

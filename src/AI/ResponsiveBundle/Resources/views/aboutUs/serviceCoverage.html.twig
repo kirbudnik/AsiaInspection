@@ -1,0 +1,108 @@
+{% extends 'AIResponsiveBundle:aboutUs:aboutUsBase.html.twig' %}
+
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pagename %}ServiceCoverage{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block bigTitle %}{% trans %}Service Coverage{% endtrans %}{% endblock %}
+{% block smallText %}<p class="pwhite">{{xml.subtext}}</p>{% endblock %}
+
+{% block serviceCourage %}
+    <div id="img" style="width:100%;padding-left:0px;padding-right:0px; margin-top:20px;">
+        <img src="{{assetsDomain}}/images/responsive/serviceCoverage_map.svg?v=1" width="100%">
+    </div>
+{% endblock %}
+
+{% block aboutUsMainBlock %}
+    <div id="coverage" class="col-xs-offset-1 col-xs-11 col-sm-offset-1 col-sm-11 col-xl-offset-0 col-xl-12">
+
+        {% if latinAmerica is defined %}
+            <div style="border-right:1px solid #C5C9CC; width:16.6%;float:left;padding:0px 20px 0px 0px;">
+                <h2 style='font-size:18px;'>{% trans %}The Americas{% endtrans %}</h2>
+                {% for country in latinAmerica %}
+                    {{country}}<br/>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        {% if africa is defined %}
+            <div style="border-right:1px solid #C5C9CC;width:16.6%;float:left;padding:0px 20px;min-height:409px;">
+                <h2 style='font-size:18px;'>{% trans %}Africa{% endtrans %}</h2>
+                {% for country in africa %}
+                    {{country}}<br/>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        {% if asia is defined %}
+            <div style="border-right:1px solid #C5C9CC;width:16.6%;float:left;padding:0px 20px;min-height:409px;">
+                <h2 style='font-size:18px;'>{% trans %}Asia-Pacific{% endtrans %}</h2>
+                {% for country in asia %}
+                    {{country}}<br/>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        {% if europe is defined %}
+            {% set i = 0 %}
+            {% set count = europe|length %}
+            <div class="standardbox" style="width:16.6%;float:left;padding:0px 20px;">
+                <h2 style='font-size:18px;'>{% trans %}Europe{% endtrans %}</h2>
+                {% for country in europe %}
+                    {% set i = i + 1 %}
+                    {% if i <= (count/2+1) %}{{country}}<br/>{% endif %}
+                {% endfor %}
+            </div>
+            {% set i = 0 %}
+            <div class="standardbox" style="border-right:1px solid #C5C9CC;width:16.6%;float:left;padding:30px 20px 0px 20px;">
+                {% for country in europe %}
+                    {% set i = i + 1 %}
+                    {% if i > (count/2+1) %}{{country}}<br/>{% endif %}
+                {% endfor %}
+            </div>
+        {% endif %}
+    
+        {% if mideast is defined %}
+            <div style="width:16.6%;float:left;padding:0px 20px;min-height:409px;">
+                <h2 style='font-size:18px;'>{% trans %}Middle East{% endtrans %}</h2>
+                {% for country in mideast %}
+                    {{country}}<br/>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+    </div>
+
+    <div id="coverageSmall" style="display:none; width:100%; padding-left:0px;">
+
+        <div class="col-xs-offset-1 col-xs-11" style="padding-left:0px;" >
+            <div class="col-xs-6" style="padding-left:0px;">
+                <h2 style='font-size:18px;'>{% trans %}Europe{% endtrans %}</h2>
+                {% for country in europe %}
+                    {{country}}<br/>
+                {% endfor %}
+                <h2 style='font-size:18px; margin-top:20px;'>{% trans %}Africa{% endtrans %}</h2>
+                {% for country in africa %}
+                    {{country}}<br/>
+                {% endfor %}
+            </div>
+            <div class="col-xs-6">
+                <h2 style='font-size:18px;'>{% trans %}The Americas{% endtrans %}</h2>
+                {% for country in latinAmerica %}
+                    {{country}}<br/>
+                {% endfor %}
+                <h2 style='font-size:18px; margin-top:20px;'>{% trans %}Asia-Pacific{% endtrans %}</h2>
+                {% for country in asia %}
+                    {{country}}<br/>
+                {% endfor %}
+                <h2 style='font-size:18px; margin-top:20px;'>{% trans %}Middle East{% endtrans %}</h2>
+                {% for country in mideast %}
+                    {{country}}<br/>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+
+<img src="{{assetsDomain}}/images/responsive/headerImages/service_coverage_[lg].jpg" alt="Worldwide Quality Control Coverage | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+
+{% endblock %}

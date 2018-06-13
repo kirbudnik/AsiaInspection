@@ -1,0 +1,190 @@
+#AI_Logo {
+    width:60px;
+    height:60px;
+    background-image: $url_60x60_logo;
+}
+
+#ChinaInspection_Logo {
+    width:60px;
+    height:60px;
+    background-image: $url_60x60_logo;
+}
+
+/* Xmas Logo [Begin]
+#AI_Logo {
+    background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm2.png);
+    width: 271px;
+    height: 89px;
+    margin-top:0px;
+}
+#ChinaInspection_Logo {
+    background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm1.png);
+    width: 271px;
+    height: 89px;
+    left:-108px;
+    margin-top:0px;
+    position:relative;
+}
+Xmas Logo [End] */
+
+/* #AI_Logo:after{ content:"850"; color:white; } */
+
+#client-landing-nav {
+    #AI_Logo {
+        left:-70px;
+    }
+}
+
+.slide-feature1 {
+    background-image: none;
+}
+
+.navbar-ai {
+    .navbar-header { margin-left:20px; }
+    #rightNavWrapper { width: 88%; }
+    li > a { padding-left:9px; padding-right:9px; }
+    .dropdown-menu{
+        .navMenuCol{
+            padding:20px;
+            margin-left:25px;
+            .navSubtitle:before{ left:-15px; }
+        }
+        &.navmenu_Service {
+            width:548px;
+            .navMenuCol{
+                width:240px;
+            }
+        }
+        &.navmenu_Industry {
+            width:500px;
+            .navMenuCol{
+                width:217px;
+            }
+        }
+        &.navmenu_About {
+            width:380px;
+            .navMenuCol{
+                width:157px;
+            }
+        }
+    }
+}
+
+#mobildAppDispayNone850{
+    display:none;
+}
+#testimonialBanner{
+    text-align:left;
+}
+.news {
+    height: 650px;
+
+}
+.textH{
+    padding-left:0px;
+    padding-right:0px;
+}
+.homeTestimonial .homeClientLogo{
+    &:nth-child(6) { display:none; }
+}
+
+.slide-feature2 {
+    .homeSCP_image{ display:none; }
+}
+
+#regFormBackGroundImage {
+    display: none;
+}
+
+#ethical-webinar-headerbox{
+    height:500px;
+}
+#ethical-webinar-subheader{
+    text-align:center;
+    width:100%;
+}
+#ethicalWebinarHeader{
+ 
+    text-align:center;
+    width:100% !important;
+}
+.dateH{
+    display:none;
+}
+
+#back {
+    display: none;
+}
+
+.locationText {
+    display: none !important;
+}
+
+#regLookingfor_radioWrap{
+    margin-left:27%;
+}
+
+.RegLookingfor_marginLeftSmall{
+    padding-left:40px !important;
+}
+#RegPopup {
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    width: 100% !important;
+    min-height: 100%;
+    max-width:100%;
+    padding:15px;
+    #formBlock {
+        width:100%;
+        float:none;
+        text-align:left;
+        .formRow{
+            position:relative;
+            padding:0.5em;
+            label { text-align:left; }
+            .col-xs-12{ width:100%; }
+        }
+    }
+    #regSideBar {
+        display:none;
+    }
+    #regTitleBar{
+        padding:30px 20px 30px 40px;
+        margin-top:0px;
+        background-color: #e8e8e8;
+        #regLoginWrapper{
+            margin-top:5px;
+        }
+    }
+    #regLookingForTitleBar{
+        text-align:center;
+        padding:30px 20px 30px 40px;
+        margin-top:0px;
+        background-color: #e8e8e8;
+        #regLoginWrapper{
+            margin-top:5px;
+        }
+    }
+    #ai_responsivebundle_register_submit{ max-width:100%; }
+}
+
+#regLegalFooter{
+    background-color: #e8e8e8 !important;
+    color:black !important;
+}
+
+#imgEthical{ display:block !important; }
+
+.sampleReportsBox {
+    .menu-label{
+        width:100%;
+        text-align:center;
+    }
+}
+
+#coverageSmall { display: inline-block !important; }
+#coverage { display: none; }
+
+#page_ethical-webinarl{ .headerbox{background-image: none;  background-color:#E6E6E6;} }
+

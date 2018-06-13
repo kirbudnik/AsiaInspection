@@ -1,0 +1,61 @@
+{% extends 'AIResponsiveBundle:aboutUs:whoWeAreBase.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block bigTitle %}{% trans %}aboutUs-values-title{% endtrans %}{% endblock %}
+{% block smallText %}{% trans %}aboutUs-values-subtitle{% endtrans %}{% endblock %}
+{% block pagename %}CompanyValues{% endblock %}
+
+{% block whoWeAreText %}
+
+  <div  style="padding:15px;background-color:white;">
+    <ol id="valuesGreyList" class="marginZero paddingLeftZero" style='list-style:inside decimal;' dir='ltr'>
+       <li style='padding-top:10px'>{% trans %}aboutUs-values-v1-title{% endtrans %}</li>
+       <p style='margin-top:10px;'>{% trans %}aboutUs-values-v1-subtitle{% endtrans %}</p>
+       <li style='padding-top:10px'>{% trans %}aboutUs-values-v2-title{% endtrans %}</li>
+       <p style='margin-top:10px;'>{% trans %}aboutUs-values-v2-subtitle{% endtrans %}</p>
+       <li style='padding-top:10px'>{% trans %}aboutUs-values-v3-title{% endtrans %}</li>
+       <p style='margin-top:10px;'>{% trans %}aboutUs-values-v3-subtitle{% endtrans %}</p>
+       <li style='padding-top:10px'>{% trans %}aboutUs-values-v4-title{% endtrans %}</li>
+       <p style='margin-top:10px;'>{% trans %}aboutUs-values-v4-subtitle{% endtrans %}</p>
+       <li style='padding-top:10px'>{% trans %}aboutUs-values-v5-title{% endtrans %}</li>
+       <p style='margin-top:10px;'>{% trans %}aboutUs-values-v5-subtitle{% endtrans %}</p>
+       <li style='padding-top:10px'>{% trans %}aboutUs-values-v6-title{% endtrans %}</li>
+       <p style='margin-top:10px;'>{% trans %}aboutUs-values-v6-subtitle{% endtrans %}</p>
+       <li style='padding-top:10px'>{% trans %}aboutUs-values-v7-title{% endtrans %}</li>
+       <p style='margin-top:10px;'>{% trans %}aboutUs-values-v7-subtitle{% endtrans %}</p>
+       <li style='padding-top:10px'>{% trans %}aboutUs-values-v8-title{% endtrans %}</li>
+       <p style='margin-top:10px;'>{% trans %}aboutUs-values-v8-subtitle{% endtrans %}</p>
+
+    </ol>
+  </div>
+
+  <img src="{{assetsDomain}}/images/responsive/careerOps.png" alt="AsiaInspection Career Opportunities" style="position:absolute; top:-5000px; z-index:-1000" />
+
+{% endblock %}
+
+{% block offerbox1 %}
+    <div class="sidebarTitlebar">
+        <h5>{% trans %}Client Testimonial{% endtrans %}</h5>
+    </div>
+    <div class="sidebarContentBox">
+        <p>{% trans %}"As a Quality Manager, I recognize the necessity of timely and accurate inspection reports. When it comes to AsiaInspection, the professionalism of...{% endtrans %}</p>
+        <a href="/asiainspection-testimonials">{% trans %}Read More{% endtrans %}</a>
+        <p style="padding-top:15px;">{% trans %}Quality Manager{% endtrans %}</p>
+        <p style="font-weight:bold;">Unger Enterprises Inc.</p>
+        <p>Quality Tools for Smart Cleaning</p>
+        <a href="http://www.ungerglobal.com">www.ungerglobal.com</a>
+        <div id="banner">
+            <a href="http://www.ungerglobal.com" target="_blank"><div class="spriteunger-enterprises_s" alt="Unger Enterprises"></div></a>
+        </div>
+    </div>
+{% endblock %}
+
+{% block offerbox2 %}
+    <div class="sidebarTitlebar">
+        <h5>{% trans %}Career Opportunities{% endtrans %}</h5>
+    </div>
+    <div class="sidebarContentBox">
+        <img src="{{assetsDomain}}/images/responsive/careerOps.png" width="100%">
+        <p class="paddinglr15" style="padding-top:15px;"><a href="/career-opportunities">{% trans %}See Opportunities{% endtrans %}</a></p>
+    </div>
+{% endblock %}

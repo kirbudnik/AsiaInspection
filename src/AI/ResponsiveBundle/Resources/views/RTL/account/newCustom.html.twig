@@ -1,0 +1,136 @@
+{% block newCustomReg %}
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <title>{%block title%}Register Now to Schedule Product Inspections, Lab Testing, and Audits | AsiaInspection{% endblock %}</title>
+    {% block stylesheets %}
+        <link href="{{asset('/css/bootstrap.css')}}" rel="stylesheet"/>
+        <link href="{{asset('/css/bootstrap-theme.css')}}" rel="stylesheet"/>
+         {% stylesheets filter="cssrewrite" filter='?uglifycss' 
+                '@AIResponsiveBundle/Resources/public/css/buttons.css'
+            %}
+            <link rel="stylesheet" href="{{asset_url}}"/>
+            {% endstylesheets %}
+            {% stylesheets filter="scss" filter='?uglifycss' 
+                '@AIResponsiveBundle/Resources/public/css/styles.scss'
+            %}
+        <link rel="stylesheet" href="{{asset_url}}"/>
+        {% endstylesheets %}
+    {% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    <script src="/js/mbox.js"></script>
+    <script src="/js/jquery-1.11.2.min.js"></script>
+    <script src="/js/registration_headfunctions.js"></script>
+</head>
+<body>
+  <div id="container-client-custom">
+    <div class="row">
+      <div class="col-lg-12" id="client-reg-header">
+        <a href="/">
+          <img src="https://s3.asiainspection.com/images/logo_AI_60x60.png" style="padding-top:1rem;">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+        {% block clientBrand %}
+        <div class="col-lg-12">
+            <img src="{{logo}}" class="pull-left img-responsive" id="client-logo">
+        </div>
+        {% endblock %}
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>{% trans %}Create an Account{% endtrans %}</h2>
+        <p>{% trans %}This page is for{% endtrans %} {{name|capitalize|trans}} {% trans %}Suppliers only{% endtrans %}</p>
+        <p>{% trans %}Already have an account?{% endtrans %} <a href="/login">{% trans %}Log In{% endtrans %}</a></p>
+      </div>
+    </div>
+    {% block content %}
+    <div class="mboxDefault"></div><script type="text/javascript">mboxCreate("registerUpdates");</script>
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="formBlock" style="margin-bottom:20px;">
+          {{form_start(action.form)}}
+          <div class="form-group container">
+              <div class="formRow row custom-form-row">
+                  {{ form_label(action.form.firstName, 'First Name', {'label_attr': {'class': 'control-label col-xs-12 col-sm-4 text-left custom-form-label'}}) }}
+                  <div class="col-xs-12 col-sm-8">
+                      {{ form_widget(action.form.firstName, {'attr': {'class': 'form-control'}, 'value' : action.field_first_name })  }}
+                  </div>
+              </div>
+              <div class="formRow row custom-form-row">
+                  {{ form_label(action.form.lastName, 'Last Name', {'label_attr': {'class': 'control-label col-xs-12 col-sm-4 text-left custom-form-label'}}) }}
+                  <div class="col-xs-12 col-sm-8">
+                      {{ form_widget(action.form.lastName, {'attr': {'class': 'form-control'}, 'value' : action.field_last_name })  }}
+                  </div>
+              </div>
+              <div  class="formRow row custom-form-row">
+                  {{ form_label(action.form.country, 'Country', {'label_attr': {'class': 'control-label col-xs-12 col-sm-4 text-left custom-form-label'}}) }}
+                  <div class="col-xs-12 col-sm-8">
+                      {{ form_widget(action.form.country, {'attr': {'class': 'form-control'}})  }}
+                  </div>
+              </div>
+              <div  class="formRow row custom-form-row">
+                  {{ form_label(action.form.company, 'Company', {'label_attr': {'class': 'control-label col-xs-12 col-sm-4 text-left custom-form-label'}}) }}
+                  <div class="col-xs-12 col-sm-8">
+                      {{ form_widget(action.form.company, {'attr': {'class': 'form-control'}, 'value' : action.field_company })  }}
+                  </div>
+              </div>
+              <div  class="formRow row custom-form-row">
+                  {{ form_label(action.form.telephone, 'Telephone', {'label_attr': {'class': 'control-label col-xs-12 col-sm-4  text-left custom-form-label'}}) }}
+                  <div class="col-xs-12 col-sm-8">
+                      {{ form_widget(action.form.telephone, {'attr': {'class': 'form-control'}, 'value' : action.field_phone })  }}
+                       <p id="validPhone" style="color:#b31820;font-size:12px;display:none;padding-left:3px;text-align:left;">Only ( ) + 0-9 are allowed in this field.</p>
+                       <p id="invalidPhoneNumber" style="color:#b31820;font-size:12px;display:none;padding-left:3px;text-align:left;">Invalid phone number, please contact us at <a href='mailto:customerservice@asiainspection.com'>customerservice@asiainspection.com</a></p>
+                  </div>
+              </div>
+              <div  class="formRow row custom-form-row">
+                  {{ form_label(action.form.email, 'Email', {'label_attr': {'class': 'control-label col-xs-12 col-sm-4 text-left custom-form-label'}}) }}
+                  <div class="col-xs-12 col-sm-8">
+                      {{ form_widget(action.form.email, {'attr': {'class': 'form-control'}, 'value' : action.field_email })  }}
+                      <p id="validEmail" class="regWarningText">{% trans %}We need a valid email address.{% endtrans %}</p>
+                      <p id="roleEmail" class="regWarningText"></p>
+                      <p id="emailOK" class="regWarningText">{% trans %}Thanks!{% endtrans %}</p>
+                      <p id="emailInUse" style="text-align:left;">This email already has an account - you can create a new one or <a href="http://customer.asiainspection.com/">log in</a>.</p>
+                  </div>
+              </div>
+              <div  class="formRow row custom-form-row">
+                  {{ form_label(action.form.username, 'User Name', {'label_attr': {'class': 'control-label col-xs-12 col-sm-4 text-left custom-form-label'}}) }}
+                  <div class="col-xs-12 col-sm-8">
+                      {{ form_widget(action.form.username, {'id': 'username','attr': {'class': 'form-control', 'title':'Please input a valid username (no spaces allowed).' }, 'value' : action.field_username })  }}
+                      <p id="usernameInUse" style="color:#b31820;font-size:12px;display:none;text-align:left;padding-left:3px;">This username has already been used. </p>
+                      <p id="usernameInvalidFormat" style="color:#b31820;font-size:12px;display:none;text-align:left;padding-left:3px;">Please input a valid username (no spaces allowed).</p>
+                  </div>
+              </div>
+              <div  class="formRow row custom-form-row">
+                  {{ form_label(action.form.password, 'Password', {'label_attr': {'class': 'control-label col-xs-12 col-sm-4 text-left custom-form-label'}}) }}
+                  <div class="col-xs-12 col-sm-8">
+                      {{ form_widget(action.form.password, {'attr': {'class': 'form-control', 'title':'The password needs at least 6 digits/characters.'}, 'value' : action.field_password })  }}
+                      <input type="text" class="form-control" style="display:none;" id="regPasswordTxt">
+                      <p id="passwordLength" style="color:#b31820;font-size:12px;display:none;text-align:left;padding-left:3px;">The password needs at least 6 digits/characters.</p>
+                   </div>
+              </div>
+              <div  class="formRow row custom-form-row">
+                  <div class="col-xs-12 col-sm-8">
+                      <input type="checkbox" id="regShowPassword text-center" style="vertical-align:top;" /> &nbsp; {%trans%}Show Password{%endtrans%}
+                  </div>
+              </div>
+              {{form_end(action.form)}}
+          </div>
+
+       {% if error is defined and error !="" %}
+          <div style="background-color:#b31820; color: white; font-size:1em; margin:1em 1em 0px 29px; padding:0.5em; text-align:center; max-width:90%;">{{error|raw}}</div>
+       {% endif %}
+    </div>
+  </div><!--col-lg-12-->
+</div><!--row-->
+  {% endblock %}
+<div class="row">
+  {% block legaltext %}
+      <p id="regLegalFooter" style="color:grey; min-height:2.85em; text-align:center;background-color:white;margin-bottom:0px;padding:0.75em;">{%trans%}By creating an account you agree to the{%endtrans%} <a href="/conditions-of-service" style="color:grey;text-decoration: underline;">{%trans%}terms and conditions{%endtrans%}<a></p>
+  {% endblock %}
+</div>
+</div><!--container-->
+{% include('AIResponsiveBundle:Default:SubTemplates/footer.html.twig') %}
+</body>
+{% endblock %}

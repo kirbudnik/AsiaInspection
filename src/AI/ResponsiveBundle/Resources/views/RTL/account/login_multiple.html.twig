@@ -1,0 +1,30 @@
+{% extends '::account.html.twig' %}
+{%block title%}Log in | AsiaInspection.com{%endblock%}
+
+{% block popup_title %}Please select the account you want to log in with{% endblock %}
+{% block popup_width %}600px{% endblock %}
+
+{% block content %}
+    <ul>
+    {% set accounts = app.request.attributes.get("accounts") | json_decode %}
+
+    <center>
+        <table border="1" style="margin:3em 0; box-sizing:border-box; width:80%; border-color:#c0c0c0;">
+        <tr style="font-weight:bold;">
+            <td style="padding:5px; border-color:#c0c0c0; background-color:#c1c1c1;">Username</td>
+            <td style="padding:5px; border-color:#c0c0c0; background-color:#c1c1c1;">Company</td>
+        </tr>
+        {% for account in accounts %}
+            <tr class="multipleLoginRow" onClick='window.location.href = "{{account.loginurl|e}}";'>
+                <td style="padding:5px; border-color:#c0c0c0;">{{ account.username|e }}</td>
+                <td style="padding:5px; border-color:#c0c0c0;">{{ account.company|e }}</td>
+                <!-- {{ account.status|e }} -->
+                <!-- {{ account.loginurl|e }} -->
+           </tr>
+        {% endfor %}
+        </table>
+    </center>
+    
+{% endblock %}
+
+{% block legaltext %}{% endblock %}

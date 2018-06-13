@@ -1,0 +1,50 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{%block title%}Tradeshow Memo and Lead Management Tool{%endblock%}
+
+{%block content%}
+		{%if not is_granted('ROLE_USER') %}<h1  style="margin:20px 0px;">Tradeshow Memo and Lead Management Tool</h1>{%endif%}
+			<div id="landingIcons" style="margin:20px 0px;">
+				<div class="col-md-3 col-xs-12 col-sm-6" >
+					<div class="box-white" style="margin:20px 15px;">
+						<center>
+							<img src="https://s3.asiainspection.com/images/responsive/salesLeads/uploadMemo.jpg" height="130px";/>
+						
+							<a href="/tradeshow-memo" role="button"  class="btn btn-primary " style="margin:20px 0px;height:48px;"><div style="height:9px"></div>Send a Tradeshow Memo</a>
+						</center>
+
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-12 col-sm-6" >
+					<div class="box-white" style="margin:20px 15px;">
+						<center>
+							<img src="https://s3.asiainspection.com/images/responsive/salesLeads/viewMemo.jpg" height="130px";/>
+						
+							<a href="/view-tradeshow-memo" role="button"  class="btn btn-primary " style="margin:20px 0px;height:48px;"><div style="height:9px"></div>View a Tradeshow Memo</a>
+						</center>
+
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-12 col-sm-6" >
+					<div class="box-white" style="margin:20px 15px;">
+						<center>
+							<img src="https://s3.asiainspection.com/images/responsive/salesLeads/uploadLeads.jpg" height="130px";/>
+						
+							<a href="/sales-leads" role="button"  class="btn btn-primary " style="margin:20px 0px;height:48px;"><div style="height:9px"></div>Upload Leads to Zoho</a>
+						</center>
+
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-12 col-sm-6" >
+					<div class="box-white" style="margin:20px 15px;">
+						<center>
+							<img src="https://s3.asiainspection.com/images/responsive/salesLeads/leadsCount.jpg" height="130px";/>
+						
+							<a href="/leads-count" role="button"  class="btn btn-primary " style="margin:20px 0px; height:48px;" ><div style="height:4px"></div><span style="line-height:20px;">View Leads Uploaded <br>Versus Tradeshow Memo</span></a>
+						</center>
+
+					</div>
+				</div>
+
+			</div>
+	  <div style="clear:both;height:40px;"></div>
+{%endblock%}

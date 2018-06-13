@@ -1,0 +1,125 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title%}Tradeshow List Overview{% endblock %}
+
+{% block content %}
+    <script type="text/javascript" src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+    <script type="text/javascript" src="/js/datepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/datepicker.css" />
+    <h1  class="margin20">{% if not is_granted('ROLE_USER') %}Tradeshow Memo and Lead Management Tool{% else %}Tradeshow/Event List <button type="button" class="btn-secondary addTradeshowButton">Add Tradeshow/Event</button>{% endif %}</h1>
+    {% if is_granted('ROLE_ADMIN') %}
+        <div class="tradeshow-group hide" id="tradeshowTemplate"  style="margin-bottom:20px; display:inline-block;">
+
+            <label style="font-weight:bold;">Friendly Name</label>
+            <input  name="tradeshowFriendly" class="tradeshowReqForNameField" type="text" style="float:right;" />
+            <br /><br />
+
+            <label style="font-weight:bold;">{{'Location'|trans}}</label>
+            <select name="tradeshowLocation" style="float:right;">
+                {% for country in countries %}
+                    <option value="{{country.iso3}}">{{country.name}} ({{country.iso3}})</option>
+                {% endfor %}
+            </select>
+            <br /><br />
+
+            <label style="font-weight:bold;">{{'Industry'|trans}}</label>
+            <select name="tradeshowIndustry" style="float:right;">
+                <option value="All Covered">All Covered</option>
+                <option value="Bodycare, Fashion & Accessories">Bodycare, Fashion & Accessories</option>
+                <option value="Electrical & Electronic Products">Electrical & Electronic Products</option>
+                <option value="Ethical Compliance / CSR">Ethical Compliance / CSR</option>
+                <option value="Food & Food Containers">Food & Food Containers</option>
+                <option value="Gifts & Premiums">Gifts & Premiums</option>
+                <option value="Homeware & Gardenware">Homeware & Gardenware</option>
+                <option value="Industrial, Construction & Mechanical Items">Industrial, Construction & Mechanical Items</option>
+                <option value="Others">Others</option>
+                <option value="Retailer">Retailer</option>
+                <option value="Special Electrical & Electronic Products">Special Electrical & Electronic Products</option>
+                <option value="Textile, Apparel, Footwear & Accessories">Textile, Apparel, Footwear & Accessories</option>
+                <option value="Toys & Recreational Items">Toys & Recreational Items</option>
+            </select>
+            <br /><br />
+
+            <label style="font-weight:bold;">Start Date</label>
+            <span style="float:right;"><input type="text" name="tradeshowStart" class="DatePicker tradeshowReqForNameField" value="{{"now"|date("Y-m-d")}}" readonly style="text-align:center;" /></span>
+            <br /><br />
+
+            <label style="font-weight:bold;">End Date</label>
+            <span style="float:right;"><input type="text" name="tradeshowEnd" class="DatePicker" value="{{"now"|date("Y-m-d")}}" readonly style="text-align:center;" /></span>
+            <br /><br />
+
+            <label style="font-weight:bold;">Budget</label>
+            <span style="float:right;">$<input type="number" name="tradeshowBudget" min="0" value="0" style="text-align:center;" /> USD</span>
+            <br /><br />
+
+            <label style="font-weight:bold;">Booth</label>
+            <select name="event_type" style="float:right;">
+                <option value="tradeshow-exhibiting" selected="selected">Exhibiting Tradeshow or Event (with booth)</option>
+                <option value="tradeshow-visiting">Visiting Tradeshow (no booth)</option>
+                <option value="event-visiting">Sponsoring or visiting event (no booth)</option>
+                <option value="event-speaking">Speaking Event</option>
+                <option value="event-hosted">Self-hosted Event</option>
+                <option value="webinar">Webinar</option>
+            </select>
+            <br /><br />
+
+            <label style="font-weight:bold;">Organizer</label>
+            <input  name="tradeshowOrganizer" type="text" style="float:right;" />
+            <br /><br />
+
+            <label style="font-weight:bold;">Tradeshow/Event Name</label>
+            <input name="tradeshowName" type="text" style="float:right; t6ext-align:center;" />
+            <br /><br />
+
+            <img src="https://s3.asiainspection.com/images/responsive/greencheck.png" id="addTradeshowBtn" class="addTradeshowBtn" style="width:25px; cursor:pointer; float:left; margin-left:20px;">
+            <img src="https://s3.asiainspection.com/images/responsive/delete.png" id="deleteTradeshow" class="deleteTradeshowButton" style="width:25px; cursor:pointer; float:right; margin-right:20px;">
+            <div style="clear:both;"></div>
+        </div>
+    {% endif %}
+    <div class="box-white">
+        {% if is_granted('ROLE_ADMIN') %}
+            <i>* Double-click on most fields to edit them</i><br />
+            <div style="margin-bottom:20px;">
+                <div style="clear:both;"></div>
+                <table class="bordered tablesorter" style="width:100%;margin-top:20px;" id="tradeshowListTable">
+                    <thead>
+                        <tr>
+                            <!-- id, tradeshow, friendlyName, Industry, type, Start_Date, End_Date, email_campaign_status, email_template, budget, booth -->
+                            <th style="font-weight:bold; min-width:130px;">Tradeshow Code</th>
+                            <th style="font-weight:bold; min-width:130px;">Friendly Name</th>
+                            <th style="font-weight:bold; min-width:80px;">Location</th>
+                            <th style="font-weight:bold; min-width:100px;">Industry</th>
+                            <th style="font-weight:bold; min-width:90px;">Start Date</th>
+                            <th style="font-weight:bold; min-width:85px;">End Date</th>
+                            <th style="font-weight:bold; min-width:80px;">Budget</th>
+                            <th style="font-weight:bold; min-width:60px;">Type</th>
+                            <th style="font-weight:bold; min-width:85px;">Organizer</th>
+                            <th style="font-weight:bold; min-width:65px;">Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        {% for tradeshow in tradeshowList %}
+                            <tr rowid="{{tradeshow.id}}" class="tradeshowRow">
+                                
+                                <td class="idTradeshowCode">{{tradeshow.tradeshow}}</td>
+                                <td class="idFriendlyName">{{tradeshow.friendlyName}}</td>
+                                <td class="idLocation" style="text-align:center;">{{tradeshow.location}}</td>
+                                <td class="idIndustry">{{tradeshow.Industry}}</td>
+                                <td class="idStartDate" style="text-align:center;">{{tradeshow.Start_Date}}</td>
+                                <td class="idEndDate" style="text-align:center;">{{tradeshow.End_Date}}</td>
+                                <td class="idBudget" style="text-align:center">${{tradeshow.budget}} USD</td>
+                                <td class="idEventType" style="text-align:center">{{ tradeshow.event_type }}</td>
+                                <td class="idOrganizer" style="text-align:center">{{tradeshow.organizer}}</td>
+                                <td class="idActions" style="text-align:center;">
+                                    <img src="https://s3.asiainspection.com/images/responsive/delete.png" tradeshow="{{tradeshow.tradeshow}}" class="deleteTradeshowBtn" style="cursor:pointer; width:20px; margin:5px;">
+                                </td>
+                            </tr>
+                        {% endfor %}
+
+                    </tbody>
+                </table>
+                <div style="clear:both;"></div>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

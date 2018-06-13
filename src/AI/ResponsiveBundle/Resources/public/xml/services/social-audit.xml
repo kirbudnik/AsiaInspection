@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>Ethical Audits - Engage with Ethical Suppliers Worldwide | Accountability Standards | AsiaInspection</en>
+			<es>Servicios de Control de Calidad: Auditorías Sociales (SA 8000) | Asiainspection.es</es>
+			<ar>مراجعة جودة المصانع في الصين، آسيا والهند | المراجعة الاجتماعية والاخلاقية</ar>
+			<fr>Contrôle Qualité : Audit Social (SA 8000) | AsiaInspection.fr</fr>
+			<zh>质量检测服务： 社会责任审核服务 | ChinaInspection.com</zh>
+			<de>Soziale und ethische Audits bei Zulieferern weltweit | AsiaInspection</de>
+			<pt>Serviços de controle de qualidade: Auditoria social (SA 8000) | AsiaInspection.pt</pt>
+			<ru>Услуги контроля качества: социальный аудит (SA 8000) |AsiaInspection.ru</ru>
+			<tr>Etik Denetimleri - Dünya Çapında Etik Tedarikçilerle Yakın İlişkiler Kurmak | Sorumluluk Standartları | AsiaInspection</tr>
+			<ru></ru>
+		</pageTitle>
+		<pageDesc>
+			<en>Asia Inspection provides ethical audit programs for producers worldwide to ensure social accountability standards are met. Learn more about our ethical audits here.</en>
+			<es>Asia Inspection provee servicios de auditorías sociales.</es>
+			<ar>خدمة المراجعة الاخلاقية و الاجتماعية للمصانع في الصين، الهند وآسيا. التحقق من جودة المصانع، اطلع علي خدمتنا الآن</ar>
+			<fr>Les audits et inspections d'AsiaInspection vérifient les étiquettes sociales.</fr>
+			<zh>AsiaInspection 根据SA8000社会责任标准提供工厂社会责任审核服务</zh>
+			<ru>AsiaInspection предлагает услуги социального аудита.</ru>
+			<de>AsiaInspection's Sozialaudits sichern ab, dass Produzenten ethische Standards einhalten. Lernen Sie hier mehr über unsere Auditprogramme.</de>
+			<tr>Asia Inspection toplumsal sorumluluk standartlarının karşılanmasını sağlamak için dünya çapında üreticiler için etik denetim programları sağlar. Buradan etik denetimleri hakkında daha fazla bilgi alın.</tr>
+			<pt>A Asia Inspection fornece programas de auditoria sociais para produtores em todo o mundo de forma a garantir que as normas de responsabilidade sociais são cumpridas. Saiba mais sobre as nossas auditorias sociais aqui.</pt>
+			<ru></ru>
+		</pageDesc>
+	</pageMeta>
+
+	<en>
+		<title>Ethical Audits</title>
+		<subtext>AsiaInspection offers ethical audit programs based on international standards, our own Best-In-Class Protocol and client-specific requirements.</subtext>
+		<whyUsTitle>Why AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li>All-inclusive pricing</li>
+			<li hover="1">An auditor onsite within 48 hours</li>
+			<li>Easy online scheduling of services</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</en>
+
+	<zh>
+		<title>社会责任审核 </title>
+		<subtext>
+			<![CDATA[
+			我们的社会责任审核服务遵行国际通用的 SA 8000 社会责任标准。
+
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[
+						审核人员将独立地对工厂的工作生活环境是否健康安全，是否雇佣童工和强制劳动，工作时间和工薪水平，是否存在行业歧视以及管理系统进行评估审核。
+			]]>
+		</subtext2>
+		<whyUsTitle>为什么选择 AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[每人每天检验仅需 $<span style='font-size:inherit;' class='priceAT'></span> USD]]></li> -->
+			<li>全包价</li>
+			<li hover="1">检验人员48小时内到达现场</li>
+			<li hover="2">当天出具检验报告</li>
+			<li>简易在线安排日程</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection保证将在48小时内派遣验货员到达工厂。<br /><br />但是这个时间期限也有赖于工厂的准备工作是否完成，并且是否与AsiaInspection充分合作。此外，如果遭遇其它不可控因素如交通晚点或其他任何意外事故，该时间期限将不能保证。]]>
+		</hoverOne>
+		<hoverTwo>
+			正常情况下，80%的检验报告都将在检验当天出具。但是，报告是否能当天出具也取决于工厂是否配合。
+		</hoverTwo>
+		<schedButton url="/register">咨询详情</schedButton>
+	</zh>
+
+	<fr>
+		<title>Audit éthique</title>
+		<subtext>
+			<![CDATA[
+			Nos audits éthique s'appuient sur le standard SA 8000, standard internationalement reconnu en matière de responsabilité sociale.
+			]]>
+		</subtext>
+		<whyUsTitle>Pourquoi AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD tout compris par jour-homme]]></li> -->
+			<li>Prix tout compris</li>
+			<li hover="1">Un auditeur sur site sous 48 heures</li>
+			<li hover="2">Rapport le jour même</li>
+			<li>Commande en ligne facile et protocole d'inspection personnalisé.</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantit l’intervention d’un inspecteur sur site dans les 48 heures. <br /><br />Cette fenêtre d’intervention est toutefois sujette à la coopération de l’usine et à son niveau de préparation. La garantie ne couvre pas les facteurs indépendants de la volonté d’AsiaInspection, tels que les retards dans les transports, ou tout autre cas de force majeure. ]]>
+		</hoverOne>
+		<hoverTwo>
+			 80% des rapports sont remis le jour même de l’inspection. La remise du rapport le jour même dépend de la coopération totale de l’usine.
+
+		</hoverTwo>
+		<schedButton url="/register">Commencer</schedButton>
+	</fr>
+
+	<ru>
+		<title>Ревизия штатного состава</title>
+		<subtext>
+			<![CDATA[
+			Ревизия штатного состава от AsiaInspection соблюдает международные стандарты SA 8000 или Sedex (SMETA) по соответствию социальным и этическим нормам.<br /><br />
+			Квалифицированные ревизоры AsiaInspection проводят независимую оценку рабочей атмосферы и безопасности, наличия признаков эксплуатации и детского труда, уровня зарплат и расписания работы, возможности дискриминации, выполнения требований дисциплины, систем управления и качества общежитий, если таковые имеются при производстве.
+			]]>
+		</subtext>
+		<whyUsTitle>Почему Вам необходимы услуги именно AsiaInspection?</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[609 долларов США за все аспекты работы в человеко-день]]></li>
+			<li hover="1">Ревизор прибудет на место в течение 48 часов</li>
+			<li hover="2">Отчет в день ревизии</li>
+			<li>Удобная форма заказа онлайн</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection гарантирует есть аудитор готов быть на заводе по аудиту в течение 48 часов. <br/> <br/> Этот срок не означает, однако, гарантируют готовность завода или сотрудничества с AsiaInspection. Он также не гарантирует от ограничивающих факторов вне контроля AsiaInspection, таких, как транспорт задержками, или любое событие рассматривается Закон Божий.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% всех аудиторских отчетов доставляется в тот же день. Отчеты доставляются в тот же день зависит от того, полное сотрудничество завода.
+		</hoverTwo>
+		<schedButton url="/register">Регистрация</schedButton>
+	</ru>
+	
+	<es>
+		<title>Auditoría Social</title>
+		<subtext>
+			<![CDATA[
+			 AsiaInspection ofrece programas de auditoría social basados en normas internacionales, los requisitos específicos del cliente y en nuestro propio protocolo Best-In-Class.
+			]]>
+		</subtext>
+		<whyUsTitle>¿Por qué elegir AsiaInspection?:</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[<span style='font-size:inherit;' class='priceAT'></span> USD todo incluido por persona y día]]></li> -->
+			<li>Tarifas todo-incluido</li>
+			<li><![CDATA[Un inspector irá a su fábrica en menos de 48 horas<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> y usted recibirá el informe el mismo día<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Reserve online y cree su protocolo de inspección a medida</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantiza disponer de un inspector destinado en su fábrica en menos de 48 horas.<br /><br />Este plazo, sin embargo, no garantiza que la fábrica está preparada o que colabore con AsiaInspection. Tampoco está garantizada nuestra presencia debida a factores externos fuera del control de AsiaInspection, como retrasos en el transporte o cualquier otro evento de fuerza mayor.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% de nuestros reportes de inspección son enviados el mismo día. Siempre dependiendo de la colaboración por parte de la fábrica durante nuesta visita.
+		</hoverTwo>
+		<schedButton url="/crear-cuenta">¡Empiece ya!</schedButton>
+	</es>
+	<de>
+		<title>Soziales Audit</title>
+		<subtext>
+			<![CDATA[
+			Unser Ethical Audit (EA) basiert auf der international anerkannten Norm für Arbeitsbedingungen von Arbeitnehmern SA 8000.
+			Unsere qualifizierten Inspektoren führen eine unabhängige Beurteilung zu Thematiken wie Arbeitsschutz, Kinderarbeit, Arbeitszeiten und Entlohnung, Diskriminierung und Disziplinarverfahren durch.
+			]]>
+		</subtext>
+		<whyUsTitle>Warum AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD pro Manntag all-inclusive]]></li> -->
+			<li>All-inclusive Preise</li>
+			<li hover="1">Ein Auditor vor Ort innerhalb von 48 Stunden</li>
+			<li hover="2">Selben Tag Prüfungsberichte</li>
+			<li>Einfache Online-Planung von Services</li>
+		</whyUsList>
+		<schedButton url="/register">Erste Schritte</schedButton>
+	</de>
+	<ar>
+		<title>خدمة المراجعة الاخلاقية و الاجتماعية للمصنع </title>
+		<subtext>
+			<![CDATA[
+			خدمة المراجعة الاخلاقية و الاجتماعية للمصنع تلتزم بالمعيار الدولى س أ ٨٠٠٠ او سيديكس ( س م أ ت أ ) للتحقق من اذا كان المصنع يلتزم بالمعايير الاجتماعية والاخلاقية
+			يقوم المراجعون / المدققون العاملين لدينا بتقييم مكان العمل من الناحية الصحية و الامنية , التحقق من وجود عمالة اطفال و عمالة مجبرة على العمل , عدد ساعات العمل وفقا لقانون العمل , اى تمييز عنصرى من ناحية الدين و لون البشرة و الطبقة الاجتماعية, انظمة الادارة و اخيرا مكان مبيت العمال ان وجد.
+			]]>
+		</subtext>
+		<whyUsTitle>لماذا تختار شركة AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[سعر الخدمة <span style='font-size:inherit;' dir='ltr' class='priceAT'></span> دولار امريكى شاملا جميع المصاريف]]></li> -->
+			<li>أسعار جميع الخدمات شاملة جميع التكاليف</li>
+			<li hover="1">يتم ارسال المراجع / المدقق الى مكان المصنع فى خلال ٤٨ ساعة</li>
+			<li hover="2">يتم ارسال تقرير فحص و مراجعة المصنع فى نفس اليوم</li>
+			<li>يتم حجز الخدمة اونلين من خلال موقعنا الالكترونى ( يلزم انشاء حساب خاص بك ... فى اقل من ٢ دقيقة )</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">إبدأ الحجز الأن</schedButton>
+	</ar>
+
+	<it>
+		<title>Audit Etici (EA)</title>
+		<subtext>
+			<![CDATA[
+			I nostri audit sociali aderiscono agli standard internazionali SA 8000 per la responsabilità sociale.
+			.<br /><br />I nostri revisori valutano in maniera indipendente il rispetto delle normative di salute e sicurezza, la retribuzione, l'orario lavorativo dei dipendenti e le procedure disciplinari, oltre a verificare l'uso di pratiche discriminatorie, lo sfruttamento del lavoro minorile e/o obbligato e le condizioni dei dormitori eventualmente gestiti dalla fabbrica.]]>
+		</subtext>
+		<whyUsTitle>Perché AsiaInspection:</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD tutto compreso al giorno per ispettore]]></li> -->
+			<li>Tariffe omnicomprensive</li>
+			<li hover="1">Disponibilità del revisore sul posto entro 48 ore</li>
+			<li hover="2">Rapporti di controllo in giornata</li>
+			<li>Possibilità di prenotare i servizi comodamente online</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantisce la disponibilità di un ispettore pronto per visitare la fabbrica in 48 ore. <br /><br />Questo lasso di tempo, tuttavia, non assicura che la fabbrica sia pronta o cooperi con AsiaInspection. Né assicura ogni eventuale ritardo dovuto a fattori esterni, come ritardi nei trasporti, disastri naturali, ecc...]]>
+		</hoverOne>
+		<hoverTwo>
+			L'80% dei report sono consegnati il giorno stesso. La consegna di un report nello stesso giorno è condizionata da una completa collaborazione da parte della fabbrica.
+		</hoverTwo>
+		<schedButton url="/register">Inizia ora!</schedButton>
+	</it>
+
+	<pt>
+		<title>Auditoria social</title>
+		<subtext>
+			<![CDATA[
+			Nossa Auditoria social segue os mundialmente reconhecidos padrões SA 8000 de Responsabilidade Social.<br /><br />
+			Nossos auditores qualificados avaliam de forma independente a saúde e a segurança no local de trabalho, a existência de trabalho forçado e trabalho infantil, horas de trabalho e salários, discriminação, disciplina, os sistemas de gerenciamento e os alojamentos, quando oferecidos pela fábrica.
+			]]>
+		</subtext>
+		<whyUsTitle>Certifique-se de que a sua fábrica atenda todos os padrões sociais e éticos.</whyUsTitle>
+		<whyUsList>
+			<li>Why AsiaInspection:</li>
+			<!-- <li><![CDATA[US$ <span style='font-size:inherit;' class='priceAT'></span> por inspeção]]></li> -->
+			<li>Preço com tudo incluído</li>
+			<li hover="1">Um inspetor no local em 48 horas</li>
+			<li hover="2">Relatórios de inspeção no mesmo dia</li>
+			<li>Agendamento de serviços on-line fácil</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[A AsiaInspection garante ter um inspetor ou auditor pronto para se apresentar na fábrica num prazo de 48 horas.<br/><br/> Este prazo não garante, no entanto, a preparação ou cooperação da fábrica com a AsiaInspection. Também não oferece garantias contra fatores limitadores fora do controlo da AsiaInspection, como atrasos de viagem, ou qualquer evento considerado de força maior.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% de todos os relatórios de auditoria são entregues no mesmo dia. Os relatórios entregues no mesmo dia dependem da total cooperação da fábrica.
+		</hoverTwo>
+		<schedButton url="/register">Introdução</schedButton>
+	</pt>
+
+	<tr>
+		<title>Etik Denetimleri (EA)</title>
+		<subtext>AsiaInspection uluslararası standartlara, kendi Sınıfının En İyiis Protokolümüz ve müşteriye özel ihtiyaçlara dayalı etik denetim programları sunar.</subtext>
+		<whyUsTitle>Neden AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li>Her şey dahil fiyatlandırma</li>
+			<li hover="1">48 seat içinde sahada olan denetçi</li>
+			<li>Kolay çevrimiçi hizmet düzenlemeleri</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</tr>
+</document>

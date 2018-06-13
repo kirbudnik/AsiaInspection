@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>AsiaInspection Affiliate Program Marketing Material</en>
+		</pageTitle>
+		<pageDesc>
+			<en></en>
+		</pageDesc>
+	</pageMeta>
+
+	<en>
+		<pageTitle>AsiaInspection Marketing Material</pageTitle>
+		<paraOne>It's easy to inform your customers about Asiainspection services by placing links and banners on your website, newsletters, or press releases. When you add these links and banners and visitors click on them, you earn 8% on all paid inspections from referrred traffic for the first two years.</paraOne>
+		<titleTwo>How Do I Build Affiliate Links to AsiaInspection?</titleTwo>
+		<paraTwo>Asiainspection helps you build links to our site with the following tools.</paraTwo>
+		<imageOne>affliliate_link.png</imageOne>
+		<divtitleOne>Text Links</divtitleOne>
+		<paraThree>Link to any page on the Asiainspection website. Your links will include your unique Affiliate ID and you will be paid for all qualifying revenue from the traffic you drive.</paraThree>
+		<paraFour>Include links on your website or newsletters and inform your customers about each of our services, paired with an image of a commonly inspected product.</paraFour>
+		<divtitleTwo>HTML Code:</divtitleTwo>
+		<htmlcodeOne><![CDATA[&lt;a href="http://www.asiainspection.com?affid=1234">AsiaInspection&lt;/a&gt;]]></htmlcodeOne>
+		<imageTwo>affliliate_banners.png</imageTwo>
+		<imageThree>affliliate_banners.png</imageThree>
+		<divtitleThree>AsiaInspection Marketing Material</divtitleThree>
+		<sentenceOne>Link to Asiainspection using our informative and stylish banners.</sentenceOne>
+		<sentenceTwo>Add graphics to your website or newsletters tailored for your product category.</sentenceTwo>
+		<linkOne>Download Banners Now</linkOne>
+		<downloadBanners>AsiaInspection_Banners.zip</downloadBanners>
+		<divtitleFour>HTML Code: </divtitleFour>
+		<htmlcodeTwo><![CDATA[&lt;a href="http://www.asiainspection.com?affid=1234">&lt;img src="asiainspection-banner.jpg" />&lt;/a&gt;]]></htmlcodeTwo>
+		<imageFour>affliliate_newsletter.png</imageFour>
+		<divTitleFive>Newsletters</divTitleFive>
+		<paraFive>Inform your customers with relevant updates and tips for managing quality control and securing their imports.</paraFive>
+		<sentenceThree>View some sample newsletter templates you are free to use:</sentenceThree>
+		<sentenceFour>Partnership newsletter</sentenceFour>
+		<sentenceFive>Tracking bribery in China</sentenceFive>
+		<sentenceSix>As Economy Improves, Social Conscience Returns</sentenceSix>
+		<sentenceSeven>If you need assistance or have any other questions, email us at:</sentenceSeven>
+		<contactEmail>affiliate@asiainspection.com</contactEmail>
+		<linkTwo>AsiaInspection_Partnership.pdf</linkTwo>
+		<linkThree>bribery.pdf</linkThree>
+		<linkFour>AsiaInspection_Q4_2009_Barometer.pdf</linkFour>
+		<loginbox>Existing Affiliate Login</loginbox>
+		<username>E-Mail</username>
+		<password>Password</password>
+		<loginButton>Log In</loginButton>
+		<keepLogin>Keep me logged in</keepLogin>
+		<forgotPass>Forgot your password?</forgotPass>
+	</en>
+
+	<cn>
+		<pageTitle>AsiaInspection市场营销材料</pageTitle>
+		<paraOne>通过将链接和宣传标语上传至您的网站、时事通讯或新闻稿上，可以轻松向您的客户宣传AsiaInspection的服务。当访问者点击了您添加的链接和宣传标语后，您即可从接下来的两年内源自此访问量而支付的检验项目中获得 8% 的报酬。</paraOne>
+		<titleTwo>怎样与 AsiaInspection 建立网站联盟链接？</titleTwo>
+		<paraTwo>AsiaInspection 使用以下工具帮助您与我们的网站建立链接。</paraTwo>
+		<imageOne>affliliate_link.png</imageOne>
+		<divtitleOne>文本链接</divtitleOne>
+		<paraThree>链接到AsiaInspection网站的任意页面。您的链接将包括属于您的唯一网站联盟 ID，我们将向您支付您带来的访问量的所有应得收入。</paraThree>
+		<paraFour>在您的网站或时事通讯中加入我们的链接，向您的客户宣传我们的每项新服务并配有一个常见检验产品的图片。</paraFour>
+		<divtitleTwo>HTML Code:</divtitleTwo>
+		<htmlcodeOne><![CDATA[&lt;a href="http://www.asiainspection.com?affid=1234">AsiaInspection&lt;/a&gt;]]></htmlcodeOne>
+		<imageTwo>affliliate_banners.png</imageTwo>
+		<imageThree>affliliate_banners.png</imageThree>
+		<divtitleThree>AsiaInspection市场营销材料</divtitleThree>
+		<sentenceOne>使用详实、新颖的宣传标语链接到 AsiaInspection。</sentenceOne>
+		<sentenceTwo>在专为您的产品类别定制的网站或时事通讯中添加图片。</sentenceTwo>
+		<linkOne>现在下载宣传标语</linkOne>
+		<downloadBanners>AsiaInspection_Banners.zip</downloadBanners>
+		<divtitleFour>HTML Code: </divtitleFour>
+		<htmlcodeTwo><![CDATA[&lt;a href="http://www.asiainspection.com?affid=1234">&lt;aimg src="asiainspection-banner.jpg" />&lt;/a&gt;]]></htmlcodeTwo>
+		<imageFour>affliliate_newsletter.png</imageFour>
+		<divTitleFive>时事通讯</divTitleFive>
+		<paraFive>通知客户相关更新内容并对管理质量控制和保证其进口产品安全提出建议。</paraFive>
+		<sentenceThree>查看免费的时事通讯模板：</sentenceThree>
+		<sentenceFour>合作伙伴时事通讯</sentenceFour>
+		<sentenceFive>跟踪在中国的行贿受贿行为</sentenceFive>
+		<sentenceSix>随着经济的发展，社会道德回归</sentenceSix>
+		<sentenceSeven>如果您需要帮助或您想在时事通讯上添加一个具体的主题，您可以发送邮件到：</sentenceSeven>
+		<contactEmail>affiliate@asiainspection.com</contactEmail>
+		<linkTwo>AsiaInspection_Partnership.pdf</linkTwo>
+		<linkThree>bribery.pdf</linkThree>
+		<linkFour>AsiaInspection_Q4_2009_Barometer.pdf</linkFour>
+		<loginbox>联盟用户登陆</loginbox>
+		<username>电子邮箱</username>
+		<password>密码</password>
+		<loginButton>登陆</loginButton>
+		<keepLogin>记住我的登陆状态</keepLogin>
+		<forgotPass>忘记密码？</forgotPass>
+	</cn>
+</document>

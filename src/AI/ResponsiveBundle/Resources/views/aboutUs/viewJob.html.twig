@@ -1,0 +1,82 @@
+{% extends 'AIResponsiveBundle:aboutUs:whoWeAreBase.html.twig' %}
+
+
+{%block pagename%}ViewJob{%endblock%}
+
+ {%block bigTitle%} {{title}} {%endblock%}
+ {%block smallText%}{{ location|trans }}{%endblock%}
+
+{%block whoWeAreText%}
+
+<div id="viewJob">
+
+
+    {{jobText|raw}}
+    <div class="text-center " style="margin-top:20px;margin-bottom:15px;">
+     <a id="applyBtn" href="{{submitUrl}}" role="button" class="three-btn btn btn-primary" style="font-size:15px; margin-top:4px;">{%trans%}Apply{%endtrans%}</a>
+     <a id="applyBtn_LinkedIn" href="https://www.linkedin.com/uas/oauth2/authorization?response_type=code&amp;client_id=at9xr9dbgd9d&amp;redirect_uri=http%3A%2F%2Fstaging.asiainspection.com:99%2Fjob-application%3Fid={{jobid}}&amp;state=2Ashya8Enspk2Shenp"></a>
+  </div>
+  <a href="/career-opportunities">&lt;&lt; {%trans%}Back to all jobs{%endtrans%}</a>
+
+</div>
+<hr class="hrgrey" style="margin-bottom:5px;">
+  
+  <div id="share-this" class="marginZero padding15">
+    <div style="display:inline-block;padding-top:8px;float:left;font-weight:bold;">{{xml.shareThisOn}}</div>
+    <div id="shareBtnSmall" class="paddingTopBottom15_990To768" style="display:inline-block;padding-left:15px;">
+      <span class='st_twitter_large' displayText='Tweet'></span>
+      <span class='st_facebook_large' displayText='Facebook'></span>
+      <span class='st_linkedin_large' displayText='LinkedIn'></span>
+      <span class='st_email_large' displayText='Email'></span>
+      <span class='st_sharethis_large' displayText='ShareThis'></span>
+    </div>
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="printButton" style="float:right;" class="marginZero padding15 displayNone768" >
+    <img src="{{assetsDomain}}/images/print.png" style="cursor:pointer;" onClick="window.print();" />
+  </div>
+  <div style="clear:both;"></div>
+  <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">
+    stLight.options({
+      publisher:'12345',
+      doNotHash:true,
+      doNotCopy:true,
+      hashAddressBar:false
+    });
+  </script>
+{%endblock%}
+{%block offerbox1%}
+                                     
+                                          <h5 >
+                                          {{followus}}</h5>
+                                         <hr>
+                                         <center>
+                                           <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+                                           <script type="IN/FollowCompany" data-id="207808" data-counter="right"></script>
+                                           </center>
+{%endblock%}
+{%block imagebox%}
+                              <div class="offer-box " style="padding:0px;margin-top:20px;margin-bottom:20px;">
+                                      <img src="{{assetsDomain}}/images/team.jpg" alt="The Team" width="100%" style="padding:0px;">
+                              </div>
+{%endblock%}
+{%block offerbox2%}
+                                      <h5 >
+                                        {{ownwords['title']}}
+                                      </h5>
+                                       <hr>
+                                      
+                                       <p style="color:black;">{{ownwords['headerText']|raw}}</p>
+                                         <p>{{ownwords['quote1']}}</p>
+                                         <p style="color:black;">-{{ownwords['quotee1']|raw}}</p>
+                                         <p>{{ownwords['quote2']}}</p>
+                                         <p style="color:black;">-{{ownwords['quotee2']|raw}}</p>
+                                         <p>{{ownwords['quote3']}}</p>
+                                         <p style="color:black;">-{{ownwords['quotee3']|raw}}</p>
+                                    
+                                      
+                                      
+{%endblock%}
+

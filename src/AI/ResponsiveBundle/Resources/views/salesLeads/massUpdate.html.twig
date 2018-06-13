@@ -1,0 +1,150 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title %}Zoho Mass Update{% endblock %}
+
+{% block content %}
+    <h1 class="margin20">Zoho Mass Update</h1>
+    <div class="box-white">
+        {% if error is defined and not massUploadType is defined %}
+            <div style="display:inline-block; text-align:right;">
+                <form method="post" action="/leads-tool/mass-update" enctype="multipart/form-data">
+                    {% if error is defined %}<p><div style="color:red; text-align:center;">{{error|raw}}</div></p>{% endif %}
+                    <p>
+                        <span>Type &nbsp; </span>
+                        <select name="massUploadType" style="width:250px;">
+                            <option value="none">-- Choose Type --</option>
+                            <option value="insert">Insert</option>
+                            <option value="update">Update</option>
+                        </select>
+                    </p>
+                    <p>
+                        <span>Module &nbsp; </span>
+                        <select name="massUploadModule" style="width:250px;">
+                            <option value="none">-- Choose Module --</option>
+                            <option value="Accounts">Accounts</option>
+                            <option value="Contacts">Contacts</option>
+                        </select>
+                    </p>
+                    <p>
+                        <span>CSV File &nbsp; </span>
+                        <input type="file" name="massUploadFile" id="massupdatefile" style="display:inline-block; width:250px;" />
+                    </p><br />
+                    <p><input type="submit" value="Upload" class="btn-primary" style="margin-top:-6px; width:100%;" /></p>
+                </form>
+            </div>
+        {% else %}
+            <h2>Confirm and Align Fields</h2>
+            <div style="display:inline-block; text-align:right;">
+                <input type="hidden" id="fileLocation" value="{{fileLoc}}" disabled="disabled" />
+                <p><b>Type:</b> <input type="text" id="fileUploadType" value="{{massUploadType}}" disabled="disabled" style="text-align:center;" /></p>
+                <p><b>Module:</b> <input type="text" id="fileUploadModule" value="{{massUploadModule}}" disabled="disabled" style="text-align:center;" /></p>
+                <p><b>Rows:</b> <input type="text" id="fileRows" value="{{rowCount}}" disabled="disabled" style="text-align:center;" /></p>
+            </div><br />
+            <b>Align Fields:</b><br />
+            <div id="massUploadFieldAlignBoxes" style="display:inline-block; text-align:right;">
+                {% for field in fields %}
+                    <p><b>{{field}}</b> = 
+                    <select id="zohoField_{{field}}">
+                        <option value="none">-- Choose Zoho Field --</option>
+                        {% if massUploadModule == "Contacts" %}
+                            <option value="Id">CONTACTID</option>
+                            <option value="SMOWNERID">SMOWNERID</option>
+                            <option value="ACCOUNTID">ACCOUNTID</option>
+                            <option value="SMCREATORID">SMCREATORID</option>
+                            <option value="MODIFIEDBY">MODIFIEDBY</option>
+                            <option value="Contact Owner">Contact Owner</option>
+                            <option value="First Name">First Name</option>
+                            <option value="Salutation">Salutation</option>
+                            <option value="Last Name">Last Name</option>
+                            <option value="Account Name">Account Name</option>
+                            <option value="Service Type">Service Type</option>
+                            <option value="Email">Email</option>
+                            <option value="Mobile">Mobile</option>
+                            <option value="Country">Country</option>
+                            <option value="Skype ID">Skype ID</option>
+                            <option value="Phone">Phone</option>
+                            <option value="Website">Website</option>
+                            <option value="LinkedIn Profile">LinkedIn Profile</option>
+                            <option value="Twitter">Twitter</option>
+                            <option value="Secondary Email">Secondary Email</option>
+                            <option value="Last Activity Time">Last Activity Time</option>
+                            <option value="Lead Source">Lead Source</option>
+                            <option value="TradeShows List">TradeShows List</option>
+                            <option value="Lead Status">Lead Status</option>
+                            <option value="Qualification">Qualification</option>
+                            <option value="Current QC Status">Current QC Status</option>
+                            <option value="Language">Language</option>
+                            <option value="Title">Title</option>
+                            <option value="Industry">Industry</option>
+                            <option value="Industries">Industries</option>
+                            <option value="Seniority">Seniority</option>
+                            <option value="Department / Function">Department / Function</option>
+                            <option value="Geographic Responsibility">Geographic Responsibility</option>
+                            <option value="Product Categories">Product Categories</option>
+                            <option value="Product Categories (old)">Product Categories (old)</option>
+                            <option value="Email Opt Out">Email Opt Out</option>
+                            <option value="Suspicious Email">Suspicious Email</option>
+                            <option value="Invalid Email">Invalid Email</option>
+                            <option value="Email Notes">Email Notes</option>
+                            <option value="Created By">Created By</option>
+                            <option value="Modified By">Modified By</option>
+                            <option value="Reallocated From">Reallocated From</option>
+                            <option value="Reallocated Date">Reallocated Date</option>
+                            <option value="Mailing Street">Mailing Street</option>
+                            <option value="Other Street">Other Street</option>
+                            <option value="Mailing City">Mailing City</option>
+                            <option value="Other City">Other City</option>
+                            <option value="Mailing State">Mailing State</option>
+                            <option value="Other State">Other State</option>
+                            <option value="Mailing Country">Mailing Country</option>
+                            <option value="Other Country">Other Country</option>
+                            <option value="Mailing Zip">Mailing Zip</option>
+                            <option value="Other Zip">Other Zip</option>
+                            <option value="1st contact">1st contact</option>
+                            <option value="Trade Show Visit">Trade Show Visit</option>
+                            <option value="2nd contact">2nd contact</option>
+                            <option value="Face to face meeting">Face to face meeting</option>
+                            <option value="Last call date">Last call date</option>
+                            <option value="1st Meeting date">1st Meeting date</option>
+                            <option value="CALL RESULT">CALL RESULT</option>
+                            <option value="Description">Description</option>
+                        {% elseif massUploadModule == "Accounts" %}
+                            <option value="SMOWNERID">SMOWNERID</option>
+                            <option value="Id">ACCOUNTID</option>
+                            <option value="SMCREATORID">SMCREATORID</option>
+                            <option value="MODIFIEDBY">MODIFIEDBY</option>
+                            <option value="Account Owner">Account Owner</option>
+                            <option value="Rating">Rating</option>
+                            <option value="Account Name">Account Name</option>
+                            <option value="Phone">Phone</option>
+                            <option value="Account Site">Account Site</option>
+                            <option value="Fax">Fax</option>
+                            <option value="Parent Account">Parent Account</option>
+                            <option value="Website">Website</option>
+                            <option value="Industry">Industry</option>
+                            <option value="Employees">Employees</option>
+                            <option value="Annual Revenue">Annual Revenue</option>
+                            <option value="SIC Code">SIC Code</option>
+                            <option value="Created By">Created By</option>
+                            <option value="Modified By">Modified By</option>
+                            <option value="Buy from Asia?">Buy from Asia?</option>
+                            <option value="Business Nature">Business Nature</option>
+                            <option value="Last Activity Time">Last Activity Time</option>
+                            <option value="Billing Street">Billing Street</option>
+                            <option value="Billing State">Billing State</option>
+                            <option value="Billing City">Billing City</option>
+                            <option value="Billing Code">Billing Code</option>
+                            <option value="Billing Country">Billing Country</option>
+                            <option value="Description">Description</option>
+                            <option value="Call Result">Call Result</option>
+                            <option value="Service Type">Service Type</option>
+                        {% endif %}
+                    </select></p>
+                {% endfor %}
+                <div id="massUploadSubmitBox">
+                    <input type="button" style="width:100%;" class="btn-primary" onClick="processMassUpdate()" value="Confirm and Upload" />
+                </div>
+            </div>
+        {% endif %}
+        
+    </div>
+{% endblock %}

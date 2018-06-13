@@ -1,0 +1,212 @@
+{% extends '::base.html.twig' %}
+{%block title%}{{pageTitle}}{%endblock%}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+{% block body -%}
+
+<div style="background-color:black;">
+    <div id="scrollAnchor_1" class="slide-feature1 ScrollSection scrollAnchor">
+        <div class="container vcenter_parent wrapper">
+            <div class="row vcenter_parent">
+                <div id="homeGetStartedBox" class="col-xs-offset-1 col-xs-10 col-sm-7 col-md-5 col-lg-4 col-xl-offset-0 vcenter">
+                    <h1 class="mainHeader">{% trans %}We Bring Trust and Ethical Standards to Trade Globally{% endtrans %}</h1>
+                    <p class="mainSubHeader">{% trans %}AI performs on-site supplier audit programs, product inspections and laboratory tests for global brands, retailers and importers to secure and manage their supply chain.{% endtrans %}</p>
+                    <a href="/register" role="button"  class="one-btn btn btn-primary btn-big">{% trans %}Get Started{% endtrans %}</a>
+                    <center><p style="color:white; margin-top:0.5em;">{% trans %}Create Your Free Account and Try the Service{% endtrans %}</p></center>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="scrollAnchor_2" class="slide-feature2 ScrollSection scrollAnchor" style="background-color:white;">
+    <div class="container wrapper vcenter_parent">
+
+        <div class="row homeSCP_title">
+            <div class="col-xs-12 vcenter_parent" id="section2HeaderWrap" style="text-align:center;">
+                <h3 class="vcenter sectionHeader">{% trans %}Your Supply Chain Partner{% endtrans %}</h3>
+            </div>
+        </div>
+
+        <div class="row homeSCP_content">
+            <div class="col-xs-12 vcenter_parent" style="text-align:center;">
+               {%set i =0%}
+                {%for box in xml.section2.box%}
+                    {%if i==0%}
+                     <div class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-5 homeSupplyChainWrapper">
+                    {%endif%}
+                    {%if i==2%}
+                        </div>
+                        <div class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-5 homeSupplyChainWrapper">
+                    {%endif%}
+
+                    <div class="homeSupplyChainBox">
+                        <img class="pull-left" src="{{box.img}}" {%if i==3%}style="padding-right:6px;"{%endif%}/>
+                        <div class="title">{{box.title | trans}}</div>
+                        <div class="content">{% autoescape %}{{box.content | trans | raw}}{% endautoescape %}</div>
+                    </div>
+
+                    {%set i = i+1%}
+                    {%endfor%}
+                </div>
+                <div style="clear:both;"></div>
+                <div class="col-xs-offset-1 col-xs-10 col-md-offset-5 col-md-2 homeWatchDemoLinks">
+                    <a id="demodesktoplink" href="/popup?video=watchdemo&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=440&amp;width=730&amp;modal=true" class="thickbox btn btn-afi btn-big one-btn" title="{% trans %}Watch a Demo{% endtrans %}" style="min-width:240px;">► {{xml.section2.watchDemo|trans}}</a>
+                    <a id="demomobilelink" href="https://www.youtube.com/v/xkgWD4KLccY?version=3%26autoplay=%26showinfo=0%26vq=hd720" class="btn btn-afi btn-big one-btn" style="min-width:200px;">► {{xml.section2.watchDemo|trans}}</a>
+                    <br />
+                </div>
+            </div>
+        </div>
+        <div class="row homeSCP_image"> &nbsp; </div>
+
+    </div>
+</div>
+
+<div id="scrollAnchor_3" class="slide-feature3 ScrollSection scrollAnchor">
+    <div class="container vcenter_parent">
+        <div class="row vcenter_parent">
+
+            <div id="IndustryBGslider">
+                <ul style="padding:0px; width:100%; opacity:0.3;">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div style="position:absolute; top:0px; height:100%; left:0; right:0; width:100%; margin:0px auto;" class="wrapper">
+                <div class="col-xs-offset-1 col-xs-10 col-xl-offset-0 col-xl-12 vcenter" style="text-align:left;">
+                    <h3 class="h3white sectionHeader">{% trans %}Services by Industry{% endtrans %}</h3>
+                    <p class="pwhite">{% trans %}AsiaInspection has over 800 inspectors, auditors and mechanical engineering experts specialized by industry to ensure your product and suppliers meet all safety and performance standards for your destination market.{% endtrans %}</p>
+                    <p class="pwhite">{% trans %}Access hundreds of off-the-shelf customizable product specific checklists online to ensure compliance at the source.{% endtrans %}</p>
+                    <center>
+                        {%set i =0%}
+                        {%for link in xml.section3.links%}
+                        <a href="{{link.src}}" {%if i ==3%} target="_blank"{%endif%} role="button"  class="btn btn-secondary btn-regular feature3button upcase" style="max-width:230px;" >{{link.title | trans}}</a>
+                        {%set i = i+1%}
+                        {%endfor%}
+                    </center>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="scrollAnchor_4" class="slide-feature4 ScrollSection scrollAnchor">
+    <div class="container vcenter_parent wrapper">
+        <div class="row vcenter_parent">
+            <div class="col-xs-10 col-xs-offset-1 vcenter_parent slideMainblock"  style="overflow:hidden;">
+                <div id="homePricingBoxTitle" class="row">
+                    <h3 class="text-center vcenter sectionHeader" id="pricing">{% trans %}Simple, All-Inclusive Pricing{% endtrans %}</h3>
+                </div>
+                <div id="homePricingBoxWrapper" class="row">
+                    {%for box in xml.section4.box%}
+                    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-4 offer1 vcenter_parent">
+                        <div class="text-center home-pricing-box pgrey">
+                        <div class="homePriceContent">
+                                <h5 style="margin:0px; font-size:1.1em;">{{box.title | trans}}</h5>
+                                <div class="sep1"><div class="spriteSeparator_h1"></div></div>
+                                {% if box.price == "${{priceAA}}" %}<span>{%trans%}from{%endtrans%}</span>{% endif %}
+                                <h2>{{box.price | trans | replace({'{{priceIA}}': price_Inspect_Low,'{{priceAA}}': price_Audit_Low })}}</h2> {% if box.price == "${{priceAA}}" %}  {%else%}<br />{%endif%}
+                                <p>{{box.content | trans}}</p>
+                                <p class="learnMoreLink"><a href="/quality-control-services">{{xml.section4.learnMore | trans}}</a></p><br />
+                            </div>
+                        </div>
+                    </div>
+                    {%endfor%}
+                 </div>
+                <div class="row vcenter_parent" id="rowPriceCTA">
+                    <div id="homePriceCTA" class="vcenter_parent">
+                        <a href="/register" role="button"  class="btn btn-primary btn-big one-btn upcase vcenter" style="width:30%;">{% trans %}Book Now{% endtrans %}</a>
+                    </div>
+                </div>
+
+
+        </div>
+    </div>
+</div>
+</div>
+<div>
+<div id="scrollAnchor_5" class="ScrollSection scrollAnchor">
+    <div class="homeTestimonial ScrollSection">
+        <div class="container vcenter_parent wrapper">
+
+            <div class="row" style="height:35%;"> {# height:20.3% with logos #}
+                <div class="col-xs-offset-1 col-xs-10 col-xl-offset-0 vcenter_parent" style="text-align:left;">
+                    <h3 class="h3white vcenter sectionHeader" id="ipadSection5Title">{% trans %}Retailers and Importers from 120 Countries Trust AI with their Supply Chain{% endtrans %}</h3>
+                </div>
+            </div>
+
+            <div id="homeClientLogoWrapper" class="row" style="height:25%; display:none;">
+                <div class="col-xs-offset-1 col-xs-10 col-lg-10 col-xl-offset-0 col-xl-12 vcenter_parent">
+                    <div class="homeClientLogo vcenter"></div>
+                    <div class="homeClientLogo vcenter"></div>
+                    <div class="homeClientLogo vcenter"></div>
+                    <div class="homeClientLogo vcenter"></div>
+                    <div class="homeClientLogo vcenter"></div>
+                    <div class="homeClientLogo vcenter"></div>
+                </div>
+            </div>
+
+            <div class="row" id="ipadSpectialHomeClientTestimonialRow" style="height:35%;"> {# height:49.6% with logos #}
+                <div class="col-xs-offset-1 col-xs-10 col-xl-offset-0 vcenter" id="ipadSpectialHomeClientTestimonialWrapper" style="text-align:left;">
+                    <h5 class="upcase" style="color:black; font-weight:bold; font-size:1em;">{% trans %}SATISFIED CUSTOMERS WORLDWIDE{% endtrans %}</h5>
+                    <div id="TestimonialSlider">
+                        <ul style="padding-left:0px;">
+                            {% for row in testimonial %}
+                            <li>
+                                <p class="sliderText">{{row.text|raw}}</p>
+                                <p>{{row.who|raw}}</p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="scrollAnchor_6" class="ScrollSection scrollAnchor">
+    <div class="container vcenter_parent wrapper">
+
+        <div class="row" style="height:17%;">
+            <div class="col-xs-offset-1 col-xs-10 col-xl-offset-0 homePublications vcenter_parent slideMainblock"  style="text-align:left;">
+                <h3 class="vcenter sectionHeader" style="color:black;">{% trans %}Latest Publications {% endtrans %}</h3>
+            </div>
+        </div>
+        <div id="homePublicationsRow" class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-11 homePublications vcenter_parent" style="text-align:center;">
+                {%for row in xml.section6.row%}
+                <div class="ourLatestBox col-xs-12 col-sm-4">
+                    <h3>{{row.title|trans|raw}}</h3>
+                    <img src="{{row.img}}" />
+                    <p>{{row.pgh|trans|raw}}</p>
+                    <div class="buttonbox"><a href="{{row.link}}" role="button"  class="btn btn-primary btn-big one-btn">{% trans %}Get It Now{% endtrans %}</a></div>
+                </div>
+                {%endfor%}
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/javascript" src="js/jquery.videoBG.js"></script>
+    {% javascripts
+        '@AIResponsiveBundle/Resources/public/js/scroll.js' 
+        filter='?uglifyjs2' 
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

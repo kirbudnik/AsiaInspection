@@ -1,0 +1,24 @@
+{% extends '::base.html.twig' %}
+{% block title %}Corporate Demo{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+
+ {% block bigTitle %}AsiaInspection Corporate Demo{% endblock %}
+ {% block smallText %}{% endblock %}
+ {% block pagename %}CorporateDemo{% endblock %}
+
+
+{% block body %}
+<div style="padding:50px; text-align:center;">
+    <script src="/js/jwplayer.js"></script>
+    <script type='text/javascript'>jwplayer.key='oPERdfT2dyFZJbzR66CRCaeu1joZMpUwoWx6Gw==';</script>
+    <iframe
+        style="margin-left:55px;"
+        width="845"
+        height="475"
+        frameborder="0"
+        allowfullscreen
+        src="//www.youtube.com/embed/xkgWD4KLccY?version=3&amp;autoplay=1&amp;showinfo=0&amp;rel=0&amp;vq=hd720">
+    </iframe>
+</div>
+{% endblock %}

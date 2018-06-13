@@ -1,0 +1,76 @@
+{% extends 'AIResponsiveBundle:RTL:services/industryBase.html.twig' %}
+{% block pagename %}{{type}}{% endblock %}
+{% block title %}{{pageTitle}} {% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+{% block bigTitle %}{{xml.title}}{% endblock %}
+
+{% block smallText %}
+    {% if xml.subTitle is defined %}
+        <div class="pwhite">{{xml.subTitle}}</div>
+        <!-- <a href="/register" role="button"  class="btn btn-primary btn-regular headerButton">{{'Get Started'|trans}}</a> -->
+    {% endif %}
+{% endblock %}
+
+{% block serviceText %}
+    <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.soloutionTitle}}</h2>
+    {% if xml.hoverOne is defined %}
+        <div id="txtAuditor" class="notshow" style="display:none;">{{xml.hoverOne|raw}}</div>
+    {% endif %}
+    {% if xml.hoverTwo is defined %}
+        <div id="txtSameDayAudit" class="notshow" style="display:none;">{{xml.hoverTwo|raw}}</div>
+    {% endif %}
+    <div id="industryMainText">
+        {% if xml.soloutionContent is defined %}
+            {{xml.soloutionContent|trans|raw}}
+        {% else %}
+            {{xml.headSection|raw}}
+            {% for section in xml.section %}
+                {% if section.title is defined %} <h2>{{section.title}}</h2> {% endif %}
+                {% if section.pretext is defined %} {{section.pretext|raw}}<br /> {% endif %}
+                    {% if section.content is defined %}
+                        <div class="industrySection" {% if section.extraStyles is defined %}style="{{section.extraStyles}}"{% endif %}>
+                            {% if section.imageLeft is defined %} <div class="industrySectionImageLeft"><img src="https://s3.asiainspection.com/images/responsive/industries/{{section.imageLeft}}" style="height:100%;" /></div> {% endif %}
+                            {% if section.imageRight is defined %} <div class="industrySectionImageRight"><img src="https://s3.asiainspection.com/images/responsive/industries/{{section.imageRight}}" /></div> {% endif %}
+                            <div class="{% if section.imageLeft is defined or section.imageRight is defined %}industrySectionContentWithImage{% else %}industrySectionContentNoImage{% endif %}">{{section.content|raw}}</div>
+                            <div style="clear:both;"></div>
+                        </div>
+                    {% endif %}
+            {% endfor %}
+            {{xml.footSection|raw}}
+        {% endif %}
+        
+        {% if type == "food-produce" and app.request.locale == "en" %}
+            <iframe src="/benefits/produce?_locale={{app.request.locale}}" frameborder="0" onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px';" scrolling="no" style="width:100%;"></iframe>
+        {% else %}
+            <iframe src="/benefits?_locale={{app.request.locale}}" frameborder="0" onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px';" scrolling="no" style="width:100%;"></iframe>
+        {% endif %}
+
+    </div>
+
+    {% if type is defined %}
+        {% if type == "softline" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/Industry-1-Softlines_[lg].jpg" alt="Softlines – Textile Testing & Quality Control | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "apparel" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/apparel_garment_[lg].jpg" alt="Garment & Apparel Quality Control Testing | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "textiles" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/textile_testing_[lg].jpg" alt="Fabric Lab Testing: Textile Quality Control Services | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "footwear" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/footwear_[lg].jpg" alt="Footwear Testing & Quality Control | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "hardline" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/Industry-2-Hardlines_[lg].jpg" alt="Hardlines - Quality Control in Manufacturing | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "electrical" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/electronics_[lg].jpg" alt="Electronic Product Testing | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "toys" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/toys_[lg].jpg" alt="Lab Testing & Standard Inspections for Toys | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "promotional-products" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/promotional_products_[lg].jpg" alt="Testing & Quality Control for Promotional Products | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "eyewear" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/eyewear_[lg].jpg" alt="Eyewear Inspections & Lab Testing | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "reading-glasses" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/ready_spectacles_[lg].jpg" alt="Inspections for Ready Made Reading Glasses | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "optical-lenses" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/optical_lenses_[lg].jpg" alt="Optical Lens Inspections | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "spectacle-frames" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/spectacle_frames_[lg].jpg" alt="Spectacle Frame Testing | AsiaInspection – Lab Testing & Inspections" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "cosmetics" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/cosmetics_[lg].jpg" alt="Quality Control Services for The Cosmetics Industry | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "jewelry" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/jewelry_[lg].jpg" alt="Lab Testing, Quality Control & Ethical Audits for the Jewelry Industry" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if type == "techpart" %}<img src="https://s3.asiainspection.com/images/responsive/headerImages/technical_parts_[lg].jpg" alt="Inspection for Technical & Mechanical Parts | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% endif %}
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts  '@AIResponsiveBundle/Resources/public/js/industryFixedMenu_v2.js' filter='?uglifyjs2' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

@@ -1,0 +1,368 @@
+{% extends '::base.html.twig' %}
+{% block title %}{{xml.pageTitle}}{% endblock %}
+{% block pageDescription %}{% if xml.pageDesc is defined %}{{xml.pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if xml.pageKeywords is defined %}{{xml.pageKeywords}}{% endif %}{% endblock %}
+
+{% block navigation %}
+    {% include('AIResponsiveBundle:Default:SubTemplates/nav.html.twig') %}
+{% endblock %}
+{% block stylesheets %}
+    {{ parent() }}
+    {%stylesheets filter="scss" '@AIResponsiveBundle/Resources/public/css/africa.scss' %}
+    <link rel="stylesheet" href="{{asset_url}}"/>
+    {%endstylesheets%}
+{% endblock %}
+
+{% block body %}
+
+    <div id="sectionOne" class="subsection" style="background: url(https://s3.asiainspection.com/images/africainspection/africa_home_%5Blg%5D.jpg);">   
+        <div style="text-align:center;">
+            <h1 style="color:white; padding-top: 60px;">We Bring Trust and Ethical Standards to Trade Globally</h1>
+            <p class="subheading" style="color:white; font-size:20px;">Africa Inspections performs on-site supplier audit programs, product inspections and<br />
+                laboratory tests for gloabal brands, retailers and importers to secure and manage their<br />
+                supply chain in Africa</p>
+            <center><a href="/register" role="button" class="one-btn btn btn-primary btn-big" style="max-width:300px; margin-top:2.0em;">Get Started</a></center>
+            <center><p style="color:white; margin-top:1.0em; font-size: 16px; padding-bottom: 60px;" class="AI_text">Create Your Free Account and Try the Service</p></center>
+        </div>
+    </div>
+
+     <!-- Section 2 - Demo - BEGIN -->
+    <div id="sectionTwo" class="subsection">
+        <div id="africaDemoWrapper" class="container wrapper">
+            {#<div class="row">#}
+                <div class="col-xs-12 vcenter_parent" style="text-align:center;">
+
+                    <div class="africaDemoBox col-xs-6 col-sm-3">
+                        <div class="image">
+                            <img id="africaFeaturesIcon1" src="https://s3.asiainspection.com/images/eyewear/eyewear_ico1.png" style="height:60px; opacity:0;" />
+                        </div>
+                        <div class="title" style="font-weight:bold; margin-bottom:8px;">Online &amp; Mobile Management</div>
+                        <div class="content">Manage your product and supplier compliance from your online account. <a href="/app" style="font-size:1em; display:inline-block;">Use the AI app</a> when on the go!</div>
+                    </div>
+
+                    <div class="africaDemoBox col-xs-6 col-sm-3">
+                        <div class="image">
+                            <img id="homeFeaturesIcon2" src="https://s3.asiainspection.com/images/responsive/ico_turnaround.png" style="height:60px; opacity:0;" />
+                        </div>
+                        <div class="title" style="font-weight:bold; margin-bottom:8px;">Leading Turnaround &amp; Flexibility</div>
+                        <div class="content">Onsite within 48 hours. Reports the same day. Cancel up to 4pm the day before.</div>
+                    </div>
+
+                    <div class="homeDemoBox col-xs-6 col-sm-3">
+                        <div class="image">
+                            <img id="homeFeaturesIcon3" src="https://s3.asiainspection.com/images/responsive/ico_intelligence.png" style="height:60px; opacity:0;" />
+                        </div>
+                        <div class="title" style="font-weight:bold; margin-bottom:8px;">Supply Chain Intelligence</div>
+                        <div class="content">Use your real-time dashboard to benchmark and identify your high performing suppliers.</div>
+                    </div>
+
+                    <div class="homeDemoBox col-xs-6 col-sm-3">
+                        <div class="image">
+                            <img id="homeFeaturesIcon4" src="https://s3.asiainspection.com/images/responsive/ico_expertise.png" style="height:60px; opacity:0;" />
+                        </div>
+                        <div class="title" style="font-weight:bold; margin-bottom:8px;">Product Expertise</div>
+                        <div class="content">Over 1,000 off-the-shelf customizable product-specific inspection checklists.</div>
+                    </div>
+
+                </div>
+            {#</div>#}
+
+            {#<div class="row">#}
+                <div class="col-xs-12 vcenter_parent" style="text-align:center;">
+
+                    <div class="homeWatchDemoLinks">
+                        <a id="demodesktoplink" href="/popup?video=watchdemo&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=440&amp;width=730&amp;modal=true" class="thickbox btn btn-afi btn-big one-btn" title="Watch a Demo" style="max-width: 300px; margin-top: 20px;">See Us in Action</a>
+                    
+                        <br />
+                    </div>
+
+                </div>
+            {#</div>#}
+
+            <div id="multiDeviceImage">
+                <center>
+                <div id="homepageTabletAnimationBox">
+                    <img id="animateHomepageTablet" src="{{assetsDomain}}/images/responsive/homepageanimate/tablet.png" />
+                    <img id="animateHomepageDesktop" src="{{assetsDomain}}/images/responsive/homepageanimate/desktop.png" />
+                    <img id="animateHomepageMobile" src="{{assetsDomain}}/images/responsive/homepageanimate/mobile.png" />
+                </div>
+                </center>
+            </div>
+
+        </div>
+    </div>
+    <!-- Section 2 - Demo - END -->
+    <!-- Section 3 - Services - BEGIN -->
+    <div id="sectionThree" class="subsection">
+
+        <h3 class="sectionHeader" style="text-align: center;">Services by Industry</h3>
+
+        <div id="africaServicesText">
+            <center>
+            <p style="max-width:860px; text-align: center;">AsiaInspection has over {% trans %}%total_Inspectors%{% endtrans %} inspectors, auditors and lab experts specialized by industry to ensure your product and suppliers meet all safety and performance standards for your destination market</p>
+            <p style="max-width:860px; text-align: center;">Access hundreds of off-the-shelf customizable inspection checklists online, receive expert advice on your product safety requirements and supplier auditing programs to ensure compliance at the source.</p>
+        </center>
+        </div><br />
+
+        <div id="africaServicesRow" class="row">
+            <div class="col-xs-12 vcenter_parent" style="text-align:center;">
+
+                <div id="homeServiceBox1" class="serviceBox col-xs-6 col-sm-3" style="opacity:0;">
+                    <div class="image">
+                        <img src="{{assetsDomain}}/images/responsive/home_icons/v2/industry_softlines-1.gif" border="0" onmouseover="this.src=ico_Softlines.src" onmouseout="this.src='{{assetsDomain}}/images/responsive/home_icons/v2/industry_softlines-1.gif'" />
+                    </div>
+                    <div class="title"><p class="subheading" style="font-weight:bold;"><a href="/industry-softline">Softlines</a></p></div>
+                    <hr class="hrgrey hideSmall" style="margin-bottom: 10px; margin-top: 10px; width: 25px;">
+                    <ul class="hideSmall" style="list-style-type: none; padding-left: 0px; padding-bottom: 20px; padding-top: 0px;">
+                        <li style="margin-top: 10px;"><a href="/testing/garments-apparel">Garments &amp; Apparel</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/textile-fabric-quality-control">Textiles &amp; Fabrics</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/footwear">Footwear</a></li>
+                    </ul>
+                </div>
+
+                <div id="africaServiceBox2" class="serviceBox col-xs-6 col-sm-3" style="opacity:0;">
+                    <div class="image">
+                        <img src="{{assetsDomain}}/images/responsive/home_icons/v2/industry_hardlines-1.gif" border="0" onmouseover="this.src=ico_Hardlines.src" onmouseout="this.src='{{assetsDomain}}/images/responsive/home_icons/v2/industry_hardlines-1.gif'" />
+                    </div>
+                    <div class="title"><p class="subheading" style="font-weight:bold;"><a href="/industry-hardline">Hardlines</a></p></div>
+                     <hr class="hrgrey hideSmall" style="margin-bottom: 10px; margin-top: 10px; width: 25px;">
+                    <ul class="hideSmall" style="list-style-type: none; padding-left:0px; padding-left: 0px; padding-bottom: 20px; padding-top: 0px;">
+                        <li style="margin-top: 10px;"><a href="/testing/cosmetics">Cosmetics</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/electrical">Electrical &amp; Electronics</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/eyewear">Eyewear</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/jewelry">Jewelry</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/promotional-products">Promotional Products</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/toy-safety-and-lab-testing">Toys &amp; Recreational</a></li>
+                    </ul>
+                </div>
+
+                <div id="homeServiceBox3" class="serviceBox col-xs-6 col-sm-3" style="opacity:0;">
+                    <div class="image">
+                        <img src="{{assetsDomain}}/images/responsive/home_icons/v2/industry_food-1.gif" border="0" onmouseover="this.src=ico_Food.src" onmouseout="this.src='{{assetsDomain}}/images/responsive/home_icons/v2/industry_food-1.gif'" />
+                    </div>
+                    <div class="title"><p class="subheading" style="font-weight:bold;"><a href="/food-safety-testing">Food</a></p></div>
+                     <hr class="hrgrey hideSmall" style="margin-bottom: 10px; margin-top: 10px; width: 25px;">
+                    <ul class="hideSmall" style="list-style-type: none; padding-left: 0px; padding-bottom: 20px; padding-top: 0px;">
+                        <li style="margin-top: 10px;"><a href="/testing/produce-inspections-and-quality-control">Fresh Produce</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/quality-control-for-processed-food">Processed Foods</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/seafood">Seafood</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/meat-poultry">Meat and Poultry</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/beverage-quality-control">Beverages</a></li>
+                        <li style="margin-top: 10px;"><a href="/testing/food-packaging-and-containers">Food Containers</a></li>
+                    </ul>
+                </div>
+
+                <div id="homeServiceBox4" class="serviceBox col-xs-6 col-sm-3" style="opacity:0;">
+                    <div class="image">
+                        <img src="{{assetsDomain}}/images/responsive/home_icons/v2/industry_tech_parts-1.gif" border="0" onmouseover="this.src=ico_TechnicalParts.src" onmouseout="this.src='{{assetsDomain}}/images/responsive/home_icons/v2/industry_tech_parts-1.gif'" />
+                    </div>
+                    <div class="title"><p class="subheading" style="font-weight:bold;"><a href="/industry-techparts">Technical Parts</a></p></div>
+                     <hr class="hrgrey hideSmall" style="margin-bottom: 10px; margin-top: 10px; width: 25px;">
+                    <ul class="hideSmall" style="list-style-type: none; padding-left: 0px; padding-bottom: 20px; padding-top: 0px;">
+                        <li style="margin-top: 10px;">
+                            <a href="/industry-techparts">
+                                <div style="margin-bottom:10px;">( Assemblies &amp; Molds,</div>
+                                <div style="margin-bottom:10px;">Automotive Parts,</div>
+                                <div style="margin-bottom:10px;">Machinery,</div>
+                                <div style="margin-bottom:10px;">Precision Tooling )</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Section 3 - Services - END -->
+    <!-- Section 4 Coverage -->
+    <div id="sectionFour" class="subsection">
+        <h3 class="sectionHeader" style="text-align: center;">Service Coverage</h3>
+        <p style="text-align: center;">AfricaInspection provides Inspections, Audits and Laboratory Testing in the following countries:</p>
+        <div id="africaMap" style="width: 50%; float: left;">
+            <img src="https://s3.asiainspection.com/images/africainspection/africa_map.png" style="float: right; padding-right: 20px;">
+        </div>
+        
+        <div id="countries" style="width: 45%; float: right;">
+            <ul class="countriesList" style="padding-left: 0px; float: left;">
+                <li>Botswana</li>
+                <li>Egypt</li>
+                <li>Ethiopa</li>
+                <li>Kenya</li>
+                <li>Lesotho</li>
+                <li>Madagascar</li>
+                <li>Mauritius</li>
+                <li>Morocco</li>
+                <li>Nigeria</li>
+                <li>Swaziland</li>
+                <li>Tunisia</li>
+            </ul>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <br /><br />
+    <!-- Section 5 - Publications - BEGIN -->
+    <div id="sectionFive" class="subsection">
+        
+        <h3 class="sectionHeader" style="text-align: center;">Latest Publications</h3>
+
+        <div id="homePublicationsRow" class="row">
+            <div class="homePublications" style="text-align:center;">
+                
+                <div class="ourLatestBox col-xs-12 col-sm-4">
+                    <h3>{{contentCards.baro.title|trans}}</h3>
+                    <img id="publicationImage0" src="{{contentCards.baro.thumb}}" />
+                    <div class="buttonbox"><a href="{{contentCards.baro.link}}" role="button"  class="btn btn-primary btn-big one-btn" style="max-width: 360px;">View Now</a></div>
+                </div>
+
+                <div class="ourLatestBox col-xs-12 col-sm-4">
+                    <h3>{{contentCards.insight.title|trans}}</h3>
+                    <img id="publicationImage1" src="{{contentCards.insight.thumb}}" />
+                    <div class="buttonbox"><a href="{{contentCards.insight.link}}" role="button"  class="btn btn-primary btn-big one-btn" style="max-width: 360px;">Download Now</a></div>
+                </div>
+
+                <div class="ourLatestBox col-xs-12 col-sm-4">
+                    <h3>{% trans %}View a Sample Report for Your Industry{% endtrans %}</h3>
+                    <img id="publicationImage2" src="https://s3.asiainspection.com/images/responsive/sample_report.png" />
+                    <div class="buttonbox"><a href="/samplereports" role="button"  class="btn btn-primary btn-big one-btn" style="max-width: 360px;">Download Now</a></div>
+                </div>
+
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Section 5 - Publications - END -->
+
+    <!-- Section 6 - Assurance - BEGIN -->
+    <div id="sectionSix" class="subsection">
+        <div id="assuranceWrapper" class="container wrapper">
+
+            <h2>{% trans %}homepage_assurance_title{% endtrans %}</h2>
+
+            <div id="SliderAssurance">
+                <ul style="padding-left:0px;">
+                    <li class="assuranceSlide">
+                        <p class="sliderText">
+                            <img class="assurancePictogram" src="{{assetsDomain}}/images/responsive/home_icons/ico_globe.png" />
+                            {% trans %}homepage_assurance_global{% endtrans %}
+                        </p>
+                    </li>
+                    <li class="assuranceSlide">
+                        <p class="sliderText">
+                            <img class="assurancePictogram" src="{{assetsDomain}}/images/responsive/home_icons/ico_user.png" />
+                            {% trans %}homepage_assurance_staff{% endtrans %}
+                        </p>
+                    </li>
+                    <li class="assuranceSlide">
+                        <p class="sliderText">
+                            <img class="assurancePictogram" src="{{assetsDomain}}/images/responsive/home_icons/ico_factory.png" />
+                            {% trans %}homepage_assurance_factories{% endtrans %}
+                        </p>
+                    </li>
+                    <li class="assuranceSlide">
+                        <p class="sliderText">
+                            <img class="assurancePictogram" src="{{assetsDomain}}/images/responsive/home_icons/ico_magnifyingglassglobe.png" />
+                            {% trans %}homepage_assurance_defects{% endtrans %}
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+
+    </div>
+    <!-- Section 6 - Assurance - END -->
+    <!-- Section 7 NMI -->
+    <div class="subsection" style="text-align:center; background-color:#DADFE5;">
+        <!-- Need More Information [Begin] -->
+        <h2>Need More Information?</h2>
+        <div style="background-color:#b31820; height:2px; width:5%; display:inline-block;"></div><br /><br />
+        <!-- <p>{{nmi.data.subtitle|raw}}</p> -->
+        <div id="nmiBox" class="offer-box">
+            <div style="padding:15px 30px; background-color:#DADFE5;">
+                <script src="/js/needMoreInfo.js"></script>
+                <form class="NeedMoreInfoForm validate-form">
+                    <div class="nmiBoxHalfWrapper">
+                        <input type="hidden" class="validateErrorText" value="{{nmi.data.error}}">
+                        <input type="hidden" class="nmi_customMailType" value="{% if nmi.customType is defined %}{{nmi.customType}}{% endif %}">
+                        <input type="text" name="UserName" required placeholder="{{nmi.data.userName}}" class="nmi_UserName nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;">
+                        <input type="text" name="CompanyName"  required placeholder="{{nmi.data.companyName}}" class="nmi_CompanyName nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;">
+                        <input type="email" name="EmailAddress" required placeholder="{{nmi.data.emailAddress}}" class="nmi_EmailAddress nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;">
+                        <div>
+                            <select name="CompanyCountry" id="" class="nmi_CompanyCountry nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;">
+                                <option selected="selected"  areacode='' disabled="disabled" style="color:#a6a7b1;">{{nmi.data.country}}</option>
+                                {% for country in nmi.countries %}
+                                <option countrycode='{{country.iso2}}' areacode='{{country.phone}}'>{{country.name}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div dir="ltr">
+                            <input type="text" name="Telephone" required id="" class="nmi_Telephone nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;" placeholder="{{nmi.data.telephone}}">
+                        </div>
+                    </div>
+                    <div class="nmiBoxHalfWrapper" style="padding-left:15px;">
+                        <div>
+                            <select id="" name="AboutQuestion" class="nmi_AboutQuestion nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;">
+                                <option value="5" selected="selected" disabled="disabled" style="color:#a6a7b1;">{{nmi.data.qstn}}</option>
+                                {% for question in nmi.data.questions.item %}
+                                <option value="{{question.attributes.val}}">{{question}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <textarea name="Message" id="" required rows="9" maxlength="1500" class="nmi_Message nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;" placeholder="{{nmi.data.messageTextBox}}"></textarea>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <center>
+                        <button type="button" id="NeedMoreInfotmationSubmitButton" class="nmiSubmitButton btn-primary" style="margin:10px 0px;">{{nmi.data.submitButtonText}}</button>
+                        <p style="color:grey; text-align:center; margin-bottom:0px; padding:0.5em; font-size:13px;">{{nmi.data.contactagree}} <a href="/conditions-of-service#privacyPolicy_8.1">{{nmi.data.policy}}</a></p>
+                        <p class="submitFormSuccess" style="display:none; text-align:center; margin-top:15px; color:white; background-color:rgba(91,163,49,0.6); padding:10px;">{{nmi.data.formSubmitted|raw}}</p>
+                    </center>
+                </form>
+                <div class="mboxDefault"></div>
+                <script type="text/javascript">mboxCreate("countriesDropdown");</script>
+                <script src="/js/mbox.js"></script>
+            </div>
+        </div>
+        <!-- Need More Information [End] -->
+    </div>
+
+    <!-- Section 7 - Pricing - BEGIN -->
+    <div id="sectionSeven" class="subsection">
+        
+        <h2 class="sectionHeader" style="margin-bottom:30px; text-align: center;">Simple, All-Inclusive Pricing</h2>
+
+        <div id="homePricingBoxWrapper" class="row">
+            {% set i = 0 %}
+            {% for box in xml.section4.box %}
+                <div id="homePriceBox{{i}}" class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-4 offer1">
+                    <div class="text-center home-pricing-box pgrey">
+                        <div class="homePriceContent" style="position: relative;">
+                            <h5 style="margin:0px; font-size:1.1em;">{{box.title | trans}}</h5>
+                            <div class="sep1"><div class="spriteSeparator_h1"></div></div>
+                            {% if box.price == "${{priceAA}}" or box.price == "${{priceIA}}" %}<span>from</span>{% endif %}
+                            <div class="h1">{{box.price | trans | replace({'{{priceIA}}': price_Inspect_Low,'{{priceAA}}': price_Audit_Low })}}</div> {% if box.price == "${{priceAA}}" or box.price == "${{priceIA}}" %}  {%else%}<br />{%endif%}
+                            <p style="/*overflow: hidden;*/">{{box.content | trans}}</p>
+                            <br />
+                            <br />
+                            <div style="position: absolute; bottom: 0; width: calc(100% - 60px);">
+                                <p style="text-align: center;"><a href="/quality-control-pricing">{{xml.section4.learnMore | trans}}</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% set i = i + 1 %}
+            {% endfor %}
+        </div>
+        <br />
+        <center>
+        <a id="bookNowButton" href="/register" role="button"  class="btn btn-primary btn-big one-btn" style="width:345px;">Book Now</a>
+        </center>
+    </div>
+    <!-- Section 7 - Pricing - END -->
+{% endblock %}
+
+{% block footer %}
+    {% include('AIResponsiveBundle:Default:SubTemplates/footer.html.twig') %}
+{% endblock %}

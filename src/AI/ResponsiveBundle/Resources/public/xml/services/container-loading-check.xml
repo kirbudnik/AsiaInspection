@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>Cargo Inspection Services - Container Loading Check (CLC)</en>
+			<es>Servicios de Control de Calidad: Verificación de Carga de Contenedores | Asiainspection.com</es>
+			<ar>الإشراف والمراجعة علي عملية تحميل المنتجات في الحاويات (الكونتينر)</ar>
+			<fr>Contrôle Qualité : Contrôle de chargement, Container loading check | AsiaInspection.fr</fr>
+			<zh>质量检测服务：集装箱装箱前检验服务 | ChinaInspection.com</zh>
+			<de>Versandinspektion: Container-Check bei der Verladung</de>
+			<pt>Serviços de controle de qualidade: Verificação de carga do contêiner (CLC) | AsiaInspection.pt</pt>
+			<ru>Услуги контроля качества: контроль загрузки контейнера |AsiaInspection.ru</ru>
+			<tr>Kargo Muayene Hizmetleri - Konteyner Yükleme Kontrolü (CLC)</tr>
+			<it></it>
+		</pageTitle>
+		<pageDesc>
+			<en>Cargo inspection services (container loading check), ensure the final details of your product are correct and securely loaded. Learn more about our inspection services here.</en>
+			<es>AsiaInspection realiza Inspecciones de Control de Carga del Contenedor garantizando que el producto final coincide con sus especificaciones y se estiba de forma correcta antes del embarque.</es>
+			<ar>نوفر خدمة الفحص والمراجعة علي تحميل المنتجات المستوردة داخل الحاويات (الكونتينر)</ar>
+			<fr>AsiaInspection effectue des contrôles de conteneurs en cours de chargement dans les usines, et veille à ce que le produit final correspond correctement à votre cahier des charges.</fr>
+			<zh>AsiaInspection 提供集装箱装箱前检验服务，确保您的成品符合预期标准并安全装箱。</zh>
+			<ru> Asia Inspection предлагает контроль загрузки контейнера для производителей.</ru>
+			<de>Versandkontrollen sichern, dass Ihr Produkt korrekt und sicher verladen wird. Lernen Sie hier mehr über unsere Inspektionsservices.</de>
+			<tr>Kargo muayene hizmetleri (konteyner yükleme kontrolü) ürününüzün son detaylarının doğru olmasını ve emniyetle yüklenmelerini sağlar. Buradan muayene hizmetlerimiz hakkında daha fazla bilgi alın.</tr>
+			<it></it>
+		</pageDesc>
+	</pageMeta>
+
+	<en>
+		<title>Container Loading Check (CLC)</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">Container Load Check is the final step in the manufacturing process. Ensure the final details of your product are correct and actual ordered quantity are securely loaded onto your container before signing off and settling final payment.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[
+			<p><b>Why You Need a Container Load Checking: </b> Put an inspector onsite at the time of loading, to guarantee the product paid for is securely loaded.</p>
+			]]>
+		</subtext2>
+		<whyUsTitle>Why AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD all-inclusive per man-day]]></li>
+			<li><![CDATA[An inspector onsite within 48 hours<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> and same day reports<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Easy online scheduling with customizable checklists</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</en>
+
+	<zh>
+		<title>集装箱装箱检查 (CLC) </title>
+		<subtext>
+			<![CDATA[
+			<p>集装箱装箱检查是生产过程的最后一个步骤。在您签署最终付款之前，确保您的产品细节完全符合您的标准，并如数安全装箱待运。 </p>
+
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[
+			<p><b>为什么您需要集装箱装箱检查:</b> 检验员在装箱现场进行监督，以确保您支付的产品安全装箱。 </p>
+			]]>
+		</subtext2>
+		<whyUsTitle>为什么选择 AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[每人每天检验仅需 US${{priceIA}}]]></li>
+			<li><![CDATA[检验人员48小时内<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> 到达现场并当天出具检验报告<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>自定义检验标准，简易在线安排日程</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection保证将在48小时内派遣验货员到达工厂。 <br /><br />但是这个时间期限也有赖于工厂的准备工作是否完成，并且是否与AsiaInspection充分合作。此外，如果遭遇其它不可控因素如交通晚点或其他任何意外事故，该时间期限将不能保证。 ]]>
+		</hoverOne>
+		<hoverTwo>
+			正常情况下，80%的检验报告都将在检验当天出具。但是，报告是否能够当天出具也取决于工厂是否配合。
+		</hoverTwo>
+		<schedButton url="/register">咨询详情</schedButton>
+	</zh>
+
+	<fr>
+		<title> Contrôle de chargement conteneur</title>
+		<subtext>
+			<![CDATA[
+			<p>C'est l’étape finale du processus de contrôle qualité. Contrôlez les derniers détails de votre production en quantité et qualité et vérifiez la sécurité du chargement dans le conteneur avant expédition et paiement. </p>
+
+			]]>
+		</subtext>
+		<whyUsTitle>Pourquoi AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD tout compris par jour-homme.]]></li>
+			<li><![CDATA[Inspecteur sur site sous 48 heures<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> et rapport le jour même<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Commande en ligne facile et protocole d'inspection personnalisé.</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantit l’intervention d’un inspecteur sur site dans les 48 heures.<br /><br />Cette fenêtre d’intervention est toutefois sujette à la coopération de l’usine et à son niveau de préparation. La garantie ne couvre pas les facteurs indépendants de la volonté d’AsiaInspection, tels que les retards dans les transports, ou tout autre cas de force majeure. ]]>
+		</hoverOne>
+		<hoverTwo>
+			80% des rapports sont remis le jour même de l’inspection. La remise du rapport le jour même dépend de la coopération totale de l’usine.
+		</hoverTwo>
+		<schedButton url="/register">Commencer</schedButton>
+	</fr>
+
+	<ar>
+		<title>خدمة الإشراف علي عملية تحميل المنتجات في الحاويات</title>
+		<subtext>
+			<![CDATA[
+			<p>ضمان إن المنتجات الخاصة بك تامة الإنتاج (نوع المنتج و كميته) و محمله داخل الحاوية بشكل أمن قبل عملية الشحن و دفع الدفعة النهائية للمورد</p>
+			<p><b>لماذا تحتاج خدمة الإشراف علي عملية تحميل المنتجات في الحاويات؟ </b>قم بوضع مفتش ليشرف علي عملية تحميل البضاعة الخاصة بك لكي تتأكد من أن البضاعة التي تم دفع ثمنها محملة بشكل أمن و سليم.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>لماذا شركتنا هي الافضل في هذا المجال</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[ سعر الخدمة هو {{priceIE}} دولار امريكي شامل جميع التكاليف في اليوم للمفتش الواحد ]]></li>
+			<li><![CDATA[مفتشنا في الوقع المحدد في أقل من ٤٨ ساعة<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> و التقارير الخاصة بمنتجاتك في نفس اليوم<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>يمكنك تحديد ميعاد للخدمة بكل سهولة عن طريق موقعنا علي الإنترنت</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">إبدأ الحجز الأن</schedButton>
+	</ar>
+
+	<es>
+		<title>Control de Carga del Contenedor</title>
+		<subtext>
+			<![CDATA[
+			<p>La inspección del contenedor es la última fase de producción. Asegurese de que los detalles finales de su producto son correctos y que la cantidad solicitada es estibada de forma adecuada antes de realizar el último pago.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[
+			<p><b>¿Por qué necesita un control de carga del contenedor?</b>Desplace un inspector el día de carga del contenedor, para garantizar que el producto que ha encargado es estibado con seguridad.</p>
+			]]>
+		</subtext2>
+		<whyUsTitle>¿Por qué elegir AsiaInspection?</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[{{priceIA}} USD todo incluido por persona y día]]></li>
+			<li><![CDATA[Un inspector irá a su fábrica en menos de 48 horas<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> y usted recibirá el informe el mismo día<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Reserve online y cree su protocolo de inspección a medida.</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantiza disponer de un inspector para inspeccionar su fábrica en 48 horas.<br /><br />Este plazo, sin embargo, no garantiza que la fábrica está preparada o que colabore con AsiaInspection. Tampoco está garantizada nuestra presencia debida a factores externos fuera del control de AsiaInspection, como retrasos en el transporte o cualquier otro evento de fuerza mayor.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% de nuestros reportes de inspección son enviados el mismo día. Siempre dependiendo de la colaboración por parte de la fábrica durante nuesta visita.
+		</hoverTwo>
+		<schedButton url="/crear-cuenta">¡Empiece ya!</schedButton>
+	</es>
+
+	<ru>
+		<title>Проверка при загрузке контейнеров (ПЗК)</title>
+		<subtext>
+			<![CDATA[
+			<p>Проверка при загрузке контейнеров является финальной стадией производственного процесса. Убедитесь, что все детали Вашей продукции выполнены верно, и количество отправляемых товаров полностью соответствует заказу, перед пописанием документов и проведением платежей.</p>
+			<p><b>Для чего нужна проверка при загрузке контейнеров:</b> Инспектор будет присутствовать при загрузке, чтобы обеспечить безопасность отгрузки оплаченной продукции.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Почему Вам необходимы услуги именно AsiaInspection?</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[{{priceIA}} долларов США за все аспекты работы в человеко-день]]></li>
+			<li><![CDATA[Инспектор на месте в течение 48 часов<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> и отчет в тот же день<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Удобная форма заказа онлайн с настраиваемыми перечнями</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection гарантирует есть аудитор готов быть на заводе по аудиту в течение 48 часов. <br/> <br/> Этот срок не означает, однако, гарантируют готовность завода или сотрудничества с AsiaInspection. Он также не гарантирует от ограничивающих факторов вне контроля AsiaInspection, таких, как транспорт задержками, или любое событие рассматривается Закон Божий.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% всех аудиторских отчетов доставляется в тот же день. Отчеты доставляются в тот же день зависит от того, полное сотрудничество завода.
+		</hoverTwo>
+		<schedButton url="/register">Регистрация</schedButton>
+	</ru>
+
+	<de>
+		<title>Versandkontrolle (CLC)</title>
+		<subtext>
+			<![CDATA[
+			<p>Die Versandkontrolle ist der letzte Schritt in einer Reihe von Qualitätsprüfungen. Stellen Sie damit sicher, daß Sie die richtige Ware in der richtigen Menge erhalten, indem unser Inspektor den Prozess der Containerverladung begleitet.</p>
+			<p><b>Wozu Versandkontrolle: </b> Nutzen Sie unseren Inspektor als Garant dafür, daß Ihre Waren korrekt verladen werden.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Warum AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} pro Manntag all-inclusive]]></li>
+			<li><![CDATA[Vorbuchungsfrist von 48 Stunden<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> und Berichte am gleichen Tag<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Einfaches online-Buchungssystem und vielfältige Optionen zur Anpassung an Ihre Bedürfnisse</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInsepction garantiert, einen Kontrolleur oder einen Auditor bereitzustellen, der innerhalb von 48 Stunden in der Fabrik sein kann.<br /><br />Dieser Zeitrahmen garantiert jedoch in keinem Fall, dass die Fabrik vorbereitet ist oder mit AsiaInspection kooperieren wird. Die Garantie gilt auch nicht auf Faktoren, auf die AsiaInspection keinen Einfluss hat, wie zum Beispiel Transportverzögerungen oder höhere Gewalt.]]>
+		</hoverOne>
+		<hoverTwo>
+			80 % aller Prüfberichte werden noch am selben Tag geliefert. Berichte, die am gleichen Tag geliefert werden sollen, erfordern die  volle Unterstützung der Fabrik.
+		</hoverTwo>
+		<schedButton url="/register">Erste Schritte</schedButton>
+	</de>
+
+	<it>
+		<title>Controllo Caricamento Container (CLC)</title>
+		<subtext>
+			<![CDATA[
+			<p>Il Controllo del Carico del Container costituisce la fase finale del processo di produzione. Assicurati che i dettagli finali del tuo prodotto siano corretti e che i quantitativi effettivamente ordinati siano caricati in modo sicuro nel tuo container prima di autorizzare e saldare il pagamento finale.</p>
+			<p><b>Why You Need a Container Load Checking: </b> Put an inspector onsite at the time of loading, to guarantee the product paid for is securely loaded.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Perché AsiaInspection:</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD tutto compreso al giorno per ispettore.]]></li>
+			<li><![CDATA[Possibilità di avere un ispettore in situ in 48 ore<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> e di ricevere il report lo stesso giorno<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Easy online scheduling with customizable checklists</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantisce la disponibilità di un ispettore pronto per visitare la fabbrica in 48 ore. <br /><br />Questo lasso di tempo, tuttavia, non assicura che la fabbrica sia pronta o cooperi con AsiaInspection. Né assicura ogni eventuale ritardo dovuto a fattori esterni, come ritardi nei trasporti, disastri naturali, ecc...]]>
+		</hoverOne>
+		<hoverTwo>
+			L'80% dei report sono consegnati il giorno stesso. La consegna di un report nello stesso giorno è condizionata da una completa collaborazione da parte della fabbrica.
+		</hoverTwo>
+		<schedButton url="/register">Inizia ora!</schedButton>
+	</it>
+
+	<pt>
+		<title>Verificação de carga do contêiner</title>
+		<subtext>
+			<![CDATA[
+			<p>A Verificação de carregamento de contêiner corresponde à etapa final do processo de fabricação. Garanta que os detalhes finais do seu produto estejam corretos e que a quantidade real solicitada seja seguramente carregada no contêiner antes de autorizar e efetuar o pagamento final.</p>
+			<p><b>Por que você precisa de verificação de carregamento de contêiner?</b> Coloque um inspetor no local da área de carregamento da fábrica, para garantir que não haja erros relacionados ao tamanho do carregamento, embalagens e produtos danificados ou diversos outros enganos.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Por que usar a AsiaInspection?</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD com tudo incluso por dia de trabalho]]></li>
+			<li><![CDATA[Um inspetor no local em 48 horas<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> and same day reports<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Agendamento fácil com listas de verificação personalizáveis</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[A AsiaInspection garante ter um inspetor ou auditor pronto para se apresentar na fábrica num prazo de 48 horas.<br/><br/> Este prazo não garante, no entanto, a preparação ou cooperação da fábrica com a AsiaInspection. Também não oferece garantias contra fatores limitadores fora do controlo da AsiaInspection, como atrasos de viagem, ou qualquer evento considerado de força maior.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% de todos os relatórios de auditoria são entregues no mesmo dia. Os relatórios entregues no mesmo dia dependem da total cooperação da fábrica.
+		</hoverTwo>
+		<schedButton url="/register">Introdução</schedButton>
+	</pt>
+
+	<tr>
+		<title>Konteyner Yükleme Kontrolü (CLC)</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">Konteyner Yükleme Kontrolü imalat sürecinin son adımıdır. Onaylama ve son ödemeyi yapmadan önce, ürününüzün son detaylarının doğru olmasını ve sipariş ettiğiniz mevcut miktarın emniyetle konteynere yüklenmesini sağlar.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[
+			<p><b>Why You Need a Container Load Checking: </b> Put an inspector onsite at the time of loading, to guarantee the product paid for is securely loaded.</p>
+			]]>
+		</subtext2>
+		<whyUsTitle>Neden AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD Her şey dahil fiyatlandırma]]></li>
+			<li><![CDATA[48 seat içinde sahada olan denetçi<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> Aynı gun denetim raporları[2]<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Kolay çevrimiçi hizmet düzenlemeleri</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</tr>
+
+
+</document>

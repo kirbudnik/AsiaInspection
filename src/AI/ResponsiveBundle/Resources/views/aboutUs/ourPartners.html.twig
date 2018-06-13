@@ -1,0 +1,47 @@
+{% extends 'AIResponsiveBundle:aboutUs:whoWeAreBase.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pagename %}Partners{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+{% block bigTitle %} {{xml.title}} {% endblock %}
+{% block smallText %}{{xml.underTitle}}{% endblock %}
+
+{% block whoWeAreText %}
+    {% set i = 0 %}
+    {% for partner in xml.partner %}
+        <div class="col-xs-12 padding15 paddingLeftZero" >
+            <div style="display: inline-block;margin-bottom:10px;" class="{{logo[i]}}"></div><br />
+            <p style="margin: 0;padding:0;">{{partner|raw}}</p>
+            <div style="clear:both;"></div>
+            {% if link[i] != "" %}<br /><a target="_blank" href="{{link[i]}}">{{xml.linkText}}</a>{% endif %}
+            {% set i = i+1 %}
+        </div>
+        <div style="clear:both;"></div>
+        {% if loop.index != 9 %}<hr class="hrgrey" style="width:100%;">{% endif %}
+    {% endfor %}
+{% endblock %}
+
+{% block offerbox1 %}
+    <div class="sidebarTitlebar">
+        <h5>{{xml.partnering}}</h5>
+    </div>
+    <div class="sidebarContentBox">
+        <p style="padding-top:10px;">{{xml.devpartnership}}</p>
+        <p>{{xml.reachout}}</p>
+        <div class="text-center" style="margin-top:20px;">
+            <a href="mailto:partners@asiainspection.com?subject=Partnership%20Inquiry" role="button" class="btn btn-primary btn-big">{% trans %}Contact Us{% endtrans %}</a>
+        </div>
+        <hr />
+        <p>{{xml.easysetup}}</p>
+    </div>
+{% endblock %}
+
+{% block offerbox2 %}
+    <div class="sidebarTitlebar">
+        <h5>{% trans %}Career Opportunities{% endtrans %}</h5>
+    </div>
+    <div class="sidebarContentBox">
+        <img src="{{assetsDomain}}/images/responsive/careerOps.png" style="width:100%;">
+        <p class="paddinglr15" style="padding-top:15px;"><a href="/career-opportunities">{% trans %}See Opportunities{% endtrans %}</a></p>
+    </div>
+{% endblock %}

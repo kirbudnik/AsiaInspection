@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+    <pageMeta>
+        <pageTitle>
+            <en>AsiaInspection Services: Quality Control Pricing | AsiaInspection</en>
+            <es>Controles de Calidad y Auditorias de Fabrica | Asiainspection.com</es>
+            <ar>آسعار خدماتنا</ar>
+            <fr>Contrôle qualité, inspection de produit et audit de fournisseur aux tarifs tout compris - A propos d'AsiaInspection | AsiaInspection.fr</fr>
+            <zh>关于 AsiaInspection - 质量控制服务，价格全包 | ChinaInspection.com</zh>
+            <de>Qualitätskontrolle Kosten | AsiaInspection</de>
+            <it>Info su AsiaInspection - Controllo Qualità Prezzo Tutto-Incluso | AsiaInspection.it</it>
+            <ru>Расценки на контроль качества |AsiaInspection</ru>
+            <tr>Kalite Kontrol Fiyatlandırması | AsiaInspection</tr>
+            <pt>Preços de Controle de Qualidade | AsiaInspection</pt>
+        </pageTitle>
+        <pageDesc>
+            <es>Precio por Inspecciones de producto y auditorias. Asia Inspection realiza Controles de Calidad y Auditorias de fabrica para todos los importadores del mundo.</es>
+            <ar>تعرف علي اسعار خدماتنا، جميع الاسعار شاملة المصاريف والنفاقات</ar>
+            <en>At AsiaInspection we provide simple, all inclusive pricing for our quality control services. View our pricing for product inspections, supplier audit programs, and laboratory testing.</en>
+            <fr>Prix ​​pour les inspections et audits de production. AsiaInspection réalise des contrôles de qualité et des audits d'usine pour les importateurs du monde entier.</fr>
+            <ru>Расценки на инспекции продукции и аудиты.</ru>
+            <de>Preise für Produktprüfungen und Audits.</de>
+            <tr>AsiaInspection'da, kalite kontrol hizmetlerimiz için basit, her şey dahil bir fiyatlandırma veriyoruz. Ürün muayeneleri, tedarikçi denetim programları ve laboratuvar testleri için fiyatlarımıza bakın.</tr>
+            <pt>Na AsiaInspection fornecemos tarifas simples com tudo incluído para os nossos serviços de controlo de qualidade. Veja os nossas tarifas para as inspeções de produto, programas  de auditoria do fornecedor e testes de laboratório.</pt>
+        </pageDesc>
+    </pageMeta>
+
+    <en>
+        <title>Simple, All-Inclusive Pricing</title>
+        <subtext> <![CDATA[ AsiaInspection provides simple all-inclusive pricing. ]]></subtext>
+        <priceTitle>Prices</priceTitle>
+        <manday>Per Man Day</manday>
+        <inspectSouthTitle><![CDATA[China, India, Cambodia, Bangladesh, Vietnam, Thailand, Africa and Latin America]]></inspectSouthTitle>
+        <inspectNorthTitle>Europe, Greater Asia and Brazil</inspectNorthTitle>
+        <inspectTitle>Product Inspections</inspectTitle>
+        <inspectSouthPrice><![CDATA[${{priceIA}} USD]]></inspectSouthPrice>
+        <inspectNorthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIE'></span> USD]]></inspectNorthPrice>
+        <auditTitle>ETHICAL AND MANUFACTURING AUDIT</auditTitle>
+        <auditPrice><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD]]></auditPrice>
+        <auditPriceAsia><![CDATA[$<span style='font-size:inherit;' class='priceAA'></span> USD]]></auditPriceAsia>
+        <auditPriceEurope><![CDATA[$<span style='font-size:inherit;' class='priceAE'></span> USD]]></auditPriceEurope>
+        <testTitle>Laboratory Testing</testTitle>
+        <testPrice>Receive instant pricing online</testPrice>
+        <pricingCoverage>
+            <title>Our all-inclusive pricing covers</title>
+            <li>Inspector transportation, accommodations, overtime, weekend and holiday inspections.</li>
+            <li><![CDATA[Your report online the same day as inspection.<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup>]]></li>
+            <li>Personalized checklists with hundreds of predefined protocols available online.</li>
+            <li>An inspection certificate issued to your supplier, upon your shipment approval.</li>
+        </pricingCoverage>
+        <optionalServices>
+            <title>Optional services</title>
+            <li><![CDATA[Sample collection during inspection: <b>$30 USD</b>.]]></li>
+            <li><![CDATA[Additional report within the same man-day:&nbsp;<b>$<span style='font-size:inherit;' class='priceRP'></span> USD</b>.]]></li>
+        </optionalServices>
+        <payments>
+            <title>Payments</title>
+            <text><![CDATA[Services are usually paid online at the time of booking. If you choose to pay by monthly invoice, after the service has been performed, an additional 5% charge will be applied to the order.<br><br>For complete payment details, please see our <a href="/conditions-of-service">Terms and Conditions</a>.]]></text>
+        </payments>
+        <hoverOne>
+            <![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+        </hoverOne>
+        <offerbox1>
+            <title>Product Inspections</title>
+            <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in China, India, Cambodia, Bangladesh, Vietnam, Thailand, Africa and Latin America</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+            <order>BOOK AN INSPECTION</order>
+            <learnMore>Learn More</learnMore>
+        </offerbox1>
+        <offerbox1europe>
+            <title>Product Inspection</title>
+            <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in Europe, Greater Asia and Brazil</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+            <order>BOOK AN INSPECTION</order>
+            <learnMore>Learn More</learnMore>
+        </offerbox1europe>
+        <offerbox2>
+            <title>Supplier Audit Programs</title>
+            <text><![CDATA[<p>An auditor to your factory within 48 hours</p><p>Assess your supplier's faclities and organization according to ISO 9001 or U.S. C-TPAT standards</p><p>Confirm social compliance of your suppliers with SA 8000 audits and ethical trading with Sedex Ethical Trade Audits (SMETA)</p>]]></text>
+            <order>BOOK AN AUDIT</order>
+            <learnMore>Learn More</learnMore>
+        </offerbox2>
+        <offerbox3>
+            <title>Laboratory Testing</title>
+            <text><![CDATA[<p>Ensure compilance with safety standards: REACH RoHS, EN71, CPSIA...</p><p>No technical expertise necessary, our search engine provides all tests for your product compliance</p><p>Pricing instantly available starting from $10 USD per component</p>]]></text>
+            <order>BOOK A TEST</order>
+            <learnMore>Learn More</learnMore>
+        </offerbox3>
+        <pricingCover>
+            <title1>Inspections &amp; Audits Pricing includes:</title1>
+            <list1><![CDATA[<ul><li>Auditor / Inspector transportation, meal and accommodation expenses.</li><li>Overtime, weekend and holiday services.</li></ul>]]></list1>
+            <title2>Optional services:</title2>
+            <list2><![CDATA[<ul class="sl"><li>Sample collection during inspection: <b>$30 USD</b>.</li><li>Additional report within the same man-day:&nbsp;<b>$69 USD</b>.</li></ul>]]></list2>
+            <title3>Invoicing &amp; Payment:</title3>
+            <pgph><![CDATA[<ul><li>Online payment available upon booking.</li><li>Pay monthly after service performance with a 5% surcharge.</li></ul><br /><p>For more details please read our <a href="/conditions-of-service">terms and conditions of service</a>.</p>]]></pgph>
+        </pricingCover>
+    </en>
+
+    <es>
+            <title>Tarifas simples, todo incluido</title>
+            <subtext> <![CDATA[ AsiaInspection ofrece tarifas simples con todo incluido. ]]></subtext>
+            <priceTitle><![CDATA[Tarifas por día de trabajo]]></priceTitle>
+            <inspectSouthTitle><![CDATA[China, India, Camboya,<br />Bangladesh, Vietnam,<br />Tailandia, África<br />y América del Sur]]></inspectSouthTitle>
+            <inspectNorthTitle>Europa y Brasil y Resto de Asia</inspectNorthTitle>
+            <inspectTitle>Inspección de producto</inspectTitle>
+            <inspectSouthPrice><![CDATA[<span style='font-size:inherit;' class='priceIA'></span> USD]]></inspectSouthPrice>
+            <inspectNorthPrice><![CDATA[<span style='font-size:inherit;' class='priceIE'></span> USD]]></inspectNorthPrice>
+            <auditTitle>Auditoría de Fábrica y Social</auditTitle>
+            <auditPrice><![CDATA[<span style='font-size:inherit;' class='priceAT'></span> USD]]></auditPrice>
+            <auditPriceAsia><![CDATA[<span style='font-size:inherit;' class='priceAA'></span> USD]]></auditPriceAsia>
+            <auditPriceEurope><![CDATA[<span style='font-size:inherit;' class='priceAE'></span> USD]]></auditPriceEurope>
+            <testTitle>Pruebas de Laboratorio</testTitle>
+            <testPrice>Reciba el presupuesto al instante.</testPrice>
+            <pricingCoverage>
+                <title>Nuestras tarifas todo incluido cubren:</title>
+                <li>Transporte, alojamiento y las horas extra del inspector, así como las inspeccionar en fin de semana, festivos o Año Chino.</li>
+                <li><![CDATA[Recibir el reporte el mismo día en la web, por email, iPhone, IPAD, Android o Blackberry.<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup>]]></li>
+                <li>Acceso a nuestras checklist personalizadas con protocolos de inspección por producto.</li>
+                <li>Uso de nuestro Test de Laboratorio Online para averiguar los Test que requiere su producto según la legislación gubernamental de destino.</li>
+                <li>Emisión del certificado de inspección para su proveedor tras su aprobación del embarque o envio aéreo. Necesario para el cobro de la carta de crédito (L/C).</li>
+            </pricingCoverage>
+            <optionalServices>
+                <title>Servicios Opcionales</title>
+                <li><![CDATA[Recogida de muestra durante inspección: <b>30 USD</b>.]]></li>
+                <li><![CDATA[Reporte de producto adicional con el mismo inspector:&nbsp;<b><span style='font-size:inherit;' class='priceRP'></span> USD</b>.]]></li>
+            </optionalServices>
+            <payments>
+                <title>Facturación</title>
+                <text><![CDATA[
+                    <p>La Inspección, Auditoria o Test de Laboratorio se abonan normalmente por anticipado a través de la Web (Paypal o Tarjeta de Crédito) en el momento de terminar la reserva pudiendo solicitar una <strong>proforma</strong> del mismo.</p>
+                    <p>Si decide pagar después de realizar el servicio, se aplicará un cargo adicional del 5%. La factura será enviada a primeros del mes siguiente de realizar el servicio y también podrá pagar via Web (PayPal o Tarjeta de Crédito) o a través de <strong>Transferencia Bancaria (T/T).</strong></p>
+                    <p>Para obtener más información relativa al pago, consulte nuestras <a href="/condiciones">condiciones de uso</a>.</p>
+                    ]]></text>
+                </payments>
+                <hoverOne>
+                    <![CDATA[AsiaInspection garantiza disponer de un inspector disponible para enviar a la fábrica en menos de 48 horas.<br /><br />Este plazo, sin embargo, no garantiza que la fábrica está preparada o que colabore con AsiaInspection. Tampoco está garantizada nuestra presencia debida a factores externos fuera del control de AsiaInspection, como retrasos en el transporte o cualquier otro evento de fuerza mayor.]]>
+                </hoverOne>
+          <offerbox1>
+            <title>Inspección de productos</title>
+            <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in China, India, Cambodia, Bangladesh, Vietnam, Thailand, Africa and Latin America</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+            <order>RESERVAR INSPECCIÓN</order>
+            <learnMore>Más información</learnMore>
+        </offerbox1>
+        <offerbox1europe>
+            <title>Product Inspection</title>
+            <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in Europe, Greater Asia and Brazil</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+            <order>RESERVAR INSPECCIÓN</order>
+            <learnMore>Más información</learnMore>
+        </offerbox1europe>
+        <offerbox2>
+            <title>Auditoría de proveedores</title>
+            <text><![CDATA[<p>An auditor to your factory within 48 hours</p><p>Assess your supplier's faclities and organization according to ISO 9001 or U.S. C-TPAT standards</p><p>Confirm social compliance of your suppliers with SA 8000 audits and ethical trading with Sedex Ethical Trade Audits (SMETA)</p>]]></text>
+            <order>RESERVAR AUDITORÍA</order>
+            <learnMore>Más información</learnMore>
+        </offerbox2>
+        <offerbox3>
+            <title>Pruebas de laboratorio</title>
+            <text><![CDATA[<p>Ensure compilance with safety standards: REACH RoHS, EN71, CPSIA...</p><p>No technical expertise necessary, our search engine provides all tests for your product compliance</p><p>Pricing instantly available starting from $10 USD per component</p>]]></text>
+            <order>RESERVAR PRUEBA</order>
+            <learnMore>Más información</learnMore>
+        </offerbox3>
+        <pricingCover>
+            <title1>Las tarifas de inspecciones y auditorías incluyen:</title1>
+            <list1><![CDATA[<ul><li>Transporte, comida y gastos de alojamiento del auditor/inspector.</li><li>Horas extras, servicios en fin de semana y vacaciones.</li></ul>]]></list1>
+            <title2>Servicios opcionales:</title2>
+            <list2><![CDATA[<ul class="sl"><li>Recogida de muestras durante la inspección: <b>$30 USD</b>.</li><li>Informe adicional de la misma persona-día:&nbsp;<b>$69 USD</b>.</li></ul>]]></list2>
+            <title3>Facturación y pago:</title3>
+            <pgph><![CDATA[<ul><li>Pago online disponible durante la reserva.</li><li>Pago mensual después de la realización del servicio con un recargo del 5%.</li></ul><br /><p>Por favor, para más detalles lea nuestros <a href="/conditions-of-service">términos y condiciones de servicio</a>.</p>]]></pgph>
+        </pricingCover>      
+    </es>
+
+    <zh>
+        <title>简易全包价</title>
+        <subtext>
+            <![CDATA[
+            AsiaInspection 在整个亚洲地区的产品检验及工厂审核都实行简易<b>全包价</b>。
+            ]]>
+        </subtext>
+        <manday>每人每天</manday>
+        <priceTitle><![CDATA[价格每人每天]]></priceTitle>
+        <inspectSouthTitle><![CDATA[中国， 印度， 柬埔寨, 孟加拉国， 越南， 泰国， 非洲和拉丁美洲]]></inspectSouthTitle>
+        <inspectNorthTitle>欧洲和巴西和亚洲其他地区</inspectNorthTitle>
+        <inspectTitle>产品检验</inspectTitle>
+        <inspectSouthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIA'></span> USD]]></inspectSouthPrice>
+        <inspectNorthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIE'></span> USD]]></inspectNorthPrice>
+        <auditTitle>工厂审核</auditTitle>
+        <auditPrice><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD]]></auditPrice>
+        <auditPriceAsia><![CDATA[$<span style='font-size:inherit;' class='priceAA'></span> USD]]></auditPriceAsia>
+        <auditPriceEurope><![CDATA[$<span style='font-size:inherit;' class='priceAE'></span> USD]]></auditPriceEurope>
+        <testTitle>实验室测试</testTitle>
+        <testPrice>在线即时获取报价</testPrice>
+        <pricingCoverage>
+            <title>AI亚检全包价格涵盖:</title>
+            <li>检测员的交通费、住宿费、加班费、周末和假期检测工作的费用</li>
+            <li><![CDATA[检测当天可在线获取您的报告。<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup>]]></li>
+            <li>可在线获取个性化列表，包含数百个预定义的协议</li>
+            <li>经您同意后，向您的供应商发放检测证书</li>
+        </pricingCoverage>
+        <optionalServices>
+            <title>自选服务</title>
+            <li><![CDATA[检测过程中的样品收集: <b>$30 美元</b>]]></li>
+            <li><![CDATA[检测当天获取附加报告：&nbsp;<b>$<span style='font-size:inherit;' class='priceRP'></span> 美元</b>]]></li>
+        </optionalServices>
+        <payments>
+            <title>付款</title>
+            <text><![CDATA[服务费用通常在预定时在线支付。若选择在服务结束后以月度发票的形式支付，每单需加收5%的费用。<br><br>若需全面了解付款细则，请参阅我们的<a href="/conditions-of-service">条款及条件</a>。]]></text>
+        </payments>
+        <hoverOne>
+            <![CDATA[AsiaInspection保证将在48小时内派遣验货员到达工厂。<br /><br />但是这个时间期限也有赖于工厂的准备工作是否完成，并且是否与AsiaInspection充分合作。此外，如果遭遇其它不可控因素如交通晚点或其他任何意外事故，该时间期限将不能保证。]]>
+        </hoverOne>
+        <offerbox1>
+            <title>产品检验</title>
+            <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in China, India, Cambodia, Bangladesh, Vietnam, Thailand, Africa and Latin America</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+            <order>预定检验</order>
+            <learnMore>了解更多</learnMore>
+        </offerbox1>
+        <offerbox1europe>
+            <title>产品检验</title>
+            <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in Europe, Greater Asia and Brazil</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+            <order>预定检验</order>
+            <learnMore>了解更多</learnMore>
+        </offerbox1europe>
+        <offerbox2>
+            <title>供应商审核项目</title>
+            <text><![CDATA[<p>An auditor to your factory within 48 hours</p><p>Assess your supplier's faclities and organization according to ISO 9001 or U.S. C-TPAT standards</p><p>Confirm social compliance of your suppliers with SA 8000 audits and ethical trading with Sedex Ethical Trade Audits (SMETA)</p>]]></text>
+            <order>预定审核</order>
+            <learnMore>了解更多</learnMore>
+        </offerbox2>
+        <offerbox3>
+            <title>实验室测试</title>
+            <text><![CDATA[<p>Ensure compilance with safety standards: REACH RoHS, EN71, CPSIA...</p><p>No technical expertise necessary, our search engine provides all tests for your product compliance</p><p>Pricing instantly available starting from $10 USD per component</p>]]></text>
+            <order>获取即时价格</order>
+            <learnMore>了解更多</learnMore>
+        </offerbox3>
+        <pricingCover>
+            <title1>我们的全包价格涵盖:</title1>
+            <list1><![CDATA[<ul><li>检验员的交通费、住宿费、加班费、周末和节假日的检验工作。</li><li>检验当天可以在线获取您的报告。<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup></li><li>个性化列表中包含数百个预定义的协议，可以在线获取。</li><li>在您同意发货后，向您的供应商发放检验证书。</li></ul>]]></list1>
+            <title2>可选服务:</title2>
+            <list2><![CDATA[<ul class="sl"><li>检验过程中的样品采集: <b>$30 美元</b>.</li><li>同一个工作日内的附加报告:&nbsp;<b>$69 美元</b>.</li></ul>]]></list2>
+            <title3>付款</title3>
+            <pgph><![CDATA[<p>  通常应当在预订时，在线支付服务费用。如果您选择按月支付发票，那么在服务完成以后，订单中将增加额外5%的费用。<br><br>若需了解完整的付款详情，请查阅我们的 <a href="/conditions-of-service">条款与条件</a>。    </p>]]></pgph>
+        </pricingCover>
+    </zh>
+
+    <fr>
+        <title>Tarifs simples et tout compris</title>
+        <subtext>
+            <![CDATA[
+            AsiaInspection propose des <strong>tarifs simples et tout compris</strong> pour ses inspections de produits et ses audits d’usine. Quel que soit le lieu où sera effectué le contrôle, nos clients bénéficient d’une grille de prix unique. Les coûts de transport, de repas, d’hébergement et les heures supplémentaires ne sont pas facturés.
+            ]]>
+        </subtext>
+        <priceTitle><![CDATA[Prix par jour-homme]]></priceTitle>
+        <inspectSouthTitle><![CDATA[Chine, Bangladesh, Cambodge, Inde, Thaïlande, Vietnam, Afrique et l'Amérique latine]]></inspectSouthTitle>
+        <inspectNorthTitle>Europe, Brésil et autres pays d'Asie</inspectNorthTitle>
+        <inspectTitle>Inspection de produits</inspectTitle>
+        <inspectSouthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIA'></span> USD]]></inspectSouthPrice>
+        <inspectNorthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIE'></span> USD]]></inspectNorthPrice>
+        <auditTitle>Audit d'Usine / Audit Social</auditTitle>
+        <auditPrice><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD]]></auditPrice>
+        <auditPriceAsia><![CDATA[$<span style='font-size:inherit;' class='priceAA'></span> USD]]></auditPriceAsia>
+        <auditPriceEurope><![CDATA[$<span style='font-size:inherit;' class='priceAE'></span> USD]]></auditPriceEurope>
+        <testTitle>Test en Laboratoire</testTitle>
+        <testPrice>Utilisez notre Centre Lab Test en ligne : entrez votre type de produit et le pays de destination, et recevez un devis instantanément.</testPrice>
+        <offerbox1>
+            <title>Inspection Produit</title>
+            <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in China, India, Cambodia, Bangladesh, Vietnam, Thailand, Africa and Latin America</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+            <order>Réserver un Inspection</order>
+            <learnMore>En savoir plus</learnMore>
+        </offerbox1>
+        <offerbox1europe>
+            <title>Inspection Produit</title>
+            <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in Europe, Greater Asia and Brazil</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+            <order>Réserver une inspection</order>
+            <learnMore>En savoir plus</learnMore>
+        </offerbox1europe>
+        <offerbox2>
+            <title>Programmes d'Audit</title>
+            <text><![CDATA[<p>An auditor to your factory within 48 hours</p><p>Assess your supplier's faclities and organization according to ISO 9001 or U.S. C-TPAT standards</p><p>Confirm social compliance of your suppliers with SA 8000 audits and ethical trading with Sedex Ethical Trade Audits (SMETA)</p>]]></text>
+            <order>Réserver un audit</order>
+            <learnMore>En savoir plus</learnMore>
+        </offerbox2>
+        <offerbox3>
+            <title>Test de laboratoire</title>
+            <text><![CDATA[<p>Ensure compilance with safety standards: REACH RoHS, EN71, CPSIA...</p><p>No technical expertise necessary, our search engine provides all tests for your product compliance</p><p>Pricing instantly available starting from $10 USD per component</p>]]></text>
+            <order>Obtenir un devis</order>
+            <learnMore>En savoir plus</learnMore>
+        </offerbox3>
+        <pricingCover>
+            <title1>Les tarifs d’inspections et audits couvrent :</title1>
+            <list1><![CDATA[<ul><li>Le transport de l’auditeur / inspecteur et ses dépenses</li><li>Les services exécutés en heures supplémentaires, weekend ou vacances</li></ul>]]></list1>
+            <title2>Services facultatifs :</title2>
+            <list2><![CDATA[<ul class="sl"><li>Collecte d'échantillons au cours de l'inspection : <b>$30 USD</b>.</li><li>Rapport supplémentaire le même jour ouvré :&nbsp;<b>$69 USD</b>.</li></ul>]]></list2>
+            <title3>Facturation et paiement :</title3>
+            <pgph><![CDATA[
+                <ul><li>Paiement en ligne possible lors de la réservation</li><li>Paiement mensuel après exécution du service (5 % de frais)</li></ul><br />
+                <p>Pour plus de détails, veuillez consulter nos <a href="/conditions-of-service">conditions générales</a>.</p>]]></pgph>
+            </pricingCover>
+            <pricingCoverage>
+                <title>Nos tarifs tout compris incluent</title>
+                <li><![CDATA[La réception de votre rapport d’inspection en ligne le jour même du contrôle qualité. <sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup>]]></li>
+                <li>La personnalisation de votre check-list (liste d'instructions de contrôle), en utilisant des centaines de protocoles d’inspection existants mis à disposition en ligne.</li>
+                <li>L’assurance que vos produits seront conformes aux réglementations grâce à notre interface en ligne de sélection de tests en laboratoire.</li>
+                <li>L'approbation / le rejet en ligne de la cargaison et l'envoi du certificat d'inspection à votre fournisseur.</li>
+                <li>Les heures supplémentaires de l’inspecteur (vacances et week-ends inclus).</li>
+            </pricingCoverage>
+            <optionalServices>
+                <title>Services additionnels</title>
+                <li><![CDATA[Prise d'échantillons lors de l'inspection:&nbsp;<b>$30 USD</b>.]]></li>
+                <li><![CDATA[Rapport additionnel le même jour-homme:&nbsp;<b>$<span style='font-size:inherit;' class='priceRP'></span> USD</b>.]]></li>
+            </optionalServices>
+            <payments>
+                <title>Facturation et paiement</title>
+                <text><![CDATA[<p>Lorsqu’un paiement est effectué après l’exécution du service (inspections et audits), ou plus de 24 heures après la commande (tests en laboratoire), une majoration de 5% pour règlement tardif s’applique au montant de la commande. Les inspections de produits, audits et tests en laboratoire sont facturés mensuellement au début du mois suivant.</p><p>Pour plus de détails sur le paiement, veuillez consulter nos <a href="/conditions-fr">conditions générales de vente et d’utilisation</a>.</p>]]></text>
+            </payments>
+            <hoverOne>
+                <![CDATA[AsiaInspection garantit l’intervention d’un inspecteur sur site dans les 48 heures.<br/><br/>Cette fenêtre d’intervention est toutefois sujette à la coopération de l’usine et à son niveau de préparation. La présente garantie ne couvre pas les facteurs indépendants de la volonté d’AsiaInspection, tels que les retards dans les transports, ou tout autre cas de force majeure.]]>
+            </hoverOne>
+        </fr>
+
+        <de>
+            <title>Einfache Komplettpreise</title>
+            <subtext>
+                <![CDATA[
+                <p>AsiaInspection berechnet einfache Komplettpreise für Wareninspektionen und Fabrikaudits im gesamten asiatischen Raum.</p>
+                <p>Sollte eine Inspektion länger als einen Manntag dauern, werden Sie während des Online-Buchungsvorgangs darüber in Kenntnis gesetzt. In Werken mit über 500 Mitarbeitern dauern Fabrikaudits zwei Manntage.</p>
+                ]]>
+            </subtext>
+            <priceTitle><![CDATA[Preise pro Manntag]]></priceTitle>
+            <inspectSouthTitle><![CDATA[China, Indien, Kambodscha,<br />Bangladesch, Vietnam,<br />Thailand, Afrika<br />und Lateinamerika]]></inspectSouthTitle>
+            <inspectNorthTitle>Europa und Brasilien und Asiatischer Raum</inspectNorthTitle>
+            <inspectTitle>Wareninspektionen</inspectTitle>
+            <inspectSouthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIA'></span>]]></inspectSouthPrice>
+            <inspectNorthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIE'></span>]]></inspectNorthPrice>
+            <auditTitle>Fabrikaudits</auditTitle>
+            <auditPrice><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span>]]></auditPrice>
+            <auditPriceAsia><![CDATA[$<span style='font-size:inherit;' class='priceAA'></span>]]></auditPriceAsia>
+            <auditPriceEurope><![CDATA[$<span style='font-size:inherit;' class='priceAE'></span>]]></auditPriceEurope>
+            <testTitle>Labortests </testTitle>
+            <testPrice>Geben Sie in unserem Online-Labortestcenter Ihren Produkttyp und Ihr Bestimmungsland ein. Sie erhalten umgehend einen Kostenvoranschlag.</testPrice>
+            <pricingCoverage>
+                <title>Unser Komplettpreis umfasst</title>
+                <li>Anreise, Übernachtungen, Überstunden, Termine an Wochenenden oder Feiertagen.</li>
+                <li><![CDATA[Online-Bericht am Tag der Inspektion.<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup>]]></li>
+                <li>Kundenspezifische Prüflisten mit Hunderten von Protokollvorlagen, die online zur Verfügung stehen.</li>
+                <li>Zugriff auf unser Online-Labortestcenter, damit die Einhaltung gesetzlicher Anforderungen gewährleistet ist.</li>
+                <li>Ausstellung eines Prüfzertifikats an Ihren Zulieferer bei Versandgenehmigung.</li>
+            </pricingCoverage>
+            <optionalServices>
+                <title>Optionale Dienstleistungen</title>
+                <li><![CDATA[Mitnahme einer Stichprobe während der Inspektion: <b>$30</b>.]]></li>
+                <li><![CDATA[Zusätzlicher Bericht innerhalb des Tages an dem unser Mitarbeiter vor Ort ist:&nbsp;<b>$<span style='font-size:inherit;' class='priceRP'></span></b>.]]></li>
+            </optionalServices>
+            <payments>
+                <title>Zahlungen</title>
+                <text><![CDATA[Die Zahlung für alle Inspektionen, Audits und Labortests erfolgt in der Regel im Voraus bei der Buchung über das Internet. Wenn Sie eine Monatsrechnung nach Bereitstellung des Diensts bevorzugen, wird eine zusätzliche Gebühr von 5 % erhoben.<br><br>Die vollständigen Zahlungsdetails entnehmen Sie unseren <a href="/conditions-of-service">Allgemeinen Geschäftsbedingungen</a>.]]></text>
+            </payments>
+            <hoverOne><![CDATA[80% aller Inspektionsberichte werden am selben Tag zugestellt, soweit wir die volle Kooperation der Fabrik erhalten.]]></hoverOne>
+            <offerbox1>
+                <title>Produktinspektion</title>
+                <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in China, India, Cambodia, Bangladesh, Vietnam, Thailand, Africa and Latin America</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+                <order>INSPEKTION BUCHEN</order>
+                <learnMore>Weitere Infos</learnMore>
+            </offerbox1>
+            <offerbox1europe>
+                <title>Produktprüfungen</title>
+                <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in Europe, Greater Asia and Brazil</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+                <order>INSPEKTION BUCHEN</order>
+                <learnMore>Weitere Infos</learnMore>
+            </offerbox1europe>
+            <offerbox2>
+                <title>Lieferanten-Überprüfungsprogramme</title>
+                <text><![CDATA[<p>An auditor to your factory within 48 hours</p><p>Assess your supplier's faclities and organization according to ISO 9001 or U.S. C-TPAT standards</p><p>Confirm social compliance of your suppliers with SA 8000 audits and ethical trading with Sedex Ethical Trade Audits (SMETA)</p>]]></text>
+                <order>AUDIT BUCHEN</order>
+                <learnMore>Weitere Infos</learnMore>
+            </offerbox2>
+            <offerbox3>
+                <title>Labortests</title>
+                <text><![CDATA[<p>Ensure compilance with safety standards: REACH RoHS, EN71, CPSIA...</p><p>No technical expertise necessary, our search engine provides all tests for your product compliance</p><p>Pricing instantly available starting from $10 USD per component</p>]]></text>
+                <order>TEST BUCHEN</order>
+                <learnMore>Weitere Infos</learnMore>
+            </offerbox3>
+            <pricingCover>
+                <title1>Inspektions- &amp; Prüfungskosten enthalten:</title1>
+                <list1><![CDATA[<ul><li>Prüfer- / Inspektortransport-, Verpflegungs- und Unterbringungskosten.</li><li>Leistungen außerhalb der Arbeitszeit, am Wochenende und an Feiertagen.</li></ul>]]></list1>
+                <title2>Optionale Services:</title2>
+                <list2><![CDATA[<ul class="sl"><li>Sammeln von Proben während der Inspektion: $30 USD  <b>$30 USD</b>.</li><li>Zusätzlicher Bericht innerhalb des selben Mann-Tages:&nbsp;<b>$69 USD</b></li></ul>]]></list2>
+                <title3>Rechnungsstellung &amp; Bezahlung</title3>
+                <pgph><![CDATA[<ul><li>Online-Zahlung im Buchungsprozess möglich.</li><li>Zahlen Sie monatliche Raten nach der Leistungserbringung mit einem Aufschlag von 5%.</li></ul>]]></pgph>
+            </pricingCover>
+        </de>
+
+        <ru>
+            <title>Простая тарификация, все включено</title>
+            <subtext>
+                <![CDATA[
+                AsiaInspection предоставляет простую <b>систему тарификации, в которую включены все аспекты проверки</b> продукции и ревизии производства по всей Азии.
+                ]]>
+            </subtext>
+            <priceTitle><![CDATA[Тарифы за человеко-день]]></priceTitle>
+            <inspectSouthTitle><![CDATA[Китай, Бангладеш, Камбоджа,<br />Индия, Таиланд и <br />Вьетнам и Африка]]></inspectSouthTitle>
+            <inspectNorthTitle>Европа и Бразилия и Азиатский регион</inspectNorthTitle>
+            <inspectTitle>Проверка продукции</inspectTitle>
+            <inspectSouthPrice><![CDATA[<span style='font-size:inherit;' class='priceIA'></span> долларов США]]></inspectSouthPrice>
+            <inspectNorthPrice><![CDATA[<span style='font-size:inherit;' class='priceIE'></span> долларов США]]></inspectNorthPrice>
+            <auditTitle>Ревизия производства и штатного состава.</auditTitle>
+            <auditPrice><![CDATA[<span style='font-size:inherit;' class='priceAT'></span> долларов США]]></auditPrice>
+            <auditPriceAsia><![CDATA[<span style='font-size:inherit;' class='priceAA'></span> долларов США]]></auditPriceAsia>
+            <auditPriceEurope><![CDATA[<span style='font-size:inherit;' class='priceAE'></span> долларов США]]></auditPriceEurope>
+            <testTitle>Лабораторное исследование </testTitle>
+            <testPrice>Получите тарификацию онлайн мгновенно</testPrice>
+            <pricingCoverage>
+                <title>Наши тарифы включают все:</title>
+                <li>Дорожные расходы инспектора,  проживание, сверхурочные, проверки по выходным и праздничным дням.</li>
+                <li><![CDATA[Отчет поступает в сеть в день проверки.<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup>]]></li>
+                <li>Персонализованные перечни с сотней заранее определённых протоколов доступны онлайн.</li>
+                <li>Сертификат проверки, выданный Вашему поставщику, о разрешении отгрузки.</li>
+            </pricingCoverage>
+            <optionalServices>
+                <title>Дополнительные услуги:</title>
+                <li><![CDATA[Сбор образцов во время проверки: <b>30 долларов США</b>.]]></li>
+                <li><![CDATA[Дополнительный отчет в тот же человеко-день:&nbsp;<b>69 долларов США</b>.]]></li>
+            </optionalServices>
+            <payments>
+                <title>Платежи:</title>
+                <text><![CDATA[Услуги обычно оплачиваются по сети во время заказа. Если вы выбрали платеж ежемесячным счетом-фактурой, то после выполнения услуги к стоимости заказа будут добавлены 5%.<br><br>Подробности платежей Вы можете найти в разделе <a href="/conditions-of-service">Сроки исполнения и условия</a>.]]></text>
+            </payments>
+            <hoverOne>
+                <![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+            </hoverOne>
+        </ru>
+
+        <ar>
+            <title>بكل بساطه أسعار خدماتنا شامله جميع المصاريف و النفقات</title>
+            <subtext>
+                <![CDATA[
+                شركتنا توفر تسعيره ثابته و شامله <b>لجميع المصاريف</b>  لخدمة الفحص علي جودة المنتجات و خدمة التفتيش علي المصانع لضمان جودة الإنتاج داخل جميع بلدان قارة أسيا
+                ]]>
+            </subtext>
+            <priceTitle><![CDATA[أسعار خدماتنا  في اليوم الواحد للمفتش الواحد]]></priceTitle>
+            <inspectSouthTitle><![CDATA[كمبوديا،الصين، بنجلاديش ، الهند، تايلاند ، فيتنام  وافريقيا]]></inspectSouthTitle>
+            <inspectNorthTitle>أوروبا, بلدان آسيا الأخرى والبرازيل</inspectNorthTitle>
+            <inspectTitle>فحص جودة المنتجات</inspectTitle>
+            <inspectSouthPrice><![CDATA[<span style='font-size:inherit;' dir='ltr' class='priceIA'></span> دولاراً أمريكياً]]></inspectSouthPrice>
+            <inspectNorthPrice><![CDATA[<span style='font-size:inherit;' dir='ltr' class='priceIE'></span> دولاراً أمريكياً]]></inspectNorthPrice>
+            <auditTitle>خدمة التفتيش علي المصانع لضمان الإلتزامات الإجتماعيه و كفاءة الإنتاج</auditTitle>
+            <auditPrice><![CDATA[<span style='font-size:inherit;' dir='ltr' class='priceAT'></span> دولاراً أمريكياً]]></auditPrice>
+            <auditPriceAsia><![CDATA[<span style='font-size:inherit;' dir='ltr' class='priceAA'></span> دولاراً أمريكياً]]></auditPriceAsia>
+            <auditPriceEurope><![CDATA[<span style='font-size:inherit;' dir='ltr' class='priceAE'></span> دولاراً أمريكياً]]></auditPriceEurope>
+            <testTitle>الإختبارات المعملية للمنتجات</testTitle>
+            <testPrice>تلقّى تسعيرة فورية عبر الإنترنت</testPrice>
+            <offerbox1>
+                <title>عمليات فحص المنتجات
+                </title>
+                <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in China, India, Cambodia, Bangladesh, Vietnam, Thailand, Africa and Latin America</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+                <order>حجز فحص
+                </order>
+                <learnMore>معرفة المزيد
+                </learnMore>
+            </offerbox1>
+            <offerbox1europe>
+                <title>عمليات فحص المنتجات
+                </title>
+                <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in Europe, Greater Asia and Brazil</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+                <order>حجز فحص
+                </order>
+                <learnMore>معرفة المزيد
+                </learnMore>
+            </offerbox1europe>
+            <offerbox2>
+                <title>برامج تدقيق المورد
+                </title>
+                <text><![CDATA[<p>An auditor to your factory within 48 hours</p><p>Assess your supplier's faclities and organization according to ISO 9001 or U.S. C-TPAT standards</p><p>Confirm social compliance of your suppliers with SA 8000 audits and ethical trading with Sedex Ethical Trade Audits (SMETA)</p>]]></text>
+                <order>حجز فحص
+                </order>
+                <learnMore>معرفة المزيد
+                </learnMore>
+            </offerbox2>
+            <offerbox3>
+                <title>تسعير فوري
+                </title>
+                <text><![CDATA[<p>Ensure compilance with safety standards: REACH RoHS, EN71, CPSIA...</p><p>No technical expertise necessary, our search engine provides all tests for your product compliance</p><p>Pricing instantly available starting from $10 USD per component</p>]]></text>
+                <order>GET A QUOTE</order>
+                <learnMore>معرفة المزيد
+                </learnMore>
+            </offerbox3>
+            <pricingCover>
+                <title1>تضم أسعار عمليات الفحص والتدقيق
+                </title1>
+                <list1><![CDATA[<ul><li>تكاليف انتقال المدقق / المفتش والوجبات والإقامة
+                </li><li>خدمات الوقت الإضافي ونهاية الأسبوع والعطلات
+            </li></ul>]]></list1>
+            <title2>Optional services:</title2>
+            <list2><![CDATA[<ul class="sl"><li>Sample collection during inspection: <b>$30 USD</b>.</li><li>Additional report within the same man-day:&nbsp;<b>$69 USD</b>.</li></ul>]]></list2>
+            <title3>تحرير الفواتير والسداد:
+            </title3>
+            <pgph><![CDATA[<ul><li>يتوفر السداد عبر الإنترنت عند الحجز.
+            </li><li>ادفع شهريًا بعد إتمام الخدمة برسوم إضافية تبلغ 5%
+            .</li></ul>]]></pgph>
+        </pricingCover>
+        <pricingCoverage>
+            <title>تسعيرة الخدمات الشامله لجميع المصاريف تغطي ايضآ المصاريف التاليه</title>
+            <li>مصاريف الإنتقال و الإقامه و العمل الإضافي في العطلات الرسميه و عطلات نهاية الاسبوع</li>
+            <li><![CDATA[إستلم تقرير الفحص الخاص بمنتجاتك في نفس يوم عملية الفحص مباشرة عن طريق موقعنا الإلكتروني<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup>]]></li>
+            <li>مئات من الإختيارات التي تتيح لك إختبار منتجك بالطريقه الملائمه متوفره علي موقعنا</li>
+            <li>يمكنك أن تربط شرط شحن البضاعه الخاصه بك بوجوب إصدار شهاده لجودة هذه البضاعه من شركتنا إلي موردك</li>
+        </pricingCoverage>
+        <optionalServices>
+            <title>خدمات إضافية إختيارية</title>
+            <li><![CDATA[تجميع بعض العينات خلال عملية الفحص : <b>تكلفتها ٣٠ دولار أمريكي</b>.]]></li>
+            <li><![CDATA[تقرير يومي إضافي في أثناء عملية الفحص :<b>تكلفتها ٥٨ دولار أمريكي</b>.]]></li>
+        </optionalServices>
+        <payments>
+            <title>المدفوعات</title>
+            <text><![CDATA[تدفع عادة المدفوعات الناتجه عن إستخدام خدماتنا في نفس وقت حجز ميعاد طلب الخدمه عن طريق الإنترنت، ولكن إذا اخترت الدفع عن طريق الفاتوره الشهرية سيتم تطبيق رسوم إضافية ٥٪علي المبلغ المستحق
+                <br><br>للحصول علي تفاصيل الدفع الكامله يرجي مراجعة  <a href="/conditions-of-service">الشروط و الاحكام</a>.]]></text>
+            </payments>
+            <hoverOne>
+                <![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+            </hoverOne>
+        </ar>
+
+        <es>
+            <title>Tarifas simples y todo incluido</title>
+            <subtext>
+                <![CDATA[
+                <p>AsiaInspection ofrece unas <b>tarifas sencillas todo incluido</b> para las inspecciones de producto y las Auditorías de Fábrica en cualquier lugar de Asia y África.</p><p>En caso de que una inspección necesite más de un día de trabajo, se le notificará durante el proceso de reserva. Para las auditorías sociales y de fábricas, si la fábrica dispone de más de 500 empleados se necesitarán 2 días de trabajo.</p>
+                ]]>
+            </subtext>
+            <priceTitle><![CDATA[Tarifas por día de trabajo]]></priceTitle>
+            <inspectSouthTitle><![CDATA[China, India, Camboya,<br />Bangladesh, Vietnam,<br />Tailandia, África<br />y América del Sur]]></inspectSouthTitle>
+            <inspectNorthTitle>Europa y Brasil y Resto de Asia</inspectNorthTitle>
+            <inspectTitle>Inspección de producto</inspectTitle>
+            <inspectSouthPrice><![CDATA[<span style='font-size:inherit;' class='priceIA'></span> USD]]></inspectSouthPrice>
+            <inspectNorthPrice><![CDATA[<span style='font-size:inherit;' class='priceIE'></span> USD]]></inspectNorthPrice>
+            <auditTitle>Auditoría de Fábrica y Social</auditTitle>
+            <auditPrice><![CDATA[<span style='font-size:inherit;' class='priceAT'></span> USD]]></auditPrice>
+            <auditPriceAsia><![CDATA[<span style='font-size:inherit;' class='priceAA'></span> USD]]></auditPriceAsia>
+            <auditPriceEurope><![CDATA[<span style='font-size:inherit;' class='priceAE'></span> USD]]></auditPriceEurope>
+            <testTitle>Pruebas de Laboratorio</testTitle>
+            <testPrice>Reciba el presupuesto al instante.</testPrice>
+            <pricingCoverage>
+                <title>Nuestras tarifas todo incluido cubren:</title>
+                <li>Transporte, alojamiento y las horas extra del inspector, así como las inspeccionar en fin de semana, festivos o Año Chino.</li>
+                <li><![CDATA[Recibir el reporte el mismo día en la web, por email, iPhone, IPAD, Android o Blackberry.<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup>]]></li>
+                <li>Acceso a nuestras checklist personalizadas con protocolos de inspección por producto.</li>
+                <li>Uso de nuestro Test de Laboratorio Online para averiguar los Test que requiere su producto según la legislación gubernamental de destino.</li>
+                <li>Emisión del certificado de inspección para su proveedor tras su aprobación del embarque o envio aéreo. Necesario para el cobro de la carta de crédito (L/C).</li>
+            </pricingCoverage>
+            <optionalServices>
+                <title>Servicios Opcionales</title>
+                <li><![CDATA[Recogida de muestra durante inspección: <b>30 USD</b>.]]></li>
+                <li><![CDATA[Reporte de producto adicional con el mismo inspector:&nbsp;<b><span style='font-size:inherit;' class='priceRP'></span> USD</b>.]]></li>
+            </optionalServices>
+            <payments>
+                <title>Facturación</title>
+                <text><![CDATA[
+                    <p>La Inspección, Auditoria o Test de Laboratorio se abonan normalmente por anticipado a través de la Web (Paypal o Tarjeta de Crédito) en el momento de terminar la reserva pudiendo solicitar una <strong>proforma</strong> del mismo.</p>
+                    <p>Si decide pagar después de realizar el servicio, se aplicará un cargo adicional del 5%. La factura será enviada a primeros del mes siguiente de realizar el servicio y también podrá pagar via Web (PayPal o Tarjeta de Crédito) o a través de <strong>Transferencia Bancaria (T/T).</strong></p>
+                    <p>Para obtener más información relativa al pago, consulte nuestras <a href="/condiciones">condiciones de uso</a>.</p>
+                    ]]></text>
+                </payments>
+                <hoverOne>
+                    <![CDATA[AsiaInspection garantiza disponer de un inspector disponible para enviar a la fábrica en menos de 48 horas.<br /><br />Este plazo, sin embargo, no garantiza que la fábrica está preparada o que colabore con AsiaInspection. Tampoco está garantizada nuestra presencia debida a factores externos fuera del control de AsiaInspection, como retrasos en el transporte o cualquier otro evento de fuerza mayor.]]>
+                </hoverOne>
+            </es>
+
+            <it>
+                <title>Tariffe Semplici e Tutto-Compreso</title>
+                <subtext>
+                    <![CDATA[
+                    <p>AsiaInspection applica <b>tariffe chiare e comprensive</b> di tutti i servizi per le ispezioni di prodotto e i controlli in fabbrica in tutta l'Asia.</p><p>Qualora un'ispezione dovesse richiedere più di un giorno/ispettore per essere completata, sarai avvisato tempestivamente durante la prenotazione online. Per i controlli sociali e degli stabilimenti con un numero di dipendenti superiore a 500 sono necessari due giorni/ispettori.</p>
+                    ]]>
+                </subtext>
+                <priceTitle><![CDATA[Tariffe per giorno/ispettore]]></priceTitle>
+                <inspectSouthTitle><![CDATA[China, Índia, Cambogia,<br/>Bangladesh, Vietnã,<br/>Tailândia, África<br/>e na América Latina]]></inspectSouthTitle>
+                <inspectNorthTitle>Europa e Brasil e Ásia Maior</inspectNorthTitle>
+                <inspectTitle>Ispezioni di prodotti</inspectTitle>
+                <inspectSouthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIA'></span> USD]]></inspectSouthPrice>
+                <inspectNorthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIE'></span> USD]]></inspectNorthPrice>
+                <auditTitle>Controlli di fabbriche</auditTitle>
+                <auditPrice><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD]]></auditPrice>
+                <auditPriceAsia><![CDATA[$<span style='font-size:inherit;' class='priceAA'></span> USD]]></auditPriceAsia>
+                <auditPriceEurope><![CDATA[$<span style='font-size:inherit;' class='priceAE'></span> USD]]></auditPriceEurope>
+                <testTitle>Test di laboratorio</testTitle>
+                <testPrice>Utilizza il nostro centro per i test di laboratorio online, inserisci la tipologia del prodotto in questione e il paese di destinazione e riceverai immediatamente un preventivo.</testPrice>
+                <pricingCoverage>
+                    <title>Tutte le nostre tariffe includono:</title>
+                    <li>Trasporto, alloggio e straordinario dell'ispettore, ispezioni durante fine settimana e festività.</li>
+                    <li><![CDATA[Il tuo report disponibile online il giorno stesso dell'ispezione.<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup>]]></li>
+                    <li>Accesso al nostro centro per i test di laboratorio online, per garantire la conformità ai regolamenti normativi.</li>
+                    <li>Certificato di ispezione inviato al tuo fornitore, non appena la spedizione viene approvata</li>
+                </pricingCoverage>
+                <optionalServices>
+                    <title>Servizi opzionali:</title>
+                    <li><![CDATA[Raccolta del campione nel corso dell'ispezione: <b>$30 USD</b>.]]></li>
+                    <li><![CDATA[Report addizionale con lo stesso ispettore: <b><span style='font-size:inherit;' class='priceRP'></span> USD</b>.]]></li>
+                </optionalServices>
+                <payments>
+                    <title>Pagamenti:</title>
+                    <text><![CDATA[Tutte le ispezioni, i controlli e i test di laboratorio solitamente vengono pagati online in anticipo al momento della prenotazione. Se scegli di pagare tramite fattura mensile, a servizio completato, al tuo ordine verrà applicata una maggiorazione del 5%.<br><br>Per i dettagli completi sui pagamenti, leggi la nostra informativa sui <a href="/conditions-of-service">Termini e le condizioni</a>.]]></text>
+                </payments>
+                <hoverOne>
+                    <![CDATA[AsiaInspection garantisce la disponibilità di un ispettore pronto a visitare la fabbrica per l'ispezione entro 48 ore.<br /><br />Ciò non garantisce tuttavia che la fabbrica sia preparata o disposta a collaborare con AsiaInspection, né tutela il cliente in caso di ostacoli indipendenti dal controllo di AsiaInspection, quali ritardi di trasporto o eventi di forza maggiore.]]>
+                </hoverOne>
+            </it>
+
+            <tr>
+                <title>Kolay, her şey dahil fiyatla</title>
+                <subtext>
+                    <![CDATA[
+                    AsiaInspection, bütün Asya kıtasında <b>her şey dahil fiyatla</b> ürün denetim ve fabrika audit hizmetleri vermektedir.
+                    ]]>
+                </subtext>
+                <priceTitle><![CDATA[Adam-Gün başı fiyatlar]]></priceTitle>
+                <inspectSouthTitle><![CDATA[Çin, Bangladeş, Kamboçya,<br> Hindistan, Tayland,<br> Vietnam ve Afrika]]></inspectSouthTitle>
+                <inspectNorthTitle>Avrupa ve Brezilya ve Büyük Asya Kıtası</inspectNorthTitle>
+                <inspectTitle>Ürün Denetimi</inspectTitle>
+                <inspectSouthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIA'></span> USD]]></inspectSouthPrice>
+                <inspectNorthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIE'></span> USD]]></inspectNorthPrice>
+                <auditTitle>Fabrika Audit</auditTitle>
+                <auditPrice><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD]]></auditPrice>
+                <auditPriceAsia><![CDATA[$<span style='font-size:inherit;' class='priceAA'></span> USD]]></auditPriceAsia>
+                <auditPriceEurope><![CDATA[$<span style='font-size:inherit;' class='priceAE'></span> USD]]></auditPriceEurope>
+                <testTitle>Laboratuvar Testleri</testTitle>
+                <testPrice>Online fiyat sorgulama </testPrice>
+                <pricingCoverage>
+                    <title>Herşey dahil fiyatlarımız içerisinde:</title>
+                    <li>Denetimci ulaşım, konaklama, fazla mesai, hafta sonu ve tatil günleri denetimler.</li>
+                    <li><![CDATA[Raporunuz aynı gün içerisinde online olarak hazır.<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup>]]></li>
+                    <li>Önceden tanımlanmış yüzlerce protokollerle kişiselleştirilmiş kontrol listesi hazırlayabilme olanağı.</li>
+                    <li>Raporu onaylamanız durumunda satıcıya Gözetim Sertifikası verilir..</li>
+                </pricingCoverage>
+                <optionalServices>
+                    <title>İsteğe bağlı servisler</title>
+                    <li><![CDATA[Denetim sırasında numune ürün alımı: <b>$30 USD</b>.]]></li>
+                    <li><![CDATA[Aynı gün içerisinde ilave rapor:&nbsp;<b>$<span style='font-size:inherit;' class='priceRP'></span> USD</b>.]]></li>
+                </optionalServices>
+                <payments>
+                    <title>Ödemeler</title>
+                    <text><![CDATA[
+                        Online rezervasyon sırasında ödeme yapabilme seçeneği. Hizmet alımından yapılan sonra  ödemelerde  fatura toplamına %5 ilave edilir.<br><br>
+                        Ödemelerle ile ilgili daha bilgi için <a href="/conditions-of-service">Şartlar ve Koşullar</a> sayfamızı ziyaret ediniz.
+                        ]]></text>
+                </payments>
+                    <hoverOne>
+                        <![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+                    </hoverOne>
+                <offerbox1>
+            <title>Ürün Denetimleri</title>
+            <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in China, India, Cambodia, Bangladesh, Vietnam, Thailand, Africa and Latin America</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+            <order>Şimdi Kayıt Ol</order>
+            <learnMore>Daha fazla bilgi</learnMore>
+        </offerbox1>
+        <offerbox1europe>
+            <title>Ürün Denetimleri</title>
+            <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in Europe, Greater Asia and Brazil</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+            <order>Şimdi Kayıt Ol</order>
+            <learnMore>Daha fazla bilgi</learnMore>
+        </offerbox1europe>
+        <offerbox2>
+            <title>Tedarikçi Denetim Programları</title>
+            <text><![CDATA[<p>An auditor to your factory within 48 hours</p><p>Assess your supplier's faclities and organization according to ISO 9001 or U.S. C-TPAT standards</p><p>Confirm social compliance of your suppliers with SA 8000 audits and ethical trading with Sedex Ethical Trade Audits (SMETA)</p>]]></text>
+            <order>Şimdi Kayıt Ol</order>
+            <learnMore>Daha fazla bilgi</learnMore>
+        </offerbox2>
+        <offerbox3>
+            <title>Laboratuvar Testi</title>
+            <text><![CDATA[<p>Ensure compilance with safety standards: REACH RoHS, EN71, CPSIA...</p><p>No technical expertise necessary, our search engine provides all tests for your product compliance</p><p>Pricing instantly available starting from $10 USD per component</p>]]></text>
+            <order>Şimdi Kayıt Ol</order>
+            <learnMore>Daha fazla bilgi</learnMore>
+        </offerbox3>
+        <pricingCover>
+            <title1>Muayeneler ve Denetim Fiyatlandırmaları şunları içerir:</title1>
+            <list1><![CDATA[<ul><li>Denetçi/Müfettiş ulaşım, yemek ve konaklama harcamaları.</li><li>Fazla mesai, hafta sonu ve tatil hizmetleri.</li></ul>]]></list1>
+            <title2>Optional services:</title2>
+            <list2><![CDATA[<ul class="sl"><li>Sample collection during inspection: <b>$30 USD</b>.</li><li>Additional report within the same man-day:&nbsp;<b>$69 USD</b>.</li></ul>]]></list2>
+            <title3>Faturalandırma ve Ödeme:</title3>
+            <pgph><![CDATA[<ul><li>Kayıt sırasında çevrimiçi ödeme yapılabilir.</li><li>%5 ilave bedel ile hizmet gerçekleştikten sonra aylık olarak ödeyin.</li></ul><br /><p>Daha fazla detay için lütfen <a href="/conditions-of-service">hizmet hüküm ve koşullarımızı</a> okuyun.</p>]]></pgph>
+        </pricingCover>
+    </tr>
+
+            <pt>
+                <title>Tarifas Simples, Tudo Incluído</title>
+                <subtext> <![CDATA[ Tarifas simples, todo incluido ]]></subtext>
+                <priceTitle>Tarifas</priceTitle>
+                <manday>Por Pessoa/Dia</manday>
+                <inspectSouthTitle><![CDATA[China, Índia, Bangladesh, Vietname, Cambodja, Tailândia, África e América Latina]]></inspectSouthTitle>
+                <inspectNorthTitle>Europa, Grande Ásia e Brasil</inspectNorthTitle>
+                <inspectTitle>INSPEÇÕES DE PRODUTO</inspectTitle>
+                <inspectSouthPrice><![CDATA[${{priceIA}} USD]]></inspectSouthPrice>
+                <inspectNorthPrice><![CDATA[$<span style='font-size:inherit;' class='priceIE'></span> USD]]></inspectNorthPrice>
+                <auditTitle>ETHICAL AND MANUFACTURING AUDIT</auditTitle>
+                <auditPrice><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD]]></auditPrice>
+                <auditPriceAsia><![CDATA[$<span style='font-size:inherit;' class='priceAA'></span> USD]]></auditPriceAsia>
+                <auditPriceEurope><![CDATA[$<span style='font-size:inherit;' class='priceAE'></span> USD]]></auditPriceEurope>
+                <testTitle>Laboratory Testing</testTitle>
+                <testPrice>Receive instant pricing online</testPrice>
+                <pricingCoverage>
+                <title>Our all-inclusive pricing covers</title>
+                    <li>Inspector transportation, accommodations, overtime, weekend and holiday inspections.</li>
+                    <li><![CDATA[Your report online the same day as inspection.<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[1]</a></sup>]]></li>
+                    <li>Personalized checklists with hundreds of predefined protocols available online.</li>
+                    <li>An inspection certificate issued to your supplier, upon your shipment approval.</li>
+                </pricingCoverage>
+                <optionalServices>
+                <title>Optional services</title>
+                    <li><![CDATA[Sample collection during inspection: <b>$30 USD</b>.]]></li>
+                    <li><![CDATA[Additional report within the same man-day:&nbsp;<b>$<span style='font-size:inherit;' class='priceRP'></span> USD</b>.]]></li>
+                </optionalServices>
+                <payments>
+                    <title>Payments</title>
+                    <text><![CDATA[Services are usually paid online at the time of booking. If you choose to pay by monthly invoice, after the service has been performed, an additional 5% charge will be applied to the order.<br><br>For complete payment details, please see our <a href="/conditions-of-service">Terms and Conditions</a>.]]></text>
+                </payments>
+                <hoverOne>
+                <![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+                </hoverOne>
+                <offerbox1>
+                    <title>INSPEÇÃO DE PRODUTO</title>
+                    <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in China, India, Cambodia, Bangladesh, Vietnam, Thailand, Africa and Latin America</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+                    <order>MARCAR INSPEÇÃO</order>
+                    <learnMore>Saiba Mais</learnMore>
+                </offerbox1>
+                <offerbox1europe>
+                    <title>INSPEÇÃO DE PRODUTO</title>
+                    <text><![CDATA[<p>Includes all inspector expenses reaching anywhere in Europe, Greater Asia and Brazil</p><p>Overtime, weekend or holiday no problem</p><p>Quickly book online  and have a trained inspectore on-site within 48 hours, verifying your products meet all specifications</p>]]></text>
+                    <order>MARCAR AUDITORIA</order>
+                    <learnMore>Saiba Mais</learnMore>
+                </offerbox1europe>
+                <offerbox2>
+                    <title>AUDITORIA DE FORNECEDORES</title>
+                    <text><![CDATA[<p>An auditor to your factory within 48 hours</p><p>Assess your supplier's faclities and organization according to ISO 9001 or U.S. C-TPAT standards</p><p>      Confirm social compliance of your suppliers with SA 8000 audits and ethical trading with Sedex Ethical Trade Audits (SMETA)</p>]]></text>
+                    <order>MARCAR AUDITORIA</order>
+                    <learnMore>Saiba Mais</learnMore>
+                </offerbox2>
+                <offerbox3>
+                    <title>TESTES DE LABORATÓRIO</title>
+                    <text><![CDATA[<p>Ensure compilance with safety standards: REACH RoHS, EN71, CPSIA...</p><p>No technical expertise necessary, our search engine provides all tests for your         product compliance</p><p>Pricing instantly available starting from $10 USD per component</p>]]></text>
+                    <order>MARCAR UM TESTE</order>
+                    <learnMore>Saiba Mais</learnMore>
+                </offerbox3>
+                <pricingCover>
+                    <title1>As Tarifas de Inspeções e Auditorias incluem:</title1>
+                    <list1><![CDATA[<ul><li>Transporte, comida e gastos de alojamento do Auditor / Inspetor.</li><li>Horas extras, serviços de fim de semana e férias.</li></ul>]]></list1>
+                    <title2>Optional services:</title2>
+                    <list2><![CDATA[<ul class="sl"><li>Sample collection during inspection: <b>$30 USD</b>.</li><li>Additional report within the same man-day:&nbsp;<b>$69 USD</b>.</li></ul>]]></list2>
+                    <title3>Faturação e Pagamento:</title3>
+                    <pgph><![CDATA[<ul><li>Pagamento online disponível durante a reserva.</li><li>Pagamento mensal após a realização do serviço com uma sobretaxa de 5%.</li></ul><br /><p>Para mais detalhes, por favor leia os nossos termos e <a href="/conditions-of-service">condições de serviço</a>.</p>]]></pgph>
+                </pricingCover>
+            </pt>
+
+</document>

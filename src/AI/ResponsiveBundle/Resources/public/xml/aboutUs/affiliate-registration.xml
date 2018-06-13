@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+        <pageTitle>
+            <en>Quality control company, quality inspectors</en>
+            <es>Compañía de Control de Calidad, Inspectores de Calidad</es>
+            <fr>Programme d'Affiliation - Contrôle Qualité : Test Laboratoire, Contrôle Produit, Audit Fournisseur et Social | AsiaInspection.fr</fr>
+            <zh>中国质量控制公司，质量检测员</zh>
+        </pageTitle>
+        <pageDesc>
+            <en>Asia Inspection performs Quality Control worldwide, and offers an online integrated tool to manage your quality inspectionsand manufacturing audits (MA) in Asia.</en>
+        </pageDesc>
+        <pageKeywords>
+            <en>QC, production check, India, quality control china, AsiaInspection, quality inspection China, manufacturing audit, Asian supplier, quality inspector, child labour, sourcing, quality management, dupro, Chinese supplier, quality inspection Asia, Chinese manufacturer, quality inspectors, quality control, Dupro, quality china, quality audit, shipment inspection, DUPRO, asian supplier, quality inspection India, asianinspection, AQL inspection, inspection agency, india supplier, Indian supplier, China factory, textile inspection, garments inspection, toys inspection, pre-shipment inspection, asia inspection, china inspection, sgs, mil std 105 E, china import, india import, FRI, ASIA INSPECTION, aql tables, inspector, inspectors, verification service</en>
+            <zh>质量控制，生产检验，印度，中国质量控制，AsiaInspection，中国质量检测，工厂审核，亚洲供应商，质量检测人员，童工，采购，质量管理，生产中检验，中国供应商，亚洲质量检测，中国制造商，中国质量，质量审核员，质量控制，中国质量，质量审核，装运前检测，装运前检验，亚洲供应商，印度质量检测，asianinspection， AQL 检测，第三方检测机构， 印度供应商，中国工厂，布料检测，服装检测，玩具检测，装运前检测，亚洲检测，亚洲检验，中国检测，中国检验，sgs，mil std 105 E，中国进口，印度进口，最终成品抽样，可接受质量水平标准表格，aql 表格，验货员，审核服务</zh>
+        </pageKeywords>
+    </pageMeta>
+
+	<en>
+		<title>Affiliate Application</title>
+		<userInfo>
+			<title>Your Information</title>
+			<required>All Fields Are Required</required>
+			<company>Company</company>
+			<email>Email</email>
+			<fname>First name</fname>
+			<confirmEmail>Confirm Email</confirmEmail>
+			<lname>Last name</lname>
+			<emailLogin>Your email will be your login</emailLogin>
+			<address>Address</address>
+			<choosePass>Choose a password</choosePass>
+			<confirmPass>Confirm password</confirmPass>
+			<city>City</city>
+			<country>Country</country>
+			<bannerurl>URL where banners will appear</bannerurl>
+		</userInfo>
+		<payInfo>
+			<title>Payment Information</title>
+			<required>Required Fields</required>
+			<desc>
+				<![CDATA[
+				Please note at this time we are only able to make payment via TT/wire transfer or PayPal.<br />
+				You may choose to leave all payment information blank and update your profile at a later date.<br /><br />
+				Please select either PayPal or wire transfer from the payment options below. You may only select one.<br />
+				]]>
+			</desc>
+			<paypal>Paypal</paypal>
+			<paypalAddress>Paypal Address Email</paypalAddress>
+			<TT>TT/wire transfer</TT>
+			<accountInfo>Bank Account Information</accountInfo>
+			<bankInfo>Bank Information</bankInfo>
+			<beneficiary>Beneficiary Name</beneficiary>
+			<bankName>Bank Name</bankName>
+			<beneAddress>Beneficiary Address</beneAddress>
+			<branch>Bank Branch Name</branch>
+			<bankNum>Bank Account Nr. </bankNum>
+			<bankAdd>Bank Address</bankAdd>
+			<swift>Bank SWIFT Code</swift>
+			<routeInfo><![CDATA[<b>Bank Routing Information</b> (Only if applicable to your country)]]></routeInfo>
+			<iban>IBAN number(For European Banks)</iban>
+			<bankSort>Bank sorting number(For UK Banks)</bankSort>
+			<fedwire>FedWire Routing No(For USA Banks)</fedwire>
+		</payInfo>
+		<understand>I understand that I may not promote these products/services or this Affiliate Program by sending unsolicited mailings(SPAM)</understand>
+		<acceptTerms><![CDATA[Yes, I have read the AsiaInspection <a id="viewTermsAndConditionsBigScreen" href="/termsAndConditionsAlliaffiliate?width=853&amp;height=420&amp;TB_iframe=true" class="thickbox" title="TERMS AND CONDITIONS" style="font-weight:bold;">Terms and Conditions</a><a id="viewTermsAndConditionsSmallScreen" href="javascript:" style="display:none; font-weight:bold;">Terms and Conditions</a>]]></acceptTerms>
+
+
+		<submitBut>Register</submitBut>
+		<errors>
+			<general>Please fill out this field</general>
+			<spamCond>Please accept the spamming conditions</spamCond>
+			<acceptTerms>Please accept the terms and conditions</acceptTerms>
+		</errors>
+	</en>
+	<fr>
+		<title>Demande d'Affiliation</title>
+		<userInfo>
+			<title>Vos Informations</title>
+			<required>Tous les champs doivent être remplis</required>
+			<company>Entreprise</company>
+			<email>Courriel</email>
+			<fname>Prénom</fname>
+			<confirmEmail>Confirmer Courriel</confirmEmail>
+			<lname>Nom de Famille</lname>
+			<emailLogin>Votre courriel sera votre identifiant</emailLogin>
+			<address>Adresse</address>
+			<choosePass>Choisissez un mot de passe</choosePass>
+			<confirmPass>Confirmez le mot de passe</confirmPass>
+			<city>Ville</city>
+			<country>Pays</country>
+			<bannerurl>URL où les bannières apparaîtront</bannerurl>
+		</userInfo>
+		<payInfo>
+			<title>Informations de Paiement</title>
+			<required>Champs obligatoires</required>
+			<desc>
+				<![CDATA[Veuillez noter que nous pouvons uniquement procéder à des paiements via TT/virement bancaire ou PayPal.<br/>
+				Veuillez sélectionner PayPal ou virement bancaire parmi les options de paiement suivantes. Vous ne pouvez en sélectionner qu'une.<br/>Vous pouvez choisir de laisser tous les champs d'informations de paiement vierges et mettre à jour votre profil ultérieurement.<br/><br/>Veuillez sélectionner PayPal ou virement bancaire parmi les options de paiement suivantes. Vous ne pouvez en sélectionner qu'une.</br>]]>
+			</desc>
+			<paypal>Paypal</paypal>
+			<paypalAddress>Paypal Address Email</paypalAddress>
+			<TT>TT/wire transfer</TT>
+			<accountInfo>Bank Account Information</accountInfo>
+			<bankInfo>Bank Information</bankInfo>
+			<beneficiary>Beneficiary Name</beneficiary>
+			<bankName>Bank Name</bankName>
+			<beneAddress>Beneficiary Address</beneAddress>
+			<branch>Bank Branch Name</branch>
+			<bankNum>Bank Account Nr. </bankNum>
+			<bankAdd>Bank Address</bankAdd>
+			<swift>Bank SWIFT Code</swift>
+			<routeInfo><![CDATA[<b>Bank Routing Information</b> (Only if applicable to your country)]]></routeInfo>
+			<iban>IBAN number(For European Banks)</iban>
+			<bankSort>Bank sorting number(For UK Banks)</bankSort>
+			<fedwire>FedWire Routing No(For USA Banks)</fedwire>
+		</payInfo>
+		<understand>Je comprends que je ne peux pas faire la promotion de ces produits/services ou de ce Programme d'Affiliation en envoyant des courriels non sollicités (SPAM)</understand>
+		<acceptTerms><![CDATA[Oui, j'ai bien lu les <a id="viewTermsAndConditionsBigScreen" href="/termsAndConditionsAlliaffiliate?width=853&amp;height=420&amp;TB_iframe=true" class="thickbox" title="TERMS AND CONDITIONS" style="font-weight:bold;">Termes et Conditions d'AsiaInspection</a><a id="viewTermsAndConditionsSmallScreen" href="javascript:" style="display:none; font-weight:bold;">Termes et Conditions d'AsiaInspection</a>]]></acceptTerms>
+
+
+		<submitBut>Inscription</submitBut>
+		<errors>
+			<general>Please fill out this field</general>
+			<spamCond>Please accept the spamming conditions</spamCond>
+			<acceptTerms>Please accept the terms and conditions</acceptTerms>
+		</errors>
+	</fr>
+	<zh>
+		<title>联盟申请</title>
+		<userInfo>
+			<title>您的信息</title>
+			<required>所有项目都为必填</required>
+			<company>公司</company>
+			<email>电子邮箱</email>
+			<fname>名字</fname>
+			<confirmEmail>请再次输入电子邮箱</confirmEmail>
+			<lname>姓氏</lname>
+			<emailLogin>您的邮箱即登录名</emailLogin>
+			<address>地址</address>
+			<choosePass>密码</choosePass>
+			<confirmPass>请再次输入密码</confirmPass>
+			<city>城市</city>
+			<country>国家</country>
+			<bannerurl>显示标语的 URL</bannerurl>
+		</userInfo>
+		<payInfo>
+			<title>付款信息</title>
+			<required>必填项</required>
+			<desc>
+				<![CDATA[
+				请注意，我公司目前仅接受电子转账付款或Paypal付款。<br />
+				您可将所有付款信息留空，稍后再对资料进行更新。<br /><br />
+				请在以下付款选项中选择Paypal或电子转账。二者只能选择其一。<br />
+				]]>
+			</desc>
+			<paypal>Paypal</paypal>
+			<paypalAddress>Paypal电子邮箱地址</paypalAddress>
+			<TT>电子转账</TT>
+			<accountInfo>银行账户信息</accountInfo>
+			<bankInfo>银行信息</bankInfo>
+			<beneficiary>收款人姓名</beneficiary>
+			<bankName>银行名</bankName>
+			<beneAddress>收款人地址</beneAddress>
+			<branch>支行名</branch>
+			<bankNum>银行账号</bankNum>
+			<bankAdd>银行地址</bankAdd>
+			<swift>银行SWIFT代码</swift>
+			<routeInfo><![CDATA[<b>银行代码信息</b> (仅针对适用国)]]></routeInfo>
+			<iban>国际银行IBAN代码（欧洲银行）</iban>
+			<bankSort>银行序号（适用于英国银行）</bankSort>
+			<fedwire>美联储代码（适用于美国银行）</fedwire>
+		</payInfo>
+		<understand>我同意，不可通过发送未经允许的邮件 (SPAM) 推销这些产品/服务或此网站联盟 </understand>
+		<acceptTerms><![CDATA[是，我已阅读 AsiaInspection <a id="viewTermsAndConditionsBigScreen" href="/termsAndConditionsAlliaffiliate?width=853&amp;height=420&amp;TB_iframe=true" class="thickbox" title="TERMS AND CONDITIONS" style="font-weight:bold;">条款和条件</a><a id="viewTermsAndConditionsSmallScreen" href="javascript:" style="display:none; font-weight:bold;">条款和条件</a>]]></acceptTerms>
+		<submitBut>注册</submitBut>
+		<errors>
+			<general>请填写此项</general>
+			<spamCond>请同意垃圾邮件条款</spamCond>
+			<acceptTerms>请接受条款和条件</acceptTerms>
+		</errors>
+	</zh>
+	
+	<es>
+		<title>Ficha de Afiliación</title>
+		<userInfo>
+			<title>tu información</title>
+			<required>Todos los campos son obligatorios</required>
+			<company>Empresa</company>
+			<email>E-Mail</email>
+			<fname>Nombre</fname>
+			<confirmEmail>Confirmar e-mail</confirmEmail>
+			<lname>Apellido</lname>
+			<emailLogin>Su e-mail será su usuario</emailLogin>
+			<address>Dirección</address>
+			<choosePass>Elegir una contraseña</choosePass>
+			<confirmPass>Confirmar su contraseña</confirmPass>
+			<city>Ciudad</city>
+			<country>País</country>
+			<bannerurl>Página web donde aparecerán los banners</bannerurl>
+		</userInfo>
+		<payInfo>
+			<title>Datos de pago</title>
+			<required>Campos requeridos</required>
+			<desc>
+				<![CDATA[
+				Por favor sea consciente que por ahora solo podremos realizar pagos mediante transferencia internacional o PayPal.<br />
+				Puede elegir dejar su información de pagos vacia y rellenarla posteriormente.<br /><br />
+				Por favor seleccione PayPal o Transferencia Internacional en la sección de pagos abajo. Solo podrá seleccionar una.<br />
+				]]>
+			</desc>
+			<paypal>Paypal</paypal>
+			<paypalAddress>E-mail de PayPal</paypalAddress>
+			<TT>Transferencia Internacional</TT>
+			<accountInfo>Datos de Facturación</accountInfo>
+			<bankInfo>Información bancaria</bankInfo>
+			<beneficiary>Nombre completo y exacto del beneficiario</beneficiary>
+			<bankName>Nombre del banco</bankName>
+			<beneAddress>Banco beneficiario</beneAddress>
+			<branch>Sucursal</branch>
+			<bankNum>Número de cuenta</bankNum>
+			<bankAdd>Dirección</bankAdd>
+			<swift>Código SWIFT</swift>
+			<routeInfo><![CDATA[<b>Información de Clasificación Bancaria</b> (Solo aplicable en su país)]]></routeInfo>
+			<iban>Número IBAN (Para Bancos Europeos)</iban>
+			<bankSort>Código de clasificación bancaria (Para bancos en el Reino Unido)</bankSort>
+			<fedwire>Número de transferencia de la Reserva Federal Americana (Para bancos en EE.UU.)</fedwire>
+		</payInfo>
+		<understand>He entendido y acepto que no voy a utilizar este programa de afiliación para realizar SPAM</understand>
+		<acceptTerms><![CDATA[Sí, he leido los <a id="viewTermsAndConditionsBigScreen" href="/termsAndConditionsAlliaffiliate?width=853&amp;height=420&amp;TB_iframe=true" class="thickbox" title="TERMS AND CONDITIONS" style="font-weight:bold;">Términos y Condiciones</a><a id="viewTermsAndConditionsSmallScreen" href="javascript:" style="display:none; font-weight:bold;">Términos y Condiciones</a>]]></acceptTerms>
+		<submitBut>Registro</submitBut>
+		<errors>
+			<general>Por favor rellene este campo</general>
+			<spamCond>Por favor acepte nuestras condiciones anti-spam</spamCond>
+			<acceptTerms>Por favor acepte nuestros términos y condiciones</acceptTerms>
+		</errors>
+	</es>
+		
+	<ar>
+		<title>برامج العمل مع الشركة</title>
+		<userInfo>
+			<title>Your Information</title>
+			<required>All Fields Are Required</required>
+			<company>Company</company>
+			<email>Email</email>
+			<fname>First name</fname>
+			<confirmEmail>Comfirm Email</confirmEmail>
+			<lname>Last name</lname>
+			<emailLogin>Your email will be your login</emailLogin>
+			<address>Address</address>
+			<choosePass>Choose a password</choosePass>
+			<confirmPass>Confirm password</confirmPass>
+			<city>City</city>
+			<country>Country</country>
+			<bannerurl>URL where banners will appear</bannerurl>
+		</userInfo>
+		<payInfo>
+			<title>Payment Information</title>
+			<required>Required Fields</required>
+			<desc>
+				<![CDATA[
+				Please note at this time we are only able to make payment via TT/wire transfer or PayPal.<br />
+				You may choose to leave all payment information blank and update your profile at a later date.<br /><br />
+				Please select either PayPal or wire transfer from the payment options below. You may only selet one.<br />
+				]]>
+			</desc>
+			<paypal>Paypal</paypal>
+			<paypalAddress>Paypal Address Email</paypalAddress>
+			<TT>TT/wire transfer</TT>
+			<accountInfo>Bank Account Information</accountInfo>
+			<bankInfo>Bank Information</bankInfo>
+			<beneficiary>Exact Beneficiary Name</beneficiary>
+			<bankName>Bank Name</bankName>
+			<beneAddress>Beneficiary Address</beneAddress>
+			<branch>Bank Branch Name</branch>
+			<bankNum>Bank Account Number</bankNum>
+			<bankAdd>Bank Address</bankAdd>
+			<swift>Bank SWIFT Code</swift>
+			<routeInfo><![CDATA[<b>Bank Routing Information</b> (Only if applicable to your country)]]></routeInfo>
+			<iban>IBAN number(For European Banks)</iban>
+			<bankSort>Bank sorting number(For UK Banks)</bankSort>
+			<fedwire>FedWire Routing No(For USA Banks)</fedwire>
+		</payInfo>
+		<understand>I understand that I may not promote these products/services or this Affiliate Program by sending unsolicited mailings(SPAM)</understand>
+		<acceptTerms><![CDATA[Yes, I have read the AsiaInspection <a id="viewTermsAndConditionsBigScreen" href="/termsAndConditionsAlliaffiliate?width=853&amp;height=420&amp;TB_iframe=true" class="thickbox" title="TERMS AND CONDITIONS" style="font-weight:bold;">Terms And Conditions</a><a id="viewTermsAndConditionsSmallScreen" href="javascript:" style="display:none; font-weight:bold;">Terms And Conditions</a>]]></acceptTerms>
+		<submitBut>Register</submitBut>
+		<errors>
+			<general>Please fill out this field</general>
+			<spamCond>Please accept the spamming conditions</spamCond>
+			<acceptTerms>Please accept the terms and conditions</acceptTerms>
+		</errors>
+	</ar>
+</document>

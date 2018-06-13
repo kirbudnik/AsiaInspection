@@ -1,0 +1,1322 @@
+{% if app.request.locale == "ar" %} {% set twigBase = "AIResponsiveBundle:RTL:extra/extraBase.html.twig" %} {% else %} {% set twigBase = "AIResponsiveBundle:extra:extraBase.html.twig" %} {% endif %}
+{% extends twigBase %}
+
+{% block title %}Take a 360° Tour of Lab Testing Facilities Worldwide - AsiaInspection.com{% endblock %}
+{% block pageDescription %}Through our laboratory testing we address product safety compliance needs for clients in 120 countries. Take a 360° digital tour of our labs here.{% endblock %}
+{% block pageKeywords %}lab testing, product safety compliance, physical, mechanical and chemical testing{% endblock %}
+
+{% block bigTitle %}{% trans %}ourlabs.title{% endtrans %}{% endblock %}
+{% block smallText %} <p>{% trans %}ourlabs.subtitle{% endtrans %}</p> {% endblock %}
+{% block pagename %}view360{% endblock %}
+
+{% set demoLink = "/popup?video=labTestDemo&lang=en&mobile=false&TB_iframe=true&ToDown=20&height=420&width=730&modal=true" %}
+{% set demoLinkSmall = "https://www.youtube.com/v/3uCnmUjtioM?version=3%26autoplay=%26showinfo=0%26vq=hd720" %}
+
+{% block mainBlock %}
+    
+    <style>
+        * { box-sizing: border-box; }
+
+        .tabContainer{
+            border:0px;
+            margin-bottom:0px;
+        }
+
+        .serviceTab{
+            background-color:white;
+            border:0px;
+            border-bottom: 3px solid #dadada;
+        }
+
+        .selectedServiceTab{
+            background-color:white;
+            color:#b31820;
+            border-bottom:3px solid #b31820;
+        }
+    
+        .panorama {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            display:inline-block;
+            overflow:hidden;
+            cursor: move; /* fallback if grab cursor is unsupported */
+            cursor: grab;
+            cursor: -moz-grab;
+            cursor: -webkit-grab;
+        }
+
+        .panorama:active { 
+            cursor: grabbing;
+            cursor: -moz-grabbing;
+            cursor: -webkit-grabbing;
+        }
+    
+        .hotspot {
+            position:absolute;
+            display:block;
+            width:25px;
+            cursor:pointer;
+            border-radius:22px;
+            z-index:4;
+        }
+    
+        .hotspot:hover{
+            -webkit-box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.65);
+            -moz-box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.65);
+            box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.65);
+            transition: all 150ms ease-out;
+        }
+    
+        .panoramaImage {
+            position:absolute;
+            background: url(images/360labs/buffalo-panorama.jpg) repeat;
+            background-size: cover;
+            background-position: 0px 0px;
+            width: 100%;
+            height: 500px;
+        }
+    
+        .panoramaOverlay {
+            background-color:rgba(0,0,0,0.3);
+            width: 100%;
+            height: 100%;
+            position:absolute;
+            border:1px solid black;
+        }
+    
+        .panoramaWindow {
+            position:absolute;
+            margin: 0px;
+            width: 100%;
+            height: 100%;
+            overflow:hidden;
+        }
+
+        .popupOverlay {
+            position:absolute;
+            background-color: rgba(0,0,0,0.7);
+            margin: 0;
+            width: 100%;
+            height: 0px;
+            z-index:5;
+            opacity:0;
+            display:none;
+            cursor:pointer;
+        }
+
+        .popupSubWrapper {
+            position:relative;
+            margin:5% 2.5%;
+            background-color:white;
+            border:1px solid black;
+            width:95%;
+            max-height:85%;
+            border-radius:3px;
+            /* overflow:hidden; */
+            padding:15px;
+        }
+
+        .panoramaHeaderContent {
+            margin:15px;
+        }
+
+        .accredIcon {
+            margin:5px;
+            vertical-align: middle;
+        }
+        .backToTourButtonBox {
+            padding:10px;
+            border-radius:3px;
+            background-color:#5C9DD1;
+            color:white;
+            font-weight:bold;
+            display:inline-block;
+            margin-top:10px;
+        }
+
+        .labNavButtonWrapper {
+            text-align:center;
+            display:inline-block;
+            vertical-align:top;
+        }
+        .labNavButtonContainer {
+            margin:15px 0px;
+            float:left;
+        }
+    </style>
+    
+    <div class="container tabContainer fix-dir">
+
+        <div class="gradient-grey4" id="referenceSampleGrey4">
+            <div class="serviceTab selectedServiceTab" tab="tabContent_AIHANGZHOU" style="border-left:0px; width:25%"><br />AI Hangzhou</div>
+            <div class="serviceTab" tab="tabContent_AIHONGKONG" style="border-left:0px; width:25%"><br />AI Hong Kong</div>
+            <div class="serviceTab" tab="tabContent_AIETIC" style="border-left:0px; width:25%">AI Hong Kong<br />(Eyewear Lab)</div>
+            <div class="serviceTab" tab="tabContent_AIBUFFALO" style="border-left:0px; width:25%"><br />AI Buffalo</div>
+            <div style="clear:both;"></div>
+        </div>
+
+        <div id="tabContent_AIETIC" class="tabContent container" style="display:none;">
+            <!-- [Tab 1 Panorama] -->
+            <div class="labNavButtonContainer" style="width:100%;">
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC" style="display:block;">Optical One</button><img class='blueDownCaret' src='/images/blue-down-caret.png' /></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC1" style="display:block;">Optical Two</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC2" style="display:block;">Physical &amp; Mechanical</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC3" style="display:block;">Nickel Testing</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC4" style="display:block;">Chemical</button></div>
+            </div>
+            <div class="panorama">
+              
+                <div class="panoramaImage" style="background-image: url(images/360labs/pano_etic.jpg);" imgwidth="1769"></div>
+        
+                <div class="panoramaWindow">
+                    <div class="hotspot" style="top:223px; left:223px;" machine="scatteredLight"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:158px; left:1381px;" machine="refractivePower"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:224px; left:938px;" machine="polarizedAxisOne"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:308px; left:1056px;" machine="laserReferencePoint"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:289px; left:1220px;" machine="polarizedFilter"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:302px; left:1176px;" machine="polarizedAxisTwo"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                </div>
+        
+                <div class="popupOverlay">
+                    <div class="popupSubWrapper">
+                        <img src="images/360labs/close_but.png" style="position:absolute; right:10px; top:10px;" />
+                        <div style="width:45%; display:inline-block; float:left; padding-right:15px;">
+                            <img class="machineImage" src="images/360labs/equipment6.jpg" style="width:100%; max-height:390px;" />
+                        </div>
+                        <div style="width:52%; display:inline-block; float:left;">
+                            <h2 class="machineTitle"></h2>
+                            <div class="machineContent"></div>
+                            <div class="backToTourButtonBox">
+                                <img src="images/360labs/back_to_tour_ico.png" /> 
+                                Back to the Tour
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+        
+            </div>
+
+            <div class="panoramaHeaderContent">
+                <div style="width:60%; float:left;">
+                    <ul style="padding-left:25px;">
+                        <li>Physical and mechanical testing, nickel release, flammability and corrosion testing, lens and optical testing, impact resistance, optical and UV radiation aging</li>
+                        <li>Equipped with Refractive power tester and prismatic power tester, scattered light tester, high velocity testers, video digital measurement tester, temperature and humidity chamber, etc.</li>
+                        <li>Some products tested at this lab are <a href="/testing/spectacle-frames">optical frames</a>, <a href="/testing/optical-lenses">optical lenses</a>, <a href="/testing/reading-glasses">reading glasses</a>, <a href="/testing/sunglasses">sunglasses</a> and <a href="/testing/eyewear">other eye protection devices</a></li>
+                    </ul>
+                    <a href="http://www.google.ca/maps/place/AsiaInspection/@22.309124,114.2242287,17z/data=!3m1!4b1!4m5!3m4!1s0x3403f8beafee7aa3:0x889bebcb85a9c0ec!8m2!3d22.309124!4d114.2264174?hl=en" target="_blank"><img src="images/blue-google-pin.png" style="width:20px;" /> Lab Location</a>
+                </div>
+                <div style="width:40%; float:right; text-align:right;">
+                    <img src="{{assetsDomain}}/images/labs360/accred_hoklas.png" class="accredIcon" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <!-- [Tab 1 Panorama] -->
+        </div>
+
+        <div id="tabContent_AIETIC1" class="tabContent container" style="display:none;">
+            <!-- [Tab 1 Panorama] -->
+            <div class="labNavButtonContainer" style="width:100%;">
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC" style="display:block;">Optical One</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC1" style="display:block;">Optical Two</button><img class='blueDownCaret' src='/images/blue-down-caret.png' /></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC2" style="display:block;">Physical &amp; Mechanical</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC3" style="display:block;">Nickel Testing</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC4" style="display:block;">Chemical</button></div>
+            </div>
+            <div class="panorama">
+              
+                <div class="panoramaImage" style="background-image: url(images/360labs/ETIC-Room1.jpg);" imgwidth="2255"></div>
+        
+                <div class="panoramaWindow">
+                    <div class="hotspot" style="top:213px; left:1669px;" machine="scatteredLight"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:177px; left:1135px;" machine="refractivePower"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:220px; left:2171px;" machine="prismaticPower"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:193px; left:1383px;" machine="laserReferencePoint"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                </div>
+        
+                <div class="popupOverlay">
+                    <div class="popupSubWrapper">
+                        <img src="images/360labs/close_but.png" style="position:absolute; right:10px; top:10px;" />
+                        <div style="width:45%; display:inline-block; float:left; padding-right:15px;">
+                            <img class="machineImage" src="images/360labs/equipment6.jpg" style="width:100%; max-height:390px;" />
+                        </div>
+                        <div style="width:52%; display:inline-block; float:left;">
+                            <h2 class="machineTitle"></h2>
+                            <div class="machineContent"></div>
+                            <div class="backToTourButtonBox">
+                                <img src="images/360labs/back_to_tour_ico.png" />
+                                Back to the Tour
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+        
+            </div>
+
+            <div class="panoramaHeaderContent">
+                <div style="width:60%; float:left;">
+                    <ul style="padding-left:25px;">
+                        <li>Physical and mechanical testing, nickel release, flammability and corrosion testing, lens and optical testing, impact resistance, optical and UV radiation aging</li>
+                        <li>Equipped with Refractive power tester and prismatic power tester, scattered light tester, high velocity testers, video digital measurement tester, temperature and humidity chamber, etc.</li>
+                        <li>Some products tested at this lab are <a href="/testing/spectacle-frames">optical frames</a>, <a href="/testing/optical-lenses">optical lenses</a>, <a href="/testing/reading-glasses">reading glasses</a>, <a href="/testing/sunglasses">sunglasses</a> and <a href="/testing/eyewear">other eye protection devices</a></li>
+                    </ul>
+                    <a href="http://www.google.ca/maps/place/AsiaInspection/@22.309124,114.2242287,17z/data=!3m1!4b1!4m5!3m4!1s0x3403f8beafee7aa3:0x889bebcb85a9c0ec!8m2!3d22.309124!4d114.2264174?hl=en" target="_blank"><img src="images/blue-google-pin.png" style="width:20px;" /> Lab Location</a>
+                </div>
+                <div style="width:40%; float:right; text-align:right;">
+                    <img src="{{assetsDomain}}/images/labs360/accred_hoklas.png" class="accredIcon" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <!-- [Tab 1 Panorama] -->
+        </div>
+
+        <div id="tabContent_AIETIC2" class="tabContent container" style="display:none;">
+            <!-- [Tab 1 Panorama] -->
+            <div class="labNavButtonContainer" style="width:100%;">
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC" style="display:block;">Optical One</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC1" style="display:block;">Optical Two</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC2" style="display:block;">Physical &amp; Mechanical</button><img class='blueDownCaret' src='/images/blue-down-caret.png' /></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC3" style="display:block;">Nickel Testing</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC4" style="display:block;">Chemical</button></div>
+            </div>
+            <div class="panorama">
+              
+                <div class="panoramaImage" style="background-image: url(images/360labs/ETIC-Room2.jpg);" imgwidth="1723"></div>
+        
+                <div class="panoramaWindow">
+                    <div class="hotspot" style="top:240px; left:159px;" machine="videoDigitalMeasurementTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:229px; left:1191px;" machine="highVelocityTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                </div>
+        
+                <div class="popupOverlay">
+                    <div class="popupSubWrapper">
+                        <img src="images/360labs/close_but.png" style="position:absolute; right:10px; top:10px;" />
+                        <div style="width:45%; display:inline-block; float:left; padding-right:15px;">
+                            <img class="machineImage" src="images/360labs/equipment6.jpg" style="width:100%; max-height:390px;" />
+                        </div>
+                        <div style="width:52%; display:inline-block; float:left;">
+                            <h2 class="machineTitle"></h2>
+                            <div class="machineContent"></div>
+                            <div class="backToTourButtonBox">
+                                <img src="images/360labs/back_to_tour_ico.png" /> 
+                                Back to the Tour
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+        
+            </div>
+
+            <div class="panoramaHeaderContent">
+                <div style="width:60%; float:left;">
+                    <ul style="padding-left:25px;">
+                        <li>Physical and mechanical testing, nickel release, flammability and corrosion testing, lens and optical testing, impact resistance, optical and UV radiation aging</li>
+                        <li>Equipped with Refractive power tester and prismatic power tester, scattered light tester, high velocity testers, video digital measurement tester, temperature and humidity chamber, etc.</li>
+                        <li>Some products tested at this lab are <a href="/testing/spectacle-frames">optical frames</a>, <a href="/testing/optical-lenses">optical lenses</a>, <a href="/testing/reading-glasses">reading glasses</a>, <a href="/testing/sunglasses">sunglasses</a> and <a href="/testing/eyewear">other eye protection devices</a></li>
+                    </ul>
+                    <a href="http://www.google.ca/maps/place/AsiaInspection/@22.309124,114.2242287,17z/data=!3m1!4b1!4m5!3m4!1s0x3403f8beafee7aa3:0x889bebcb85a9c0ec!8m2!3d22.309124!4d114.2264174?hl=en" target="_blank"><img src="images/blue-google-pin.png" style="width:20px;" /> Lab Location</a>
+                </div>
+                <div style="width:40%; float:right; text-align:right;">
+                    <img src="{{assetsDomain}}/images/labs360/accred_hoklas.png" class="accredIcon" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <!-- [Tab 1 Panorama] -->
+        </div>
+
+        <div id="tabContent_AIETIC3" class="tabContent container" style="display:none;">
+            <!-- [Tab 1 Panorama] -->
+            <div class="labNavButtonContainer" style="width:100%;">
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC" style="display:block;">Optical One</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC1" style="display:block;">Optical Two</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC2" style="display:block;">Physical &amp; Mechanical</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC3" style="display:block;">Nickel Testing</button><img class='blueDownCaret' src='/images/blue-down-caret.png' /></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC4" style="display:block;">Chemical</button></div>
+            </div>
+            <div class="panorama">
+              
+                <div class="panoramaImage" style="background-image: url(images/360labs/ETIC-Room3.jpg);" imgwidth="1427"></div>
+        
+                <div class="panoramaWindow">
+                    <div class="hotspot" style="top:255px; left:663px;" machine="fumeHoods"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:238px; left:517px;" machine="multiExtractionHeatingMantle"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:218px; left:1039px;" machine="FridgeChemicalStorage"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                </div>
+        
+                <div class="popupOverlay">
+                    <div class="popupSubWrapper">
+                        <img src="images/360labs/close_but.png" style="position:absolute; right:10px; top:10px;" />
+                        <div style="width:45%; display:inline-block; float:left; padding-right:15px;">
+                            <img class="machineImage" src="images/360labs/equipment6.jpg" style="width:100%; max-height:390px;" />
+                        </div>
+                        <div style="width:52%; display:inline-block; float:left;">
+                            <h2 class="machineTitle"></h2>
+                            <div class="machineContent"></div>
+                            <div class="backToTourButtonBox">
+                                <img src="images/360labs/back_to_tour_ico.png" /> 
+                                Back to the Tour
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+        
+            </div>
+
+            <div class="panoramaHeaderContent">
+                <div style="width:60%; float:left;">
+                    <ul style="padding-left:25px;">
+                        <li>Physical and mechanical testing, nickel release, flammability and corrosion testing, lens and optical testing, impact resistance, optical and UV radiation aging</li>
+                        <li>Equipped with Refractive power tester and prismatic power tester, scattered light tester, high velocity testers, video digital measurement tester, temperature and humidity chamber, etc.</li>
+                        <li>Some products tested at this lab are <a href="/testing/spectacle-frames">optical frames</a>, <a href="/testing/optical-lenses">optical lenses</a>, <a href="/testing/reading-glasses">reading glasses</a>, <a href="/testing/sunglasses">sunglasses</a> and <a href="/testing/eyewear">other eye protection devices</a></li>
+                    </ul>
+                    <a href="http://www.google.ca/maps/place/AsiaInspection/@22.309124,114.2242287,17z/data=!3m1!4b1!4m5!3m4!1s0x3403f8beafee7aa3:0x889bebcb85a9c0ec!8m2!3d22.309124!4d114.2264174?hl=en" target="_blank"><img src="images/blue-google-pin.png" style="width:20px;" /> Lab Location</a>
+                </div>
+                <div style="width:40%; float:right; text-align:right;">
+                    <img src="{{assetsDomain}}/images/labs360/accred_hoklas.png" class="accredIcon" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <!-- [Tab 1 Panorama] -->
+        </div>
+
+        <div id="tabContent_AIETIC4" class="tabContent container" style="display:none;">
+            <!-- [Tab 1 Panorama] -->
+            <div class="labNavButtonContainer" style="width:100%;">
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC" style="display:block;">Optical One</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC1" style="display:block;">Optical Two</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC2" style="display:block;">Physical &amp; Mechanical</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC3" style="display:block;">Nickel Testing</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIETIC4" style="display:block;">Chemical</button><img class='blueDownCaret' src='/images/blue-down-caret.png' /></div>
+            </div>
+            <div class="panorama">
+              
+                <div class="panoramaImage" style="background-image: url(images/360labs/ETIC-Room4.jpg);" imgwidth="1640"></div>
+        
+                <div class="panoramaWindow">
+                    <div class="hotspot" style="top:339px; left:501px;" machine="ftir"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:227px; left:888px;" machine="gcMs"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:246px; left:1069px;" machine="plc"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:153px; left:1061px;" machine="hplc"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:248px; left:1546px;" machine="gcMsHeadspace"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                </div>
+        
+                <div class="popupOverlay">
+                    <div class="popupSubWrapper">
+                        <img src="images/360labs/close_but.png" style="position:absolute; right:10px; top:10px;" />
+                        <div style="width:45%; display:inline-block; float:left; padding-right:15px;">
+                            <img class="machineImage" src="images/360labs/equipment6.jpg" style="width:100%; max-height:390px;" />
+                        </div>
+                        <div style="width:52%; display:inline-block; float:left;">
+                            <h2 class="machineTitle"></h2>
+                            <div class="machineContent"></div>
+                            <div class="backToTourButtonBox">
+                                <img src="images/360labs/back_to_tour_ico.png" /> 
+                                Back to the Tour
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+        
+            </div>
+
+            <div class="panoramaHeaderContent">
+                <div style="width:60%; float:left;">
+                    <ul style="padding-left:25px;">
+                        <li>Physical and mechanical testing, nickel release, flammability and corrosion testing, lens and optical testing, impact resistance, optical and UV radiation aging</li>
+                        <li>Equipped with Refractive power tester and prismatic power tester, scattered light tester, high velocity testers, video digital measurement tester, temperature and humidity chamber, etc.</li>
+                        <li>Some products tested at this lab are <a href="/testing/spectacle-frames">optical frames</a>, <a href="/testing/optical-lenses">optical lenses</a>, <a href="/testing/reading-glasses">reading glasses</a>, <a href="/testing/sunglasses">sunglasses</a> and <a href="/testing/eyewear">other eye protection devices</a></li>
+                    </ul>
+                    <a href="http://www.google.ca/maps/place/AsiaInspection/@22.309124,114.2242287,17z/data=!3m1!4b1!4m5!3m4!1s0x3403f8beafee7aa3:0x889bebcb85a9c0ec!8m2!3d22.309124!4d114.2264174?hl=en" target="_blank"><img src="images/blue-google-pin.png" style="width:20px;" /> Lab Location</a>
+                </div>
+                <div style="width:40%; float:right; text-align:right;">
+                    <img src="{{assetsDomain}}/images/labs360/accred_hoklas.png" class="accredIcon" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <!-- [Tab 1 Panorama] -->
+        </div>
+
+        <div id="tabContent_AIHONGKONG" class="tabContent container" style="display:none;">
+            <!-- [Tab 2 Panorama] -->
+            <div class="labNavButtonContainer">
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIHONGKONG" style="display:block;">Chemical</button><img class='blueDownCaret' src='/images/blue-down-caret.png' /></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="HKLAB2" style="display:block;">Physical</button></div>
+            </div>
+            <div style="margin:15px 0px; float:right;">{% trans %}Drag left or right for a 360° view{% endtrans %}</div>
+            <div style="clear:both;"></div>
+            <div class="panorama">
+              
+                <div class="panoramaImage" style="background-image: url(images/360labs/pano_hongkong.jpg);" imgwidth="1879"></div>
+        
+                <div class="panoramaWindow">
+                    <div class="hotspot" style="top:265px; left:-213px;" machine="multiExtractionHeating"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:210px; left:35px;" machine="fumeHoods"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:320px; left:172px;" machine="electronicPipettes"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:200px; left:439px;" machine="rotaryEvaporator"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:247px; left:919px;" machine="reciprocatingShakingWaterBath"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:290px; left:1388px;" machine="marsExpress"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                </div>
+        
+                <div class="popupOverlay">
+                    <div class="popupSubWrapper">
+                        <img src="images/360labs/close_but.png" style="position:absolute; right:10px; top:10px;" />
+                        <div style="width:45%; display:inline-block; float:left; padding-right:15px;">
+                            <img class="machineImage" src="images/360labs/equipment6.jpg" style="width:100%; max-height:390px;" />
+                        </div>
+                        <div style="width:52%; display:inline-block; float:left;">
+                            <h2 class="machineTitle"></h2>
+                            <div class="machineContent"></div>
+                            <div class="backToTourButtonBox">
+                                <img src="images/360labs/back_to_tour_ico.png" /> 
+                                Back to the Tour
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="panoramaHeaderContent">
+                <div style="width:60%; float:left;">
+                    <ul style="padding-left:25px;">
+                        <li>Physical and Chemical</li>
+                        <li>Equipped with GC-MS, ICP-OES, ICP-MS, HPLC, UV/Vis, FTIR, etc.</li>
+                        <li>Some products tested at this lab are <a href="/testing/toy-safety-and-lab-testing">toys &amp; children products</a> and <a href="/testing/promotional-products">promotional items</a></li>
+                    </ul>
+                    <a href="http://www.google.ca/maps/place/AsiaInspection/@22.309124,114.2242287,17z/data=!3m1!4b1!4m5!3m4!1s0x3403f8beafee7aa3:0x889bebcb85a9c0ec!8m2!3d22.309124!4d114.2264174?hl=en" target="_blank"><img src="images/blue-google-pin.png" style="width:20px;" /> Lab Location</a>
+                </div>
+                <div style="width:40%; float:right; text-align:right;">
+                    <img src="{{assetsDomain}}/images/labs360/accred_anab.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_cpsc.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_hoklas.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_cnas.png" class="accredIcon" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <!-- [Tab 2 Panorama] -->
+        </div>
+
+        <div id="tabContent_AIHANGZHOU" class="tabContent container">
+            <!-- [Tab 3 Panorama] -->
+            <div class="labNavButtonContainer">
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIHANGZHOU" style="display:block;">Mechanical</button><img class='blueDownCaret' src='/images/blue-down-caret.png' /></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="HZLAB2" style="display:block;">Primary Textile</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="HZLAB3" style="display:block;">Secondary Textile</button></div>
+            </div>
+            <div style="margin:15px 0px; float:right;">Drag left or right for a 360° view</div>
+            <div style="clear:both;"></div>
+            <div class="panorama">
+              
+                <div class="panoramaImage" style="background-image: url(images/360labs/pano_hangzhou.jpg);" imgwidth="3141"></div>
+        
+                <div class="panoramaWindow">
+                    <div class="hotspot" style="top:136px; left:595px;" machine="hz_torqueTest"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:243px; left:554px;" machine="hz_flexibilityTest"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:136px; left:548px;" machine="hz_compressionTest"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:129px; left:509px;" machine="hz_impactTest"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:198px; left:254px;" machine="hz_flammability"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:223px; left:91px;" machine="hz_incline"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:225px; left:-80px;" machine="hz_tumbleTest"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:242px; left:2394px;" machine="hz_kineticEnergyMeasurement"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:218px; left:1500px;" machine="hz_dropTesting"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:188px; left:953px;" machine="hz_tentFlam"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:233px; left:741px;" machine="hz_tensionTest"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                </div>
+        
+                <div class="popupOverlay">
+                    <div class="popupSubWrapper">
+                        <img src="images/360labs/close_but.png" style="position:absolute; right:10px; top:10px;" />
+                        <div style="width:45%; display:inline-block; float:left; padding-right:15px;">
+                            <img class="machineImage" src="images/360labs/equipment6.jpg" style="width:100%; max-height:390px;" />
+                        </div>
+                        <div style="width:52%; display:inline-block; float:left;">
+                            <h2 class="machineTitle"></h2>
+                            <div class="machineContent"></div>
+                            <div class="backToTourButtonBox">
+                                <img src="images/360labs/back_to_tour_ico.png" /> 
+                                Back to the Tour
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="panoramaHeaderContent">
+                <div style="width:60%; float:left;">
+                    <ul style="padding-left:25px;">
+                        <li>Physical and Chemical</li>
+                        <li>Equipped with GC-MS, ICP-OES, EDXRF, IC, HPLC, UV/Vis, Sound tester, etc.</li>
+                        <li>Some products tested at this lab are <a href="/testing/textile-fabric-quality-control">textiles</a>, <a href="/testing/food-packaging-and-containers">food contact items</a> and <a href="/testing/footwear">footwear</a></li>
+                    </ul>
+                    <a href="http://maps.google.com/maps?q=30.178459,120.1798573" target="_blank"><img src="images/blue-google-pin.png" style="width:20px;" /> Lab Location</a>
+                </div>
+                <div style="width:40%; float:right; text-align:right;">
+                    <img src="{{assetsDomain}}/images/labs360/accred_cma.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_cnas.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_cpsc.png" class="accredIcon" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <!-- [Tab 3 Panorama] -->
+        </div>
+
+        <div id="tabContent_AIBUFFALO" class="tabContent container" style="display:none;">
+            <!-- [Tab 4 Panorama] -->
+            <div style="margin:15px 0px; text-align:center;">Drag left or right for a 360° view</div>
+            <div class="panorama">
+              
+                <div class="panoramaImage" style="background-image: url(images/360labs/pano_buffalo.jpg);" imgwidth="1777"></div>
+        
+                <div class="panoramaWindow">
+                    <div class="hotspot" style="top:185px; left:-258px;" machine="multiExtractionHeatingMantle"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:195px; left:42px;" machine="ultrasonicBath"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:194px; left:218px;" machine="reciprocatingShakingWaterBath"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:230px; left:363px;" machine="analyticalBalance"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:236px; left:587px;" machine="hotBlockProDigestionSystem"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:240px; left:866px;" machine="marsExpress"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:139px; left:1079px;" machine="deionizedWaterSystem"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                </div>
+        
+                <div class="popupOverlay">
+                    <div class="popupSubWrapper">
+                        <img src="images/360labs/close_but.png" style="position:absolute; right:10px; top:10px;" />
+                        <div style="width:45%; display:inline-block; float:left; padding-right:15px;">
+                            <img class="machineImage" src="images/360labs/equipment6.jpg" style="width:100%; max-height:390px;" />
+                        </div>
+                        <div style="width:52%; display:inline-block; float:left;">
+                            <h2 class="machineTitle"></h2>
+                            <div class="machineContent"></div>
+                            <div class="backToTourButtonBox">
+                                <img src="images/360labs/back_to_tour_ico.png" />
+                                Back to the Tour
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="panoramaHeaderContent">
+                <div style="width:60%; float:left;">
+                    <ul style="padding-left:25px;">
+                        <li>Physical and Chemical</li>
+                        <li>Equipped with GC-MS, ICP-OES, Sound tester, etc.</li>
+                        <li>Some products tested at this lab are <a href="/testing/toy-safety-and-lab-testing">toys &amp; children products</a> and <a href="/testing/promotional-products">promotional items</a></li>
+                    </ul>
+                    <a href="http://www.google.ca/maps/place/AI%2FANSECO/@42.93255,-78.7263027,17z/data=!3m1!4b1!4m5!3m4!1s0x89d374c9042ecb79:0x9e6a78add95d3616!8m2!3d42.93255!4d-78.724114?hl=en" target="_blank"><img src="images/blue-google-pin.png" style="width:20px;" /> Lab Location</a>
+                </div>
+                <div style="width:40%; float:right; text-align:right;">
+                    <img src="{{assetsDomain}}/images/labs360/accred_anab.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_cpsc.png" class="accredIcon" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <!-- [Tab 4 Panorama] -->
+        </div>
+
+        <!-- Extra Tabs [BEGIN] -->
+        <div id="tabContent_HKLAB2" class="tabContent container" style="display:none;">
+            <!-- [Tab 5 Panorama] -->
+            <div class="labNavButtonContainer">
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIHONGKONG" style="display:block;">Chemical</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="HKLAB2" style="display:block;">Physical</button><img class='blueDownCaret' src='/images/blue-down-caret.png' /></div>
+            </div>
+            <div style="margin:15px 0px; float:right;">Drag left or right for a 360° view</div>
+            <div style="clear:both;"></div>
+            <div class="panorama">
+              
+                <div class="panoramaImage" style="background-image: url(images/360labs/pano_hk2.jpg);" imgwidth="1681"></div>
+        
+                <div class="panoramaWindow">
+                    <div class="hotspot" style="top:275px; left:89px;" machine="analyticalBalance"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:312px; left:963px;" machine="hz_incline"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:280px; left:679px;" machine="hz_tumbleTest"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:59px; left:895px;" machine="loadingSystem"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:289px; left:595px;" machine="transportationPlatform"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                </div>
+        
+                <div class="popupOverlay">
+                    <div class="popupSubWrapper">
+                        <img src="images/360labs/close_but.png" style="position:absolute; right:10px; top:10px;" />
+                        <div style="width:45%; display:inline-block; float:left; padding-right:15px;">
+                            <img class="machineImage" src="images/360labs/equipment6.jpg" style="width:100%; max-height:390px;" />
+                        </div>
+                        <div style="width:52%; display:inline-block; float:left;">
+                            <h2 class="machineTitle"></h2>
+                            <div class="machineContent"></div>
+                            <div class="backToTourButtonBox">
+                                <img src="images/360labs/back_to_tour_ico.png" />
+                                Back to the Tour
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="panoramaHeaderContent">
+                <div style="width:60%; float:left;">
+                    <ul style="padding-left:25px;">
+                        <li>Physical and Chemical</li>
+                        <li>Equipped with GC-MS, ICP-OES, ICP-MS, HPLC, UV/Vis, FTIR, etc.</li>
+                        <li>Some products tested at this lab are <a href="/testing/toy-safety-and-lab-testing">toys &amp; children products</a> and <a href="/testing/promotional-products">promotional items</a></li>
+                    </ul>
+                    <a href="http://www.google.ca/maps/place/AsiaInspection/@22.309124,114.2242287,17z/data=!3m1!4b1!4m5!3m4!1s0x3403f8beafee7aa3:0x889bebcb85a9c0ec!8m2!3d22.309124!4d114.2264174?hl=en" target="_blank"><img src="images/blue-google-pin.png" style="width:20px;" /> Lab Location</a>
+                </div>
+                <div style="width:40%; float:right; text-align:right;">
+                    <img src="{{assetsDomain}}/images/labs360/accred_anab.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_cpsc.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_hoklas.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_cnas.png" class="accredIcon" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <!-- [Tab 5 Panorama] -->
+        </div>
+
+        <div id="tabContent_HZLAB2" class="tabContent container" style="display:none;">
+            <!-- [Tab 6 Panorama] -->
+            <div class="labNavButtonContainer">
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIHANGZHOU" style="display:block;">Mechanical</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="HZLAB2" style="display:block;">Primary Textile</button><img class='blueDownCaret' src='/images/blue-down-caret.png' /></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="HZLAB3" style="display:block;">Secondary Textile</button></div>
+            </div>
+            <div style="margin:15px 0px; float:right;">Drag left or right for a 360° view</div>
+            <div style="clear:both;"></div>
+            <div class="panorama">
+              
+                <div class="panoramaImage" style="background-image: url(images/360labs/pano_hz_textile1.jpg);" imgwidth="2533"></div>
+        
+                <div class="panoramaWindow">
+                    <div class="hotspot" style="top:380px; left:66px;" machine="europeanWashingMachine"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:234px; left:362px;" machine="shrinkageTestOven"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:179px; left:1003px;" machine="colorfastnessOven"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:265px; left:1940px;" machine="automaticWashingMachine"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:173px; left:1253px;" machine="scorchSublimationTesters"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                </div>
+        
+                <div class="popupOverlay">
+                    <div class="popupSubWrapper">
+                        <img src="images/360labs/close_but.png" style="position:absolute; right:10px; top:10px;" />
+                        <div style="width:45%; display:inline-block; float:left; padding-right:15px;">
+                            <img class="machineImage" src="images/360labs/equipment6.jpg" style="width:100%; max-height:390px;" />
+                        </div>
+                        <div style="width:52%; display:inline-block; float:left;">
+                            <h2 class="machineTitle"></h2>
+                            <div class="machineContent"></div>
+                            <div class="backToTourButtonBox">
+                                <img src="images/360labs/back_to_tour_ico.png" />
+                                Back to the Tour
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="panoramaHeaderContent">
+                <div style="width:60%; float:left;">
+                    <ul style="padding-left:25px;">
+                        <li>Physical and Chemical</li>
+                        <li>Equipped with GC-MS, ICP-OES, EDXRF, IC, HPLC, UV/Vis, Sound tester, etc.</li>
+                        <li>Some products tested at this lab are <a href="/testing/textile-fabric-quality-control">textiles</a>, <a href="/testing/food-packaging-and-containers">food contact items</a> and <a href="/testing/footwear">footwear</a></li>
+                    </ul>
+                    <a href="http://maps.google.com/maps?q=30.178459,120.1798573" target="_blank"><img src="images/blue-google-pin.png" style="width:20px;" /> Lab Location</a>
+                </div>
+                <div style="width:40%; float:right; text-align:right;">
+                    <img src="{{assetsDomain}}/images/labs360/accred_cma.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_cnas.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_cpsc.png" class="accredIcon" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <!-- [Tab 6 Panorama] -->
+        </div>
+
+        <div id="tabContent_HZLAB3" class="tabContent container" style="display:none;">
+            <!-- [Tab 7 Panorama] -->
+            <div class="labNavButtonContainer">
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="AIHANGZHOU" style="display:block;">Mechanical</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="HZLAB2" style="display:block;">Primary Textile</button></div>
+                <div class="labNavButtonWrapper"><button class="btn-afi labViewButton" tab="HZLAB3" style="display:block;">Secondary Textile</button><img class='blueDownCaret' src='/images/blue-down-caret.png' /></div>
+            </div>
+            <div style="margin:15px 0px; float:right;">Drag left or right for a 360° view</div>
+            <div style="clear:both;"></div>
+            <div class="panorama">
+              
+                <div class="panoramaImage" style="background-image: url(images/360labs/pano_hz_textile2.jpg);" imgwidth="2658"></div>
+        
+                <div class="panoramaWindow">
+                    <div class="hotspot" style="top:189px; left:721px;" machine="circularLocusTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:160px; left:790px;" machine="colourFastnessRubbingTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:210px; left:502px;" machine="crimpTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:198px; left:1048px;" machine="elmendorfTearTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:182px; left:645px;" machine="iciPillingTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:127px; left:920px;" machine="instron3365Tester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:191px; left:566px;" machine="martindaleAbrasionPillingTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:196px; left:853px;" machine="microscope"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:154px; left:1376px;" machine="mullenCBurstTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:294px; left:-206px;" machine="analyticalBalance"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:167px; left:518px;" machine="randomTumblePillingTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:272px; left:922px;" machine="sampleCutter"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:236px; left:459px;" machine="tensionTestKit"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:151px; left:1303px;" machine="thicknessTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:163px; left:853px;" machine="twistCounterTester"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                    <div class="hotspot" style="top:245px; left:359px;" machine="wrapReelElectronic"><img src="images/360labs/hotspot-icon.png" style="width:100%;" /></div>
+                </div>
+        
+                <div class="popupOverlay">
+                    <div class="popupSubWrapper">
+                        <img src="images/360labs/close_but.png" style="position:absolute; right:10px; top:10px;" />
+                        <div style="width:45%; display:inline-block; float:left; padding-right:15px;">
+                            <img class="machineImage" src="images/360labs/equipment6.jpg" style="width:100%; max-height:390px;" />
+                        </div>
+                        <div style="width:52%; display:inline-block; float:left;">
+                            <h2 class="machineTitle"></h2>
+                            <div class="machineContent"></div>
+                            <div class="backToTourButtonBox">
+                                <img src="images/360labs/back_to_tour_ico.png" />
+                                Back to the Tour
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="panoramaHeaderContent">
+                <div style="width:60%; float:left;">
+                    <ul style="padding-left:25px;">
+                        <li>Physical and Chemical</li>
+                        <li>Equipped with GC-MS, ICP-OES, EDXRF, IC, HPLC, UV/Vis, Sound tester, etc.</li>
+                        <li>Some products tested at this lab are <a href="/testing/textile-fabric-quality-control">textiles</a>, <a href="/testing/food-packaging-and-containers">food contact items</a> and <a href="/testing/footwear">footwear</a></li>
+                    </ul>
+                    <a href="http://maps.google.com/maps?q=30.178459,120.1798573" target="_blank"><img src="images/blue-google-pin.png" style="width:20px;" /> Lab Location</a>
+                </div>
+                <div style="width:40%; float:right; text-align:right;">
+                    <img src="{{assetsDomain}}/images/labs360/accred_cma.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_cnas.png" class="accredIcon" />
+                    <img src="{{assetsDomain}}/images/labs360/accred_cpsc.png" class="accredIcon" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <!-- [Tab 7 Panorama] -->
+        </div>
+        <!-- Extra Tabs [END] -->
+
+    </div>
+
+    <p>{% trans %}ourlabs.accredidationLine{% endtrans %}</p>
+    <h2 style="margin-top:25px;">{% trans %}ourlabs.headingOne{% endtrans %}</h2>
+    {% trans %}ourlabs.contentOne{% endtrans %}
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    
+    <script type="text/javascript">
+        PlaceMode = false;
+        panoramaStop = false;
+
+        // Safari Detection
+        Safari = false;
+        var lastX;
+        if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) { Safari = true; }
+
+        // Hotspot Placer [Begin]
+        $(document).keydown(function(e) {
+            //O (79) - Enable Placement Mode
+            //K (75) - Disable Placement Mode and Dump Coordinates to Console
+            key = e.keyCode;
+            if( key == 79 ) {
+                PlaceMode = true;
+                $('.hotspot').each(function() {
+                    $(this).draggable({
+                        containment: 'parent',
+                        disabled: false
+                    });
+                    $(this).append("<div class='dragIdentify' style='position:absolute; top:0px; left:0px; background-color:yellow; font-size:10px;'>" + $(this).attr("machine") + "</div>");
+                });
+                console.log("----- Placement Mode Enabled -----");
+            }
+
+            if( key == 75 ) {
+                PlaceMode = false;
+                $('.hotspot').each(function() {
+                    $(this).draggable('disable');
+                });
+                $('.dragIdentify').remove();
+                console.log("----- Placement Mode Disabled -----");
+                parentPanorama = $(".panorama:visible");
+
+                backgroundPos = $(".panoramaImage", parentPanorama).css('backgroundPosition').split(" ");
+                xPos = parseInt(backgroundPos[0]);
+                xPos = -1 * xPos;
+
+                $(".hotspot", parentPanorama).each(function() {
+                    lft = parseInt($(this).css("left"));
+                    if(lft > (0-iconWidth) && lft < viewWidth) { // if it's on screen
+                        machine = $(this).attr("machine");
+                        x = Math.round(lft + xPos) ;
+                        y = Math.round($(this).position().top);
+                        console.log("["+machine+"] top:"+y+"px; left:"+x+"px;");
+                    }
+                });
+            }
+       });
+        // Hotspot Placer [End]
+
+        viewWidth = parseFloat($(".panoramaWindow:visible").css("width"));
+        iconWidth = parseFloat($(".hotspot").eq(0).css("width"));
+
+        resize360 = function() {
+            viewWidth = parseFloat($(".panoramaWindow:visible").css("width"));
+        }
+        $(window).load(resize360);
+        $(window).resize(resize360);
+
+        $(".panoramaWindow").mousedown(function (e) {
+            parentPanorama = $(this).closest(".panorama:visible");
+            imageWidth = parseInt($(".panoramaImage", parentPanorama).attr("imgwidth")); // width of background image
+            lastX = e.clientX;
+            $(this).mousemove(function (e) {
+                panoramaStop = true;
+                if(Safari) {
+                    mod = e.clientX - lastX;
+                    lastX = e.clientX;
+                } else {
+                    mod = e.originalEvent.movementX;    
+                }
+
+                direction = (mod >= 0 ? "right" : "left");
+                // Handle Hotspots
+                $(this).find(".hotspot").each(function() {
+                    x = $(this).position().left + mod;
+                    // If it goes out of view on the left
+                    if(x < (0-iconWidth) && direction == "left") {
+                        x = x + imageWidth;
+                    }
+                    // If it goes out of view on the right
+                    if(x > viewWidth && direction == "right" && mod != 0) {
+                        x = x - imageWidth;
+                    }
+                    $(this).css("left",x+"px");
+                });
+
+                // Handle Background Image
+                backgroundPos = $(".panoramaImage", parentPanorama).css('backgroundPosition').split(" ");
+                xPos = parseInt(backgroundPos[0]);
+                $(".panoramaImage", parentPanorama).css('backgroundPosition',xPos+mod+"px 0px");
+
+            });
+        }).mouseup(function () {
+            $(this).unbind('mousemove');
+        }).mouseout(function () {
+            $(this).unbind('mousemove');
+        });
+
+        $(".hotspot").click(function() {
+            if( !PlaceMode ) {
+                parentPanorama = $(this).closest(".panorama:visible");
+                id = $(this).attr("machine");
+                pop = $(".popupOverlay", parentPanorama);
+                $(".machineImage", pop).attr("src", popups[id].image.src);
+                $(".machineTitle", pop).html(popups[id].title);
+                $(".machineContent", pop).html(popups[id].content);
+                $(pop).show().animate({
+                    height: "100%",
+                    opacity: 1
+                }, 300);
+            }
+        });
+
+        $(".popupOverlay").click(function(){
+            $(this).animate({
+                height: "0px",
+                opacity: 0
+            }, 300, function() {
+                $(this).hide();
+            });
+        });
+
+        // To move the 360 view if they haven't moved it by themselves yet
+        panoramaShifter = setInterval(autoScrollPanorama, 50);
+        $(".hotspot").mouseover(function (e) { panoramaStop = true; });
+        function autoScrollPanorama() {
+            if(!panoramaStop) {
+
+                direction = "left";
+                mod = 2;
+                parentPanorama = $(".panorama:visible");
+                imageWidth = parseInt($(".panoramaImage", parentPanorama).attr("imgwidth")); // width of background image
+
+                // Handle Hotspots
+                $(".panoramaWindow", parentPanorama).find(".hotspot").each(function() {
+                    x = $(this).position().left + mod;
+                    // If it goes out of view on the right
+                    if(x > viewWidth) {
+                        x = x - imageWidth;
+                    }
+                    $(this).css("left",x+"px");
+                });
+
+                // Handle Background Image
+                backgroundPos = $(".panoramaImage", parentPanorama).css('backgroundPosition').split(" ");
+                xPos = parseInt(backgroundPos[0]);
+                $(".panoramaImage", parentPanorama).css('backgroundPosition',xPos+mod+"px 0px");
+
+            } else {
+                clearInterval(panoramaShifter);
+            }
+        }
+
+        //$(".labNavButtonWrapper").click(function(){
+        //    $(".blueDownCaret:visible").remove();
+        //    $(this).append("<img class='blueDownCaret' src='/images/blue-down-caret.png' />")
+        //});
+
+        //selecting different tabs when clicking on them on the service page
+        $(".labViewButton").click(function() {
+            target = $(this).attr("tab");
+            $(".tabContent").css("display","none");
+            $("#tabContent_"+target).css("display","block");
+        });
+
+        var popups = {};
+
+        popups.multiExtractionHeatingMantle = {};
+        popups.multiExtractionHeatingMantle.image = "images/360labs/equipment1.jpg";
+        popups.multiExtractionHeatingMantle.title = "Multi Extraction Heating Mantle";
+        popups.multiExtractionHeatingMantle.content = "<p>Used to apply heat to boiling flasks in a controlled and safe manner. This unit is used to reflux (boil) materials in solvent for Indirect Food Additive testing. The condensers are affixed to the top of each boiling flask to collect solvent vapors and direct them back into the boiling flask.</p>";
+
+        popups.ultrasonicBath = {};
+        popups.ultrasonicBath.image = "images/360labs/equipment2.jpg";
+        popups.ultrasonicBath.title = "Ultrasonic Bath";
+        popups.ultrasonicBath.content = "<p>Uses high frequency pressure (sound) waves to produce cavitation bubbles which can act directly on materials in the bath. The agitation produces high forces on materials which, depending on the liquids used, may act as an aid for cleaning or as used here, to dissolve materials in a solvent. This unit is used to aid the dissolution of materials into solvent for the analysis of phthalates.</p>";
+
+        popups.reciprocatingShakingWaterBath = {};
+        popups.reciprocatingShakingWaterBath.image = "images/360labs/equipment3.jpg";
+        popups.reciprocatingShakingWaterBath.title = "Reciprocating Shaking Water Bath";
+        popups.reciprocatingShakingWaterBath.content = "<p>Water baths are particularly useful for controlling the temperature of test samples in the lab. These units have variable speed reciprocating platforms that can allow for constant movement of samples when required. These water baths are used for the extraction of samples mimicking normal body temperature.  Additionally they are used for extraction and controlled cooling of Indirect Food Additive samples at a variety of temperatures.</p>";
+
+        popups.analyticalBalance = {};
+        popups.analyticalBalance.image = "images/360labs/equipment4.jpg";
+        popups.analyticalBalance.title = "Analytical Balance";
+        popups.analyticalBalance.content = "<p>A class of balance designed to measure mass down to the sub-milligram range. The measuring pan of this analytical balance is inside a transparent enclosure with doors so that dust does not collect and so any air currents in the room do not affect the balance's operation. This type of balance is used for nearly all tests performed in the lab that require the measurement of mass. This particular unit may also be set up with a device that allows for the determination of sample density. </p>";
+
+        popups.hotBlockProDigestionSystem = {};
+        popups.hotBlockProDigestionSystem.image = "images/360labs/equipment5.jpg";
+        popups.hotBlockProDigestionSystem.title = "Hot Block Pro Digestion System";
+        popups.hotBlockProDigestionSystem.content = "<p>The HotBlock is an efficient way to heat multiple samples with accurate temperature control and no cold spots. Hot Blocks use low cost, disposable, certified digestion vessels that speed and simplify digestion procedures. These vessels may also be used for volume measurement, can accept a unique filter and can be used as sample storage containers. They eliminate the need for glassware and glassware cleanup and therefore eliminate possible sample carryover. Digestion vessels contain no detectable background contaminants.</p>";
+
+        popups.marsExpress = {};
+        popups.marsExpress.image = "images/360labs/equipment6.jpg";
+        popups.marsExpress.title = "MARS Express – Microwave Accelerated Reaction System";
+        popups.marsExpress.content = "<p>The microwave accelerated reaction system is designed for digesting, dissolving, hydrolyzing a wide variety of materials in a laboratory setting. The system uses microwave energy to heat samples in acid solutions rapidly and at elevated pressures. This particular unit is set up to monitor the temperature of each sample during the digestion to provide feedback that allows for varying the amount of microwave energy to keep the temperature within preset conditions. Its main purpose is for preparing samples for analysis by inductively coupled plasma optical emission spectroscopy (ICP-OES).</p>";
+
+        popups.deionizedWaterSystem = {};
+        popups.deionizedWaterSystem.image = "images/360labs/equipment7.jpg";
+        popups.deionizedWaterSystem.title = "Deionized water System – RO/DI";
+        popups.deionizedWaterSystem.content = "<p>Uses reverse osmosis purification technology which employs a semipermeable membrane to remove ions, molecules, and larger particles from tap water. This purified water is stored and available for final treatment using ion exchange resins to produce Type 1 reagent grade water.</p>";
+
+        popups.scatteredLight = {};
+        popups.scatteredLight.image = "images/360labs/scattered-light-tester.jpg";
+        popups.scatteredLight.title = "Scattered light tester";
+        popups.scatteredLight.content = "<p>According to the eyewear testing requirement, To measure the reduced luminous coefficient of the filters to see how much the light scattered from the test filters</p>";
+        
+        popups.refractivePower = {};
+        popups.refractivePower.image = "images/360labs/img_refractivePower.jpg";
+        popups.refractivePower.title = "Refractive power tester";
+        popups.refractivePower.content = "<p>To test the spherical power, astigmatic power and prismatic powers of sun filters if there are any powers induced from production and if the power readings are less than the requirement</p>";
+        
+        popups.prismaticPower = {};
+        popups.prismaticPower.image = "images/360labs/img_prismaticPower.jpg";
+        popups.prismaticPower.title = "Prismatic power tester";
+        popups.prismaticPower.content = "<p>To test the spherical power, astigmatic power and prismatic powers of sun filters if there are any powers induced from production and if the power readings are less than the requirement</p>";
+        
+        popups.highVelocityTester = {};
+        popups.highVelocityTester.image = "images/360labs/img_highVelocityTester.jpg";
+        popups.highVelocityTester.title = "High velocity testers";
+        popups.highVelocityTester.content = "<p>To perform impact resistance test on PPE by placing the test sample inside the tester, adjust the required test speed to shot the steel ball on sample.</p>";
+        
+        popups.videoDigitalMeasurementTester = {};
+        popups.videoDigitalMeasurementTester.image = "images/360labs/img_videoDigitalMeasurementTester.jpg";
+        popups.videoDigitalMeasurementTester.title = "Video digital measurement tester";
+        popups.videoDigitalMeasurementTester.content = "<p>To perform the size measurement of very small components by projected size of parts on the screen.</p>";
+        
+        popups.FridgeChemicalStorage = {};
+        popups.FridgeChemicalStorage.image = "images/360labs/img_FridgeChemicalStorage.jpg";
+        popups.FridgeChemicalStorage.title = "Refrigerator for chemical storage ";
+        popups.FridgeChemicalStorage.content = "<p>Used to store some chemicals with specific storage environment such as low temperature before their expiry date.</p>";
+        
+        popups.ftir = {};
+        popups.ftir.image = "images/360labs/img_ftir.jpg";
+        popups.ftir.title = "FTIR";
+        popups.ftir.content = "<p>Named as Fourier transform infrared spectroscopy to obtain an infrared spectrum of absorption or emission of a solid, liquid or gas. To compare with a database with specific spectrum for different kind of materials, the material can be identified.</p>";
+        
+        popups.gcMs = {};
+        popups.gcMs.image = "images/360labs/img_gcMs.jpg";
+        popups.gcMs.title = "GC-MS";
+        popups.gcMs.content = "<p>Named as Gas chromatography-mass spectrometry (GC-MS) by combining the features of gas-chromatography and mass spectrometry to identify different substances within a specimen. Organic substances such as phthalates, organotin, polycyclic aromatic hydrocarbons (PAH) and etc. can be detected.</p>";
+        
+        popups.plc = {};
+        popups.plc.image = "images/360labs/img_plc.jpg";
+        popups.plc.title = "PLC";
+        popups.plc.content = "<p>Named as high-performance liquid chromatography (HPLC) to separate, identify, and quantify each component in a mixture. It relies on pumps to pass a pressurized liquid solvent containing the sample mixture through a column filled with a solid adsorbent material. Different components cause different flow rates with the absorbent material and lead to be separated. It is commonly used for detecting AZO dyes from textile materials.</p>";
+        
+        popups.hplc = {};
+        popups.hplc.image = "images/360labs/img_hplc.jpg";
+        popups.hplc.title = "HPLC";
+        popups.hplc.content = "<p>Named as high-performance liquid chromatography (HPLC) to separate, identify, and quantify each component in a mixture. It relies on pumps to pass a pressurized liquid solvent containing the sample mixture through a column filled with a solid adsorbent material. Different components cause different flow rates with the absorbent material and lead to be separated. It is commonly used for detecting AZO dyes from textile materials.</p>";
+        
+        popups.gcMsHeadspace = {};
+        popups.gcMsHeadspace.image = "images/360labs/img_gcMsHeadspace.jpg";
+        popups.gcMsHeadspace.title = "GC-MS with headspace";
+        popups.gcMsHeadspace.content = "<p>Named as Gas chromatography-mass spectrometry (GC-MS) by combining the features of gas-chromatography and mass spectrometry to identify different substances within a specimen. The headspace is used to analyze volatile compounds. This set-up is commonly used to evaluate food grade plastics.</p>";
+        
+        popups.polarizedAxisOne = {};
+        popups.polarizedAxisOne.image = "images/360labs/polarized-axis-tester.jpg";
+        popups.polarizedAxisOne.title = "Polarized axis tester";
+        popups.polarizedAxisOne.content = "<p>To test the polarization axis of a pair of polarized lenses</p>";
+        
+        popups.laserReferencePoint = {};
+        popups.laserReferencePoint.image = "images/360labs/laser-reference-point.jpg";
+        popups.laserReferencePoint.title = "Laser reference point tester";
+        popups.laserReferencePoint.content = "<p>To determine the reference point of filters</p>";
+        
+        popups.polarizedFilter = {};
+        popups.polarizedFilter.image = "images/360labs/polarized-filter.jpg";
+        popups.polarizedFilter.title = "Polarized filter tester";
+        popups.polarizedFilter.content = "<p>To check if the filter is polarized filter. If the filter is polarized filter, an image of the tester is able to be observed through the filter.</p>";
+        
+        popups.polarizedAxisTwo = {};
+        popups.polarizedAxisTwo.image = "images/360labs/polarized-axis-tester-2.jpg";
+        popups.polarizedAxisTwo.title = "Polarized Axis tester";
+        popups.polarizedAxisTwo.content = "<p>To test and determine the polarization axis of a single filter</p>";
+        
+        popups.multiExtractionHeating = {};
+        popups.multiExtractionHeating.image = "images/360labs/multi-extraction-heating.jpg";
+        popups.multiExtractionHeating.title = "Multi Extraction Heating Mantle";
+        popups.multiExtractionHeating.content = "<p>Used to apply heat to boiling flasks in a controlled and safe manner. This unit is used to reflux (boil) materials in solvent for Indirect Food Additive testing. The condensers are affixed to the top of each boiling flask to collect solvent vapors and direct them back into the boiling flask.</p>";
+        
+        popups.fumeHoods = {};
+        popups.fumeHoods.image = "images/360labs/fume-hoods.jpg";
+        popups.fumeHoods.title = "Fume Hoods ";
+        popups.fumeHoods.content = "<p>Used to handle chemical preparation work for specimens. Chemicals are mixed with the specimen in a safety environment for the ventilation system at the top of fume hood and a sliding tempered-glass door.</p>";
+        
+        popups.electronicPipettes = {};
+        popups.electronicPipettes.image = "images/360labs/electronic-pipettes.jpg";
+        popups.electronicPipettes.title = "Electronic Pipettes";
+        popups.electronicPipettes.content = "<p>Used to suck and eject chemicals with quantity in high precision mainly for organic chemicals testing such as phthalates content.</p>";
+        
+        popups.rotaryEvaporator = {};
+        popups.rotaryEvaporator.image = "images/360labs/rotary-evaporator.jpg";
+        popups.rotaryEvaporator.title = "Rotary Evaporator";
+        popups.rotaryEvaporator.content = "<p>Used to remove solvents from specimen by evaporation. A motor unit rotates the evaporation flask containing the specimen. A vacuum system keeps reducing the pressure within the evaporator system with the vapor duct transmitting the vapor being drawn off the specimen. A heater fluid bath heats the specimen.</p>";
+
+        popups.hz_torqueTest = {};
+        popups.hz_torqueTest.image = "images/360labs/hz_torqueTest.png";
+        popups.hz_torqueTest.title = "Torque Test";
+        popups.hz_torqueTest.content = "<p>Any toy with a projection, part, or assembly that a child can grasp with at least the thumb and forefinger or the teeth shall be tested. Product is placed in torque gauge and torque in each direction (clockwise and counter clockwise) shall be applied. Torque definition: a turning or twisting force</p>";
+        
+        popups.hz_flexibilityTest = {};
+        popups.hz_flexibilityTest.image = "images/360labs/hz_flexibilityTest.png";
+        popups.hz_flexibilityTest.title = "Flexibility Test";
+        popups.hz_flexibilityTest.content = "<p>'Flexure test' is for determining compliance for wires or rods used a flexible skeletons.</p>";
+        
+        popups.hz_compressionTest = {};
+        popups.hz_compressionTest.image = "images/360labs/hz_compressionTest.png";
+        popups.hz_compressionTest.title = "Compression test";
+        popups.hz_compressionTest.content = "<p>Any area on the surface of a toy that is accessible to a child and inaccessible to flat surface contact during the impact test shall be subject to this test. Compression force of predetermined amount is placed on surface.</p>";
+        
+        popups.hz_impactTest = {};
+        popups.hz_impactTest.image = "images/360labs/hz_impactTest.png";
+        popups.hz_impactTest.title = "Impact Test";
+        popups.hz_impactTest.content = "<p>These tests are intended to simulate situations in which possible damage can occur to a toy by reason of its falling from a crib, table, counter top, or other impact situations that may occur as a result of reasonable foreseeable abuse. (drop, tip over, and tumble test fall under this)</p>";
+        
+        popups.hz_flammability = {};
+        popups.hz_flammability.image = "images/360labs/hz_flammability.png";
+        popups.hz_flammability.title = "Flammability";
+        popups.hz_flammability.content = "<p>Flammability can fall under many different categories. Flam 1610, flam or solids, tent flam etc etc. I would find out what that lab has capability for and just add bullet points for test names.</p>";
+        
+        popups.hz_incline = {};
+        popups.hz_incline.image = "images/360labs/hz_incline.png";
+        popups.hz_incline.title = "Incline";
+        popups.hz_incline.content = "<p>Stability of ride on toys, and toy seats. Intended to minimize unexpected hazards that could be caused by a toy that can tip easily on an incline. Weight is placed on product which is on a predetermined include- record signed of tip over or stability issues.</p>";
+        
+        popups.hz_tumbleTest = {};
+        popups.hz_tumbleTest.image = "images/360labs/hz_tumbleTest.png";
+        popups.hz_tumbleTest.title = "Tumble Test";
+        popups.hz_tumbleTest.content = "<p>Wheeled toys weighing more than 3lbs but not more than 10 lbs shall be tumbled down a flight of six steps with risers not less than 7in. high.</p>";
+        
+        popups.hz_kineticEnergyMeasurement = {};
+        popups.hz_kineticEnergyMeasurement.image = "images/360labs/hz_kineticEnergyMeasurement.png";
+        popups.hz_kineticEnergyMeasurement.title = "Kinetic Energy Measurement";
+        popups.hz_kineticEnergyMeasurement.content = "<p>Used to measure the speed of projectile objects.</p>";
+        
+        popups.hz_dropTesting = {};
+        popups.hz_dropTesting.image = "images/360labs/hz_dropTesting.png";
+        popups.hz_dropTesting.title = "Drop Testing";
+        popups.hz_dropTesting.content = "<p>Toys falling below a specific weight limit based on age range shall be dropped in different orientations onto a specific impact area.</p>";
+        
+        popups.hz_tentFlam = {};
+        popups.hz_tentFlam.image = "images/360labs/hz_tentFlam.png";
+        popups.hz_tentFlam.title = "Tent Flam";
+        popups.hz_tentFlam.content = "<p>Flammability test that burns tent components. Test is conducted on the Outer material, the inner materials and the floor material.</p>";
+        
+        popups.hz_tensionTest = {};
+        popups.hz_tensionTest.image = "images/360labs/hz_tensionTest.png";
+        popups.hz_tensionTest.title = "Tension Test";
+        popups.hz_tensionTest.content = "<p>Any toy with a projection, part, or assembly that a child can grasp with at least the thumb and forefinger or the teeth shall be tested. A clamp capable of applying a tension load to the component shall be applied and appropriate amount of force used to pull.</p>";
+
+        popups.loadingSystem = {};
+        popups.loadingSystem.image = "images/360labs/loading-system.jpg";
+        popups.loadingSystem.title = "Loading System";
+        popups.loadingSystem.content = "<p>Used to lift up a mass up to 1 ton for evaluating any situation happen of an item under overloading.</p>";
+
+        popups.transportationPlatform = {};
+        popups.transportationPlatform.image = "images/360labs/transportation-platform.jpg";
+        popups.transportationPlatform.title = "ISTA-1A Transportation Platform";
+        popups.transportationPlatform.content = "<p>Used to provide a vibrating surface simulating the situation during transportation. It is special designed for packaged-products in 150 lb (68kg) or less. The packaged-products are challenged their capability to withstand transport hazards.</p>";
+// New Popups
+        popups.automaticWashingMachine = {};
+        popups.automaticWashingMachine.image = "images/360labs/automatic-washing-machine.png";
+        popups.automaticWashingMachine.title = "Whirlpool Automatic Washing Machine";
+        popups.automaticWashingMachine.content = "To determinate the dimensional changes of fabrics or garments when subjected to home laundering procedures used by consumers. Four washing temperatures, three agitation cycles, two rinse temperatures and four drying procedures cover the common home care options available to consumers using current laundering machines.";
+
+        popups.circularLocusTester = {};
+        popups.circularLocusTester.image = "images/360labs/circular-locus-tester.png";
+        popups.circularLocusTester.title = "Circular Locus Tester";
+        popups.circularLocusTester.content = "The Circular Locus Tester swiftly tests surface deterioration and quality of fabrics (wool, chemical fiber, mixed, kitted and woven fabrics). Using an active friction system, fabric is rubbed against a nylon brush and abrasive or an abrasive only under controlled conditions. Results of the test are achieved in minutes. The relative motion of the locus specimen grip and the abrasive platform is a circle with a relative speed of 60+/-1 r/min. The grip offers pressure to the specimen which is adjustable with a tolerance of +/-1%. It can perform standards GB/T 4802.1-2008.";
+
+        popups.colorfastnessOven = {};
+        popups.colorfastnessOven.image = "images/360labs/colorfastness-oven.png";
+        popups.colorfastnessOven.title = "Colorfastness Oven";
+        popups.colorfastnessOven.content = "To provide the constant temperature during the colorfastness test process.";
+
+        popups.colourFastnessRubbingTester = {};
+        popups.colourFastnessRubbingTester.image = "images/360labs/colour-fastness-rubbing-tester.png";
+        popups.colourFastnessRubbingTester.title = "Colour Fastness to Rubbing Tester";
+        popups.colourFastnessRubbingTester.content = "The tester performs a simple test of rubbing the sample to allow the evaluation of colour fastness. Crocking cloth (also known as Cotton Lawn) is placed on the Rubbing Finger at the head of the instrument which is then rubbed on the sample. It can be used for testing a number of materials including textiles, carpets, coatings and painted surfaces.";
+
+        popups.crimpTester = {};
+        popups.crimpTester.image = "images/360labs/crimp-tester.png";
+        popups.crimpTester.title = "Crimp Tester";
+        popups.crimpTester.content = "To calculate the crimp in yarn affected by knitting or weaving, to determine actual yarn usage. Threads are removed from a strip of fabrics of known length, straightened by a tension, then measured in the straightened state.";
+
+        popups.elmendorfTearTester = {};
+        popups.elmendorfTearTester.image = "images/360labs/elmendorf-tear-tester.png";
+        popups.elmendorfTearTester.title = "Elmendorf Tear Tester";
+        popups.elmendorfTearTester.content = "To determine the ballistic tearing strength of textiles. Three interchangeable pendulums ranging from 8,000 to 64,000 Millinewtons (mN) can be selected separately for multiple test method compliance.";
+
+        popups.europeanWashingMachine = {};
+        popups.europeanWashingMachine.image = "images/360labs/european-washing-machine.png";
+        popups.europeanWashingMachine.title = "Standardised European Washing Machine";
+        popups.europeanWashingMachine.content = "The Wascator has long since established itself as the standard reference washing machine for textile laboratories. The Wascator is used mainly to determine fabric or garment shrinkage and appearance after washing and complies fully with the requirement of European standards and retailers’ own test methods.";
+
+        popups.iciPillingTester = {};
+        popups.iciPillingTester.image = "images/360labs/ici-pilling-tester.png";
+        popups.iciPillingTester.title = "ICI Pilling Tester";
+        popups.iciPillingTester.content = "To determinate the resistance to pilling and surface change of textile fabrics. Specimens are mounted on polyurethane tubes and tumbled randomly in a cork-lined box at a constant rotational speed. Fuzzing and pilling is assessed visually after a defined period of tumbling.";
+
+        popups.instron3365Tester = {};
+        popups.instron3365Tester.image = "images/360labs/instron-3365-tester.png";
+        popups.instron3365Tester.title = "Instron 3365 Tester";
+        popups.instron3365Tester.content = "To determinate the strength propensity of fabric and garments, such as seam strength, tensile strength, tear strength etc.";
+
+        popups.martindaleAbrasionPillingTester = {};
+        popups.martindaleAbrasionPillingTester.image = "images/360labs/martindale-abrasion-pilling-tester.png";
+        popups.martindaleAbrasionPillingTester.title = "Martindale Abrasion and Pilling Tester";
+        popups.martindaleAbrasionPillingTester.content = "The Martindale is a versatile instrument capable of multiple abrasion and pilling tests. It uses precision components to deliver the exact abrasion or pilling movement required by all international and retailer standards. The touch screen controller, with the most common functions accessible in one or two touches, makes this the easiest Martindale in the market to use. Our 9-position instrument is designed to conserve valuable bench space while providing maximum testing capacity.";
+
+        popups.microscope = {};
+        popups.microscope.image = "images/360labs/microscope.png";
+        popups.microscope.title = "Microscope";
+        popups.microscope.content = "It is auxiliary equipment which will help the technician to judge the end point of abrasion resistance test.";
+
+        popups.mullenCBurstTester = {};
+        popups.mullenCBurstTester.image = "images/360labs/mullen-c-burst-tester.png";
+        popups.mullenCBurstTester.title = "The Mullen C Burst Tester";
+        popups.mullenCBurstTester.content = "The Mullen C Burst Tester is engineered to gauge pressure readings up to 200 PSI for testing textiles and non-wovens. Its motorized drive ensures constant pressure and its hand lever clamp delivers quick, effortless testing.";
+
+        popups.phMeter = {};
+        popups.phMeter.image = "images/360labs/ph-meter.png";
+        popups.phMeter.title = "pH Meter";
+        popups.phMeter.content = "To determine the solution pH value when do the colorfastness test, such as Perspiration fastness, sea water fastness etc.";
+
+        popups.randomTumblePillingTester = {};
+        popups.randomTumblePillingTester.image = "images/360labs/random-tumble-pilling-tester.png";
+        popups.randomTumblePillingTester.title = "Random Tumble Pilling Tester";
+        popups.randomTumblePillingTester.content = "To determinate the propensity of a fabric to form pills and other related surface changes on textiles.";
+
+        popups.sampleCutter = {};
+        popups.sampleCutter.image = "images/360labs/sample-cutter.png";
+        popups.sampleCutter.title = "Sample Cutters";
+        popups.sampleCutter.content = "Sample Cutters are used to create samples for testing. The cutters enable you to produce accurate specimens quickly. They can be used for a range of materials including woven, nonwoven and knitted textiles, as well as carpet, film, foam and board. Sample cutters can be supplied for different diameters from 38mm to 140mm.";
+
+        popups.scorchSublimationTesters = {};
+        popups.scorchSublimationTesters.image = "images/360labs/scorch-sublimation-testers.png";
+        popups.scorchSublimationTesters.title = "Scorch/Sublimation Testers";
+        popups.scorchSublimationTesters.content = "The Scorch Tester determines colorfastness to hot pressing and dry heat. This instrument is available in two different hot plate sizes. The top plate has a unique hinge and spring pin design to ensure even pressure across the sample. Each plate temperature is individually controlled and a timer is also integrated with the device.";
+
+        popups.shrinkageTestOven = {};
+        popups.shrinkageTestOven.image = "images/360labs/shrinkage-test-oven.png";
+        popups.shrinkageTestOven.title = "Shrinkage Test Oven";
+        popups.shrinkageTestOven.content = "To provide the constant temperature during the shrinkage test, it can accelerate the fabric or garment to dry.";
+
+        popups.tensionTestKit = {};
+        popups.tensionTestKit.image = "images/360labs/tension-test-kit.png";
+        popups.tensionTestKit.title = "Tension Test Kit";
+        popups.tensionTestKit.content = "To determine whether the components of child-related products can be removed by tensile force. A force gauge is used in conjunction with a clamp to record the force applied. Any projection, part or assembly of a child-related product that a child can grasp with at least the thumb & forefinger or the teeth shall be subject to the tension test.";
+
+        popups.thicknessTester = {};
+        popups.thicknessTester.image = "images/360labs/thickness-tester.png";
+        popups.thicknessTester.title = "Thickness Tester";
+        popups.thicknessTester.content = "To determine the thickness of textiles and textile products when under a specified pressure.";
+
+        popups.twistCounterTester = {};
+        popups.twistCounterTester.image = "images/360labs/twist-counter-tester.png";
+        popups.twistCounterTester.title = "Twist Counter Tester";
+        popups.twistCounterTester.content = "To determinate the twist of yarn or yarn removed from the fabric. A length of yarn under tension is secured in two clamps which are at a known distance apart, one of these clamps is then rotated until all twist is removed from the length of yarn.";
+
+        popups.wrapReelElectronic = {};
+        popups.wrapReelElectronic.image = "images/360labs/wrap-reel-electronic.png";
+        popups.wrapReelElectronic.title = "Wrap Reel Electronic";
+        popups.wrapReelElectronic.content = "To produce skeins of yarn of a predetermined length and number of turns for count. Complete with yarn package stand and pretension device, fitted with predetermined counter.";
+
+        $.each(popups, function(index, obj) {
+            image = obj.image;
+            obj.image = new Image();
+            obj.image.src = image;
+        });
+
+    </script>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts  '@AIResponsiveBundle/Resources/public/js/industryFixedMenu_v2.js' filter='?uglifyjs2' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}
+
+{% block offerbox %}
+    {% include 'AIResponsiveBundle:Default:PricingBox.html.twig' %}
+{% endblock %}
+

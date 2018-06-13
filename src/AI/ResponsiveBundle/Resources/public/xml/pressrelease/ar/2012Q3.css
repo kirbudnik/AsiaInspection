@@ -1,0 +1,25 @@
+#block-para{
+	width:315px;
+	float:left;
+}
+
+#picture{
+	float:left;
+	text-align:center;
+	margin-top:14px;
+	margin-left:10px;
+	font-style:italic;
+}
+
+#picture p{
+	width:320px;
+	margin: 0px 0px 0px 0px;
+}
+
+a{
+	color:#385090;
+}
+
+h2{
+	font-size:16px;
+}

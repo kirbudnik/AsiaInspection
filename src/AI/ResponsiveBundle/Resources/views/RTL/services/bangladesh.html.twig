@@ -1,0 +1,86 @@
+{% extends 'AIResponsiveBundle:RTL:services/serviceBase.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined %}{{pageKeywords}}{% endif %}{% endblock %}
+{% block pagename %}{{type1}}{% endblock %}
+{% block bigTitle %} {{xml.InspAndAudit.title}} {% endblock %}
+{% block smallText %}
+  <div class="pwhite">{{xml.InspAndAudit.subtitle|raw}}</div>
+  <!-- <a href="/register" role="button"  class="btn btn-primary btn-regular headerButton">{{'Get Started'|trans}}</a> -->
+{% endblock %}
+
+{# Set Template Variables [BEGIN] #}
+{% set priceAsia = "$" + price_Inspect_Low %}
+{% set priceEurope = "$" + price_Inspect_High %}
+{% set demoLink = "/popup?video=watchdemo&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=420&amp;width=730&amp;modal=true" %}
+{% set videoLink = "/popup?video=watchinspection&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=440&amp;width=730&amp;modal=true" %}
+{% set watchWhat = "Watch a Real Inspection" %}
+{% set inspectionImage = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=psi" %}
+{% set videoLinkSmall = "https://www.youtube.com/v/gt1ZyhcOD78?version=3%26autoplay=%26showinfo=0%26vq=hd720" %}
+{% set inspectionImage1 = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=psi" %}
+{# Set Template Variables [END] #}
+
+{% block serviceText %}
+<h2 class="marginZero padding15" style="font-weight:bold;"> {{xml.InspAndAudit.title}}</h2>
+    <ul class="smallbullet marginZero ">
+    {%for li in xml.InspAndAudit.listitem%}
+    <li style='margin-bottom:10px;'>{{li|replace({'{{priceIA}}': price_Inspect_Low})}}</li>
+    {%endfor%}
+   </ul>
+
+  <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.QCinBangladesh.title}}</h2>
+
+     <ul class="col-md-6 col-xs-12" style="list-style:none;padding-left:0px;padding-right:0px;">
+      {%for li in xml.QCinBangladesh.leftList.li%}
+      <li ><div class="col-xs-1 paddingLeftRightZero" style="float:left;padding-top:2px;"><img src='https://s3.asiainspection.com/images/tic.gif'></div><div class="col-xs-11 paddingLeftRightZero" style="padding-bottom:10px;">{{li|raw}}</div></li>
+      {%endfor%}
+    </ul>
+
+
+     <ul class="col-md-6 col-xs-12" style="list-style:none;padding-left:0px;padding-right:0px;">
+      {%for li in xml.QCinBangladesh.rightList.li%}
+     <li ><div class="col-xs-1 paddingLeftRightZero" style="float:left;padding-top:2px;"><img src='https://s3.asiainspection.com/images/tic.gif'></div><div class="col-xs-11 paddingLeftRightZero" style="padding-bottom:10px;">{{li|raw}}</div></li>
+      {%endfor%}
+     </ul>
+    <div style="clear:both"></div>
+  {% if xml.SupplierAuditsBang.title is defined %}
+  <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.SupplierAuditsBang.title}}</h2>
+  <p>{{xml.SupplierAuditsBang.text1|raw}}</p>
+  <ul class="col-md-12 col-xs-12" style="list-style:none;padding-left:0px;padding-right:0px;">
+  {%for li in xml.SupplierAuditsBang.li%}
+  <li ><div class="col-xs-1 paddingLeftRightZero" style="float:left;padding-top:2px;"><img src='https://s3.asiainspection.com/images/tic.gif'></div><div class="col-xs-11 paddingLeftRightZero" style="padding-bottom:10px;">{{li}}</div></li>
+  {%endfor%}
+  </ul>
+  <br/>
+  <p>{{xml.SupplierAuditsBang.text2}}</p>
+
+  <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.ProdInspBang.title}}</h2>
+  <p>{{xml.ProdInspBang.text|raw}}</p>
+  <ul class="col-md-12 col-xs-12" style="list-style:none;padding-left:0px;padding-right:0px;">
+  {%for li in xml.ProdInspBang.li%}
+  <li ><div class="col-xs-1 paddingLeftRightZero" style="float:left;padding-top:2px;"><img src='https://s3.asiainspection.com/images/tic.gif'></div><div class="col-xs-11 paddingLeftRightZero" style="padding-bottom:10px;">{{li|raw}}</div></li>
+  {%endfor%}
+  </ul>
+  {% endif %}
+
+  <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.Obstacles.obTitle}}</h2>
+    <div id="map-bangladesh">
+    <img id="bangladesh_map_img" src='https://s3.asiainspection.com/images/bangladesh_map.jpg' alt="Bangladesh inspection map">
+    <br>
+    <div id="click-link">
+      <a href="/quality-control-coverage">
+        <span>{{xml.mapClick}}</span>
+      </a>
+    </div>
+  </div>
+    <p>{{xml.Obstacles.obText|raw}}</p>
+   <h2 class="marginZero padding15" style="font-weight:bold;padding-top:5px">{{xml.Obstacles.agTitle}}</h2>
+   <p >{{xml.Obstacles.agText}}</p>
+   <p><a id="learn_more" href="javascript:;">{{xml.Obstacles.learnMore.title}}</a></p>
+
+   <div id="learn_more_content" style="display:none;">
+     {{xml.Obstacles.learnMore.text|raw}}
+   </div>
+ <p class="marginZero">{{xml.Obstacles.footText|raw}}</p>
+
+{% endblock %}

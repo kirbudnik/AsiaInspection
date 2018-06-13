@@ -1,0 +1,998 @@
+{% if app.request.locale == "ar" %} {% set twigBase = "AIResponsiveBundle:RTL:extra/fullPageBase.html.twig" %} {% else %} {% set twigBase = "AIResponsiveBundle:extra:fullPageBase.html.twig" %} {% endif %}
+{% extends twigBase %}
+
+{% block title %}Eyewear Testing &amp; Inspection – HOKLAS Accredited Labs | AsiaInspection{% endblock %}
+{% block pageDescription %}Ensure compliance of your eyewear products to international and national standards with AI’s HOKLAS accredited testing labs and dedicated inspectors.{% endblock %}
+{% block pageKeywords %}eyewear testing, eyewear inspection, eyewear lab testing{% endblock %}
+{% block pagename %}eyewearTesting{% endblock %}
+
+{% block navigation %}
+    {% include('AIResponsiveBundle:extra:nav-eyeweartesting.html.twig') %}
+{% endblock %}
+
+{% block body %}
+
+<style type="text/css">
+    body { overflow-x:hidden !important; }
+    .subsection {
+        width: 100%;
+        padding:50px 15px;
+        position:relative;
+    }
+    .subsection:nth-child(odd) { background-color:#ffffff; }
+    .subsection:nth-child(even) { background-color:#f7f7f7; }
+
+    .homePriceContent {
+        padding:30px 50px !important;
+    }
+    .mainSubHeader {
+        margin-bottom:0px;
+    }
+    .eyewearWhyBox {
+        width:20%;
+        display:inline-block;
+        float:left;
+        margin:10px 50px;
+        max-width:180px;
+    }
+    #sec3wrapper {
+        display:inline-block;
+        max-width:800px;
+    }
+    #HoklasTestsTable {
+        border-collapse:collapse;
+        border-spacing:1px;
+    }
+    #HoklasTestsTable td {
+        background-color:#EFEFEF;
+        text-align:left;
+        padding:8px 20px;
+        width:30%;
+    }
+    .eyewearTestingDropDownWrapper {
+        width:49%;
+        max-width:567px;
+        margin:2px;
+        display:inline-block;
+        margin-bottom:15px;
+    }
+
+    .eyewearTestingDropDownHeader {
+        min-height:105px;
+        width:100%;
+        display:inline-block;
+        background-repeat:no-repeat !important;
+        background-size:cover;
+        cursor:pointer;
+        padding:10px;
+    }
+
+    .eyewearTestingDropDownTitle {
+        display:inline-block;
+        float:left;
+        color:white;
+        font-weight:bold;
+        text-transform: uppercase;
+        font-size:1.25em;
+        margin-top:25px;
+        width:90%;
+    }
+
+    .eyewearTestingDropDownContentBox {
+        padding:15px;
+        background-color:#EBEBEB;
+        text-align:left;
+        display:none;
+    }
+
+    #pricingBox {
+        background: url('https://s3.asiainspection.com/images/eyewear/eyewear_pricing_hero_[md].jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+
+    .home-pricing-box {
+        max-width:300px;
+    }
+
+    #eyewearTailoredBox {
+        background: url('https://s3.asiainspection.com/images/eyewear/QC_left_IMG.jpg');
+        background-position:left;
+        background-repeat:no-repeat;
+        background-size:auto 100%;
+        background-color:#DADFE5;
+    }
+    #eyewearTailoredContentBox {
+        display:inline-block;
+        margin:50px 15px;
+        width:50%;
+        box-sizing:border-box;
+        float:right;
+    }
+    #eyewearSAIbox {
+        display:inline-block;
+        float:left;
+    }
+    #eyewearBSIbox {
+        display:inline-block;
+        float:right;
+    }
+    .eyewearArrowSwitch {
+        float:right;
+        margin-top:30px;
+    }
+
+    #eyewearSec6wrapper {
+        margin:10px 0px;
+        background-color:#f0f0f0;
+        display:inline-block;
+        text-align:center;
+    }
+    
+    .eyewearSec6ul {
+        padding-left: 15px;
+        float:left;
+        margin:15px 0px 0px 30px;
+        max-width: calc(30% - 60px);
+        text-align:left;
+    }
+
+    .eyewearSec6img {
+        float:right;
+        margin-left:30px;
+    }
+
+    #eyewearSec4wrapper {
+        background: url('https://s3.asiainspection.com/images/eyewear/report_left_IMG.jpg'); 
+        background-position:left;
+        background-repeat:no-repeat;
+        background-size:auto 100%;
+        background-color:#DADFE5;
+        min-height:350px;
+    }
+
+    #eyewearSec4content{
+        display:inline-block;
+        margin:5% 30px;
+        width:50%;
+        box-sizing:border-box;
+        float:right;
+    }
+
+    #nmiBox {
+        width:50%;
+        text-align:left;
+        display:inline-block;
+    }
+
+    .nmiBoxHalfWrapper {
+        display: inline-block;
+        width:50%;
+        margin:0px;
+    }
+
+    #nmiBox input, #nmiBox select {
+        height:40px;
+    }
+
+    #NeedMoreInfotmationSubmitButton {
+        width:50%;
+        height:40px;
+        font-size: 16px;
+    }
+
+    .leftFloat { float:left; }
+    .rightFloat { float:right; }
+
+    @media screen and (min-width: 1401px) { 
+        #eyewearTailoredContentBox {
+            width:55%;
+        }
+        .eyewearWhyBox {
+            margin:10px 50px;
+        }
+        .eyewearSec6img {
+            height:156px;
+        }
+    } /* End 1401 Media Query*/
+
+    @media screen and (max-width: 1400px) {
+        #eyewearTailoredContentBox {
+            width:45%;
+        }
+        #eyewearSec4content{
+            width:47%;
+        }
+        .eyewearWhyBox {
+            margin:10px 50px;
+        }
+        .eyewearSec6img {
+            height:152px;
+        }
+    } /* End 1400 Media Query*/
+
+    @media screen and (max-width: 1200px) {
+        #nmiBox { width:65%; }
+        .eyewearSec6ul {
+            max-width:calc(30% - 90px);
+        }
+        #eyewearTailoredBox {
+            background-position:-200px;
+        }
+        #eyewearTailoredContentBox {
+            width:50%;
+        }
+        .eyewearSec6img {
+            margin-left:0px;
+            max-width:45%;
+            height:212px;
+        }
+        #eyewearSec4wrapper {
+            background-position:-150px;
+        }
+        #eyewearSec4content{
+            width:40%;
+        }
+        .eyewearWhyBox {
+            margin:10px 25px;
+        }
+    } /* End 1200 Media Query*/
+
+    @media screen and (max-width: 990px) {
+        #nmiBox { width:80%; }
+
+        #eyewearSec6wrapper {
+            max-width: 690px;
+        }
+        .eyewearSec6ul {
+            max-width:calc(50% - 90px);
+            text-align:left;
+        }
+        .eyewearSec6ul:nth-child(1) { float:left; }
+        .eyewearSec6ul:nth-child(2) {
+            float:right;
+            margin-left:0px;
+            margin-right:30px;
+        }
+        .eyewearSec6img {
+            margin-left:0px;
+            max-width:100%;
+            float: none;
+            display:inline-block;
+        }
+        #eyewearTailoredBox {
+            background-position:-280px center;
+            background-size:auto 100%;
+        }
+        #eyewearTailoredContentBox {
+            width:55%;
+        }
+        #eyewearSec4wrapper {
+            background-position:-195px;
+        }
+        #eyewearSec4content{
+            width:43%;
+        }
+        .eyewearWhyBox {
+            margin:10px 20px;
+        }
+        #pricingLabSpacer { display:none; }
+    } /* End 990 Media Query*/
+
+    @media screen and (max-width: 850px) {
+        #eyewearTailoredBox {
+            background-position:-315px center;
+            background-size:auto 100%;
+        }
+        #eyewearTailoredContentBox {
+            width:61%;
+        }
+        .eyewearWhyBox {
+            margin:10px 15px;
+        }
+    } /* End 850 Media Query*/
+
+    @media screen and (max-width: 768px) {
+        #nmiBox { width:100%; }
+
+        .nmiBoxHalfWrapper {
+            width:100%;
+            padding-left:0px !important;
+        }
+
+        #NeedMoreInfotmationSubmitButton {
+            width:100%;
+            min-width:170px;
+        }
+
+        .eyewearWhyBox {
+            width:40%;
+            display:inline-block;
+            float:left;
+            margin:10px 15px;
+            max-width:none;
+        }
+        #eyewearTailoredBox {
+            background: url('https://s3.asiainspection.com/images/eyewear/QC_left_IMG_faded.jpg');
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:auto 100%;
+        }
+        #eyewearTailoredContentBox {
+            width:90%;
+        }
+        #eyewearSAIbox {
+            width:100%;
+            float:none;
+            margin-bottom:10px;
+        }
+        #eyewearBSIbox {
+            width:100%;
+            float:none;
+            margin-bottom:15px;
+        }
+        .eyewearTestingDropDownHeader {
+            background-size:auto 100% !important;
+        }
+        .eyewearTestingDropDownWrapper {
+            width:100%;
+            float:none;
+        }
+
+        .eyewearSec6ul {
+            padding-left: 15px;
+            float:left;
+            margin:15px 15px 0px 15px;
+            max-width: 95%;
+            width:100%;
+        }
+        .eyewearSec6ul:nth-child(1) { margin-bottom:0px; }
+        .eyewearSec6ul:nth-child(2) { margin-top:0px; margin-left:15px; float:left; }
+    
+        .eyewearSec6img {
+            float:none;
+            margin-left:0px;
+            width:100%;
+            height:auto;
+        }
+
+        .homePriceBox { margin-bottom:20px; }
+
+        #eyewearSec4wrapper{
+            background: url('https://s3.asiainspection.com/images/eyewear/report_left_IMG_faded.jpg'); 
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:auto 100%;
+        }
+        #eyewearSec4content{
+            width:90%;
+            margin:10% 6%;
+        }
+        .home-pricing-box { display:inline-block; }
+    } /* End 768 Media Query*/
+
+    @media screen and (max-width: 500px) {
+        .eyewearWhyBox {
+            height:230px;
+            max-width:39%;
+        }
+        #sec3wrapper {
+            max-width:100%;
+        }
+        #HoklasTestsTable {
+            font-size:11px;
+        }
+        #HoklasTestsTable td {
+            padding:5px;
+        }
+        .eyewearSec6ul {
+            padding-right:15px;
+        }
+        .eyewearTestingDropDownTitle {
+            margin-top:15px;
+            width:85%;
+        }
+    } /* End 500 Media Query*/
+    #sectionOne {
+        position: relative;
+        overflow: hidden;
+        padding-top:0;
+        height:425px;
+        background-image: url(https://s3.asiainspection.com/images/responsive/main_right_tiny.jpg);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-color:white;
+    }
+    #textOverlay {
+        position:absolute;
+        z-index:3;
+        width:100%;
+        height:100%;
+    }
+    #videoOverlayHomepage {
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(0,0,0,0.7);
+        width: 100%;
+        height: 100%;
+    }
+    #v {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        min-width:100%;
+        min-height:100%;
+    }
+}
+
+</style>
+    <!-- Section 1 - Video Header - START -->
+    {% if app.request.locale == "zh" %}<div class="subsection" style="display:none;"></div>{% endif %} {# wuick fix for a weird bug where the subsection(odd/even) css wasn't working properly for .subsections #}
+    <div id="sectionOne" class="subsection" style="padding:0px;">
+
+        <div id="textOverlay">
+            <div class="container vcenter_parent wrapper">
+                <div class="col-xs-12 vcenter_parent wrapper paddingLeftRightZero" style="text-align:center;">
+                    <div class="col-lg-7 col-lg-offset-1 col-md-8 col-md-offset-1 col-xl-offset-0 col-xs-10 col-xs-offset-1 vcenter_parent" id="bigWidth" style="padding-left:0px;padding-right:0px; display:inline-block; float:none;">
+                        <div class="vcenter" style="display:inline-block; text-align:center;">
+                            <h1 class="mainHeader">Eyewear Testing and Inspections</h1>
+                            <div class="mainSubHeader">Ensure compliance of your eyewear products to international and national standards with AI's HOKLAS accredited in-house labs and dedicated inspector resources<br /><a href="https://www.asiainspection.com/register" role="button" class="one-btn btn btn-primary btn-big" style="max-width:300px; margin-top:2.0em;">Get Started</a><br /><p style="color:white; margin-top:1.0em; font-size: 16px;" class="AI_text">Create Your Free Account and Try the Service</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="videoOverlayHomepage"></div>
+
+        <video id="v" loop='' preload="auto" controls='' autoplay='' poster="{{assetsDomain}}/images/responsive/video/AI_EyewearVideo_bg_poster.png">
+            <source src="{{assetsDomain}}/images/responsive/video/AI_EyewearVideo.mp4" type="video/mp4"/>
+            <source src="{{assetsDomain}}/images/responsive/video/AI_EyewearVideo.webm" type="video/webm"/>
+            <source src="{{assetsDomain}}/images/responsive/video/AI_EyewearVideo.ogv" type="video/ogv"/>
+        </video>
+
+    </div>
+    <!-- Section 1 - Video Header - END -->
+    
+    <!-- section1 -->
+    <div class="subsection" style="text-align:center;">
+        <h2>Why AI for Eyewear Testing and Inspections</h2>
+        <div style="background-color:#b31820; height:2px; width:5%; display:inline-block;"></div><br /><br />
+
+        <div style="display:inline-block;">
+            <div class="eyewearWhyBox">
+                <div style="height:100px; max-width:100%; margin-bottom:10px;"><img src="https://s3.asiainspection.com/images/eyewear/eyewear_ico1.png" style="max-width:100%;"/></div>
+                <div class="content">The first fully accredited lab in Hong Kong for eyewear testing</div>
+            </div>
+    
+            <div class="eyewearWhyBox">
+                <div style="height:100px; max-width:100%; margin-bottom:10px;"><img src="https://s3.asiainspection.com/images/eyewear/eyewear_ico2.png" style="max-width:100%;"/></div>
+                <div class="content">In-house dedicated testing facilities and highly trained experts</div>
+            </div>
+    
+            <div class="eyewearWhyBox">
+                <div style="height:100px; max-width:100%; margin-bottom:10px;"><img src="https://s3.asiainspection.com/images/eyewear/eyewear_ico3.png" style="max-width:100%;"/></div>
+                <div class="content">Partnering with some of the largest eyewear brands</div>
+            </div>
+    
+            <div class="eyewearWhyBox">
+                <div style="height:100px; max-width:100%; margin-bottom:10px;"><img src="https://s3.asiainspection.com/images/eyewear/eyewear_ico4.png" style="max-width:100%;"/></div>
+                <div class="content">Detailed inspection and testing reports available online and via<br />mobile app</div>
+            </div>
+            <div style="clear:both;"></div>
+        </div> 
+    </div>
+
+    <!-- section 2 -->
+    <div class="subsection" style="padding:0px;">
+        <div id="eyewearTailoredBox">
+            <div id="eyewearTailoredContentBox">
+                <h2 style="color: #b31820; margin-bottom:20px;">QC Tailored for the Eyewear Industry</h2>
+
+                <div style="display:inline-block; float:left; margin-right:15px;"><img src="https://s3.asiainspection.com/images/eyewear/eyewear_ico5.png"></div>
+                <div style="display:inline-block; float:left; margin-bottom:15px;">
+                    <b>Inspections and Lab Testing for All Eyewear Categories</b>
+                    <ul style="padding-left: 15px;">
+                        <li style="margin-bottom:5px;">Prescription glasses, lenses and frames</li>
+                        <li style="margin-bottom:5px;">Sunglasses and fashion eyewear</li>
+                        <li style="margin-bottom:5px;">Ready-to-wear reading spectacles</li>
+                        <li style="margin-bottom:5px;">Sports, driving and industrial safety eyewear</li>
+                    </ul>
+                </div>
+                <div style="clear:both;"></div>
+
+                <div style="display:inline-block; float:left; margin-right:15px;"><img src="https://s3.asiainspection.com/images/eyewear/eyewear_ico6.png"></div>
+                <div style="display:inline-block; float:left; margin-bottom:15px;">
+                    <b>A Wide Range of Performance, Chemical and Optical Tests</b>
+                    <ul style="padding-left: 15px;">
+                        <li style="margin-bottom:5px;">Dimensions, strength, durability, flexibility</li>
+                        <li style="margin-bottom:5px;">Adjustment and mounting quality</li>
+                        <li style="margin-bottom:5px;">Surface and cosmetic quality</li>
+                        <li style="margin-bottom:5px;">Nickel release and flammability</li>
+                        <li style="margin-bottom:5px;">Resistance to UV, perspiration and chemicals</li>
+                        <li style="margin-bottom:5px;">Optical radiation aging</li>
+                    </ul>
+                </div>
+                <div style="clear:both;"></div>
+
+                <div style="display:inline-block; float:left; margin-right:15px;"><img src="https://s3.asiainspection.com/images/eyewear/eyewear_ico7.png"></div>
+                <div style="display:inline-block; float:left;">
+                    <b>Two Tier Quality Assurance Process</b>
+                    <ul style="padding-left: 15px;">
+                        <li style="margin-bottom:5px;">Product Inspections in factory at each stage of production</li>
+                        <li style="margin-bottom:5px;">Lab Tests in our HOKLAS accredited dedicated laboratory</li>
+                        <li style="margin-bottom:5px;">Custom-made inspection and tests programs developed<br />to specific client requirements</li>
+                    </ul>
+                </div>
+                <div style="clear:both;"></div>
+
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+
+    <!-- section 3 -->
+    <div class="subsection" style="text-align:center;">
+        <div id="sec3wrapper">
+            <div style="padding:0px 30px; text-align:center;">
+                <h2>Dedicated HOKLAS Accredited Testing Lab</h2>
+                <div style="background-color:#b31820; height:2px; width:5%; display:inline-block;"></div><br /><br />
+                <p>The first eyewear testing laboratory in Hong Kong with <b>HOKLAS accreditation for ISO/IEC 17025</b>. AI’s tests reports for eyewear are recognized by:</p><br />
+        
+                <div id="eyewearSAIbox">
+                    <div style="height:50px; margin-bottom:10px;"><img src="https://s3.asiainspection.com/images/eyewear/logo_BSI.png" style="margin-right:15px;"><img src="https://s3.asiainspection.com/images/eyewear/logo_SAI.png"></div>
+                    <p><b>British Standards Institution</b> and <b>SAI Global</b><br />(CE certification)</p>
+                </div>
+    
+                <div id="eyewearBSIbox">
+                    <div style="height:50px; margin-bottom:10px;"><img src="https://s3.asiainspection.com/images/eyewear/logo_BSI_benchmark.png"></div>
+                    <p><b>BSI Benchmark</b> (Australia) for PPE</p>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <div style="padding:15px; background-color:#E3E3E3; font-weight:bold; margin:0px 2px;">TESTS AGAINST A WIDE RANGE OF INTERNATIONAL AND COUNTRY-SPECIFIC STANDARDS</div>
+            <table id="HoklasTestsTable" style="border-collapse:separate; border-spacing:2px;" width="100%">
+                <tr>
+                    <td valign="top">
+                        <b>Optical frames</b><br />
+                        <div style="background-color:#b31820; height:2px; width:10%; display:inline-block; margin:5px 0px;"></div><br />
+                        <ul style="padding-left: 15px; margin-bottom:10px;">
+                            <li style="margin-bottom:5px;">ISO 12870</li>
+                            <li style="margin-bottom:5px;">EN ISO 12870</li>
+                            <li style="margin-bottom:5px;">ANSI Z80.5</li>
+                            <li style="margin-bottom:5px;">GB/T 14214</li>
+                            <li style="margin-bottom:5px;">JIS B 7285</li>
+                            <li style="margin-bottom:5px;">AS/NZS 2228.2</li>
+                        </ul>
+                    </td>
+                    <td valign="top">
+                        <b>Optical lenses</b><br />
+                        <div style="background-color:#b31820; height:2px; width:10%; display:inline-block; margin:5px 0px;"></div><br />
+                        <ul style="padding-left: 15px; margin-bottom:10px;">
+                            <li style="margin-bottom:5px;">ISO 14889 / EN ISO14889</li>
+                            <li style="margin-bottom:5px;">ISO 8980 part 1, 2, 3, 4, 5</li>
+                            <li style="margin-bottom:5px;">ANSI Z80.1</li>
+                            <li style="margin-bottom:5px;">AS/NZS ISO14889</li>
+                            <li style="margin-bottom:5px;">GB10810 part 1, 2, 3, 4, 5</li>
+                        </ul>
+                    </td>
+                    <td valign="top" rowspan="3">
+                        <b>Eye protection devices</b><br />
+                        <div style="background-color:#b31820; height:2px; width:10%; display:inline-block; margin:5px 0px;"></div><br />
+                        <ul style="padding-left: 15px; margin-bottom:10px;">
+                            <li style="margin-bottom:5px;">AS/NZS 1337.1</li>
+                            <li style="margin-bottom:5px;">AS/NZS 1337.6</li>
+                            <li style="margin-bottom:5px;">ANSI/ISEA Z87.1</li>
+                            <li style="margin-bottom:5px;">EN174 (Ski goggles)</li>
+                            <li style="margin-bottom:5px;">EN166 (Plano and prescription)</li>
+                            <li style="margin-bottom:5px;">EN13178 (Snow mobile goggles)</li>
+                            <li style="margin-bottom:5px;">EN1938 (Motorcycle goggles)</li>
+                            <li style="margin-bottom:5px;">BS 5883 (Swimming goggles)</li>
+                            <li style="margin-bottom:5px;">Protection filters: EN196 / EN170 / EN171 / EN172 / AS/NZS 1338.1, 1338.2, 1338.3</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <b>Reading glasses</b><br />
+                        <div style="background-color:#b31820; height:2px; width:10%; display:inline-block; margin:5px 0px;"></div><br />
+                        <ul style="padding-left: 15px; margin-bottom:10px;">
+                            <li style="margin-bottom:5px;">EN 14139</li>
+                            <li style="margin-bottom:5px;">ISO 16034</li>
+                            <li style="margin-bottom:5px;">ANSI Z80.31</li>
+                            <li style="margin-bottom:5px;">GB 13511</li>
+                        </ul>
+                    </td>
+                    <td valign="top" rowspan="2">
+                        <b>Sunglasses</b><br />
+                        <div style="background-color:#b31820; height:2px; width:10%; display:inline-block; margin:5px 0px;"></div><br />
+                        <ul style="padding-left: 15px; margin-bottom:10px;">
+                            <li style="margin-bottom:5px;">ISO 12312.1, ISO 12311</li>
+                            <li style="margin-bottom:5px;">EN ISO 12312.1-2013+A1:2015</li>
+                            <li style="margin-bottom:5px;">ANSI Z80.3</li>
+                            <li style="margin-bottom:5px;">EN 1836 + A1</li>
+                            <li style="margin-bottom:5px;">QB2457 + GB101810.3</li>
+                            <li style="margin-bottom:5px;">Japanese labelling requirements and transmittance properties</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <b>Nickel release</b><br />
+                        <div style="background-color:#b31820; height:2px; width:10%; display:inline-block; margin:5px 0px;"></div><br />
+                        <ul style="padding-left: 15px; margin-bottom:10px;">
+                            <li style="margin-bottom:5px;">ISO/TS 24348</li>
+                            <li style="margin-bottom:5px;">EN16128-2011, EN16128-2015</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+    <!-- section 4 -->
+    <div class="subsection" style="padding:0px;">
+        <div id="eyewearSec4wrapper">
+            <div id="eyewearSec4content">
+                <h2 style="color: #b31820; margin-bottom:20px;">Dedicated Eyewear Report</h2>
+                <p>A detailed report with test results and photographs will be delivered to you by email on the same day as the inspection is performed.</p>
+                <p>The report will also be available in your personal AI dashboard, accessible online and on mobile, giving you the flexibility to make informed decisions for your shipment – any place, any time.</p>
+                <button title="Download Sample Report" style="margin:10px 0px; height:auto; padding:0px; width:350px; max-width:100%;" class="one-btn btn btn-primary btn-big serviceReport" type="inspection" report="eyewear">Download a Sample Report</button>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+        
+    <!-- section 5 -->
+    <div class="subsection" style="text-align:center;">
+        <div style="display:inline-block; width:1200px; max-width:100%;">
+            <h2>HOKLAS Certified Lab Testing for Eyewear</h2>
+            <div style="background-color:#b31820; height:2px; width:5%; display:inline-block;"></div><br /><br />
+            <p>Our dedicated HOKLAS certified testing laboratory offers a wide range of laboratory tests that check numerous chemical and optical characteristics of your eyewear.</p>
+            <p>Our selection of lab tests includes, among others:</p><br />
+
+            <div class="eyewearTestingDropDownWrapper leftFloat">
+                <div class="eyewearTestingDropDownHeader topDrop" style="background: url('https://s3.asiainspection.com/images/eyewear/frame_mechanical_top.jpg');">
+                    <div class="eyewearTestingDropDownTitle">Frame and Mechanical<br />Testing</div>
+                    <img class="eyewearArrowSwitch" src="https://s3.asiainspection.com/images/eyewear/arrow_down.png" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="eyewearTestingDropDownContentBox topDropBox">
+                    <ul style="padding-left: 15px;">
+                        <li style="margin-bottom:5px;">Measuring system and Dimensional tolerance</li>
+                        <li style="margin-bottom:5px;">Dimensional stability at elevated temperature</li>
+                        <li style="margin-bottom:5px;">Mechanical stability: Bridge deformation and lens retention</li>
+                        <li style="margin-bottom:5px;">Endurance</li>
+                        <li style="margin-bottom:5px;">Screw thread and tolerances</li>
+                        <li style="margin-bottom:5px;">Bridge Strength test</li>
+                        <li style="margin-bottom:5px;">Frame size and tolerance</li>
+                        <li style="margin-bottom:5px;">Hinge durability test</li>
+                        <li style="margin-bottom:5px;">Spring-hinge mechanical test</li>
+                        <li style="margin-bottom:5px;">Spring pull-out tensile test</li>
+                        <li style="margin-bottom:5px;">Hinge Strength (inclination bending) test</li>
+                        <li style="margin-bottom:5px;">Frame material tensile test</li>
+                        <li style="margin-bottom:5px;">Frame flexibility test</li>
+                        <li style="margin-bottom:5px;">Coating against bending test</li>
+                        <li style="margin-bottom:5px;">Compression test (Swimming goggles)</li>
+                        <li style="margin-bottom:5px;">Sit and Fit</li>
+                        <li style="margin-bottom:5px;">Thermal stability</li>
+                        <li style="margin-bottom:5px;">Lateral protection</li>
+                        <li style="margin-bottom:5px;">Eye coverage and temporal protection</li>
+                        <li style="margin-bottom:5px;">Field of View</li>
+                        <li style="margin-bottom:5px;">Lens size, thickness and curvature</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="eyewearTestingDropDownWrapper rightFloat">
+                <div class="eyewearTestingDropDownHeader topDrop" style="background: url('https://s3.asiainspection.com/images/eyewear/lens_optical_top.jpg');">
+                    <div class="eyewearTestingDropDownTitle">Lens and Optical<br />Testing</div>
+                    <img class="eyewearArrowSwitch" src="https://s3.asiainspection.com/images/eyewear/arrow_down.png" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="eyewearTestingDropDownContentBox topDropBox">
+                    <ul style="padding-left: 15px;">
+                        <li style="margin-bottom:5px;">Optical power (spherical, astigmatic, prismatic power) by telescope 20X (ISO, EN and AS/NZS) and telescope 8X (ANSI and ASTM)</li>
+                        <li style="margin-bottom:5px;">Ophthalmic lens – refractive properties on single-vision, multi-focal and progressive lenses</li>
+                        <li style="margin-bottom:5px;">Prismatic difference (EN) and prismatic imbalance (ANSI)</li>
+                        <li style="margin-bottom:5px;">Resolving power (ANSI)</li>
+                        <li style="margin-bottom:5px;">Optical density</li>
+                        <li style="margin-bottom:5px;">Luminous transmittance, UV transmittance, blue-light transmittance</li>
+                        <li style="margin-bottom:5px;">Spectral transmittance and driving lens requirements</li>
+                        <li style="margin-bottom:5px;">Near Infrared and Infrared transmittance</li>
+                        <li style="margin-bottom:5px;">Anti-reflection luminous reflectance %</li>
+                        <li style="margin-bottom:5px;">Scattered light test (light diffusion)</li>
+                        <li style="margin-bottom:5px;">Wide Angle Scattered light (haze)</li>
+                        <li style="margin-bottom:5px;">Lens surface and material quality by light-box / grid panel / lens-meter scanning, etc.</li>
+                        <li style="margin-bottom:5px;">Mounted lens quality – tension and edging quality</li>
+                        <li style="margin-bottom:5px;">Lens mechanical strength for minimum robustness</li>
+                        <li style="margin-bottom:5px;">Plane of polarization axis (for polarized lens, uncut and mounted)</li>
+                        <li style="margin-bottom:5px;">Durability test for anti-abrasion (hard-coating treated) lenses</li>
+                        <li style="margin-bottom:5px;">Anti-fogging test</li>
+                        <li style="margin-bottom:5px;">Resistance to fine particles damage</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="eyewearTestingDropDownWrapper leftFloat">
+                <div class="eyewearTestingDropDownHeader bottomDrop" style="background: url('https://s3.asiainspection.com/images/eyewear/impact_top.jpg');">
+                    <div class="eyewearTestingDropDownTitle">Impact, Radiation Aging<br />and Flammability Testing</div>
+                    <img class="eyewearArrowSwitch" src="https://s3.asiainspection.com/images/eyewear/arrow_down.png" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="eyewearTestingDropDownContentBox bottomDropBox">
+                    <ul style="padding-left: 15px;">
+                        <li style="margin-bottom:5px;">Drop ball test</li>
+                        <li style="margin-bottom:5px;">Enhanced robustness</li>
+                        <li style="margin-bottom:5px;">Increased robustness test</li>
+                        <li style="margin-bottom:5px;">Penetration test</li>
+                        <li style="margin-bottom:5px;">High mass test</li>
+                        <li style="margin-bottom:5px;">High-velocity test</li>
+                        <li style="margin-bottom:5px;">Resistance to high speed particles (HSP) – low / medium / high energy capacity</li>
+                        <li style="margin-bottom:5px;">HSP at extreme temperature</li>
+                        <li style="margin-bottom:5px;">Impact resistance: Low / Medium / High / Extra-High capacity</li>
+                        <li style="margin-bottom:5px;">Drop test</li>
+                        <li style="margin-bottom:5px;">Impact test</li>
+                        <li style="margin-bottom:5px;">Resistance to optical radiation and UV stability (lenses/filters)</li>
+                        <li style="margin-bottom:5px;">Resistance to radiation (color fastness of frame)</li>
+                        <li style="margin-bottom:5px;">Resistance to UVA/UVB radiation and water exposure</li>
+                        <li style="margin-bottom:5px;">Flammability test</li>
+                        <li style="margin-bottom:5px;">Ignition test</li>
+                        <li style="margin-bottom:5px;">Permanence test</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="eyewearTestingDropDownWrapper rightFloat">
+                <div class="eyewearTestingDropDownHeader bottomDrop" style="background: url('https://s3.asiainspection.com/images/eyewear/nickel_top.jpg');">
+                    <div class="eyewearTestingDropDownTitle">Nickel Release, Corrosion<br />and Chemical Testing</div>
+                    <img class="eyewearArrowSwitch" src="https://s3.asiainspection.com/images/eyewear/arrow_down.png" />
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="eyewearTestingDropDownContentBox bottomDropBox">
+                    <ul style="padding-left: 15px;">
+                        <li style="margin-bottom:5px;">Nickel release corrosion and wear tests (ISO/TS 24348, EN12472)</li>
+                        <li style="margin-bottom:5px;">Nickel release tests (EN16128-2011, EN16128-2015 migration and coating tests)</li>
+                        <li style="margin-bottom:5px;">Nickel DMG screening indicative test (pr CEN 12471)</li>
+                        <li style="margin-bottom:5px;">Total lead content</li>
+                        <li style="margin-bottom:5px;">Total cadmium content</li>
+                        <li style="margin-bottom:5px;">Resistance to perspiration</li>
+                        <li style="margin-bottom:5px;">Resistance to corrosion</li>
+                        <li style="margin-bottom:5px;">Salt spray test</li>
+                        <li style="margin-bottom:5px;">Resistance to humidity condensation and high extreme temperatures</li>
+                        <li style="margin-bottom:5px;">Lens coating resistance to chemicals (AS 2228.1)</li>
+                        <li style="margin-bottom:5px;">Protection against snow and liquid splash (for ski and safety goggles)</li>
+                        <li style="margin-bottom:5px;">Cleanability test (for safety eye protectors and ski goggles)</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+
+    <!-- section 6 -->
+    <div class="subsection" style="text-align:center; background-color:#DADFE5;">
+        <h2>In Factory: AI Unique Eyewear Expertise for Product Inspections</h2>
+        <div style="background-color:#b31820; height:2px; width:5%; display:inline-block;"></div><br /><br />
+        <p>After random sampling of products in the factory, our specialized eyewear inspectors will carry out the following physical and mechanical tests to ensure the quality and performance characteristics of your product:</p>
+        
+        <div id="eyewearSec6wrapper">
+            <ul class="eyewearSec6ul">
+                <li style="margin-bottom:5px;">Frame size and major dimensions</li>
+                <li style="margin-bottom:5px;">Mechanical stability</li>
+                <li style="margin-bottom:5px;">Front deformation</li>
+                <li style="margin-bottom:5px;">Lens retention</li>
+                <li style="margin-bottom:5px;">Hinge functionality</li>
+            </ul>
+            <ul class="eyewearSec6ul" style="padding-bottom:15px;">
+                <li style="margin-bottom:5px;">Frame color, finish and construction</li>
+                <li style="margin-bottom:5px;">Lens color and surface quality</li>
+                <li style="margin-bottom:5px;">Frame adjustment and assembling quality</li>
+                <li style="margin-bottom:5px;">Frame marking and information</li>
+            </ul>
+            <img src="https://s3.asiainspection.com/images/eyewear/in_factory_right.jpg" class="eyewearSec6img">
+            <div style="clear:both;"></div>
+        </div>
+        <p style="margin:10px 0px 0px 0px;">You receive by email and on your online and mobile accounts a complete detailed report, same-day after the inspection is performed, and can make the best decision about your products’ shipment.</p>
+    </div>
+
+    <!-- section 7 -->
+    <div class="subsection" style="text-align:center;">
+        <h2>Eyewear Testing to European Directives</h2>
+        <div style="background-color:#b31820; height:2px; width:5%; display:inline-block;"></div><br /><br />
+        <p>Watch our video below to learn more about the safety and compliance of eyewear and PPE, with a focus on EU regulations, including REACH, CE Marking, and other mandatory and optional requirements.</p><br />
+        <div itemprop="video" itemscope itemtype="http://schema.org/VideoObject" style="margin-bottom:15px;">
+            <meta itemprop="name" content="AsiaInspection: Eyewear Testing to European Directives" />
+            <meta itemprop="description" content="The presentation was delivered by our eyewear expert Candia Tse and cover such important points as classification of eyewear products for the purposes of compliance, EU legislations regulating eyewear safety and what REACH regulations mean for eyewear brands" />
+            <meta itemprop="duration" content="T30M25S" />
+            <meta itemprop="contentURL" content="https://youtu.be/FMuVOpYi0l4" />
+            <meta itemprop="uploadDate" content="2017-01-20" />
+            <object width='690' height='387' style="max-width:100%;">
+              <param name='movie' value='https://www.youtube.com/v/FMuVOpYi0l4?version=3%26autoplay=%26showinfo=0%26vq=hd720'></param>
+              <param name='allowScriptAccess' value='always'></param>
+              <embed src='https://www.youtube.com/v/FMuVOpYi0l4?version=%26autoplay=1%26showinfo=%26vq=hd720'
+                     type='application/x-shockwave-flash'
+                     allowscriptaccess='always'
+                     width='690' height='387' style="max-width:100%;"></embed>
+            </object>
+        </div>
+    </div>
+
+    <!-- section 8 -->
+    <div class="subsection" style="text-align:center; background-color:#DADFE5;">
+        <!-- Need More Information [Begin] -->
+        <h2>Need More Information?</h2>
+        <div style="background-color:#b31820; height:2px; width:5%; display:inline-block;"></div><br /><br />
+        <p>{{nmi.data.subtitle|raw}}</p>
+        <div id="nmiBox" class="offer-box">
+            <div style="padding:15px 30px; background-color:#DADFE5;">
+                <script src="/js/needMoreInfo.js"></script>
+                <form class="NeedMoreInfoForm validate-form">
+                    <div class="nmiBoxHalfWrapper">
+                        <input type="hidden" class="validateErrorText" value="{{nmi.data.error}}">
+                        <input type="hidden" class="nmi_customMailType" value="{% if nmi.customType is defined %}{{nmi.customType}}{% endif %}">
+                        <input type="text" name="UserName" required placeholder="{{nmi.data.userName}}" class="nmi_UserName nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;">
+                        <input type="text" name="CompanyName"  required placeholder="{{nmi.data.companyName}}" class="nmi_CompanyName nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;">
+                        <input type="email" name="EmailAddress" required placeholder="{{nmi.data.emailAddress}}" class="nmi_EmailAddress nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;">
+                        <div>
+                            <select name="CompanyCountry" id="" class="nmi_CompanyCountry nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;">
+                                <option selected="selected"  areacode='' disabled="disabled" style="color:#a6a7b1;">{{nmi.data.country}}</option>
+                                {% for country in nmi.countries %}
+                                <option countrycode='{{country.iso2}}' areacode='{{country.phone}}'>{{country.name}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div dir="ltr">
+                            <input type="text" name="Telephone" required id="" class="nmi_Telephone nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;" placeholder="{{nmi.data.telephone}}">
+                        </div>
+                    </div>
+                    <div class="nmiBoxHalfWrapper" style="padding-left:15px;">
+                        <div>
+                            <select id="" name="AboutQuestion" class="nmi_AboutQuestion nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;">
+                                <option value="5" selected="selected" disabled="disabled" style="color:#a6a7b1;">{{nmi.data.qstn}}</option>
+                                {% for question in nmi.data.questions.item %}
+                                <option value="{{question.attributes.val}}">{{question}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <textarea name="Message" id="" required rows="9" maxlength="1500" class="nmi_Message nmiElement form-control" style="color:#5B5B5B; width:100%; margin-bottom:10px;" placeholder="{{nmi.data.messageTextBox}}"></textarea>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <center>
+                        <button type="button" id="NeedMoreInfotmationSubmitButton" class="nmiSubmitButton btn-primary" style="margin:10px 0px;">{{nmi.data.submitButtonText}}</button>
+                        <p style="color:grey; text-align:center; margin-bottom:0px; padding:0.5em; font-size:13px;">{{nmi.data.contactagree}} <a href="https://www.asiainspection.com/conditions-of-service#privacyPolicy_8.1">{{nmi.data.policy}}</a></p>
+                        <p class="submitFormSuccess" style="display:none; text-align:center; margin-top:15px; color:white; background-color:rgba(91,163,49,0.6); padding:10px;">{{nmi.data.formSubmitted|raw}}</p>
+                    </center>
+                </form>
+                <div class="mboxDefault"></div>
+                <script type="text/javascript">mboxCreate("countriesDropdown");</script>
+                <script src="/js/mbox.js"></script>
+            </div>
+        </div>
+        <!-- Need More Information [End] -->
+    </div>
+
+    <div id="pricingBox" class="subsection" style="text-align:center; padding-right:30px; padding-left:30px;">
+        
+        <h2 style="margin-bottom:30px; color:white;">Simple, All-Inclusive Pricing</h2>
+
+        <div class="row" style="display:inline-block;">
+
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-4 offer1 homePriceBox">
+                <div class="text-center home-pricing-box pgrey">
+                    <div class="homePriceContent" style="position: relative;">
+                        <h5 style="margin:0px 0px 10px 0px; font-size:1.1em;">PRODUCT<br />INSPECTIONS</h5>
+                        <div style="background-color:#b31820; height:2px; width:15%; display:inline-block;"></div><br />
+                        <div style="margin:10px;">from</div>
+                        <div class="h1" style="margin-top:0px;">${{price_Inspect_Low|trans}}</div>
+                        <p>Verify your product meets all specifications in the factory.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-4 offer1 homePriceBox">
+                <div class="text-center home-pricing-box pgrey">
+                    <div class="homePriceContent" style="position: relative;">
+                        <h5 style="margin:0px 0px 10px 0px; font-size:1.1em;">SUPPLIER AUDIT<br />PROGRAMS</h5>
+                        <div style="background-color:#b31820; height:2px; width:15%; display:inline-block;"></div><br />
+                        <div style="margin:10px;">from</div>
+                        <div class="h1" style="margin-top:0px;">${{price_Audit_Low|trans}}</div>
+                        <p>Verify your product meets all specifications in the factory.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-4 offer1 homePriceBox">
+                <div class="text-center home-pricing-box pgrey">
+                    <div class="homePriceContent" style="position: relative;">
+                        <h5 style="margin:0px 0px 10px 0px; font-size:1.1em;">LABORATORY<br />TESTING</h5>
+                        <div style="background-color:#b31820; height:2px; width:15%; display:inline-block;"></div><br />
+                        <div id="pricingLabSpacer" style="margin:10px 10px 0px 10px;">&nbsp;</div>
+                        <div class="h1" style="margin-top:10px;">Instant Quote</div>
+                        <p>Verify your product meets all specifications in the factory.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <a id="bookNowButton" href="https://www.asiainspection.com/register" role="button"  class="btn btn-primary btn-big one-btn" style="width:345px; max-width:100%; margin-top:30px;">Book Now</a>
+
+    </div>
+
+    <script type="text/javascript">
+    var mq768 = window.matchMedia('all and (max-width: 768px)');
+        $(".eyewearTestingDropDownHeader").click(function() {
+            if(!mq768.matches){
+                if( $(this).hasClass("topDrop") ) {
+                    $(".topDropBox").animate({
+                        height: 'toggle'
+                    }, 500);
+                }
+                if( $(this).hasClass("bottomDrop") ) {
+                    $(".bottomDropBox").animate({
+                        height: 'toggle'
+                    }, 500);
+                }
+            } else {
+                $(this).next(".eyewearTestingDropDownContentBox").animate({
+                    height: 'toggle'
+                }, 500);
+            }
+
+        });
+    </script>
+        
+{% endblock %}
+
+{% block footer %}
+    <div class="row" style="padding:20px 0px;text-align:center; background-color:white;margin:0px;">
+        <div class="col-xs-12">
+            <div class="footerlinksFollowIcon">
+                <a href="http://www.linkedin.com/company/asiainspection" target="_blank"><div class="ico_linkedin"></div></a>
+            </div>
+            <div class="footerlinksFollowIcon">
+                <a href="http://www.instagram.com/asiainspection" target="_blank"><div class="ico_instagram"></div></a>
+            </div>
+            <div class="footerlinksFollowIcon">
+                <a href="http://facebook.com/asiainspection" target="_blank"><div class="ico_facebook"></div></a>
+            </div>
+            <div class="footerlinksFollowIcon">
+                <a href="http://twitter.com/asiainspection" target="_blank"><div class="ico_twitter"></div></a>
+            </div>
+            <div class="footerlinksFollowIcon">
+                <a href="https://www.youtube.com/user/asiainspection" target="_blank"><div class="ico_youtube"></div></a>
+            </div>
+            <div id="footerIcon" style='vertical-align:middle; display:inline-block; margin:5px; border-left:1px solid #bebebe;margin-left:20px; padding-left:29px;'>
+                <a href='https://play.google.com/store/apps/details?id=com.asiainspection' target='_blank'><img src='{{assetsDomain}}/images/but_app_play.png' border='0' /></a>
+                &nbsp;
+                <a href='https://itunes.apple.com/us/app/id589783645' target='_blank' style="margin:5px;"><img src='{{assetsDomain}}/images/but_app_store.png' border='0'  /></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="FooterISO" >
+            <hr class="fancy-line"></hr>
+            <table align="center" valign="middle" style="margin:0 auto;padding-top:50px;" id="footCopyright">
+                <tr>
+                    <td align="center" style="font-size:11px;">{% trans %}This site is protected by copyright and trademark laws under US and international law.{% endtrans %}</td>
+                </tr>
+                <tr>
+                    <td align="center" style="padding-top:10px;padding-bottom:20px;font-size:11px;">
+                        AsiaInspection &copy; {{ 'now'|date('Y') }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+{% endblock %}

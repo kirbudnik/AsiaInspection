@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>C-TPAT Audit - Customs-Trade Partnership Against Terrorism | Supply Chain Security</en>
+			<es>Servicios de Auditorías y Control de Calidad: C-TPAT Auditorias | Asiainspection.es</es>
+			<ar>خدمة الفحص الامني علي  سلسلة التوريد | الإمتثال لمعاييرC-TPAT الامريكية</ar>
+			<fr>Contrôle Qualité : Conformité et Certification C-TPAT | AsiaInspection.fr</fr>
+			<zh>质量检测服务：C-TPAT 反恐认证审核服务 | ChinaInspection.com</zh>
+			<de>C-TPAT Audit - Sicherheitsmaßnahmen für Lieferketten</de>
+			<pt>Serviços de controle de qualidade: C-TPAT Auditoria (ISO 17712) | AsiaInspection.pt</pt>
+			<ru>Аудит C-TPAT - Таможенное торговое антитеррористическое партнерство | Безопасность цепочки поставок</ru>
+			<tr>C-TPAT Denetimi - Terörizme Karşı Gümrük Ticareti Ortaklığı | Tedarik Zinciri Güvenliği</tr>
+		</pageTitle>
+		<pageDesc>
+			<en>Asia Inspection provides C-TPAT compliance services for US customers worldwide. Learn how our qualified auditors can improve your supply chain security.</en>
+			<es>AsiaInspection le permite asegurar el cumplimiento de C-TPAT por parte de sus proveedores.</es>
+			<ar>نوفر لك خدمة الفحص الامني علي سلسلة التوريد الخاصة بشركتك، والتحقق من الإمتثال لمعايير C-TPAT الامريكية في معاملاتك التجارية</ar>
+			<fr>AsiaInspection assure une conformité C-TPAT chez ses fournisseurs.</fr>
+			<zh>AsiaInspection 据美国C-TPAT海关-商贸反恐联盟运输安全计划，为供应链商提供检测服务，确保美国进口货物运输安全。</zh>
+			<ru>Asia Inspection предлагает услуги аудита C-TPAT для клиентов из США по всему миру. Узнайте, как наши квалифицированные аудиторы могут повысить безопасность вашей цепочки поставок.</ru>
+			<de>C-TPAT ist ein Programm der Zoll- und Grenzschutzbehörde der USA zur Terrorismusabwehr. Prüfen Sie Ihre Lieferkette auf Einhaltung der Richtlinien.</de>
+			<tr>Asia Inspection dünya genelinde ABD müşterileri için C-TPAT uygunluk hizmetleri sağlamaktadır. Nitelikli denetçilerin tedarik zincirinizin güvenliğini nasıl arttıracağını öğrenin.</tr>
+			<pt>A Asia Inspection fornece serviços de cumprimentos C-TPAT para os clientes US por todo o mundo. Saiba como os nossos auditores qualificados podem melhorar a segurança da sua cadeia de fornecimento.</pt>
+		</pageDesc>
+		<pageKeywords>
+			<en>c tpat audit, c tpat certification, supply chain security audit</en>
+			<tr>c tpat denetimi, c tpat sertifikası, tedarik zinciri güvenlik denetimi</tr>
+			<pt>auditoria c tpat, certificação c tpat, auditoria segurança cadeia de fornecimento</pt>
+			<ru>c tpat аудит, c tpat сертификация, аудит безопасности цепочки поставок</ru>
+		</pageKeywords>
+	</pageMeta>
+
+	<en>
+		<title>C-TPAT Audit and Compliance</title>
+		<subtext>The Customs-Trade Partnership Against Terrorism (C-TPAT) is a supply chain security program led by U.S. Customs and Border Protection focused on improving the security of private companies' supply chains with respect to terrorism.</subtext>
+		<subtext2>
+			Our qualified auditors independently assess the security and commercial processes of your business partners. We go on-site and get the information you need to ensure C-TPAT compliance.
+		</subtext2>
+		<whyUsTitle>Why AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD all-inclusive per man-day]]></li> -->
+			<li>All-inclusive pricing</li>
+			<li hover="1">An auditor onsite within 48 hours</li>
+			<li hover="2">Same day audit reports</li>
+			<li>Easy online scheduling of services</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</en>
+
+	<zh>
+		<title>C-TPAT 审核和认证标准 </title>
+		<subtext>
+			<![CDATA[
+			<p>C-TPAT 是一项由美国海关发起的海关-商贸反恐联盟运输安全计划，旨在推进私有企业在供应链安全上的反恐举措。 </p>
+
+			]]>
+		</subtext>
+		<subtext2>
+			我们的资深审核员将独立地对您的商业伙伴在交易流程和交易安全性上进行评估审核。我们将赴实地收集您所需要的信息，确保其符合反恐认证审核标准。
+		</subtext2>
+		<whyUsTitle>为什么要使用 AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[每人每天检验仅需$<span style='font-size:inherit;' class='priceAT'></span> USD]]></li> -->
+			<li>全包价</li>
+			<li hover="1">审核人员48小时内到达现场</li>
+			<li hover="2">检验当天在线获取审核报告</li>
+			<li>自定义检验标准，简易在线排程</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection保证在48小时内派遣审核员达到工厂。<br /><br />但是这个时间期限也有赖于工厂的准备工作是否完成，并且是否与Asiainspection充分合作。另外，如果遭遇其它不可控因素如交通晚点和其他任何意外事故，该时间期限将不能保证。]]>
+		</hoverOne>
+		<hoverTwo>
+			正常情况呢下，80%的审核报告都将在当天出具。但是，报告是否能当天出具也取决于工厂是否配合。
+		</hoverTwo>
+		<schedButton url="/register">咨询详情</schedButton>
+	</zh>
+
+	<fr>
+		<title>Audit et conformité C-TPAT</title>
+		<subtext>
+			<![CDATA[
+			<p>Le programme volontaire de lutte contre le terrorisme (C-TPAT) est un programme de sécurisation de la chaîne logistique mis en place par les douanes américaines. Il vise l'amélioration de la sécurité de la logistique des compagnies privées face au risque terroriste.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Pourquoi AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD tout compris par jour-homme]]></li> -->
+			<li>Prix tout compris</li>
+			<li hover="1">Un auditeur sur site sous 48 heures</li>
+			<li hover="2">Rapport le jour même</li>
+			<li>Commande en ligne facile et protocole d'inspection personnalisé. </li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantit l’intervention d’un inspecteur sur site dans les 48 heures. <br /><br />Cette fenêtre d’intervention est toutefois sujette à la coopération de l’usine et à son niveau de préparation. La garantie ne couvre pas les facteurs indépendants de la volonté d’AsiaInspection, tels que les retards dans les transports, ou tout autre cas de force majeure. ]]>
+		</hoverOne>
+		<hoverTwo>
+			 80% des rapports sont remis le jour même de l’inspection. La remise du rapport le jour même dépend de la coopération totale de l’usine.
+		</hoverTwo>
+		<schedButton url="/register">Commencer</schedButton>
+	</fr>
+
+	<ar>
+		<title>الإمتثال لمعاييرC-TPAT الامريكية</title>
+		<subtext>
+			<![CDATA[
+			<p>الشراكة الجمركية التجارية ضد الإرهاب  و تأمين برنامج سلسلة التوريد بقيادة هيئة الجمارك وحماية الحدود الأميركية وتركز على تحسين أمن سلسة التوريد للشركات الخاصة فيما يتعلق بالإرهاب.</p>
+			مفتشي الشركة المتخصصين المؤهلين لدي الشركة يقومون بتقييم مستقل للعمليات الأمنية والتجارية الخاصة بشركاء عملك. نذهب الي الموقع المطلوب ونحصل على المعلومات التي تحتاجها لضمان الإمتثال لمعاييرC-TPAT الامريكية
+
+			]]>
+		</subtext>
+		<whyUsTitle>لماذا تختار شركة AsiaInspection ؟</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[سعر الخدمة <span style='font-size:inherit;' dir='ltr' class='priceAT'></span> دولار امريكى شاملا جميع المصاريف ]]></li> -->
+			<li>أسعار جميع الخدمات شاملة جميع التكاليف</li>
+			<li hover="1">يتم ارسال المراجع / المدقق الى مكان المصنع فى خلال ٤٨ ساعة (١)</li>
+			<li hover="2">يتم ارسال تقرير فحص و مراجعة المصنع فى نفس اليوم</li>
+			<li>يتم حجز الخدمة اونلين من خلال موقعنا الالكترونى ( يلزم انشاء حساب خاص بك ... فى اقل من ٢ دقيقة )</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">إبدأ الحجز الأن</schedButton>
+	</ar>
+
+	<es>
+		<title>Auditoría y cumplimiento C-TPAT </title>
+		<subtext>
+			<![CDATA[
+			La Asociación de Aduanas-Comercio en contra del Terrorismo (C-TPAT) es un programa diseñado por el Servicio de Aduanas y de Protección Fronteriza de Estados Unidos para mejorar la seguridad de las cadenas de suministro de empresas privadas contra el terrorismo.
+			]]>
+		</subtext>
+		<whyUsTitle>¿Por qué confiar en AsiaInspection? </whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[<span style='font-size:inherit;' class='priceAT'></span> USD todo incluido por día-hombre]]></li> -->
+			<li>Tarifas todo-incluido</li>
+			<li hover="1">Un auditor in situ en menos de 48 horas</li>
+			<li hover="2">Los reportes de la Auditoria se envian el mismo día</li>
+			<li>Reserva del servicio fácil y rápida</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantiza disponer de un inspector disponible para realizar la inspección en la Fábrica en menos de 48 horas.<br /><br />Este plazo, sin embargo, no garantiza que la fábrica está preparada o que colabore con AsiaInspection. Tampoco está garantizada nuestra presencia debida a factores externos fuera del control de AsiaInspection, como retrasos en el transporte o cualquier otro evento de fuerza mayor.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% de nuestros reportes de inspección son enviados el mismo día. Siempre dependienando de la colaboración por parte de la fábrica durante nuesta visita.
+		</hoverTwo>
+		<schedButton url="/crear-cuenta">¡Empiece ya!</schedButton>
+	</es>
+
+	<ru>
+		<title>Аудиты C-TPAT и соответствие нормам</title>
+		<subtext>Таможенное торговое антитеррористическое партнерство (C-TPAT) - это программа обеспечения безопасности цепочки поставок, проводимая Бюро таможенного и пограничного контроля США и направленная на улучшение безопасности цепочки поставок частных компаний в том, что касается террористических угроз.</subtext>
+		<subtext2>
+			Our qualified auditors independently assess the security and commercial processes of your business partners. We go on-site and get the information you need to ensure C-TPAT compliance.
+		</subtext2>
+		<whyUsTitle>Почему стоит предпочесть AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD all-inclusive per man-day]]></li> -->
+			<li>Цена по принципу "все включено"</li>
+			<li hover="1">Прибытие аудитора на место в течение 48 часов</li>
+			<li hover="2">Аудиторские отчеты в тот же день</li>
+			<li>Простое онлайн-планирование услуг</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection гарантирует есть аудитор готов быть на заводе по аудиту в течение 48 часов. <br/> <br/> Этот срок не означает, однако, гарантируют готовность завода или сотрудничества с AsiaInspection. Он также не гарантирует от ограничивающих факторов вне контроля AsiaInspection, таких, как транспорт задержками, или любое событие рассматривается Закон Божий.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% всех аудиторских отчетов доставляется в тот же день. Отчеты доставляются в тот же день зависит от того, полное сотрудничество завода.
+		</hoverTwo>
+		<schedButton url="/register">Начать</schedButton>
+	</ru>
+
+	<de>
+		<title>C-TPAT Audit und Compliance</title>
+		<subtext>
+			<![CDATA[
+			C-TPAT (Customs-Trade Partnership Against Terrorism) ist ein Programm unter Leitung der Zoll- und Grenzschutzbehörde der USA für den erhöhten Schutz der Lieferkette privater Unternehmen zum Schutz vor Terroranschlägen.
+			Unsere qualifizierten Inspektoren führen eine unabhängige Überprüfung der Sicherheit und der kommerziellen Verfahren bei Ihren Geschäftspartnern durch. Wir sammeln vor Ort die Informationen, die Sie zur Gewährleistung der C-TPAT-Compliance benötigen.
+			]]>
+		</subtext>
+		<whyUsTitle>Warum AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD pro Manntag all-inclusive]]></li> -->
+			<li>All-inclusive Preise</li>
+			<li hover="1">Ein Auditor vor Ort innerhalb von 48 Stunden</li>
+			<li hover="2">Selben Tag Prüfungsberichte</li>
+			<li>Einfache Online-Planung von Services</li>
+		</whyUsList>
+		<schedButton url="/register">Erste Schritte</schedButton>
+	</de>
+
+	<it>
+		<title>Audit e Conformità C-TPAT</title>
+		<subtext>
+			<![CDATA[
+			<p>Il Customs-Trade Partnership Against Terrorism (C-TPAT) è un programma di sicurezza per la filiera produttiva e di approvvigionamento diretto dagli USA. La "Customs and Border Protection" si è concentrata sul miglioramento della sicurezza delle filiere produttive e di approvvigionamento delle aziende private per quanto concerne il terrorismo.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Perché AsiaInspection:</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD tutto compreso al giorno per ispettore]]></li> -->
+			<li>Tariffe omnicomprensive</li>
+			<li hover="1">Disponibilità del revisore sul posto entro 48 ore</li>
+			<li hover="2">Rapporti di controllo in giornata</li>
+			<li>Possibilità di prenotare i servizi comodamente online</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantisce la disponibilità di un ispettore pronto per visitare la fabbrica in 48 ore. <br /><br />Questo lasso di tempo, tuttavia, non assicura che la fabbrica sia pronta o cooperi con AsiaInspection. Né assicura ogni eventuale ritardo dovuto a fattori esterni, come ritardi nei trasporti, disastri naturali, ecc...]]>
+		</hoverOne>
+		<hoverTwo>
+			L'80% dei report sono consegnati il giorno stesso. La consegna di un report nello stesso giorno è condizionata da una completa collaborazione da parte della fabbrica.
+		</hoverTwo>
+		<schedButton url="/register">Inizia ora!</schedButton>
+	</it>
+
+	<pt>
+		<title>C-TPAT</title>
+		<subtext>
+			<![CDATA[
+			<p>O C-TPAT (Customs-Trade Partnership Against Terrorism) é um programa de segurança da cadeia de suprimento conduzido pelos EUA. Proteção de fronteiras e alfândega direcionada à melhoria da segurança das cadeias de suprimento de empresas privadas no que diz respeito ao terrorismo.</p>
+			Nossos auditores qualificados avaliam de forma independente a segurança e os processos comerciais de seus parceiros de negócios. Nós vamos até o local e obtemos as informações de que você precisa para garantir a conformidade com o C-TPAT.
+			]]>
+		</subtext>
+		<whyUsTitle>Por que a AsiaInspection?</whyUsTitle>
+		<whyUsList>
+			<!-- <li><![CDATA[$<span style='font-size:inherit;' class='priceAT'></span> USD por inspeção]]></li> -->
+			<li>Preço com tudo incluído</li>
+			<li hover="1">Um inspetor no local em 48 horas</li>
+			<li hover="2">Relatórios de inspeção no mesmo dia</li>
+			<li>Agendamento de serviços on-line fácil</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[A AsiaInspection garante ter um inspetor ou auditor pronto para se apresentar na fábrica num prazo de 48 horas.<br/><br/> Este prazo não garante, no entanto, a preparação ou cooperação da fábrica com a AsiaInspection. Também não oferece garantias contra fatores limitadores fora do controlo da AsiaInspection, como atrasos de viagem, ou qualquer evento considerado de força maior.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% de todos os relatórios de auditoria são entregues no mesmo dia. Os relatórios entregues no mesmo dia dependem da total cooperação da fábrica.
+		</hoverTwo>
+		<schedButton url="/register">Introdução</schedButton>
+	</pt>
+
+	<tr>
+		<title>C-TPAT Denetimi ve Uygunluk</title>
+		<subtext>Terörizme Karşı Gümrük Ticareti Ortaklığı (C-TPAT) ABD tarafından sürdürülen bir tedarik zinciri güvenlik programıdır. Gümrük ve Sınır Muhafaza özel şirketlerin tedarik zincirlerinin terörizm hususunda güvenliğini arttırmaya odaklanmıştır.</subtext>
+		<subtext2>
+			Our qualified auditors independently assess the security and commercial processes of your business partners. We go on-site and get the information you need to ensure C-TPAT compliance.
+		</subtext2>
+		<whyUsTitle>Neden AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li>Her şey dahil fiyatlandırma</li>
+			<li hover="1">48 seat içinde sahada olan denetçi</li>
+			<li>Kolay çevrimiçi hizmet düzenlemeleri</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Başla</schedButton>
+	</tr>
+
+</document>

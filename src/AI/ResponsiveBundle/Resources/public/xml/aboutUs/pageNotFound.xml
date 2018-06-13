@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<pageMeta>
+        <pageTitle>
+            <en>The page you requested cannot be found |  AsiaInspection.com</en>
+        </pageTitle>
+        <pageDesc>
+        	<en>The page you requested cannot be found</en>
+        </pageDesc>
+    </pageMeta>
+
+	<en>
+        <title>Page Not Found</title>
+        <intro>Oops... It looks like the link you clicked is broken or expired.</intro>
+        <back>« Back</back>
+        <home>Home</home>
+        <social><![CDATA[Why not take this opportunity to visit our <a target="_blank" href="https://www.facebook.com/asiainspection">Facebook</a> or <a target="_blank" href="http://www.linkedin.com/company/asiainspection">LinkedIn</a> pages?]]></social>
+        <image>//s3.asiainspection.com/images/404small.jpg</image>
+	</en>
+</document>

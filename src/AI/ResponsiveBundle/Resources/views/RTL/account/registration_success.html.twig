@@ -1,0 +1,102 @@
+{% extends '::base.html.twig' %}
+{%block title%}{{pageTitle}}{%endblock%}
+{% block body %}
+<script src="/js/mobileCountrySelector.js"></script>
+<div class="container wrapper">
+
+    <div class="sidebox col-xs-12 col-md-offset-1 col-md-4 col-lg-4 col-lg-offset-0" style="margin-top:40px;">
+
+        <div class="sidebox col-xs-12">
+
+            <div class="sidebarTitlebar">
+                <h5>{% trans %}Follow Us{% endtrans %}</h5>
+            </div>
+            <div class="sidebarContentBox">
+                <div class="footerlinksFollowIcon" style="padding-right:10px;">
+                    <a href="http://www.facebook.com/asiainspection" target="_blank"><div class="ico_facebook"></div></a>
+                </div>
+                <div class="footerlinksFollowIcon" style="padding-right:10px;">
+                    <a href="http://twitter.com/asiainspection" target="_blank"><div class="ico_twitter"></div></a>
+                </div>
+                <div class="footerlinksFollowIcon" style="padding-right:10px;">
+                    <a href="https://www.youtube.com/user/asiainspection" target="_blank"><div class="ico_youtube"></div></a>
+                </div>
+                <div class="footerlinksFollowIcon">
+                    <a href="http://www.linkedin.com/company/asiainspection" target="_blank"><div class="ico_linkedin"></div></a>
+                </div>
+            </div>
+        
+            <div class="sidebarTitlebar" style="margin-top:20px;">
+                <h5>{% trans %}Client Testimonial{% endtrans %}</h5>
+            </div>
+            <div class="sidebarContentBox">
+                <p>{%trans%}"As a Quality Manager, I recognize the necessity of timely and accurate inspection reports. When it comes to AsiaInspection, the professionalism of...{%endtrans%}</p>
+                <a href="/asiainspection-testimonials">{%trans%}Read More{%endtrans%}</a>
+                <p style="padding-top:15px;">{%trans%}Quality Manager{%endtrans%}</p>
+                <p style="font-weight:bold;">Unger Enterprises Inc.</p>
+                <p>Quality Tools for Smart Cleaning</p>
+                <a href="http://www.ungerglobal.com">www.ungerglobal.com</a>
+                <div id="banner">
+                  <a href="http://www.ungerglobal.com" target="_blank"><div class="spriteunger-enterprises_s" alt="Unger Enterprises"></div></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+ <div class="col-xs-12 col-md-offset-1 col-md-6 col-lg-7 col-xl-offset-0 col-xl-8 sidebox paddingLeftRightZero" style="margin-top:20px;">
+        <div style="padding:20px;  border:1px solid #C7C8CA; overflow:hidden; margin:20px auto;  background-color:#E6E6E6;">
+          {%if spamswitch==1%}
+              {%if confirm==1%}
+              <h1 >{{xml.confirm.title}}</h1>
+              <p>{{xml.confirm.regFailText|raw}}</p>
+            {%else%}
+               <h1  class="marginZero padding15" >{{xml.spam.title}}</h1>
+             <p>{{xml.spam.regFailText}}</p>
+            <p>{{xml.spam.beforeLink}}<a href="mailto:customerservice@asiainspection.com?subject=Registration%20Assistance%20for%20{%if login is defined%}{{login}}{%endif%}">customerservice@asiainspection.com</a>
+            {{xml.spam.afterLink}}</p>
+            {%endif%}
+        {%else%}
+            <h1>{{xml.title}}</h1>
+          <p>{{xml.stepOne}}</p>
+        {%endif%}
+    </div>
+    <div style="padding:20px;  border:1px solid #C7C8CA; overflow:hidden; margin:25px auto 0px auto;  background-color:#E6E6E6;">
+        <h2 >{{xml.mobileTitle}}</h2>
+        <p>{{xml.appBlurb}}</p>
+
+
+      <div style="float:left;">
+        <br><br>
+        <p>{{xml.mobileDoThis}}</p>
+        <div style="margin-top:20px;">
+          <label>{% trans %}Enter Your Email Address{% endtrans %}</label><br />
+          <input class="mobileEmailSendLinks" placeholder="{% trans %}Your email address{% endtrans %}" style="width:318px;height:30px;margin-bottom:5px;margin-right:0px;padding-top: 0px;"/>
+          <button class="box_MobileLinks_submit btn-primary" type="button" onClick="emailMobileLink(this)" style="margin-left:0px;">{% trans %}Get Link{% endtrans %}</button><br />
+          <label>{% trans %}Enter Your Mobile Phone Number{% endtrans %}</label><br />
+          <select name="mobilePhoneCountry" class="mobilePhoneCountry" style="color:#5B5B5B; margin-bottom:10px; height:28px;">
+            <option selected="selected"></option>
+              {% for country in countries %}
+                  <option iso2='{{country.iso2}}' data-status='{{country.phone}}'>{{country.iso2}} +{{country.phone}} &nbsp; &mdash; &nbsp; {{country.name}}</option>
+              {% endfor %}
+          </select>
+          <input class="mobilePhoneSendLinks" placeholder="{% trans %}Your phone number and area code{% endtrans %}" style="width:198px;height:30px;margin-bottom: 0px;padding-top: 0px;"/>
+          <button class="box_MobilePhoneLinks_submit btn-primary" type="button" onClick="smsMobileLink(this)">{% trans %}Get Link{% endtrans %}</button>
+        </div>
+        <div style="text-align:center;padding:5px;height:20px;width:25px;display:inline-block;">
+          <span id="mobileSentEmailWait" style="display:none;"><img src="https://s3.asiainspection.com/images/loading.gif" style="height:20px;vertical-align:middle;padding-bottom:25px;"></span>
+        </div>
+        <div class="successMobile" style="display:none;"><p style="color:green;text-align:center;font-weight:bold;"><br/>Done! Check your email or phone: you should receive a link to the AI App shortly.</p></div>
+      </div>
+
+      <div class="displayNone1200" style="float:right;">
+        <img src="https://s3.asiainspection.com/images/mobile_phones.png" style="width:145px;" />
+      </div>
+    </div>
+    </div>
+
+</div>
+<div class="mboxDefault"></div>
+<script type="text/javascript">mboxCreate("countriesDropdown");</script>
+<script src="/js/mbox.js"></script>
+{% endblock %}

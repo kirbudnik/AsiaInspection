@@ -1,0 +1,451 @@
+/* Xmas Logo [Begin]
+#AI_Logo {
+    background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm2.png);
+    width: 271px;
+    height: 89px;
+    margin-top:0px;
+}
+#ChinaInspection_Logo {
+    background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm1.png);
+    position:relative;
+}
+Xmas Logo [End] */
+#yourAccount {
+    display: none !important;
+}
+#yourAccountSmall {
+    display: block !important;
+}
+.otherSectionBox {
+    display: none !important;
+}
+#contactSelect_options {
+    min-width: 100px !important;
+}
+.navbar-brand {
+    padding-right: 0 !important;
+}
+.smallWindowFont {
+    font-size: 12px;
+}
+
+//The #jobAppField is from Evonne cut and pasting my code and then using an id as a class,
+//replace it with the .inputField class wherever you find it until we can remove this
+#jobAppField{ padding-right:0px; }
+.inputField{ padding-right:0px; }
+
+#firstName{
+    margin-left:10%;
+    width:92% ;
+}
+#map-bangladesh {
+    width:100%;
+}
+
+.whitePaperSmallScreen{
+     width:98%;
+}
+
+#bangladesh_map_img{
+    width:250px;
+}
+#footerlinksFollowIcon{
+    padding-right:0px !important;
+}
+.mainBlock {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    overflow-x:hidden;
+}
+.slide-feature1 {
+    background-image: $url_10;
+    background-size: cover;
+}
+
+
+.slide-feature3 {
+    a {
+        font-size: 10px !important;
+        font-weight: normal;
+    }
+}
+.smallButton{
+     width: 58%;
+    margin-left: 2%;
+    text-align: center;
+}
+
+#ethical-webinar-headerbox{
+    height:720px;
+}
+#ethicalWebinarHeader{
+
+    margin-top:-40px !important;
+}
+.feature3button {
+    width: 43%;
+}
+.slide-feature4 {
+    h1 {
+        font-size: $font_size_8;
+        padding: 10px;
+    }
+    p {
+        font-size: 12px;
+        padding: 2px;
+    }
+}
+.slide-feature9 {
+    img {
+        display: none;
+    }
+    h2 {
+        font-size: 13px;
+    }
+}
+.downloadSampleReport {
+    display: none;
+}
+.downloadSampleReportLink {
+    display: block !important;
+}
+.getInTouch {
+    width: 100%;
+}
+
+.news {
+    height: 625px !important;
+}
+
+
+#bigWidth {
+    width: 95% !important;
+}
+
+
+#aboutUs {
+    padding-left: 0 !important;
+}
+.phoneBox1 {
+    display: block !important;
+}
+.phoneBox2 {
+    display: none !important;
+}
+
+#FooterISO {
+    width: 300px !important;
+}
+.displayNone {
+    display: none !important;
+}
+#middleISO {
+    width: 95px !important;
+    margin: 2px !important;
+}
+.spriteSeparator_h {
+    width: 280px !important;
+}
+#footerIcon {
+    border-left: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-top: 15px;
+}
+
+.footer_iso_CHB{
+    width: 95px !important;
+    margin: 2px !important;
+}
+.spriteSeparator_h1 {
+    width: 100px;
+}
+#firstISO {
+    width: 95px !important;
+    margin: 2px !important;
+}
+#lastISO {
+    width: 85px !important;
+    margin: 2px !important;
+}
+
+.column {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.sideBoxColumn {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#contentWhitePaper{
+    padding:0px !important;
+}
+#firstNewsSamllScreen{
+    display:block !important;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.serviceTab{
+    border-left: 1px solid #c7c8ca;
+    border-right: 1px solid #c7c8ca;
+    padding:10px 3px 10px 3px;
+}
+
+#imageShipChina{
+    display: none !important;
+}
+.referenceSampleTitle{
+
+    font-size: 19px !important;
+}
+.tabContent{
+    margin-left:-15px !important;
+    margin-right:-15px !important;
+    background-color: white;
+    width:110% !important;
+    height:100% !important;
+}
+.tabContainer{
+    border: none !important;
+    background-color: #E6E6E6 !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    border-radius: 0px;
+}
+
+#toTop{
+    display:inline-block !important;
+}
+
+#sitemapColumn{
+    width:80%;
+    padding-left:0px;
+
+
+}
+
+.display500{
+    display:block;
+}
+#HoverText{
+    width:150px !important;
+}
+
+.jobdrop_divbox{
+    width: 100%;
+    margin-bottom: 5px;
+}
+#selectJobType{
+    margin-top: 5px !important;
+}
+#jobdrop_Type{
+    margin-bottom: 5px;
+}
+
+.headerTitle{
+    position: absolute !important;
+    top:173px !important;
+
+}
+#globalTitle{
+    font-size:16px;
+}
+#globalSubTitle{
+    font-size: 13px;
+}
+#applyBtn_LinkedIn{
+    width: 50%;
+
+}
+#viewJob h2{
+    font-size: 1.5em !important;
+}
+.marginBottom500{
+    margin-bottom:20px;
+}
+#paddingSideSmallScreen{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#jobappTitle{
+    padding-bottom: 15px !important;
+}
+.box_MobileLinks_submit{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+#shareBtnSmall{
+    padding-top: 15px;
+    padding-left: 20px !important;
+    padding-bottom:15px;
+}
+.paddingZero{
+    padding: 0px !important;
+}
+#share-this{
+    width: 100% !important;
+}
+#gender-box{
+    width:48px;
+}
+#labtest{
+    padding-top:20px;
+}
+
+
+#leftAlignSmall{
+    text-align:left !important;
+}
+.homeTestimonial .homeClientLogo{
+    width: 5em;
+    height:5em;
+    &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+        top:0%;
+        transform:translateY(0%);
+        -webkit-transform:translateY(0%);
+        margin:3% 4%;
+    }
+    &:nth-child(1) { width:22%; }
+    &:nth-child(2) { width:22%; }
+    &:nth-child(3) { width:22%; }
+    &:nth-child(4) { width:66%; }
+    &:nth-child(5) { display:none; }
+    &:nth-child(6) { display:none; }
+    &:nth-child(7) { display:none; }
+    &:nth-child(8) { display:none; }
+    #homeClientLogoWrapper { padding-top:30px; }
+}
+.h3white { font-size: $font_size_8; margin-top:$font_size_1; }
+.homeTestimonial {
+    h1 {
+        font-size: $font_size_6;
+        line-height: $font_size_6;
+    }
+    .h3white { font-size:$font_size_9; }
+}
+.box{
+    .qcs-box-background{
+        height:250px;
+    }
+}
+
+.margin20Small{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#RegPopup{
+    #regLoginWrapper{
+        float:none;
+        display:block;
+        text-align:left;
+    }
+    #formBlock{ padding: 1.2em 0em; }
+    #regTitleBar{
+        padding:0px 10px;
+        margin-top:0px;
+        #regLoginWrapper{
+            margin-top:5px;
+            width:100%;
+            #regLoginButtonWrapper{
+                margin-right:0px !important;
+                float:right;
+                position:relative;
+                top:-20px;
+            }
+        }
+    }
+    #regLookingForTitleBar{
+        height:auto;
+        padding:0px 10px;
+        margin-top:30px;
+        #regLoginWrapper{
+            margin-top:5px;
+            width:100%;
+            #regLoginButtonWrapper{
+                margin-right:0px !important;
+                float:right;
+                position:relative;
+                top:-20px;
+            }
+        }
+    }
+    #ai_responsivebundle_register_submit{ width: 90%; margin-left:5%; }
+}
+
+
+.overviewBanner{
+ .mainSubHeader{
+   width:88%;
+ }
+}
+.sampleReportsBox{
+    .displaySampleReport{
+    margin:0px;
+        img {
+            height:100%;
+            min-height:225px;
+        }
+    }
+  p,.menu-label,.industryMenu,.itemMenu{
+    text-align:left;
+  }
+  .menu-label{
+    display:block;
+    text-align:left;
+  }
+  #dlSampleReport{
+      padding:6px 30px !important
+  }
+}
+.homePublications.col-lg-11{
+    height:auto;
+}
+
+#page_Logout{
+    #logoutConfirmText{ padding-left:1em; }
+    #logoutPhoneImage{
+        width:100%;
+        img {width:45%;}
+    }
+    .mobileEmailSendLinks{
+        width:100% !important;
+    }
+}
+
+#regLookingfor_radioWrap{
+    margin-left:10px;
+}
+
+.RegLookingfor_marginLeftSmall{
+    padding-left:10px !important;
+}
+
+#regLookingforTitle{
+    margin-top:10px;
+}
+.regLookingfor_marginTopSmall{
+    margin-top:20px;
+}
+
+.col-xs-12 { padding: 0px; }
+
+#homePricingBoxWrapper{
+    margin-left: -10px;
+    margin-right: 0px;
+}
+
+/* New Industry Pages Layout [Start] */
+.industrySectionImageRight img, .industrySectionImageLeft img {width:100%; height:auto; margin-top:0px;}
+/* New Industry Pages Layout [End] */
+
+#registrationPopup { 
+    width:100%;
+    margin:0px;
+    max-width: 100% !important;
+}

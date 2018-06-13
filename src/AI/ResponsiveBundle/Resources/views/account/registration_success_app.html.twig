@@ -1,0 +1,43 @@
+{% stylesheets filter="cssrewrite" filter='?uglifycss' '@AIResponsiveBundle/Resources/public/css/buttons.css' %}
+	<link rel="stylesheet" href="{{asset_url}}"/>
+{% endstylesheets %}
+{% if tracking.head is defined %} {{tracking.head|raw}} {% endif %}
+<style type="text/css">
+	@font-face {
+		font-family: 'Open Sans';
+		src:url('/fonts/opensans-regular.ttf');
+	}
+	@font-face {
+		font-family: 'Open Sans';
+		src:url('/fonts/opensans-bold.ttf');
+		font-weight: bold;
+	}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<center>
+	<div style="padding:20px; border:1px solid #C7C8CA; overflow:hidden; margin:3% 10%;  background-color:#E6E6E6; font-family:'Open Sans'; font-size:14px;">
+		<h1 style="margin-top:0px;">Thank You for Registering!</h1>
+		<p>You will soon receive an email with your login credentials. An account manager will be contacting you shortly to welcome you and answer any questions you may have.</p>
+		<p><a id="returnLink" href="asiainspection://?page=reportlist" role="button" class="one-btn btn btn-primary btn-big" style="max-width:300px; margin-top:2.0em;">Back</a></p>
+	</div>
+</center>
+
+{% if tracking.body is defined %} {{tracking.body|raw}} {% endif %}
+
+{% if chromebrowser is defined and chromebrowser == true %}
+	<script type='text/javascript'>
+		url = 'intent://?page=reportlist#Intent;package=com.asiainspection;scheme=asiainspection;end;';
+		document.getElementById("returnLink").href = url;
+		setTimeout(function() {
+			window.location = url;
+		}, 15000);
+	</script>
+{% else %}
+	<script type='text/javascript'>
+		url = 'asiainspection://?page=reportlist';
+		document.getElementById("returnLink").href = url;
+		setTimeout(function() {
+			document.location = url;
+		}, 15000);
+	</script>
+{% endif %}

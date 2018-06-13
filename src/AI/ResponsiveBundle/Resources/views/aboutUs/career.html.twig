@@ -1,0 +1,95 @@
+
+{% extends 'AIResponsiveBundle:aboutUs:whoWeAreBase.html.twig' %}
+
+{%block title%}{{pageTitle}}{%endblock%}
+{%block pagename%}CareerOps{%endblock%}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{%block bigTitle%} {{xml.title}} {%endblock%}
+{%block smallText%}{{xml.titleSubText|raw}}{%endblock%}
+
+{%block whoWeAreText%}
+
+<div id ="selectJobType" >
+    <div class="col-md-2 paddingLeftZero" >
+      <p class="pBold">{%trans%}Filter Jobs{%endtrans%}:</p>
+    </div>
+
+    <div class="col-md-3 jobdrop_divbox">
+      <select id="jobdrop_Department" style="width:100%; ">
+        <option value=''>-- {%trans%}Job Type{%endtrans%} --</option>
+      </select>
+    </div>
+
+    <div class="col-md-3 jobdrop_divbox">
+      <select id="jobdrop_Countries" style="width:100%; ">
+        <option value=''>-- {{xml.country}} --</option>
+      </select>
+    </div>
+
+    <div class="col-md-3 jobdrop_divbox">
+      <select id="jobdrop_Type" style="width:100%; ">
+        <option value=''>-- {{xml.contractType}} --</option>
+        <option value='full'>{{xml.contractOptions.fulltime}}</option>
+        <option value='part'>{{xml.contractOptions.parttime}}</option>
+        <option value='intern'>{{xml.contractOptions.intern}}</option>
+      </select>
+    </div>
+  </div>
+<div style="clear:both"></div>
+<p class="pBold" style="padding-top:15px;padding-bottom:5px;">{{xml.cantfind|raw}}</p>
+<div style="margin-top:15px;">
+<div class="pie" style="background-color:white;">
+
+    <div>
+
+     <a href="javascript:viewAllJobOps();" style="color:white; font-size:18px;"></a></span></div>
+    <table id="jobsTable" cellspacing="0" width="100%" cellpadding="2">
+    </table>
+  </div>
+
+</div>
+
+{%endblock%}
+{%block offerbox1%}
+
+                                          <h5>
+                                          {{followus}}</h5>
+                                         <hr>
+                                         <center>
+
+                                           <script type="IN/FollowCompany" data-id="207808" data-counter="right"></script>
+                                           </center>
+ {%endblock%}
+
+ {%block offerbox2%}
+
+                                          <h5 >
+                                          {{xml.whyWorkTitle}}</h5>
+                                         <hr>
+                                          <img src="{{assetsDomain}}/images/whyWork_img.jpg" width="100%" style="padding-top:5px;">
+                                         {{xml.whyWorkText|raw}}
+                                          <a href="https://www.youtube.com/watch?v=BAwhcc6GY30&list=PL8KLu_GoEuLVXxolg_qVQ416Ls_pMOtwk">{%trans%}See our Employee Videos{%endtrans%}</a>
+
+{%endblock%}
+
+
+
+{%block offerbox3%}
+                                    <div class="offer-box pDeepGrey" style="margin-top:20px;">
+                                      <h5 >
+                                        {{xml.gradOpsTitle}}
+                                      </h5>
+                                     <hr>
+                                      <img src="{{assetsDomain}}/images/responsive/graduates.png" width="100%" style="padding-top:5px;">
+                                      <p  style="padding-top:15px;">{{xml.gradOpsText}}</p>
+                                      </div>
+
+{%endblock%}
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts  '@AIResponsiveBundle/Resources/public/js/getJobs.js'
+    '@AIResponsiveBundle/Resources/public/js/linkedinFollow.js' filter='?uglifyjs2' %}
+
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

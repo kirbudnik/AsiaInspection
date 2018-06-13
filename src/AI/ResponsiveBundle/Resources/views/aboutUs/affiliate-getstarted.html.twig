@@ -1,0 +1,94 @@
+{% extends 'AIResponsiveBundle:aboutUs:whoWeAreBase.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block bigTitle %}{{xml.pageTitle}}{% endblock %}
+{% block smallText %}{{xml.paraOne}}{% endblock %}
+{% block pagename %}AffiliateGetStarted{% endblock %}
+
+{% block whoWeAreText %}
+<div id="content">
+	<div class="rounded-box" style="margin-bottom: 20px;padding-left: 20px;">
+		<div style="width:650px; padding-top:20px;">
+			<h1>{{xml.titleTwo}}</h1>
+			<p>{{xml.paraTwo}}</p>
+		</div>
+		<!-- topSection end -->
+
+		<hr style="clear:both;" />
+
+		<div id="longOne">
+			<div style="width: 250px; float: left; text-align:center;"><img src="{{assetsDomain}}/images/{{xml.imageOne}}" style="width:100%; margin:10px; border:1px solid #E6E6E6;"></div>
+			<div style="margin-left: 300px;"><h5>{{xml.divtitleOne}}</h5>
+			<p>{{xml.paraThree}}</p>
+			<p>{{xml.paraFour}}</p>
+			<h5>{{xml.divtitleTwo}}</h5>
+			<p>{{xml.htmlcodeOne|raw}}</div>
+		</div>
+		<!-- longOne end -->
+
+		<hr style="clear:both;" />
+
+		<div id="longTwo">
+			<div style="width:250px; float:left; text-align:center;">
+				<img src="{{assetsDomain}}/images/{{xml.imageTwo}}" style="width:100%; margin:10px;"><br />
+				<img src="{{assetsDomain}}/images/{{xml.imageTwo}}" style="width:100%; margin:10px;">
+			</div>
+			<div style="margin-left: 300px;"><h5>{{xml.divtitleThree}}</h5>
+			<p>{{xml.sentenceOne}}<br />{{xml.sentenceTwo}}<br />
+			<a href="{{assetsDomain}}/files/{{xml.downloadBanners}}">{{xml.linkOne}}</a></p>
+			<h5>{{xml.divtitleFour}}</h5>
+			<p>{{xml.htmlcodeTwo|raw}}</p></div>
+		</div>
+		<!-- longTwo end -->
+
+		<hr style="clear:both;" />
+
+		<div id="longThree">
+			<div style="width:250px; float:left; text-align:center;"><img src="{{assetsDomain}}/images/{{xml.imageFour}}" style="width:100%; margin:10px; border:1px solid #E6E6E6;"></div>
+			<!--
+			<div style="margin-left: 300px;"><h5>{{xml.divTitleFive}}</h5>
+			<p>{{xml.paraFive}}<p/>
+			<p>{{xml.sentenceThree}}<br />
+			<a target="_blank" href="{{assetsDomain}}/files/{{xml.linkTwo}}">{{xml.sentenceFour}}</a><br />
+			<a target="_blank" href="{{assetsDomain}}/files/{{xml.linkThree}}">{{xml.sentenceFive}}</a><br />
+			<a target="_blank" href="{{assetsDomain}}/files/{{xml.linkFour}}">{{xml.sentenceSix}}</a></p>
+			-->
+			<div style="margin-left: 300px;"><h5>Questions?</h5>
+			<p>{{xml.sentenceSeven}}<br />
+			<a href="mailto:{{xml.contactEmail}}">{{xml.contactEmail}}</a></p></div>
+		</div>
+		<!-- longthree end -->
+	</div>
+	<!-- rounded box end -->
+</div>
+<!-- content end -->
+{% endblock %}
+
+{% block offerbox1 %}
+	<div class="sidebarTitlebar">
+		<h5>Subscribe to Our Newsletter</h5>
+	</div>
+	<div class="sidebarContentBox">
+		<form class="validate-form">
+			<input id="sub_news_email" placeholder="Your Email Address" required type="text"  style="width:90%;">
+			<center><button id="box_subscr_news_submit" class=" btn-primary" style="margin-top:15px;" type="submit">Submit</button></center>
+		</form>
+	</div>
+{% endblock %}
+
+{% block offerbox2 %}
+	<div class="sidebarTitlebar">
+		<h5>{% trans %}Client Testimonial{% endtrans %}</h5>
+	</div>
+	<div class="sidebarContentBox">
+		<p>{% trans %}"As a Quality Manager, I recognize the necessity of timely and accurate inspection reports. When it comes to AsiaInspection, the professionalism of...{% endtrans %}</p>
+		<a href="/asiainspection-testimonials">{% trans %}Read More{% endtrans %}</a>
+		<p style="padding-top:15px;">{% trans %}Quality Manager{% endtrans %}</p>
+		<p style="font-weight:bold;">Unger Enterprises Inc.</p>
+		<p>Quality Tools for Smart Cleaning</p>
+		<a href="http://www.ungerglobal.com">www.ungerglobal.com</a>
+		<div id="banner">
+			<a href="http://www.ungerglobal.com" target="_blank"><div class="spriteunger-enterprises_s" alt="Unger Enterprises"></div></a>
+		</div>
+	</div>
+{% endblock %}

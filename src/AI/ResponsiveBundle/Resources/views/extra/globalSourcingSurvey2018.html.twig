@@ -1,0 +1,133 @@
+{% if app.request.locale == "ar" %} {% set twigBase = "AIResponsiveBundle:RTL:extra/extraBase.html.twig" %} {% else %} {% set twigBase = "AIResponsiveBundle:extra:extraBase.html.twig" %} {% endif %}
+{% extends twigBase %}
+
+{% block title %}2018 AI Global Sourcing Survey | AsiaInspection{% endblock %}
+{% block pageDescription %}{% endblock %}
+{% block pageKeywords %}{% endblock %}
+
+{% block bigTitle %}{% trans %}2018 AI Global Sourcing Survey{% endtrans %}{% endblock %}
+{% block smallText %}A survey of 250+ companies from across the globe working in all major consumer product segments (from Textile & Footwear to Electronics, Toys, Eyewear, Cosmetics, Homeware and Food) focusing on popular sourcing, QC and compliance practices, top sourcing challenges, and the major trends expected to shape the sourcing landscape in 2018.{% endblock %}
+{% block pagename %}SourcingSurvey2018{% endblock %}
+
+{% block mainBlock %}
+	<script src="//app-ab16.marketo.com/js/forms2/js/forms2.min.js"></script>
+	<script src="/js/arrive.min.js"></script>
+	<br />
+	<h2>2018 AI Global Sourcing Survey: Highlights</h2>
+	<p>Supply chain visibility: halfway there? An average business knows roughly half of their suppliers, but only 11% would say they have full supply chain visibility.</p>
+	<p>China maintains dominance, but challengers abound: while half of surveyed companies expect to source more from China in 2018, cost-sensitive textile businesses increasingly turn to India and Bangladesh</p>
+	<p>Technological trends take a back seat to politics: when considering their sourcing in 2018, businesses are more concerned with tariffs and embargos than automation and 3D printing</p>
+	<p>Cost management and quality control go hand in hand: companies named manufacturing costs and product quality as their top sourcing challenges in the present and near future</p>
+	<p><b>Download the full report for further insights on:</b></p>
+	<ul>
+		<li style="margin-bottom:5px;">Expected impact of micro and macro trends on global sourcing in 2018</li>
+		<li style="margin-bottom:5px;">Top sourcing countries for each industry sector</li>
+		<li style="margin-bottom:5px;">Popular outsourcing models and supplier management practices</li>
+		<li style="margin-bottom:5px;">Supplier audit practices, frameworks, and KPIs</li>
+		<li style="margin-bottom:5px;">Product quality, safety, and supplier compliance trends by industry</li>
+	</ul>
+	<br />
+		<div style="text-align:left; border:2px solid #ddd; padding:20px; width:90%; max-width:500px;">
+			<!-- MARKETO [Begin] -->
+			{% if app.request.get('aliId') is defined and app.request.get('aliId') != null %}
+				<div style="text-align:center; background-color:rgba(64,64,66,0.2); padding:15px; margin:30px 0px;">
+					<h3 style="font-size:14px; margin-bottom:0px; color:#5aa231;">The report has been sent, please check your email.</h3>
+				</div>
+			{% else %}
+				<div style="font-weight:bold;">Get the Report now</div>
+				<form id="mktoForm_1154"></form>
+				<script type="text/javascript">
+					MktoForms2.loadForm("//app-ab16.marketo.com", "944-QDO-384", 1154);
+					$(document).arrive(".mktoButton", function() {
+						$("#Email").val( getCookie('email') );
+						mktoObj = $("#mktoForm_1154");
+						$(".mktoAsterix", mktoObj).parent().remove();
+						$(".mktoOffset", mktoObj).remove();
+						$(".mktoGutter", mktoObj).remove();
+						$(".mktoFormCol", mktoObj).css({
+							"width":"100%",
+							"margin":"0px"
+						});
+						$(".mktoFieldWrap", mktoObj).css({
+							"width":"100%",
+							"margin":"0px"
+						});
+						$(".mktoButtonRow", mktoObj).css("width","100%");
+						$("#Email", mktoObj).css({
+							"width":"100%",
+							"border":"1px solid rgb(206, 207, 209)",
+							"border-radius":"3px",
+							"box-shadow":"0 0 5px rgb(223, 224, 225) inset",
+							"background-color":"rgb(249,249,249)",
+							"box-sizing":"border-box",
+							"padding":"6px 12px",
+							"line-height":"20px",
+							"font-size":"14px",
+							"height":"34px",
+							"margin-top":"0px"
+						}).attr("placeholder","Your email address");
+						$(".mktoButtonWrap", mktoObj).css("margin","0px");
+						$(mktoObj).css({
+							"width":"100%"
+						});
+						$(".mktoButton").attr("id","marketoSubmitButton").addClass("two-btn btn btn-primary btn-big").text("{% trans %}Send now{% endtrans %}").css({
+							"width":"100%",
+							"background-image":"none",
+							"background-color":"#5ba331",
+							"font-size":"16px",
+							"line-height":"27px",
+							"margin":"10px 0px 0px 0px"
+						}).click(function(){
+							trackContentDownload('whitepaper','GlobalSourcingSurvey2018');
+							email = $("#Email").val();
+							if(email != "") {
+								setCookie("email", email, 365);
+								// Save Locally
+								$.ajax({
+									type: "POST",
+									url: "/getEmail",
+									async: "false",
+									data: "email="+email+"&target=GlobalSourcingSurvey2018&category=Whitepaper",
+									dataType: "text",
+									success: function(msg){ }
+								});
+							}
+						});
+					});
+					$(document).arrive(".mktoError", function() {
+						if( window.matchMedia('all and (max-width: 500px)').matches ) {
+							$(this).css({
+								"margin-top":"75px",
+								"background-color":"white",
+								"border":"2px solid #ddd",
+								"padding-bottom":"7px"
+							});
+						} else {
+							$(this).css("margin-top","0px");
+						}
+						errorHtml = $(this).html();
+						$("#insightErrorBox").html(errorHtml);
+						$("#insightSecondFormBoxButton").text("Send Now").removeAttr("disabled");
+					});
+				</script>
+			{% endif %}
+			<!-- MARKETO [End] -->
+		</div>
+	<div style="clear:both;"></div>
+{% endblock %}
+
+{% block javascripts %}
+	{{ parent() }}
+	{% javascripts  '@AIResponsiveBundle/Resources/public/js/industryFixedMenu_v2.js' filter='?uglifyjs2' %}
+		<script type="text/javascript" src="{{ asset_url }}"></script>
+	{% endjavascripts %}
+	<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">
+		stLight.options({
+			publisher:'12345',
+			doNotHash:true,
+			doNotCopy:true,
+			hashAddressBar:false
+		});
+	</script>
+{% endblock %}

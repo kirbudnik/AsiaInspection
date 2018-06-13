@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<title>
+		<en>In Their Own Words</en>
+		<fr>Ils parlent d'AI</fr>
+		<ar>بعض الكلمات عن الشركة من بعض موظفيها</ar>
+		<es>En sus propias palabras</es>
+		<de>Aussagen von Mitarbeitern</de>
+		<zh>员工心声</zh>
+		<it>Dicono di noi</it>
+	</title>
+	
+	<headerText>
+		<en>Here are a few employees' thoughts on what makes AsiaInspection so special.</en>
+		<fr>Voici quelques témoignages d'employés sur ce qui rend AsiaInspection si spéciale.</fr>
+		<ar>ها هي بعض الكلمات من بعض الموظفين في الشركه عن افكارهم لماذا الشركة مميزة لهذه الدرجه</ar>
+		<es>Aquí puede leer algunas opiniones de empleados que expresan qué hace AsiaInspection tan especial.</es>
+		<de>Die Aussagen einiger unserer Mitarbeiter dazu, warum AsiaInspection ein besonderes Unternehmen ist.</de>
+		<zh>是什么让 AsiaInspection 如此特别？下面是一些员工的想法。</zh>
+		<it>Le opinioni di alcuni dei nostri dipendenti su ciò che rende AsiaInspection così speciale.</it>
+	</headerText>
+	
+	<quote1>
+		<en>"The fast paced nature of the industry and the hands-on opportunities. Working in large corporations in the US, you never felt the impact of your work."</en>
+		<it>"Il ritmo dinamico del settore e le opportunità a portata di mano. Lavorare nelle grandi società statunitensi non ti dà la possibilità di verificare l'impatto del tuo lavoro."</it>
+		<fr>"The fast paced nature of the industry and the hands-on opportunities. Working in large corporations in the US, you never felt the impact of your work."</fr>
+		<es>"Sentir el ritmo vertiginoso de la industria y la oportunidad de trabajar libremente. Cuando trabajaba en grandes empresas en EE.UU., nunca sentí la importancia de mi trabajo."</es>
+		<ar>"طبيعة الصناعة السريعة و التدريب العالي علي إستغلال الفرص بمهارة و العمل في الشركات الكبيرة بالولايات المتحدة ، لن يؤثر هذا في كفاءة العمل"</ar>
+		<de>"Die Dynamik der Branche und die praktischen Möglichkeiten. In Großunternehmen in den USA ist man sich nie der Auswirkungen seiner Arbeit bewusst."</de>
+		<zh>"快节奏的行业性质和亲身实践机会。在美国的一些大企业工作，你永远也感受不到这种工作的影响力。"</zh>
+	</quote1>
+	
+	<quotee1>
+		<en><![CDATA[
+			<b>Michael M.</b>, U.S., <i>Marketing Director</i>
+		]]></en>
+		<fr><![CDATA[
+			<b>Michael M.</b>, U.S., <i>Marketing Manager</i>
+		]]></fr>
+		<it><![CDATA[
+			<b>Michael M.</b>,  Stati Uniti, <i>Marketing Manager</i>
+		]]></it>
+		<ar><![CDATA[
+			 الولايات المتحدة, <i>مديرتسويق الشركة</i>,<b>مايكل </b>
+		]]></ar>
+		<es><![CDATA[
+			<b>Michael M.</b>, U.S., <i>Marketing Manager</i>
+		]]></es>
+		<zh><![CDATA[
+			<b>Michael M.</b>，美国，<i>市场部经理</i>
+		]]></zh>
+	</quotee1>
+	
+	<quote2>
+		<en>"AI is the right environment for me to learn and work with global clients. The support that I receive from my team has been immense. I’m learning a lot!"</en>
+		<it>"Il mio team. Posso contare su un perfetto equilibrio tra sostegno e indipendenza per eccellere."</it>
+		<zh>"我的团队非常棒。公司既给予我支持，又提供独立的发挥空间，这助我走向成功。"</zh>
+		<fr>"My team. I have the balance of support and independence to succeed."</fr>
+		<ar>"فريقي. لدي رصيد من الدعم والاستقلال لتحقيق النجاح"</ar>
+		<es>"Mi equipo. Tengo la suerte de tener un buen balance entre soporte y autonomía para triunfar."</es>
+		<de>"Mein Team. Meine Erfolge beruhen auf einem ausgewogenen Verhältnis von Unterstützung und Unabhängigkeit."</de>
+	</quote2>
+	
+	<quotee2>
+		<en><![CDATA[
+			<b>Asim Q. </b>, Protocol Specialist, <i>India</i>
+		]]></en>
+		<it><![CDATA[
+			<b>Suki C.</b>, Hong Kong, <i>Account Manager</i>
+		]]></it>
+		<zh><![CDATA[
+			<b>Suki C.</b>，中国香港，<i>客户经理</i>
+		]]></zh>
+		<fr><![CDATA[
+			<b>Suki C.</b>, Hong Kong, <i>Account Manager</i>
+		]]></fr>
+		<ar><![CDATA[
+			 هونج كونج, <i>مدير حساب</i>, <b>سوكي</b>
+		]]></ar>
+		<es><![CDATA[
+			<b>Suki C.</b>, Hong Kong, <i>Consultor</i>
+		]]></es>
+	</quotee2>
+	
+	<quote3>
+		<en>“The AI culture, all the way up to the senior management, is extremely supportive. It's an energetic team always working towards excellence. I look forward to a long and prosperous career within AI."</en>
+		<fr>"Travailler avec des professionnels de plus de 10 nationalités différentes pour le compte de clients venant du monde entier."</fr>
+		<ar>"العمل مع محترفين من أكثر من ١٠ دول لخدمة العملاء حول العالم"</ar>
+		<es> "Trabajar con profesionales de más de 10 nacionalidades que atienden a clientes en todo el mundo." </es>
+		<de>"Die Arbeit mit Fachleuten aus über zehn Ländern, die für Kunden in aller Welt tätig sind."</de>
+		<zh>"和来自 10 多个国家的专业人士一起为世界各地的客户服务。"</zh>
+		<it>"La possibilità di lavorare con professionisti di più di 10 nazionalità diverse e avere clienti internazionali."</it>
+	</quote3>
+	
+	<quotee3>
+		<en><![CDATA[
+			<b>Rahul C.</b>, Business Development,  <i>China</i>
+		]]></en>
+		<fr><![CDATA[
+			<b>Pierre D.</b>, France, <i>Sales Director</i>
+		]]></fr>
+		<en><![CDATA[
+			 فرنسا , <i>مدير المبيعات</i>, <b>بيير</b>
+		]]></en>
+		<es><![CDATA[
+			<b>Pierre D.</b>, France, <i>Sales Director</i>
+		]]></es>
+		<zh><![CDATA[
+			<b>Pierre D.</b>，法国，<i>销售总监</i>
+		]]></zh>
+		<it><![CDATA[
+			<b>Pierre D.</b>, France, <i>Sales Director</i>
+		]]></it>
+	</quotee3>
+
+</document>

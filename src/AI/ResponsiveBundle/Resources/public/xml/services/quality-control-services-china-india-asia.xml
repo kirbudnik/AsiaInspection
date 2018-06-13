@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+    <pageMeta>
+        <pageTitle>
+            <en>Quality Control Services: Supplier Audits, Product Testing, Inspections | Asia Inspection</en>
+            <es>Servicios de Control de Calidad: Servicios de inspección de productos, pruebas de laboratorio, auditoría social y auditoría de fábrica | Asiainspection.com</es>
+            <ar>خدمة فحص جودة المنتجات | فحص جودة الإنتاج بمصانع الصين، الهند وآسيا </ar>
+            <fr>Contrôle Qualité : Test Laboratoire, Contrôle Produit, Audit Fournisseur et Social | AsiaInspection.fr</fr>
+            <zh>质量检测服务： 产品检验、工厂审核及实验室测试服务 | ChinaInspection.com</zh>
+            <de>Qualitätskontrolle: Zulieferer Audits, Produkttests und -inspektionen</de>
+            <ru>Услуги контроля качества: инспекция продукции, лабораторное тестирование, аудит фабрик и социальный аудит |AsiaInspection</ru>
+            <tr>Kalite Kontrol Hizmetleri: Tedarikçi Deneitmleri, Ürün Testi, Muayeneler</tr>
+        </pageTitle>
+        <pageDesc>
+            <en>We conduct supplier audit programs, product inspections, and laboratory testing to provide the most comprehensive quality control services. See how you can secure your supply chain.</en>
+            <es>Servicios de inspección y control de calidad de AsiaInspection. Empiece hoy</es>
+            <ar>نحن نوفر خدمات عالية الجودة لفحص جودة المنتجات، وفحص جودة الإنتاج للمستوردين داخل مصانع الصين، الهند وآسيا.</ar>
+            <de>Wir führen Auditprogramme, Produktinspektionen und Labortests durch, um die umfassendste Palette an Qualitätskontrollservices zu bieten.</de>
+            <fr>AsiaInspection propose des inspections et contrôles de qualité. Commencez dès aujourd'hui</fr>
+            <zh>AsiaInspection 在中国、印度等亚洲其他国家提供工厂生产检测。确保您的中国供货商及进口货物满意达标。</zh>
+            <ru>Услуги инспекций и контроля качества Asia Inspection в Китае. Начните сегодня.</ru>
+            <tr>"En kapsamlı kalite kontrol hizmetlerini vermek için tedarikçi denetim programları, ürün muayeneleri ve laboratuvar testleri yürütüyoruz. Tedarik zincirinizi nasıl güvenceye alabileceğinizi görün".</tr>
+        </pageDesc>
+    </pageMeta>
+
+    <en>
+        <title>Quality Control Services</title>
+        <subtitle>Learn how we can secure your supply chain.</subtitle>
+        <productSlide>
+            <title>Product Inspections and Product Testing</title>
+            <subtext>
+                <![CDATA[
+                AsiaInspection is a quality control services company performing on-site Product Inspections and product testing in China, India, and greater Asia for importers worldwide.  We guarantee to have one of our 600+ trained inspectors at any factory in Asia within 48 hours.  <a href="/register">Create your free account</a> to schedule your Product Inspections and secure your imports.
+                ]]>
+            </subtext>
+            <listitem title="Pre-Shipment Inspection (PSI)" link="/pre-shipment-inspection">An Inspection to guarantee the conformity of production to your specifications.</listitem>
+            <listitem title="Production Monitoring (PM)" link="/production-monitoring">Constant oversight in your factory with daily reports on quality and production status.</listitem>
+            <listitem title="During Production Check (DUPRO)" link="/during-production-inspection">Control and recommendations for production processes and capacity.</listitem>
+            <listitem title="Initial Production Check (IPC)" link="/initial-production-check">Inspection of machinery and materials to be used for your order prior to production.</listitem>
+            <listitem title="Container Loading Check (CLC)" link="/container-loading-check">Guarantee the finished and packed goods meet your specifications (product type and quantity) and are securely loaded for shipment.</listitem>
+        </productSlide>
+        <labSlide>
+            <title>Laboratory Testing</title>
+            <text>
+            <![CDATA[
+            <p>AsiaInspection is a quality control company performing Laboratory Testing for importers worldwide. AsiaInspection labs follow the strictest international and industry standards across all products, components, and materials.</p>
+            <p>With our online platform you quickly find all the tests you need. Select your product category, country of manufacture, destination country, and we provide all relevant tests to keep you compliant and protected.</p>
+            <p>Testing with AsiaInspection allows you to seamlessly integrate your Laboratory Testing with your Product Inspection. Guarantee the sample is from your production lot, not a sample the factory wants you to test.</p>
+            <p>Certified in the following internationally recognized tests:</p>
+            ]]>
+            </text>
+            <leftList>
+                <li link="/cpsia-testing">CPSIA</li>
+                <li link="/reach-testing">REACH</li>
+                <li link="/rohs-testing">RoHS Testing</li>
+                <li link="/quality-control-services/laboratory-testing">EN 71</li>
+            </leftList>
+            <rightList>
+                <li link="/quality-control-services/laboratory-testing">Flame Retardant</li>
+                <li link="/quality-control-services/laboratory-testing">Lead, mercury, cadmium and 3,000 others</li>
+            </rightList>
+        </labSlide>
+        <auditSlide>
+            <title>Ethical and Manufacturing Audit Programs</title>
+            <text><![CDATA[AsiaInspection is a quality control services company performing ethical and manufacturing audits for brands, retailers and importers worldwide.<br /><br /><a href="/register">Create your free account</a> and have one of our 600+ trained auditors onsite within 48 hours.]]></text>
+            <listOne>
+                <title>Are you sure the factories you work with...</title>
+                <li> do not employ children and abide by local labor laws?</li>
+                <li> comply with international social, health, and safety standards?</li>
+                <li> can reach your production capacity and deliver on time?</li>
+            </listOne>
+            <listTwo>
+                <title>Don't have your name in the news next to "Child Labor".</title>
+                <li title="Manufacturing Audits" link="/manufacturing-audit">Comprehensive assessment of the production facilities and organization according to ISO 9000 standards.  Confirm your factory has the production capacity and quality to meet your production needs</li>
+                <li title="Ethical Audits" link="/ethical-audit">Confirm compliance with hygiene and safety standards, local labor laws, and child labor policy according to SA 8000.</li>
+                <li title="C-TPAT Audits" link="/c-tpat-compliance"></li>
+                <li title="Structural Audits" link="/structural-audits"></li>
+                <li title="Environmental Audits" link="/environmental-audit"></li>
+            </listTwo>
+        </auditSlide>
+        <labTab>
+            <title>Laboratory Testing</title>
+            <li>Ensure your products are in compliance with international regulations.</li>
+            <li>Detailed pricing available within the booking form.</li>
+        </labTab>
+        <productTab>
+            <title>Product Inspections</title>
+            <li>Save money and avoid costly defects by ensuring your product imports meet your specifications and quality standards.</li>
+        </productTab>
+        <auditTab>
+            <title>Audit Programs</title>
+            <li>Protect your brand and company.  Ensure your factories adhere to local and international labor laws and working conditions.</li>
+        </auditTab>
+        <productExpertise>
+            <title>Product Expertise</title>
+            <subtext>Offering quality control services and Inspections by our experienced inspectors on all products and imports, including:</subtext>
+            <leftList>
+                <li>Textiles and Bags</li>
+                <li>Gifts and Premiums</li>
+                <li>Garment and Apparel</li>
+                <li>Toys and Juvenile Products</li>
+                <li>Electronic and other Electrical Devices</li>
+                <li>Houseware products</li>
+            </leftList>
+            <rightList>
+                <li>Lighting</li>
+                <li>Sundries and Stationery</li>
+                <li>Tools and DIY</li>
+                <li>Printing and Packaging</li>
+                <li>Industrial and Home Appliances</li>
+            </rightList>
+        </productExpertise>
+    </en>
+
+    <zh>
+        <title>中国、印度以及大亚洲区的质量控制服务</title>
+        <subtitle>了解我们如何保护您的供应链。</subtitle>
+        <productSlide>
+            <title>产品检验和产品测试</title>
+            <subtext>
+                <![CDATA[
+                AsiaInspection 是一家质量控制服务公司，立足于中国、印度及大亚洲区，为全球进口商提供现场产品检验及产品测试服务。我们承诺 48 小时内派遣 600 多名资深检验人员中的最佳人选，深入到亚洲的任何一家工厂。<a href="/register">创建免费账户</a>制定产品检验计划，保证您的进口产品安全。
+                ]]>
+            </subtext>
+            <listitem title="装箱前检验 (PSI)" link="/pre-shipment-inspection">一项能够保证生产符合规范的检验。</listitem>
+            <listitem title="生产监控 (PM)" link="/production-monitoring">工厂内的持续监督，每日出具质量和生产状态报告。</listitem>
+            <listitem title="生产中检验 (DUPRO)" link="/during-production-inspection">生产流程及产能的控制和建议。</listitem>
+            <listitem title="生产初期检验 (IPC)" link="/initial-production-check">一项在生产前对订单中待使用机械设备和材料的检验。</listitem>
+            <listitem title="集装箱装箱检验 (CLC)" link="/container-loading-check">确保成品和包装产品符合您的规范（产品类型及数量）并且安全装箱待运。</listitem>
+        </productSlide>
+        <labSlide>
+            <title>实验室测试</title>
+            <text>
+            <![CDATA[
+            <p>AsiaInspection 是一家质量控制公司，为全球进口商提供实验室测试服务。AsiaInspection 实验室按照最严格的国际及行业标准对所有产品、零部件及材料执行检验。</p>
+            <p>可利用我们的在线平台快速找到您所需的测试。只需选择您的产品类别、制造国家/地区、目的国，我们即可提供全方位检验来保证您的产品符合规范，安全无误。</p>
+            <p>AsiaInspection 安排的测试使实验室测试和产品检验紧密结合。确保样本来源于生产抽签，而不是工厂提供的测试样本。</p>
+            <p>具有以下国际测试认证：</p>
+            ]]>
+            </text>
+            <leftList>
+                <li link="/cpsia-testing">CPSIA</li>
+                <li link="/reach-testing">REACH</li>
+                <li link="/rohs-testing">RoHS测试</li>
+                <li link="/quality-control-services/laboratory-testing">EN 71</li>
+            </leftList>
+            <rightList>
+                <li link="/quality-control-services/laboratory-testing">阻燃剂</li>
+                <li link="/quality-control-services/laboratory-testing">铅, 汞, 镉和其他3000多种成分检测</li>
+            </rightList>
+        </labSlide>
+        <auditSlide>
+            <title>工厂审核和社会责任审核</title>
+            <text><![CDATA[AsiaInspection 是一家质量控制服务公司，立足于中国、印度及大亚洲区，为全球进口商提供工厂审核和社会责任审核。我们承诺，能够在 48 小时内派遣 600 多名资深检验人员中的最佳人选，深入到亚洲的任何一家工厂。<br><a href="/register">创建免费账户</a>创建免费账户制定您的工厂审核和社会责任审核计划，保护您的品牌和企业形象。]]></text>
+            <listOne>
+                <title>您合作的工厂是否…</title>
+                <li>不雇用童工，遵守当地劳动法？</li>
+                <li>执行国际社会、卫生及安全标准？</li>
+                <li>能够达到您的产能要求并可以及时交货？</li>
+            </listOne>
+            <listTwo>
+                <title>避免您的品牌出现在童工相关新闻中。</title>
+                <li title="工厂审核 (MA)" link="/manufacturing-audit">按照 ISO 9000 标准对生产设施及组织进行的全面评估。确认您的工厂产能和质量能够满足您的生产需求。</li>
+                <li title="社会责任审核 (SMETA, BSCI审核)" link="/ethical-audit">确认工厂符合 SA 8000 规定的卫生安全标准和当地劳动法，不违反童工政策。</li>
+                <li title="C-TPAT审核" link="/c-tpat-compliance">Confirm compliance with hygiene and safety standards, local labor laws, and child labor policy according to SA 8000.</li>
+                <li title="结构审核" link="/structural-audits"></li>
+                <li title="环境审核" link="/environmental-audit"></li>
+            </listTwo>
+        </auditSlide>
+        <labTab>
+            <title>实验室测试</title>
+            <li>确保您的产品符合国际法规。</li>
+            <li>预订表单中可查看到详细定价。</li>
+        </labTab>
+        <productTab>
+            <title>产品检验</title>
+            <li>确保进口产品符合您的规范及质量标准，为您节省资金并避免出现损失极大的残次品。</li>
+        </productTab>
+        <auditTab>
+            <title>工厂审核和社会责任审核</title>
+            <li>保护您的品牌和公司形象。确保您的工厂符合当地和国际劳动法以及工作条件要求。</li>
+        </auditTab>
+        <productExpertise>
+            <title>产品专业知识</title>
+            <subtext>我们经验丰富的检验员为以下产品提供质量控制和检验服务：</subtext>
+            <leftList>
+                <li>纺织品和包包</li>
+                <li>礼品</li>
+                <li>服装</li>
+                <li>玩具</li>
+                <li>电子和电子设备</li>
+                <li>家居用品</li>
+            </leftList>
+            <rightList>
+                <li>照明设施</li>
+                <li>杂货和文具</li>
+                <li>工具和DIY用品</li>
+                <li>印刷包装</li>
+                <li>工业及家用电器</li>
+            </rightList>
+        </productExpertise>
+    </zh>
+
+    <ru>
+        <title>Контроль качества в Китае, Индии и Азиатском регионе</title>
+        <productSlide>
+            <title>Проверка продукции и исследование продукции</title>
+            <subtext>
+                <![CDATA[
+                AsiaInspection предоставляет услуги по контролю качества: инспекции и тестирование продукции в Китае, Индии и Азии для импортеров во всем мире. Мы гарантируем, что один из 600 обученных инспекторов прибудет на любую фабрику Азии в течение 48 часов. <a href="/register">Создайте бесплатный аккаунт</a>, чтобы заказать инспекцию и обезопасить закупки.
+                ]]>
+            </subtext>
+            <listitem title="Проверка перед погрузкой (ППЗ)" link="/pre-shipment-inspection">Проверка с целью гарантировать соответствие продукции Вашим требованиям.</listitem>
+            <listitem title="Наблюдение за производством (НП)" link="/production-monitoring">Постоянное наблюдение на фабрике с ежедневными отчетами о качестве и статусе производства.</listitem>
+            <listitem title="Проверка в процессе производства (ППП)" link="/during-production-inspection">Контроль и рекомендации по производственному процессу и пропускной способности.</listitem>
+            <listitem title="Проверка при запуске производства (ПЗП)" link="/initial-production-check">Проверка оборудования и материалов до начала производства изделий по Вашему заказу.</listitem>
+            <listitem title="Проверка при загрузке контейнеров (ПЗК)" link="/container-loading-check">Гарантия соответствия произведенных и упакованных изделий Вашим требованиям (тип продукции и количество), а также безопасности отгрузки.</listitem>
+        </productSlide>
+        <labSlide>
+            <title>Лабораторное исследование</title>
+            <text>
+            <![CDATA[
+            <p style="margin:10px 0px;">AsiaInspection является компанией по контролю качества и выполняет лабораторные исследования для импортеров во всем мире. Лаборатории следуют строгим международным и отраслевым стандартам при тестировании продукции и материалов.</p>
+            <p style="margin:10px 0px;">С помощью онлайн платформы вы быстро найдете все нужные тесты. Выберите категорию продукции, страну, в которой находится производство, страну назначения и мы предоставим все необходмые вам тесты.</p>
+            <p style="margin:10px 0px;">Тестирование в компании AsiaInspection позволит Вам с легкостью включить Лабораторное исследование в проверку Вашей продукции. Гарантируем взятие образцов из Вашей продукции, а не из предоставленных производством материалов.</p>
+            <p style="margin:10px 0px;">Сертифицированы в следующих международно признанных исследованиях:</p>
+            ]]>
+            </text>
+            <leftList>
+                <li link="/cpsia-testing">CPSIA</li>
+                <li link="/reach-testing">REACH</li>
+                <li link="/rohs-testing">RoHS Testing</li>
+                <li link="/quality-control-services/laboratory-testing">EN 71</li>
+            </leftList>
+            <rightList>
+                <li link="/quality-control-services/laboratory-testing">Огнеупорные свойства</li>
+                <li link="/quality-control-services/laboratory-testing">Свинец, ртуть, кадмий</li>
+                <li link="/quality-control-services/laboratory-testing">и исследование на предмет содержания любого другого вещества</li>
+            </rightList>
+        </labSlide>
+        <auditSlide>
+            <title>Ревизия производства и штатного состава.</title>
+            <text><![CDATA[AsiaInspection предоставляет услуги по контролю качества: инспекции и тестирование продукции в Китае, Индии и Азии для импортеров во всем мире. Мы гарантируем, что один из 600 обученных инспекторов прибудет на любую фабрику Азии в течение 48 часов. <a href="/register">Создайте бесплатный аккаунт</a>, чтобы заказать инспекцию и обезопасить закупки.]]></text>
+            <listOne>
+                <title>Уверены ли Вы в том, что предприятия, с которыми Вы работаете...</title>
+                <li> не используют детский труд и не нарушают местный трудовой кодекс?</li>
+                <li> соответствуют международным стандартам социально отвественности, здравооранения и безопасности?</li>
+                <li> могут поддерживать объем выпуска и обеспечивать своевременную доставку?</li>
+            </listOne>
+            <listTwo>
+                <title>Не позвольте названию Вашей компании появиться в заголовке рядом со словами "Эксплуатация детского труда".</title>
+                <li title="Ревизия производства (РП)" link="/manufacturing-audit">Сравнительная оценка производственных помещений и организации со стандартами ISO 9000. Подтвердите, что Ваша фабрика может поддерживать высокий объем выпуска и качество продукции, чтобы соответствовать потребностям заказчика</li>
+                <li title="Ревизии штатного состава (РШС)" link="/ethical-audit">Подтвердите соответствие стандартам гигиены и безопасности, местному трудовому кодексу и политики отношения к детскому труду согласно SA 8000.</li>
+                <li title="C-TPAT Audits" link="/c-tpat-compliance">Confirm compliance with hygiene and safety standards, local labor laws, and child labor policy according to SA 8000.</li>
+            </listTwo>
+        </auditSlide>
+        <labTab>
+            <title>Лабораторное исследование</title>
+            <li>Убедитесь, что поставки Вашего изделия проходят в соответствии с международными правилами.</li>
+            <li>Полное исследование на соответствие RoHs.</li>
+            <li>Детальные тарифы доступны в форме заказа. </li>
+        </labTab>
+        <productTab>
+            <title>Проверка продукции</title>
+            <li>Сэкономить деньги и избежать расходов на возмещение ущерба от дефектов.</li>
+            <li><![CDATA[<b>{{price_Inspect_Low}} долларов США</b> в Китае, Бангладеше, Индии и Вьетнаме. <b>{{price_Inspect_High}}</b> долларов США в Европе и любом другом государстве Азии. Гарантия.]]></li>
+        </productTab>
+        <auditTab>
+            <title>Ревизия производства и штатного состава</title>
+            <li>Убедитесь, что фабрики придерживаются местного и международного трудового кодекса и выполняют требования по организации условий труда.</li>
+            <li><![CDATA[Тарифы включают все.]]></li>
+        </auditTab>
+        <productExpertise>
+            <title>Экспертиза продукции</title>
+            <subtext>Предлагаем услуги по контролю качества и проверки нашими опытными инспекторами всевозможных изделий и импортируемой продукции, включая:</subtext>
+            <leftList>
+                <li>Текстиль и сумки</li>
+                <li>Подарки и сувениры</li>
+                <li>Вышивка и украшения</li>
+                <li>Игрушки и вещи для подростков</li>
+                <li>Электроника и электрика</li>
+                <li>Изделия домашнего обихода</li>
+            </leftList>
+            <rightList>
+                <li>Освещение</li>
+                <li>Канцелярия и сопутствующие товары</li>
+                <li>Инструменты и наборы для самостоятельной работы</li>
+                <li>Инструменты и наборы для самостоятельной работы</li>
+                <li>Промышленные и домашние приборы</li>
+            </rightList>
+        </productExpertise>
+    </ru>
+
+    <ar>
+        <title>أنواع الخدمات المتوفره للفحص علي جودة المنتجات بالصين و الهند و أسيا العظمي</title>
+        <productSlide>
+            <title>فحص جودة المنتجات و إختبار المنتجات</title>
+            <subtext>
+                <![CDATA[
+                شركتنا هي من أكبر الشركات التي تقدم خدمات فحص المنتجات لضمان جودة الإنتاج، جميع خدماتنا من فحص علي المنتجات داخل مواقع الإنتاج إلى الإختبارات المعملية للمنتجات متوفره داخل الصين والهند و آسيا  للمستوردين من جميع أنحاء العالم. فشركتنا تضمن لك أنه في أقل من ٤٨ ساعة من حجز ميعاد لفحص المنتج المرغوب سوف يتواجد عضو من فريق المفتشين بالشركة  المكون من أكثر من ٣٥٠ مفتشا مختصا بأي مصنع بآسيا  لخدمتك على أكمل وجه،  فقط قم بتسجيل بياناتك بالموقع وحدد ميعادا لفحص منتجاتك بهدف تأمين وارداتك
+                ]]>
+            </subtext>
+            <listitem title="خدمة الفحص علي جودة المنتجات قبل عملية الشحن" link="/pre-shipment-inspection">هذه الخدمة متوفرة لجميع عملائنا لضمان إن المنتجات التي سوف يتم شحنها مطابقة للمواصفات التي تم الإتفاق عليها بين المورد و المستورد</listitem>
+            <listitem title="خدمة مراقبة عملية الإنتاج" link="/production-monitoring">مراقبة مستمرة للمصنع الذي يتم فية إنتاج المنتجات الخاصة بك و إعطائك تقرير يومي بجودة المنتجات التي يتم إنتاجها و الوضع الإنتاجي</listitem>
+            <listitem title="خدمة السيطرة علي جودة الإنتاج (DUPRO)" link="/during-production-inspection">السيطرة و إعطاء النصائح للمورد الذي يقوم بتصنيع منتجاتك للتأكد من إن المنتجات التي سوف يتم تصنيعها مطابقه للمواصفات و المعايير التي تريدها</listitem>
+            <listitem title="خدمة الفحص قبل الإنتاج (IPC)" link="/initial-production-check">فحص الألات و المواد الخام التي سوف تستخدم في عملية إنتاج المنتجات الخاصه بك</listitem>
+            <listitem title="خدمة الإشراف علي عملية تحميل المنتجات في الحاويات (CLC)" link="/container-loading-check">ضمان إن المنتجات الخاصة بك تامة الإنتاج (نوع المنتج و كميته) و محمله داخل الحاوية بشكل أمن </listitem>
+        </productSlide>
+        <labSlide>
+            <title>الإختبارات المعملية للمنتجات</title>
+            <text>
+            <![CDATA[
+            <p>شركتنا من اكبر شركات مراقبة الجودةعلي مستوي العالم في تقديم خدمة الإختبارات المعملية للمستوردين من جميع أنحاء العالم لأن الشركه تتبع و بصرامة جميع المعايير الدولية في الصناعة فيما يخص المنتجات و مكوناتها و المواد المستخدمة في التصنيع</p>
+            <p>عن طريق موقعنا يمكنك أن تجد كل الا ختبارات التي يحتاج إليها المنتج الخاص بك بسهولة، فقط حدد فئة المنتج و بلد الصنع و البلد التي سوف يتم التصدير إليها و نحن سوف نوفر لك جميع الإختارات المتاحة للمنتج الخاص بك لضمان خضوعه لجميع المعايير الدولية و المحلية لضمان حماية نشاطك التجاري</p>
+            <p>إستخدام خدمة الإختبارات المعملية للمنتجات مع إستخدام خدمة الفحص علي جودة المنتجات من شركتنا يضمن لك أن المنتج الذي سوف يتم إختباره في معاملنا هو المنتج الحقيقي الذي يتم إنتاجة و ليس المنتج الذي يريدك المورد أن تختبره</p>
+            <p>حاصلين علي شهادات الجودة في الإختبارات المعترف بها دوليآ التالية</p>
+            ]]>
+            </text>
+            <leftList>
+                <li link="/cpsia-testing">CPSIA</li>
+                <li link="/reach-testing">REACH</li>
+                <li link="/rohs-testing">إختبارRoHS</li>
+                <li link="/quality-control-services/laboratory-testing">EN 71</li>
+            </leftList>
+            <rightList>
+                <li link="/quality-control-services/laboratory-testing">مقاومة الحريق</li>
+                <li link="/quality-control-services/laboratory-testing">الرصاص والزئبق والكادميوم</li>
+                <li link="/quality-control-services/laboratory-testing">و آي محتويات أخري</li>
+            </rightList>
+        </labSlide>
+        <auditSlide>
+            <title>خدمة المراجعة الاجتماعية للمصنع</title>
+            <text><![CDATA[شركتنا من اكبر الشركات في تقديم خدمة التفتيش علي المصانع لضمان الإلتزامات الإجتماعيه و كفاءة الإنتاج في الصين و الهند و قارة أسيا العظمي  لجميع المستوردين في كل أنحاء العالم. نضمن لك آن يتواجد مفتش من فريق تفتيش الشركة المكون من أكثر من ٣٥٠ مفتش في المصنع الذي يقوم بإنتاج المنتجات الخاصة بك في أقل من ٤٨ ساعة من حجز طلب التفتيش <br><a href="/register">قم بتسجيل بياناتك الأن</a> و حدد ميعاد لتفتيش المصنع الذي يقوم بإنتاج منتجاتك و قم بحماية شركتك و منتجاتك]]></text>
+            <listOne>
+                <title>هل انت متاكد من أن المصانع التي تتعامل معها تخضع للشروط التالية</title>
+                <li> أن المصانع لا توظف الأطفال و تلتزم بقوانين العمل المحلية ؟</li>
+                <li> أن المصانع خاضعه للمعايير الإجتماعية الدولية و معايير الصحه و السلامة ؟</li>
+                <li> أن المصانع قادرة علي تلبية إحتياجاتك من المنتجات في الوقت المحدد لها ؟</li>
+            </listOne>
+            <listTwo>
+                <title>إحرص علي أن لا يذكر إسم شركتك أو إسمك في الأخبار إلى جانب عمالة الأطفال</title>
+                <li title="خدمة التفتيش علي المصانع لضمان كفاءة الإنتاج" link="/manufacturing-audit">تقييم شامل للمرافق الإنتاج وفقا لمعايير  ISO 9000  و التأكد  من أن المصنع لديه القدرة الإنتاجية والجودة لتلبية احتياجات الإنتاج الخاصة بك</li>
+                <li title="خدمة التفتيش علي المصانع لضمان الإلتزامات الإجتماعيه" link="/ethical-audit">التأكد من معايير الصحة و السلامة و قوانين العمل المحلية و سياسات تشغيل الأطفال في المصنع وفقا لمعايير SA8000 </li>
+                <li title="C-TPAT Audits" link="/c-tpat-compliance">.SA 8000تأكد من الالتزام بمعايير الصحة والسلامة ، وقوانين العمل المحلية ، و سياسة عمالة الأطفال وفقا ل</li>
+                <li title="Structural Audits" link="/structural-audits"></li>
+                <li title="عمليات التدقيق البيئي" link="/environmental-audit"></li>
+                <li><a href="">التدقيق على الهيكل</a></li>
+            </listTwo>
+        </auditSlide>
+        <labTab>
+            <title>الإختبارات المعملية للمنتجات</title>
+            <li>تأكد من أن المنتج الذي سوف تستوردة مطابق لجميع المواصفات العالمية و يمتثل إلي جميع الشروط الدولية للإستيراد و ذلك عن طريق عملية فحص شامل للمنتج</li>
+            <li>أسعار الخدمة بتفصيل عن عملية حجز طلب للإختبارات المعملية للمنتجات، قم بتسجيل بياناتك الأن</li>
+        </labTab>
+        <productTab>
+            <title>خدمات الفحص علي جودة المنتجات</title>
+            <li>قم بتوفير الكثير من الأموال و تجنب إستلام أي منتجات بها عيوب أو غير مطابقه للمواصفات أو الجودة المتفق عليها</li>
+            <li><![CDATA[سعر الخدمه شامل جميع التكاليف في الصين و الهند و بنغلاديش و فيتنام هو <b>هو <span style='font-size:inherit;' dir='ltr' class='priceIE'></span> دولار امريكي</b> و في أي منطقه أخري داخل قارة أسيا العظمي هو <b><span style='font-size:inherit;' dir='ltr' class='priceIA'></span> دولار امريكي</b> شامل جميع التكاليف أيضآ]]></li>
+        </productTab>
+        <auditTab>
+            <title>خدمة المراجعة الاجتماعية للمصنع</title>
+            <li>قم بحماية ماركة المنتجات الخاصة بك و حماية شركتك  عن طريق التأكد من أن المصنع الذي تتعامل معه يخضع لجميع قوانين وظروف العمل المحليه و العالميه</li>
+            <!--<li>أسعار جميع الخدمات شاملة جميع التكاليف</li>-->
+        </auditTab>
+        <productExpertise>
+            <title>خبراء الشركة</title>
+            <subtext>الشركة تقدم خدماتها من فحص علي جودة المنتجات و التفتيش علي المصانع لضمان جودة الإنتاج من خلال مفتشين الشركة المتخصصين في المجالات التالية</subtext>
+            <leftList>
+                <li>الشنط و الأقمشه</li>
+                <li>الهدايا و الجوائز</li>
+                <li>الملابس الجاهزة</li>
+                <li>العاب الأطفال والعاب الشباب</li>
+                <li>الادوات الكهربائية و الاجهزه الإلكترونية</li>
+                <li>منتجات الأدوات المنزلية</li>
+            </leftList>
+            <rightList>
+                <li>منتجات الإضاءه</li>
+                <li>لوازم الدهانات</li>
+                <li>العدد و الادوات</li>
+                <li>لوازم الطباعه و التغليف</li>
+                <li>الاجهزه الصناعية و الاجهزه المنزلية</li>
+            </rightList>
+        </productExpertise>
+    </ar>
+
+    <de>
+        <title>Qualitätskontrolldienste in China, in Indien und im asiatischen Raum </title>
+        <productSlide>
+            <title>Produktprüfungen und Produkttests</title>
+            <subtext>
+                <![CDATA[
+                <p>AsiaInspection leistet Qualitätskontrolldienste und führt in China, in Indien und im asiatischen Raum Produktprüfungen und Produkttests für Importeure aus aller Welt durch.</p>
+                <p>Einer unserer über 600 geschulten Prüfer ist innerhalb von 48 Stunden vor Ort beim asiatischen Werk Ihrer Wahl – garantiert. <a href="/register">Richten Sie ein kostenloses Konto ein</a>, um Ihre Produktprüfungen zu planen und Ihre Importe zu sichern.</p>
+                ]]>
+            </subtext>
+            <listitem title="Prüfung vor dem Versand (PSI)" link="/pre-shipment-inspection">Durch die Prüfung wird gewährleistet, dass die Fertigungsprozesse Ihren Spezifikationen entsprechen.</listitem>
+            <listitem title="Fertigungsüberwachung (PM)" link="/production-monitoring">Ständige Überwachung im Werk mit täglichen Berichten über Qualität und Produktionsstatus.</listitem>
+            <listitem title="Produktionskontrolle (DUPRO)" link="/during-production-inspection">Kontrollen und Empfehlungen zu Fertigungsprozessen und -kapazitäten.</listitem>
+            <listitem title="Vorbereitende Produktionskontrolle (IPC)" link="/initial-production-check">Prüfung der Maschinen und Materialien für Ihren Auftrag vor Produktionsbeginn.</listitem>
+            <listitem title="Versandkontrolle (CLC)" link="/container-loading-check">Gewährleistung, dass die fertigen und verpackten Artikel Ihren Anforderungen (Art und Menge des Produkts) entsprechen und der Versand ordnungsgemäß vorbereitet wurde.</listitem>
+        </productSlide>
+        <labSlide>
+            <title>Labortests </title>
+            <text>
+            <![CDATA[
+            <p style="margin-top:8px;">AsiaInspection leistet Qualitätskontrolldienste und führt weltweit Labortests für Importeure durch. Die Labore von AsiaInspection entsprechen strengen internationalen und branchenspezifischen Normen für Produkte, Komponenten und Werkstoffe.</p>
+            <p>Auf unserer Online-Plattform finden Sie schnell alle erforderlichen Tests. Sie wählen einfach Produktkategorie, Herstellungsland und Bestimmungsland aus, und wir stellen alle erforderlichen Tests bereit, damit Ihr Unternehmen gesetzeskonform und sicher arbeitet.</p>
+            <p style="margin-bottom:8px;">Die Testverfahren von AsiaInspection ermöglichen die nahtlose Integration von Labortests und Produktprüfungen. Gehen Sie sicher, dass Sie ein Muster aus der für Sie bestimmten Produktionsserie testen und nicht das Blankomuster des Werks.</p>
+            <p style="margin:0px;">Zertifiziert für international anerkannte Tests auf:</p>
+            ]]>
+            </text>
+            <leftList>
+                <li link="/cpsia-testing">CPSIA</li>
+                <li link="/reach-testing">REACH</li>
+                <li link="/rohs-testing">RoHS Testing</li>
+                <li link="/quality-control-services/laboratory-testing">EN 71</li>
+            </leftList>
+            <rightList>
+                <li link="/quality-control-services/laboratory-testing">Flammfestigkeit</li>
+                <li link="/quality-control-services/laboratory-testing">Blei, Quecksilber, Cadmium</li>
+                <li link="/quality-control-services/laboratory-testing">und andere Inhaltsstoffe</li>
+            </rightList>
+        </labSlide>
+        <auditSlide>
+            <title>Werksinspektionen und Ethical Audits (EA)</title>
+            <text>
+            <![CDATA[
+                <p>AsiaInspection leistet Qualitätskontrolldienste und führt für Importeure weltweit Werksinspektionen und Ethical Audits (EA) in China, Indien und asiatischen Raum durch. Einer unserer über 600 geschulten Inspektoren ist innerhalb von 48 Stunden vor Ort beim asiatischen Werk Ihrer Wahl – garantiert.</p>
+                <p><a href="/register">Richten Sie ein kostenloses Konto ein</a>, mit dem Sie Termine für Werksinspektionen und Ethical Audits (EA) planen und Ihrer Marke und Ihres Unternehmens schützen können.</p>
+            ]]>
+            </text>
+            <listOne>
+                <title>Sind Sie sicher, dass die Werke, mit denen Sie zusammenarbeiten, ...</title>
+                <li>Keine Kinderarbeit dulden und die vor Ort arbeitsrechtlichen Bestimmungen einhalten?</li>
+                <li>Internationalen Standards im Sozialverträglichkeit, Sicherheit und Gesundheit?</li>
+                <li>Anforderungen an Produktionskapazität genügen und termingerecht liefern können?</li>
+            </listOne>
+            <listTwo>
+                <title>Riskieren Sie keine negativen Schlagzeilen wegen Kinderarbeit.</title>
+                <li title="Werksinspektionen (MA)" link="/manufacturing-audit">Umfassende Beurteilung der Produktions- und sonstigen Anlagen des Unternehmens für ISO-9000. Überprüfung der Produktionskapazität und -qualität im Hinblick auf Ihre Produktionsanforderungen</li>
+                <li title="Ethical Audits (EA)" link="/ethical-audit">Überprüfung der Einhaltung von Sicherheitsstandards, vor Ort geltender Arbeitsgesetze sowie der Richtlinien gegen Kinderarbeit gemäß SA 8000.</li>
+                <li title="C-TPAT Audits" link="/c-tpat-compliance">Confirm compliance with hygiene and safety standards, local labor laws, and child labor policy according to SA 8000.</li>
+                <li title="Structural Audits" link="/structural-audits"></li>
+                <li title="Ökoaudits" link="/environmental-audit"></li>
+            </listTwo>
+
+        </auditSlide>
+        <labTab>
+            <title>Labortests</title>
+            <li>Sorgfältige Tests der Inhaltstoffe nach internationalen Richtlinien.</li>
+            <li>Eine detaillierte Kostenaufstellung erhalten Sie mit dem Bestellformular.</li>
+        </labTab>
+        <productTab>
+            <title>Produktprüfungen</title>
+            <li>Sie vermeiden Kosten und Mängel und sorgen dafür, daß Ihre Importprodukte  Ihren Spezifikationen und Qualitätsstandards entsprechen.</li>
+            <li><![CDATA[Alles inklusive Preis: <b>${{price_Inspect_Low}}</b> in China, Bangladesh, Indien, Thailand und Vietnam, sowie <b>${{price_Inspect_High}}</b> in allen anderen Ländern Asiens.]]></li>
+        </productTab>
+        <auditTab>
+            <title>Werks und Ethical Audit (EA)</title>
+            <li>Schützen Sie Ihrer Marke. Achten Sie auf die Einhaltung der nationalen und internationalen Bestimmungen zum Arbeitsrecht und Arbeitsschutz.</li>
+            <li><![CDATA[Alles inklusive Preis.]]></li>
+        </auditTab>
+        <productExpertise>
+            <title>Produktkenntnis</title>
+            <subtext>Unsere erfahrenen Prüfer leisten hochwertige Qualitätskontrolldienste für alle Produkte und Importe, einschließlich:</subtext>
+            <leftList>
+                <li>Textilien und Taschen</li>
+                <li>Geschenk- und Prämienartikel</li>
+                <li>Kleidung</li>
+                <li>Spielzeug und Produkte für Kinder</li>
+                <li>Elektro- und Elektronikgeräte</li>
+                <li>Haushaltswaren</li>
+            </leftList>
+            <rightList>
+                <li>Beleuchtung</li>
+                <li>Büromaterial und Schreibwaren</li>
+                <li>Werkzeug und Heimwerkerbedarf</li>
+                <li>Druck- und Verpackungsmaterialien</li>
+                <li>Industrie- und Haushaltsgeräte</li>
+            </rightList>
+        </productExpertise>
+    </de>
+
+    <es>
+        <title>Servicios de Control de Calidad en China, India y resto de Asia</title>
+        <productSlide>
+            <title>Inspección de Producto y Test de Laboratorio</title>
+            <subtext>
+                <![CDATA[
+                AsiaInspection es una empresa de Servicios de Control de Calidad que realiza inspecciones de producto in situ y Test de producto en China, India y resto de Asia para importadores de todo el mundo. Garantizamos el envío de uno de nuestros 600 inspectores formados a cualquier fábrica en Asia en un plazo de 48 horas. Cree una <a href="/crear-cuenta">cuenta gratis para reservar</a> sus Inspecciones de producto asegurar sus importaciones.
+                ]]>
+            </subtext>
+            <listitem title="Inspección Pre-Embarque (PSI)" link="/inspeccion-pre-embarque">Inspección que garantiza la conformidad de la producción así como sus especificaciones (se realiza el 80% de producción terminada). </listitem>
+            <listitem title="Monitorización de la Producción (PM)" link="/monitorizacion-de-produccion">Control de su Fábrica mediante informes diarios acerca del estado de producción. </listitem>
+            <listitem title="Inspección durante la Producción (DUPRO)" link="/inspeccion-durante-produccion">Control de los procesos y capacidad de producción (se realiza entre el 20% y el 80% de producción terminada). </listitem>
+            <listitem title="Inspección Inicial de Producto (IPC)" link="/inspeccion-inicial-de-produccion">Inspección de la maquinaria y la materia prima que se utilizarán en su pedido antes de empezar la producción. </listitem>
+            <listitem title="Control de carga del contenedor (CLC)" link="/control-carga-contenedor">Garantice que su producto es empaquetado según sus especificaciones (marcado, cantidad y tipo de caja) y bin estibado para el envío. </listitem>
+        </productSlide>
+        <labSlide>
+            <title>Test de Laboratorio</title>
+            <text>
+            <![CDATA[
+            <p>Somos una empresa de Control de Calidad que realiza Test de Laboratorio para importadores de todo el mundo. Los laboratorios seleccionados por AsiaInspection siguen los estándares industriales internacionales más estrictos para todos los productos.</p>
+            <p style="margin-top:-10px;">Con nuestra plataforma online puede encontrar rápidamente los test que necesita. Seleccione la categoría de producto que desee, país de fabricación y de destino y le proporcionaremos todos los test relevantes para mantenerle en cumplimiento y protegido.</p>
+            <p style="margin-top:-10px;">AsiaInspection le permiten integrar a la perfección la Inspección del producto y el Test de Laboratorio. Asegúrese que la muestra proviene de su lote de producción, que no es una muestra que la fábrica quiere que pruebe. <a target="_blank" href="https://s3.asiainspection.com/files/AI-Sample-Report-RoHS.pdf">Vea un reporte de ejemplo.</a></p>
+            <p style="margin-bottom:0px;">Certificados con los siguientes test internacionalmente reconocidos:</p>
+            ]]>
+            </text>
+            <leftList>
+                <li link="/test-cpsia">CPSIA</li>
+                <li link="/test-reach">REACH</li>
+                <li link="/test-rohs">RoHS Testing</li>
+                <li link="/test-laboratorio">EN 71</li>
+            </leftList>
+            <rightList>
+                <li link="/test-laboratorio">Retardantes de llama</li>
+                <li link="/test-laboratorio">Plomo, mercurio, cadmio</li>
+            </rightList>
+        </labSlide>
+        <auditSlide>
+            <title>Auditorías de Fábrica y Social</title>
+            <text><![CDATA[AsiaInspection es una empresa de Servicios de Control de Calidad que realiza Auditorías de Fábrica y Sociales en China, India y el resto de Asia para importadores de todo el mundo. Garantizamos enviar a un inspector a cualquier Fábrica en Asia en 48 horas.<br /><a href="/crear-cuenta">Cree su cuenta de forma gratuita para reservar</a> su Auditoría de Fábrica y Social para así proteger su marca e imagen corporativa.]]></text>
+            <listOne>
+                <title>¿Está seguro que las Fábricas con las que trabaja…</title>
+                <li> no contratan a niños y cumplen las leyes laborales locales?</li>
+                <li> cumplen con los estándares internacionales de seguridad, salud y sociales?</li>
+                <li> alcanzarán su capacidad de producción y le entregarán su producto en plazo?</li>
+            </listOne>
+            <listTwo>
+                <title>No permita que su nombre aparezca en las noticias junto con la reseña "Uso de Empleo infantil".</title>
+                <li title="Auditoría de Fábrica (MA)" link="/auditoria-de-fabrica">Evaluación integral de las instalaciones de la Fábrica, organización y líneas de producción conforme a la normativa ISO 9000. Asegúrese que su Fábrica tiene la capacidad de producción y calidad exigida para satisfacer sus necesidades de producción.</li>
+                <li title="Auditoría Social (EA)" link="/auditoria-social">Garantiza el cumplimiento de las normas de higiene, salud, leyes laborales locales y la política de trabajo infantil siguiendo la normativa SA 8000.</li>
+                <li title="C-TPAT Audits" link="/c-tpat-compliance">Confirm compliance with hygiene and safety standards, local labor laws, and child labor policy according to SA 8000.</li>
+                <li title="Structural Audits" link="/structural-audits"></li>
+                <li title="Auditoría Medioambiental" link="/environmental-audit"></li>
+            </listTwo>
+
+        </auditSlide>
+        <labTab>
+            <title>Pruebas de Laboratorio</title>
+            <li>Garantice que su producto cumple las normativas internacionales, con una verificación completa del contenido.</li>
+            <li>Tarifas más detalladas disponibles en el formulario de reserva. ¡Dese de alta!</li>
+        </labTab>
+        <productTab>
+            <title>Inspección de Productos</title>
+            <li>Ahorre dinero y costosos defectos asegurándose que las importaciones de sus productos cumplen con sus especificaciones y estándares de calidad.</li>
+        </productTab>
+        <auditTab>
+            <title>Auditoría de Fábrica y Social</title>
+            <li>Proteja la imagen de su empresa. Asegure que sus fábricas cumplen con las normas laborales y condiciones de trabajo locales e internacionales.</li>
+            <li><![CDATA[Precio todo-incluido.]]></li>
+        </auditTab>
+        <productExpertise>
+            <title>Conocimiento de producto </title>
+            <subtext>Nuestros experimentados inspectores ofrecen controles de calidad para todos los productos de importación, incluidos: </subtext>
+            <leftList>
+                <li>Bolsos y complementos</li>
+                <li>Regalo y Reclamo Promocional</li>
+                <li>Textil y Calzado</li>
+                <li>Juguetes y artículos infantiles</li>
+                <li>Dispositivos electrónicos</li>
+                <li>Menaje del hogar</li>
+            </leftList>
+            <rightList>
+                <li>Iluminación</li>
+                <li>Artículos diversos y papelería</li>
+                <li>Herramientas y bricolaje</li>
+                <li>Impresión y empaquetado</li>
+                <li>Menaje y aparatos eléctricos</li>
+            </rightList>
+        </productExpertise>
+    </es>
+
+    <fr>
+        <title>Contrôle Qualité en Chine, Inde et Asie</title>
+        <productSlide>
+            <title>Inspection produit et contrôle produit</title>
+            <subtext>
+                <![CDATA[
+                    AsiaInspection propose des services de contrôle de qualité de produits en Chine, Inde et Asie pour les importateurs du monde entier. Nous garantissons l'intervention de nos inspecteurs pour toute usine asiatique sous 48 heures. Pour sécuriser vos importations, <a href="/enregistrement">créez votre compte gratuitement</a> et planifiez votre inspection.
+                ]]>
+            </subtext>
+            <listitem title="Inspection avant expédition (PSI)" link="/inspection-produit-avant-expedition">Garantit la conformité de votre production avec votre cahier des charges, avant expédition par l'usine.</listitem>
+            <listitem title="Suivi de production (PM)" link="/suivi-production">Supervision permanente de votre production. Rapports journaliers sur la qualité et le statut de la production.</listitem>
+            <listitem title="Inspection en cours de production (DUPRO)" link="/inspection-en-cours-de-production">Contrôles et conseils en gestion de production (processus et capacité).</listitem>
+            <listitem title="Contrôle initial de production (IPC)" link="/controle-intial-production">Inspection avant production des machines et matériaux nécessaires à la commande.</listitem>
+            <listitem title="Contrôle de chargement conteneur (CLC)" link="/controle-de-chargement-conteneur">Garantit que vos produits finis et emballés respectent votre cahier des charges (caractéristiques et quantités) et sont empaquetés et chargés de manière sûre.</listitem>
+        </productSlide>
+        <labSlide>
+            <title>Certification, tests et analyses laboratoire</title>
+            <text>
+            <![CDATA[
+            <p style="margin-top:-5px;">AsiaInspection est une société de services de contrôles qualité effectuant des tests laboratoire pour les importateurs du monde entier. Ceux-ci suivent les standards internationaux et industriels les plus stricts.</p>
+            <br/>
+            <p style="margin-top:-15px;">Grâce à notre plateforme exclusive vous trouverez rapidement les tests dont vous avez besoin. Sélectionnez votre catégorie, le pays de fabrication et de destination et nous vous indiquerons les tests nécessaires afin d'être en conformité.</p>
+            <br/>
+            <p style="margin-top:-15px;margin-bottom:-10px;">Faire appel à AsiaInspection pour vos tests vous permet de coupler vos tests laboratoires à vos inspections produit. Nous vous garantissons que l'échantillon testé provient bien de votre production, et non d’un échantillon spécialement sélectionné par l’usine.</p>
+            <br/>
+            ]]>
+            </text>
+            <leftList>
+                <li link="/cpsia-test-laboratoire">CPSIA</li>
+                <li link="/reach-regulation-svhc">REACH</li>
+                <li link="/rohs-testing">Directive RoHS</li>
+                <li link="/test-laboratoire-certification">EN 71</li>
+            </leftList>
+            <rightList>
+                <li link="/test-laboratoire-certification">Retardateur de flamme</li>
+                <li link="/test-laboratoire-certification">Nickel, plomb, mercure et cadmium</li>
+                <li link="/test-laboratoire-certification">Autres tests et analyses laboratoire</li>
+            </rightList>
+        </labSlide>
+        <auditSlide>
+            <title>Audit industriel et éthique</title>
+            <text><![CDATA[
+                AsiaInspection effectue des contrôles qualité et des audits industriels et éthique en Chine, Inde et Asie pour des importateurs du monde. Nous garantissons l'intervention d'un de nos 600+ auditeurs expérimentés dans toute usine asiatique sous 48 heures.
+                <br />
+                <br />
+                Pour protéger votre entreprise et votre image de marque, <a href="/enregistrement">créez gratuitement votre compte</a> et planifiez votre audit industriel et social.
+            ]]></text>
+            <listOne>
+                <title>Etes-vous sûr que l'usine avec laquelle vous travaillez...</title>
+                <li>n'exploite pas d'enfants ou ne bafoue pas impunément le droit du travail local?</li>
+                <li>respecte les standards sociaux internationaux en matière de santé et de sécurité?</li>
+                <li>peut atteindre les capacités de production que vous désirez et livrer dans les temps?</li>
+            </listOne>
+            <listTwo>
+                <title><![CDATA[<br/>N'attendez pas de faire les gros titres des journaux à côté de "travail d'enfants".]]></title>
+                <li title="Audit industriel (MA)" link="/audit-usine-fournisseur">Assurez-vous que votre usine possède les capacités de production et les ressources qualité nécessaires. Contrôle complet de l'outil de production et de l'organisation selon l'ensemble de normes ISO 9000.</li>
+                <li title="Audit éthique (EA)" link="/audit-social">Assurez-vous du respect des standards d'hygiène et de sécurité, du droit du travail et du non travail des enfants selon le standard SA 8000.</li>
+                <li title="C-TPAT Audits" link="/c-tpat-compliance">Confirm compliance with hygiene and safety standards, local labor laws, and child labor policy according to SA 8000.</li>
+                <li title="Audit de structure" link="/structural-audits"></li>
+
+            </listTwo>
+        </auditSlide>
+        <labTab>
+            <title>Test de laboratoire</title>
+            <li>Assurez-vous que votre production respecte les réglementations internationales grâce à nos tests de matériaux.</li>
+            <li>Tarification détaillée, créez votre compte gratuitement dès maintenant.</li>
+            <li>Test RoHS complet pour $10 USD par matériau.</li>
+        </labTab>
+        <productTab>
+            <title>Inspection produit</title>
+            <li>Réalisez des économies et évitez de couteux défauts et rappels en vous assurant que vos importations respectent votre cahier des charges et vos normes de qualité.</li>
+            <li><![CDATA[<p style="margin-top:-5px;">Tarification tout compris : <b>${{price_Inspect_Low}} USD</b> en Chine, Bangladesh, Inde, et Vietnam. <b>${{price_Inspect_High}} USD</b> dans le reste de l'Asie. Garanti.</p>]]></li>
+        </productTab>
+        <auditTab>
+            <title>Audit industriel et éthique</title>
+            <li>Protégez votre marque et votre entreprise. Assurez-vous que votre usine respecte les réglementations et conditions de travail locales et internationales.</li>
+            <li><![CDATA[Tarification tout compris.]]></li>
+        </auditTab>
+        <productExpertise>
+            <title>Expertise produit</title>
+            <subtext>Nos inspections et services de contrôles qualité sont effectués par des inspecteurs expérimentés et formés à de nombreux types de produit, incluant:</subtext>
+            <leftList>
+                <li>Textiles et Bagagerie</li>
+                <li>Objets publicitaires et Objets promotionnels</li>
+                <li>Vêtements et Habillement</li>
+                <li>Jouets et Puériculture</li>
+                <li>Electronique et Appareils électriques</li>
+                <li>Arts de la table et Articles ménagers</li>
+            </leftList>
+            <rightList>
+                <li>Luminaire</li>
+                <li>Papeterie et Fournitures de bureau</li>
+                <li>Outils et Bricolage</li>
+                <li>Impressions et Packaging</li>
+                <li>Matériels industriel et Electroménager</li>
+            </rightList>
+        </productExpertise>
+    </fr>
+
+    <it>
+        <title>Servizi di controllo qualità in Cina, India e nel resto dell'Asia</title>
+        <productSlide>
+            <title>Ispezione e Test dei prodotti</title>
+            <subtext>
+                <![CDATA[
+                AsiaInspection è un'azienda di controllo qualità specializzata nell'effettuazione di ispezioni e nel testing di prodotti in Cina, India e nel resto del continente asiatico per importatori di tutto il mondo. Contattaci e nel giro di 48 ore invieremo uno dei nostri 600 ispettori nello stabilimento da te indicato, dovunque si trovi sul territorio asiatico.<a href="/register">Crea gratuitamente il tuo account</a>.
+                ]]>
+            </subtext>
+            <listitem title="Controllo pre-spedizione (PSI)" link="/pre-shipment-inspection">Un'ispezione volta a garantire la conformità della produzione.</listitem>
+            <listitem title="Monitoraggio della produzione (PM)" link="/production-monitoring">Supervisione costante presso gli stabilimenti ed elaborazione di rapporti giornalieri sulla qualità e lo stato della produzione.</listitem>
+            <listitem title="Controllo in fase di produzione (DUPRO)" link="/during-production-inspection">Controllo e raccomandazioni relative ai processi e alla capacità di produzione.</listitem>
+            <listitem title="Controllo preliminare della produzione (IPC)" link="/initial-production-check">Ispezione preliminare dei macchinari e dei materiali che verranno utilizzati.</listitem>
+            <listitem title="Controllo del caricamento dei container (CLC)" link="/container-loading-check">Per garantire che la tipologia e il quantitativo delle merci siano conformi alle specifiche stabilite e che i prodotti siano caricati in maniera sicura.</listitem>
+        </productSlide>
+        <labSlide>
+            <title>Test di laboratorio</title>
+            <text>
+            <![CDATA[
+            <p>AsiaInspection è un'azienda di controllo qualità specializzata nell'effettuazione di test di laboratorio per importatori di tutto il mondo. AsiaInspection osservano i più rigidi standard internazionali e industriali per il testing di prodotti, componenti e materiali. La nostra piattaforma ti consente di trovare in maniera semplice e rapida tutti i test necessari. Seleziona la categoria del prodotto, il paese di produzione e quello di destinazione: AsiaInspection ti fornirà tutti i test di cui la tua azienda ha bisogno per garantire la conformità e la sicurezza dei tuoi prodotti. I test ti consentono di integrare senza alcun problema i test di laboratorio e le ispezioni.
+            <p>Certificato nei seguenti test riconosciuti a livello internazionale:</p>
+            ]]>
+            </text>
+            <leftList>
+                <li link="/cpsia-testing">CPSIA</li>
+                <li link="/reach-testing">REACH</li>
+                <li link="/rohs-testing">Test di conformità alle normative RoHS</li>
+                <li link="/quality-control-services/laboratory-testing">EN 71</li>
+            </leftList>
+            <rightList>
+                <li link="/quality-control-services/laboratory-testing">FRitardanti di fiamma</li>
+                <li link="/quality-control-services/laboratory-testing">Piombo, mercurio e cadmio</li>
+                <li link="/quality-control-services/laboratory-testing">Test di qualsiasi altro contenuto</li>
+            </rightList>
+        </labSlide>
+        <auditSlide>
+            <title>Auditoria di fabbriche e audit sociale</title>
+            <text><![CDATA[AsiaInspection è un'azienda di controllo qualità specializzata nell'effettuazione di controlli e audit sociali in Cina, India e nel resto dell' Asia per importatori di tutto il mondo. Contattaci e nel giro di 48 ore invieremo uno dei nostri 600 ispettori nello stabilimento da te indicato, dovunque si trovi sul territorio asiatico. <a href="/register">Crea il tuo account</a> per prenotare un controllo o un audit sociale e proteggere il marchio e l'immagine della tua azienda.]]></text>
+            <listOne>
+                <title> Sei sicuro che le fabbriche a cui ti affidi...</title>
+                <li>non impieghino minorenni e rispettino le normative locali in materia di diritto del lavoro?</li>
+                <li> rispettino gli standard internazionali per la sicurezza e salute dei dipendenti?</li>
+                <li> siano in grado di raggiungere la capacità di produzione desiderata e consegnare le merci con puntualità?</li>
+            </listOne>
+            <listTwo>
+                <title>Don't have your name in the news next to "Child Labor".</title>
+                <li title="Auditoria in fabbrica: (MA)" link="/manufacturing-audit">Valutazione complessiva degli stabilimenti e delle attività di produzione sulla base degli standard ISO 9000. Dimostra che la capacità di produzione e la qualità delle merci rispondono perfettamente alle tue esigenze di produzione.</li>
+                <li title="Auditoria sociali: (EA)" link="/ethical-audit">Certificano che la fabbrica rispetta gli standard di igiene e sicurezza, le normative locali in materia di diritto del lavoro nonché le politiche contro lo sfruttamento del lavoro minorile in base allo standard SA 8000.</li>
+                <li title="C-TPAT Audits" link="/c-tpat-compliance">Confirm compliance with hygiene and safety standards, local labor laws, and child labor policy according to SA 8000.</li>
+            </listTwo>
+        </auditSlide>
+        <labTab>
+            <title>Test di laboratorio</title>
+
+            <li>Controllo dei prodotti importati per accertarne la conformita alle normative internazionale.</li>
+            <li>Consulta il modulo di prenotazione per una lista dettagliada dei prezzi.</li>
+
+        </labTab>
+        <productTab>
+            <title>Ispezione di prodotto</title>
+            <li>Assicurati che le tue importazioni non presentino difetti e che rispondano alle specifiche e agli standard di qualita stabiliti.</li>
+            <li><![CDATA[Prezzo all-inclusive: <b>${{price_Inspect_Low}} USD</b> per Cina, Bangladesh, India e Vietnam e <b>${{price_Inspect_High}} USD</b>per il resto dell'Asia. Garantito.]]></li>
+        </productTab>
+        <auditTab>
+            <title>Auditoria in fabbrica</title>
+            <li>Proteggi il tuo marchio e la tua azienda. Assicurati che le fabbriche a cui tu affidi rispettino le regolamentazioni locali e internazionali in materia di dirritto del lavoro</li>
+            <li><![CDATA[Prezzo all-inclusive]]></li>
+        </auditTab>
+        <productExpertise>
+            <title>Competenza nei prodotti</title>
+            <subtext>I nostri ispettori eseguono controlli qualità e ispezioni su qualsiasi tipo di prodotto, tra cui:</subtext>
+            <leftList>
+                <li>Tessuti e borse</li>
+                <li>Regali e premi</li>
+                <li>Indumenti e accessori</li>
+                <li>Giocattoli e prodotti per ragazzi</li>
+                <li>Apparecchiature elettriche ed elettroniche</li>
+                <li>Prodotti per la casa</li>
+            </leftList>
+            <rightList>
+                <li>Luci</li>
+                <li>Articoli di cancelleria</li>
+                <li>Utensili e strumenti da lavoro</li>
+                <li>Stampe e imballaggi</li>
+                <li>Elettrodomestici e macchinari industriali</li>
+            </rightList>
+        </productExpertise>
+    </it>
+
+    <pt>
+        <title>Serviços de Controle de Qualidade na China, Índia e Ásia Maior</title>
+        <productSlide>
+            <title>Inspeções de Produtos e Testes de Produtos</title>
+            <subtext>
+                <![CDATA[
+                AsiaInspection é uma empresa de serviços de controle de qualidade que realiza inspeções de produtos e testes de produtos localmente na China, Índia e Ásia Maior para importadores do mundo todo. Nós garantimos a presença de um de nossos mais de 600 inspetores treinados em qualquer fábrica na Ásia dentro de 48 horas. <a href="/cadastre-se">Crie sua conta gratuita</a> para agendar suas inspeções de produtos e proteger as suas importações.
+                ]]>
+            </subtext>
+            <listitem title="Inspeção antes do envio (PSI)" link="/pre-shipment-inspection">Para garantir a conformidade da produção de acordo com as suas especificações.</listitem>
+            <listitem title="Monitoração da produção (PM)" link="/production-monitoring">Supervisão constante em sua fábrica com relatórios diários sobre qualidade e status da produção.</listitem>
+            <listitem title="Verificação durante a produção  (DUPRO)" link="/during-production-inspection">Controle e recomendações para os processos de produção e capacidade.</listitem>
+            <listitem title="Verificação inicial da produção (IPC)" link="/initial-production-check">Inspeção das máquinas e materiais a serem utilizados para atender o seu pedido antes da produção.</listitem>
+            <listitem title="Verificação de carregamento do contêiner (CLC)" link="/container-loading-check">Garanta que os produtos acabados e embalados atendam às suas especificações (tipo de produto e quantidade) e que sejam carregados com segurança para envio.</listitem>
+        </productSlide>
+        <labSlide>
+            <title>Testes laboratoriais</title>
+            <text>
+            <![CDATA[
+            <p>Através de nossa plataforma, você pode rapidamente encontrar todos os testes de que precisa. Selecione a sua categoria de produto, país de fabricação e de destino e nós fornecemos todos os testes relevantes para mantê-lo protegido e em conformidade.</p>
+            <p>Ao realizar testes conosco, é possível integrar perfeitamente os seus testes de laboratório à sua inspeção de produtos. Garanta que a amostra seja retirada de um lote da sua produção, e não uma amostra que a fábrica queira que você teste.</p>
+            <p>Certificado nos seguintes testes reconhecidos internacionalmente:</p>
+            ]]>
+            </text>
+
+            <leftList>
+                <li link="/cpsia-testing">CPSIA</li>
+                <li link="/reach-testing">REACH</li>
+                <li link="/rohs-testing">Teste RoHS</li>
+                <li link="/quality-control-services/laboratory-testing">EN 71</li>
+            </leftList>
+            <rightList>
+                <li link="/quality-control-services/laboratory-testing">Anti-inflamável</li>
+                <li link="/quality-control-services/laboratory-testing">Mercúrio, chumbo, cádmio</li>
+                <li link="/quality-control-services/laboratory-testing">e qualquer outro teste de conteúdo</li>
+            </rightList>
+
+        </labSlide>
+        <auditSlide>
+            <title>Auditorias sociais e de fábrica</title>
+            <text><![CDATA[AsiaInspection é uma empresa de serviços de controle de qualidade que realiza auditorias sociais e de fábricas na China, Índia e Ásia Maior para importadores em todo o mundo. Nós garantimos a presença de um de nossos mais de 600 auditores treinados em qualquer fábrica na Ásia dentro de 48 horas.<br><a href="/cadastre-se">Crie sua conta gratuita</a> para agendar sua auditoria social e de fábrica para proteger sua marca e a imagem da sua empresa.]]></text>
+            <listOne>
+                <title>Você tem certeza de que as fábricas com as quais você trabalha...</title>
+                <li> não empregam crianças e obedecem as leis trabalhistas locais?</li>
+                <li> estão em conformidade com os padrões internacionais de saúde e de segurança?</li>
+                <li> podem atingir a sua capacidade de produção e entregar no prazo?</li>
+            </listOne>
+            <listTwo>
+                <title>Don't have your name in the news next to "Child Labor".</title>
+                <li title="Auditorias de Fabricação (MA)" link="/manufacturing-audit">Auditoria de fábricas (MA): Avaliação abrangente das instalações de produção e da organização de acordo com os padrões ISO 9000. Confirme que a sua fábrica tenha a capacidade de produção e a qualidade que atendam às suas exigências de produção</li>
+                <li title="Auditorias Éticas (EA)" link="/ethical-audit">Auditorias sociais (EA): Confirme a adequação à higiene e padrões de segurança, leis trabalhistas locais e política de trabalho infantil de acordo com o SA 8000.</li>
+                <li title="C-TPAT Audits" link="/c-tpat-compliance">Confirm compliance with hygiene and safety standards, local labor laws, and child labor policy according to SA 8000.</li>
+            </listTwo>
+        </auditSlide>
+        <labTab>
+            <title>Testes laboratoriais</title>
+            <li>Garanta que suas importações de produtos estejam em conformidade com as normas internacionais, através de testes completos de conteúdo.</li>
+            <li>Tabela de preços detalhada disponível dentro do formulário de reserva. Crie sua conta agora.</li>
+        </labTab>
+        <productTab>
+            <title>Inspeções de Produtos</title>
+            <li>Economize dinheiro, evite defeitos e prejuízos, garantindo que as suas importações de produtos atendam às suas especificações e padrões de qualidade.</li>
+            <li><![CDATA[Tudo incluso: <b>${{price_Inspect_Low}} USD</b> em qualquer lugar da China e <b>${{price_Inspect_Low}} USD</b> em qualquer outro lugar da Ásia. Garantido]]></li>
+        </productTab>
+        <auditTab>
+            <title>Auditorias</title>
+            <li>Proteja sua marca e sua empresa. Garanta que as suas fábricas estejam em conformidade com as leis trabalhistas e com as condições de trabalho locais e internacionais.</li>
+            <li><![CDATA[Preços com tudo incluso.]]></li>
+        </auditTab>
+        <productExpertise>
+            <title>Áreas de especialização</title>
+            <subtext>Oferecendo serviços de controle de qualidade e inspeções através de nossos experientes inspetores para todos os produtos e importações, incluindo:</subtext>
+            <leftList>
+                <li>Têxteis e sacolas</li>
+                <li>Artigos promocionais</li>
+                <li>Roupas e vestuário</li>
+                <li>Brinquedos e produtos infantis</li>
+                <li>Eletrônicos e outros dispositivos elétricos</li>
+                <li>Produtos de decoração</li>
+            </leftList>
+            <rightList>
+                <li>Luminárias</li>
+                <li>Diversos e papelaria</li>
+                <li>Ferramentas e itens do tipo "Faça você mesmo"</li>
+                <li>Impressão e embalagens</li>
+                <li>Equipamentos industriais e domésticos</li>
+            </rightList>
+        </productExpertise>
+    </pt>
+
+    <tr>
+        <title>Quality Control Services</title>
+        <subtitle>Learn how we can secure your supply chain.</subtitle>
+        <productSlide>
+            <title>Product Inspections and Product Testing</title>
+            <subtext>
+                <![CDATA[
+                AsiaInspection is a quality control services company performing on-site Product Inspections and product testing in China, India, and greater Asia for importers worldwide.  We guarantee to have one of our 600+ trained inspectors at any factory in Asia within 48 hours.  <a href="/register">Create your free account</a> to schedule your Product Inspections and secure your imports.
+                ]]>
+            </subtext>
+            <listitem title="Pre-Shipment Inspection (PSI)" link="/pre-shipment-inspection">An Inspection to guarantee the conformity of production to your specifications.</listitem>
+            <listitem title="Production Monitoring (PM)" link="/production-monitoring">Constant oversight in your factory with daily reports on quality and production status.</listitem>
+            <listitem title="During Production Check (DUPRO)" link="/during-production-inspection">Control and recommendations for production processes and capacity.</listitem>
+            <listitem title="Initial Production Check (IPC)" link="/initial-production-check">Inspection of machinery and materials to be used for your order prior to production.</listitem>
+            <listitem title="Container Loading Check (CLC)" link="/container-loading-check">Guarantee the finished and packed goods meet your specifications (product type and quantity) and are securely loaded for shipment.</listitem>
+        </productSlide>
+        <labSlide>
+            <title>Laboratory Testing</title>
+            <text>
+            <![CDATA[
+            <p>AsiaInspection is a quality control company performing Laboratory Testing for importers worldwide. AsiaInspection labs follow the strictest international and industry standards across all products, components, and materials.</p>
+            <p>With our online platform you quickly find all the tests you need. Select your product category, country of manufacture, destination country, and we provide all relevant tests to keep you compliant and protected.</p>
+            <p>Testing with AsiaInspection allows you to seamlessly integrate your Laboratory Testing with your Product Inspection. Guarantee the sample is from your production lot, not a sample the factory wants you to test.</p>
+            <p>Certified in the following internationally recognized tests:</p>
+            ]]>
+            </text>
+            <leftList>
+                <li link="/cpsia-testing">CPSIA</li>
+                <li link="/reach-testing">REACH</li>
+                <li link="/rohs-testing">RoHS Testi</li>
+                <li link="/quality-control-services/laboratory-testing">EN 71</li>
+            </leftList>
+            <rightList>
+                <li link="/quality-control-services/laboratory-testing">Alev Geciktirici</li>
+                <li link="/quality-control-services/laboratory-testing">Kurşun, Cıva, Kadmiyum ve diğer her türlü muhteviyat testi</li>
+            </rightList>
+        </labSlide>
+        <auditSlide>
+            <title>Ethical and Manufacturing Audit Programs</title>
+            <text><![CDATA[AsiaInspection is a quality control services company performing ethical and manufacturing audits for brands, retailers and importers worldwide.<br /><br /><a href="/register">Create your free account</a> and have one of our 600+ trained auditors onsite within 48 hours.]]></text>
+            <listOne>
+                <title>Are you sure the factories you work with...</title>
+                <li> do not employ children and abide by local labor laws?</li>
+                <li> comply with international social, health, and safety standards?</li>
+                <li> can reach your production capacity and deliver on time?</li>
+            </listOne>
+            <listTwo>
+                <title>Don't have your name in the news next to "Child Labor".</title>
+                <li title="Manufacturing Audits" link="/manufacturing-audit">Comprehensive assessment of the production facilities and organization according to ISO 9000 standards.  Confirm your factory has the production capacity and quality to meet your production needs</li>
+                <li title="Ethical Audits" link="/ethical-audit">Confirm compliance with hygiene and safety standards, local labor laws, and child labor policy according to SA 8000.</li>
+                <li title="C-TPAT Audits" link="/c-tpat-compliance"></li>
+                <li title="Structural Audits" link="/structural-audits">Yapısal Denetimler</li>
+                <li title="Environmental Audits" link="/environmental-audit"></li>
+            </listTwo>
+        </auditSlide>
+        <labTab>
+            <title>Laboratuvar Testi</title>
+            <li>Ürünlerinizin uluslararası düzenlemelere uygun olmasını sağlayın.</li>
+            <li>Detaylı fiyatlandırma kayıt formunda mevcuttur.</li>
+        </labTab>
+        <productTab>
+            <title>Ürün Denetimleri</title>
+            <li>Ürün ithalatlarınızın kalite standartları ve şartnamelerinizi karşılamasını sağlayarak masraflı kusurları engelleyin ve para tasarrufu yapın.</li>
+        </productTab>
+        <auditTab>
+            <title>Denetim Programları</title>
+            <li>Marka ve firmanızı koruyun. Fabrikalarınızın yerel ve uluslararası iş kanunları ve çalışma koşullarına bağlı kalmasını sağlayın.</li>
+        </auditTab>
+        <productExpertise>
+            <title>Product Expertise</title>
+            <subtext>Offering quality control services and Inspections by our experienced inspectors on all products and imports, including:</subtext>
+            <leftList>
+                <li>Textiles and Bags</li>
+                <li>Gifts and Premiums</li>
+                <li>Garment and Apparel</li>
+                <li>Toys and Juvenile Products</li>
+                <li>Electronic and other Electrical Devices</li>
+                <li>Houseware products</li>
+            </leftList>
+            <rightList>
+                <li>Lighting</li>
+                <li>Sundries and Stationery</li>
+                <li>Tools and DIY</li>
+                <li>Printing and Packaging</li>
+                <li>Industrial and Home Appliances</li>
+            </rightList>
+        </productExpertise>
+    </tr>
+
+</document>

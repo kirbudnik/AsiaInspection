@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<pageMeta>
+		<pageTitle>
+			<en>Quality Control Services By Industry | AsiaInspection.com</en>
+			<es>Servicios de control de calidad por sector | AsiaInspection.es</es>
+			<zh>质量控制服务行业分类 | ChinaInspection.com</zh>
+			<fr>Services de contrôle de la qualité par secteur d'activité | AsiaInspection.fr</fr>
+			<de>Qualitätskontrolldienste nach Branche | AsiaInspection.de</de>
+			<it>Servizi di controllo di qualità per settore | AsiaInspection.it</it>
+			<ar>خدمات مراقبة الجودة حسب القطاع | AsiaInspection.ae</ar>
+			<tr>Endüstriye Göre Kalite Kontrol Hizmetleri | AsiaInspection.com.tr</tr>
+			<pt>Serviços de Controlo de Qualidade Pela Indústria | AsiaInspection.com</pt>
+		</pageTitle>
+		<pageDesc>
+			<en>AsiaInspection has over 800 inspectors, auditors and mechanical engineering experts classified by product range to ensure your product meets all safety and performance standards for your destination market.</en>
+			<pt>A AsiaInspection tem mais de 800 inspetores, auditores e especialistas em engenharia mecânica classificados por gama de produtos para garantir que o seu produto cumpre com todas as normas de segurança e desempenho para o seu mercado.</pt>
+		</pageDesc>
+	</pageMeta>
+
+	<en>
+		<title>Services by Industry</title>
+		<subtext><![CDATA[
+			<p>AsiaInspection has over %total_Inspectors% inspectors, auditors and lab experts classified by product range to ensure your product meets all safety and performance standards for your destination market.</p>
+			<p>Ensure compliance at the source with hundreds of off-the-shelf customizable product specific checklists.</p>
+		]]></subtext>
+
+		<selection>
+			<label>Select Your Industry</label>
+			<description>Learn how we can secure your supply chain.</description>
+		</selection>
+
+		<section img="thumb_softlines.jpg" url="/industry-softline">
+			<url>/industry-softline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industrythumb_softlines.jpg</img>
+			<imgpos></imgpos>
+			<url>/industry-softline</url>
+			<title>Softlines</title>
+			<link url="/testing/footwear">Footwear</link>
+			<link url="/testing/garments-apparel">Garments and Apparel</link>
+			<link url="">Soft Toys</link>
+			<link url="">Textiles and Fabrics</link>
+		</section>
+
+		<section img="thumb_hardlines.jpg" url="/industry-hardline">
+			<url>/industry-hardline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industrythumb_hardlines.jpg</img>
+			<imgpos></imgpos>
+			<title>Hardlines</title>
+			<link url="/testing/cosmetics">Cosmetics</link>
+			<link url="/testing/electrical">Electrical &amp; Electronics</link>
+			<link url="/testing/eyewear">Eyewear</link>
+			<link url="">Fashion Accessories</link>
+			<link url="">Furniture</link>
+			<link url="">Gifts &amp; Premiums</link>
+			<link url="">Homeware &amp; Gardenware</link>
+			<link url="">Industrial &amp; Construction</link>
+			<link url="/testing/jewelry">Jewelry</link>
+			<link url="">Printing &amp; Packaging</link>
+			<link url="">Sports Equipment</link>
+			<link url="/testing/toy-safety-and-lab-testing">Toys &amp; Recreational Items</link>
+		</section>
+
+		<section img="thumb_techParts.jpg" url="/industry-techparts">
+			<img>https://s3.asiainspection.com/images/responsive/industrythumb_techparts.jpg</img>
+			<imgpos></imgpos>
+			<url>/industry-techparts</url>
+			<title>Technical Parts</title>
+			<link url="">Automotive Parts</link>
+			<link url="">Casting and Forging</link>
+			<link url="">Hydraulic Components</link>
+			<link url="">Machinery</link>
+			<link url="">Metal Components &amp; Assemblies</link>
+			<link url="">Moulds and Precision Tooling</link>
+			<link url="">Plastic Moulding</link>
+			<link url="">Scrap Metal</link>
+			<link url="">Welded Assemblies</link>
+		</section>
+
+		<section img="thumb_food.jpg" url="/food-safety-testing" attributes="target='_blank'">
+			<url>/food-safety-testing</url>
+			<img>https://s3.asiainspection.com/images/responsive/industrythumb_food.jpg</img>
+			<imgpos>background-position:0 -215px;</imgpos>
+			<title>Food</title>
+			<link url="">Baby Food and Formula</link>
+			<link url="">Beverages</link>
+			<link url="">Breads, Grains and Cereal</link>
+			<link url="">Canned Food</link>
+			<link url="">Confectionery, Sugar &amp; Honey</link>
+			<link url="">Fish &amp; Seafood Products</link>
+			<link url="">Food Packaging</link>
+			<link url="">Frozen Food</link>
+			<link url="">Fruits &amp; Vegetables</link>
+			<link url="">Meat &amp; Poultry</link>
+			<link url="">Milk &amp; Dairy Products</link>
+			<link url="">Pet Food</link>
+			<link url="">Tea &amp; Coffee</link>
+		</section>
+	</en>
+
+	<ru>
+		<title>Услуги по отраслям</title>
+		<subtext><![CDATA[
+			<p>В AsiaInspection работают более 800 инспекторов, аудиторов и специалистов в машиностроении, каждый из которых отвечает за определенную категорию товаров и обеспечивает соответствие Вашей продукции необходимым требованиям по безопасности и качеству.</p>
+			<p>Убедитесь, что Ваши товары соответствуют необходимым стандартам. К Вашим услугам сотни стандартных списков проверки, которые можно модифицировать по Вашему усмотрению.</p>
+		]]></subtext>
+
+		<section img="thumb_softlines.jpg" url="/industry-softline">
+			<url>/industry-softline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Товары личного потребления</title>
+			<link url="">Обувь</link>
+			<link url="">Одежда</link>
+			<link url="">Мягкие игрушки</link>
+			<link url="">Текстиль и ткани Хозяйственные товары</link>
+		</section>
+
+		<section img="thumb_hardlines.jpg" url="/industry-hardline">
+			<url>/industry-hardline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+
+			<url>/industry-hardline</url>
+			<title>Хозяйственные товары</title>
+			<link url="">Электрическое оборудование и электроника</link>
+			<link url="">Модные аксессуары</link>
+			<link url="">Мебель</link>
+			<link url="">Подарки и сувениры (хозяйственные товары)</link>
+			<link url="">Товары для дома и сада</link>
+			<link url="">Строительные материалы</link>
+			<link url="">Печать и упаковка</link>
+			<link url="">Спортивное оборудование</link>
+			<link url="">Игрушки и товары для отдыха Технические детали</link>
+		</section>
+
+		<section img="thumb_techParts.jpg" url="/industry-techparts">
+						<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<url>/industry-techparts</url>
+			<title>Технические детали</title>
+			<link url="">Автозапчасти</link>
+			<link url="">Литье и ковка</link>
+			<link url="">Гидравлические детали</link>
+			<link url="">Оборудование</link>
+			<link url="">Металлические детали и сборочные детали</link>
+			<link url="">Литейные формы и прецизионные инструменты</link>
+			<link url="">Литье из пластика</link>
+			<link url="">Металлический лом</link>
+			<link url="">Сварочные детали Продукты</link>
+		</section>
+
+		<section img="thumb_food.jpg" url="/food-safety-testing" attributes="target='_blank'">
+			<url>/food-safety-testing</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Продукты</title>
+			<link url="">Детское питание и смеси</link>
+			<link url="">Напитки</link>
+			<link url="">Хлеб, крупы и каши</link>
+			<link url="">Консервы</link>
+			<link url="">Кондитерские изделия, сахар и мед</link>
+			<link url="">Рыба и морепродукты</link>
+			<link url="">Упаковка продуктов питания</link>
+			<link url="">Замороженные продукты</link>
+			<link url="">Фрукты и овощи</link>
+			<link url="">Мясо и птица</link>
+			<link url="">Молоко и молочные продукты</link>
+			<link url="">Корм для домашних животных</link>
+			<link url="">Чай и кофе</link>
+		</section>
+	</ru>
+
+	<es>
+		<title>Servicios por sector</title>
+		<subtext><![CDATA[
+			<p>AsiaInspection dispone de más de 900 inspectores, auditores y expertos en ingeniería mecánica clasificados por gama de productos para garantizar que su producto cumpla con todas las normativas en materia de seguridad y estándares de rendimiento del mercado de destino.</p>
+			<p>Garantice el cumplimiento de la normativa desde el principio a través de protocolos de inspección personalizados para productos específicos.</p>
+		]]></subtext>
+
+		<section img="thumb_softlines.jpg" url="/industry-softline">
+			<url>/industry-softline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Artículos de textil (softline)</title>
+			<link url="">Calzado</link>
+			<link url="">Prendas de vestir y ropa</link>
+			<link url="">Juguetes de textil</link>
+			<link url="">Textiles y tejidos</link>
+		</section>
+
+		<section img="thumb_hardlines.jpg" url="/industry-hardline">
+			<url>/industry-hardline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+
+			<url>/industry-hardline</url>
+			<title>Artículos en general (hardline)</title>
+			<link url="">Electricidad y electrónica</link>
+			<link url="">Complementos de moda</link>
+			<link url="">Muebles</link>
+			<link url="">Regalos y artículos promocionales (Artículos en general)</link>
+			<link url="">Artículos de hogar y jardín</link>
+			<link url="">Industria y construcción</link>
+			<link url="">Impresión y embalaje</link>
+			<link url="">Equipamiento deportivo</link>
+			<link url="">Juguetes y artículos recreativos</link>
+		</section>
+
+		<section img="thumb_techParts.jpg" url="/industry-techparts">
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<url>/industry-techparts</url>
+			<title>Partes técnicas</title>
+			<link url="">Piezas de automoción</link>
+			<link url="">Fundición y forja</link>
+			<link url="">Componentes hidráulicos</link>
+			<link url="">Maquinaria</link>
+			<link url="">Componentes y conjuntos metálicos</link>
+			<link url="">Moldes y herramientas de precisión</link>
+			<link url="">Moldeado de plásticos</link>
+			<link url="">Chatarra</link>
+			<link url="">Conjuntos de soldaduras</link>
+		</section>
+
+		<section img="thumb_food.jpg" url="/food-safety-testing" attributes="target='_blank'">
+			<url>/food-safety-testing</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Alimentación </title>
+			<link url="">Alimentos y leche para bebés</link>
+			<link url="">Bebidas</link>
+			<link url="">Panes y cereales</link>
+			<link url="">Alimentos enlatados</link>
+			<link url="">Dulces, azúcar y miel</link>
+			<link url="">Pescado y marisco</link>
+			<link url="">Envasado de alimentos</link>
+			<link url="">Alimentos congelados</link>
+			<link url="">Frutas y hortalizas</link>
+			<link url="">Carne y aves de corral</link>
+			<link url="">Leche y productos lácteos</link>
+			<link url="">Alimentos para animales</link>
+			<link url="">Café y té</link>
+		</section>
+	</es>
+
+	<zh>
+		<title>服务行业分类</title>
+		<subtext><![CDATA[
+			<p>AsiaInspection 有超过 800 位各类产品检验员、审核员和机械工程专家，可以保证您的产品符合目标市场的全部安全和性能标准。</p>
+			<p>确保从一开始便符合数百个现成定制的产品特定清单。</p>
+		]]></subtext>
+
+		<section img="thumb_softlines.jpg" url="/industry-softline">
+			<url>/industry-softline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>非耐用品</title>
+			<link url="">鞋类</link>
+			<link url="">服装饰品</link>
+			<link url="">毛绒玩具</link>
+			<link url="">纺织品及其它非耐用品</link>
+		</section>
+
+		<section img="thumb_hardlines.jpg" url="/industry-hardline">
+			<url>/industry-hardline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+
+			<url>/industry-hardline</url>
+			<title>耐用消费品</title>
+			<link url="">电气电子产品</link>
+			<link url="">时尚配饰</link>
+			<link url="">家具</link>
+			<link url="">礼品（耐用消费品）</link>
+			<link url="">家居园艺</link>
+			<link url="">工业建筑</link>
+			<link url="">印刷包装</link>
+			<link url="">体育器材</link>
+			<link url="">玩具和娱乐用品 - 技术部件</link>
+		</section>
+
+		<section img="thumb_techParts.jpg" url="/industry-techparts">
+						<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<url>/industry-techparts</url>
+			<title>技术部件</title>
+			<link url="">汽车部件</link>
+			<link url="">铸锻</link>
+			<link url="">液压元件</link>
+			<link url="">机械</link>
+			<link url="">金属元件和组件</link>
+			<link url="">模具和精密工具</link>
+			<link url="">塑胶模具</link>
+			<link url="">废金属</link>
+			<link url="">焊接组件 - 食品</link>
+		</section>
+
+		<section img="thumb_food.jpg" url="/food-safety-testing" attributes="target='_blank'">
+			<url>/food-safety-testing</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>食品</title>
+			<link url="">婴儿食品和配方食品</link>
+			<link url="">饮料</link>
+			<link url="">面包和谷类食品</link>
+			<link url="">罐装食品</link>
+			<link url="">糖果和蜂蜜</link>
+			<link url="">鱼类和海产品</link>
+			<link url="">食品包装</link>
+			<link url="">冷冻食品</link>
+			<link url="">水果蔬菜</link>
+			<link url="">禽肉</link>
+			<link url="">牛奶和乳制品</link>
+			<link url="">宠物食品</link>
+			<link url="">茶叶和咖啡</link>
+		</section>
+	</zh>
+
+	<fr>
+		<title>Services par secteur d'activité</title>
+		<subtext><![CDATA[
+			<p>Chez AsiaInspection, il y a plus de 900 inspecteurs, auditeurs et experts en ingénierie mécanique, spécialisés chacun dans une gamme de produits, pour vous garantir que votre produit est conforme à toutes les normes de sécurité et de performance pour votre marché de destination.</p>
+			<p>Garantir la conformité à la source grâce à des centaines de checklists personnalisables qui s'adaptent aux spécificités de votre produit.</p>
+		]]></subtext>
+
+		<section img="thumb_softlines.jpg" url="/industry-softline">
+			<url>/industry-softline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Biens de consommation non durables (softline)</title>
+			<link url="">Chaussures</link>
+			<link url="">Vêtements et prêt à porter</link>
+			<link url="">Peluche</link>
+			<link url="">Textiles et tissus pour produits durables</link>
+		</section>
+
+		<section img="thumb_hardlines.jpg" url="/industry-hardline">
+			<url>/industry-hardline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+
+			<url>/industry-hardline</url>
+			<title>Biens de consommation durables (hardline)</title>
+			<link url="">Electrique et électronique</link>
+			<link url="">Accessoires de mode</link>
+			<link url="">Meubles</link>
+			<link url="">Cadeaux et objets promotionnels (produits durables)</link>
+			<link url="">Articles pour la maison et le jardin</link>
+			<link url="">Industriel et construction</link>
+			<link url="">Impression et emballage</link>
+			<link url="">Matériel de sport</link>
+			<link url="">Pièces techniques pour jouets et articles de loisirs</link>
+		</section>
+
+		<section img="thumb_techParts.jpg" url="/industry-techparts">
+						<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<url>/industry-techparts</url>
+			<title>Pièces techniques</title>
+			<link url="">Pièces automobiles</link>
+			<link url="">Pièces moulées ou forgées</link>
+			<link url="">Composants hydrauliques</link>
+			<link url="">Machines</link>
+			<link url="">Composants et assemblages métalliques</link>
+			<link url="">Moules et outillage de précision</link>
+			<link url="">Moulage plastique</link>
+			<link url="">Ferraille</link>
+			<link url="">Assemblage de boîtes de conserves</link>
+		</section>
+
+		<section img="thumb_food.jpg" url="/food-safety-testing" attributes="target='_blank'">
+			<url>/food-safety-testing</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Aliments</title>
+			<link url="">Aliments pour bébés et lait maternisé</link>
+			<link url="">Boissons</link>
+			<link url="">Pains, graines et céréales</link>
+			<link url="">Aliments en conserve</link>
+			<link url="">Confiseries, sucre et miel</link>
+			<link url="">Poissons et fruits de mer</link>
+			<link url="">Emballage alimentaire</link>
+			<link url="">Aliments surgelés</link>
+			<link url="">Fruits et légumes</link>
+			<link url="">Viandes et volailles</link>
+			<link url="">Lait et produits laitiers</link>
+			<link url="">Aliments pour animaux domestiques</link>
+			<link url="">Thé et café</link>
+		</section>
+	</fr>
+
+	<de>
+		<title>Dienstleistungen nach Branche</title>
+		<subtext><![CDATA[
+			<p>AsiaInspection verfügt über mehr als 800 Inspektoren, Prüfer und Maschinenbauexperten, die auf bestimmte Produktbereiche spezialisiert sind. So stellen wir sicher, dass Ihr Produkt alle Sicherheits- und Leistungsstandards des Zielmarktes erfüllt.</p>
+			<p>Mit Hunderten von branchenüblichen und individuell anpassbaren Prüflisten zu Produktspezifikationen wird die Einhaltung von Standards bereits bei der Entstehung gewährleistet.</p>
+		]]></subtext>
+
+		<section img="thumb_softlines.jpg" url="/industry-softline">
+			<url>/industry-softline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industrythumb_softlines.jpg</img>
+			<title>Softlines</title>
+			<link url="">Schuhe</link>
+			<link url="">Bekleidung</link>
+			<link url="">Stofftiere</link>
+			<link url="">Textilien und Stoffe</link>
+		</section>
+
+		<section img="thumb_hardlines.jpg" url="/industry-hardline">
+			<url>/industry-hardline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industrythumb_hardlines.jpg</img>
+
+			<url>/industry-hardline</url>
+			<title>Hardlines</title>
+			<link url="">Elektrik &amp; Elektronik</link>
+			<link url="">Mode-Accessoires</link>
+			<link url="">Möbel</link>
+			<link url="">Geschenkartikel &amp; Prämien (Hardlines)</link>
+			<link url="">Haushaltswaren &amp; Gartenartikel</link>
+			<link url="">Industrie &amp; Bau</link>
+			<link url="">Druck- &amp; Verpackungsmaterialien</link>
+			<link url="">Sportgeräte / -ausrüstung</link>
+			<link url="">Spielzeug &amp; Freizeitartikel</link>
+		</section>
+
+		<section img="thumb_techParts.jpg" url="/industry-techparts">
+				<img>https://s3.asiainspection.com/images/responsive/industrythumb_techparts.jpg</img>
+			  <url>/industry-techparts</url>
+			<title>Technische Komponenten</title>
+			<link url="">Automobilteile</link>
+			<link url="">Gießen und Formen</link>
+			<link url="">Hydraulische Komponenten</link>
+			<link url="">Maschinen</link>
+			<link url="">Metallkomponenten &amp; -baugruppen</link>
+			<link url="">Gussformen &amp; Präzisionswerkzeuge</link>
+			<link url="">Kunststoffspritzguss</link>
+			<link url="">Altmetall</link>
+			<link url="">Schweißbaugruppen</link>
+		</section>
+
+		<section img="thumb_food.jpg" url="/food-safety-testing" attributes="target='_blank'">
+			<url>/food-safety-testing</url>
+			<img>https://s3.asiainspection.com/images/responsive/industrythumb_food.jpg</img>
+			<title>Lebensmittel</title>
+			<link url="">Babynahrung</link>
+			<link url="">Getränke</link>
+			<link url="">Brot, Körner und Getreide</link>
+			<link url="">Konserven</link>
+			<link url="">Süßwaren, Zucker &amp; Honig</link>
+			<link url="">Fisch &amp; Meeresfrüchte</link>
+			<link url="">Lebensmittelverpackungen</link>
+			<link url="">Tiefkühlkost</link>
+			<link url="">Obst &amp; Gemüse</link>
+			<link url="">Fleisch &amp; Geflügel</link>
+			<link url="">Milch &amp; Molkereiprodukte</link>
+			<link url="">Tiernahrung</link>
+			<link url="">Tee &amp; Kaffee</link>
+		</section>
+	</de>
+
+	<it>
+		<title>Servizi per specifici Settori Industriali</title>
+		<subtext><![CDATA[
+			<p>AsiaInspection dispone di oltre 800 ispettori, revisori ed esperti di ingegneria meccanica classificati per gamma di prodotti al fine di assicurare che i tuoi prodotti soddisfino tutti gli standard di sicurezza e di prestazioni per il mercato di destinazione.</p>
+			<p>Garantisci la conformità all'origine con centinaia di liste di controllo pronte e personalizzabili, specifiche per ciascun prodotto.</p>
+		]]></subtext>
+
+		<section img="thumb_softlines.jpg" url="/industry-softline">
+			<url>/industry-softline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Settore softline</title>
+			<link url="">Calzature</link>
+			<link url="">Abbigliamento</link>
+			<link url="">Giocattoli di peluche</link>
+			<link url="">Stoffe e tessuti</link>
+		</section>
+
+		<section img="thumb_hardlines.jpg" url="/industry-hardline">
+			<url>/industry-hardline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+
+			<url>/industry-hardline</url>
+			<title>Settore hardline</title>
+			<link url="">Prodotti elettrici ed elettronici</link>
+			<link url="">Accessori di moda</link>
+			<link url="">Mobili</link>
+			<link url="">Regali e premi (settore hardline)</link>
+			<link url="">Articoli per casa e giardino</link>
+			<link url="">Articoli industriali ed edili</link>
+			<link url="">Stampe e imballaggi</link>
+			<link url="">Attrezzature sportive</link>
+			<link url="">Giocattoli e articoli ricreativi</link>
+		</section>
+
+		<section img="thumb_techParts.jpg" url="/industry-techparts">
+						<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<url>/industry-techparts</url>
+			<title>Componenti tecnici</title>
+			<link url="">Parti di autoveicoli</link>
+			<link url="">Articoli per colate e forgiature</link>
+			<link url="">Componenti idraulici</link>
+			<link url="">Macchinari</link>
+			<link url="">Componenti e gruppi metallici</link>
+			<link url="">Stampi e utensili di precisione</link>
+			<link url="">Formatura plastica</link>
+			<link url="">Rottami metallici</link>
+			<link url="">Gruppi di saldatura Prodotti alimentari</link>
+		</section>
+
+		<section img="thumb_food.jpg" url="/food-safety-testing" attributes="target='_blank'">
+			<url>/food-safety-testing</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Prodotti alimentari</title>
+			<link url="">Alimenti per l'infanzia e latte in polvere</link>
+			<link url="">Bevande</link>
+			<link url="">Pane e cereali</link>
+			<link url="">Alimenti in scatola</link>
+			<link url="">Dolciumi, zucchero e miele</link>
+			<link url="">Pesce e prodotti a base di pesce</link>
+			<link url="">Confezionamento alimenti</link>
+			<link url="">Alimenti surgelati</link>
+			<link url="">Frutta e verdura</link>
+			<link url="">Carne e pollame</link>
+			<link url="">Latte e latticini</link>
+			<link url="">Alimenti per animali</link>
+			<link url="">Tè e caffè</link>
+		</section>
+	</it>
+
+	<ar>
+		<title>خدمات مراقبة الجودة حسب القطاع</title>
+		<subtext><![CDATA[
+			<p>يضم قسم الخدمات حسب القطاع في AsiaInspection أكثر من 800 مفتش ومدقق وخبير في الهندسة الميكانيكية مصنّفين حسب مجموعة المنتجات لضمان استيفاء المنتج لكافة معايير السلامة والأداء الخاصة بالسوق الوجهة. ضمان الامتثال في المصدر مع قوائم التدقيق الخاصة بمئات المنتجات الجاهزة للشراء والقابلة للتخصيص. السلع الاستهلاكية غير المعمّرة </p>
+		]]></subtext>
+
+		<section img="thumb_softlines.jpg" url="/industry-softline">
+			<url>/industry-softline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>السلع الاستهلاكية غير المعمّرة</title>
+			<link url="">الأحذية</link>
+			<link url="">الملابس والأزياء</link>
+			<link url="">الألعاب المصنوعة من الأقمشة</link>
+			<link url="">السلع الاستهلاكية المعمّرة من المنسوجات والأقمشة </link>
+		</section>
+
+		<section img="thumb_hardlines.jpg" url="/industry-hardline">
+			<url>/industry-hardline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+
+			<url>/industry-hardline</url>
+			<title>السلع الاستهلاكية المعمّرة</title>
+			<link url="">الأجهزة الكهربائية والإلكترونية</link>
+			<link url="">أكسسوارات الموضة</link>
+			<link url="">الأثاث</link>
+			<link url="">الهدايا والمنتجات الترويجية (السلع الاستهلاكية المعمّرة)</link>
+			<link url="">المنزل والحديقة</link>
+			<link url="">المعدات الصناعية ومواد البناء</link>
+			<link url="">الطباعة والتعبئة</link>
+			<link url="">الأجهزة الرياضية</link>
+			<link url="">الأجزاء التقنية للألعاب والمنتجات الترفيهية </link>
+		</section>
+
+		<section img="thumb_techParts.jpg" url="/industry-techparts">
+						<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<url>/industry-techparts</url>
+			<title>الأجزاء التقنية</title>
+			<link url="">قطع غيار السيارات</link>
+			<link url="">السبك والحدادة</link>
+			<link url="">المكونات الهيدروليكية</link>
+			<link url="">الآليات</link>
+			<link url="">المكونات المعدنية والتركيبات</link>
+			<link url="">القوالب والأدوات الدقيقة</link>
+			<link url="">القوالب البلاستيكية</link>
+			<link url="">الخردة المعدنية</link>
+			<link url="">تركيبات الأطعمة المجمّعة </link>
+		</section>
+
+		<section img="thumb_food.jpg" url="/food-safety-testing" attributes="target='_blank'">
+			<url>/food-safety-testing</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>الأطعمة</title>
+			<link url="">مواصفات وأطعمة الأطفال</link>
+			<link url="">المشروبات</link>
+			<link url="">الخبز والحبوب</link>
+			<link url="">الأطعمة المعلّبة</link>
+			<link url="">الحلويات والسكر والعسل</link>
+			<link url="">الأسماك والمأكولات البحرية</link>
+			<link url="">تعبئة الأطعمة</link>
+			<link url="">الأطعمة المجمّدة</link>
+			<link url="">الفواكه والخضار</link>
+			<link url="">اللحوم والدواجن</link>
+			<link url="">منتجات الألبان والحليب</link>
+			<link url="">أطعمة الحيوانات الأليفة</link>
+			<link url="">الشاي والقهوة</link>
+		</section>
+	</ar>
+
+	<pt>
+		<title>Serviços por setor</title>
+		<subtext><![CDATA[
+			<p>A AsiaInspection tem mais de 800 inspetores, auditores e especialistas em engenharia mecânica, classificados em uma gama de produtos e garantindo que seu produto atenda a todos os padrões de segurança e de desempenho para seu mercado de destino.</p>
+			<p>Assegure a conformidade com centenas de listas de verificação específicas e personalizáveis de produtos padrões.</p>
+		]]></subtext>
+
+		<section img="thumb_softlines.jpg" url="/industry-softline">
+			<url>/industry-softline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Bens de consumo não duráveis</title>
+			<link url="">Calçados</link>
+			<link url="">Roupas e vestuários</link>
+			<link url="">Brinquedos de pelúcia</link>
+			<link url="">Têxteis e Tecidos</link>
+		</section>
+
+		<section img="thumb_hardlines.jpg" url="/industry-hardline">
+			<url>/industry-hardline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+
+			<url>/industry-hardline</url>
+			<title>Bens de consumo duráveis </title>
+			<link url="">Elétricos e eletrônicos</link>
+			<link url="">Acessórios da moda</link>
+			<link url="">Móveis</link>
+			<link url="">Artigos promocionais</link>
+			<link url="">Artigos para casa e jardim</link>
+			<link url="">Industrial e construção</link>
+			<link url="">Impressão e embalagem</link>
+			<link url="">Equipamentos esportivos</link>
+			<link url="">Brinquedos e itens de lazer</link>
+		</section>
+
+		<section img="thumb_techParts.jpg" url="/industry-techparts">
+						<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<url>/industry-techparts</url>
+			<title>Peças técnicas</title>
+			<link url="">Peças automotivas</link>
+			<link url="">Fundição</link>
+			<link url="">Componentes hidráulicos</link>
+			<link url="">Maquinaria</link>
+			<link url="">Componentes de metal e montagem</link>
+			<link url="">Moldes e ferramentas de precisão</link>
+			<link url="">Moldagem de plástico</link>
+			<link url="">Sucata de metal</link>
+			<link url="">Montagens soldadas</link>
+		</section>
+
+		<section img="thumb_food.jpg" url="/food-safety-testing" attributes="target='_blank'">
+			<url>/food-safety-testing</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Alimentos</title>
+			<link url="">Alimentos e fórmulas infantis</link>
+			<link url="">Bebidas</link>
+			<link url="">Pães, grãos e cereais</link>
+			<link url="">Alimentos enlatados</link>
+			<link url="">Confeitaria, açúcar e mel</link>
+			<link url="">Peixe e frutos do mar</link>
+			<link url="">Embalagem de alimentos</link>
+			<link url="">Alimentos congelados</link>
+			<link url="">Frutas e vegetais</link>
+			<link url="">Carnes e aves</link>
+			<link url="">Leite e laticínios</link>
+			<link url="">Alimentos para animais de estimação</link>
+			<link url="">Chá e café</link>
+		</section>
+	</pt>
+
+	<tr>
+		<title>Endüstriye göre Hizmetler</title>
+		<subtext><![CDATA[
+			<p>Endüstriye göre AsiaInspection Hizmetleri ürününüzün, hedeflediğiniz piyasanın tüm güvenlik ve performans standartlarına uyumluluğunu sağlamak için ürün aralığına göre sınıflandırılmış 800'den fazla denetimci, teftişçi ve makine mühendisliği uzmanına sahiptir. Yüzlerce kullanıma hazır ve özelleştirilebilir ürüne özel kontrol listesiyle uyumluluğu kaynağında sağlayın.</p>
+		]]></subtext>
+
+		<section img="thumb_softlines.jpg" url="/industry-softline">
+			<url>/industry-softline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Tekstil Ürünleri</title>
+			<link url="">Ayakkabılar</link>
+			<link url="">Giyim Ürünleri</link>
+			<link url="">Yumuşak Oyuncaklar</link>
+			<link url="">Tekstil ve Kumaşlar için Mekanik Ürünler</link>
+		</section>
+
+		<section img="thumb_hardlines.jpg" url="/industry-hardline">
+			<url>/industry-hardline</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+
+			<url>/industry-hardline</url>
+			<title>Mekanik Ürünler</title>
+			<link url="">Elektrikli ve Elektronik Cihazlar</link>
+			<link url="">Moda Aksesuarları</link>
+			<link url="">Mobilya</link>
+			<link url="">Hediyelik Eşya</link>
+			<link url="">Ev Eşyaları ve Bahçe Eşyaları</link>
+			<link url="">Endüstriyel Ürünler ve İnşaat Ürünleri</link>
+			<link url="">Basım ve Ambalaj Ürünleri</link>
+			<link url="">Spor Ekipmanları</link>
+			<link url="">Oyuncak ve Hobi Ürünleri</link>
+		</section>
+
+		<section img="thumb_techParts.jpg" url="/industry-techparts">
+						<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<url>/industry-techparts</url>
+			<title>Teknik Parçalar</title>
+			<link url="">Otomotiv Parçaları</link>
+			<link url="">Döküm ve Dövme</link>
+			<link url="">Hidrolik Bileşenler</link>
+			<link url="">Makineler</link>
+			<link url="">Metal Bileşenler ve Düzenekler</link>
+			<link url="">Kalıplar ve Hassas Alet Üretimi</link>
+			<link url="">Plastik Kalıplar</link>
+			<link url="">Hurda Metal</link>
+			<link url="">Kaynak Bağlantısı</link>
+		</section>
+
+		<section img="thumb_food.jpg" url="/food-safety-testing" attributes="target='_blank'">
+			<url>/food-safety-testing</url>
+			<img>https://s3.asiainspection.com/images/responsive/industries.jpeg</img>
+			<title>Gıda</title>
+			<link url="">Bebek Mamaları</link>
+			<link url="">İçecekler</link>
+			<link url="">Ekmekler, Hububat ve Tahıllar</link>
+			<link url="">Konserve Gıda</link>
+			<link url="">Şekerlemeler, Şeker ve Bal</link>
+			<link url="">Balık ve Deniz Ürünleri</link>
+			<link url="">Gıda Paketleme</link>
+			<link url="">Donmuş Gıda</link>
+			<link url="">Meyve ve Sebzeler</link>
+			<link url="">Kırmızı Et ve Beyaz Et</link>
+			<link url="">Süt ve Süt Ürünleri</link>
+			<link url="">Evcil Hayvan Mamaları</link>
+			<link url="">Çay ve Kahve</link>
+		</section>
+	</tr>
+
+</document>

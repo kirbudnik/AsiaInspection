@@ -1,0 +1,78 @@
+/************************************************************************************************/
+/* This is for the base format for our main elements (can be extended in styles.scss if needed) */
+/************************************************************************************************/
+
+//@import url(http://fonts.googleapis.com/css?family=Roboto);
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@font-face {
+	font-family: 'Open Sans';
+	src:url('https://s3.asiainspection.com/fonts/opensans-regular.ttf') format('truetype');
+	src:url('/fonts/opensans-regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	src:url('https://s3.asiainspection.com/fonts/opensans-bold.ttf') format('truetype');
+	src:url('/fonts/opensans-bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+// ProximaNova Font
+@font-face{font-family:ProximaNova-Regular; src:url(/fonts/ProximaNova-RegWeb.woff) format("woff"); font-weight:400}
+@font-face{font-family:ProximaNova-Regular; src:url(/fonts/ProximaNova-LightWeb.woff) format("woff"); font-weight:100}
+@font-face{font-family:ProximaNova-Regular; src:url(/fonts/ProximaNova-BoldWeb.woff) format("woff"); font-weight:700}
+@font-face{font-family:ProximaNova-Regular; src:url(/fonts/ProximaNova-SboldWeb.woff) format("woff"); font-weight:600}
+
+//@extend-elements
+//original selectors
+//h1, h2
+%extend_headers {
+	color: $black;
+	font-size: $font_size_8;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+//original selectors
+//.btn-black:hover, .btn-black:focus, .btn-black.focus, .btn-black:active, .btn-black.active, .open > .dropdown-toggle.btn-black
+%extend_2 {
+	color: $white;
+	background-color: $color_rangoon_green_approx;
+	border-color: $color_storm_dust_approx;
+}
+
+
+h1 { @extend %extend_headers; }
+h2 { @extend %extend_headers; }
+h3 {
+	font-family: $font_primary;
+	font-size: $font_size_6;
+	margin-bottom: 13px;
+	margin-top: 0;
+}
+p{
+	font-size:$font_size_1;
+}
+
+html, body {
+	background-color:$white;
+	font-size: $base_font_size;
+	font-family: $font_primary;
+	height:100%;
+}
+
+*{ font-family: $font_primary; }
+
+.AI_heading {
+	font-family: $font_primary !important;
+	font-size: 30px !important;
+}
+
+.AI_subheading{
+	font-family: $font_primary !important;
+	font-size: 15px !important;
+}
+
+.AI_text{
+	font-family: $font_primary !important;
+	font-size: 14px !important;
+}

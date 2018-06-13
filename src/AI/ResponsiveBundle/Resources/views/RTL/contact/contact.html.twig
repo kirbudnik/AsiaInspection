@@ -1,0 +1,180 @@
+{% extends '::base.html.twig' %}
+{% block title %}{% trans %}Quality Control Services Worldwide - Contact Us for More Details | AsiaInspection{% endtrans %}{% endblock %}
+{% block pagename %}ContactUs{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+{% block body %}
+<div style="width:100%; margin-bottom:15px;">
+    {% include('AIResponsiveBundle:Default:SubTemplates/map.html.twig') %}
+</div>
+
+<div class="container contactUsContent wrapper mainBlock">
+    <div class="subMainBlock">
+        <div class="col-xs-12 col-md-offset-1 col-md-7 col-xl-offset-0 col-xl-8">
+            <div class="showSmall" style="margin-bottom:15px;">
+            <!-- Contact Us By Phone Box [Begin] -->
+            <div class="offer-box" style="margin-bottom:15px;">
+                <div class="sidebarTitlebar">
+                    <h5>{{xml.offerBox1.title}}</h5>
+                </div>
+                <div class="sidebarContentBox">
+                    <div class="ContactNumberBox2" style="margin:10px 0px 20px 0px;">
+                        <h2>
+                            <span class="ContactNumberTollfree2" style="display:none;"><a href="" class="ui-link2"></a><br /><br /></span>
+                            <span class="ContactNumberPhone2">
+                                {% for region in contacts.Locations.region %}
+                                    {% for office in region.office %}
+                                         {% if userCountry==office.countryCode %}<a href="tel:{{office.number}}" class="ui-link2">{{office.number}}</a>{% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                            </span>
+                        </h2>
+                    </div>
+    
+                    <div class="numers_China_contact" style="display:none;">
+                        <b>{{xml.offerBox1.phone1}}</b>
+                        <p>+86 755 2223 9888</p>
+                        <b>{{xml.offerBox1.phone2}}</b>
+                        <p>+86 755 2223 9086</p>
+                        <b>{{xml.offerBox1.phone3}}</b>
+                        <p>+86 577 6160 3663</p>
+                    </div>
+    
+                    <div class="ui-select">
+                        <p>{% trans %}Contact a local office{% endtrans %}</p>
+                        <select class="ContactNumberSelect2">
+                            {% for region in contacts.Locations.region %}
+                            <option style="background-color:#B31820; font-weight:bold; color:#FFFFFF;" disabled="disabled">{{region.name.en}}</option>
+                            {% for office in region.office %}
+                            <option phone="{{office.number}}" country="{{office.countryCode}}" {% if userCountry==office.countryCode %}selected{% endif %}>{{office.en}}</option>
+                            {% endfor %}
+                            <option disabled="disabled"></option>
+                            {% endfor %}
+                        </select>
+                    </div><br />
+                </div>
+
+            </div>
+            <!-- Contact Us By Phone Box [End] -->
+
+                {% include 'AIResponsiveBundle:Default:NeedMoreInfo.html.twig' %}
+
+                <!-- Worker's Hotline [Begin] -->
+                <div class="offer-box" style="margin:20px 0px 30px 0px;">
+                    <div class="sidebarTitlebar">
+                        <h5>{{xml.offerBox3.title}}</h5>
+                    </div>
+                    <div class="sidebarContentBox">
+                        <p>{{xml.offerBox3.par1|raw}}</p>
+                        <b>China:</b>
+                        <p>+86 189 2655 7090</p>
+                        <b>India:</b>
+                        <p>+91 11 4672 3304</p>
+                    </div>
+                </div>
+                <!-- Worker's Hotline [End] -->
+            </div>
+
+            <div class="box">
+                <h2>{{xml.headquarters.title}}</h2>
+                <b>{{xml.headquarters.contactInfo.location}}</b>
+                <p class="marginZero">{{xml.headquarters.contactInfo.address|raw}}</p>
+                <p class="marginZero"><b>{{xml.headquarters.phone}}</b> {{xml.headquarters.contactInfo.telephone}}</p>
+            </div>
+            <div class="box locationsBox">
+              <h2>{{xml.offices.title}}</h2>
+              <p>{{xml.offices.par1}}</p>
+
+            {% for region in xml.offices.region %}
+                <div class="row" style="border-bottom: 1px solid #c3c3c3; padding-top: 10px; margin: 0px 0px 20px 0px; width:90%;">
+                        <div class="col-sm-12 col-xs-12"><h3>{{region.name}}</h3></div>
+                </div>
+                <div class="row">
+                    {% for office in region.office %}
+                         {% if (loop.index-1) is divisibleby(3) %}
+                            </div>
+                            <div class="row" style="margin: 0px;">
+                        {% endif %}
+                        <div class="col-sm-4 col-xs-12">
+                                <div class="location">
+                                    <b>{{office.location}}</b>
+                                    <p class="marginZero">{{office.address|raw}}</p>
+                                    <p class="marginZero"><b>{{xml.offices.tel}} </b>{{office.telephone}}</p>
+                                </div>
+                        </div>
+                    {% endfor %}
+                </div>
+              {% endfor %}
+              {{xml.coverage.text|raw}}
+            </div>
+        </div>
+
+        <div class="col-xs-10 col-xs-offset-1 col-md-offset-0 col-md-4 hideSmall" style="position:relative; top:-400px;">
+
+            <!-- Contact Us By Phone Box [Begin] -->
+            <div class="offer-box" style="margin-bottom:15px;">
+                <div class="sidebarTitlebar">
+                    <h5>{{xml.offerBox1.title}}</h5>
+                </div>
+                <div class="sidebarContentBox">
+                    <div class="ContactNumberBox2" style="margin:10px 0px 20px 0px;">
+                        <h2>
+                            <span class="ContactNumberTollfree2" style="display:none;"><a href="" class="ui-link2"></a><br /><br /></span>
+                            <span class="ContactNumberPhone2">
+                                {% for region in contacts.Locations.region %}
+                                    {% for office in region.office %}
+                                         {% if userCountry==office.countryCode %}<a href="tel:{{office.number}}" class="ui-link2">{{office.number}}</a>{% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                            </span>
+                        </h2>
+                    </div>
+    
+                    <div class="numers_China_contact" style="display:none;">
+                        <b>{{xml.offerBox1.phone1}}</b>
+                        <p>+86 755 2223 9888</p>
+                        <b>{{xml.offerBox1.phone2}}</b>
+                        <p>+86 755 2223 9086</p>
+                        <b>{{xml.offerBox1.phone3}}</b>
+                        <p>+86 577 6160 3663</p>
+                    </div>
+    
+                    <div class="ui-select">
+                        <p>{% trans %}Contact a local office{% endtrans %}</p>
+                        <select class="ContactNumberSelect2">
+                            {% for region in contacts.Locations.region %}
+                            <option style="background-color:#B31820; font-weight:bold; color:#FFFFFF;" disabled="disabled">{{region.name.en}}</option>
+                            {% for office in region.office %}
+                            <option phone="{{office.number}}" country="{{office.countryCode}}" {% if userCountry==office.countryCode %}selected{% endif %}>{{office.en}}</option>
+                            {% endfor %}
+                            <option disabled="disabled"></option>
+                            {% endfor %}
+                        </select>
+                    </div><br />
+                </div>
+            </div>
+            <!-- Contact Us By Phone Box [End] -->
+
+            {% include 'AIResponsiveBundle:Default:NeedMoreInfo.html.twig' %}
+
+            <!-- Worker's Hotline [Begin] -->
+            <div class="offer-box" style="margin-top:20px; margin-bottom:20px;">
+                <div class="sidebarTitlebar">
+                    <h5>{{xml.offerBox3.title}}</h5>
+                </div>
+                <div class="sidebarContentBox">
+                    <p>{{xml.offerBox3.par1|raw}}</p>
+                    <b>China:</b>
+                    <p>+86 189 2655 7090</p>
+                    <b>India:</b>
+                    <p>+91 11 4672 3304</p>
+                </div>
+            </div>
+            <!-- Worker's Hotline [End] -->
+
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}

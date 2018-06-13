@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+{% if app.request.locale == "zh" %}
+    {% set assetsDomain = assets_china_domain %}
+{% else %}
+    {% set assetsDomain = assets_domain %}
+{% endif %}
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <meta name="description" content="{% block pageDescription %}{% endblock %}">
+    <title>{% block title %}Quality Control: Product Inspections, Lab Testing, and Audits | AsiaInspection{% endblock %}</title>
+    {% if tracking.head is defined %} {{tracking.head|raw}} {% endif %}
+    {% block stylesheets %}
+        <link href="{{asset('/css/bootstrap.css')}}" rel="stylesheet"/>
+        <link href="{{asset('/css/bootstrap-theme.css')}}" rel="stylesheet"/>
+         {% stylesheets filter="cssrewrite" filter='?uglifycss' 
+                '@AIResponsiveBundle/Resources/public/css/buttons.css'
+            %}
+            <link rel="stylesheet" href="{{asset_url}}"/>
+            {% endstylesheets %}
+            {% stylesheets filter="scss" filter='?uglifycss' 
+                '@AIResponsiveBundle/Resources/public/css/styles.scss'
+            %}
+        <link rel="stylesheet" href="{{asset_url}}"/>
+        {% endstylesheets %}
+    {% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    <script src="/js/mbox.js"></script>
+    <script src="/js/jquery-1.11.2.min.js"></script>
+    <script src="/js/registration_headfunctions.js"></script>
+    <style type="text/css">
+        tr:nth-child(even) {background-color: #f9f9f9;}
+        tr:nth-child(odd) {background-color: white;}
+        th { border-bottom:1px solid black; padding:10px 3px; }
+        td { border-bottom: 1px solid #dddddd; padding:10px 3px; }
+    </style>
+</head>
+<body style="background-color:white;">
+<div style="width:100%; height:100%; position:relative; overflow:hidden;">
+    <div style="height:60px; background-color:#333333; width:100%;">
+        <img src="https://s3.asiainspection.com/images/bg_regpage/logo.png" style="float:left;"/>
+        <img src="https://s3.asiainspection.com/images/bg_regpage/header-right.png" style="float:right;"/>
+        <div style="clear:both;"></div>    
+    </div>
+    <div style="float:left; height:100%; background-color:#eeeeee;">
+        <img src="https://s3.asiainspection.com/images/bg_regpage/menu.png" />
+    </div>
+    <div style="height:100%; margin-left:199px; background-color:#f7f7f7; padding:20px;">
+        <div style="background-color:white; width:100%; border:1px solid #eeeeee; padding:20px; height:calc(100% - 60px); position:relative; overflow:hidden;">
+            
+            <div style="display:inline-block; width:calc(100% - 280px); height:100%; background-color:white; overflow:hidden;">
+                <div style="font-size:23px; font-weight:bold; font-family:ProximaNova-Regular; line-height:23px;">Hello!</div>
+                <div style="font-size:14px; font-weight:bold; font-family:ProximaNova-Regular; margin-top:57px;">Your Upcoming Orders</div>
+                <table style="margin-top:32px; width:100%;">
+                    <thead>
+                        <tr>
+                            <th>Date &nbsp; &nbsp; <img src="https://s3.asiainspection.com/images/bg_regpage/dualcaret.png" valign="middle" /></th>
+                            <th>Service Type &nbsp; &nbsp; <img src="https://s3.asiainspection.com/images/bg_regpage/dualcaret.png" valign="middle" /></th>
+                            <th width="30%"></th>
+                            <th>Product Name</th>
+                            <th>Supplier &nbsp; &nbsp; <img src="https://s3.asiainspection.com/images/bg_regpage/dualcaret.png" valign="middle" /></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>15-Sep-2017</td>
+                        <td>EA</td>
+                        <td>&nbsp;</td>
+                        <td>Large deck chair with iron handles</td>
+                        <td>Tahoma Garden Co.</td>
+                    </tr>
+                    <tr>
+                        <td>08-Sep-2017</td>
+                        <td>DUPRO</td>
+                        <td>&nbsp;</td>
+                        <td>Medium deck chair - white &amp; blue handles</td>
+                        <td>Courrier Outdoor Supplies</td>
+                    </tr>
+                    <tr>
+                        <td>02-Sep-2017</td>
+                        <td>PSI</td>
+                        <td>&nbsp;</td>
+                        <td>Iron plant holder with oriental red ornaments</td>
+                        <td>Bauhaus Furnitures</td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid black;">29-Aug-2017</td>
+                        <td style="border-bottom: 1px solid black;">LT</td>
+                        <td style="border-bottom: 1px solid black;">&nbsp;</td>
+                        <td style="border-bottom: 1px solid black;">Wooden outdoor table</td>
+                        <td style="border-bottom: 1px solid black;">Ningbo Home Ltd.</td>
+                    </tr>
+                </table>
+
+                <div style="font-size:14px; font-weight:bold; font-family:ProximaNova-Regular; margin-top:57px;">Your Latest Reports</div>
+                <table style="margin-top:32px; width:100%;">
+                    <thead>
+                        <tr>
+                            <th>Service Date &nbsp; &nbsp; <img src="https://s3.asiainspection.com/images/bg_regpage/dualcaret.png" valign="middle" /></th>
+                            <th>Service Type &nbsp; &nbsp; <img src="https://s3.asiainspection.com/images/bg_regpage/dualcaret.png" valign="middle" /></th>
+                            <th width="30%"></th>
+                            <th>Product Name</th>
+                            <th>Result &nbsp; &nbsp; <img src="https://s3.asiainspection.com/images/bg_regpage/dualcaret.png" valign="middle" /></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>28-Aug-2017</td>
+                        <td>PSI</td>
+                        <td>&nbsp;</td>
+                        <td>Dahlia Square Table &amp; 4 Chairs</td>
+                        <td><img src="https://s3.asiainspection.com/images/bg_regpage/failed.png" valign="middle" /> Failed</td>
+                    </tr>
+                    <tr>
+                        <td>26-Aug-2017</td>
+                        <td>EA</td>
+                        <td>&nbsp;</td>
+                        <td>Rattan Coffee Table</td>
+                        <td><img src="https://s3.asiainspection.com/images/bg_regpage/passed.png" valign="middle" /> Passed</td>
+                    </tr>
+                    <tr>
+                        <td>17-Aug-2017</td>
+                        <td>PSI</td>
+                        <td>&nbsp;</td>
+                        <td>Curved grey parasol with dark stained wooden pole</td>
+                        <td><img src="https://s3.asiainspection.com/images/bg_regpage/passed.png" valign="middle" /> Passed</td>
+                    </tr>
+                    <tr>
+                        <td>11-Aug-2017</td>
+                        <td>LT</td>
+                        <td>&nbsp;</td>
+                        <td>White Vintage Chalice Planter</td>
+                        <td><img src="https://s3.asiainspection.com/images/bg_regpage/failed.png" valign="middle" /> Failed</td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid black;">23-Jul-2017</td>
+                        <td style="border-bottom: 1px solid black;">DUPRO</td>
+                        <td style="border-bottom: 1px solid black;">&nbsp;</td>
+                        <td style="border-bottom: 1px solid black;">Garden Basket Set</td>
+                        <td style="border-bottom: 1px solid black;"><img src="https://s3.asiainspection.com/images/bg_regpage/passed.png" valign="middle" /> Passed</td>
+                    </tr>
+                </table>
+
+                <div style="font-size:14px; font-family:ProximaNova-Regular; color:#70a2cc; margin-top:10px;">View more...</div>
+            </div>
+            <div style="background-color:white; border:1px solid #eeeeee; padding:20px; position:absolute; display:inline-block; right:20px; bottom:20px; max-height:90%; overflow:hidden;">
+                <img src="https://s3.asiainspection.com/images/bg_regpage/sidebar.png" />
+            </div>
+            <div style="clear:both;"></div>
+
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+</div>
+<div class="container">
+    <div id="page_wrapper">
+        <div id="back" style="background-color: black; opacity: 0.5; width: 100%; height: 100%; position: fixed; z-index: 10; top: 0px; left: 0px;"></div>
+        <a href='/'><div style="width:120px;height:75px;position:absolute;top:10px;z-index:101;"></div></a>
+
+        <div id="RegPopup" style="width:{% block popup_width %}650px{% endblock %};">
+            {% block regLookingForTitleOverwrite %}
+            <div id="regTitleBar">
+                <font>{% block popup_title %}Create an Account{% endblock %}</font>
+
+                {% set _block = block('popup_switch_button_label') %}
+                {% if _block is not empty %}
+                    <div id="regLoginWrapper">
+                        <div style="display:inline-block; padding-right:1em; color:#193B5C; font-size:1.1em;">{% block popup_switch_button_caption %}{% endblock %}</div>
+                        <div id="regLoginButtonWrapper" style="display:inline-block; margin-right:1.45em;"><a href="{% block popup_switch_button_url %}/login{% endblock %}" role="button" class="one-btn btn btn-primary btn-small">{% block popup_switch_button_label %}{% endblock %}</a></div>
+                    </div>
+                {% endif %}
+
+            </div>
+            {% endblock %}
+            <div id="contentInfo">
+                {% block content %}{% endblock %}
+            </div>
+            <div style="clear:both;"></div>
+
+            {% block legaltext %}{% endblock %}
+        </div>
+    </div>  <!-- close content wrapper -->
+</div>
+{% block javascripts %}
+    <script src="{{asset('/js/thickbox.js')}}"></script>
+    <script src="{{asset('/js/bootstrap.js')}}"></script>
+    {% javascripts
+        '@AIResponsiveBundle/Resources/public/js/custom.js' 
+        filter='?uglifyjs2'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}
+{% if tracking.body is defined %} {{tracking.body|raw}} {% endif %}
+<script type="text/javascript">
+    var Countries = new Array();
+    {% if countries is defined %}
+        {% for country in countries %}
+            Countries['{{country.iso2}}'] = "{{country.phone}}";
+        {% endfor %}
+    {% endif %}
+</script>
+</body>
+</html>

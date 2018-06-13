@@ -1,0 +1,35 @@
+{% extends '::base.html.twig' %}
+{%block title%}{{pageTitle}}{%endblock%}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+{%block body%}
+<div class="container wrapper">
+   <div class="col-xs-12 wrapper margin20">
+      <div class="col-md-10 col-md-offset-1 col-xs-12 sidebox wrapper">
+      	<h1  class="margin20">{{xml.title}}</h1>
+         <div class="box-white">
+            {% for section in xml.section%}
+				<div class="section">
+					<h2 class="padding15">{{section.title}}</h2>
+					{% for para in section.para %}
+						{%if para.text is defined%}
+							<p>{{para.text}}</p>
+						{%endif%}
+						{%if para.textraw is defined%}
+							<p>{{para.textraw|raw}}</p>
+						{%endif%}
+						{%if para.bullet is defined%}
+						<ul>
+							{% for bullet in para.bullet%}
+								<li>{{bullet}}</li>
+							{%endfor%}
+						</ul>
+						{%endif%}
+					{%endfor%}
+				</div>
+			{%endfor%}
+         </div>
+      </div>
+   </div>
+</div>
+{%endblock%}

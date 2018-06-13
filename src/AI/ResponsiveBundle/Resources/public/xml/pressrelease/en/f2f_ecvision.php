@@ -1,0 +1,17 @@
+<h1>AsiaInspection Partners With ecVision to Help Global Buyers Secure their Supply Chain</h1>
+<p><strong>Hong Kong, April 24, 2014</strong></p>
+<p>AsiaInspection, the leading quality control services provider and ecVision, an innovative cloud-based supply chain collaboration platform, announce their partnership to enhance product safety and compliance management for global brands and retailers.</p>
+<p>Buyers using ecVision’s Total Risk Management (TRM) solution will be able to seamlessly generate laboratory testing and supplier audit requests to <b>AsiaInspection</b> and gather results back into the platform, for an easier and more accurate monitoring of their supply chain quality.</p>
+<p>"We believe that global sourcing and supplier management are entering an age where supply chain data integrity and visibility becomes critical, as was illustrated by recent quality and compliance issues in Asia by major importers", said Sebastien Breteau, AsiaInspection CEO. "Our partnership with ecVision aims at making it easier for brands and retailers to get an integrated view of the quality and conformity of their whole supply chain."</p>
+<p>The integration will streamline collaboration between development, sourcing, quality assurance and compliance teams for brands and manufacturers on products that require customized inspections and lab-testing, or production processes that support industrial and ethical audits under country’s regulations.</p>
+<h2 style="font-size:18px;">About AsiaInspection</h2>
+<p>AsiaInspection is a leading quality control service provider that partners with brands, retailers and importers to secure and manage their global supply chain. This company performs Supplier Audits, Product Inspections and Lab-Testing. Clients from over 100 countries worldwide benefit from web-based mobile friendly account management, fast scheduling and highly competitive all-inclusive pricing: $309 Product Inspections and $609 Factory Audits.</p>
+<p>AsiaInspection guarantees to be onsite within 48 hours of booking, compiling a detailed report available online, the same day as the inspection. With over 600 inspectors and auditors classified by product range and account managers speaking 18 languages, AsiaInspection is Your Eyes in the Supply Chain!&trade;. Learn more at <a href="http://www.asiainspection.com" target="_blank">AsiaInspection.com</a></p>
+<h2 style="font-size:18px;">About ecVision&reg;</h2>
+<p>ecVision&reg; offers a cloud-based supply chain collaboration platform that optimizes product lifecycle and supply chain processes. The enterprise platform, ecVision&reg; Suite&trade;, reflects the standardized business processes from design to delivery, creating a single collaborative solution for private label brands, retailers and their trading partners. With increased visibility and workflow, users can improve their reaction time to demand changes, shorten product lifecycles, lower product and materials costs, and improve sourcing and logistic efficiencies. Tailored specifically for smaller brands, manufacturer and importers, ecVision&reg; Comply&trade; is a risk management/data management platform that revolutionizes supplier and product safety compliance. Learn more at <a href="http://www.ecvision.com" target="_blank">www.ecVision.com</a>.</p>
+<p>
+	<b>Press Contact</b>
+	<br>Michael Mesarch
+	<br>Tel: (+86) 755 2223 9888
+	<br>Email: <a href="mailto:press@asiainspection.com">press@asiainspection.com</a>
+</p>

@@ -1,0 +1,56 @@
+{% extends '::base.html.twig' %}
+{% block title %}Our Services {% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined %}{{pageKeywords}}{% endif %}{% endblock %}
+
+{# Set Template Variables [BEGIN] #}
+{% set priceAsia = "$" + price_Inspect_Low %}
+{% set priceEurope = "$" + price_Inspect_High %}
+{% set demoLink = "/popup?video=watchdemo&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=440&amp;width=730&amp;modal=true" %}
+{% set demoLinkSmall = "https://www.youtube.com/watch?v=xkgWD4KLccY" %}
+{% set videoLink = "/popup?video=watchinspection&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=440&amp;width=730&amp;modal=true" %}
+{% set watchWhat = "Watch a Real Inspection" %}
+{% set displayNone = "" %}
+{% set videoLinkSmall = "https://www.youtube.com/watch?v=gt1ZyhcOD78" %}
+{% set inspectionImage = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=psi" %}
+{% set inspectionImage1 = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=psi" %}
+{# Set Template Variables [END] #}
+
+{% block body %}
+<div  class="headerbox" {% if xml.imageAlt is defined %}title="{{ xml.imageAlt }}"{% endif %}>
+    <div class="container vcenter_parent wrapper">
+        <div class="col-xs-12 vcenter_parent wrapper paddingleftSmall paddingLeftRightZero">
+            <div class="col-lg-7 col-md-8 col-xs-10 vcenter_parent" id="bigWidth" style="padding-left:0px;padding-right:0px; float:right;">
+                <div class="vcenter">
+                    <h1 class="mainHeader">{% block bigTitle %}{% endblock %}</h1>
+                    <div class="mainSubHeader">{% block smallText %}{% endblock %}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container wrapper mainBlock">
+
+    <div class="col-xs-12 subMainBlock paddingLeftRightZero" style="margin-top:15px;">
+
+        <div id="SideboxWrapper" class="sidebox col-xs-12 col-sm-offset-0  col-sm-5 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0" >
+            <div class="sidebox col-xs-12" id="sideBoxContainer">
+                <!-- Need More Information Box [Begin] -->
+                {% include 'AIResponsiveBundle:Default:NeedMoreInfo.html.twig' %}
+                <!-- Need More Information Box [End] -->
+                
+                {% block offerbox %}
+                    {% include 'AIResponsiveBundle:Default:PricingBox.html.twig' %}
+                {% endblock %}
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-offset-1 col-md-7 col-lg-7 col-xl-offset-0 col-xl-8 sidebox paddingLeftRightZero" style="margin-bottom:20px;">
+            {% block serviceText %}  {% endblock %}
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,117 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title %}Tradeshow Memo{% endblock %}
+{% block content %}
+	<h1 class="margin20">{% if not is_granted('ROLE_USER') %}Tradeshow Memo and Lead Management Tool{% else %}View Tradeshow Memo{% endif %}</h1>
+	<div class="box-white">
+		{% if is_granted('ROLE_USER') %}
+
+			<div style="margin-bottom:20px;">
+				<div class="tradeshowdrop_divbox" style="margin-bottom:20px;">
+					<span>Type of Memo: </span>
+					<select id="tradeshowDropSelect_MemoType" >
+						<option value="all">All Memos</option>
+						<option value="tradeshow-exhibiting">Exhibiting Tradeshow or Event (with Booth)</option>
+						<option value="tradeshow-visiting">Visiting Tradeshow (no booth)</option>
+						<option value="event-visiting">Sponsored or Visited Event (no booth)</option>
+						<option value="event-speaking">Speaking Event (no booth)</option>
+						<option value="event-hosted">Self-hosted Event</option>
+						<option value="webinar">Webinar</option>
+					</select>
+				</div>
+				<div class="tradeshowdrop_divbox">
+					<span>Choose Show: </span>
+					<select id="tradeshowDropSelect_MemoSelect" >
+					 <option value="all">All Shows</option>
+						{% for tradeshow in tradeshowList %}
+							<option value="{{tradeshow}}">{{tradeshow}}</option>
+						{% endfor %}
+					</select>
+				</div>
+				<div style="clear:both;"></div>
+				<table class="bordered tablesorter" style="width:100%;margin-top:20px;" id="memoTable">
+					<thead>
+						<tr>
+							<th style="font-weight:bold; width:20%;">Tradeshow/Event</td>
+							<th style="font-weight:bold; width:6%; min-width:60px;">Day</td>
+							<th style="font-weight:bold; width:6%;">Sales</td>
+							<th style="font-weight:bold; width:6%;">Type</td>
+							<th style="font-weight:bold; width:6%;">Do next</td>
+							<th style="font-weight:bold;">Reasons</td>
+							<th style="font-weight:bold; width:13%;">Attendees/Leads</td>
+							<th style="font-weight:bold; width:3%;">Total Leads</td>
+							<th style="font-weight:bold; width:3%;">View All</td>
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in exhibitingTradeshows %}
+							<tr class="memoRow memoClass-tradeshow-exhibiting">
+								<td>{{row.tradeshow}}</td>
+								<td style="text-align:center;">{{row.day}}</td>
+								<td style="text-align:center;">{{row.salesName}}</td>
+								<td style="text-align:center;">Exhibiting</td>
+								<td style="text-align:center;">{{row.do_next}}</td>
+								<td>{{ row.next_reasons|length > 250 ? row.next_reasons|slice(0, 250) ~ '...' : row.next_reasons }}</td>
+								<td style="text-align:center;">{{row.leadsdetails|raw}}</td>
+								<td style="text-align:center;">{{row.totalleads}}</td>
+								<td style="text-align:center;"><a href="/viewMemoDetail/{{row.id}}">View</a></td>
+							</tr>
+						{% endfor %}
+						{% for row in visitingShows %}
+							<tr class="memoRow memoClass-tradeshow-visiting">
+								<td>{{row.tradeshow}}</td>
+								<td></td>
+								<td style="text-align:center;">{{row.salesName}}</td>
+								<td style="text-align:center;">Visiting</td>
+								<td style="text-align:center;">{{row.do_next}}</td>
+								<td>{{ row.next_reasons|length > 250 ? row.next_reasons|slice(0, 250) ~ '...' : row.next_reasons }}</td>
+								<td style="text-align:center;">{{row.leadsdetails|raw}}</td>
+								<td style="text-align:center;">{{row.totalleads}}</td>
+								<td style="text-align:center;"><a href="/viewMemoDetail/{{row.id}}">View</a></td>
+							</tr>
+						{% endfor %}
+						{% for row in visitingEvents %}
+							<tr class="memoRow memoClass-event-visiting">
+								<td>{{row.tradeshow}}</td>
+								<td></td>
+								<td style="text-align:center;">{{row.salesName}}</td>
+								<td style="text-align:center;">Sponsored</td>
+								<td style="text-align:center;">{{row.do_next}}</td>
+								<td>{{ row.next_reasons|length > 250 ? row.next_reasons|slice(0, 250) ~ '...' : row.next_reasons }}</td>
+								<td style="text-align:center;">{{row.leadsdetails|raw}}</td>
+								<td style="text-align:center;">{{row.totalleads}}</td>
+								<td style="text-align:center;"><a href="/viewMemoDetail/{{row.id}}">View</a></td>
+							</tr>
+						{% endfor %}
+						{% for row in hostedEvents %}
+							<tr class="memoRow memoClass-event-hosted">
+								<td>{{row.tradeshow}}</td>
+								<td></td>
+								<td style="text-align:center;">{{row.salesName}}</td>
+								<td style="text-align:center;">Self-hosted</td>
+								<td style="text-align:center;">&nbsp;</td>
+								<td>&nbsp;</td>
+								<td style="text-align:center;">{{row.leadsdetails|raw}}</td>
+								<td style="text-align:center;">{{row.totalleads}}</td>
+								<td style="text-align:center;"><a href="/viewMemoDetail/{{row.id}}">View</a></td>
+							</tr>
+						{% endfor %}
+						{% for row in speakingEvents %}
+							<tr class="memoRow memoClass-event-speaking">
+								<td>{{row.tradeshow}}</td>
+								<td></td>
+								<td style="text-align:center;">{{row.salesName}}</td>
+								<td style="text-align:center;">Speaking</td>
+								<td style="text-align:center;">{{row.do_next}}</td>
+								<td>{{ row.next_reasons|length > 250 ? row.next_reasons|slice(0, 250) ~ '...' : row.next_reasons }}</td>
+								<td style="text-align:center;">{{row.leadsdetails|raw}}</td>
+								<td style="text-align:center;">{{row.totalleads}}</td>
+								<td style="text-align:center;"><a href="/viewMemoDetail/{{row.id}}">View</a></td>
+							</tr>
+						{% endfor %}
+					</tbody>
+			   </table>
+			</div>
+
+		{% endif %} {# end permissions #}
+	</div>
+{% endblock %}

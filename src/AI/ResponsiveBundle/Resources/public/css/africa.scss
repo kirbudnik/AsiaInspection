@@ -1,0 +1,298 @@
+h1 {
+    font-family:'Open Sans';
+    font-size:30px;
+}
+
+.subheading {
+    font-family:'Open Sans';
+    font-size:15px;
+}
+
+p {
+    font-family:'Open Sans';
+    font-size:14px;
+}
+
+
+.subsection {
+    //width: 100%;
+    padding-top:50px;
+    position:relative;
+    text-align:center;
+    a:link, a:visited {
+        color: #78C0F0;
+    }
+    a:hover, a:focus {
+        color: #337ab7;
+        text-decoration: underline;
+    }
+}
+
+#sectionTwo {
+    //.title { min-height:50px; }
+    .subheading { margin-bottom: 5px;}
+    .image { min-height:50px; margin-bottom: 10px; }
+}
+
+#sectionThree {
+    //padding-bottom:30px;
+    .image { margin-bottom: 10px; }
+}
+
+#sectionFour {
+    padding-bottom:30px;
+}
+
+#sectionFive {
+    padding-top:60px;
+    padding-bottom:20px;
+}
+
+#sectionSix {
+    padding-bottom:60px;
+}
+
+
+
+.subsection:nth-child(even) { background-color:#ffffff; }
+.subsection:nth-child(odd) { background-color:#f7f7f7; }
+.footer { background-color:#f1f1f1; }
+
+
+#homeGetStartedBox {
+    background-color: transparent;
+    text-align:center;
+    padding:1.3em;
+    max-width:860px;
+    //width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.homeSCP_image{
+    height: 40%;
+    background-image: "https://s3.asiainspection.com/images/responsive/AI-on-multiple-devices.png";
+    background-position: center bottom;
+    background-repeat:no-repeat;
+    background-size:auto 100%;
+    width:100%;
+}
+
+
+
+#homeDemoWrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+    .homeDemoBox {
+        margin-bottom:20px;
+    }
+    .homeWatchDemoLinks {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    #demodesktoplink {
+        display:block;
+        min-width:240px;
+        max-width:330px;
+        margin: 0 auto;
+        color: white;
+    }
+    #demomobilelink {
+        display:none;
+        min-width:160px;
+        max-width:320px;
+        margin: 0 auto;
+        color: white;
+    }
+}
+
+#homeServicesText {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+#homeServicesRow {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+#homePublicationsRow {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+#assuranceWrapper {
+    max-width: 1150px;
+    #SliderAssurance {
+        position: relative;
+        overflow: auto;
+        max-width: 1150px;
+        ul {
+            list-style: none;
+            margin-top: 40px;
+            .assuranceSlide {
+                min-height: 160px;
+                text-align: center;
+                float: left;
+                // NOTE THAT ON MOBILE WE USE JS TO MOVE THE assurancePictogram OUT OF ITS PARENT sliderText
+                // SO CSS CHANGES COULD LEAD TO UNEXPECTED BEHAVIOUR
+                .assurancePictogram {
+                    display: inline-block;
+                    max-height: 72px;
+                    vertical-align: middle;
+                    margin-right: 20px;
+                }
+                .sliderText {
+                    display: inline-block;
+                    color: black;
+                    font-size: 15px;
+                    margin-bottom: 0;
+                    .sliderTextHighlight {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#nmiBox {
+        width:50%;
+        text-align:left;
+        display:inline-block;
+    }
+
+    .nmiBoxHalfWrapper {
+        display: inline-block;
+        width:50%;
+        margin:0px;
+    }
+
+    #nmiBox input, #nmiBox select {
+        height:40px;
+    }
+
+    #NeedMoreInfotmationSubmitButton {
+        width:50%;
+        height:40px;
+        font-size: 16px;
+    }
+
+    .home-pricing-box {
+        max-width:300px;
+    }
+
+#homePricingBoxWrapper {
+    max-width: 1150px;
+    margin: 0 auto 25px;
+}
+
+.homePublications {
+    .ourLatestBox {
+        h3 {
+            max-width: 360px;
+            margin: 0 auto;
+        }
+        img {
+            margin-bottom: 10px;
+        }
+        .buttonbox {
+            max-width: 360px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    .ourLatestBox h3{
+        min-height: 30px; //TODO:  this is just to override setting in styles.scss
+    }
+}
+
+
+.serviceBox {
+    margin-bottom: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.serviceBox:nth-child(4) {
+    border-right: 0;
+}
+
+
+
+@media screen and(max-width: 768px) {
+    h1 {
+        font-size:24px;
+    }
+
+    #demomobilelink { display:block; }
+    #demodesktoplink { display:none; }
+    #assuranceWrapper {
+        max-width: 320px;
+        #SliderAssurance {
+            max-width: 320px;
+            min-height:260px;
+        }
+        .assuranceSlide {
+            min-height:260px;
+            width: 320px;
+            // NOTE THAT ON MOBILE WE USE JS TO MOVE THE assurancePictogram OUT OF ITS PARENT sliderText
+            // SO CSS CAHNGES COULD LEAD TO UNEXPECTED BEHAVIOUR
+            .assurancePictogram {
+                //float: none;
+                margin-bottom: 15px;
+                margin-left: 20px;
+            }
+        }
+    }
+    .serviceBox:nth-child(2) {
+        border-right: 0;
+    }
+    //#homeServicesText {
+    //    width: 320px;
+    //}
+
+}
+
+
+
+
+a.btn.btn-primary,
+button.btn-primary,
+button.btn-primary:focus,
+input[type="button"].btn-primary,
+input[type="submit"].btn-primary,
+input[type="reset"].btn-primary {
+    background-color: #5BA331;
+    border: 1px solid #5BA331;
+    color: white;
+}
+
+a.btn.btn-primary:hover,
+button.btn-primary:hover,
+button.btn-primary:focus:hover,
+input[type="button"].btn-primary:hover,
+input[type="submit"].btn-primary:hover,
+input[type="reset"].btn-primary:hover {
+    background-color: #4B8728;
+}
+
+a.btn.btn-primary:active,
+button.btn-primary:active,
+input[type="button"].btn-primary:active,
+input[type="submit"].btn-primary:active,
+input[type="reset"].btn-primary:active {
+    background-color: #4B8728;
+}
+
+a.btn.btn-primary.btn-disabled:hover,
+button.btn-primary.btn-disabled:hover,
+input[type="button"].btn-primary.btn-disabled:hover,
+input[type="submit"].btn-primary.btn-disabled:hover,
+input[type="reset"].btn-primary.btn-disabled:hover {
+    background-color: #5BA331;
+}

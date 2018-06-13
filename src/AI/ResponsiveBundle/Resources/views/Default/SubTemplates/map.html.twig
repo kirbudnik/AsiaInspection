@@ -1,0 +1,170 @@
+{% if app.request.locale == "zh" %}
+    {% set assetsDomain = assets_china_domain %}
+{% else %}
+    {% set assetsDomain = assets_domain %}
+{% endif %}
+
+ <script src="https://maps.google.com/maps/api/js?key=AIzaSyAtntBzhXaNkxDLUArOl2YMnh2cEwLkeYg" type="text/javascript"></script>
+  <div id="map" style="width: 100%; height: 520px;"></div>
+  <script type="text/javascript">
+    var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth; // Window Width
+
+    // Zoom Level based on Screen Width
+    var z = 3;
+    if( w < 1500 ) z = 2;
+    if( w < 850 ) z = 1;
+
+    // Center Point based on Screen Width
+    var c =  [36.7549453,123.2263463];
+    if( w < 1500 ) c = [32.9804725,88.9896473];
+        if( w < 990 ) c = [20.485503,22.3634883];
+    if( w < 850 ) c = [30.2125823,22.986479];
+
+    // Shrink Map Height if on Mobile
+    if( w < 850 ) $("#map").css("height","200px");
+    
+    var locations = [
+      // Canada Burnaby
+      ['<div class="contactMapPopup"><span style="font-weight:bold;">Canada</span><div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>4720 Kingsway<br />Suite 2600<br />Burnaby, B.C<br />Canada V5H 4N2<br /><br /><b>Tel:</b> +1 888 264 8988<br /><a href="{{assetsDomain}}/files/maps/AI_Vancouver_Burnaby_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 49.223736,-122.998727],
+      // USA
+      ['<div class="contactMapPopup" style="min-height:160px;"><span style="font-weight:bold;">United States</span><div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>9 Remlin Court<br />Westport, Connecticut<br />USA 06880<br><br><b>Tel:</b> +1 888 264 8988 (Toll free)<br/><b>Alt:</b> +1 646 351 8646</div>', 41.128656,-73.364087],
+      // USA-Miami
+      ['<div class="contactMapPopup" style="min-height:160px; width:290px;"><span style="font-weight:bold;">United States</span><div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>Produce Inspectors of America (PIA)</b></p></div>8500 NW 17th St #105<br />Miami, FL <br />USA 33126<br><br><b>Tel:</b> +1 305 640 1515<br/><a href="{{assetsDomain}}/files/maps/AI_PIA_Miami_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 25.789308,-80.334581],
+      // Colombia
+      ['<div class="contactMapPopup" style="min-height:160px;">Latin America & Caribbean<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div><b>Tel:</b> +57 1381 9594</div>', 6.217628,-75.565191],
+      //EU Sales Office
+      ['<div class="contactMapPopup" style="min-height:145px;">Spain<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>Paseo de la Castellana, 95, Planta 29<br />28046 Madrid (Spain)<br><br><b>Tel:</b> +34 91 888 88 88<br /><a href="{{assetsDomain}}/files/maps/AI_Madrid_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 40.480475,-3.667444],
+      // UK - London
+      ['<div class="contactMapPopup" style="min-height:140px;">England<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>48-49 St James Street<br/> SW1A 1JT<br/>London<br><br><b>Tel:</b> + 44 2038 073 888<br /><a href="{{assetsDomain}}/files/maps/AI_London_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 51.57995,-0.032726],
+      // UK - Kent
+      ['<div class="contactMapPopup" style="min-height:140px; width:290px;">England<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>United Kingdom - AI|PIA</b></p></div>Unit K Castle Road<br/>Eurolink Business Park<br/>Sittingbourne, Kent ME10 3RN<br/>United Kingdom<br><br><b>Tel:</b>+44 1795 433 617<br /></div>', 51.351978,0.758294],
+      // France
+      ['<div class="contactMapPopup" style="min-height:165px;">France<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>28 rue Marbeuf<br />75008 - Paris, France<br/><br /><b>Tel:</b> +33 1 7997 9888<br /><a href="{{assetsDomain}}/files/maps/AI_Paris_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 48.869095,2.3026473],
+      // Germany
+      ['<div class="contactMapPopup" style="min-height:165px;">Germany<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>Germany - AI|PIA</b></p></div>Am Teinkamp 1<br />31157 Sarstedt, Germany<br/><br /><b>Tel:</b>+49 (0) 5066 690608<br /></div>', 52.248948,9.856175],
+      // South Africa - Durban
+      //['<div class="contactMapPopup" style="min-height:165px;">South Africa<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>77 Burlington Road<br>Reservoir Hills<br>Durban 4091<br><br><b>Tel:</b> +27 105 006 177</div>', -29.797879,30.949907],
+      // Saudi Arabia
+      ['<div class="contactMapPopup" style="min-height:195px;">Saudi Arabia<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>Level 18<br>Faisaliah Tower<br>King Fahed Highway<br>Olayah District<br>11524 - Ar Riyadh<br><br><b>Tel:</b> +966 11 484 7130<br /><a href="{{assetsDomain}}/files/maps/AI_Riyadh_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 24.69032,46.685387],
+      // Bangladesh
+      ['<div class="contactMapPopup" style="min-height:175px;">Bangladesh<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b><b>AsiaInspection</b></b></p></div>Concept Tower<br>Flat # 14/B<br>68,69 Green Road<br>Dhaka - 1205<br><br><b>Tel:</b> +88 01713 104 100</div>', 23.707395,90.417485],
+      // Vietnam
+      ['<div class="contactMapPopup">Vietnam<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b><b>AsiaInspection</b></b></p></div>Concept Tower Flat no 11/A<br>45/68 Binh Tien Street<br>Ward 7<br>District 6<br>Ho Chi Minh City<br />700000<br><br><b>Tel:</b> +84 907 127 039</div>', 10.796156,106.680722],
+      // Asia - Hong Kong
+      ['<div class="contactMapPopup" style="min-height:180px;">Hong Kong Head Office<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>Sino Plaza<br />8th Floor<br/>255-257 Gloucester Road<br/>Causeway Bay, Hong Kong<br><br><b>Tel:</b> +852 8332 1345<br /><a href="{{assetsDomain}}/files/maps/AI_Hong_Kong_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 22.281279,114.182447],
+      // China - Shenzhen
+      ['<div class="contactMapPopup" style="min-height:260px;">China (South)<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>2205 Guidu Building<br>3007 Chun Feng Road<br>Luohu District<br>Shenzhen<br/>518001 Guangdong<br/><br/>中国深圳, 罗湖区春风路 3007号,<br>桂都大厦 2205 室 518001<br/><br/><b>Tel:</b> +86 755 2223 9888<br /><a href="{{assetsDomain}}/files/maps/AI_Shenzhen_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 22.540474,114.119955],
+      // China - Hangzhou
+      ['<div class="contactMapPopup" style="min-height:210px;">China (North)<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>10F, 3rd building,<br />Maida commercial center,<br />Number 6 Tiancheng Road,<br />Jianggan District, 310002<br />Hangzhou, Zhejiang,<br />China <br><br><b>Tel:</b> +86 571 8659 3800<br /><a href="{{assetsDomain}}/files/maps/AI_Hangzhou_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 30.279017,120.164565],
+      // China - Hangzhou Lab
+      ['<div class="contactMapPopup" style="min-height:210px;">China (Hangzhou Laboratory)<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>5th Floor, A2 Building<br />No. 1213, Huo Ju South Road<br />Binjiang District, Hangzhou<br /><br /><b>Tel:</b> +86 571 8999 7158</div>', 30.178459,120.1798573],
+      // China - Chengdu
+      ['<div class="contactMapPopup" style="min-height:180px;">China (Central)<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>Office 612, Block B<br />New Hope International<br />69 Middle Tianfu 3rd St.<br />Tianfu Ave.<br />Chengdu City (Hi-Tech West)<br /><br /><b>Tel:</b> +86 028 83117183<br /><a href="{{assetsDomain}}/files/maps/AI_Chengdu_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 30.551054,104.066759],
+      // New Dehli
+      ['<div class="contactMapPopup" style="min-height:165px;">India<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>Flat No 306, 3rd Floor<br />Sheetla House<br />73-74, Nehru Place, New Delhi<br /><br /><b>Tel:</b> +91 11 4672 3300<br /><a href="{{assetsDomain}}/files/maps/AI_New_Delhi_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 28.632919,77.219445],
+      // Buffalo, NY (Anesco)
+      ['<div class="contactMapPopup" style="padding:15px;font-family:Arial,Helvetica,sans-serif;width:210px;">North American Laboratory<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AI | ANSECO</b></p></div>4455 Genesee Street,<br />Building 6<br />Buffalo, NY 14225<br><br><b>Tel:</b> +1 716 635 1180<br /><a href="{{assetsDomain}}/files/maps/AI_Buffalo_Lab.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 42.932941, -78.721866],
+      // Chile
+      ['<div class="contactMapPopup" style="padding:15px;font-family:Arial,Helvetica,sans-serif;width:290px;"><div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>Produce Inspectors Of America (PIA)</b></p></div>Avenida Del Valle Sur 601,<br />OF. 33<br />Huechuraba, Región Metropolitana, Chile<br><br><b>Tel:</b> +56 2 2443 1010<br /><a href="{{assetsDomain}}/files/maps/AI_PIA_Santiago_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', -33.393295, -70.6184437],
+      // Hong Kong (Anesco)
+      ['<div class="contactMapPopup" style="padding:15px;font-family:Arial,Helvetica,sans-serif;width:210px;">Hong Kong Laboratory<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AI | ANSECO</b></p></div>3/F, Liven House<br>No. 61 – 63 King Yip Street<br>Kwun Tong, Kowloon<br><br><b>Tel:</b> +852 3185 8000<br /><a href="{{assetsDomain}}/files/maps/AI_Hong_Kong_Lab.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 22.309342, 114.226439],
+      // Egypt
+      ['<div class="contactMapPopup" style="padding:15px;font-family:Arial,Helvetica,sans-serif;width:220px;">Egypt<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>Raya View Bldg,1st Floor, Smart Village,<br />Cairo-Alex Desert Rd (KM 28),<br />Giza, Egypt<br><br><b>Tel:</b> +20 1100 776663<br /><a href="{{assetsDomain}}/files/maps/AI_Egypt_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 30.0743351, 31.0184169],
+      // United Arab Emirates
+      ['<div class="contactMapPopup" style="padding:15px;font-family:Arial,Helvetica,sans-serif;width:220px;">United Arab Emirates<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>Emirates Towers, Level 41,<br />Sheikh Zayed Road,<br />Dubai - UAE<br />P.O Box 31303<br><br><b>Tel:</b> +971 4 313 2735<br /><a href="{{assetsDomain}}/files/maps/AI_Dubai_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 25.2178165, 55.2803645],
+      // Cebu, Philippines
+      ['<div class="contactMapPopup" style="padding:15px;font-family:Arial,Helvetica,sans-serif;width:220px;">Philippines<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AsiaInspection</b></p></div>5/F, Skyrise 3<br />IT Business Park, Lahug<br />Cebu City, 6000<br />Philippines<br /><br /><b>Tel:</b> +1 818 877 4163<br /><a href="{{assetsDomain}}/files/maps/AI_Cebu_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 10.3290962, 123.9061338],
+      // México DF
+      ['<div class="contactMapPopup" style="padding:15px;font-family:Arial,Helvetica,sans-serif;width:200px;">Mexico DF<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>AI Goal</b></p></div>Río Danubio 80 piso 3 Col Cuauhtémoc<br />México DF<br /><b>Tel:</b> +52 (55) 62 754 200<br /><a href="{{assetsDomain}}/files/maps/AI_GOAL_Mexico_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 19.431156, -99.168018],
+      // The Netherlands
+      ['<div class="contactMapPopup" style="padding:15px;font-family:Arial,Helvetica,sans-serif;width:290px;">Netherlands<div><img src="{{assetsDomain}}/images/map_logo.png" width="25px" style="float:left;margin-right:2px"><p style="padding-top:4px"><b>The Netherlands - AI|PIE</b></p></div>Honderdland 246<br />2676 LV, Maasdijk<br />The Netherlands<br /><b>Tel:</b> +31 174512463<br /><a href="{{assetsDomain}}/files/maps/AI_PIA_Rotterdam_Office.pdf" target="_blank" style="color:#1155CC; font-family:Arial,Helvetica,sans-serif;">Download office info and directions</a></div>', 51.961009, 4.225056]
+    ];
+
+    var customMapType = new google.maps.StyledMapType([
+        {
+            "featureType": "landscape.natural.landcover",
+            "stylers": [{ "hue": "#00ff19" }]
+        },
+        {
+            elementType: 'labels',
+            stylers: [{visibility: 'on'}]
+        },
+        {
+            featureType: 'water',
+            stylers: [
+                {color: '#b3d1ff'},
+                { "saturation": -11 }
+            ]
+        },
+        {
+            featureType: "administrative",
+            elementType: "geometry.fill",
+            stylers: [
+                { visibility: "off" }
+            ]
+        }
+    ], { name: 'Custom Style' });
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: z,
+      backgroundColor: "#b3d1ff",
+      center: new google.maps.LatLng(c[0],c[1]),
+      disableDefaultUI: true,
+      mapTypeId: [google.maps.MapTypeId.ROADMAP, 'custom_style']
+    });
+
+    map.mapTypes.set('custom_style', customMapType);
+    map.setMapTypeId('custom_style');
+
+    var infowindow = new google.maps.InfoWindow();
+    var marker, i;
+    MarkerPositions = new Array();
+
+    for (i = 0; i < locations.length; i++) {  
+        marker = new google.maps.Marker({
+        icon:'{{assetsDomain}}/images/mapPointer.png',
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+      MarkerPositions.push(marker.position);
+    }
+
+    // bounds of the desired area
+    var allowedBounds = new google.maps.LatLngBounds(
+      new google.maps.LatLng(-49.724479,-133.796997), 
+      new google.maps.LatLng(62.512318,123.648376)
+    );
+    var lastValidCenter = map.getCenter();
+
+    // Zoom to fill all markers
+    //var latlngbounds = new google.maps.LatLngBounds();
+    //for (var i = 0; i < MarkerPositions.length; i++) {
+    //  latlngbounds.extend(MarkerPositions[i]);
+    //}
+    //map.fitBounds(latlngbounds);
+
+    google.maps.event.addListener(map, 'center_changed', function() {
+    if (allowedBounds.contains(map.getCenter())) {
+        // still within valid bounds, so save the last valid position
+        lastValidCenter = map.getCenter();
+        return; 
+    }
+
+    // not valid anymore => return to last valid position
+    map.panTo(lastValidCenter);
+
+    });
+
+     google.maps.event.addListener(map, 'zoom_changed', function() {
+     if (map.getZoom() < 1) map.setZoom(1);
+     // if (map.getZoom() > 4) map.setZoom(4);
+   });
+
+  </script>

@@ -1,0 +1,168 @@
+{% extends 'AIResponsiveBundle:services:serviceBase.html.twig' %}
+{% block title %}{{pageTitle|trans}}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc|trans}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined %}{{pageKeywords|trans}}{% endif %}{% endblock %}
+{% block pagename %}{{type}}{% endblock %}
+{% block bigTitle %} {{xml.title | trans}} {% endblock %}
+{% block smallText %}
+    <div class="pwhite">{{xml.subtext|trans|raw}}</div>
+    <!-- <a href="/register" role="button"  class="btn btn-primary btn-regular headerButton" >{{'Get Started' | trans}}</a> -->
+{% endblock %}
+
+{# Set Template Variables [BEGIN] #}
+{% if type == "structuralAudit" %}
+    {% set priceAsia = "1,129" %}
+    {% set priceEurope = "1,129" %}
+    {% set inspectionImage = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=ma" %}
+    {% set inspectionImage1 = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=ma" %}
+{% elseif type == "ENVIRO" %}
+    {% set priceAsia = "$" + price_Audit_High %}
+    {% set priceEurope = "$" + price_Audit_High %}
+{% else %}
+    {% set priceAsia = "$" + price_Audit_Low %}
+    {% set priceEurope = "$" + price_Audit_High %}
+{% endif %}
+{% set demoLink = "/popup?video=watchdemo&amp;lang=en&amp;width=722&amp;height=480&amp;TB_iframe=true" %}
+{% if type is defined and type == "FA" %}
+    {% set videoLink = "/popup?type=factoryauditphotos&amp;lang=en&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true" %}
+    {% set watchWhat = "See a Manufacturing Audit" %}
+    {% set inspectionImage = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=ma" %}
+    {% set videoLinkSmall = "/popup?type=factoryauditphotos&amp;lang=en&amp;TB_iframe=true&amp;smallScreen=true&amp;modal=true" %}
+    {% set inspectionImage1 = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=ma" %}
+{% endif %}
+{% if type is defined and (type == "SA" or type == "BSCI") %}
+    {% set videoLink = "/popup?type=auditphotos&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true" %}
+    {% set watchWhat = "See an Ethical Audit" %}
+    {% set inspectionImage = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=ea" %}
+    {% set videoLinkSmall = "/popup?type=auditphotos&amp;lang=en&amp;TB_iframe=true&amp;smallScreen=true&amp;modal=true" %}
+    {% set inspectionImage1 = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=ea" %}
+{% endif %}
+{% if type == "CTPAT" or type == "ENVIRO" or type == "FoodA" %}{% set displayNone = "display:none;" %}{% endif %}
+{# Set Template Variables [END] #}
+
+{% block serviceText %}
+    {% if type=="FA" and app.request.locale != "en" and app.request.locale != "es" and app.request.locale != "tr" %}
+        {% set i = 0 %}
+        {% for why in content.whyPerform %}
+            {% if(i==0) %}
+                <h2 class="marginZero padding15" style="font-weight:bold;">{{why.title | trans}}</h2>
+                <p>{{why.subtext|trans}}</p>
+                <p style="font-weight:bold;">{{why.listTitle | trans}}</p>
+                <ul class="col-md-6 col-xs-12 marginZero">
+                    {% for list in why.rightList.li %}<li>{{list | trans}}</li>{% endfor %}
+                </ul>
+                <ul class="col-md-6 col-xs-12 marginZero">
+                    {% for list in why.leftList.li %}<li>{{list | trans}}</li>{% endfor %}
+                </ul>
+               <div style="clear:both"></div>
+            {% endif %}
+            {% if(i==1) %}
+                <h2 class="marginZero padding15" style="font-weight:bold;">{{why.title | trans}}</h2>
+                <p>{{why.pgph | trans}}</p>
+            {% endif %}
+            {% set i = i+1 %}
+        {% endfor %}
+    {% endif %}
+
+    {% if type=="SA" %}
+      {% block content %}{% endblock %}
+
+      <!-- Services Tab content -->
+      {% block serviceTab %}
+        {% if app.request.locale != "en" and app.request.locale != "es" and app.request.locale != "tr" %}
+        <!-- only displays Social Account content if not in English and not in Spanish-->
+          <h2 class="marginZero padding15" style="font-weight:bold;">{{content.socialAccount.title}}</h2>
+          {% for pgph in content.socialAccount.pgph %}
+            <p>{{pgph|raw}}</p>
+          {% endfor %}
+        {% endif %}
+      {% endblock %}
+    {% endif %}
+
+    {% if type == "structuralAudit" or type == "SMETAAudit" or type == "FoodA" or type == "GHP" or type == "GMP" or (type == "FA" and (app.request.locale == "en" or app.request.locale == "es" or app.request.locale == "pt" or app.request.locale == "tr")) %}
+        {% for section in xml.Benefits.section %}
+            <h2 class="marginZero padding15" style="font-weight:bold;">{{section.title}}</h2>
+            {% for pgph in section.pgph %}<p>{{pgph|trans|raw}}</p>{% endfor %}
+        {% endfor %}
+    {% endif %}
+
+
+    {% if type=="CTPAT" %}
+        <h2 class="marginZero padding15" style="font-weight:bold;">{{content.compliance.title}}</h2>
+        {% for pgph in content.compliance.pgph %}<p>{{pgph}}</p>{% endfor %}
+       <ul class="marginZero">
+            {% for list in content.compliance.listItem.li %}<li>{{list}}</li>{% endfor %}
+       </ul>
+       <h2 class="marginZero padding15" style="font-weight:bold;">{{content.globalChain.title}}</h2>
+        {% for pgph in content.globalChain.pgph %}<p>{{pgph}}</p>{% endfor %}
+    {% endif %}
+
+    {% if type=="ENVIRO" %}
+        <h2 class="marginZero padding15" style="font-weight:bold;">{{content.compliance.title | trans}}</h2>
+        {% for pgph in content.compliance.pgph %}<p>{{pgph}}</p>{% endfor %}
+        <ul class="marginZero">
+            {% for list in content.compliance.listItem.li %}<li>{{list}}</li>{% endfor %}
+       </ul>
+       <h2 class="marginZero padding15" style="font-weight:bold;">{{content.emas.title}}</h2>
+        {% for pgph in content.emas.pgph %}<p>{{pgph}}</p>{% endfor %}
+        {% if content.emas.listItem.li is defined %}
+            <ul class="marginZero" >
+                {% for list in content.emas.listItem.li %}<li>{{list}}</li>{% endfor %}
+            </ul>
+        {% endif %}
+
+        <h2 class="marginZero padding15" style="font-weight:bold;">{{content.waterTesting.title}}</h2>
+        {% for pgph in content.waterTesting.pgph %}<p>{{pgph}}</p>{% endfor %}
+        <ul class="marginZero">
+            {% for list in content.waterTesting.listItem.li %}<li>{{list}}</li>{% endfor %}
+       </ul>
+    {% endif %}
+
+    {% if type=="BSCI" %}
+        <h2 class="marginZero padding15" style="font-weight:bold;">{% trans %}bsci-sectionOne-title{% endtrans %}</h2>
+        <p>{% trans %}bsci-sectionOne-pgphOne{% endtrans %}</p>
+        <p>{% trans %}bsci-sectionOne-pgphTwo{% endtrans %}</p>
+        <ul class="marginZero">
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionOne-list1{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionOne-list2{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionOne-list3{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionOne-list4{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionOne-list5{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionOne-list6{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionOne-list7{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionOne-list8{% endtrans %}</li>
+        </ul>
+
+        <h2 class="marginZero padding15" style="font-weight:bold;">{% trans %}bsci-sectionTwo-title{% endtrans %}</h2>
+        <p>{% trans %}bsci-sectionTwo-pgphOne{% endtrans %}</p>
+        <p>{% trans %}bsci-sectionTwo-pgphTwo{% endtrans %}</p>
+
+        <h2 class="marginZero padding15" style="font-weight:bold;">{% trans %}bsci-sectionThree-title{% endtrans %}</h2>
+        <ul class="marginZero">
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionThree-list1{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionThree-list2{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionThree-list3{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionThree-list4{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-sectionThree-list5{% endtrans %}</li>
+        </ul>
+    {% endif %}
+
+{% endblock %}
+
+{% block serviceBenefits %}
+    {% if type=="BSCI" %}
+        <h2 class="marginZero padding15" style="font-weight:bold;">{% trans %}benefitsBox-ourBenefits{% endtrans %}</h2>
+        <ul class="marginZero">
+            <li style="margin-bottom:5px;">{% trans %}bsci-benefits-one{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-benefits-two{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-benefits-three{% endtrans %}</li>
+            <li style="margin-bottom:5px;">{% trans %}bsci-benefits-four{% endtrans %}</li>
+        </ul>
+    {% else %}
+        <iframe src="/benefits/audits?_locale={{ app.request.getLocale() }}" frameborder=0 scrolling="no" onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px';" style="width:100%;"></iframe>
+    {% endif %}
+{% endblock %}
+
+{% if type=="BSCI" %}
+    {% block serviceCoverage %}{% endblock %}
+{% endif %}

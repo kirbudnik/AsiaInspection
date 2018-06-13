@@ -1,0 +1,177 @@
+#AI_Logo { width:190px; height:30px; margin-top:20px; }
+#ChinaInspection_Logo { width:190px; height:30px; margin-top:20px; }
+
+/* Xmas Logo [Begin]
+#AI_Logo {
+    background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_md.png);
+    position:relative;
+    left:-130px;
+    width: 326px;
+    height: 81px;
+    margin-top:0px;
+}
+#ChinaInspection_Logo {
+    background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_md_CN.png);
+    width: 341px;
+    height: 81px;
+    left:-145px;
+    margin-top:0px;
+    position:relative;
+}
+Xmas Logo [End] */
+
+/* #AI_Logo:after{ content:"1200"; color:white; } */
+#aboutUsNavList {
+    padding-top: 0;
+}
+#aboutUsNav {
+    height: 70px;
+}
+.navbar.floating {
+    #rightNavWrapper {
+        width: 73%;
+    }
+}
+#footerlinks{ max-width:900px;}
+/* #AI_Logo:after{ content:"1200"; color:white; } */
+
+.navbar-ai {
+    .dropdown-menu{
+        .navMenuCol:last-of-type {border-right:0px;}
+        .navMenuCol{
+            padding:20px;
+            margin-left:25px;
+            .navSubtitle:before{ left:-15px; }
+        }
+        &.navmenu_Service {
+            left:-250px;
+            width:965px;
+        }
+        &.navmenu_Industry {
+            left:-415px;
+            width:970px;
+            .navMenuCol{
+                width:193px;
+           }
+        }
+
+        &.navmenu_About {
+            left:-160px;
+            width:450px;
+            .navMenuCol{
+                width:180px;
+            }
+        }
+    }
+}
+
+#share-this{
+    width:90%;
+}
+
+input[type="checkbox"]{
+    -webkit-appearance:checkbox !important;
+}
+
+#appMobile{
+    top:85px;
+}
+
+#appTablet{
+     top:163px;
+}
+.width100{
+    width:80% !important;
+}
+.displayNone1200{
+    display:none;
+}
+.display1200{
+    display:block !important;
+}
+
+
+.contractType {
+    display: none !important;
+}
+.news {
+    height: 610px;
+
+}
+#ethicalWebinarHeader{
+    width:55% !important;
+}
+.paddingLeftZero1200{
+    padding-left:0px;
+}
+
+#followUs {
+    display: none !important;
+}
+
+.feature3button {
+    width: 32%;
+}
+
+.homeTestimonial .homeClientLogo{
+    &:nth-child(7) { display:none; }
+    &:nth-child(8) { display:none; }
+}
+#ethical-webinar-headerbox{
+    height:400px;
+}
+#ethical-webinar-subheader{
+    width:55%;
+}
+.box{
+    .qcs-box-background{
+        height:275px;
+   }
+}
+
+
+.slide-feature1 {
+    background-image: none;
+}
+
+#pricingBottom{
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom:15px;
+}
+
+#pricingHr{
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.slide-feature2 .homeSCP_image {
+    background-size: auto 78%;
+}
+
+#page_Logout{
+    #logoutPhoneImage{
+        width:29%;
+    }
+    .mobileEmailSendLinks{
+        width:50%;
+    }
+}
+.responsive-lg{
+    width:100%;
+}
+
+/* New Industry Pages Layout [Start] */
+.industrySectionImageLeft {
+    max-width:50%;
+}
+.industrySectionImageRight {
+    max-width:50%;
+}
+.industrySectionContentWithImage {
+    max-width: 50%;
+}
+/* New Industry Pages Layout [End] */

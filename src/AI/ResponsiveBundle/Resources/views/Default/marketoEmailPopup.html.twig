@@ -1,0 +1,122 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <title>{% block title %}Asia Inspection{% endblock %}</title>
+    {% block stylesheets %}
+        <link href="{{asset('/css/bootstrap.css')}}" rel="stylesheet"/>
+        <link href="{{asset('/css/bootstrap-theme.css')}}" rel="stylesheet"/>
+        <link href="{{asset('/css/thickbox.css')}}" rel="stylesheet"/>
+        {% stylesheets filter="cssrewrite" filter='?uglifycss' 
+            '@AIResponsiveBundle/Resources/public/css/buttons.css'
+        %}
+        <link rel="stylesheet" href="{{asset_url}}"/>
+        {% endstylesheets %}
+        {% stylesheets filter="scss" filter='?uglifycss' 
+            '@AIResponsiveBundle/Resources/public/css/styles.scss'
+        %}
+        <link id="mainCSS" rel="stylesheet" href="{{asset_url}}"/>
+        {% endstylesheets %}
+    {% endblock %}
+    {% block javascripts %}
+        <script src="{{asset('/js/jquery-1.11.2.min.js')}}"></script>
+        <script src="{{asset('/js/bootstrap.js')}}"></script>
+        <script src="{{asset('/js/thickbox.js')}}"></script>
+        {% javascripts 
+            '@AIResponsiveBundle/Resources/public/js/custom.js' 
+            filter='?uglifyjs2' 
+        %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+    {% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+
+
+<body style="overflow-x:hidden; overflow-y:hidden; background-color:white !important;">
+
+{% if app.request.get('aliId') is defined and app.request.get('aliId') != null %}
+
+    <div style="text-align:center; background-color:rgba(64,64,66,0.2); padding:15px; margin:0px 20px 20px 20px; position:relative; top:20px;">
+        <h3 style="font-size:14px; margin-bottom:0px; color:#5aa231;">Your sample report has been sent, please check your email.</h3>
+    </div>
+
+{% else %}
+
+    <div id="MarketoForm" class="popup" style="text-align:center;"></div>
+    
+    <script src="https://app-ab16.marketo.com/js/forms2/js/forms2.min.js"></script>
+    <script src="/js/arrive.min.js"></script>
+    <script type="text/javascript">
+        formId = 1078;
+        type = "{{type}}";
+        id = "{{report}}";
+        if(type == "audit") formId = 1078;
+        if(type == "inspection") formId = 1080;
+        if(type == "labtest") formId = 1083;
+        $("#MarketoForm").append("<center><form id='mktoForm_"+formId+"'></form></center>");
+
+        $(document).arrive(".mktoButton", function() {
+            $("#Email").val(getCookie('email')).attr("placeholder","Your email address");
+            mktoObj = $("form","#MarketoForm");
+            $(".mktoAsterix", mktoObj).parent().remove();
+            $(".mktoOffset", mktoObj).remove();
+            $(".mktoGutter", mktoObj).remove();
+            $(".mktoFormCol", mktoObj).css("width","100%");
+            $(".mktoFieldWrap", mktoObj).css("width","100%");
+            $(".mktoButtonRow", mktoObj).css("width","100%");
+            $("#Email", mktoObj).css({
+                "width":"100%",
+                "border":"1px solid rgb(206, 207, 209)",
+                "border-radius":"3px",
+                "box-shadow":"0 0 5px rgb(223, 224, 225) inset",
+                "background-color":"rgb(249,249,249)",
+                "box-sizing":"border-box",
+                "padding":"6px 12px",
+                "line-height":"20px",
+                "font-size":"14px",
+                "height":"34px"
+            });
+            $(".mktoButtonWrap", mktoObj).css("margin","0px");
+            $(mktoObj).css({
+                "width":"70%",
+                "min-width":"200px",
+            });
+            $(".mktoButton").addClass("two-btn btn btn-primary btn-big").attr("id","marketoSampleReportPopupSubmit").text("{% trans %}Get the Report{% endtrans %}").css({
+                "width":"100%",
+                "background-image":"none",
+                "background-color":"#5ba331",
+                "font-size":"16px",
+                "line-height":"27px"
+            }).click(function(){
+                contentId = "{{report}}";
+                trackContentDownload('samplereport',contentId);
+                email = $("#Email").val();
+                setCookie("email", email, 365);
+                // Save Locally
+                $.ajax({
+                    type: "POST",
+                    url: "/getEmail",
+                    async: "false",
+                    data: "email="+email+"&target={{report}}&category=Sample%20Report",
+                    dataType: "text",
+                    success: function(msg){ }
+                });
+            });
+
+            // Set the Report to download
+            if(type == "audit") $("[name=SampleAuditReport]").val(id);
+            if(type == "inspection") $("[name=SampleInspectionReport]").val(id);
+            if(type == "labtest") $("[name=SampleTestingReport]").val(id);
+
+        });
+        $(document).ready(function() {
+            MktoForms2.loadForm("//app-ab16.marketo.com", "944-QDO-384", formId);    
+        });
+        
+    </script>
+
+{% endif %}
+
+</body>
+</html>

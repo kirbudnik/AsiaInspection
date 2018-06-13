@@ -1,0 +1,58 @@
+{% extends '::base.html.twig' %}
+{% block title %}{% if pageTitle is defined and pageTitle != "" %}{{pageTitle}}{% else %}{% trans %}AsiaInspection News{% endtrans %}{% endif %}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined and pageDesc != "" %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined and pageKeywords != "" %}{{pageKeywords}}{% endif %}{% endblock %}
+{% block pagename %}RegulatoryUpdates{% endblock %}
+
+{% block body %}
+    <style type="text/css">
+        .mainBlock table {border:1px solid black; margin-bottom:15px;}
+        .mainBlock td {border:1px solid black; padding:5px;}
+        .bookmark {position:relative; top:-110px; display:inline-block;}
+        .mainBlock .moretext {display:none; margin-top:10px;}
+    </style>
+    <div  class="headerbox">
+        <div class="container vcenter_parent wrapper">
+            <div class="col-xs-12 vcenter_parent wrapper paddingLeftZero">
+                <div class="{% if app.request.locale == "ar" %} col-xl-7 col-xl-offset-5 col-lg-7 col-lg-offset-4 {% else %}col-lg-7 col-lg-offset-1 col-xl-offset-0{% endif %}  col-xs-10 col-md-8 col-md-offset-1 col-xs-offset-1 vcenter_parent" id="bigWidth" style="padding-left:0px;padding-right:0px;">
+                    <div class="vcenter {% if isSafari is defined and isSafari==true %}headerTitle{% endif %}" style="display:inline-block;">
+                        <h1 class="mainHeader">{{id}} {% trans %}Regulatory Update{% endtrans %}</h1>
+                        <div class="mainSubHeader"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container wrapper mainBlock">
+        <div class="col-xl-12 col-xl-offset-0 col-lg-10 col-lg-offset-1 col-xl-offset-0  col-xs-10 col-md-10 col-md-offset-1 col-xs-offset-1" style="margin-top:20px;background-color:white; padding:20px;">
+            {% if locale is defined %}
+                {% include(["AIResponsiveBundle:news:regulatoryupdates/#{locale}/#{id}.html.twig","AIResponsiveBundle:news:regulatoryupdates/en/#{id}.html.twig"]) %}
+            {% else %}
+                {% include("AIResponsiveBundle:news:regulatoryupdates/en/#{id}.html.twig") %}
+            {% endif %}
+            {% if pageAnchor is defined and pageAnchor != "" %}<div style="text-align:center;"><a href="/regulatory-updates/{{id}}">{% trans %}View the complete regulatory update{% endtrans %}</a></div>{% endif %}
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(".learnmore").click(function(){
+            $(this).next().next().animate({
+                height: 'toggle'
+            }, 500);
+        });
+        // Jump to Anchor if passed in Twig and hide other news elements
+        {% if pageAnchor is defined and pageAnchor != "" %}
+            //window.location.hash="{{pageAnchor}}";
+            anchorPoint = $("a[name={{pageAnchor}}]");
+            $(anchorPoint).nextAll(".learnmore").eq(0).click().remove();
+            $(".recapViewStory").remove();
+            titleText = $(anchorPoint).nextAll("strong").eq(0).text();
+            $(anchorPoint).nextAll("strong").eq(0).replaceWith( "<h1>"+titleText+"</h1><br />" );
+            $(".recapSection").hide();
+            $(".recapSectionHeader").hide();
+            $(anchorPoint).parent().show();
+        {% endif %}
+    </script>
+
+{% endblock %}

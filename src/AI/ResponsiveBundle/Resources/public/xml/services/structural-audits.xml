@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>Structural Audits - Building &amp; Factory Structural Safety Check</en>
+			<es>Auditoría de estructuras - Verificación de seguridad en estructuras de edificios y fábricas</es>
+			<de>Gebäudeinspektion - Fabriksicherheits-Check | AsiaInspection</de>
+			<ar>التدقيق على هيكل البناء | AsiaInspection.ae</ar>
+			<fr>Audit Structurel des Bâtiments</fr>
+			<zh>结构审核 | AsiaInspection.com</zh>
+			<tr>Yapısal Denetimler - İnşaat ve Fabrika Yapısal Güvenlik Kontrolü</tr>
+			<pt>Auditorias Estruturaus - Inspeção de Segurança Estrutural de Edifícios e Fábricas</pt>
+			<ru>Структурный аудит - Проверка структурной безопасности зданий и заводов</ru>
+			<it>Audit Strutturali - Controllo della Sicurezza Strutturale di Edifici e Fabbriche</it>
+		</pageTitle>
+		<pageDesc>
+			<en>Asia Inspection structural audits ensure your supplier's buildings and factories are structurally safe and up to code. Find out more about our structural audit services here.</en>
+			<de>Die Gebäudeprüfung von Asia Inspection sichert ab, dass die Gebäude und Fabriken von Zulieferern sicher sind. Erfahren Sie mehr hier.</de>
+			<fr>Les audits structurels AsiaInspection analysent l'intégrité et la sécurité des bâtiments et des locaux de vos fournisseurs.</fr>
+			<ar>فحوصات شركة AsiaInspection تقوم بتحليل سلامة منشأت مورديك، لكي تضمن ظروف العمل المناسبة على مستوه سلسلة التوريد الخاصة بك.</ar>
+			<zh>亚检结构审核，为您的供应链提供保障。</zh>
+			<tr>Asia Inspection yapısal denetimleri tedarikçinizin bina ve fabrikalarının yapısal olarak güvenli kanuna uygun olmasını sağlar. Buradan yapısal denetim hizmetlerimiz hakkında daha fazla bilgi alın.</tr>
+			<pt>As auditorias estruturais da Asia Inspection asseguram que os edifícios e fábricas do seu fornecedor estão estruturalmente seguras e segundo as normas. Saiba mais sobre os nossos serviços de auditoria estrutural aqui.</pt>
+			<ru>Структурный аудит от Asia Inspection позволяет вам убедиться, что здания и заводы вашего поставщика соответствуют нормам, а их структура безопасна. Здесь вы можете узнать подробнее о наших услугах по структурному аудиту.</ru>
+			<it>Gli audit strutturali di Asia Inspection verificano che gli edifici e le fabbriche del tuo fornitore siano strutturalmente sicure e rispondenti alle norme di legge. Scopri di più sui nostri servizi di audit strutturale qui.</it>
+		</pageDesc>
+		<pageKeywords>
+			<en>structural audit, structural inspection, building auditor</en>
+			<de>Gebäudeprüfungen, Gebäudechecklisten, Gebäude, Firmengeländede</de>
+			<fr>Audits structurels, listes de contrôle structurelles, des bâtiments, des locaux</fr>
+			<tr>yapısal denetim, yapısal muayene, inşaat denetçisi</tr>
+			<pt>auditoria estrutural, inspeção estrutural, auditor edifício</pt>
+			<ru>структурный аудит, структурная инспекция, аудитор зданий</ru>
+			<it>audit strutturale, ispezione strutturale, auditor edificio</it>
+		</pageKeywords>
+	</pageMeta>
+
+	<en>
+		<title>Structural Audits</title>
+		<subtext>AsiaInspection structural audits analyze the integrity and safety of your suppliers' buildings and premises, helping you ensure appropriate working conditions throughout your supply chain.</subtext>
+		<whyUsTitle>Why AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li>All-inclusive pricing</li>
+			<li>Detailed and actionable reports and KPIs reporting</li>
+			<li>Easy online scheduling of services</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+		<Benefits>
+			<section>
+				<title>AI Structural Audit Standards</title>
+				<pgph>Poor structural integrity and insufficient fire safety measures can have disastrous consequences. AsiaInspection offers structural audits to ensure that your suppliers' industrial and commercial premises are safe, up to relevant codes, and present no danger to employee life and health.</pgph>
+				<pgph>Structural audits include a comprehensive check of buildings and premises, including:</pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Verification of Load Conditions</li>
+						<li>Evaluation of the Structural System of the Building</li>
+						<li>Detection of Structural Defects, Damages, Distress, Deformation or Deterioration </li>
+						<li>Plan and Alignment Check</li>
+						<li>Assessing Maintenance and Exposure to Aggressive Environment</li>
+						<li>Other Structural Surveys and Checks </li>
+						<li>Fire Safety Check (optional)</li>
+						<li>Electrical Safety Check (optional)</li>
+					</ul>
+					]]>
+				</pgph>
+				<pgph>The findings of all structural audits are presented in a detailed report that includes an assessment of the current condition and suggestions for appropriate repairs and retrofitting measures.</pgph>
+			</section>
+			<section>
+				<title>AI Structural Auditors</title>
+				<pgph>AI structural audits are carried out by an experienced and licensed structural civil engineers. A typical Profile Auditor has over 5 years experience in the relevant field, including design and construction supervision.</pgph>
+			</section>
+			<section>
+				<title>Post Structural Audit</title>
+				<pgph>Based on the audit findings and recommendations, appropriate changes may be required. This includes repairs, strengthening of structural elements and replacement of damaged or faulty components.</pgph>
+				<pgph>AI can provide follow-up services, such as live load analysis, redesign of fire/electric safety systems, and more, to assist the factory in implementing the necessary corrective actions.</pgph>
+			</section>
+			<section>
+				<title>Pricing</title>
+				<pgph><![CDATA[AI structural audits are priced at <b>$1,129 USD</b> per man-day (all-inclusive).  The number of man-days required is determined based how many building are being audited and the size of the structures. Visit our <a href="/quality-control-pricing">Pricing Page</a> for further details.]]></pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Fire Safety - extra <b>$100 USD</b> per man day</li>
+						<li>Electrical Safety - extra <b>$100 USD</b> per man day</li>
+						<li>Thermo-graphic scan - extra <b>$100 USD</b> per audit</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+			<section>
+				<title>Why Perform a Structural Audit</title>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>To ensure safe working conditions, preventing injury and loss of life</li>
+						<li>To protect your brand’s image and reputation</li>
+						<li>To comply with statutory requirements (construction and design codes by country)</li>
+						<li>To gain an accurate picture of the state of safety in your supply chain</li>
+						<li>To prevent supply chain interruptions</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+		</Benefits>
+	</en>
+
+	<es>
+		<title>Auditoría de estructuras</title>
+		<subtext>La Auditoría de estructuras de AsiaInspection analiza la integridad y seguridad de los edificios y locales de sus proveedores, lo que ayuda a garantizar unas condiciones de trabajo adecuadas a lo largo de su cadena de suministro.</subtext>
+		<whyUsTitle>Why AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li>All-inclusive pricing</li>
+			<li>Detailed and actionable reports and KPIs reporting</li>
+			<li>Easy online scheduling of services</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+		<Benefits>
+			<section>
+				<title>Normas de la auditoría de estructuras de AI</title>
+				<pgph>Pobres medidas de integridad y seguridad contra incendios estructurales insuficiente, pueden tener consecuencias desastrosas. AsiaInspection ofrece auditorías de estructuras para garantizar que los locales industriales y comerciales de sus proveedores son seguros, cumplen los códigos pertinentes y no presentan ningún peligro para la vida y la salud de los empleados.</pgph>
+				<pgph>La auditoría de estructuras incluyen una verificación integral de edificios y locales, incluyendo:</pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+					<li> Verificación de las condiciones de carga </li>
+					<li> Evaluación del sistema estructural del edificio </li>
+					<li> Detección de defectos estructurales, daños y perjuicios, la deformación o deterioro </li>
+					<li> Planificación y comprobación de la alineación </li>
+					<li> Evaluación de mantenimiento y exposición a medio ambiente agresivo </li>
+					<li> Otras encuestas y comprobaciones estructurales </li>
+					<li> Comprobar la seguridad contra incendios (opcional) </li>
+					<li> Comprobar la seguridad eléctrica (opcional) </li>
+					</ul>
+					]]>
+				</pgph>
+				<pgph>Los resultados de todas las auditorías de estructura se presentan en un informe detallado que incluye una evaluación de la condición actual y sugerencias para las reparaciones apropiadas y las medidas de adecuación.</pgph>
+			</section>
+			<section>
+				<title>Auditores de estructura de AI</title>
+				<pgph>La auditoría de estructura de AI se lleva a cabo por ingenieros civiles de estructuras experimentados y con licencia. Un perfil típico de auditor tiene más de 5 años de experiencia en el ámbito pertinente, incluyendo el diseño y supervisión de la construcción.</pgph>
+			</section>
+			<section>
+				<title>Auditoría de estructura posterior</title>
+				<pgph>Tomándo como base los hallazgos y recomendaciones de auditoría, pueden ser necesarios cambios apropiados. Esto incluye la reparación, refuerzo de elementos estructurales y reemplazo de componentes dañados o defectuosos.</pgph>
+				<pgph>AI puede proporcionar servicios de seguimiento, tales como el análisis de la carga, rediseño de los sistemas de seguridad contra incendios/fallos eléctricos, y más, para ayudar a la fábrica en la aplicación de las medidas correctivas necesarias.</pgph>
+			</section>
+			<section>
+				<title>Tarifas</title>
+				<pgph><![CDATA[La aditoría de estructura de AI tienen un coste de <b>$1,129 USD</b> por persona/día (todo incluido).  El número de personas/días requerido se dertermina en base a cuantos edificios están siendo auditados y el tamaño de las estructuras. Visita nuestra <a href="/quality-control-pricing">página de tarifas</a> para más detalles.]]></pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Seguridad contra incendios - extra <b>$100 USD</b> por persona-día</li>
+						<li>Seguridad eléctrica - extra <b>$100 USD</b> por persona-día</li>
+						<li>Exploración termográfica - extra <b>$100 USD</b> por auditoría</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+			<section>
+				<title>Por qué realizar una auditoría de estructura</title>
+				<pgph>
+					<![CDATA[
+					<ul>
+					<li> Para garantizar unas condiciones de trabajo seguras, la prevención de lesiones y la pérdida de la vida </li>
+					<li> Para proteger la imagen de su marca y la reputación </li>
+					<li> Para cumplir con los requisitos legales (códigos de construcción y de diseño por país) </li>
+					<li> Para obtener una imagen precisa de la situación de seguridad en su cadena de suministro </li>
+					<li> Para evitar interrupciones en la cadena de suministro </li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+		</Benefits>
+	</es>
+
+	<ar>
+		<title>Structural Audits</title>
+		<subtext>فحوصات شركة AsiaInspection تقوم بتحليل سلامة منشأت مورديك،  لكي تضمن  ظروف العمل المناسبة على مستوه سلسلة التوريد الخاصة بك.</subtext>
+		<hoverOne>
+			<![CDATA[تضمن شركة AsiaInspection تواجد مفتش في المصنع خلال 48 ساعة.<br /><br />هذه الفترة الزمنية جاهزية أو تعاون المصنع مع شركتنا ولا تضمن ايضاً المعوقات الخارجة عن سيطرتنا ، مثل التاخير بسبب النقل أو معوقات القضاء والقدر.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+		<Benefits>
+			<section>
+				<title>معايير شركة Al لتفتيش المنشأت</title>
+				<pgph>هياكل المنشأت التي تفتقر السلامة وعدم توفر خطوات وإرشادات السلامة ضد الحراق عادةً تؤدي لعواقب وخمية. تقدم شركة AsiaInspection تفتيشات لضمان سلامة منشأت مورديك بحسب الضوابط المتعارف عليها التي تحمي حياة وصحة الموظفين.</pgph>
+				<pgph>
+التفتيش يتضمن تدقيق شامل للمباني والمنشأت بما فيها :</pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>التأكد من وضع التحمل </li>
+						<li>تقييم نظم البناء في المباني </li>
+						<li>الكشف على عيوب البناء، التشوه والتدهور في المنشأت</li>
+						<li>التأكد من التخطيط والضبط </li>
+						<li>تقييم الإصلاحات والتعرية </li>
+						<li>مسوحات وتدقيق المباني الأخرة</li>
+						<li>التأكد من سلامة الحرائق (إختياري )</li>
+						<li>التأكد من سلامة الأدوات الكهربائية (إختياري )</li>
+					</ul>
+					]]>
+				</pgph>
+				<pgph>جميع المعلومات التي تجمع من تفتيشات المنشأت تقدم في تقرير تفصيلي يحتوي على تقيم الوضع الحالي ومقترحات الطرق الصحيحة للإصلاحات والتحديث.</pgph>
+			</section>
+			<section>
+				<title>مفتشين شركة AI للمنشأت والمباني </title>
+				<pgph>جميع تفتيشات المنشأت تتم على يد خبراء ومهندسون يمتلكون خبرات عالية و تراخيص مزاولة مهنة الهندسة . المهندس التقليدي يمتلك أكثر من 5 سنوات خبرة في الإشراف على التصميم والبناء و المجالات ذو الصلة .  </pgph>
+			</section>
+			<section>
+				<title>مابعد تفتيش المنشأت</title>
+				<pgph>بحسب النتائج والتوصيات ، قد تكون التغيرات لازمة. التغيرات تتضمن الإصلاحات، تعزيز العناصر الهيكلية وإستبدال المكونات التالفة.</pgph>
+				<pgph>تستطع شركة AI تقديم خدمات المتابعة ، مثل تحليل الحمولة المباشر ، إعادة تصميم انظمة سلامة الحراق والكهرباء الخ، لمساعدة المصنع تثبيت الخطوات التصحيحة. </pgph>
+			</section>
+			<section>
+				<title>التسعير </title>
+				<pgph><![CDATA[تسعيرة شركة AI لفحوصات المنشأت هي  <b>$1,129 USD</b> في يوم رجل  (شامل).  يتم تحديد عدد الأيام المطلوبة للرجل الواحد على حسب عدد المنشأت وحجمها قم بزيارة الرابط  <a href="/quality-control-pricing">Pricing Page</a> للمزيد من التفاصيل . ]]></pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>فحص السلامة من الحرائق- أضف <b>$100 USD</b> الشخص في اليوم </li>
+						<li>فحص السلامة من أخطر الكهرباء- أضف <b>$100 USD</b> الشخص في اليوم  </li>
+						<li>فحص الرسم الحراري - أضف <b>$100 USD</b> للفحص الواحد </li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+			<section>
+				<title>لماذا تحتاج فحص المنشأت والمباني ؟</title>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>لضمان سلامة أوضاع العمل، والحفاض على العمال من الاصابات أو الموت</li>
+						<li>الحفاض على سمعة منتجاتك </li>
+						<li>للإلتزام بمعايير السلامة (للتصميم والبناء بحسب البلد)</li>
+						<li>للحصول على معلومات أدق عن سلسلة التوريد الخاصة بك </li>
+						<li>لمنع تعطيل سلسلة التوريد الخاصة بك </li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+		</Benefits>
+		<whyUsTitle>لماذا شركة AsiaInspection ؟</whyUsTitle>
+		<whyUsList>
+			<li>أسعار شاملة </li>
+			<li>تقارير دقيقة وقبلت للتنفيذ، وتقراير KPI's</li>
+			<li>سهولة الحجز للخدمات على الإنترنت </li>
+		</whyUsList>
+	</ar>
+
+	<de>
+		<title>Gebäudeprüfungen</title>
+		<subtext>Die AsiaInspection Strukturüberprüfungen analysieren die Integrität und die Sicherheit der Gebäude und der Firmengelände Ihrer Zulieferer und helfen so bei der Sicherung adäquater Arbeitsbedingungen im Verlauf Ihrer Versorgungskette.</subtext>
+		<whyUsTitle>Warum AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li>All-inclusive-Preise</li>
+			<li>Detaillierte und umsetzbare Berichte und Darstellung der Leistungskennzahlen</li>
+			<li>Einfache Onlineplanung der Services</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInsepction garantiert, einen Kontrolleur oder einen Auditor bereitzustellen, der innerhalb von 48 Stunden in der Fabrik sein kann.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% aller Audit-Berichte werden noch am gleichen Tag geliefert. Die Lieferung der Berichte am selben Tag ist abhängig von der vollen Kooperation der Fabrik.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+		<Benefits>
+			<section>
+				<title>AI Gebäudeprüfungsstandards</title>
+				<pgph>Schlechte strukturelle Integrität und unzureichende Feuerschutzmaßnahmen können desaströse Auswirkungen haben. AsiaInspection bietet strukturelle Überprüfungen an um sicherzustellen, dass die industriellen und kommerziellen Firmengelände Ihrer Zulieferer sicher sind, den relevanten Kodizes entsprechen und keine Gefahr für Leben und Gesundheit der Beschäftigten darstellen.</pgph>
+				<pgph>Die Überprüfungen beinhalten eine umfangreiche Untersuchung von Gebäuden und Firmengelände, einschließlich:</pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Verifizierung der Belastungsbedingungen</li>
+						<li>Bewertung des strukturellen Systems des Gebäudes</li>
+						<li>Erkennung struktureller Defekte, Schäden, Überbelastungen, Deformationen oder Verfall</li>
+						<li>Planungs- und Ausrichtungsüberprüfung</li>
+						<li>Bewertung von Instandhaltung und Exponierung gegenüber aggressiven Umwelteinflüssen</li>
+						<li>Weitere strukturelle Untersuchungen und Checks</li>
+						<li>Überprüfung des Brandschutzes (optional)</li>
+						<li>Überprüfung der elektrischen Sicherheit (optional)</li>
+					</ul>
+					]]>
+				</pgph>
+				<pgph>Die Ergebnisse aller Strukturprüfungen werden in einem detaillierten Bericht präsentiert, der eine Beurteilung des gegenwärtigen Zustandes und Vorschläge für nötige Reparaturen und Nachrüstmaßnahmen enthält.</pgph>
+			</section>
+			<section>
+				<title>AI Gebäudeprüfer</title>
+				<pgph>AI Gebäudeprüfungen werden von erfahrenen lizenzierten Bauingenieuren durchgeführt. Ein typischer Prüfer verfügt über eine mehr als 5-jährige Erfahrung im relevanten Bereich, einschließlich Entwurf und Bauaufsicht.</pgph>
+			</section>
+			<section>
+				<title>Nach den strukturellen Überprüfung</title>
+				<pgph>Basierend auf den Empfehlungen und Befunden der Prüfung können entsprechende Änderungen notwendig werden. Dies beinhaltet Reparaturen, Verstärkung struktureller Elemente und Austausch fehlerhafter oder beschädigter Bauteile.</pgph>
+				<pgph>AI kann Nachverfolgungsservices bereitstellen, wie Live-Belastungsanalysen, Neugestaltung der Feuer- und Elektrizitätssicherheitssysteme und mehr, um die Fabrik bei der Umsetzung der notwendigen Korrekturmaßnahmen zu unterstützen.</pgph>
+			</section>
+			<section>
+				<title>Preis</title>
+				<pgph><![CDATA[Die Gebäudeaudits von AI liegen preislich bei <b>$1,129 USD</b>  pro Mann-Tag (alles inklusive).  Die Anzahl der erforderlichen Mann-Tage ist abhängig von der Zahl der zu untersuchenden Gebäude und deren Größe. Besuchen Sie unsere <a href="/quality-control-pricing">Site mit den Preisen</a> für weitere Informationen!]]></pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Feuersicherheit - zusätzlich <b>$100 USD</b> pro mann-tag</li>
+						<li>Elektrische Sicherheit - zusätzlich <b>$100 USD</b> pro mann-tag</li>
+						<li>Thermografischer Scan - zusätzlich <b>$100 USD</b> pro Audit</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+			<section>
+				<title>Warum Sie ein strukturelles Audit durchführen sollten</title>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Um sichere Arbeitsbedingungen zu gewähren, Verletzungen und Todesfällen vorzubeugen</li>
+						<li>Um den Ruf und das Image Ihrer Marke zu schützen</li>
+						<li>Um die gesetzlichen Vorschriften einzuhalten (Regelungen bzgl. Konstruktion und Design im jeweiligen Land)</li>
+						<li>Um einen genauen Überblick über den Sicherheitsstand in Ihrer Supply Chain zu erhalten</li>
+						<li>Um Unterbrechungen in Ihrer Supply Chain zu vermeiden</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+		</Benefits>
+	</de>
+
+	<fr>
+		<title>Audit de structure</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">Les audits de structure d'AsiaInspection analysent l'intégrité et la sécurité des bâtiments et des locaux de vos fournisseurs, vous aidant à vous assurer du respect de conditions de travail appropriées tout au long de votre chaîne logistique.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Pourquoi AsiaInspection ?</whyUsTitle>
+		<whyUsList>
+			<li>Prix tout compris</li>
+			<li>Des rapports détaillés et concrets ainsi que reporting d'ICP</li>
+			<li>Planification des services en ligne facile</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+		<Benefits>
+			<section>
+				<title>Normes d'audits de structure d'AI</title>
+				<pgph>Des mesures d'intégrité structurelle trop faibles et une sécurité incendie insuffisante peuvent avoir des conséquences désastreuses. AsiaInspection propose des audits de structure afin de vous assurer que les locaux industriels et commerciaux de vos fournisseurs soient sûrs, répondent aux normes en vigueur et ne présentent aucun danger pour la vie et la santé des employés.</pgph>
+				<pgph>L'audit inclut une vérification complète des bâtiments et des locaux, comprenant :</pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Vérification des conditions de charge</li>
+						<li>Évaluation du système structurel du bâtiment</li>
+						<li>Détection de défauts structurels, de dommages, de détresse, de déformation ou de détérioration</li>
+						<li>Vérification des plans et de l'alignement</li>
+						<li>Évaluation de la maintenance et de l'exposition à un environnement agressif</li>
+						<li>Autres enquêtes et contrôles des structures</li>
+						<li>Vérification de la sécurité incendie (facultatif)</li>
+						<li>Vérification de la sécurité électrique (facultatif)</li>
+					</ul>
+					]]>
+				</pgph>
+				<pgph>The findings of all structural audits are presented in a detailed report that includes an assessment of the current condition and suggestions for appropriate repairs and retrofitting measures.</pgph>
+			</section>
+			<section>
+				<title>Auditeurs de structure AI</title>
+				<pgph>Les audits de structure effectués par AI sont réalisés par des ingénieurs civils diplômés expérimentés et agréés spécialistes des structures. Un auditeur de structure typique possède plus de 5 ans d'expérience dans son domaine – y compris dans la supervision de conception et de construction.</pgph>
+			</section>
+			<section>
+				<title>Post audit de structure</title>
+				<pgph>Sur la base des constatations et des recommandations issues de l'audit, des modifications appropriées peuvent être nécessaires. Ces modifications comprennent la réparation, le renforcement des éléments structuraux et le remplacement des éléments endommagés ou défectueux.</pgph>
+				<pgph>AI peut fournir des services de suivi, comme l'analyse de charge en direct, la refonte des systèmes de sécurité électrique/d'incendie, et plus encore, aider l'usine à mettre en œuvre les actions correctives nécessaires.</pgph>
+			</section>
+			<section>
+				<title>Prix</title>
+				<pgph><![CDATA[Les audits structurels AI sont facturées <b>$1,129 USD</b> par ingénieur et par jour (tout compris). Le nombre d'ingénieurs/jour requis est déterminé en fonction du nombre de bâtiments à vérifier et de la taille des structures. Visitez notre <a href="/quality-control-pricing">Page Tarifs</a> plus de détails.]]></pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Sécurité incendie – <b>$100 USD</b> par audit</li>
+						<li>Sécurité électrique – <b>$100 USD</b> par audit</li>
+						<li>Thermo-analyse graphique – <b>$100 USD</b> par audit</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+			<section>
+				<title>Pourquoi effectuer un audit de structure ?</title>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Pour assurer la sécurité du lieu de travail, afin d'empêcher blessures & décès</li>
+						<li>Pour protéger votre image de marque et votre réputation</li>
+						<li>Pour se conformer aux exigences statutaires (codes de construction et design par pays)</li>
+						<li>Pour avoir une idée précise de l'état de sécurité de votre chaîne logistique</li>
+						<li>Pour empêcher des interruptions de votre chaîne logistique</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+		</Benefits>
+	</fr>
+
+	<zh>
+		<title>结构审核</title>
+		<subtext>AI 亚检结构审核将分析供应商建筑和生产场所的完整性和安全性，帮助您确保整条供应链的工作环境符合要求。</subtext>
+		<whyUsTitle>Why AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li>All-inclusive pricing</li>
+			<li>Detailed and actionable reports and KPIs reporting</li>
+			<li>Easy online scheduling of services</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+		<Benefits>
+			<section>
+				<title>AI 亚检结构审核标准</title>
+				<pgph>建筑结构完整性不佳，以及缺少消防安全措施都会导致灾难性后果。AI 亚检结构审核可确保您供应商的生产和商业场所安全且符合相关规范，不会威胁员工的健康及生命。</pgph>
+				<pgph>结构审核包括建筑和生产场所综合检测，内容如下：</pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>装货环境检测</li>
+						<li>建筑结构系统评估</li>
+						<li>检测结构缺陷、损坏、险况、变形或老化 </li>
+						<li>计划与调整检查</li>
+						<li>评估维修和接触恶劣环境情况</li>
+						<li>其他结构调查与检查 </li>
+						<li>消防安全检查（可选）</li>
+						<li>电气安全检查（可选）</li>
+					</ul>
+					]]>
+				</pgph>
+				<pgph>所有结构审核的结果将列入详细报告，报告内容还包括当前状况评估和适当维修与翻新措施建议。</pgph>
+			</section>
+			<section>
+				<title>AI 亚检结构审核员</title>
+				<pgph>AI 亚检结构审核员均为经验丰富、证照齐全的土木结构工程师。AI亚检的普通结构审核员应当具有 5 年以上相关领域（包括设计和施工监理）的工作经验。</pgph>
+			</section>
+			<section>
+				<title>结构审核后续工作</title>
+				<pgph>根据审核结果和建议，可能需要采取适当变更。这包括维修、强化结构部分和更换受损或有缺陷的部分。</pgph>
+				<pgph>AI 亚检可提供后续服务，如活负载分析、消防/电气安全系统重新设计等，帮助工厂实施必要的纠正措施。</pgph>
+			</section>
+			<section>
+				<title>定价</title>
+				<pgph><![CDATA[AI 亚检结构审核定价为每人每天 1,129 美元（全包价格）。所需人员及天数按照所审核建筑数量和结构大小确定。有关详情，请访问<a href="/quality-control-pricing">定价页面</a>]]></pgph>
+				<pgph>
+				<![CDATA[
+					<ul>
+						<li>消防安全 - 每次审核另加 <b>100 美元</b></li>
+						<li>电气安全 - 每次审核另加 <b>100 美元</b></li>
+						<li>热成像扫描 - 每次审核另加 <b>100 美元</b></li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+			<section>
+				<title>为什么要进行结构审核？</title>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>保证工作环境安全，避免出现伤亡</li>
+						<li>保护品牌形象和信誉</li>
+						<li>遵守法规要求（国家/地区颁布的施工和设计法规）</li>
+						<li>了解准确的供应链安全状况</li>
+						<li>避免供应链断裂</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+		</Benefits>
+	</zh>
+
+	<tr>
+		<title>Yapısal Denetimler</title>
+		<subtext>AsiaInspection yapısla denetimleri tüm tedarik zinciriniz boyunca uygun çalışma koşullarını sağlamanıza yardımcı olmak için tedarikçilerinizin bina ve tesislerinin bütünlük ve güvenliğini analiz eder.</subtext>
+		<whyUsTitle>Neden AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li>Her şey dahil fiyatlandırma.</li>
+			<li>Detailed and actionable reports and KPIs reporting</li>
+			<li>Kolay çevrimiçi hizmet düzenlemeleri</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+		<Benefits>
+			<section>
+				<title>AI Yapısal Denetim Standartları</title>
+				<pgph>Zayıf yapısal bütünlük ve yetersiz yangın güvenlik tedbirleri korkunç sonuçlar doğurabilir. AsiaInspection tedarikçilerinizin endüstriyel ve ticari tesislerinin güvenli, ilgili kanunlara uygun ve çalışanların hayat ve sağlıkları için hiçbir tehlike göstermemesini sağlamak için yapısal denetimler sunar.</pgph>
+				<pgph>Yapısal denetimler aşağıdakiler de dahil bina ve tesislerin kapsamlı bir kontrolünü içerir:</pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Yükleme Koşullarının Kontrolü</li>
+						<li>Binanın Yapısal Sisteminin Değerlendirilmesi</li>
+						<li>Yapısal Kusurlar, Hasarlar, Tehlikeler, Deformasyon ya da Hasarların Tespiti</li>
+						<li>Plan ve Hizalama Denetimi</li>
+						<li>Bakım ve Zararlı Çevreye Maruz Kalma Değerlendirmesi</li>
+						<li>Diğer Yapısal Araştırma ve Kontroller</li>
+						<li>Yangın Güvenliği Kontrolü (opsiyonel)</li>
+						<li>Elektrik Güvenliği Kontrolü (opsiyonel)</li>
+					</ul>
+					]]>
+				</pgph>
+				<pgph>Tüm yapısal denetimlerdeki bulgular mevcut durumun bir değerlendirmesi ve uygun onarım ve iyileştirme tedbirleri önerilerini içerden detaylı bir raporda sunulmuştur.</pgph>
+			</section>
+			<section>
+				<title>AI Yapısal Denetimleri</title>
+				<pgph>AI yapısal denetimleri deneyimli ve lisanslı inşaat mühendisleri tarafından yürütülmektedir.  Karakteristik Profildeki bir Denetçi tasarım ve yapım kontrolünü içeren ilgili alanda 5 yılın üzerinde deneyime sahiptir.</pgph>
+			</section>
+			<section>
+				<title>İnşaat Sonrası Denetim</title>
+				<pgph>Denetim bulguları ve önerilere dayanarak, uygun değişiklikler gerekli olabilir. Bu onlarımları, yapı malzemelerinin güçlendirilmesini ve hatalı ya da hasarlı bileşenlerin değiştirilmesini içerir.</pgph>
+				<pgph>AI gerekli düzeltici aksiyonların uygulanmasında fabrikaya yardımcı olmak için, canlı yük analizi, yangın/elektrik güvenlik sistemlerinin yeniden tasarlanması gibi hususlarda ve birçok konuda takip hizmetleri verebilir.</pgph>
+			</section>
+			<section>
+				<title>Fiyatlandırma</title>
+				<pgph><![CDATA[AI yapı denetimleri kişi-gün olarak $1.129 USD'dir (her şey dahil). Gerekli kişi-gün sayısı kaç binanın denetleneceği ve yapıların boyuruna göre belirlenir. Daha fazla detay için <a href="/quality-control-pricing">Fiyatlandırma Sayfamıza</a> bakın.]]></pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Yangın Güvenliği - başına ilave çalışan-gün başına <b>$100 USD</b></li>
+						<li>Elektrik Güvenliği - başına ilave çalışan-gün başına <b>$100 USD</b></li>
+						<li>Termografik tarama - denetim başına ilave <b>$100 USD</b></li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+			<section>
+				<title>Neden Yapısal Denetim Yapılmalıdır</title>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Yaralanma ve can kaybının önlenerek, güvenli çalışma koşullarının sağlanması için</li>
+						<li>Marka imaj ve itibarınızı korumak için</li>
+						<li>Yasak gereksinimlere uymak için (ülkenin yapı ve tasarım kanunları)</li>
+						<li>Tedarik zincirinizdeki güvenlik durumunun doğru resmini görebilmek için</li>
+						<li>Tedarik zincirindeki kesilmeleri önlemek için</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+		</Benefits>
+	</tr>
+
+	<pt>
+		<title>Auditorias Estruturais</title>
+		<subtext>As auditorias estruturais da Asia Inspection analisam a integridade e segurança dos edifícios e locais dos seus fornecedores, ajudando-o a garantir condições de trabalho adequadas ao longo da sua cadeia de fornecimento.</subtext>
+		<whyUsTitle>Porquê a AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li>Tarifas com tudo incluído</li>
+			<li>Detailed and actionable reports and KPIs reporting</li>
+			<li>Fácil programação online dos serviços</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Começar</schedButton>
+		<Benefits>
+			<section>
+				<title>Normas da Auditoria Estrutural da AI</title>
+				<pgph>Medidas pobres de integridade estrutural e segurança fraca contra incêndios podem ter consequências desastrosas.  A AsiaInspection oferece auditorias estruturais de forma a garantir que os locais industriais e comerciais dos seus fornecedores são seguros, cumprem com os códigos pertinentes e não apresentam perigos para a vida e saúde dos trabalhadores.</pgph>
+				<pgph>As auditorias estruturais incluem uma verificação integral dos edifícios e locais, incluindo:</pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Verificação das Condições da Carga</li>
+						<li>Avaliação do Sistema Estrutural do Edifício</li>
+						<li>Deteção de Defeitos Estruturais, Danos, Prejuízos, Deformações ou Deterioração</li>
+						<li>Inspeção da Planificação e Alinhamento</li>
+						<li>Avaliação da Manutenção e Exposição Ambiental Agressiva</li>
+						<li>Outras Pesquisas Estruturais e Inspeções</li>
+						<li>Verificar a Segurança Contra Incêndios (opcional)</li>
+						<li>Verificar a Segurança Elétrica (opcional)</li>
+					</ul>
+					]]>
+				</pgph>
+				<pgph>Os resultados de todas as auditorias estruturais são apresentadas num relatório detalhado que inclui uma avaliação da condição atual e sugestões para as reparações apropriadas e as medidas de adaptação.</pgph>
+			</section>
+			<section>
+				<title>Auditores Estruturais da AI</title>
+				<pgph>As auditorias estruturais da AI são conduzidas por engenheiros estruturais civis licenciados e com experiência. Um Auditor Perfil típico tem mais de 5 anos de experiência na área pertinente, incluindo o desenho e supervisão da construção.</pgph>
+			</section>
+			<section>
+				<title>Auditoria Pós-Estrutural</title>
+				<pgph>Tendo como base as descobertas e recomendações da auditoria, pode ser necessário efetuar alterações apropriadas.  Isto inclui a reparação, reforço de elementos estruturais e substituição de componentes danificados ou defeituosos.</pgph>
+				<pgph>A AI pode proporcionar serviços de seguimento, tais como a análise da carga, redesenho dos sistemas de segurança contra incêndios/falhas elétricas, e mais, para ajudar a fábrica a implementar as medidas corretivas necessárias.</pgph>
+			</section>
+			<section>
+				<title>Tarifas</title>
+				<pgph><![CDATA[As auditorias estruturais da AI têm um custo de <b>$1.129 USD</b> por pessoa/dia (tudo incluído). O número de pessoas/dia requeridos determina-se tendo como base a quantidade de edifícios a serem auditados e o tamanho das estruturas. Visite a nossa <a href="/quality-control-pricing">Página de Tarifas</a> para mais informações.]]></pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Segurança Contra Incêndios - <b>$100 USD</b> extra por homem-dia</li>
+						<li>Segurança Elétrica - <b>$100 USD</b> extra por homem-dia</li>
+						<li>Exploração Termográfica - <b>$100 USD</b> extra por auditoria</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+			<section>
+				<title>Porquê Realizar uma Auditoria Estrutural</title>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Para garantir condições de trabalho seguras, prevenir lesões e a perda de uma vida.</li>
+						<li>Para proteger a imagem da sua marca e reputação</li>
+						<li>Para cumprir com os requisitos legais (códigos de construção e de desenho por país)</li>
+						<li>Para obter uma imagem precisa do estado de segurança da sua cadeia de fornecimento</li>
+						<li>Para evitar interrupções na cadeia de fornecimento</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+		</Benefits>
+	</pt>
+
+	<ru>
+		<title>Структурные аудиты</title>
+		<subtext>В ходе структурных аудитов AsiaInspection анализирует целостность и безопасность зданий и помещений вашего поставщика, помогая вам гарантировать должные условия работы по всей цепочке поставок.</subtext>
+		<whyUsTitle>Why AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li>All-inclusive pricing</li>
+			<li>Detailed and actionable reports and KPIs reporting</li>
+			<li>Easy online scheduling of services</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Начать</schedButton>
+		<Benefits>
+			<section>
+				<title>Стандарты структурного аудита AI</title>
+				<pgph>Низкая конструктивная прочность и недостаточные меры пожарной безопасности могут привести к катастрофическим последствиям. AsiaInspection предлагает провести структурный аудит, чтобы гарантировать, что производственные и торговые помещения вашего поставщика безопасны, отвечают действующим нормам и не представляют опасности для жизни и здоровья сотрудников.</pgph>
+				<pgph>Структурный аудит включает в себя всеобъемлющую проверку зданий и помещений, в том числе:</pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Проверка условий нагрузки</li>
+						<li>Оценка структуры здания</li>
+						<li>Выявление структурных дефектов, повреждений, нарушений, деформаций и износа</li>
+						<li>Проверка планов и геометрическая выверка</li>
+						<li>Оценка техобслуживания и воздействия агрессивной окружающей среды</li>
+						<li>Другие структурные проверки и исследования</li>
+						<li>Проверка пожарной безопасности (опционально)</li>
+						<li>Проверка электробезопасности (опционально)</li>
+					</ul>
+					]]>
+				</pgph>
+				<pgph>Факты, обнаруженные в ходе структурного аудита, отражаются в подробном отчете, который включает в себя оценку текущего состояния и предложения по ремонту и дооснащению.</pgph>
+			</section>
+			<section>
+				<title>Структурные аудиторы AI</title>
+				<pgph>Все структурные аудиты AI проводятся опытными и лицензированными гражданскими инженерами-конструкторами. Среднестатистический аудитор имеет более пяти лет опыта работы в соответствующей области, в том числе в проектировании и надзоре за строительством.</pgph>
+			</section>
+			<section>
+				<title>Пост-структурный аудит</title>
+				<pgph>В зависимости от обнаруженных в ходе аудита фактов и выданных рекомендаций могут потребоваться соответствующие изменения. В том числе ремонт, укрепление элементов структуры и замена поврежденных или неисправных элементов.</pgph>
+				<pgph>AI может предоставить дополнительные услуги, в том числе анализ нагрузки в реальных условиях, перепроектирование электрической системы или системы пожарной безопасности и т. д., чтобы помочь заводу осуществить необходимые коррекционные действия.</pgph>
+			</section>
+			<section>
+				<title>Расценки</title>
+				<pgph><![CDATA[Цена структурного аудита AI - 1 129 длр США за человеко-день (все включено). Число необходимых человеко-дней определяется на основании количества зданий, аудит которых нужно провести, и размера объектов. Посетите нашу страницу с ценами для получения более подробной информации.]]></pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Пожарная безопасность - плюс 100 длр США за аудит.</li>
+						<li>Электробезопасность - плюс 100 длр США за аудит.</li>
+						<li>Термографическое сканирование - плюс 100 длр США за аудит.</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+			<section>
+				<title>Зачем проводить структурный аудит</title>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Чтобы обеспечить безопасные условия работы, предотвратить увечья и гибель людей</li>
+						<li>Чтобы защитить имидж и репутацию вашего бренда</li>
+						<li>Чтобы соответствовать требованиям законодательства (строительным и проектным кодексам каждой страны)</li>
+						<li>Чтобы получить правильную картину уровня безопасности в вашей цепочке поставок</li>
+						<li>Чтобы предотвратить прерывание цепочки поставок</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+		</Benefits>
+	</ru>
+
+	<it>
+		<title>Audit Strutturali</title>
+		<subtext>Gli audit strutturali di AsiaInspection analizzano l'integrità e la sicurezza degli edifici e dei locali dei tuoi fornitori, aiutando a garantire condizioni di lavoro appropriate lungo tutta la tua filiera di produzione e approvvigionamento.</subtext>
+		<whyUsTitle>Why AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li>All-inclusive pricing</li>
+			<li>Detailed and actionable reports and KPIs reporting</li>
+			<li>Easy online scheduling of services</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Inizia Ora</schedButton>
+		<Benefits>
+			<section>
+				<title>Standard per l'Audit Strutturale di AI</title>
+				<pgph>Una scarsa integrità strutturale e misure di sicurezza antincendio insufficienti possono avere conseguenze disastrose. AsiaInspection offre audit strutturali per verificare che i locali industriali e commerciali dei vostri fornitori siano sicuri, rispondenti alle normative vigenti, e non presentino rischi per la vita e la salute dei dipendenti.</pgph>
+				<pgph>Gli audit strutturali prevedono un controllo esaustivo degli edifici e dei locali, compresi:</pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Verifica delle Condizioni di Carico</li>
+						<li>Valutazione del Sistema Strutturale dell'Edificio</li>
+						<li>Rilevamento di Difetti Strutturali, Danni, Logorio, Deformazioni o Deterioramento.</li>
+						<li>Controllo del Piano e dell'Allineamento</li>
+						<li>Valutazione della Manutenzione e dell'Esposizione ad Ambiente Aggressivo</li>
+						<li>Altre Rilevazioni e Controllo Strutturali</li>
+						<li>Controllo della Sicurezza Antincendio (opzionale)</li>
+						<li>Controllo della Sicurezza Elettrica (opzionale)</li>
+					</ul>
+					]]>
+				</pgph>
+				<pgph>Le risultanze di tutti gli audit strutturali vengono presentate in un rapporto dettagliato che include una valutazione delle condizioni attuali e consigli in merito alle riparazioni e agli interventi di ammodernamento necessari.</pgph>
+			</section>
+			<section>
+				<title>Auditor Strutturali AI</title>
+				<pgph>Gli audit strutturali AI vengono eseguiti da ingegneri civili strutturisti esperti e autorizzati. Il tipico auditor possiede oltre 5 anni di esperienza nel campo specifico, compresi progettazione e supervisione dei lavori di costruzione.</pgph>
+			</section>
+			<section>
+				<title>Audit Post Strutturali</title>
+				<pgph>A seconda delle risultanze dell'audit e dei consigli, possono rivelarsi necessarie opportune modifiche Ciò include riparazioni, rinforzo degli elementi strutturali e sostituzione dei componenti danneggiati o difettosi.</pgph>
+				<pgph>AI può fornire servizi di follow-up, come analisi del carico dinamico, riprogettazione dei sistemi di sicurezza elettrico/antincendio e altro ancora, per coadiuvare la fabbrica nell'implementazione delle azioni correttive necessarie.</pgph>
+			</section>
+			<section>
+				<title>Tariffe</title>
+				<pgph><![CDATA[Gli audit strutturali AI hanno un costo di <b>1.129 $ USD</b> per giorno-uomo (tutto compreso). Il numero di giorni-uomo necessari è determinato in base al numero degli edifici da sottoporre ad audit e alla dimensione delle strutture. Vista la nostra Pagina delle Tariffe per ulteriori dettagli.]]></pgph>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Sicurezza Antincendio - <b>100 $ USD</b> extra per audit</li>
+						<li>Sicurezza Elettrica - <b>100 $ USD</b> extra per audit</li>
+						<li>Scansione termografica - <b>100 $ USD</b> extra per audit</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+			<section>
+				<title>Perché effettuare un Audit Strutturale</title>
+				<pgph>
+					<![CDATA[
+					<ul>
+						<li>Per garantire condizioni di lavoro sicure, prevenendo lesioni e incidenti mortali</li>
+						<li>Per proteggere l'immagine e la reputazione del tuo marchio</li>
+						<li>Per ottemperare ai requisiti di legge (norme edilizie e progettuali del Paese)</li>
+						<li>Per ottenere un quadro accurato dello stato della sicurezza nella tua filiera di produzione a approvvigionamento</li>
+						<li>Per prevenire interruzioni nella filiera di produzione a approvvigionamento</li>
+					</ul>
+					]]>
+				</pgph>
+			</section>
+		</Benefits>
+	</it>
+</document>

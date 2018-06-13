@@ -1,0 +1,215 @@
+{% set twigBase = "AIResponsiveBundle:extra:blankBase.html.twig" %}
+{% extends twigBase %}
+
+{% block title %}Thanks for being an awesome client! | AsiaInspection{% endblock %}
+{% block pageDescription %}{% endblock %}
+{% block pageKeywords %}{% endblock %}
+{% block pagename %}clientLanding{% endblock %}
+
+{% block navigation %}
+    {% include('AIResponsiveBundle:extra:nav-clientlanding.html.twig') %}
+{% endblock %}
+
+{% block mainBlock %}
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            replaceHTML = '<div class="mobileSuccessMessage" style="display:inline-block; text-align:center;"><div style="margin-bottom:1em;"><div style="text-align:center; background-color:white; padding:15px 25px;"><h3 style="font-size:14px; margin-bottom:0px; color:#5aa231;">Sent! Check your mobile device now to get the app\'s download link.</h3></div></div></div>';
+            $("#mainDownloadForms").append(replaceHTML);
+            $("#contactDownload").append(replaceHTML);
+            $("#processDownload").append(replaceHTML).find(".mobileSuccessMessage").css("margin-right","10px");
+            $("#mobileDownloadForms").append(replaceHTML);
+        });
+    </script>
+
+    <script src="//app-ab16.marketo.com/js/forms2/js/forms2.min.js"></script>
+    <script src="/js/arrive.min.js"></script>
+    <script>
+        $(document).arrive(".mktoButton", function() {
+            $("#Email").val(getCookie('email')).attr("placeholder","Your email address").addClass("sendLinkMobileEmail mobileFullWidth");
+            mktoObj = $("#mktoForm_1139");
+            $(".mktoAsterix", mktoObj).parent().remove();
+            $(".mktoOffset", mktoObj).remove();
+            $(".mktoGutter", mktoObj).remove();
+            $(".mktoFormCol", mktoObj).css({
+                "width":"100%",
+                "margin-bottom":"0px"
+            });
+            $(".mktoFieldWrap", mktoObj).css("width","100%");
+            $("#Email", mktoObj).css({
+                "width":"100%",
+                "border":"1px solid rgb(206, 207, 209)",
+                "border-radius":"3px",
+                "box-shadow":"0 0 5px rgb(223, 224, 225) inset",
+                "background-color":"rgb(249,249,249)",
+                "box-sizing":"border-box",
+                "padding":"6px 12px",
+                "line-height":"20px",
+                "font-size":"14px",
+                "height":"34px"
+            }).parents(".mktoFormRow").css({
+                "width":"100%",
+                "display":"inline-block",
+                "max-width":"304px",
+                "float":"left"
+            });
+            $(".mktoButtonWrap", mktoObj).css("margin","0px");
+            $(mktoObj).css({
+                "width":"100%"
+            });
+            $(".mktoButton").addClass("two-btn btn btn-primary btn-big mobileFullWidth").text("{% trans %}Send now{% endtrans %}").css({
+                "display":"inline-block",
+                "width":"100%",
+                "width":"120px",
+                "background-image":"none",
+                "background-color":"#5ba331",
+                "font-size":"16px",
+                "line-height":"20px",
+                "margin-left":"15px",
+                "height":"34px"
+            }).hide();
+        });
+
+        function mobileMasterSubmit(obj) {
+            trackLink('clientLanding-getMobileApp');
+            var countryCode = $('.mobilePhoneCountry option:selected').data('status');
+            if(countryCode == "" || countryCode == undefined ) countryCode = $('.mobilePhoneCountry option:selected').eq(1).attr("data-status");
+            var phoneNumber = $(".sendLinkMobileNumber").val();
+            var Email = $("#Email").val();
+            if(phoneNumber != "" && phoneNumber != undefined ) smsMobileLink(obj);
+            if(Email != "" && Email != undefined ) $(".mktoButton").click();
+        }
+
+        $(document).ready(function(){
+            if(mq768.matches) {
+                $("#clientLandingDemoLink").removeClass("thickbox").prop("href","https://www.youtube.com/v/5Ia6atTejhI?autoplay=1&showinfo=0&vq=hd720");
+            }
+        });
+
+    </script>
+
+    <div id="client-landing" class="row">
+
+        <aside class="col-xs-12 col-sm-3 sidebar">
+
+            <h2>Still not using the AI App?</h2>
+            <p>Manage your AI account, on the go.</p>
+
+            <a id="clientLandingDemoLink" class="thickbox mobileFullWidth" role="button" href="/popup?video=mobilevideo&amp;lang=en&amp;TB_iframe=true&amp;ToDown=20&amp;&height=532&amp;width=918&amp;modal=true" special="newpop" onclick="videolinktrack('mobileVideo)"><img src="https://s3.asiainspection.com/images/clientlanding/3_phones.png" /></a>
+
+            <p>Get the app now by sending the download link to your phone</p>
+
+            <form id="mktoForm_1139"></form>
+            
+            <script>MktoForms2.loadForm("//app-ab16.marketo.com", "944-QDO-384", 1139);</script>
+
+            <input class="sendLinkMobileEmail form-control" type="text" placeholder="Your email address"/>
+
+            <div class="divider">
+                <div class="or">OR</div>
+            </div>
+
+            <div class="row phone-number">
+                <div class="col-xs-4">
+                    <select required name="mobilePhoneCountry" class="mobilePhoneCountry form-control">
+                        <option value="" disabled selected hidden>+ (&nbsp;1&nbsp;)</option>
+                        {% for country in countries %}
+                            <option iso2='{{country.iso2}}' data-status='{{country.phone}}' {% if UserCountry is defined and UserCountry == country.iso2 %}selected='selected'{% endif %}>{{country.iso2}} +{{country.phone}} &nbsp; &mdash; &nbsp; {{country.name}}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-xs-8">
+                    <input class="sendLinkMobileNumber form-control" type="text" placeholder="Your phone number"/>
+                </div>
+            </div>
+            <a href="javascript://" onClick="mobileMasterSubmit(this)"><button>Send Now</button></a>
+
+            {% if app.request.get('aliId') is defined and app.request.get('aliId') != null %}
+                <div style="text-align:center; background-color:white; padding:15px; margin:30px 0px 20px;">
+                    <h3 style="font-size:14px; margin-bottom:0px; color:#5aa231;">Sent! Check your mobile device now to get the app's download link.</h3>
+                </div>
+            {% endif %}
+
+            <div class="row" style="text-align:center;">
+
+                <div id="footerIcon" style='vertical-align:middle; display:inline-block;'>
+                    <a href='https://play.google.com/store/apps/details?id=com.asiainspection' target='_blank'><img src='{{assetsDomain}}/images/but_app_play.png' border='0' /></a>
+                    &nbsp;
+                    <a href='https://itunes.apple.com/us/app/id589783645' target='_blank' style="margin:5px;"><img src='{{assetsDomain}}/images/but_app_store.png' border='0'  /></a>
+                </div>
+
+            </div>
+
+        </aside>
+
+        <div class="content col-xs-12 col-sm-9">
+
+            <div class="introduction row">
+
+                <div class="intro col col-xs-12 col-sm-8 col-lg-9">  
+                    <h1 id="thanksClient">Thanks for being an awesome client!</h1>
+                    <p>AI has grown to {{total_Staff}} employees, {{total_Offices}} offices and {{total_Labs}} in-house labs, and we owe it to clients like you. From all of us at AI, thank you!</p>
+                </div>
+
+                <div class="inspector col col-xs-12 col-sm-4 col-lg-3">
+                    <a href="http://customer.asiainspection.com/login"><img class="inspector" src="https://s3.asiainspection.com/images/clientlanding/inspector.png" style="border:0px;" /></a>
+                </div>
+
+                <a href="http://customer.asiainspection.com/login"><button class="btn-primary">Go to My Account</button></a>
+                
+            </div>
+
+            <div class="resources row">
+
+                <h3>Resources you may find useful</h3>
+
+                <div class="col col-resources col-md-4">
+                    <span>White paper</span>
+                    <hr>
+                    <p>{{contentCards.insight.title|trans}}</p>
+                    <a href="{{contentCards.insight.link}}">
+                        <img src="{{contentCards.insight.thumb}}" />
+                        <button class="btn-primary" onclick="trackLink('clientLanding-getWhitepaper');">Download Now</button>
+                    </a>
+                </div>
+
+                <div class="col col-resources col-md-4">
+                    <span>Regulatory update</span>
+                    <hr>
+                    <p>{{contentCards.recap.title|trans}}</p>
+                    <a href="{{contentCards.recap.link}}">
+                        <img src="{{contentCards.recap.thumb}}" />
+                        <button class="btn-primary" onclick="trackLink('clientLanding-getRegRecap');">Download Now</button>
+                    </a>
+                </div>
+
+                <div class="col col-resources col-md-4">
+                    <span>AI Barometer</span>
+                    <hr>
+                    <p>{{contentCards.baro.title|trans}}</p>
+                    <a href="{{contentCards.baro.link}}">
+                        <img src="{{contentCards.baro.thumb}}" style="margin-top:7px;" />
+                        <button class="btn-primary" onclick="trackLink('clientLanding-getBarometer');">View Now</button>
+                    </a>
+                </div>
+
+            </div>
+
+            <div id="FooterISO" >
+                <hr class="fancy-line"></hr>
+                <table align="center" valign="middle" style="margin:0 auto;padding-top:50px;" id="footCopyright">
+                    <tr>
+                        <td align="center" style="font-size:11px;">{% trans %}This site is protected by copyright and trademark laws under US and international law.{% endtrans %}</td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="padding-top:10px;padding-bottom:20px;font-size:11px;">AsiaInspection &copy; {{ 'now'|date('Y') }}</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+
+{% endblock %}

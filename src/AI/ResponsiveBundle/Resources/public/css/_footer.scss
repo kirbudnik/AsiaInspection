@@ -1,0 +1,233 @@
+#footerlinks {
+    font-family: $font_primary, $font_secondary;
+    font-size: $font_size_2;
+    color: $color_mountain_mist_approx;
+    margin: 20px 0 0 0;
+    text-align: center;
+    display:inline-block;
+    position:relative;
+    behavior: $url_pie;
+    a {
+        font-size: $font_size_2;
+        text-decoration: none;
+        color: $color_chambray_approx;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-position: inside;
+    }
+    li {
+        padding-left: 3px;
+        font-family: $font_primary;
+        line-height: 1.65em;
+        font-size: $font_size_2;
+    }
+    #bigWindowLinks {
+        display:block;
+        a {
+            font-family: $font_primary;
+            font-size: $font_size_2;
+            line-height: 1.22em;
+            color: $color_gravel_approx;
+        }
+        .footerlinks_box_title {
+            color: $color_shark_approx;
+            font-weight: bold;
+            font-size: $base_font_size;
+            line-height: $base_font_size;
+            margin-bottom: 7px;
+            display:block;
+        }
+    }
+
+}
+
+#footCopyright {
+    font-family: $font_primary, $font_secondary;
+    color: $color_suva_gray_approx;
+    padding-top: 13px;
+}
+.footer {
+    background-color: $color_alto_approx;
+    margin-top: 0;
+    text-align:center;
+}
+.footerlinksFollowIcon {
+    margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footerlinks_box {
+    display: inline-block;
+    padding: 10px 30px 0;
+    padding-bottom: 0;
+    vertical-align: top;
+    line-height: 14px;
+    text-align: left;
+    max-width:23%;
+    ul {
+        position: relative;
+        left: -3px;
+        list-style-type: none;
+    }
+    li {
+        display: list-item;
+    }
+    .dropdown-menu{
+        text-align:left;
+        border:0px;
+        background-color:transparent;
+        box-shadow: 0px 0px;
+        display:block;
+        li > a {padding: 3px 0px;}
+        li > a:hover, li > a:focus {
+            background-image:none;
+            background-color: transparent;
+        }
+    }
+}
+.firstFooter {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 13px;
+}
+#FooterISO {
+    margin: auto;
+    width: 536px;
+    .sep {
+        margin: 20px auto 17px auto;
+        text-align: center;
+    }
+}
+.spriteSeparator_h {
+    background: $url_global_sprite 0 0 no-repeat;
+    width: 536px;
+    height: 1px;
+}
+.spriteSeparator_v {
+    display: inline-block;
+    width: 1px;
+    height: 147px;
+}
+.spriteAQSIQgrey {
+  background: $url_grey_accred -87px 0px no-repeat;
+  display: inline-block;
+  width: 39px;
+  height: 46px;
+}
+.spriteCNASgrey {
+  background: $url_grey_accred -35px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 39px;
+}
+
+.spriteIso-license-grey {
+  background: $url_grey_accred 0px 0px no-repeat;
+  display: inline-block;
+  width: 32px;
+  height: 36px;
+}
+
+.ico_facebook {
+    background: $url_global_sprite -124px -310px no-repeat;
+    display: inline-block;
+    width: 12px;
+    height: 23px;
+}
+.ico_twitter {
+    background: $url_global_sprite -138px -310px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 23px;
+}
+.ico_youtube {
+    background: $url_global_sprite -167px -310px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 23px;
+}
+.ico_gplus {
+    background: $url_global_sprite -190px -310px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+}
+.ico_linkedin {
+    background: $url_global_sprite -216px -310px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+.ico_youku {
+    background: url('https://s3.asiainspection.com/images/ico_youku.png') center no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+}
+.ico_weibo {
+    background: url('https://s3.asiainspection.com/images/ico_weibo.png') center no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 23px;
+}
+
+.ico_slideshare {
+    background: url('https://s3.asiainspection.com/images/ico_slideshare_footer.png') center no-repeat;
+    display: inline-block;
+    width: 95px;
+    height: 24px;
+}
+
+.ico_instagram {
+    background: url('https://s3.asiainspection.com/images/ico_instagram_web.png') center no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico_wechat {
+    background: url('https://s3.asiainspection.com/images/ico_wechat_web.png') center no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico_QR_code {
+    background: url('https://s3.asiainspection.com/images/QR_code.png') center no-repeat;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+}
+
+#FooterISOLogos {
+    text-align: center;
+    div {
+        display: inline-block;
+        text-align: center;
+    }
+}
+hr.fancy-line {
+    border: 0;
+    height: 1px;
+    background: radial-gradient(ellipse at center, $black_10 0,rgba(0,0,0,0) 75%);
+    &:before {
+        top: -0.5em;
+        height: 1em;
+        content: '';
+        width: 100%;
+        background: radial-gradient(ellipse at center, $black_10 0,rgba(0,0,0,0) 75%);
+    }
+    &:after {
+        content: '';
+        height: 0.5em;
+        top: 1px;
+        content: '';
+        width: 100%;
+    }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>AsiaInspection News</title>
+		<description>AsiaInspection News Posts</description>
+		<link>{{app.request.getSchemeAndHttpHost()}}/asia-inspection-news</link>
+		<language>en</language>
+		{%set i = 0%}
+		{%for newspost in news.post %}
+		<item>
+			<title>{{newspost.title}}</title>
+			<description><![CDATA[{{newspost.blurb}}]]></description>
+			<link>
+				{%if(url[i] starts with 'http') %}
+					{{url[i]}}
+				{%elseif newspost.link is defined%}
+					{{app.request.getSchemeAndHttpHost()}}/asia-inspection-news/{{url[i]}}
+				{%elseif newspost.video is defined%}
+					{{newspost.video}}                 
+			   {%endif%}
+			</link>
+			<pubDate>{{newspost.datetime}}</pubDate>
+			{% if(newsImage[i].url != "") %}
+				<enclosure url="{{newsImage[i].url}}" length="{{newsImage[i].size}}" type="{{newsImage[i].type}}" />
+			{%endif%}
+		</item>
+		{%set i = i +1 %}
+		{%endfor%}
+	</channel>
+</rss>

@@ -1,0 +1,82 @@
+{% extends '::base.html.twig' %}
+{% block title %}AI Site Map{% endblock %}
+
+{% block body %}
+
+<div class="container wrapper" style="width:100%; padding-bottom:20px;">
+    <div class="col-xs-12 wrapper ">
+         <div id="aboutUs" class=" col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-offset-0 col-md-12  wrapper paddingLeftRightZero margin20" >
+            <div class="col-md-10 col-md-offset-1 col-xs-12 col-xs-0">
+                <h2 class="marginZero padding15" style="padding-bottom:20px;">AI {% trans %}Sitemap{% endtrans %}</h2>
+                <div class="col-xs-12 paddingLeftRightZero" id="sitemapContainer" >
+
+                    <div id="sitemapColumn" >
+                        <h2><a href="/quality-control-services" style="color:black;">{% trans %}Services{% endtrans %}</a></h2>
+                        <div class = "sitemapSubDiv">
+                            <h3 class="marginZero padding15">{% trans %}Inspection Services{% endtrans %}</h3>
+                            {% for key, url in inspections %}
+                                <a href="{{url}}">{{key}}</a><br>
+                            {% endfor %}
+                            <h3 class="marginZero padding15"> {% trans %}Audits{% endtrans %}</h3>
+                            {% for key, url in audits %}
+                                <a href="{{url}}">{{key}}</a><br>
+                            {% endfor %}
+                            <h3 class="marginZero padding15">{% trans %}Testing Services{% endtrans %}</h3>
+                            {% for key, url in labtests %}
+                                <a href="{{url}}">{{key}}</a><br>
+                            {% endfor %}
+                            <h3 class="marginZero padding15">{% trans %}Service Details{% endtrans %}</h3>
+                            {% for key, url in serviceDetails %}
+                                <a href="{{url}}">{{key}}</a><br>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div id="sitemapColumn">
+                        <h2><a href="/quality-control-services-by-industry" style="color:black;">{% trans %}Industries{% endtrans %}</a></h2>
+                        <div class="marginZero padding15">
+                            {% for key, url in industries %}
+                                <a href="{{url}}">{{key}}</a><br>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div id="sitemapColumn">
+                        <h2>{% trans %}About Us{% endtrans %}</h2>
+                        <div class="sitemapSubDiv">
+                            <h3 class="marginZero padding15">{% trans %}About AsiaInspection{% endtrans %}</h3>
+                            {% for key, url in aboutus %}
+                                <a href="{{url}}">{{key}}</a><br>
+                            {% endfor %}
+                            <h3 class="marginZero padding15">{% trans %}News & Content{% endtrans %}</h3>
+                            {% for key, url in news %}
+                                <a href="{{url}}">{{key}}</a><br>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div id="sitemapColumn">
+                        <h2>{% trans %}Careers{% endtrans %}</h2>
+                        <div class="marginZero padding15">
+                            {% for key, url in careers %}
+                                <a href="{{url}}">{{key}}</a><br>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div id="sitemapColumn">
+                        <h2>{% trans %}Get Started{% endtrans %}</h2>
+                        <div class="marginZero padding15">
+                            <a href="/contact-us">{% trans %}Contact Us{% endtrans %}</a><br>
+                            <a href="/register">{% trans %}Registration{% endtrans %}</a><br>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+ 
+

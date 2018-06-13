@@ -1,0 +1,12 @@
+{% extends '::base.html.twig' %}
+{% block title %}{% if pageTitle is defined %}{{pageTitle}}{% endif %}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined %}{{pageKeywords}}{% endif %}{% endblock %}
+
+{% block body %}
+    <div class="container wrapper mainBlock">
+        {% block mainBlock %}{% endblock %}
+    </div>
+{% endblock %}
+
+{% block footer %}{% endblock %}

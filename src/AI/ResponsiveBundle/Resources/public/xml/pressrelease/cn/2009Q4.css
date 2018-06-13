@@ -1,0 +1,21 @@
+#block-para{
+	width:410px;
+	float:left;
+}
+#picture{
+	float:left;
+	text-align:center;
+	font-style:italic;
+	margin-top:14px;
+	margin-left:10px;
+}
+#picture p{
+	width:213px;
+	margin: 0px 0px 0px 0px;
+}
+a{
+	color:#385090;
+}
+h2{
+	font-size:14px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="description" content="{% block pageDescription %}{% endblock %}">
+        <meta name="keywords" content="{% block pageKeywords %}{% endblock %}">
+        <title>{% block title %}Asia Inspection{% endblock %}</title>
+        {% if tracking.head is defined %} {{tracking.head|raw}} {% endif %}
+        {% block stylesheets %}
+            {%stylesheets '@AIResponsiveBundle/Resources/public/css/mobile.css'%}
+                <link type="text/css" media="screen" href="{{asset_url}}" rel="stylesheet"/>
+            {%endstylesheets%}
+        {% endblock %}
+        {% block javascripts %}
+            <script src="{{asset('/js/jquery-1.11.2.min.js')}}"></script>
+            {% javascripts '@AIResponsiveBundle/Resources/public/js/mobile.js' filter='?uglifyjs2' %}
+                <script src="{{asset_url}}"></script>
+            {% endjavascripts %}
+        {% endblock %}
+
+    </head>
+    <body class="page">
+        <div id="wrapper">
+            <div id="page_{%block pagename%}{%endblock%}" class="container">
+            {% block body %}{% endblock %}
+            </div>
+        </div>
+        <footer>
+            <span class="copyright">AsiaInspection © 1997 - {{'now'|date('Y')}}</span>
+        </footer>
+        {% if tracking.body is defined %} {{tracking.body|raw}} {% endif %}
+    </body>
+</html>

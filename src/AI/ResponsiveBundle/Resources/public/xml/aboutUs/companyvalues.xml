@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>AsiaInspection - Company Values &amp; Corporate Culture</en>
+			<es>Responsabilidad Social | Asiainspection.com</es>
+			<ar>المسؤلية الإجتماعية لشركتنا</ar>
+			<fr>Responsabilité sociétale - A propos d'AsiaInspection | AsiaInspection.fr</fr>
+			<zh>关于 AsiaInspection - 社会责任 | ChinaInspection.com</zh>
+			<de>Über AsiaInspection - Soziale Verantwortung AsiaInspection.com</de>
+			<it>Info su AsiaInspection - Responsabilità Sociale | AsiaInspection.it</it>
+			<pt>Sobre a AsiaInspection - Responsabilidade social | AsiaInspection.pt</pt>
+			<ru>Социальная ответственность |AsiaInspection</ru>
+			<tr>AsiaInspection - Şirket Değerleri ve Kurumsal Kültür</tr>
+		</pageTitle>
+		<pageDesc>
+			<en>AsiaInspection promotes a corporate culture based on 8 values. Find our company values and learn more about AsiaInspection here.</en>
+			<es>Responsabilidad Social en China y Asia</es>
+			<ar>تتميز شركتنا بالمسؤلية والحفاظ علي سلامة معلومات عملائها، كما تتميز شركتنا بالآمانة والشفافية</ar>
+			<fr>Nos valeurs et notre responsabilité sociétale.</fr>
+			<ru>AsiaInspection продвигает корпоративную культуру, основанную на 8 принципах. Здесь вы можете узнать подробнее о ценностях нашей компании и получить другую информацию об AsiaInspection.</ru>
+			<tr>AsiaInspection 8 değeri temel alan bir kurumsal kültürü teşvik etmektedir. Buradan şirket değerlerimizi görün ve AsiaInspection hakkında daha fazla bilgi alın.</tr>
+			<pt>A AsiaInspection promove uma cultura empresarial com base em 8 valores. Descubra mais sobre os valores da nossa empresa e saiba mais sobre a AsiaInspection aqui.</pt>
+		</pageDesc>
+	</pageMeta>
+
+	<en>
+		<valuesTitle>Our Company Values</valuesTitle>
+		<valuesSubtext>AsiaInspection promotes a corporate culture based on the following 8 values.</valuesSubtext>
+		<value>
+			<title>CLIENT FIRST</title>
+			<content>Our aim is to make our clients more successful in what they do. We decide and act first and foremost to earn the respect and satisfaction of our clients. We seek and listen carefully to their feedback.</content>
+		</value>
+		<value>
+			<title>INTEGRITY</title>
+			<content>We sell trust. We make no compromise on integrity and honesty, and maintain the highest ethical standards in everything we do. </content>
+		</value>
+		<value>
+			<title>A PEOPLE COMPANY</title>
+			<content>Our wealth is our people. We value talent and strive to attract and retain the best people.  We grow each individual through peer-to-peer training whilst encouraging each of them to develop a personal sense of accountability.</content>
+		</value>
+		<value>
+			<title>SIMPLICITY</title>
+			<content>We strive to make our clients' experience easier by proposing intuitive and simple solutions.</content>
+		</value>
+		<value>
+			<title>SHREWD INNOVATORS</title>
+			<content>We embrace change. By focusing on new technologies and benchmarking, we find efficient solutions to maintain our high standard of success.</content>
+		</value>
+		<value>
+			<title>COURAGE</title>
+			<content>We measure our performance and deliverables analytically and do not hide when we fail. We confront issues openly and act swiftly to tackle them. We do not look at the past or for excuses, we look ahead and find solutions.</content>
+		</value>
+		<value>
+			<title>DIVERSITY</title>
+			<content>We embrace our different cultures and take the best of what each of them has to offer. This is our treasure.</content>
+		</value>
+		<value>
+			<title>SOCIAL PURPOSE</title>
+			<content>We are proud to bring trust to trade globally, help improve consumer safety and working conditions and train local experts to global standards.</content>
+		</value>
+	</en>
+
+	<zh>
+		<valuesTitle>我们的八个价值理念</valuesTitle>
+		<valuesSubtext>AsiaInspection提倡基于以下8个理念的企业文化。</valuesSubtext>
+		<value>
+			<title>客户第一</title>
+			<content>我们秉持以帮助客户在其从事行业取得持续成功作为企业目标。我们想客户所想，急客户所急，以赢取客户的满意及信任。我们追求并认真聆听客户的意见。</content>
+		</value>
+		<value>
+			<title>诚信正直</title>
+			<content>我们销售的是信任。 无论做任何事情，我们都要维持最高的道德标准。在诚信正直面前，我们绝对不妥协。</content>
+		</value>
+		<value>
+			<title>以人为本</title>
+			<content>我们的员工是公司最大的财富。我们吸引人才、培养人才、重用人才、留住人才。我们采取一对一的培训形式，帮助员工发展，培养员工的责任感。</content>
+		</value>
+		<value>
+			<title>从简择优</title>
+			<content>我们竭尽所能，为客户提供最简便优化的解决方案及用户体验。</content>
+		</value>
+		<value>
+			<title>敏锐创新</title>
+			<content>我们勇于改变创新。聚焦最新科技以及行业基准，追求最快捷有效的方法以维系成功标准。</content>
+		</value>
+		<value>
+			<title>勇于承担</title>
+			<content>我们系统分析及衡量我们的工作业绩及表现。我们敢于面对问题，迅速行动，克服困难。我们不会只回顾过去、寻找借口；我们面对未来，解决问题。</content>
+		</value>
+		<value>
+			<title>多样文化</title>
+			<content>我们接纳各种不同文化并且学优取精。这是是我们的宝贵财富。</content>
+		</value>
+		<value>
+			<title>社会目的</title>
+			<content>我们以能将诚信带到全球贸易为豪。我们致力于帮助提高消费品的安全性、改善工作环境及培养本地人才向国际化。</content>
+		</value>
+	</zh>
+
+	<fr>
+		<valuesTitle>Nos 8 Valeurs</valuesTitle>
+		<valuesSubtext>La culture d'entreprise chez AsiaInspection repose sur les valeurs suivantes:</valuesSubtext>
+		<value>
+			<title>LE CLIENT D'ABORD</title>
+			<content>Notre but est d'aider nos clients à réussir ce qu'ils entreprennent. Nos décisions et actions sont en premier lieu dédiées à obtenir le respect et la satisfaction de nos clients. Nous sollicitons et écoutons attentivement leurs retours.</content>
+		</value>
+		<value>
+			<title>INTEGRITE</title>
+			<content>Nous vendons de la confiance. Nous ne faisons aucun compromis sur l'intégrité et l'honnêteté, et maintenons l'exigence éthique la plus stricte dans tout ce que nous faisons.</content>
+		</value>
+		<value>
+			<title>UNE SOCIETE DE PERSONNES</title>
+			<content>Notre richesse, ce sont nos employés. Nous valorisons le talent et nous nous efforçons d'attirer et de garder les meilleures ressources. Nous faisons progresser chaque individu par le partage des connaissances et nous encourageons chacun à prendre conscience de ses propres responsabilités.</content>
+		</value>
+		<value>
+			<title>SIMPLICITE</title>
+			<content>Nous nous efforçons de rendre l'expérience de nos clients plus simple en proposant des solutions intuitives et faciles à utiliser.</content>
+		</value>
+		<value>
+			<title>DES INNOVATEURS ASTUCIEUX</title>
+			<content>Le changement fait partie de notre quotidien. Pour maintenir notre exigence de succès, nous apportons des solutions innovantes plus efficaces en privilégiant les nouvelles technologies et le benchmarking.</content>
+		</value>
+		<value>
+			<title>COURAGE</title>
+			<content>Nous mesurons précisément notre performance et nos résultats, et ne nous cachons pas en cas d'échec. Nous affrontons sereinement les problèmes, et agissons rapidement pour les résoudre. Nous ne cherchons pas d'excuses, nous regardons devant nous et trouvons des solutions.</content>
+		</value>
+		<value>
+			<title>DIVERSITE</title>
+			<content>Nous chérissons les différentes cultures de nos équipes et prenons le meilleur de chacune. Cette diversité constitue notre trésor.</content>
+		</value>
+		<value>
+			<title>OBJECTIF SOCIETAL</title>
+			<content>Nous sommes fiers d'aider à accroitre la confiance dans le commerce international, d'œuvrer pour améliorer la sécurité des consommateurs et de former des experts locaux aux standards internationaux.</content>
+		</value>
+	</fr>
+
+	<ar>
+
+		<valuesTitle>قيم شركتنا</valuesTitle>
+		<valuesSubtext>تعزز شركة AsiaInspection ثقافة مؤسسية بالاستناد إلى القيم التالية:</valuesSubtext>
+		<value>
+			<title>العميل أولاً</title>
+			<content>نسعى إلى مساعدة عملائنا ليكونوا أكثر نجاحًا في أعمالهم. وتهدف قراراتنا وأفعالنا أولاً وقبل كل شيء إلى اكتساب احترام عملائنا ورضاهم. نسعى إلى الحصول على ملاحظاتهم ونصغي إليها بإمعان.</content>
+		</value>
+		<value>
+			<title>النزاهة</title>
+			<content>تستند كل مبيعاتنا إلى الثقة. لا نساوم أبدًا على نزاهتنا وصدقنا ونحافظ على أعلى المعايير الأخلاقية في كل أعمالنا.</content>
+		</value>
+		<value>
+			<title>شركة قائمة على مهارة الأفراد</title>
+			<content>العاملون لدينا هم ثروتنا. نحن نقدر المهارة ونسعى جاهدين لجذب أفضل المهارات والحفاظ عليها. نعمل على تنمية كل فرد عبر التدريب من الزملاء مع تشجيع كل منهم على تطوير روح المسؤولية الشخصية.
+			</content>
+		</value>
+		<value>
+			<title>البساطة</title>
+			<content>نسعى جاهدين على جعل تجربة العملاء أسهل عبر اقتراح حلول بسيطة وسهلة.
+			</content>
+		</value>
+		<value>
+			<title>المبتكرون المبدعون</title>
+			<content>نحن نشجع التغيير. عبر التركيز على التقنيات والمعايير الجديدة، نصل إلى حلول فعالة للحفاظ على معايير عالية للنجاح.
+			</content>
+		</value>
+		<value>
+			<title>الشجاعة</title>
+			<content>نعمل على قياس أداءنا وأهدافنا بطريقة تحليلة ولا نعمد إلى إخفاء فشلنا. فنحن نواجه المشكلات بانفتاح ونعمل بسرعة على حلها. نحن لا ننظر إلى الماضي أو نبحث عن الأعذار، بل إننا نتطلع إلى المستقبل ونعمل على العثور على حلول.
+			</content>
+		</value>
+		<value>
+			<title>التنوع</title>
+			<content>نعتز بتنوع ثقافاتنا ونستفيد من أفضل ما تقدمه كل منها؛ فهذه هي ثروتنا.
+			</content>
+		</value>
+		<value>
+			<title>الهدف الاجتماعي</title>
+			<content>نفتخر بتوفير الثقة في التجارة العالمية والمساعدة في تحسين أمان المستهلك وظروف العمل وتدريب خبراء محليين وفقًا لمعايير عالمية.
+			</content>
+		</value>
+	</ar>
+
+	<es>
+		<valuesTitle>Los valores de nuestra empresa</valuesTitle>
+		<valuesSubtext>AsiaInspection promueve una cultura empresarial basada en los siguientes valores:</valuesSubtext>
+		<value>
+			<title>EL CLIENTE ES LO PRIMERO</title>
+			<content>Nuestro propósito es hacer que nuestros clientes tengan más éxito en las actividades que desempeñan. Nuestros actos y decisiones van más allá para conseguir el respeto y satisfacción de ellos. Estamos atentos a sus ideas y comentarios.</content>
+		</value>
+		<value>
+			<title>INTEGRIDAD</title>
+			<content>Vendemos confianza. No cedemos en cuanto a integridad y honestidad se refiere, y mantenemos los mayores estándares éticos en todo lo que hacemos.</content>
+		</value>
+		<value>
+			<title>UNA EMPRESA COMPROMETIDA CON LAS PERSONAS</title>
+			<content>Nuestra riqueza radica en nuestro personal. Valoramos el talento y nos esforzamos por conseguir y conservar un personal debidamente cualificado. Cada persona progresa a través de una formación “entre iguales”, y motivamos a cada una de ellas a desarrollar un sentido personal de responsabilidad.</content>
+		</value>
+		<value>
+			<title>SIMPLICIDAD</title>
+			<content>Nos esforzamos por facilitar la experiencia de nuestros clientes por medio de soluciones sencillas e intuitivas.</content>
+		</value>
+		<value>
+			<title>INNOVACIÓN INTELIGENTE</title>
+			<content>Estamos abiertos al cambio. Enfocándonos en nuevas tecnologías y en las transformaciones del mercado, encontramos soluciones eficaces para conservar nuestros altos niveles de éxito.</content>
+		</value>
+		<value>
+			<title>VALOR</title>
+			<content>Medimos nuestro desempeño y resultados analíticamente y no ocultamos nuestros fallos. Hacemos frente a los problemas abiertamente y actuamos con rapidez para abordarlos. No nos enfocamos en el pasado ni buscamos excusas; miramos al frente y encontramos soluciones.</content>
+		</value>
+		<value>
+			<title>DIVERSIDAD</title>
+			<content>Valoramos la diversidad cultural y tomamos lo mejor que cada persona tiene para ofrecer. Esta es nuestra mayor riqueza.</content>
+		</value>
+		<value>
+			<title>CAUSA SOCIAL</title>
+			<content>Nos enorgullece aportar confianza al comercio internacional. Ayudar a mejorar la seguridad de los consumidores y de las condiciones de trabajo, así como formar a los expertos locales en estándares mundiales.</content>
+		</value>
+	</es>
+
+	<ru>
+		<valuesTitle>Ценности компании</valuesTitle>
+		<valuesSubtext>AsiaInspection поддерживает корпоративную культуру, основывающуюся на следующих ценностях:</valuesSubtext>
+		<value>
+			<title>ЦЕННОСТЬ КЛИЕНТОВ</title>
+			<content>Наша цель — в достижении успеха наших клиентов. Все наши решения и действия нацелены в первую очередь на достижение удовлетворения и завоевания уважения наших клиентов. Мы всегда рады отзывам наших клиентов и внимательно прислушиваемся к ним.</content>
+		</value>
+		<value>
+			<title>ЧЕСТНОСТЬ</title>
+			<content>Наш бизнес основан на доверии. Мы никогда не поступимся честностью и поддерживаем высокие этические стандарты во всех направлениях нашей деятельности.</content>
+		</value>
+		<value>
+			<title>КОМПАНИЯ С ОРИЕНТАЦИЕЙ НА ЛЮДЕЙ</title>
+			<content>Люди — наш капитал. Мы ценим таланты и стремимся привлечь лучших специалистов. Каждый из наших работников растет профессионально вместе со своими коллегами, развивая свою личную ответственность.</content>
+		</value>
+		<value>
+			<title>ПРОСТОТА</title>
+			<content>Мы стремимся облегчить работу наших клиентов с помощью простых и интуитивных решений.</content>
+		</value>
+		<value>
+			<title>ПРАКТИЧНЫЕ ИННОВАЦИИ</title>
+			<content>Мы приветствуем новое. Сосредоточив внимание на новых технологиях и эталонном анализе, мы находим эффективные решения для поддержания высоких стандартов и успешных показателей.</content>
+		</value>
+		<value>
+			<title>ПРИНЦИПИАЛЬНОСТЬ</title>
+			<content>Мы используем аналитический подход при оценке своей работы и ее результатов и не ищем отговорок, когда сталкиваемся с неудачами. Мы решаем проблемы в открытую и действуем стремительно при их решении. Мы не оглядываемся назад в поисках оправданий, а твердо смотрим вперед и ищем решения.</content>
+		</value>
+		<value>
+			<title>РАЗНООБРАЗИЕ</title>
+			<content>Мы открыты для всех культур и берем от каждой самое лучшее. В этом наше богатство.</content>
+		</value>
+		<value>
+			<title>СОЦИАЛЬНАЯ ЦЕЛЬ</title>
+			<content>Мы работаем на создание доверия в мировой торговле, улучшение потребительской безопасности и рабочих условий, а также обучаем местных экспертов в соответствии с мировыми стандартами.</content>
+		</value>
+	</ru>
+
+	<de>
+		<valuesTitle>Unsere 8 Werte</valuesTitle>
+		<valuesSubtext>Die Unternehmenskultur von AsiaInspection ist von den folgenden Werten geprägt:</valuesSubtext>
+		<value>
+			<title>DER KUNDE STEHT AN ERSTER STELLE</title>
+			<content>Wir möchten unseren Kunden zu größeren Erfolgen verhelfen. Unsere Entscheidungen und Handlungen sind darauf ausgerichtet, die Zufriedenheit und den Respekt unserer Kunden zu verdienen. Wir legen Wert auf die Meinung unserer Kunden und hören ihnen zu.</content>
+		</value>
+		<value>
+			<title>INTEGRITÄT</title>
+			<content>Vertrauen ist die Grundlage unseres Geschäfts. In Bezug auf Integrität und Aufrichtigkeit gehen wir keine Kompromisse ein, und all unsere Handlungen beruhen auf höchsten ethischen Standards.</content>
+		</value>
+		<value>
+			<title>EIN MENSCHENNAHES UNTERNEHMEN</title>
+			<content>Unsere Mitarbeiter sind unsere wichtigste Ressource. Wir wissen Kompetenz zu schätzen und versuchen stets, die besten Mitarbeiter zu finden und zu binden. Jeder Mitarbeiter wird von Kollegen angelernt und gleichzeitig dazu ermutigt, mit Verantwortungsbewusstsein zu handeln.</content>
+		</value>
+		<value>
+			<title>EINFACHHEIT</title>
+			<content>Wir überzeugen unsere Kunden mit intuitiven und einfachen Lösungen.</content>
+		</value>
+		<value>
+			<title>INNOVATION</title>
+			<content>Wir sind offen für Veränderungen. Neue Technologien und die Festlegung von Leistungskennzahlen ermöglichen es uns, effiziente Lösungen zur Wahrung unserer Erfolgsstandards zu finden.</content>
+		</value>
+		<value>
+			<title>MUT</title>
+			<content>Wir analysieren unsere Leistung und unsere Services und versuchen nicht, Fehler zu verbergen. Probleme werden offen angesprochen und zügig behoben. Wir schieben Probleme nicht auf die Vergangenheit, sondern blicken nach vorn, um Lösungen zu finden.</content>
+		</value>
+		<value>
+			<title>MULTIKULTURALITÄT</title>
+			<content>Wir wissen unterschiedliche Kulturen zu schätzen und nutzen ihre jeweiligen Vorteile. Das ist unsere größte Stärke.</content>
+		</value>
+		<value>
+			<title>SOZIALES ENGAGEMENT</title>
+			<content>Wir sind stolz darauf, vertrauenswürdigen globalen Handel zu betreiben, die Verbesserung von Verbrauchersicherheit und Arbeitsbedingungen zu unterstützen und lokale Experten anhand weltweit geltender Standards zu schulen.</content>
+		</value>
+	</de>
+
+	<it>
+		<valuesTitle>I nostri valori aziendali</valuesTitle>
+		<valuesSubtext>AsiaInspection promuove una cultura aziendale basata sui seguenti valori:</valuesSubtext>
+		<value>
+			<title>IL CLIENTE PRIMA DI TUTTO</title>
+			<content>Il nostro obiettivo è fare in modo che i nostri clienti abbiano maggiore successo in quello che fanno. Le nostre decisioni e le nostre azioni sono volte principalmente a ottenere il rispetto e la soddisfazione dei nostri clienti. Ricerchiamo le loro opinioni e le ascoltiamo con attenzione.</content>
+		</value>
+		<value>
+			<title>INTEGRITÀ</title>
+			<content>Noi vendiamo fiducia. Non accettiamo alcun compromesso in merito a integrità e onestà e ci atteniamo ai più elevati standard etici in tutto quello che facciamo.</content>
+		</value>
+		<value>
+			<title>UNA SOCIETÀ FATTA DI PERSONE</title>
+			<content>Il nostro personale è la nostra ricchezza. Apprezziamo il talento e cerchiamo di attrarre e trattenere le risorse migliori. Promuoviamo la crescita di ogni dipendente attraverso la formazione inter pares e incoraggiamo allo stesso tempo ogni dipendente a sviluppare un senso di responsabilità personale.</content>
+		</value>
+		<value>
+			<title>SEMPLICITÀ</title>
+			<content>Cerchiamo di semplificare l'esperienza dei nostri clienti proponendo soluzioni semplici e intuitive.</content>
+		</value>
+		<value>
+			<title>INNOVAZIONE INTELLIGENTE</title>
+			<content>Siamo favorevoli al cambiamento. Concentrandoci sulle nuove tecnologie e sui test, troviamo soluzioni efficienti per mantenere i nostri elevati standard di successo.</content>
+		</value>
+		<value>
+			<title>CORAGGIO</title>
+			<content>Valutiamo il nostro rendimento e i nostri risultati in modo analitico, senza nascondere il mancato raggiungimento degli obiettivi. Affrontiamo le problematiche apertamente e agiamo in tempi brevi per risolverle. Non guardiamo al passato in cerca di scuse, ma volgiamo lo sguardo al futuro e troviamo soluzioni.</content>
+		</value>
+		<value>
+			<title>DIVERSITÀ</title>
+			<content>Accogliamo le diverse culture presenti nella nostra azienda e valorizziamo il meglio di quello che ognuno ha da offrire. È questo il nostro tesoro.</content>
+		</value>
+		<value>
+			<title>SCOPO SOCIALE</title>
+			<content>Siamo orgogliosi di apportare fiducia nel mercato globale, contribuiamo al miglioramento della sicurezza e delle condizioni lavorative dei clienti e istruiamo esperti locali sugli standard internazionali.</content>
+		</value>
+	</it>
+
+	<pt>
+		<valuesTitle>Os Valores de Nossa Empresa</valuesTitle>
+		<valuesSubtext>A AsiaInspection promove uma cultura corporativa baseada nos seguintes valores:</valuesSubtext>
+		<value>
+			<title>O CLIENTE EM PRIMEIRO LUGAR</title>
+			<content>Nosso objetivo é fazer que nossos clientes tenham mais êxito em suas atividades.  A finalidade de nossas decisões e atuações é obter o maior respeito e satisfação de nossos clientes. Buscamos escutar com atenção as ideias e comentários.</content>
+		</value>
+		<value>
+			<title>INTEGRIDADE</title>
+			<content>Vendemos confiança. Nós não comprometemos nossa integridade e honestidade, mantemos os maiores padrões éticos em tudo o que fazemos.</content>
+		</value>
+		<value>
+			<title>UMA EMPRESSA COMPROMETIDA COM SEUS FUNCIONÁRIOS</title>
+			<content>Nossa riqueza é nosso pessoal. Nós apreciamos o talento e nos esforçamos para atrair e manter os melhores funcionários. Nós ajudamos no crescimento individual de nossos funcionários por meio de um treinamento “peer –to – peer” para desenvolver um senso pessoal de responsabilidade.</content>
+		</value>
+		<value>
+			<title>SIMPLICIDADE</title>
+			<content>Nos esforçamos para facilitar a experiência de nossos clientes oferecendo-lhes soluções intuitivas e simples.</content>
+		</value>
+		<value>
+			<title>INOVAÇÕES INTELIGENTES</title>
+			<content>Nós estamos abertos as mudanças. Atualizados nas novas tecnologias e nastransformações do mercado descobrimos soluções eficientes para manter nosso alto padrão de sucesso.</content>
+		</value>
+		<value>
+			<title>VALOR</title>
+			<content>Nós medimos nosso desempenho e resultados analiticamente e não ocultamos nossas falhas. Dialogamos sobre os problemas abertamentee agimos rapidamente para soluciona-los. Não olhamos o passado e nãoprocuramos desculpas. Sempre olhamos para frentee procuramos soluções.</content>
+		</value>
+		<value>
+			<title>DIVERSIDADE</title>
+			<content>Nós apreciamos a diversidade cultural e escolhemos o melhor que cada um tem para oferecer. Esse é o nosso tesouro.</content>
+		</value>
+		<value>
+			<title>PROPÓSITO SOCIAL</title>
+			<content>Nós estamos orgulhosos de dar confiança ao comércio global, de ajudar a melhorar a segurança e as condições de trabalho e instruir especialistas locais de acordo com os padrões globais.</content>
+		</value>
+	</pt>
+
+	<tr>
+		<valuesTitle>Şirket Değerlerimiz</valuesTitle>
+		<valuesSubtext>AsiaInspection aşağıdaki 8 değeri temel alan bir kurumsal kültürü teşvik etmektedir.</valuesSubtext>
+		<value>
+			<title>ÖNCE MÜŞTERİ</title>
+			<content>Amacımız müşterilerimizi yaptıkları işte daha başarılı olmalarını sağlamaktır. Öncelikle ve en başta müşterilerimizin saygı ve memnuniyetini kazanmaya karar veriyor ve bu şekilde hareket ediyoruz. Geribildirimlerini istiyor ve dikkatle dinliyoruz.</content>
+		</value>
+		<value>
+			<title>DOĞRULUK</title>
+			<content>Güven satıyoruz. Doğruluk ve dürüstlükten ödün vermiyor, yaptığımız her işte etik standartlarını en yüksek seviyede tutuyoruz.</content>
+		</value>
+		<value>
+			<title>BİR AİLE ŞİRKET</title>
+			<content>İnsanlarımız varlığımızdır. Yeteneğe değer veriyor ve en iyileri çekiyor ve elimizde tutuyoruz. Herkesi kişisel bir sorumluluk duygusu geliştirmeye teşvik ederken, birebir eğitimlerle bireysel gelişimi sağlıyoruz.</content>
+		</value>
+		<value>
+			<title>BASİTLİK</title>
+			<content>Sezgisel ve basit çözümler önererek müşterilerimizin denetimlerini kolaylaştırmaya çalışıyoruz.</content>
+		</value>
+		<value>
+			<title>ZEKİ YENİLİKÇİLER</title>
+			<content>Değişimi kucaklıyoruz. Yeni teknolojiler ve değerlendirmelere odaklanarak, yüksek başarı standardımızı koruyacak etkin çözümler buluyoruz.</content>
+		</value>
+		<value>
+			<title>CESARET</title>
+			<content>Analitik olarak performansımızı ve çıktılarımızı ölçüyoruz ve başarısız olduğumuzda bunu saklamıyoruz. Sorunlarla açık şekilde yüzleşiyoruz ve bunların üstesinden gelmek için çabuk hareket ediyoruz. Geçmişe bakmıyor ya da bahaneler aramıyoruz, ileriye bakıyor ve çözümler buluyoruz.</content>
+		</value>
+		<value>
+			<title>ÇEŞİTLİLİK</title>
+			<content>Farklı kültürlerimizi kucaklıyor ve her birinin sunduklarından en iyisini çıkartıyoruz. Bu bizim hazinemiz.</content>
+		</value>
+		<value>
+			<title>SOSYAL AMAÇ</title>
+			<content>Ticarete küresel anlamda güven getirmekle, tüketici güvenini ve çalışma koşullarını iyileştirmekle ve yerel uzmanları global standartlarda eğitmekle gurur duyuyoruz.</content>
+		</value>
+	</tr>
+
+</document>

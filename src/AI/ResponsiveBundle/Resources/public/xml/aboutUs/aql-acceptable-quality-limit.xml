@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>AQL Acceptable Quality Limit - Sampling Table | AQL Standard | AsiaInspection</en>
+			<de>Akzeptables Qualitätslimit (AQL) - Stichproben Tabelle</de>
+			<ar>معايير الجودة</ar>
+			<ru>Стандарты контроля качества - Приемлемый уровень качества (ПУК) | AsiaInspection</ru>
+			<tr>AQL Kabul Edilebilir Kalite Limiti - Örnekleme Tablosu | AQL Standardı | AsiaInspection</tr>
+			<pt>Limite Qualidade Aceitável AQL - Tabela de Amostragem | Normas AQL | AsiaInspection</pt>
+		</pageTitle>
+		<pageDesc>
+			<en>We use the internationally recognized AQL (Acceptable Quality Limit) sampling table for product inspections. View the AQL table here and learn more about our sampling methodology.</en>
+			<ar>نحن نستخدم معايير الجودة القياسية المعترف بها دوليا في جميع عمليات فحص المنتجات المستوردة</ar>
+			<ru>Приемлемый уровень качества является инспекционным стандартом, описывающим максимальное количество допустимых дефектов при случайной выборке. </ru>
+			<de>Das akzeptable Qualitätslevel (AQL) wird angewandt, um anhand einer Stichprobe zu bestimmen, ob eine Gesamtlieferung bestimmte Spezifikationen erfüllt.</de>
+			<tr>Ürün muayeneleri için uluslararası olarak tanınmış AQL'yi (Kabul Edilebilir Kalite Limiti örnekleme tablosunu kullanıyoruz. Buradan AQL tablosuna bakın ve örnekleme metodolojimiz hakkında daha fazla bilgi alın.</tr>
+			<pt>Utilizamos as normas de AQL (Nível de Qualidade Aceitável) internacionalmente reconhecidas em todas as inspeções de produto. Ver a tabela de AQL aqui e saiba mais sobre a nossa metodologia de amostragem.</pt>
+		</pageDesc>
+		<pageKeywords>
+			<en>aql sampling table, acceptable quality limit, aql standard</en>
+			<tr>aql örnekleme tablosu, kabul edilebilir kalite limiti, aql standardı</tr>
+			<pt>tabela amostragem aql, limite qualidade aceitável, normas aql</pt>
+		</pageKeywords>
+	</pageMeta>
+
+	<en>
+		<title>Quality Standards</title>
+		<titleSubText>We use the internationally recognized Acceptable Quality Limit (AQL) standard for all product inspections. Clients can set their Acceptable Quality Tolerance level for each inspection and AI will provide results as within or beyond AQL.</titleSubText>
+		<AQLtitle>Acceptable Quality Limit (AQL)</AQLtitle>
+		<AQLtext>
+			<![CDATA[
+			<p>AsiaInspection Inspectors exclusively use ISO 2859 tables to measure AQL. These tables are a United States standard with equivalents in all national and international standardization organizations (ANSI/ASQC Z1.4, NF06-022, BS 6001, DIN 40080).</p>
+			<p>The Acceptable Quality Limit, commonly referred to as AQL, is a method widely used to measure a production order sample to find whether or not the entire product order has met the client's specifications. The customer then has the data to make an informed decision to accept or reject the lot.</p>
+			<p>Your inspection report will clearly state if your production has passed or failed your selected AQL.</p>
+			]]>
+		</AQLtext>
+		<howDoItitle>How do I determine the right sample size and acceptance number?</howDoItitle>
+		<howDoItext>
+			<![CDATA[
+			<p>Our trained account managers will be available to ensure you choose the inspection and AQL that is correct for your needs.</p>
+			<p>For a hypothetical inspection of a production with 4,000 units, with an Acceptable Quality Limit of II, Table A indicates a general inspection level of "L".</p>
+			<p>Referring to Table B row L. For a sample size of 200, with an AQL of 2.5, no more than 10 units may fail for a passed report</p>
+			]]>
+		</howDoItext>
+	</en>
+
+	<de>
+		<title>Qualitätsstandards</title>
+		<titleSubText>Wir benutzen den international anerkannten Akzeptable Qualitätslimit (AQL)-Standard bei allen Produktinspektionen. Dies erlaubt dem Kunden, für jede Inspektion den akzeptablen Toleranzlevel bezüglich der Qualität festzusetzen.</titleSubText>
+		<AQLtitle>Akzeptables Qualitätslimit (AQL)</AQLtitle>
+		<AQLtext>
+			<![CDATA[
+			<p>AsiaInspection-Inspektoren benutzen ausschließlich die ISO 2859-Tabellen, um den AQL zu bestimmen. Diese Tabellen sind ein U.S. Standradmit Entsprechungen in allen nationalen und internationalen Standardisierungsorganisationen (ANSI/ASQC Z1.4, NF06-022, BS 6001, DIN 40080).</p>
+			<p>Das akzeptable Qualitätslevel, auch bekannt als AQL, ist eine Methode, die weithin angewandt wird, um aus einer Lieferprobe heraus zu bestimmen, ob die Gesamtlieferung die Spezifikationen des Kunden erfüllt. Der Kunde hat nun die Daten, die er braucht, um eine informationsbasierte Entscheidung zu treffen, ob er die Lieferung akzeptiert oder ablehnt.</p>
+			<p>Ihr Inspektionsbericht wird klar zeigen, ob Ihre Produktion den gewählten AQL erfüllt oder nicht.</p>
+			]]>
+		</AQLtext>
+		<howDoItitle>Wie bestimme ich die richtige Probenmenge und die Akzeptanzzahl?</howDoItitle>
+		<howDoItext>
+			<![CDATA[
+			<p>Unsere ausgebildeten Account-Manager helfen Ihnen dabei, dass sie sicher die richtige Inspektion und den passenden AQL für Ihre Bedürfnisse wählen.</p>
+			<p>Für eine hypothetische Inspektion einer Produktion von 4000 Einheiten mit einem akzeptierten Qualitätslimit von II zeigt Tabelle A einen generellen Inspektionslevel von „L“.</p>
+			<p>Bezogen auf Tabelle B Zeile L. Bei einer Probengröße von 200 dürfen bei einem AQL von 2.5 nicht mehr als 10 Teile durchfallen, damit der Test als bestanden gilt.</p>
+			]]>
+		</howDoItext>
+	</de>
+
+	<zh>
+		<title>质量标准</title>
+		<titleSubText>我们使用国际公认的AQL标准（可接受质量标准）对所有产品进行质量检测。对每项检测，客户都可依此标准制定可接受的质量水平。</titleSubText>
+		<AQLtitle>验收合格标准 (AQL)</AQLtitle>
+		<AQLtext>
+			<![CDATA[
+			<p>AsiaInspection 的检测员根据 ISO2859 标准来计算需检验的产品的AQL值。该项标准源于美国，它等同于其他所有国际及国家标准组织的质量检验标准 (ANSI/ASQC Z1.4, NF06-022, BS 6001 和 DIN 40080)。</p>
+			<p>AQL通称为可接受质量标准，即可接受质量水平，是一种被广泛应用的抽样检验方法，用于确定生产是否在整体上符合客户的质量标准及规范。客户可凭此参数准确判断接受或拒绝这批产品。</p>
+			<p>无论产品是否通过您的AQL水平，我们都将在检测报告上详细明确标明。</p>
+			]]>
+		</AQLtext>
+		<howDoItitle>如何准确制定抽样数量和允收数量？</howDoItitle>
+		<howDoItext>
+			<![CDATA[
+			<p>我们的客户经理将协助您，确保能正确选择检测项目及最符合您需要的AQL。</p>
+			<p>假设对某批次4000件产品进行质检，根据验收合格标准II，表A显示检测水平应为“L”。</p>
+			<p>根据表B中L行，抽样数量应为200件，按照验收质量标准2.5，则相应的允收数量应不超过10。</p>
+			]]>
+		</howDoItext>
+	</zh>
+
+	<fr>
+		<title>Standards de qualité</title>
+		<titleSubText>Nous utilisons la méthode reconnue d'échantillonnage pour acceptation (AQL) pour toutes nos Inspections de produits. Ceci permet à nos clients de définir leur seuil de tolérance qualité pour leur contrôle qualité. </titleSubText>
+		<AQLtitle>Echantillonnage pour acceptation (AQL)</AQLtitle>
+		<AQLtext>
+			<![CDATA[
+			<p>Les inspecteurs d'AsiaInspection utilisent en Asie la norme ISO 2859 (également appeléé tableaux NQA) pour mesurer les niveaux de qualité acceptables: Ces tableaux sont une norme américaine ayant des équivalents dans tous les instituts nationaux ou internationaux de normalisation (ANSI/ASQC Z1.4, NF06-022, BS 6001, DIN 40080).</p>
+			<p>L'échantillonnage pour acceptation (AQL), est une méthode éprouvée pour déterminer la taille de l'échantillon de production à tester puis vérifier si une commande respecte les standards de qualité et le cahier des charges. Le client possède alors les informations nécessaires pour accepter ou rejeter sa commande auprès de son fournisseur.</p>
+			<p>Votre rapport d'Inspection signifiera clairement si votre production est conforme à votre AQL sélectionné.</p>
+			]]>
+		</AQLtext>
+		<howDoItitle>Comment déterminer la taille de l'échantillon et le numéro d'acceptation?</howDoItitle>
+		<howDoItext>
+			<![CDATA[
+			<p>Nos chargés de compte vous aideront à choisir le NQA correspondant aux besoins de votre inspection.</p>
+			<p>Pour une hypothétique inspection d'un lot de 4000 unités, avec un niveau d'échantillonnage II, la table A indique que l'échantillon doit comprendre 200 unités.</p>
+			<p>Ensuite, la table B indique que pour un AQL de 2,5, le lot est accepté jusqu'à 10 défauts trouvés et rejeté au-delà.</p>
+			]]>
+		</howDoItext>
+	</fr>
+	<ar>
+		<title>معايير الجودة</title>
+		<titleSubText>تستخدم الشركة مستويات الجودة القياسية (AQL) المعترف بها دوليآ في جميع عمليات فحص المنتجات الخاصة بعملائنا ، و مما يسمح لعملائنا بتحديد مستويات التسامح الملائمة لهم</titleSubText>
+		<AQLtitle>معايير الجودة المقبولة (AQL)</AQLtitle>
+		<AQLtext>
+			<![CDATA[
+			<p>جميع مفتشي الشركة يستخدمون حصريآ جداول ISO 2859 لتحديد معايير الجودة المقبولة وهذه الجداول تستخدم كمعايير قياسية في الولايات المتحدة الامريكية و تعادل جميع المعايير القياسية في كل المنظمات الدولية و المحلية (ANSI/ASQC Z1.4, NF06-022, BS 6001, DIN 40080).</p>
+			<p>"تستخدم الشركة مستويات الجودة القياسية (AQL) المعترف بها دوليآ في جميع عمليات فحص المنتجات الخاصة بعملائنا ، و مما يسمح لعملائنا بتحديد مستويات التسامح الملائمة لهم
+نهتم بمصالحك داخل المصنع و نقوم بعمليات الفحص بناءآ علي المواصفات التي تحددها أو علي أساس العينة مرجعية الفحص التي نتسلمها من جانبك. نقدم لك تقارير مفصلة مع الصور مما يتيح لك إتخاذ قرار مدروسآ بالقبول أو بالرفض"</p>
+			<p>التقرير الخاص بمنجاتك سوف يوضحلك بكل سهولة إذا نجح أو فشل المنتج في إختبارات المعايير القياسية المقبولة</p>
+			]]>
+		</AQLtext>
+		<howDoItitle>كيف يمكنني تحديد حجم العينة المناسب و الاعداد المقبولة</howDoItitle>
+		<howDoItext>
+			<![CDATA[
+			<p>مدير الحساب الخاص بك لدية تدريب عالي و سوف يقوم بمساعدتك في إختيار الفحوصات و معايير الجودة المقبولة المناسبة لمنتجاتك</p>
+			<p>لإجراء تفتيش افتراضي لإنتاج 4،000 وحدة  مع مستوى الجودة المقبول الثاني، الجدول .A يدل على مستوى المفتشية العامة لل"L".</p>
+			<p>مشيرا إلى صف الجدول L. B للحصول على حجم عينة من 200، مع AQL 2.5، قد لا يزيد عن ١٠ وحدات  فاشلة لكي ينجح هذا التقرير</p>
+			]]>
+		</howDoItext>
+	</ar>
+	<es>
+		<title>Estándares de Calidad</title>
+		<titleSubText>Utilizamos los estándares de Nivel de Calidad Aceptable (AQL) internacionalmente reconocidos en todas las inspecciones de productos. Para cada inspección, el cliente puede seleccionar sus niveles de tolerancia de calidad y AI proporcionará resultados iguales o por encima del AQL</titleSubText>
+		<AQLtitle>Nivel de Calidad Aceptable (AQL)</AQLtitle>
+		<AQLtext>
+			<![CDATA[
+			<p>El Nivel de Calidad Aceptable, comúnmente llamado AQL, es un método muy utilizado para medir una muestra de un pedido de producción para determinar si el pedido en su totalidad cumple los estándares de calidad y especificaciones del cliente. Así podrá contar con información suficiente como para tomar una decisión informada para aceptar o rechazar la producción.</p>
+			<p>Los inspectores de AsiaInspection utilizan las tablas ISO 2859 para medir el AQL del producto que inspeccionan. Esas tablas son una normativa estadounidense con equivalentes en todas las organizaciones de normalización nacionales e internacionales (ANSI/ASQC Z1.4, ISO 2859, NF06-022, BS 6001, DIN 40080).</p>
+			<p>Su informe de inspección detallará claramente si la producción pasa o no su nivel AQL establecido.</p>
+			]]>
+		</AQLtext>
+		<howDoItitle>¿Cómo determino el tamaño de muestra y número de aceptación correcto?</howDoItitle>
+		<howDoItext>
+			<![CDATA[
+			<p>Su consultor personal está a su disposición para asegurarse que elige la inspección y AQL correctos acorde con sus necesidades.</p>
+			<p>Para una inspección hipotética de una producción de 4.000 unidades, con un Nivel de Calidad Aceptable II, la Tabla A indica un nivel de inspección general "L".</p>
+			<p>En lo que se refiere a la Tabla B, fila L. Para un tamaño de muestra de 200 unidades, con un Nivel de Calidad Aceptable de 2.5, para considerar el control como aceptable, el tope máximo de unidades defectuosas debe ser 10.</p>
+			]]>
+		</howDoItext>
+	</es>
+	<ru>
+		<title>Стандарты качества</title>
+		<titleSubText>Мы используем международно признанный стандарт приемлемого уровня качества для всех проверок продукции. Для каждой проверки  клиент может установить собственный приемлемый уровень качества.</titleSubText>
+		<AQLtitle>Приемлемый уровень качества</AQLtitle>
+		<AQLtext>
+			<![CDATA[
+			<p>Инспекторы AsiaInspection используют эксклюзивные таблицы ISO 2859 для измерения приемлемого уровня качества. Данные таблицы соответствуют стандартам США с эквивалентами для всех национальных и международных оргнизаций (ANSI/ASQC Z1.4, NF06-022, BS 6001, DIN 40080).</p>
+			<p>Приемлемый уровень качества является методом, широко используемым для измерения и оценки образца продукции с целью определения, соответствует ли изделие требованиям клента. Клиент получает данные для принятия обдуманного решения по принятию продукции или отказу от нее.</p>
+			<p>В отчете о проверке будет ясно указано, прошла ли продукция по указанному Вами приемлемому уровню качества.</p>
+			]]>
+		</AQLtext>
+		<howDoItitle>Как определить правильный размер образца и приемочное число изделий?</howDoItitle>
+		<howDoItext>
+			<![CDATA[
+			<p>Наши обученные менеджеры проектов помогут Вам выбрать тип проверки и приемлемый уровень качества, отвечающий Вашим нуждам.</p>
+			<p>Для гипотетической проверки прозводства 4000 единиц продукции с приемлемым уровнем качества II таблица А указывает общий уровень проверки "L". </p>
+			<p>В соответствии с таблицей B, ряд L для образца размера 200 с приемлемым уровнем качества 2,5 для положительной оценки в отчете не пройти по качеству могут только 10 единиц продукции.</p>
+			]]>
+		</howDoItext>
+	</ru>
+
+	<tr>
+		<title>Kalite Standartları</title>
+		<titleSubText>Tüm ürün muayeneleri için uluslararası olarak tanınmış Kabul Edilebilir Kalite Limiti'ni (AQL) kullanıyoruz. Müşteriler her muayene için kendi Kabul Eidlebilir Kalite Tolerans  seviyelerini belirleyebilirler ve AI AQL içerisinde ya da ötesinde sonuçları verecektir.</titleSubText>
+		<AQLtitle>Kabul Edilebilir Kalite Limiti (AQL)</AQLtitle>
+		<AQLtext>
+			<![CDATA[
+			<p>AsiaInspection Denetçileri AQL ölçümü için yalnızca ISO 2859 tablolarını kullanırlar. Bu tablolar tüm unusual ve uluslararası standardizasyon kurumlarının (ANSI/ASQC Z1.4, NF06-022, BS 6001, DIN 40080) eşdeğerlerinin bulunduğu bir Birleşik Devletler standardıdır.</p>
+			<p>Genellikle AQL olarak anılan Kabul Edilebilir Kalite Limiti tüm ürün siparişinin müşterinin şartnamelerini karşılayıp karşılamadığını bulmak için bir üretim emri numunesinin ölçümünde yaygın olarak kullanılan bir yöntemdir. Bu durumda müşteri partiyi kabul ya da reddetmek için bilinçli bir karar verecek verilere sahiptir.</p>
+			<p>Muayene raporunuz üretiminizin seçtiğiniz AQL'yi geçip geçmediğini açıkça gösterecektir.</p>
+			]]>
+		</AQLtext>
+		<howDoItitle>Doğru numune boyu ve kabul numarasını nasıl belirleyeceğim?</howDoItitle>
+		<howDoItext>
+			<![CDATA[
+			<p>Eğitimli hesap yöneticilerimiz muayeneyi ve ihtiyaçlarınız için doğru AQL'yi seçmenizi sağlamak için hazır olacaklardır.</p>
+			<p>Kabul Edilebilir Kalite Limiti II olan 4000 birimlik bir üretimin farazi muayenesi için, Tablo A'da genel muayene seviyesi "L" gösterilmektedir.</p>
+			<p>Tablo B'ye atfen sıra L. 2.5 AQL ile 200'lük bir numuna boyu için, geçer bir rapor için en fazla 10 birim başarısız olabilir.</p>
+			]]>
+		</howDoItext>
+	</tr>
+
+	<pt>
+		<title>Normas de Qualidade</title>
+		<titleSubText>Utilizamos as normas de Nível de Qualidade Aceitável (AQL) internacionalmente reconhecidas em todas as inspeções de produto. Por cada inspeção, o cliente pode selecionar os seus níveis de tolerância de qualidade e a AI providenciará resultados iguais ou além do AQL.</titleSubText>
+		<AQLtitle>Limite de Qualidade Aceitável (AQL)</AQLtitle>
+		<AQLtext>
+			<![CDATA[
+			<p>Os Inspetores da AsiaInspection usam exclusivamente tabelas ISO 2859 para medir o AQL.  Essas tabelas são uma normativa estadunidense com equivalentes em todas as organizações de normalização nacionais e internacionais (ANSI/ASQC Z1.4, ISO 2859, NF06-022, BS 6001, DIN 40080).</p>
+			<p>O Limite de Qualidade Aceitável, geralmente referido como AQL, é um método muito utilizado para medir uma amostra de um pedido de produção para determinar se o pedido na sua totalidade cumpre com as normas de qualidade e especificações do cliente. Desta forma, o cliente poderá contar com informação suficiente para tomar a decisão informada de aceitar ou rejeitar o lote.</p>
+			<p>O seu relatório de inspeção detalhará claramente se a produção passou ou falhou no seu nível de AQL estabelecido.</p>
+			]]>
+		</AQLtext>
+		<howDoItitle>Como determino o tamanho da amostra e número de aceitação corretos?</howDoItitle>
+		<howDoItext>
+			<![CDATA[
+			<p>Os nossos gestores de conta treinados estarão à sua disposição para assegurar de que escolhe a inspeção e AQL corretos de acordo com as suas necessidades.</p>
+			<p>Para uma inspeção hipotética de uma produção de 4.000 unidades, com um Limite de Qualidade Aceitável de II, a Tabela A indica um nível de inspeção geral de "L"</p>
+			<p>No que se refere à Tabela B, fila L. Para um tamanho de amostra de 200 unidades, com um Limite de Aceitação de 2.5, não poderão falhar mais de 10 unidades para considerar o controlo como aceitável.</p>
+			]]>
+		</howDoItext>
+	</pt>
+
+</document>

@@ -1,0 +1,174 @@
+.qrcode-title {
+    margin-top: 16px;
+    cursor: pointer;
+}
+.qrcode-title:hover ~.qrcode-content{
+    display: block;
+}
+.qrcode-content {
+    display: none;
+    position: absolute;
+    left: -20px;
+    top: 35px;
+    background-image: url(/images/QR_code.png);
+    background-size: 100% 100%;
+    width: 140px;
+    height: 149px;
+}
+.navbar-ai {
+    .dropdown-menu{
+        left:-60px;
+        &.navmenu_Service { width:540px; }
+        &.navmenu_Industry { width:340px; }
+        &.navmenu_About {
+           width:340px;
+           .navMenuCol{
+               width:137px;
+           }
+        }
+     }
+} /* End of .navbar-ai */
+
+/* CSS for different screen sizes */
+@media screen and (min-width: 1401px) {
+    .navbar-ai {
+        .dropdown-menu{
+            &.navmenu_Service { width:590px; }
+            &.navmenu_Industry {
+                left:-45px;
+                width:200px;
+                .navMenuCol{
+                    width:193px;
+               }
+            }
+            &.navmenu_About {
+                left:-30px;
+                width:180px;
+                .navMenuCol{
+                    width:180px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .navbar-ai {
+        .dropdown-menu{
+            &.navmenu_Service {
+                left:-60px;
+                width:575px;
+            }
+            &.navmenu_Industry {
+                left:-40px;
+                width:200px;
+                .navMenuCol{
+                    width:193px;
+               }
+            }
+            &.navmenu_About {
+                left:-40px;
+                width:180px;
+                .navMenuCol{
+                    width:180px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar-ai {
+        .dropdown-menu{
+            &.navmenu_Service {
+                left:-80px;
+                width:575px;
+            }
+            &.navmenu_Industry {
+                left:-40px;
+                width:200px;
+                .navMenuCol{
+                    width:193px;
+               }
+            }
+            &.navmenu_About {
+                left:-40px;
+                width:180px;
+                .navMenuCol{
+                    width:180px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .navbar-ai {
+        .dropdown-menu{
+            &.navmenu_Service {
+                left:-120px;
+                width:630px;
+                .navMenuCol{
+                    &:nth-child(2) {border-right:1px solid #c6c6c6;}
+                    width:auto;
+               }
+            }
+            &.navmenu_Industry {
+                left:-60px;
+                width:200px;
+                .navMenuCol{
+                    width:180px;
+                }
+            }
+            &.navmenu_About {
+                left:-60px;
+                width:180px;
+                .navMenuCol{
+                    width:180px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .qrcode-title {
+        display: none;
+    }
+    .navbar-ai {
+        .dropdown-menu{
+            &.navmenu_Service {
+                width:630px;
+                .navMenuCol{
+                    width:auto;
+                }
+            }
+            &.navmenu_Industry {
+                width:200px;
+                .navMenuCol{
+                    width:157px;
+                }
+            }
+            &.navmenu_About {
+                width:200px;
+                .navMenuCol{
+                    width:157px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-ai{
+        .dropdown-menu{
+            &.navmenu_Service, &.navmenu_Industry, &.navmenu_About {
+                width:100%;
+                .navMenuCol{
+                    width:100%;
+                    display:block;
+               }
+            }
+        }
+    }
+}

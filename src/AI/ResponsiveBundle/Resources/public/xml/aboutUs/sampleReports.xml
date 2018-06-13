@@ -1,0 +1,3564 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+
+<pageMeta>
+    <pageTitle>
+        <en>Inspection &amp; Audit Sample Reports | AsiaInspection</en>
+        <de>Sample Reports | AsiaInspection.com</de>
+        <fr>Exemples de rapports | AsiaInspection.fr</fr>
+        <ar>تقارير عينة | AsiaInspection.ae</ar>
+        <tr>Örnek Raporlar | AsiaInspection</tr>
+        <ru>Примеры отчетов | AsiaInspection</ru>
+    </pageTitle>
+    <pageDesc>
+        <en>Our detailed reports empower you to make informed decisions that help you secure your supply chain. Review sample reports from inspections and audits here.</en>
+        <de>Our latest sample reports</de>
+        <tr>En son örnek raporlarımız</tr>
+        <ru>Наши последние примеры отчетов</ru>
+    </pageDesc>
+    <pageKeywords>
+        <en>apparel,clothes,clothing</en>
+        <de>apparel,clothes,clothing</de>
+    </pageKeywords>
+</pageMeta>
+
+<en>
+    <title>Sample Reports</title>
+    <intro>AI performs audits, inspections and lab testing for a vast number of industries. Our detailed reports power actionable insights on your Dashboard to let you make informed decisions to secure your supply chain. Check out some examples of the reports we provide below.</intro>
+    <samplelist>Full Reports Sample list:</samplelist>
+    <selectDesc>Show sample reports:</selectDesc>
+    <menu>
+        <label1>Industry</label1>
+        <label2>Item:</label2>
+        <!--
+        <options>
+            <text>All</text>
+            <id>industry_all</id>
+            <items>
+                <item>
+                    <text />
+                    <imgUrl />
+                    <downloadUrl />
+                </item>
+            </items>
+        </options>
+        -->
+        <options>
+            <text>Apparel</text>
+            <id>industry_apparel</id>
+            <items>
+                <item>
+                    <text>Bag</text>
+                    <id>item_bag</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>dupro</downloadUrl>
+                </item>
+                <item>
+                    <text>Gator skin</text>
+                    <id>item_gatorskin</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>pm</downloadUrl>
+                </item>
+                <item>
+                    <text>Riding boots</text>
+                    <id>item_riding_boots</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Riding_Boots_lg.jpg</imgUrl>
+                    <downloadUrl>riding-boots</downloadUrl>
+                </item>
+                <item>
+                    <text>Scarf</text>
+                    <id>item_scarf</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Scarf_lg.jpg</imgUrl>
+                    <downloadUrl>scarf</downloadUrl>
+                </item>
+                <item>
+                    <text>Shoes</text>
+                    <id>item_footwear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Shoes_lg.jpg</imgUrl>
+                    <downloadUrl>shoes</downloadUrl>
+                </item>
+                <item>
+                    <text>Socks</text>
+                    <id>item_socks</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Socks_lg.jpg</imgUrl>
+                    <downloadUrl>socks</downloadUrl>
+                </item>
+                <item>
+                    <text>Swimwear</text>
+                    <id>item_swimwear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Swimwear_lg.jpg</imgUrl>
+                    <downloadUrl>swimwear</downloadUrl>
+                </item>
+                <item>
+                    <text>Trousers</text>
+                    <id>item_trousers</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Trousers_lg.jpg</imgUrl>
+                    <downloadUrl>trousers</downloadUrl>
+                </item>
+                <item>
+                    <text>T-shirt</text>
+                    <id>item_tshirt</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+                    <downloadUrl>tshirt</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Electronics</text>
+            <id>industry_electronics</id>
+            <items>
+                <item>
+                    <text>Cable and adapter</text>
+                    <id>item_cable_and_adapter</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Cable_and_Adapter_lg.jpg</imgUrl>
+                    <downloadUrl>cable-and-adapter</downloadUrl>
+                </item>
+                <item>
+                    <text>Dehumidifiers</text>
+                    <id>item_dehumidfiers</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Dehumidfiers_lg.jpg</imgUrl>
+                    <downloadUrl>dehumidifiers</downloadUrl>
+                </item>
+                <item>
+                    <text>Smart phone</text>
+                    <id>item_electronics</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>smart-phone</downloadUrl>
+                </item>
+                <item>
+                    <text>Tablet</text>
+                    <id>item_tablet</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Tablet_lg.jpg</imgUrl>
+                    <downloadUrl>tablet</downloadUrl>
+                </item>
+                <item>
+                    <text>Top box</text>
+                    <id>item_topbox</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Top_Box_lg.jpg</imgUrl>
+                    <downloadUrl>top-box</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Eyewear</text>
+            <id>industry_eyewear</id>
+            <items>
+                <item>
+                    <text>Glasses</text>
+                    <id>item_eyewear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_glasses_lg.jpg</imgUrl>
+                    <downloadUrl>eyewear</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Food &amp; Food Packaging</text>
+            <id>industry_food_and_food_packaging</id>
+            <items>
+                <item>
+                    <text>Seafood</text>
+                    <id>item_seafood</id>
+                    <type>inspection</type>
+                    <imgUrl>AFI_Inspection_Report_PSI_Seafood_lg.jpg</imgUrl>
+                    <downloadUrl>seafood</downloadUrl>
+                </item>
+                <item>
+                    <text>Vegetables</text>
+                    <id>item_vegetable</id>
+                    <type>inspection</type>
+                    <imgUrl>AFI_Inspection_Report_PSI_Vegetable_lg.jpg</imgUrl>
+                    <downloadUrl>vegetables</downloadUrl>
+                </item>
+                <item>
+                    <text>Blueberries</text>
+                    <id>item_blueberry</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Blueberries_lg.jpg</imgUrl>
+                    <downloadUrl>blueberry</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Gifts &amp; Premiums</text>
+            <id>industry_gifts_and_premiums</id>
+            <items>
+                <item>
+                    <text>Ceramic rabbit</text>
+                    <id>item_ceramic_rabbit</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Rabbit_lg.jpg</imgUrl>
+                    <downloadUrl>ceramic-rabbit</downloadUrl>
+                </item>
+                <item>
+                    <text>Watch</text>
+                    <id>item_watch</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Watch_lg.jpg</imgUrl>
+                    <downloadUrl>watch</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Homeware &amp; Gardenware</text>
+            <id>industry_home_and_garden</id>
+            <items>
+                <item>
+                    <text>Dinner set</text>
+                    <id>item_dinnerset</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>clc</downloadUrl>
+                </item>
+                <item>
+                    <text>Oven</text>
+                    <id>item_oven</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>ipc</downloadUrl>
+                </item>
+                <item>
+                    <text>Chair and table</text>
+                    <id>item_chair_and_table</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Chair_and_Table_lg.jpg</imgUrl>
+                    <downloadUrl>chair-and-table</downloadUrl>
+                </item>
+                <item>
+                    <text>Lamp</text>
+                    <id>item_lamp</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Lamp_lg.jpg</imgUrl>
+                    <downloadUrl>lamp</downloadUrl>
+                </item>
+                <item>
+                    <text>Saucepan</text>
+                    <id>item_saucepan</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Saucepan_lg.jpg</imgUrl>
+                    <downloadUrl>saucepan</downloadUrl>
+                </item>
+                <item>
+                    <text>Sofa</text>
+                    <id>item_sofa</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Sofa_lg.jpg</imgUrl>
+                    <downloadUrl>sofa</downloadUrl>
+                </item>
+                <item>
+                    <text>Solid wood furniture</text>
+                    <id>item_solid_wood_furniture</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Solid_Wood_Furniture_lg.jpg</imgUrl>
+                    <downloadUrl>solid-wood-furniture</downloadUrl>
+                </item>
+                <item>
+                    <text>Upholstered bed</text>
+                    <id>item_upholstered_bed</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Upholstered_Bed_lg.jpg</imgUrl>
+                    <downloadUrl>upholstered-bed</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Industrial &amp; Construction Items</text>
+            <id>industry_industrial_and_construction_items</id>
+            <items>
+                <item>
+                    <text>Ceramic Tiles</text>
+                    <id>item_ceramictile</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Tiles_lg.jpg</imgUrl>
+                    <downloadUrl>ceramic-tiles</downloadUrl>
+                </item>
+                <item>
+                    <text>Laminate Flooring</text>
+                    <id>item_lamflooring</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Flooring_Laminate_lg.jpg</imgUrl>
+                    <downloadUrl>laminate-flooring</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Toys &amp; Recreational Items</text>
+            <id>industry_toys_and_recreational_items</id>
+            <items>
+                <item>
+                    <text>Plush toy</text>
+                    <id>item_plush_toy</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Plush_toy_lg.jpg</imgUrl>
+                    <downloadUrl>plush-toy</downloadUrl>
+                </item>
+                <item>
+                    <text>Toy car</text>
+                    <id>item_toy_car</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Toy_Car_lg.jpg</imgUrl>
+                    <downloadUrl>toy-car</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+    </menu>
+        
+    <menu2>
+        <label1>Service</label1>
+        <!--
+        <options>
+            <text>All</text>
+            <items>
+                <item>
+                    <text />
+                    <imgUrl />
+                    <downloadUrl />
+                </item>
+            </items>
+        </options>
+        -->
+        <options>
+            <text>Inspection</text>
+            <items>
+                <item>
+                    <text>Pre-Shipment Inspection</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>psi</downloadUrl>
+                </item>
+                <item>
+                    <text>Production Monitoring</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>pm</downloadUrl>
+                </item>
+                <item>
+                    <text>During Production Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>dupro</downloadUrl>
+                </item>
+                <item>
+                    <text>Initial Production Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>ipc</downloadUrl>
+                </item>
+                <item>
+                    <text>Container Loading Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>clc</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Audit</text>
+            <items>
+                <item>
+                    <text>C-TPAT Audit</text>
+                    <type>audit</type>
+                    <id>item_ctpat_audit</id>
+                    <imgUrl>AI_C-TPAT_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ctpat</downloadUrl>
+                </item>
+                <item>
+                    <text>Environmental Audit</text>
+                    <type>audit</type>
+                    <id>item_environmental_audit</id>
+                    <imgUrl>AI_Environmental_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>environmental</downloadUrl>
+                </item>
+                <item>
+                    <text>Ethical Audit</text>
+                    <type>audit</type>
+                    <id>item_ethical_audit</id>
+                    <imgUrl>AI_Ethical_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ea</downloadUrl>
+                </item>
+                <item>
+                    <text>Manufacturing Audit</text>
+                    <type>audit</type>
+                    <id>item_manufacturing_audit</id>
+                    <imgUrl>AI_Manufacturing_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ma</downloadUrl>
+                </item>
+                <item>
+                    <text>Structural Audit</text>
+                    <type>audit</type>
+                    <id>item_structural_audit</id>
+                    <imgUrl>AI_Structural_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>structural</downloadUrl>
+                </item>
+                <item>
+                    <text>SMETA Audit</text>
+                    <type>audit</type>
+                    <imgUrl>AI_Ethical_Audit_Report_SMETA_lg.jpg</imgUrl>
+                    <downloadUrl>smeta</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Laboratory Testing</text>
+            <items>
+                <item>
+                    <text>Laboratory Testing</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_Toy_lg.jpg</imgUrl>
+                    <downloadUrl>lab-testing</downloadUrl>
+                </item>
+                <item>
+                    <text>REACH</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_REACH_lg.jpg</imgUrl>
+                    <downloadUrl>reach</downloadUrl>
+                </item>
+                <item>
+                    <text>CPSIA</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_CPSIA_lg.jpg</imgUrl>
+                    <downloadUrl>cpsia</downloadUrl>
+                </item>
+                <item>
+                    <text>RoHS</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_RoHS_lg.jpg</imgUrl>
+                    <downloadUrl>rohs</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+    </menu2>
+        
+    <defaultOptions>
+        <menu1>
+            <text1>Select a Service</text1>
+            <text2>Select an Industry</text2>
+        </menu1>
+        <menu2>
+            <text>Select an Item</text>
+            <select>Select an Item</select>
+            <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+            <downloadUrl>clothing</downloadUrl>
+        </menu2>
+        <menuService>
+            <text>Select an Item</text>
+            <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+            <downloadUrl>psi</downloadUrl>
+            <select>Select an Item</select>
+        </menuService>
+    </defaultOptions>
+        
+    <button>
+        <text>View Report</text>
+    </button>
+</en>
+
+<ar>
+    <title>تقارير عينة
+    </title>
+    <intro>نفحص المنتجات من عدد كبير من الصناعات، ونقدم تقارير تفصيلية في نفس يوم الفحس. تدعم هذه الملاحظات الفورية معرفة قابلة للتنفيذ على لوحة معلومات لتسمح لك باتخاذ قرارات مطلعة لتأمين سلسلة الإنتاج والتوريدات لديك.
+    </intro>
+    <samplelist>عرض جميع التقارير العينة:</samplelist>
+    <selectDesc>عرض التقارير العينة حسب الصناعة أو الخدمة:
+    </selectDesc>
+    <menu>
+        <label1>الصناعة
+        </label1>
+        <label2>الخدمة
+        </label2>
+        <!--
+        <options>
+        <text>All</text>
+        <id>industry_all</id>
+        <items>
+        <item>
+        <text />
+        <imgUrl />
+        <downloadUrl />
+    </item>
+</items>
+</options>
+-->
+<options>
+    <text>الملابس
+    </text>
+    <id>industry_apparel</id>
+    <items>
+        <item>
+            <text>الحقائب
+            </text>
+            <id>item_bag</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+            <downloadUrl>DUPRO</downloadUrl>
+        </item>
+        <item>
+            <text>جلود التماسيح
+            </text>
+            <id>item_gatorskin</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+            <downloadUrl>PM</downloadUrl>
+        </item>
+        <item>
+            <text>الأحذية الطويلة
+            </text>
+            <id>item_riding_boots</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Riding_Boots_lg.jpg</imgUrl>
+            <downloadUrl>ridingboots</downloadUrl>
+        </item>
+        <item>
+            <text>الأوشحة
+            </text>
+            <id>item_scarf</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Scarf_lg.jpg</imgUrl>
+            <downloadUrl>scarf</downloadUrl>
+        </item>
+        <item>
+            <text>الأحذية
+            </text>
+            <id>item_footwear</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Shoes_lg.jpg</imgUrl>
+            <downloadUrl>footwear</downloadUrl>
+        </item>
+        <item>
+            <text>الجوارب
+            </text>
+            <id>item_socks</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Socks_lg.jpg</imgUrl>
+            <downloadUrl>socks</downloadUrl>
+        </item>
+        <item>
+            <text>ملابس السباحة
+            </text>
+            <id>item_swimwear</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Swimwear_lg.jpg</imgUrl>
+            <downloadUrl>swimwear</downloadUrl>
+        </item>
+        <item>
+            <text>البناطيل
+            </text>
+            <id>item_trousers</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Trousers_lg.jpg</imgUrl>
+            <downloadUrl>trousers</downloadUrl>
+        </item>
+        <item>
+            <text>القمصان
+            </text>
+            <id>item_tshirt</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+            <downloadUrl>tshirt</downloadUrl>
+        </item>
+    </items>
+</options>
+<options>
+    <text>الأجهزة الإلكترونية
+    </text>
+    <id>industry_electronics</id>
+    <items>
+        <item>
+            <text>الكابلات والمحولات
+            </text>
+            <id>item_cable_and_adapter</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Cable_and_Adapter_lg.jpg</imgUrl>
+            <downloadUrl>cableandadapter</downloadUrl>
+        </item>
+        <item>
+            <text>مزيلات الرطوبة
+            </text>
+            <id>item_dehumidfiers</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Dehumidfiers_lg.jpg</imgUrl>
+            <downloadUrl>dehumidfiers</downloadUrl>
+        </item>
+        <item>
+            <text>الهواتف الذكية
+            </text>
+            <id>item_electronics</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+            <downloadUrl>smart-phone</downloadUrl>
+        </item>
+        <item>
+            <text>الأجهزة اللوحية
+            </text>
+            <id>item_tablet</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Tablet_lg.jpg</imgUrl>
+            <downloadUrl>hard-tablet</downloadUrl>
+        </item>
+        <item>
+            <text>أجهزة الاستقبال
+            </text>
+            <id>item_topbox</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Top_Box_lg.jpg</imgUrl>
+            <downloadUrl>topbox</downloadUrl>
+        </item>
+    </items>
+</options>
+<options>
+    <text>النظارات
+    </text>
+    <id>industry_eyewear</id>
+    <items>
+        <item>
+            <text>الأواني الزجاجية
+            </text>
+            <id>item_eyewear</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_glasses_lg.jpg</imgUrl>
+            <downloadUrl>eyewear</downloadUrl>
+        </item>
+    </items>
+</options>
+<options>
+    <text>الأغذية وتغليف الأغذية
+    </text>
+    <id>industry_food_and_food_packaging</id>
+    <items>
+        <item>
+            <text>المأكولات البحرية
+            </text>
+            <id>item_seafood</id>
+            <type>inspection</type>
+            <imgUrl>AFI_Inspection_Report_PSI_Seafood_lg.jpg</imgUrl>
+            <downloadUrl>food</downloadUrl>
+        </item>
+        <item>
+            <text>الخضروات
+            </text>
+            <id>item_vegetable</id>
+            <type>inspection</type>
+            <imgUrl>AFI_Inspection_Report_PSI_Vegetable_lg.jpg</imgUrl>
+            <downloadUrl>vegetable</downloadUrl>
+        </item>
+                <item>
+                    <text>Blueberries</text>
+                    <id>item_blueberry</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Blueberries_lg.jpg</imgUrl>
+                    <downloadUrl>blueberry</downloadUrl>
+                </item>
+    </items>
+</options>
+<options>
+    <text>الهدايا والمنتجات الترويجية
+    </text>
+    <id>industry_gifts_and_premiums</id>
+    <items>
+        <item>
+            <text>أرنب خزفي
+            </text>
+            <id>item_ceramic_rabbit</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Ceramic_Rabbit_lg.jpg</imgUrl>
+            <downloadUrl>ceramicrabbit</downloadUrl>
+        </item>
+        <item>
+            <text>الساعات
+            </text>
+            <id>item_watch</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Watch_lg.jpg</imgUrl>
+            <downloadUrl>watch</downloadUrl>
+        </item>
+    </items>
+</options>
+<options>
+    <text>المنزل والحديقة
+    </text>
+    <id>industry_home_and_garden</id>
+    <items>
+        <item>
+            <text>أواني الطعام
+            </text>
+            <id>item_dinnerset</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+            <downloadUrl>CLC</downloadUrl>
+        </item>
+        <item>
+            <text>الأفران
+            </text>
+            <id>item_oven</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+            <downloadUrl>IPC</downloadUrl>
+        </item>
+        <item>
+            <text>الكراسي والطاولات
+            </text>
+            <id>item_chair_and_table</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Chair_and_Table_lg.jpg</imgUrl>
+            <downloadUrl>chairandtable</downloadUrl>
+        </item>
+        <item>
+            <text>المصابيح
+            </text>
+            <id>item_lamp</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Lamp_lg.jpg</imgUrl>
+            <downloadUrl>lamp</downloadUrl>
+        </item>
+        <item>
+            <text>القدور
+            </text>
+            <id>item_saucepan</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Saucepan_lg.jpg</imgUrl>
+            <downloadUrl>saucepan</downloadUrl>
+        </item>
+        <item>
+            <text>الصوفات
+            </text>
+            <id>item_sofa</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Sofa_lg.jpg</imgUrl>
+            <downloadUrl>sofa</downloadUrl>
+        </item>
+        <item>
+            <text>الأثاث الخشبي
+            </text>
+            <id>item_solid_wood_furniture</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Solid_Wood_Furniture_lg.jpg</imgUrl>
+            <downloadUrl>solidwoodfurniture</downloadUrl>
+        </item>
+        <item>
+            <text>أسرة منجدة
+            </text>
+            <id>item_upholstered_bed</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Upholstered_Bed_lg.jpg</imgUrl>
+            <downloadUrl>upholsteredbed</downloadUrl>
+        </item>
+    </items>
+</options>
+<options>
+    <text>المعدات الصناعية ومواد البناء
+    </text>
+    <id>industry_industrial_and_construction_items</id>
+    <items>
+        <item>
+            <text>بلاط السيراميك
+            </text>
+            <id>item_ceramictile</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Ceramic_Tiles_lg.jpg</imgUrl>
+            <downloadUrl>ceramictiles</downloadUrl>
+        </item>
+        <item>
+            <text>أرضيات من طبقات
+            </text>
+            <id>item_lamflooring</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Flooring_Laminate_lg.jpg</imgUrl>
+            <downloadUrl>lamflooring</downloadUrl>
+        </item>
+    </items>
+</options>
+<options>
+    <text>الألعاب والمواد الترفيهية
+    </text>
+    <id>industry_toys_and_recreational_items</id>
+    <items>
+        <item>
+            <text>ألعاب قماش
+            </text>
+            <id>item_plush_toy</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Plush_toy_lg.jpg</imgUrl>
+            <downloadUrl>plushtoy</downloadUrl>
+        </item>
+        <item>
+            <text> سيارة لعبة
+            </text>
+            <id>item_toy_car</id>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Toy_Car_lg.jpg</imgUrl>
+            <downloadUrl>toycar</downloadUrl>
+        </item>
+    </items>
+</options>
+</menu>
+<menu2>
+    <label1>الخدمة
+    </label1>
+    <!--
+    <options>
+    <text>All</text>
+    <items>
+    <item>
+    <text />
+    <imgUrl />
+    <downloadUrl />
+</item>
+</items>
+</options>
+-->
+<options>
+    <text>فحص
+
+    </text>
+    <items>
+        <item>
+            <text>فحص قبل الشحن
+            </text>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+            <downloadUrl>PSI</downloadUrl>
+        </item>
+        <item>
+            <text>مراقبة الإنتاج
+            </text>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+            <downloadUrl>PM</downloadUrl>
+        </item>
+        <item>
+            <text>فحص أثناء الإنتاج
+            </text>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+            <downloadUrl>DUPRO</downloadUrl>
+        </item>
+        <item>
+            <text>فحص الإنتاج الأولي
+            </text>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+            <downloadUrl>IPC</downloadUrl>
+        </item>
+        <item>
+            <text>فحص تحميل الحاوية
+            </text>
+            <type>inspection</type>
+            <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+            <downloadUrl>CLC</downloadUrl>
+        </item>
+    </items>
+</options>
+<options>
+    <text>تدقيق
+    </text>
+    <items>
+        <item>
+            <text>عمليات التدقيق C-TPAT
+            </text>
+            <type>audit</type>
+            <id>item_ctpat_audit</id>
+            <imgUrl>AI_C-TPAT_Audit_Report_lg.jpg</imgUrl>
+            <downloadUrl>CTPAT</downloadUrl>
+        </item>
+        <item>
+            <text>التدقيق البيئي
+            </text>
+            <type>audit</type>
+            <id>item_environmental_audit</id>
+            <imgUrl>AI_Environmental_Audit_Report_lg.jpg</imgUrl>
+            <downloadUrl>environmentalaudit</downloadUrl>
+        </item>
+        <item>
+            <text>التدقيق الأخلاقي
+            </text>
+            <type>audit</type>
+            <id>item_ethical_audit</id>
+            <imgUrl>AI_Ethical_Audit_Report_lg.jpg</imgUrl>
+            <downloadUrl>ethicalaudit</downloadUrl>
+        </item>
+        <item>
+            <text>التدقيق الصناعي
+            </text>
+            <type>audit</type>
+            <id>item_manufacturing_audit</id>
+            <imgUrl>AI_Manufacturing_Audit_Report_lg.jpg</imgUrl>
+            <downloadUrl>manufacturingaudit</downloadUrl>
+        </item>
+        <item>
+            <text>التدقيق على مواد البناء
+            </text>
+            <type>audit</type>
+            <id>item_structural_audit</id>
+            <imgUrl>AI_Structural_Audit_Report_lg.jpg</imgUrl>
+            <downloadUrl>structuralAudit</downloadUrl>
+        </item>
+        <item>
+            <text>تدقيق SMETA
+            </text>
+            <type>audit</type>
+            <imgUrl>AI_Ethical_Audit_Report_SMETA_lg.jpg</imgUrl>
+            <downloadUrl>SMETAAudit</downloadUrl>
+        </item>
+    </items>
+</options>
+<options>
+    <text>الاختبارات المعملية
+    </text>
+    <items>
+        <item>
+            <text>الاختبارات المعملية
+            </text>
+            <type>labtest</type>
+            <imgUrl>AI_Lab_Testing_Toy_lg.jpg</imgUrl>
+            <downloadUrl>LAB</downloadUrl>
+        </item>
+        <item>
+            <text>REACH</text>
+            <type>labtest</type>
+            <imgUrl>AI_Lab_Testing_REACH_lg.jpg</imgUrl>
+            <downloadUrl>REACH</downloadUrl>
+        </item>
+        <item>
+            <text>CPSIA</text>
+            <type>labtest</type>
+            <imgUrl>AI_Lab_Testing_CPSIA_lg.jpg</imgUrl>
+            <downloadUrl>CPSIA</downloadUrl>
+        </item>
+        <item>
+            <text>RoHS</text>
+            <type>labtest</type>
+            <imgUrl>AI_Lab_Testing_RoHS_lg.jpg</imgUrl>
+            <downloadUrl>ROHS</downloadUrl>
+        </item>
+    </items>
+</options>
+</menu2>
+<defaultOptions>
+    <menu1>
+        <text1>تحديد عنصر</text1>
+        <text2>تحديد الصناعة</text2>
+    </menu1>
+    <menu2>
+        <text>تحديد عنصر
+        </text>
+        <select>تحديد عنصر
+        </select>
+        <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+        <downloadUrl>clothing</downloadUrl>
+    </menu2>
+    <menuService>
+        <text>تحديد عنصر
+        </text>
+        <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+        <downloadUrl>PSI</downloadUrl>
+        <select>Select an Item</select>
+    </menuService>
+</defaultOptions>
+<button>
+    <text>عرض التقرير
+    </text>
+</button>
+</ar>
+
+<de>
+    <title>Beispielberichte</title>
+    <intro>Wir kontrollieren Produkte aus einer Vielzahl verschiedener Industrien und stellen noch am Tag der Kontrolle detaillierte Berichte aus. Dieses direkte Feedback liefert umsetzbare Erkenntnisse auf Ihrem Dashboard, so dass Sie informierte Entscheidungen treffen können, um Ihre Lieferkette zu sichern.</intro>
+    <selectDesc>Beispielreports nach Industrie oder Leistung anzeigen:</selectDesc>
+    <menu>
+        <label1>Branche</label1>
+        <label2>Item:</label2>
+        <options>
+            <text>Kleidung</text>
+            <id>industry_apparel</id>
+            <items>
+                <item>
+                    <text>Groß</text>
+                    <type>inspection</type>
+                    <id>item_bag</id>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>DUPRO</downloadUrl>
+                </item>
+                <item>
+                    <text>Gator Haut</text>
+                    <type>inspection</type>
+                    <id>item_gatorskin</id>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>PM</downloadUrl>
+                </item>
+                <item>
+                    <text>Reitstiefel</text>
+                    <type>inspection</type>
+                    <id>item_riding_boots</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Riding_Boots_lg.jpg</imgUrl>
+                    <downloadUrl>ridingboots</downloadUrl>
+                </item>
+                <item>
+                    <text>Schal</text>
+                    <type>inspection</type>
+                    <id>item_scarf</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Scarf_lg.jpg</imgUrl>
+                    <downloadUrl>scarf</downloadUrl>
+                </item>
+                <item>
+                    <text>Schuhe</text>
+                    <type>inspection</type>
+                    <id>item_footwear</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Shoes_lg.jpg</imgUrl>
+                    <downloadUrl>footwear</downloadUrl>
+                </item>
+                <item>
+                    <text>Socken</text>
+                    <type>inspection</type>
+                    <id>item_socks</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Socks_lg.jpg</imgUrl>
+                    <downloadUrl>socks</downloadUrl>
+                </item>
+                <item>
+                    <text>Bademode</text>
+                    <type>inspection</type>
+                    <id>item_swimwear</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Swimwear_lg.jpg</imgUrl>
+                    <downloadUrl>swimwear</downloadUrl>
+                </item>
+                <item>
+                    <text>Hose</text>
+                    <type>inspection</type>
+                    <id>item_trousers</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Trousers_lg.jpg</imgUrl>
+                    <downloadUrl>trousers</downloadUrl>
+                </item>
+                <item>
+                    <text>Hemden</text>
+                    <type>inspection</type>
+                    <id>item_tshirt</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+                    <downloadUrl>tshirt</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Elektronik</text>
+            <id>industry_electronics</id>
+            <items>
+                <item>
+                    <text>Kabel und Adapter</text>
+                    <type>inspection</type>
+                    <id>item_cable_and_adapter</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Cable_and_Adapter_lg.jpg</imgUrl>
+                    <downloadUrl>cableandadapter</downloadUrl>
+                </item>
+                <item>
+                    <text>Entfeuchter</text>
+                    <type>inspection</type>
+                    <id>item_dehumidfiers</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Dehumidfiers_lg.jpg</imgUrl>
+                    <downloadUrl>dehumidfiers</downloadUrl>
+                </item>
+                <item>
+                    <text>Mobiltelefon</text>
+                    <type>inspection</type>
+                    <id>item_electronics</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>smart-phone</downloadUrl>
+                </item>
+                <item>
+                    <text>Tablette</text>
+                    <type>inspection</type>
+                    <id>item_tablet</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Tablet_lg.jpg</imgUrl>
+                    <downloadUrl>hard-tablet</downloadUrl>
+                </item>
+                <item>
+                    <text>Digital-Box</text>
+                    <type>inspection</type>
+                    <id>item_topbox</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Top_Box_lg.jpg</imgUrl>
+                    <downloadUrl>topbox</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Lebensmittel &amp; Lebensmittelverpackung</text>
+            <id>industry_food_and_food_packaging</id>
+            <items>
+                <item>
+                    <text>Meeresfrüchte</text>
+                    <type>inspection</type>
+                    <id>item_seafood</id>
+                    <imgUrl>AFI_Inspection_Report_PSI_Seafood_lg.jpg</imgUrl>
+                    <downloadUrl>food</downloadUrl>
+                </item>
+                <item>
+                    <text>Gemüse</text>
+                    <type>inspection</type>
+                    <id>item_vegetable</id>
+                    <imgUrl>AFI_Inspection_Report_PSI_Vegetable_lg.jpg</imgUrl>
+                    <downloadUrl>vegetable</downloadUrl>
+                </item>
+                <item>
+                    <text>Blueberries</text>
+                    <id>item_blueberry</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Blueberries_lg.jpg</imgUrl>
+                    <downloadUrl>blueberry</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Geschenkartikel &amp; Prämien</text>
+            <id>industry_gifts_and_premiums</id>
+            <items>
+                <item>
+                    <text>Keramik-Kaninchen</text>
+                    <type>inspection</type>
+                    <id>item_ceramic_rabbit</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Rabbit_lg.jpg</imgUrl>
+                    <downloadUrl>ceramicrabbit</downloadUrl>
+                </item>
+                <item>
+                    <text>Armbanduhr</text>
+                    <type>inspection</type>
+                    <id>item_watch</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Watch_lg.jpg</imgUrl>
+                    <downloadUrl>watch</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Homeware &amp; Gardenware</text>
+            <id>industry_home_and_garden</id>
+            <items>
+                <item>
+                    <text>Besteckset</text>
+                    <type>inspection</type>
+                    <id>item_dinnerset</id>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>CLC</downloadUrl>
+                </item>
+                <item>
+                    <text>Ofen</text>
+                    <type>inspection</type>
+                    <id>item_oven</id>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>IPC</downloadUrl>
+                </item>
+                <item>
+                    <text>Stuhl und Tisch</text>
+                    <type>inspection</type>
+                    <id>item_chair_and_table</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Chair_and_Table_lg.jpg</imgUrl>
+                    <downloadUrl>chairandtable</downloadUrl>
+                </item>
+                <item>
+                    <text>Lampe</text>
+                    <type>inspection</type>
+                    <id>item_lamp</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Lamp_lg.jpg</imgUrl>
+                    <downloadUrl>lamp</downloadUrl>
+                </item>
+                <item>
+                    <text>saucepan</text>
+                    <type>inspection</type>
+                    <id>item_saucepan</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Saucepan_lg.jpg</imgUrl>
+                    <downloadUrl>saucepan</downloadUrl>
+                </item>
+                <item>
+                    <text>Sofa</text>
+                    <type>inspection</type>
+                    <id>item_sofa</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Sofa_lg.jpg</imgUrl>
+                    <downloadUrl>sofa</downloadUrl>
+                </item>
+                <item>
+                    <text>Massivholzmöbel </text>
+                    <type>inspection</type>
+                    <id>item_solid_wood_furniture</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Solid_Wood_Furniture_lg.jpg</imgUrl>
+                    <downloadUrl>solidwoodfurniture</downloadUrl>
+                </item>
+                <item>
+                    <text>Polsterbett</text>
+                    <type>inspection</type>
+                    <id>item_upholstered_bed</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Upholstered_Bed_lg.jpg</imgUrl>
+                    <downloadUrl>upholsteredbed</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Industrie- &amp; Bauteile</text>
+            <id>industry_industrial_and_construction_items</id>
+            <items>
+                <item>
+                    <text>Keramikfliesen</text>
+                    <type>inspection</type>
+                    <id>item_ceramictile</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Tiles_lg.jpg</imgUrl>
+                    <downloadUrl>ceramictiles</downloadUrl>
+                </item>
+                <item>
+                    <text>Laminatboden</text>
+                    <type>inspection</type>
+                    <id>item_lamflooring</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Flooring_Laminate_lg.jpg</imgUrl>
+                    <downloadUrl>lamflooring</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Spielzeug &amp; Freizeitgegenstände</text>
+            <id>industry_toys_and_recreational_items</id>
+            <items>
+                <item>
+                    <text>Kuscheltiere</text>
+                    <type>inspection</type>
+                    <id>item_plush_toy</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Plush_toy_lg.jpg</imgUrl>
+                    <downloadUrl>plushtoy</downloadUrl>
+                </item>
+                <item>
+                    <text>Spielzeug</text>
+                    <type>inspection</type>
+                    <id>item_toy_car</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Toy_Car_lg.jpg</imgUrl>
+                    <downloadUrl>toycar</downloadUrl>
+                </item>
+            </items>
+        </options>
+    </menu>
+    <menu2>
+        <label1>Service</label1>
+        <options>
+            <text>Kontrolle</text>
+            <items>
+                <item>
+                    <text>Inspektion vor dem Versand</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>PSI</downloadUrl>
+                </item>
+                <item>
+                    <text>Fertigungsüberwachung</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>PM</downloadUrl>
+                </item>
+                <item>
+                    <text>Produktionskontrolle</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>DUPRO</downloadUrl>
+                </item>
+                <item>
+                    <text>Vorbereitende Produktionskontrolle</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>IPC</downloadUrl>
+                </item>
+                <item>
+                    <text>Container Ladekontrolle</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>CLC</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Audit</text>
+            <items>
+                <item>
+                    <text>C-TPAT</text>
+                    <type>audit</type>
+                    <id>item_ctpat_audit</id>
+                    <imgUrl>AI_C-TPAT_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>CTPAT</downloadUrl>
+                </item>
+                <item>
+                    <text>Ökoaudits</text>
+                    <type>audit</type>
+                    <id>item_environmental_audit</id>
+                    <imgUrl>AI_Environmental_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>environmentalaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>Sozial Audit</text>
+                    <type>audit</type>
+                    <id>item_ethical_audit</id>
+                    <imgUrl>AI_Ethical_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ethicalaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>Fabrik Audit</text>
+                    <type>audit</type>
+                    <id>item_manufacturing_audit</id>
+                    <imgUrl>AI_Manufacturing_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>manufacturingaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>Struktur Audit</text>
+                    <type>audit</type>
+                    <id>item_structural_audit</id>
+                    <imgUrl>AI_Structural_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>structuralAudit</downloadUrl>
+                </item>
+                <item>
+                    <text>SMETA</text>
+                    <type>audit</type>
+                    <imgUrl>AI_Ethical_Audit_Report_SMETA_lg.jpg</imgUrl>
+                    <downloadUrl>SMETAAudit</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Laboratory Testing</text>
+            <items>
+                <item>
+                    <text>Laboratory Testing</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_Toy_lg.jpg</imgUrl>
+                    <downloadUrl>LAB</downloadUrl>
+                </item>
+                <item>
+                    <text>REACH</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_REACH_lg.jpg</imgUrl>
+                    <downloadUrl>REACH</downloadUrl>
+                </item>
+                <item>
+                    <text>CPSIA</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_CPSIA_lg.jpg</imgUrl>
+                    <downloadUrl>CPSIA</downloadUrl>
+                </item>
+                <item>
+                    <text>RoHS</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_RoHS_lg.jpg</imgUrl>
+                    <downloadUrl>ROHS</downloadUrl>
+                </item>
+            </items>
+        </options>
+    </menu2>
+    <defaultOptions>
+        <menu1>
+            <text1>Select a Service</text1>
+            <text2>Select an Industry</text2>
+        </menu1>
+        <menu2>
+            <text>Gegenstand auswählen</text>
+            <select>Gegenstand auswählen</select>
+            <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+            <downloadUrl>clothing</downloadUrl>
+        </menu2>
+        <menuService>
+            <text>Gegenstand auswählen</text>
+            <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+            <downloadUrl>PSI</downloadUrl>
+            <select>Gegenstand auswählen</select>
+        </menuService>
+    </defaultOptions>
+    <button>
+        <text>Bericht ansehen</text>
+    </button>
+</de>
+
+<zh>
+    <title>报告样本</title>
+    <intro>我们对多个行业进行产品检测，并在检测当天提供详细报告。这样的即时反馈能够在您的操作面板上提供具有操作性的见解，以便让您做出明智的决策，确保供应链安全。</intro>
+    <selectDesc>选择一个行业/服务和商品以查看报告样本</selectDesc>
+    <menu>
+        <label1>行业</label1>
+        <label2>商品：</label2>
+        <options>
+            <text>服装业</text>
+            <id>industry_apparel</id>
+            <items>
+                <item>
+                    <text>手提包</text>
+                    <type>inspection</type>
+                    <id>item_bag</id>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>DUPRO</downloadUrl>
+                </item>
+                <item>
+                    <text>鳄鱼皮</text>
+                    <type>inspection</type>
+                    <id>item_gatorskin</id>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>PM</downloadUrl>
+                </item>
+                <item>
+                    <text>马靴</text>
+                    <type>inspection</type>
+                    <id>item_riding_boots</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Riding_Boots_lg.jpg</imgUrl>
+                    <downloadUrl>ridingboots</downloadUrl>
+                </item>
+                <item>
+                    <text>围巾</text>
+                    <type>inspection</type>
+                    <id>item_scarf</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Scarf_lg.jpg</imgUrl>
+                    <downloadUrl>scarf</downloadUrl>
+                </item>
+                <item>
+                    <text>鞋</text>
+                    <type>inspection</type>
+                    <id>item_footwear</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Shoes_lg.jpg</imgUrl>
+                    <downloadUrl>footwear</downloadUrl>
+                </item>
+                <item>
+                    <text>袜子</text>
+                    <type>inspection</type>
+                    <id>item_socks</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Socks_lg.jpg</imgUrl>
+                    <downloadUrl>socks</downloadUrl>
+                </item>
+                <item>
+                    <text>泳装</text>
+                    <type>inspection</type>
+                    <id>item_swimwear</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Swimwear_lg.jpg</imgUrl>
+                    <downloadUrl>swimwear</downloadUrl>
+                </item>
+                <item>
+                    <text>长裤</text>
+                    <type>inspection</type>
+                    <id>item_trousers</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Trousers_lg.jpg</imgUrl>
+                    <downloadUrl>trousers</downloadUrl>
+                </item>
+                <item>
+                    <text>衬衫</text>
+                    <type>inspection</type>
+                    <id>item_tshirt</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+                    <downloadUrl>tshirt</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>电子业</text>
+            <id>industry_electronics</id>
+            <items>
+                <item>
+                    <text>电缆和适配器</text>
+                    <type>inspection</type>
+                    <id>item_cable_and_adapter</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Cable_and_Adapter_lg.jpg</imgUrl>
+                    <downloadUrl>cableandadapter</downloadUrl>
+                </item>
+                <item>
+                    <text>除湿机</text>
+                    <type>inspection</type>
+                    <id>item_dehumidfiers</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Dehumidfiers_lg.jpg</imgUrl>
+                    <downloadUrl>dehumidfiers</downloadUrl>
+                </item>
+                <item>
+                    <text>移动电话</text>
+                    <type>inspection</type>
+                    <id>item_electronics</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>smart-phone</downloadUrl>
+                </item>
+                <item>
+                    <text>平板电脑</text>
+                    <type>inspection</type>
+                    <id>item_tablet</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Tablet_lg.jpg</imgUrl>
+                    <downloadUrl>hard-tablet</downloadUrl>
+                </item>
+                <item>
+                    <text>数字视频机顶盒</text>
+                    <type>inspection</type>
+                    <id>item_topbox</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Top_Box_lg.jpg</imgUrl>
+                    <downloadUrl>topbox</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>食品及食品包装业</text>
+            <type>inspection</type>
+            <id>industry_food_and_food_packaging</id>
+            <items>
+                <item>
+                    <text>海鲜</text>
+                    <type>inspection</type>
+                    <id>item_seafood</id>
+                    <imgUrl>AFI_Inspection_Report_PSI_Seafood_lg.jpg</imgUrl>
+                    <downloadUrl>food</downloadUrl>
+                </item>
+                <item>
+                    <text>蔬菜</text>
+                    <type>inspection</type>
+                    <id>item_vegetable</id>
+                    <imgUrl>AFI_Inspection_Report_PSI_Vegetable_lg.jpg</imgUrl>
+                    <downloadUrl>vegetable</downloadUrl>
+                </item>
+                <item>
+                    <text>Blueberries</text>
+                    <id>item_blueberry</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Blueberries_lg.jpg</imgUrl>
+                    <downloadUrl>blueberry</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>礼品及赠品业</text>
+            <type>inspection</type>
+            <id>industry_gifts_and_premiums</id>
+            <items>
+                <item>
+                    <text>陶瓷兔</text>
+                    <type>inspection</type>
+                    <id>item_ceramic_rabbit</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Rabbit_lg.jpg</imgUrl>
+                    <downloadUrl>ceramicrabbit</downloadUrl>
+                </item>
+                <item>
+                    <text>手表</text>
+                    <type>inspection</type>
+                    <id>item_watch</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Watch_lg.jpg</imgUrl>
+                    <downloadUrl>watch</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>家居用品和花园洁具行业</text>
+            <id>industry_home_and_garden</id>
+            <items>
+                <item>
+                    <text>餐具</text>
+                    <type>inspection</type>
+                    <id>item_dinnerset</id>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>CLC</downloadUrl>
+                </item>
+                <item>
+                    <text>烤箱</text>
+                    <type>inspection</type>
+                    <id>item_oven</id>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>IPC</downloadUrl>
+                </item>
+                <item>
+                    <text>椅子和桌子</text>
+                    <type>inspection</type>
+                    <id>item_chair_and_table</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Chair_and_Table_lg.jpg</imgUrl>
+                    <downloadUrl>chairandtable</downloadUrl>
+                </item>
+                <item>
+                    <text>灯</text>
+                    <type>inspection</type>
+                    <id>item_lamp</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Lamp_lg.jpg</imgUrl>
+                    <downloadUrl>lamp</downloadUrl>
+                </item>
+                <item>
+                    <text>平底锅</text>
+                    <type>inspection</type>
+                    <id>item_saucepan</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Saucepan_lg.jpg</imgUrl>
+                    <downloadUrl>saucepan</downloadUrl>
+                </item>
+                <item>
+                    <text>沙发</text>
+                    <type>inspection</type>
+                    <id>item_sofa</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Sofa_lg.jpg</imgUrl>
+                    <downloadUrl>sofa</downloadUrl>
+                </item>
+                <item>
+                    <text>实木家具</text>
+                    <type>inspection</type>
+                    <id>item_solid_wood_furniture</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Solid_Wood_Furniture_lg.jpg</imgUrl>
+                    <downloadUrl>solidwoodfurniture</downloadUrl>
+                </item>
+                <item>
+                    <text>沙发床</text>
+                    <type>inspection</type>
+                    <id>item_upholstered_bed</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Upholstered_Bed_lg.jpg</imgUrl>
+                    <downloadUrl>upholsteredbed</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>产业及建设项目</text>
+            <type>inspection</type>
+            <id>industry_industrial_and_construction_items</id>
+            <items>
+                <item>
+                    <text>瓷砖</text>
+                    <type>inspection</type>
+                    <id>item_ceramictile</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Tiles_lg.jpg</imgUrl>
+                    <downloadUrl>ceramictiles</downloadUrl>
+                </item>
+                <item>
+                    <text>强化木地板</text>
+                    <type>inspection</type>
+                    <id>item_lamflooring</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Flooring_Laminate_lg.jpg</imgUrl>
+                    <downloadUrl>lamflooring</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>玩具及娱乐项目</text>
+            <id>industry_toys_and_recreational_items</id>
+            <items>
+                <item>
+                    <text>毛绒玩具</text>
+                    <type>inspection</type>
+                    <id>item_plush_toy</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Plush_toy_lg.jpg</imgUrl>
+                    <downloadUrl>plushtoy</downloadUrl>
+                </item>
+                <item>
+                    <text>玩具</text>
+                    <type>inspection</type>
+                    <id>item_toy_car</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Toy_Car_lg.jpg</imgUrl>
+                    <downloadUrl>toycar</downloadUrl>
+                </item>
+            </items>
+        </options>
+    </menu>
+    <menu2>
+        <label1>服务</label1>
+        <options>
+            <text>检验</text>
+            <items>
+                <item>
+                    <text>装运前检验</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>PSI</downloadUrl>
+                </item>
+                <item>
+                    <text>生产监测</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>PM</downloadUrl>
+                </item>
+                <item>
+                    <text>生产中检验</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>DUPRO</downloadUrl>
+                </item>
+                <item>
+                    <text>生产初期检验</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>IPC</downloadUrl>
+                </item>
+                <item>
+                    <text>集装箱装箱检查</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>CLC</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>审核</text>
+            <items>
+                <item>
+                    <text>C-TPAT</text>
+                    <type>audit</type>
+                    <id>item_ctpat_audit</id>
+                    <imgUrl>AI_C-TPAT_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>CTPAT</downloadUrl>
+                </item>
+                <item>
+                    <text>环境审核</text>
+                    <type>audit</type>
+                    <id>item_environmental_audit</id>
+                    <imgUrl>AI_Environmental_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>environmentalaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>社会责任审核</text>
+                    <type>audit</type>
+                    <id>item_ethical_audit</id>
+                    <imgUrl>AI_Ethical_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ethicalaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>工厂审核</text>
+                    <type>audit</type>
+                    <id>item_manufacturing_audit</id>
+                    <imgUrl>AI_Manufacturing_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>manufacturingaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>结构审核</text>
+                    <type>audit</type>
+                    <id>item_structural_audit</id>
+                    <imgUrl>AI_Structural_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>structuralAudit</downloadUrl>
+                </item>
+                <item>
+                    <text>SMETA</text>
+                    <type>audit</type>
+                    <imgUrl>AI_Ethical_Audit_Report_SMETA_lg.jpg</imgUrl>
+                    <downloadUrl>SMETAAudit</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>实验室测试</text>
+            <items>
+                <item>
+                    <text>实验室测试</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_Toy_lg.jpg</imgUrl>
+                    <downloadUrl>LAB</downloadUrl>
+                </item>
+                <item>
+                    <text>REACH</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_REACH_lg.jpg</imgUrl>
+                    <downloadUrl>REACH</downloadUrl>
+                </item>
+                <item>
+                    <text>CPSIA</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_CPSIA_lg.jpg</imgUrl>
+                    <downloadUrl>CPSIA</downloadUrl>
+                </item>
+                <item>
+                    <text>RoHS</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_RoHS_lg.jpg</imgUrl>
+                    <downloadUrl>ROHS</downloadUrl>
+                </item>
+            </items>
+        </options>
+    </menu2>
+    <defaultOptions>
+        <menu1>
+            <text1>Select a Service</text1>
+            <text2>Select an Industry</text2>
+        </menu1>
+        <menu2>
+            <text>选择一件商品</text>
+            <select>选择一件商品</select>
+            <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+            <downloadUrl>服装</downloadUrl>
+        </menu2>
+        <menuService>
+            <text>选择一件商品</text>
+            <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+            <downloadUrl>PSI</downloadUrl>
+            <select>选择一件商品</select>
+        </menuService>
+    </defaultOptions>
+    <button>
+        <text>查看报告</text>
+    </button>
+</zh>
+
+<fr>
+    <title>Exemple d'une page de rapport</title>
+    <intro>Nous inspectons des produits parmi un grand nombre de secteurs d’activité et nous vous envoyons les rapports détaillés le jour même de l'inspection. Vous pouvez consulter immédiatement vos résultats via un tableau de bord en ligne qui vous permet d’accéder à des informations clés pour piloter la sécurité de votre chaîne d'approvisionnement.</intro>
+    <selectDesc>Sélectionnez un secteur d’activité pour voir un exemple de rapport.</selectDesc>
+    <menu>
+        <label1>Secteur d’activité:</label1>
+        <label2>Type de produit:</label2>
+
+        <options>
+            <text>Habillement</text>
+            <id>industry_apparel</id>
+            <items>
+                <item>
+                    <text>Gros</text>
+                    <type>inspection</type>
+                    <id>item_bag</id>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>DUPRO</downloadUrl>
+                </item>
+                <item>
+                    <text>peau d'alligator</text>
+                    <type>inspection</type>
+                    <id>item_gatorskin</id>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>PM</downloadUrl>
+                </item>
+                <item>
+                    <text>Bottes d'équitation</text>
+                    <type>inspection</type>
+                    <id>item_riding_boots</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Riding_Boots_lg.jpg</imgUrl>
+                    <downloadUrl>ridingboots</downloadUrl>
+                </item>
+                <item>
+                    <text>Écharpe</text>
+                    <type>inspection</type>
+                    <id>item_scarf</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Scarf_lg.jpg</imgUrl>
+                    <downloadUrl>scarf</downloadUrl>
+                </item>
+                <item>
+                    <text>Chaussures</text>
+                    <type>inspection</type>
+                    <id>item_footwear</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Shoes_lg.jpg</imgUrl>
+                    <downloadUrl>footwear</downloadUrl>
+                </item>
+                <item>
+                    <text>Chaussettes</text>
+                    <type>inspection</type>
+                    <id>item_socks</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Socks_lg.jpg</imgUrl>
+                    <downloadUrl>socks</downloadUrl>
+                </item>
+                <item>
+                    <text>Maillots de bain</text>
+                    <type>inspection</type>
+                    <id>item_swimwear</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Swimwear_lg.jpg</imgUrl>
+                    <downloadUrl>swimwear</downloadUrl>
+                </item>
+                <item>
+                    <text>Pantalon</text>
+                    <type>inspection</type>
+                    <id>item_trousers</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Trousers_lg.jpg</imgUrl>
+                    <downloadUrl>trousers</downloadUrl>
+                </item>
+                <item>
+                    <text>Chemises</text>
+                    <type>inspection</type>
+                    <id>item_tshirt</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+                    <downloadUrl>tshirt</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Électronique</text>
+            <id>industry_electronics</id>
+            <items>
+                <item>
+                    <text>Câble et adaptateur</text>
+                    <type>inspection</type>
+                    <id>item_cable_and_adapter</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Cable_and_Adapter_lg.jpg</imgUrl>
+                    <downloadUrl>cableandadapter</downloadUrl>
+                </item>
+                <item>
+                    <text>Déshumidificateurs</text>
+                    <type>inspection</type>
+                    <id>item_dehumidfiers</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Dehumidfiers_lg.jpg</imgUrl>
+                    <downloadUrl>dehumidfiers</downloadUrl>
+                </item>
+                <item>
+                    <text>téléphone portable</text>
+                    <type>inspection</type>
+                    <id>item_electronics</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>smart-phone</downloadUrl>
+                </item>
+                <item>
+                    <text>Tablette</text>
+                    <type>inspection</type>
+                    <id>item_tablet</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Tablet_lg.jpg</imgUrl>
+                    <downloadUrl>hard-tablet</downloadUrl>
+                </item>
+                <item>
+                    <text>Vidéo Numérique</text>
+                    <type>inspection</type>
+                    <id>item_topbox</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Top_Box_lg.jpg</imgUrl>
+                    <downloadUrl>topbox</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Alimentation &amp; Emballages Alimentaires</text>
+            <id>industry_food_and_food_packaging</id>
+            <items>
+                <item>
+                    <text>Fruits de mer</text>
+                    <type>inspection</type>
+                    <id>item_seafood</id>
+                    <imgUrl>AFI_Inspection_Report_PSI_Seafood_lg.jpg</imgUrl>
+                    <downloadUrl>food</downloadUrl>
+                </item>
+                <item>
+                    <text>Les légume</text>
+                    <type>inspection</type>
+                    <id>item_vegetable</id>
+                    <imgUrl>AFI_Inspection_Report_PSI_Vegetable_lg.jpg</imgUrl>
+                    <downloadUrl>vegetable</downloadUrl>
+                </item>
+                <item>
+                    <text>Blueberries</text>
+                    <id>item_blueberry</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Blueberries_lg.jpg</imgUrl>
+                    <downloadUrl>blueberry</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Cadeaux et Suppléments</text>
+            <id>industry_gifts_and_premiums</id>
+            <items>
+                <item>
+                    <text>lapin en céramique</text>
+                    <type>inspection</type>
+                    <id>item_ceramic_rabbit</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Rabbit_lg.jpg</imgUrl>
+                    <downloadUrl>ceramicrabbit</downloadUrl>
+                </item>
+                <item>
+                    <text>montre à bracelet</text>
+                    <type>inspection</type>
+                    <id>item_watch</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Watch_lg.jpg</imgUrl>
+                    <downloadUrl>watch</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Homeware &amp; Gardenware</text>
+            <id>industry_home_and_garden</id>
+            <items>
+                <item>
+                    <text>préparer le dîner</text>
+                    <type>inspection</type>
+                    <id>item_dinnerset</id>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>CLC</downloadUrl>
+                </item>
+                <item>
+                    <text>Four</text>
+                    <type>inspection</type>
+                    <id>item_oven</id>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>IPC</downloadUrl>
+                </item>
+                <item>
+                    <text>Chaise et table</text>
+                    <type>inspection</type>
+                    <id>item_chair_and_table</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Chair_and_Table_lg.jpg</imgUrl>
+                    <downloadUrl>chairandtable</downloadUrl>
+                </item>
+                <item>
+                    <text>Lampe</text>
+                    <type>inspection</type>
+                    <id>item_lamp</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Lamp_lg.jpg</imgUrl>
+                    <downloadUrl>lamp</downloadUrl>
+                </item>
+                <item>
+                    <text>Casserole</text>
+                    <type>inspection</type>
+                    <id>item_saucepan</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Saucepan_lg.jpg</imgUrl>
+                    <downloadUrl>saucepan</downloadUrl>
+                </item>
+                <item>
+                    <text>Canapé</text>
+                    <type>inspection</type>
+                    <id>item_sofa</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Sofa_lg.jpg</imgUrl>
+                    <downloadUrl>sofa</downloadUrl>
+                </item>
+                <item>
+                    <text>Meubles en bois massif</text>
+                    <type>inspection</type>
+                    <id>item_solid_wood_furniture</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Solid_Wood_Furniture_lg.jpg</imgUrl>
+                    <downloadUrl>solidwoodfurniture</downloadUrl>
+                </item>
+                <item>
+                    <text>lit rembourré</text>
+                    <type>inspection</type>
+                    <id>item_upholstered_bed</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Upholstered_Bed_lg.jpg</imgUrl>
+                    <downloadUrl>upholsteredbed</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Articles Industriels &amp; de Construction</text>
+            <id>industry_industrial_and_construction_items</id>
+            <items>
+                <item>
+                    <text>Carreaux de céramique</text>
+                    <type>inspection</type>
+                    <id>item_ceramictile</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Tiles_lg.jpg</imgUrl>
+                    <downloadUrl>ceramictiles</downloadUrl>
+                </item>
+                <item>
+                    <text>Revêtement de sol stratifié</text>
+                    <type>inspection</type>
+                    <id>item_lamflooring</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Flooring_Laminate_lg.jpg</imgUrl>
+                    <downloadUrl>lamflooring</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Jouets et Articles de Loisirs</text>
+            <id>industry_toys_and_recreational_items</id>
+            <items>
+                <item>
+                    <text>Jouets en Peluche</text>
+                    <type>inspection</type>
+                    <id>item_plush_toy</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Plush_toy_lg.jpg</imgUrl>
+                    <downloadUrl>plushtoy</downloadUrl>
+                </item>
+                <item>
+                    <text>Jouets</text>
+                    <type>inspection</type>
+                    <id>item_toy_car</id>
+                    <imgUrl>AI_Inspection_Report_PSI_Toy_Car_lg.jpg</imgUrl>
+                    <downloadUrl>toycar</downloadUrl>
+                </item>
+            </items>
+        </options>
+    </menu>
+
+    <menu2>
+        <label1>Service</label1>
+        <options>
+            <text>Inspection</text>
+            <items>
+                <item>
+                    <text>Inspection Avant Expédition</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>PSI</downloadUrl>
+                </item>
+                <item>
+                    <text>Suivi de Production</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>PM</downloadUrl>
+                </item>
+                <item>
+                    <text>Contrôle Pendant la Production</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>DUPRO</downloadUrl>
+                </item>
+                <item>
+                    <text>Contrôle de Production Initiale</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>IPC</downloadUrl>
+                </item>
+                <item>
+                    <text>Vérification de Chargement du Conteneur</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>CLC</downloadUrl>
+                </item>
+            </items>
+        </options>
+        <options>
+            <text>Audit</text>
+            <items>
+                <item>
+                    <text>C-TPAT</text>
+                    <type>audit</type>
+                    <id>item_ctpat_audit</id>
+                    <imgUrl>AI_C-TPAT_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>CTPAT</downloadUrl>
+                </item>
+                <item>
+                    <text>Audit environnemental</text>
+                    <type>audit</type>
+                    <id>item_environmental_audit</id>
+                    <imgUrl>AI_Environmental_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>environmentalaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>Audit Éthique</text>
+                    <type>audit</type>
+                    <id>item_ethical_audit</id>
+                    <imgUrl>AI_Ethical_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ethicalaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>Audit Industriel</text>
+                    <type>audit</type>
+                    <id>item_manufacturing_audit</id>
+                    <imgUrl>AI_Manufacturing_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>manufacturingaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>Audit de Structure</text>
+                    <type>audit</type>
+                    <id>item_structural_audit</id>
+                    <imgUrl>AI_Structural_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>structuralAudit</downloadUrl>
+                </item>
+                <item>
+                    <text>SMETA</text>
+                    <type>audit</type>
+                    <imgUrl>AI_Ethical_Audit_Report_SMETA_lg.jpg</imgUrl>
+                    <downloadUrl>SMETAAudit</downloadUrl>
+                </item>
+            </items>
+        </options>
+
+        <options>
+            <text>Test en Laboratoire</text>
+            <items>
+                <item>
+                    <text>Test en Laboratoire</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_Toy_lg.jpg</imgUrl>
+                    <downloadUrl>LAB</downloadUrl>
+                </item>
+                <item>
+                    <text>REACH</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_REACH_lg.jpg</imgUrl>
+                    <downloadUrl>REACH</downloadUrl>
+                </item>
+                <item>
+                    <text>CPSIA</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_CPSIA_lg.jpg</imgUrl>
+                    <downloadUrl>CPSIA</downloadUrl>
+                </item>
+                <item>
+                    <text>RoHS</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_RoHS_lg.jpg</imgUrl>
+                    <downloadUrl>ROHS</downloadUrl>
+                </item>
+            </items>
+        </options>
+    </menu2>
+    <defaultOptions>
+        <menu1>
+            <text1>Sélectionnez Service</text1>
+            <text2>Sélectionnez Secteur d’activité</text2>
+        </menu1>
+        <menu2>
+            <text>Sélectionnez un Élément</text>
+            <select>Select an Item</select>
+            <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+            <downloadUrl>clothing</downloadUrl>
+        </menu2>
+        <menuService>
+            <text>Sélectionnez un Élément</text>
+            <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+            <downloadUrl>PSI</downloadUrl>
+            <select>Select an Item</select>
+        </menuService>
+    </defaultOptions>
+    <button>
+        <text>Afficher Rapport</text>
+    </button>
+</fr>
+
+<es>
+    <title>Ejemplos de Informes</title>
+    <intro>AI realiza auditorías, inspecciones y pruebas de laboratorio para un gran número de sectores. Nuestros informes detallados son procesados en su dashboard y le permiten tomar decisiones para proteger su cadena de suministro. Eche un vistazo a algunos ejemplos de los informes que proporcionamos a continuación.</intro>
+    <samplelist>Full Reports Sample list:</samplelist>
+    <selectDesc>Mostrar informes de ejemplo:</selectDesc>
+    <menu>
+        <label1>Sector</label1>
+        <label2>Item:</label2>
+        <!--
+        <options>
+            <text>All</text>
+            <id>industry_all</id>
+            <items>
+                <item>
+                    <text />
+                    <imgUrl />
+                    <downloadUrl />
+                </item>
+            </items>
+        </options>
+        -->
+        <options>
+            <text>Apparel</text>
+            <id>industry_apparel</id>
+            <items>
+                <item>
+                    <text>Bag</text>
+                    <id>item_bag</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>DUPRO</downloadUrl>
+                </item>
+                <item>
+                    <text>Gator skin</text>
+                    <id>item_gatorskin</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>PM</downloadUrl>
+                </item>
+                <item>
+                    <text>Riding boots</text>
+                    <id>item_riding_boots</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Riding_Boots_lg.jpg</imgUrl>
+                    <downloadUrl>ridingboots</downloadUrl>
+                </item>
+                <item>
+                    <text>Scarf</text>
+                    <id>item_scarf</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Scarf_lg.jpg</imgUrl>
+                    <downloadUrl>scarf</downloadUrl>
+                </item>
+                <item>
+                    <text>Shoes</text>
+                    <id>item_footwear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Shoes_lg.jpg</imgUrl>
+                    <downloadUrl>footwear</downloadUrl>
+                </item>
+                <item>
+                    <text>Socks</text>
+                    <id>item_socks</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Socks_lg.jpg</imgUrl>
+                    <downloadUrl>socks</downloadUrl>
+                </item>
+                <item>
+                    <text>Swimwear</text>
+                    <id>item_swimwear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Swimwear_lg.jpg</imgUrl>
+                    <downloadUrl>swimwear</downloadUrl>
+                </item>
+                <item>
+                    <text>Trousers</text>
+                    <id>item_trousers</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Trousers_lg.jpg</imgUrl>
+                    <downloadUrl>trousers</downloadUrl>
+                </item>
+                <item>
+                    <text>T-shirt</text>
+                    <id>item_tshirt</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+                    <downloadUrl>tshirt</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Electronics</text>
+            <id>industry_electronics</id>
+            <items>
+                <item>
+                    <text>Cable and adapter</text>
+                    <id>item_cable_and_adapter</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Cable_and_Adapter_lg.jpg</imgUrl>
+                    <downloadUrl>cableandadapter</downloadUrl>
+                </item>
+                <item>
+                    <text>Dehumidifiers</text>
+                    <id>item_dehumidfiers</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Dehumidfiers_lg.jpg</imgUrl>
+                    <downloadUrl>dehumidfiers</downloadUrl>
+                </item>
+                <item>
+                    <text>Smart phone</text>
+                    <id>item_electronics</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>smart-phone</downloadUrl>
+                </item>
+                <item>
+                    <text>Tablet</text>
+                    <id>item_tablet</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Tablet_lg.jpg</imgUrl>
+                    <downloadUrl>hard-tablet</downloadUrl>
+                </item>
+                <item>
+                    <text>Top box</text>
+                    <id>item_topbox</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Top_Box_lg.jpg</imgUrl>
+                    <downloadUrl>topbox</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Eyewear</text>
+            <id>industry_eyewear</id>
+            <items>
+                <item>
+                    <text>Glasses</text>
+                    <id>item_eyewear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_glasses_lg.jpg</imgUrl>
+                    <downloadUrl>eyewear</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Food &amp; Food Packaging</text>
+            <id>industry_food_and_food_packaging</id>
+            <items>
+                <item>
+                    <text>Seafood</text>
+                    <id>item_seafood</id>
+                    <type>inspection</type>
+                    <imgUrl>AFI_Inspection_Report_PSI_Seafood_lg.jpg</imgUrl>
+                    <downloadUrl>food</downloadUrl>
+                </item>
+                <item>
+                    <text>Vegetables</text>
+                    <id>item_vegetable</id>
+                    <type>inspection</type>
+                    <imgUrl>AFI_Inspection_Report_PSI_Vegetable_lg.jpg</imgUrl>
+                    <downloadUrl>vegetable</downloadUrl>
+                </item>
+                <item>
+                    <text>Blueberries</text>
+                    <id>item_blueberry</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Blueberries_lg.jpg</imgUrl>
+                    <downloadUrl>blueberry</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Gifts &amp; Premiums</text>
+            <id>industry_gifts_and_premiums</id>
+            <items>
+                <item>
+                    <text>Ceramic rabbit</text>
+                    <id>item_ceramic_rabbit</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Rabbit_lg.jpg</imgUrl>
+                    <downloadUrl>ceramicrabbit</downloadUrl>
+                </item>
+                <item>
+                    <text>Watch</text>
+                    <id>item_watch</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Watch_lg.jpg</imgUrl>
+                    <downloadUrl>watch</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Homeware &amp; Gardenware</text>
+            <id>industry_home_and_garden</id>
+            <items>
+                <item>
+                    <text>Dinner set</text>
+                    <id>item_dinnerset</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>CLC</downloadUrl>
+                </item>
+                <item>
+                    <text>Oven</text>
+                    <id>item_oven</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>IPC</downloadUrl>
+                </item>
+                <item>
+                    <text>Chair and table</text>
+                    <id>item_chair_and_table</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Chair_and_Table_lg.jpg</imgUrl>
+                    <downloadUrl>chairandtable</downloadUrl>
+                </item>
+                <item>
+                    <text>Lamp</text>
+                    <id>item_lamp</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Lamp_lg.jpg</imgUrl>
+                    <downloadUrl>lamp</downloadUrl>
+                </item>
+                <item>
+                    <text>Saucepan</text>
+                    <id>item_saucepan</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Saucepan_lg.jpg</imgUrl>
+                    <downloadUrl>saucepan</downloadUrl>
+                </item>
+                <item>
+                    <text>Sofa</text>
+                    <id>item_sofa</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Sofa_lg.jpg</imgUrl>
+                    <downloadUrl>sofa</downloadUrl>
+                </item>
+                <item>
+                    <text>Solid wood furniture</text>
+                    <id>item_solid_wood_furniture</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Solid_Wood_Furniture_lg.jpg</imgUrl>
+                    <downloadUrl>solidwoodfurniture</downloadUrl>
+                </item>
+                <item>
+                    <text>Upholstered bed</text>
+                    <id>item_upholstered_bed</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Upholstered_Bed_lg.jpg</imgUrl>
+                    <downloadUrl>upholsteredbed</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Industrial &amp; Construction Items</text>
+            <id>industry_industrial_and_construction_items</id>
+            <items>
+                <item>
+                    <text>Ceramic Tiles</text>
+                    <id>item_ceramictile</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Tiles_lg.jpg</imgUrl>
+                    <downloadUrl>ceramictiles</downloadUrl>
+                </item>
+                <item>
+                    <text>Laminate Flooring</text>
+                    <id>item_lamflooring</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Flooring_Laminate_lg.jpg</imgUrl>
+                    <downloadUrl>lamflooring</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Toys &amp; Recreational Items</text>
+            <id>industry_toys_and_recreational_items</id>
+            <items>
+                <item>
+                    <text>Plush toy</text>
+                    <id>item_plush_toy</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Plush_toy_lg.jpg</imgUrl>
+                    <downloadUrl>plushtoy</downloadUrl>
+                </item>
+                <item>
+                    <text>Toy car</text>
+                    <id>item_toy_car</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Toy_Car_lg.jpg</imgUrl>
+                    <downloadUrl>toycar</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+    </menu>
+        
+    <menu2>
+        <label1>Service</label1>
+        <!--
+        <options>
+            <text>All</text>
+            <items>
+                <item>
+                    <text />
+                    <imgUrl />
+                    <downloadUrl />
+                </item>
+            </items>
+        </options>
+        -->
+        <options>
+            <text>Inspection</text>
+            <items>
+                <item>
+                    <text>Pre-Shipment Inspection</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>PSI</downloadUrl>
+                </item>
+                <item>
+                    <text>Production Monitoring</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>PM</downloadUrl>
+                </item>
+                <item>
+                    <text>During Production Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>DUPRO</downloadUrl>
+                </item>
+                <item>
+                    <text>Initial Production Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>IPC</downloadUrl>
+                </item>
+                <item>
+                    <text>Container Loading Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>CLC</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Audit</text>
+            <items>
+                <item>
+                    <text>C-TPAT Audit</text>
+                    <type>audit</type>
+                    <id>item_ctpat_audit</id>
+                    <imgUrl>AI_C-TPAT_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>CTPAT</downloadUrl>
+                </item>
+                <item>
+                    <text>Environmental Audit</text>
+                    <type>audit</type>
+                    <id>item_environmental_audit</id>
+                    <imgUrl>AI_Environmental_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>environmentalaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>Ethical Audit</text>
+                    <type>audit</type>
+                    <id>item_ethical_audit</id>
+                    <imgUrl>AI_Ethical_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ethicalaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>Manufacturing Audit</text>
+                    <type>audit</type>
+                    <id>item_manufacturing_audit</id>
+                    <imgUrl>AI_Manufacturing_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>manufacturingaudit</downloadUrl>
+                </item>
+                <item>
+                    <text>Structural Audit</text>
+                    <type>audit</type>
+                    <id>item_structural_audit</id>
+                    <imgUrl>AI_Structural_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>structuralAudit</downloadUrl>
+                </item>
+                <item>
+                    <text>SMETA Audit</text>
+                    <type>audit</type>
+                    <imgUrl>AI_Ethical_Audit_Report_SMETA_lg.jpg</imgUrl>
+                    <downloadUrl>SMETAAudit</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Laboratory Testing</text>
+            <items>
+                <item>
+                    <text>Laboratory Testing</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_Toy_lg.jpg</imgUrl>
+                    <downloadUrl>LAB</downloadUrl>
+                </item>
+                <item>
+                    <text>REACH</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_REACH_lg.jpg</imgUrl>
+                    <downloadUrl>REACH</downloadUrl>
+                </item>
+                <item>
+                    <text>CPSIA</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_CPSIA_lg.jpg</imgUrl>
+                    <downloadUrl>CPSIA</downloadUrl>
+                </item>
+                <item>
+                    <text>RoHS</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_RoHS_lg.jpg</imgUrl>
+                    <downloadUrl>ROHS</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+    </menu2>
+        
+    <defaultOptions>
+        <menu1>
+            <text1>Select a Service</text1>
+            <text2>Select an Industry</text2>
+        </menu1>
+        <menu2>
+            <text>Select an Item</text>
+            <select>Select an Item</select>
+            <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+            <downloadUrl>clothing</downloadUrl>
+        </menu2>
+        <menuService>
+            <text>Select an Item</text>
+            <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+            <downloadUrl>PSI</downloadUrl>
+            <select>Select an Item</select>
+        </menuService>
+    </defaultOptions>
+        
+    <button>
+        <text>View Report</text>
+    </button>
+</es>
+
+<tr>
+    <title>Numune Raporları</title>
+    <intro>AI çok sayıda sektör için denetim, muayene ve laboratuvar testleri yapmaktadır. Detaylı raporlarımız tedarik zincirinizi güvenceye almanız için bilinçli kararlar almanızı sağlamak için Kontrol panelinizdeki işlenebilir görüşleri güçlendimektedir. Aşağıda verdiğimiz rapor örneklerinden bazılarını kontrol edin.</intro>
+    <samplelist>Full Reports Sample list:</samplelist>
+    <selectDesc>Örnek raporları göster</selectDesc>
+    <menu>
+        <label1>Industry</label1>
+        <label2>Item:</label2>
+        <!--
+        <options>
+            <text>All</text>
+            <id>industry_all</id>
+            <items>
+                <item>
+                    <text />
+                    <imgUrl />
+                    <downloadUrl />
+                </item>
+            </items>
+        </options>
+        -->
+        <options>
+            <text>Apparel</text>
+            <id>industry_apparel</id>
+            <items>
+                <item>
+                    <text>Bag</text>
+                    <id>item_bag</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>dupro</downloadUrl>
+                </item>
+                <item>
+                    <text>Gator skin</text>
+                    <id>item_gatorskin</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>pm</downloadUrl>
+                </item>
+                <item>
+                    <text>Riding boots</text>
+                    <id>item_riding_boots</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Riding_Boots_lg.jpg</imgUrl>
+                    <downloadUrl>riding-boots</downloadUrl>
+                </item>
+                <item>
+                    <text>Scarf</text>
+                    <id>item_scarf</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Scarf_lg.jpg</imgUrl>
+                    <downloadUrl>scarf</downloadUrl>
+                </item>
+                <item>
+                    <text>Shoes</text>
+                    <id>item_footwear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Shoes_lg.jpg</imgUrl>
+                    <downloadUrl>shoes</downloadUrl>
+                </item>
+                <item>
+                    <text>Socks</text>
+                    <id>item_socks</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Socks_lg.jpg</imgUrl>
+                    <downloadUrl>socks</downloadUrl>
+                </item>
+                <item>
+                    <text>Swimwear</text>
+                    <id>item_swimwear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Swimwear_lg.jpg</imgUrl>
+                    <downloadUrl>swimwear</downloadUrl>
+                </item>
+                <item>
+                    <text>Trousers</text>
+                    <id>item_trousers</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Trousers_lg.jpg</imgUrl>
+                    <downloadUrl>trousers</downloadUrl>
+                </item>
+                <item>
+                    <text>T-shirt</text>
+                    <id>item_tshirt</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+                    <downloadUrl>tshirt</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Electronics</text>
+            <id>industry_electronics</id>
+            <items>
+                <item>
+                    <text>Cable and adapter</text>
+                    <id>item_cable_and_adapter</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Cable_and_Adapter_lg.jpg</imgUrl>
+                    <downloadUrl>cable-and-adapter</downloadUrl>
+                </item>
+                <item>
+                    <text>Dehumidifiers</text>
+                    <id>item_dehumidfiers</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Dehumidfiers_lg.jpg</imgUrl>
+                    <downloadUrl>dehumidifiers</downloadUrl>
+                </item>
+                <item>
+                    <text>Smart phone</text>
+                    <id>item_electronics</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>smart-phone</downloadUrl>
+                </item>
+                <item>
+                    <text>Tablet</text>
+                    <id>item_tablet</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Tablet_lg.jpg</imgUrl>
+                    <downloadUrl>tablet</downloadUrl>
+                </item>
+                <item>
+                    <text>Top box</text>
+                    <id>item_topbox</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Top_Box_lg.jpg</imgUrl>
+                    <downloadUrl>top-box</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Eyewear</text>
+            <id>industry_eyewear</id>
+            <items>
+                <item>
+                    <text>Glasses</text>
+                    <id>item_eyewear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_glasses_lg.jpg</imgUrl>
+                    <downloadUrl>eyewear</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Food &amp; Food Packaging</text>
+            <id>industry_food_and_food_packaging</id>
+            <items>
+                <item>
+                    <text>Seafood</text>
+                    <id>item_seafood</id>
+                    <type>inspection</type>
+                    <imgUrl>AFI_Inspection_Report_PSI_Seafood_lg.jpg</imgUrl>
+                    <downloadUrl>seafood</downloadUrl>
+                </item>
+                <item>
+                    <text>Vegetables</text>
+                    <id>item_vegetable</id>
+                    <type>inspection</type>
+                    <imgUrl>AFI_Inspection_Report_PSI_Vegetable_lg.jpg</imgUrl>
+                    <downloadUrl>vegetables</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Gifts &amp; Premiums</text>
+            <id>industry_gifts_and_premiums</id>
+            <items>
+                <item>
+                    <text>Ceramic rabbit</text>
+                    <id>item_ceramic_rabbit</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Rabbit_lg.jpg</imgUrl>
+                    <downloadUrl>ceramic-rabbit</downloadUrl>
+                </item>
+                <item>
+                    <text>Watch</text>
+                    <id>item_watch</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Watch_lg.jpg</imgUrl>
+                    <downloadUrl>watch</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Homeware &amp; Gardenware</text>
+            <id>industry_home_and_garden</id>
+            <items>
+                <item>
+                    <text>Dinner set</text>
+                    <id>item_dinnerset</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>clc</downloadUrl>
+                </item>
+                <item>
+                    <text>Oven</text>
+                    <id>item_oven</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>ipc</downloadUrl>
+                </item>
+                <item>
+                    <text>Chair and table</text>
+                    <id>item_chair_and_table</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Chair_and_Table_lg.jpg</imgUrl>
+                    <downloadUrl>chair-and-table</downloadUrl>
+                </item>
+                <item>
+                    <text>Lamp</text>
+                    <id>item_lamp</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Lamp_lg.jpg</imgUrl>
+                    <downloadUrl>lamp</downloadUrl>
+                </item>
+                <item>
+                    <text>Saucepan</text>
+                    <id>item_saucepan</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Saucepan_lg.jpg</imgUrl>
+                    <downloadUrl>saucepan</downloadUrl>
+                </item>
+                <item>
+                    <text>Sofa</text>
+                    <id>item_sofa</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Sofa_lg.jpg</imgUrl>
+                    <downloadUrl>sofa</downloadUrl>
+                </item>
+                <item>
+                    <text>Solid wood furniture</text>
+                    <id>item_solid_wood_furniture</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Solid_Wood_Furniture_lg.jpg</imgUrl>
+                    <downloadUrl>solid-wood-furniture</downloadUrl>
+                </item>
+                <item>
+                    <text>Upholstered bed</text>
+                    <id>item_upholstered_bed</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Upholstered_Bed_lg.jpg</imgUrl>
+                    <downloadUrl>upholstered-bed</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Industrial &amp; Construction Items</text>
+            <id>industry_industrial_and_construction_items</id>
+            <items>
+                <item>
+                    <text>Ceramic Tiles</text>
+                    <id>item_ceramictile</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Tiles_lg.jpg</imgUrl>
+                    <downloadUrl>ceramic-tiles</downloadUrl>
+                </item>
+                <item>
+                    <text>Laminate Flooring</text>
+                    <id>item_lamflooring</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Flooring_Laminate_lg.jpg</imgUrl>
+                    <downloadUrl>laminate-flooring</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Toys &amp; Recreational Items</text>
+            <id>industry_toys_and_recreational_items</id>
+            <items>
+                <item>
+                    <text>Plush toy</text>
+                    <id>item_plush_toy</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Plush_toy_lg.jpg</imgUrl>
+                    <downloadUrl>plush-toy</downloadUrl>
+                </item>
+                <item>
+                    <text>Toy car</text>
+                    <id>item_toy_car</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Toy_Car_lg.jpg</imgUrl>
+                    <downloadUrl>toy-car</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+    </menu>
+        
+    <menu2>
+        <label1>Hizmet</label1>
+        <!--
+        <options>
+            <text>All</text>
+            <items>
+                <item>
+                    <text />
+                    <imgUrl />
+                    <downloadUrl />
+                </item>
+            </items>
+        </options>
+        -->
+        <options>
+            <text>Inspection</text>
+            <items>
+                <item>
+                    <text>Pre-Shipment Inspection</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>psi</downloadUrl>
+                </item>
+                <item>
+                    <text>Production Monitoring</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>pm</downloadUrl>
+                </item>
+                <item>
+                    <text>During Production Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>dupro</downloadUrl>
+                </item>
+                <item>
+                    <text>Initial Production Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>ipc</downloadUrl>
+                </item>
+                <item>
+                    <text>Container Loading Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>clc</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Audit</text>
+            <items>
+                <item>
+                    <text>C-TPAT Audit</text>
+                    <type>audit</type>
+                    <id>item_ctpat_audit</id>
+                    <imgUrl>AI_C-TPAT_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ctpat</downloadUrl>
+                </item>
+                <item>
+                    <text>Environmental Audit</text>
+                    <type>audit</type>
+                    <id>item_environmental_audit</id>
+                    <imgUrl>AI_Environmental_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>environmental</downloadUrl>
+                </item>
+                <item>
+                    <text>Etik Denetimi</text>
+                    <type>audit</type>
+                    <id>item_ethical_audit</id>
+                    <imgUrl>AI_Ethical_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ea</downloadUrl>
+                </item>
+                <item>
+                    <text>Manufacturing Audit</text>
+                    <type>audit</type>
+                    <id>item_manufacturing_audit</id>
+                    <imgUrl>AI_Manufacturing_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ma</downloadUrl>
+                </item>
+                <item>
+                    <text>Structural Audit</text>
+                    <type>audit</type>
+                    <id>item_structural_audit</id>
+                    <imgUrl>AI_Structural_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>structural</downloadUrl>
+                </item>
+                <item>
+                    <text>SMETA Audit</text>
+                    <type>audit</type>
+                    <imgUrl>AI_Ethical_Audit_Report_SMETA_lg.jpg</imgUrl>
+                    <downloadUrl>smeta</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Laboratory Testing</text>
+            <items>
+                <item>
+                    <text>Laboratory Testing</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_Toy_lg.jpg</imgUrl>
+                    <downloadUrl>lab-testing</downloadUrl>
+                </item>
+                <item>
+                    <text>REACH</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_REACH_lg.jpg</imgUrl>
+                    <downloadUrl>reach</downloadUrl>
+                </item>
+                <item>
+                    <text>CPSIA</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_CPSIA_lg.jpg</imgUrl>
+                    <downloadUrl>cpsia</downloadUrl>
+                </item>
+                <item>
+                    <text>RoHS</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_RoHS_lg.jpg</imgUrl>
+                    <downloadUrl>rohs</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+    </menu2>
+        
+    <defaultOptions>
+        <menu1>
+            <text1>Bir Hizmet Seçin</text1>
+            <text2>Select an Industry</text2>
+        </menu1>
+        <menu2>
+            <text>Select an Item</text>
+            <select>Select an Item</select>
+            <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+            <downloadUrl>clothing</downloadUrl>
+        </menu2>
+        <menuService>
+            <text>Select an Item</text>
+            <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+            <downloadUrl>psi</downloadUrl>
+            <select>Select an Item</select>
+        </menuService>
+    </defaultOptions>
+        
+    <button>
+        <text>View Report</text>
+    </button>
+</tr>
+
+<pt>
+    <title>Relatórios de Amostras</title>
+    <intro>A AI realiza auditorias, inspeções e testes de laboratório para uma grande quantidade de indústrias. Os nossos relatórios detalhados fornecem informações relevantes no seu Painel para que possa tomar decisões informadas para assegurar a sua cadeia de fornecimento. Veja alguns exemplos dos relatórios que fornecemos abaixo.</intro>
+    <samplelist>Full Reports Sample list:</samplelist>
+    <selectDesc>SMostrar relatórios de amostras:</selectDesc>
+    <menu>
+        <label1>setor</label1>
+        <label2>Item:</label2>
+        <!--
+        <options>
+            <text>All</text>
+            <id>industry_all</id>
+            <items>
+                <item>
+                    <text />
+                    <imgUrl />
+                    <downloadUrl />
+                </item>
+            </items>
+        </options>
+        -->
+        <options>
+            <text>Apparel</text>
+            <id>industry_apparel</id>
+            <items>
+                <item>
+                    <text>Bag</text>
+                    <id>item_bag</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>dupro</downloadUrl>
+                </item>
+                <item>
+                    <text>Gator skin</text>
+                    <id>item_gatorskin</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>pm</downloadUrl>
+                </item>
+                <item>
+                    <text>Riding boots</text>
+                    <id>item_riding_boots</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Riding_Boots_lg.jpg</imgUrl>
+                    <downloadUrl>riding-boots</downloadUrl>
+                </item>
+                <item>
+                    <text>Scarf</text>
+                    <id>item_scarf</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Scarf_lg.jpg</imgUrl>
+                    <downloadUrl>scarf</downloadUrl>
+                </item>
+                <item>
+                    <text>Shoes</text>
+                    <id>item_footwear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Shoes_lg.jpg</imgUrl>
+                    <downloadUrl>shoes</downloadUrl>
+                </item>
+                <item>
+                    <text>Socks</text>
+                    <id>item_socks</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Socks_lg.jpg</imgUrl>
+                    <downloadUrl>socks</downloadUrl>
+                </item>
+                <item>
+                    <text>Swimwear</text>
+                    <id>item_swimwear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Swimwear_lg.jpg</imgUrl>
+                    <downloadUrl>swimwear</downloadUrl>
+                </item>
+                <item>
+                    <text>Trousers</text>
+                    <id>item_trousers</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Trousers_lg.jpg</imgUrl>
+                    <downloadUrl>trousers</downloadUrl>
+                </item>
+                <item>
+                    <text>T-shirt</text>
+                    <id>item_tshirt</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+                    <downloadUrl>tshirt</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Electronics</text>
+            <id>industry_electronics</id>
+            <items>
+                <item>
+                    <text>Cable and adapter</text>
+                    <id>item_cable_and_adapter</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Cable_and_Adapter_lg.jpg</imgUrl>
+                    <downloadUrl>cable-and-adapter</downloadUrl>
+                </item>
+                <item>
+                    <text>Dehumidifiers</text>
+                    <id>item_dehumidfiers</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Dehumidfiers_lg.jpg</imgUrl>
+                    <downloadUrl>dehumidifiers</downloadUrl>
+                </item>
+                <item>
+                    <text>Smart phone</text>
+                    <id>item_electronics</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>smart-phone</downloadUrl>
+                </item>
+                <item>
+                    <text>Tablet</text>
+                    <id>item_tablet</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Tablet_lg.jpg</imgUrl>
+                    <downloadUrl>tablet</downloadUrl>
+                </item>
+                <item>
+                    <text>Top box</text>
+                    <id>item_topbox</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Top_Box_lg.jpg</imgUrl>
+                    <downloadUrl>top-box</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Eyewear</text>
+            <id>industry_eyewear</id>
+            <items>
+                <item>
+                    <text>Glasses</text>
+                    <id>item_eyewear</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_glasses_lg.jpg</imgUrl>
+                    <downloadUrl>eyewear</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Food &amp; Food Packaging</text>
+            <id>industry_food_and_food_packaging</id>
+            <items>
+                <item>
+                    <text>Seafood</text>
+                    <id>item_seafood</id>
+                    <type>inspection</type>
+                    <imgUrl>AFI_Inspection_Report_PSI_Seafood_lg.jpg</imgUrl>
+                    <downloadUrl>seafood</downloadUrl>
+                </item>
+                <item>
+                    <text>Vegetables</text>
+                    <id>item_vegetable</id>
+                    <type>inspection</type>
+                    <imgUrl>AFI_Inspection_Report_PSI_Vegetable_lg.jpg</imgUrl>
+                    <downloadUrl>vegetables</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Gifts &amp; Premiums</text>
+            <id>industry_gifts_and_premiums</id>
+            <items>
+                <item>
+                    <text>Ceramic rabbit</text>
+                    <id>item_ceramic_rabbit</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Rabbit_lg.jpg</imgUrl>
+                    <downloadUrl>ceramic-rabbit</downloadUrl>
+                </item>
+                <item>
+                    <text>Watch</text>
+                    <id>item_watch</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Watch_lg.jpg</imgUrl>
+                    <downloadUrl>watch</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Homeware &amp; Gardenware</text>
+            <id>industry_home_and_garden</id>
+            <items>
+                <item>
+                    <text>Dinner set</text>
+                    <id>item_dinnerset</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>clc</downloadUrl>
+                </item>
+                <item>
+                    <text>Oven</text>
+                    <id>item_oven</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>ipc</downloadUrl>
+                </item>
+                <item>
+                    <text>Chair and table</text>
+                    <id>item_chair_and_table</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Chair_and_Table_lg.jpg</imgUrl>
+                    <downloadUrl>chair-and-table</downloadUrl>
+                </item>
+                <item>
+                    <text>Lamp</text>
+                    <id>item_lamp</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Lamp_lg.jpg</imgUrl>
+                    <downloadUrl>lamp</downloadUrl>
+                </item>
+                <item>
+                    <text>Saucepan</text>
+                    <id>item_saucepan</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Saucepan_lg.jpg</imgUrl>
+                    <downloadUrl>saucepan</downloadUrl>
+                </item>
+                <item>
+                    <text>Sofa</text>
+                    <id>item_sofa</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Sofa_lg.jpg</imgUrl>
+                    <downloadUrl>sofa</downloadUrl>
+                </item>
+                <item>
+                    <text>Solid wood furniture</text>
+                    <id>item_solid_wood_furniture</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Solid_Wood_Furniture_lg.jpg</imgUrl>
+                    <downloadUrl>solid-wood-furniture</downloadUrl>
+                </item>
+                <item>
+                    <text>Upholstered bed</text>
+                    <id>item_upholstered_bed</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Upholstered_Bed_lg.jpg</imgUrl>
+                    <downloadUrl>upholstered-bed</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Industrial &amp; Construction Items</text>
+            <id>industry_industrial_and_construction_items</id>
+            <items>
+                <item>
+                    <text>Ceramic Tiles</text>
+                    <id>item_ceramictile</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Ceramic_Tiles_lg.jpg</imgUrl>
+                    <downloadUrl>ceramic-tiles</downloadUrl>
+                </item>
+                <item>
+                    <text>Laminate Flooring</text>
+                    <id>item_lamflooring</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Flooring_Laminate_lg.jpg</imgUrl>
+                    <downloadUrl>laminate-flooring</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Toys &amp; Recreational Items</text>
+            <id>industry_toys_and_recreational_items</id>
+            <items>
+                <item>
+                    <text>Plush toy</text>
+                    <id>item_plush_toy</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Plush_toy_lg.jpg</imgUrl>
+                    <downloadUrl>plush-toy</downloadUrl>
+                </item>
+                <item>
+                    <text>Toy car</text>
+                    <id>item_toy_car</id>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Toy_Car_lg.jpg</imgUrl>
+                    <downloadUrl>toy-car</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+    </menu>
+        
+    <menu2>
+        <label1>serviço</label1>
+        <!--
+        <options>
+            <text>All</text>
+            <items>
+                <item>
+                    <text />
+                    <imgUrl />
+                    <downloadUrl />
+                </item>
+            </items>
+        </options>
+        -->
+        <options>
+            <text>Inspection</text>
+            <items>
+                <item>
+                    <text>Inspeção pré-embarque</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+                    <downloadUrl>psi</downloadUrl>
+                </item>
+                <item>
+                    <text>Production Monitoring</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_PM_Gator_Skin_lg.jpg</imgUrl>
+                    <downloadUrl>pm</downloadUrl>
+                </item>
+                <item>
+                    <text>During Production Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_DUPRO_Bag_lg.jpg</imgUrl>
+                    <downloadUrl>dupro</downloadUrl>
+                </item>
+                <item>
+                    <text>Initial Production Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_IPC_Oven_lg.jpg</imgUrl>
+                    <downloadUrl>ipc</downloadUrl>
+                </item>
+                <item>
+                    <text>Container Loading Check</text>
+                    <type>inspection</type>
+                    <imgUrl>AI_Inspection_Report_CLC_Dinner_Set_lg.jpg</imgUrl>
+                    <downloadUrl>clc</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Audit</text>
+            <items>
+                <item>
+                    <text>C-TPAT Audit</text>
+                    <type>audit</type>
+                    <id>item_ctpat_audit</id>
+                    <imgUrl>AI_C-TPAT_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ctpat</downloadUrl>
+                </item>
+                <item>
+                    <text>Environmental Audit</text>
+                    <type>audit</type>
+                    <id>item_environmental_audit</id>
+                    <imgUrl>AI_Environmental_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>environmental</downloadUrl>
+                </item>
+                <item>
+                    <text>Auditoria Social</text>
+                    <type>audit</type>
+                    <id>item_ethical_audit</id>
+                    <imgUrl>AI_Ethical_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ea</downloadUrl>
+                </item>
+                <item>
+                    <text>Manufacturing Audit</text>
+                    <type>audit</type>
+                    <id>item_manufacturing_audit</id>
+                    <imgUrl>AI_Manufacturing_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>ma</downloadUrl>
+                </item>
+                <item>
+                    <text>Structural Audit</text>
+                    <type>audit</type>
+                    <id>item_structural_audit</id>
+                    <imgUrl>AI_Structural_Audit_Report_lg.jpg</imgUrl>
+                    <downloadUrl>structural</downloadUrl>
+                </item>
+                <item>
+                    <text>SMETA Audit</text>
+                    <type>audit</type>
+                    <imgUrl>AI_Ethical_Audit_Report_SMETA_lg.jpg</imgUrl>
+                    <downloadUrl>smeta</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+        <options>
+            <text>Laboratory Testing</text>
+            <items>
+                <item>
+                    <text>Laboratory Testing</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_Toy_lg.jpg</imgUrl>
+                    <downloadUrl>lab-testing</downloadUrl>
+                </item>
+                <item>
+                    <text>REACH</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_REACH_lg.jpg</imgUrl>
+                    <downloadUrl>reach</downloadUrl>
+                </item>
+                <item>
+                    <text>CPSIA</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_CPSIA_lg.jpg</imgUrl>
+                    <downloadUrl>cpsia</downloadUrl>
+                </item>
+                <item>
+                    <text>RoHS</text>
+                    <type>labtest</type>
+                    <imgUrl>AI_Lab_Testing_RoHS_lg.jpg</imgUrl>
+                    <downloadUrl>rohs</downloadUrl>
+                </item>
+            </items>
+        </options>
+        
+    </menu2>
+        
+    <defaultOptions>
+        <menu1>
+            <text1>Selecione um Serviço</text1>
+            <text2>Select an Industry</text2>
+        </menu1>
+        <menu2>
+            <text>Select an Item</text>
+            <select>Select an Item</select>
+            <imgUrl>AI_Inspection_Report_PSI_Tshirt_lg.jpg</imgUrl>
+            <downloadUrl>clothing</downloadUrl>
+        </menu2>
+        <menuService>
+            <text>Select an Item</text>
+            <imgUrl>AI_Inspection_Report_PSI_Smartphone_lg.jpg</imgUrl>
+            <downloadUrl>psi</downloadUrl>
+            <select>Select an Item</select>
+        </menuService>
+    </defaultOptions>
+        
+    <button>
+        <text>View Report</text>
+    </button>
+</pt>
+
+    <ru>
+        <title>Образцы отчетов</title>
+        <intro>AI осуществляет аудит, инспекцию и лабораторные тесты для широкого круга отраслей. Наши подробные отчеты, которые вы можете просмотреть в своей панели управления, содержат информацию, которая поможет вам принять осведомленное решение для безопасности вашей цепочки поставок. Посмотрите примеры отчетов ниже.</intro>
+        <samplelist>Full Reports Sample list:</samplelist>
+        <selectDesc>Показать образцы отчетов</selectDesc>
+    </ru>
+
+</document>

@@ -1,0 +1,377 @@
+{% extends '::base.html.twig' %}
+{% block title %}AsiaInspection Quality Control Mobile App - Manage Supply Chain Reports On The Go{% endblock %}
+{% block pageDescription %}AsiaInspection’s QC mobile app lets you manage your product and supplier compliance on the go. Find out how easy it is to manage your supply chain from anywhere.{% endblock %}
+{% block pageKeywords %}quality control app, inspection report app, inspection mobile app, qc mobile app{% endblock%}
+{% block pagename %}mobileMicro{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {%stylesheets filter="scss" '@AIResponsiveBundle/Resources/public/css/micromobile.scss' %}
+    <link rel="stylesheet" href="{{asset_url}}"/>
+    {%endstylesheets%}
+{% endblock %}
+
+{% block body %}
+    <!-- MARKETO [Begin] -->
+    {% if app.request.get('aliId') is defined and app.request.get('aliId') != null %}
+        <script type="text/javascript">
+            $(document).ready(function(){
+                replaceHTML = '<div class="mobileSuccessMessage" style="display:inline-block; text-align:center;"><div style="margin-bottom:1em;"><div style="text-align:center; background-color:white; padding:15px 25px;"><h3 style="font-size:14px; margin-bottom:0px; color:#5aa231;">Sent! Check your mobile device now to get the app\'s download link.</h3></div></div></div>';
+                $("#mainDownloadForms").append(replaceHTML);
+                $("#contactDownload").append(replaceHTML);
+                $("#processDownload").append(replaceHTML).find(".mobileSuccessMessage").css("margin-right","10px");
+                $("#mobileDownloadForms").append(replaceHTML);
+            });
+        </script>
+    {% endif %}
+    <script src="//app-ab16.marketo.com/js/forms2/js/forms2.min.js"></script>
+    <script src="/js/arrive.min.js"></script>
+        
+    <script type="text/javascript">
+        $(document).arrive(".mktoButton", function() {
+            $("#Email").val(getCookie('email')).attr("placeholder","Your email address").addClass("sendLinkMobileEmail mobileFullWidth");
+            mktoObj = $("#mktoForm_1139");
+            $(".mktoAsterix", mktoObj).parent().remove();
+            $(".mktoOffset", mktoObj).remove();
+            $(".mktoGutter", mktoObj).remove();
+            $(".mktoFormCol", mktoObj).css({
+                "width":"100%",
+                "margin-bottom":"0px"
+            });
+            $(".mktoFieldWrap", mktoObj).css("width","100%");
+            $("#Email", mktoObj).css({
+                "width":"100%",
+                "border":"1px solid rgb(206, 207, 209)",
+                "border-radius":"3px",
+                "box-shadow":"0 0 5px rgb(223, 224, 225) inset",
+                "background-color":"rgb(249,249,249)",
+                "box-sizing":"border-box",
+                "padding":"6px 12px",
+                "line-height":"20px",
+                "font-size":"14px",
+                "height":"34px"
+            }).parents(".mktoFormRow").css({
+                "width":"100%",
+                "display":"inline-block",
+                "max-width":"304px",
+                "float":"left"
+            });
+            $(".mktoButtonWrap", mktoObj).css("margin","0px");
+            $(mktoObj).css({
+                "width":"100%"
+            });
+            $(".mktoButton").addClass("two-btn btn btn-primary btn-big mobileFullWidth").text("{% trans %}Send now{% endtrans %}").css({
+                "display":"inline-block",
+                "width":"100%",
+                "width":"120px",
+                "background-image":"none",
+                "background-color":"#5ba331",
+                "font-size":"16px",
+                "line-height":"20px",
+                "margin-left":"15px",
+                "height":"34px"
+            }).hide();
+        });
+    </script>
+        <div class="row">
+            <div id="mastheadSection">
+                <div id="mastheadContainer">
+                    <div id="mastheadBG">
+                        <div id="desktopMastHeadFG">
+                            <h1 style="color:white; font-size:2.2em;">
+                                <span style="font-weight:bold;">YOUR EYES IN THE SUPPLY CHAIN</span>
+                                <br />
+                                <span style="font-weight:normal;">&ndash; ON AN APP</span>
+                            </h1>
+                            <p style="font-size:14px;">Manage your product and supplier compliance from the AI app when on the go! <b>Make decisions anytime, anywhere!</b></p>
+                            <p style="font-size:14px;">Get the app now by sending the download link to your phone</p>
+                            <div id="mainDownloadForms">
+                                <form id="mktoForm_1139"></form>
+                                <script>MktoForms2.loadForm("//app-ab16.marketo.com", "944-QDO-384", 1139);</script>
+                                <div style="clear:both;"></div>
+                                <div style="width:100%; max-width:304px; text-align:center;"><table style="width:100%; border:0px;"><tr><td width="35%"><hr /></td><td width="25%">&nbsp;OR&nbsp;</td><td width="35%"><hr /></td></tr></table></div>
+                                <select required name="mobilePhoneCountry" class="mobilePhoneCountry form-control" style="display:inline-block; position:relative; top:1px;">
+                                    <option value="" disabled selected hidden>+ (&nbsp;1&nbsp;)</option>
+                                    {% for country in countries %}
+                                        <option iso2='{{country.iso2}}' data-status='{{country.phone}}' {% if UserCountry is defined and UserCountry == country.iso2 %}selected='selected'{% endif %}>{{country.iso2}} +{{country.phone}} &nbsp; &mdash; &nbsp; {{country.name}}</option>
+                                    {% endfor %}
+                                </select>
+                                <input class="sendLinkMobileNumber form-control" type="text" placeholder="Your phone number" style="display:inline;"/>
+                                <a style="height:34px; line-height:32px; width:100%; max-width:304px; padding: 0px 8px; margin:10px 0px;" class="one-btn btn btn-primary btn-big mobileMasterSubmitButton" role="button" href="javascript://" onClick="mobileMasterSubmit(this)">Send now</a>
+                                <div class="appBadgeBox" style="padding-top: 5px; padding-bottom:15px;">
+                                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.asiainspection"><img border="0" src="{{assetsDomain}}/images/but_app_play_110x38.png" style="max-width:110px;"></a>
+                                    &nbsp;
+                                    <a target="_blank" href="https://itunes.apple.com/us/app/id589783645"><img border="0" src="{{assetsDomain}}/images/but_app_store_129x38.png" style="max-width:129px;"></a>
+                                </div>
+                                <div style="clear:both;"></div>
+                            </div>
+        
+                        </div>
+                        <div id="mobileMastHeadFG">
+                            <h1 style="color:white; font-size:2em; ">
+                                <span style="font-weight:bold;">YOUR EYES IN THE SUPPLY CHAIN</span>
+                                <br />
+                                <span style="font-weight:normal;">&ndash; ON AN APP</span>
+                            </h1>
+                        </div>
+        
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+                <div id="mobileSubMasthead">
+                    <br />
+                    <p style="font-size:1em;">Manage your product and supplier compliance from the AI app when on the go! <b>Make decisions anytime, anywhere!</b></p>
+                    <p style="font-size:1em;">Get the app now by sending the download link to your phone</p>
+                    <div id="mobileDownloadForms">
+                        <input class="sendLinkMobileEmail form-control mobileFullWidth" type="text" placeholder="Your phone's email address" style="display:inline;"/>
+                        <div style="width:100%; max-width:304px; text-align:center;"><table style="width:100%; border:0px;"><tr><td width="35%"><hr /></td><td width="25%">&nbsp;OR&nbsp;</td><td width="35%"><hr /></td></tr></table></div>
+                        <select required name="mobilePhoneCountry" class="mobilePhoneCountry form-control" style="display:inline;">
+                            <option value="" disabled selected hidden>+ (&nbsp;1&nbsp;)</option>
+                            {% for country in countries %}
+                                <option iso2='{{country.iso2}}' data-status='{{country.phone}}' {% if UserCountry is defined and UserCountry == country.iso2 %}selected='selected'{% endif %}>{{country.iso2}} +{{country.phone}} &nbsp; &mdash; &nbsp; {{country.name}}</option>
+                            {% endfor %}
+                        </select>
+                        <input class="sendLinkMobileNumber form-control" type="text" placeholder="Your phone number" style="display:inline; "/>
+                        <a style="height:34px; line-height:32px; padding: 0px 8px; margin:10px 0px; width:100%; max-width:304px;" class="one-btn btn btn-primary btn-big mobileMasterSubmitButton" role="button" href="javascript://" onClick="mobileMasterSubmit(this)">Send now</a>
+                        <div class="appBadgeBox" style="padding-top: 5px; padding-bottom:15px;">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.asiainspection"><img border="0" src="{{assetsDomain}}/images/but_app_play_110x38.png" style="max-width:110px;"></a>
+                            &nbsp;
+                            <a target="_blank" href="https://itunes.apple.com/us/app/id589783645"><img border="0" src="{{assetsDomain}}/images/but_app_store_129x38.png" style="max-width:129px;"></a>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="row" style="background-color: white;">
+            <div>
+                <div id="demoButton">
+                    <a class="thickbox one-btn btn btn-primary btn-big mobileFullWidth" role="button" href="/popup?video=mobilevideo&amp;lang=en&amp;TB_iframe=true&amp;ToDown=20&amp;&height=532&amp;width=918&amp;modal=true" special="newpop" onclick="videolinktrack('mobileVideo)">► WATCH A DEMO</a>
+                </div>
+            </div>
+        </div>
+        
+    <div class="row" style="background-color: white;">
+        
+        <div class="container wrapper" style="background-color: white;">
+            <div id="serviceSectionDesktop" class="col-xl-offset-0 col-xl-12 col-sm-offset-1 col-sm-11">
+                <div style="width:50%; float:left; padding:20px 10px 20px 0px; text-align:right;">
+                    <div style="background-color:white; max-width:750px; float:right;">
+                        <div class="serviceText" style="float:left; padding:0 15px 10px 0px;">
+                            <h4 style="color:#b31820; font-weight:bold; margin-top: 0;">AI SERVICES</h4>
+                            <p style="font-weight:bold;">We Bring Trust and Ethical Standards to Trade Globally</p>
+                            <p><b>Product inspections</b> for all manufacturing stages (initial check, DUPRO, pre-shipment, container check, production monitoring) &ndash; <b>from ${{price_Inspect_Low}}</b></p>
+                            <p><b>Supplier audit programs</b> for manufacturing, ethical, environmental, structural, C-TPAT &ndash; <b>from ${{price_Audit_Low}}</b></p>
+                            <p><b>Fully accredited lab testing</b> for any destination market (RoHS, REACH, CPSIA and more)</p>
+                        </div>
+                        <div class="serviceImage" style="float:right;">
+                            <img src="{{assetsDomain}}/images/mobilemicro/desktop/Services_420x385.jpg" style="width:100%;" title="Quality Control Inspections & Audits | AsiaInspection Mobile App" alt="Quality Control Inspections & Audits | AsiaInspection Mobile App" />
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+                <div style="width:50%; float:left; padding:20px 0px 20px 10px; text-align:left; margin-bottom:15px;">
+                    <div style="background-color:white; max-width:750px; float:left; margin-top:60px;">
+                        <div id="serviceImageRight" class="serviceImage" style="float:left;">
+                            <img src="{{assetsDomain}}/images/mobilemicro/desktop/Package_420x385.jpg" style="width:100%;" title="Softline, Hardline, & Technical Product Inspections | AsiaInspection Mobile App" alt="Softline, Hardline, & Technical Product Inspections | AsiaInspection Mobile App" />
+                        </div>
+                        <div id="serviceTextRight" class="serviceText" style="float:right; padding:0px 0px 0px 15px;">
+                            <h4 style="color:#b31820; font-weight:bold; margin-top: 0;">SERVICE PACKAGE</h4>
+                            <p>Expertise in a wide range of Softlines, Hardlines, Technical Products, and Food.</p>
+                            <p>Industry leading turn-around times &ndash; onsite in 48 hours with same-day reports.</p>
+                            <p style="margin-bottom: 0;"><b>Online dashboard</b> for real-time data intelligence, helping you make more informed decisions.</p>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <div id="serviceSectionMobile">
+                <div class="serviceText" style="margin-bottom:20px;">
+                    <h4 style="color:#b31820; font-weight:bold;">AI SERVICES</h4>
+                    <p style="font-weight:bold;">We Bring Trust and Ethical Standards to Trade Globally</p>
+                    <p><b>Product inspections</b> for all manufacturing stages (initial check, DUPRO, pre-shipment, container check, production monitoring) &ndash; <b>from ${{price_Inspect_Low}}</b></p>
+                    <p><b>Supplier audit programs</b> for manufacturing, ethical, environmental, structural, C-TPAT &ndash; <b>from ${{price_Audit_Low}}</b></p>
+                    <p><b>Fully accredited lab testing</b> for any destination market (RoHS, REACH, CPSIA and more)</p>
+                </div>
+                <div style="width:100%; height:0; padding-bottom:52%; position:relative;">
+                    <div class="serviceImage" style="left:0; bottom:0;">
+                        <img src="{{assetsDomain}}/images/mobilemicro/mobile/Package_420x385.jpg" title="Softline, Hardline, & Technical Product Inspections | AsiaInspection Mobile App" alt="Softline, Hardline, & Technical Product Inspections | AsiaInspection Mobile App" />
+                    </div>
+                    <div class="serviceImage" style="right:0; top:0;">
+                        <img src="{{assetsDomain}}/images/mobilemicro/mobile/Services_420x385.jpg" title="Quality Control Inspections & Audits | AsiaInspection Mobile App" alt="Quality Control Inspections & Audits | AsiaInspection Mobile App" />
+                    </div>
+                </div>
+                <div class="serviceText" style="margin-top:20px;">
+                    <h4 style="color:#b31820; font-weight:bold;">SERVICE PACKAGE</h4>
+                    <p>Expertise in a wide range of Softlines, Hardlines, Technical Products, and Food.</p>
+                    <p>Industry leading turn-around times &ndash; onsite in 48 hours with same-day reports.</p>
+                    <p><b>Online dashboard</b> for real-time data intelligence, helping you make more informed decisions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+            <div id="processSection">
+                <div id="processBG">
+                    <div class="container wrapper">
+                    <div id="processSubcontainer" class="col-xl-offset-0 col-xl-12 col-sm-offset-1 col-sm-11" style="text-align:center; padding-left:0px;">
+                        <div style="color:white; font-size:2.2em; padding:20px 0px;"><span style="font-weight:bold;">MANAGE YOUR QUALITY CONTROL</span> ON THE GO!</div>
+                        <div id="processImagesDesktop">
+                                <img class="stageImage" src="{{assetsDomain}}/images/mobilemicro/desktop/Stage_one_420x350.jpg" alt="Book Quality Control Orders Online w QC Mobile App" title="Book Quality Control Orders Online w QC Mobile App" />
+                                <img class="stageImage" src="{{assetsDomain}}/images/mobilemicro/desktop/Stage_three_420x350.jpg" alt="Locate Inspected & Audited Suppliers | AsiaInspection" title="Locate Inspected & Audited Suppliers | AsiaInspection" /> {#TODO: stage two image is misnamed as stage three#}
+                                <img class="stageImage" src="{{assetsDomain}}/images/mobilemicro/desktop/Stage_four_420x350.jpg" alt="AsiaInspection QC Mobile App – Complete Quality Control" title="AsiaInspection QC Mobile App – Complete Quality Control" />  {#TODO: stage three image is misnamed as stage four#}
+                                <img class="stageImage" style="min-width:19.25%;max-width:19.25%" src="{{assetsDomain}}/images/mobilemicro/mobile/Stage_four_350x350.png" alt="Monitor Inspection Reports | AsiaInspection QC Mobile App" title="Monitor Inspection Reports | AsiaInspection QC Mobile App" />  {#TODO: weird scaling because using mobile image#}
+                        </div>
+                        <div id="processImagesMobile" >
+                            <img class="stageImage" src="{{assetsDomain}}/images/mobilemicro/mobile/Stage_one_350x350.png"/>
+                            <img class="stageImage" src="{{assetsDomain}}/images/mobilemicro/mobile/Stage_two_350x350.png"/>
+                            <img class="stageImage" src="{{assetsDomain}}/images/mobilemicro/mobile/Stage_three_350x350.png"/>
+                            <img class="stageImage" src="{{assetsDomain}}/images/mobilemicro/mobile/Stage_four_350x350.png"/>
+                        </div>
+                        <center>
+                            <div id="processDownload">
+                                <input class="sendLinkMobileEmail form-control mobileFullWidth" type="text" placeholder="Your phone's email address" style="display:inline; "/><br />
+                                <div style="width:100%; max-width:304px; text-align:center; display:inline-block;"><table style="width:100%; border:0px;"><tr><td width="35%"><hr /></td><td width="25%" style="color:white;">&nbsp;OR&nbsp;</td><td width="35%"><hr /></td></tr></table></div><br />
+                                <select required name="mobilePhoneCountry" class="mobilePhoneCountry form-control" style="display:inline;">
+                                    <option value="" disabled selected hidden>+ (&nbsp;1&nbsp;)</option>
+                                    {% for country in countries %}
+                                        <option iso2='{{country.iso2}}' data-status='{{country.phone}}' {% if UserCountry is defined and UserCountry == country.iso2 %}selected='selected'{% endif %}>{{country.iso2}} +{{country.phone}} &nbsp; &mdash; &nbsp; {{country.name}}</option>
+                                    {% endfor %}
+                                </select>
+                                <input class="sendLinkMobileNumber form-control" type="text" placeholder="Your phone number" style="display:inline; position:relative; top:-1px;"/><br />
+                                <a style="height:34px; line-height:32px; padding: 0px 8px; margin:10px 0px; width:100%; max-width:304px;" class="one-btn btn btn-primary btn-big mobileMasterSubmitButton" role="button" href="javascript://" onClick="mobileMasterSubmit(this)">Send now</a>
+                            </div>
+                        </center>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        
+    <div class="row" style="background-color: white;">
+        
+        <div id="featuresRow" class="container wrapper">
+            <div id="featuresSectionDesktop" class="col-xl-offset-0 col-xl-12 col-sm-offset-1 col-sm-11">
+                <div id="instantReportsBoxDesktop" style="width:36%; border-style:border-box; padding:15px 45px 15px 0px; float:left; text-align:right;">
+                    <h4 style="color:#b31820; font-weight:bold;">INSTANT REPORTS</h4>
+                    <p style="font-weight:bold">Access supplier reports anywhere, anytime</p>
+                    <p>Never miss a thing with instant report notifications, allowing you to approve or reject shipments with zero delay. All your reports are at your fingertips, 24/7 and you can even download or share PDFs from your mobile device.<br /><b>Rate reports, and tell us how we did!</b></p>
+                    <img style="width:100%;" src="{{assetsDomain}}/images/mobilemicro/desktop/Reports_550x410.jpg" alt="Supplier Inspection & Audit Reports on AsiaInspection QC Mobile App" title="Supplier Inspection & Audit Reports on AsiaInspection QC Mobile App"/>
+                </div>
+                <div id="ordersMadeEasyBoxDesktop" style="width:36%; border-style:border-box; padding:15px 30px 15px 30px; float:left; text-align:left; position:relative;">
+                    <img style="width:100%;" src="{{assetsDomain}}/images/mobilemicro/desktop/Orders_550x340.jpg" alt="Book Supplier Audits & Inspections Online | AsiaInspection" title="Book Supplier Audits & Inspections Online | AsiaInspection" />
+                    <h4 style="color:#b31820; font-weight:bold;">ORDERS MADE EASY</h4>
+                    <p style="font-weight:bold">Stay on top of your orders</p>
+                    <p>Book or amend orders in seconds, with instant confirmation, then add them to your in-app calendar with automatic sync &ndash; keeping track of your QC schedule. Easily locate your suppliers on the map and check the overview of your pending orders at any time.</p>
+                </div>
+                <div id="businessIntelligenceBoxDesktop" style="width:28%; border-style:border-box; padding:15px 0px 15px 45px; float:left; text-align:left; position:relative; /*top: [set on resize via js];*/">
+                    <img style="width:100%;"  src="{{assetsDomain}}/images/mobilemicro/desktop/iPhone_420x780.png" alt="AsiaInspection Mobile App Dashboard – Quality Control Data on Suppliers" title="AsiaInspection Mobile App Dashboard – Quality Control Data on Suppliers" />
+                    <h4 style="color:#b31820; font-weight:bold;">BUSINESS INTELLIGENCE</h4>
+                    <p style="font-weight:bold">AI Dashboard with full QC data and supplier KPIs</p>
+                    <p>Real-time data intelligence for informed decisions with access to your suppliers' scoring and benchmarking when on the move. Monitor production quality in real time and assess AQL trends, rejection rates, supplier stats and much more!</p>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        
+            <div id="featuresSectionMobile">
+        
+                <div id="instantReportsBoxMobile" style="width:100%; border-style:border-box; text-align:right; position:relative; float:right; display:inline-block;">
+                    <h4 style="color:#b31820; font-weight:bold;">INSTANT REPORTS</h4>
+                    <p style="font-weight:bold;">Access supplier reports anywhere, anytime</p>
+                    <p style="z-index: 2; position: relative;">
+                        <img style="width:50%;" align="left" src="{{assetsDomain}}/images/mobilemicro/desktop/Reports_550x410.jpg" alt="Supplier Inspection & Audit Reports on AsiaInspection QC Mobile App" title="Supplier Inspection & Audit Reports on AsiaInspection QC Mobile App" />
+                        Never miss a thing with instant report notifications,<br />allowing you to approve or reject shipments with<br />zero delay. All your reports are at your fingertips,<br />24/7 and you can even download or<br />share PDFs from your mobile device.<br /><b>Rate reports, and tell us<br />how we did!</b>
+                    </p>
+                    <div style="clear:both;"></div>
+                </div>
+        
+                <div id="ordersMadeEasyBoxMobile" style="width:100%; border-style:border-box; text-align:left; margin-top:30px; position:relative; display:inline-block;">
+                    <h4 style="color:#b31820; font-weight:bold;">ORDERS MADE EASY</h4>
+                    <p style="font-weight:bold;">Stay on top of your orders</p>
+                    <p style="z-index: 2; position: relative; float:left;">
+                        Book or amend orders in seconds, with instant confirmation, then add them to your in-app calendar with automatic sync &ndash; keeping track of your QC schedule.
+                        <img style="width:60%; margin:10px 0px 10px 10px" align="right" src="{{assetsDomain}}/images/mobilemicro/desktop/Orders_550x340.jpg" alt="Book Supplier Audits & Inspections Online | AsiaInspection" title="Book Supplier Audits & Inspections Online | AsiaInspection" />
+                        Easily locate your suppliers on the map and check the overview of your pending orders at any time.
+                    </p>
+                    <div style="clear:both;"></div>
+                </div>
+        
+                <div id="businessIntelligenceBoxMobile" style="width:100%; border-style:border-box; margin-top:30px; position:relative; display:inline-block;">
+                    <img style="width:40%; position:relative; box-sizing:border-box; float:left;"  src="{{assetsDomain}}/images/mobilemicro/desktop/iPhone_420x780.png" />
+                    <div style="width:60%; position:relative; box-sizing:border-box; float:right; text-align:left;">
+                        <h4 style="color:#b31820; font-weight:bold;">BUSINESS INTELLIGENCE</h4>
+                        <p style="font-weight:bold;">AI Dashboard with full QC data and supplier KPIs</p>
+                        <p>Real-time data intelligence for informed decisions with access to your suppliers' scoring and benchmarking when on the move. Monitor production quality in real time and assess AQL trends, rejection rates, supplier stats and much more!</p>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+        
+                <div style="clear:both;"></div>
+        
+            </div>
+        </div>
+    </div>
+        
+        
+        <div>
+            <div style="overflow:hidden; background-color:#3b3838;">
+                <div id="contactContainer">
+                    <div id="contactBG">
+                        <div class="container wrapper">
+                            <div id="contactFG" class="col-xl-offset-0 col-xl-12 col-sm-offset-1 col-sm-11">
+                                <div id="contactHeading">
+                                    <div style="font-weight: bold;">ALL YOUR QUALITY</div>
+                                    <div style="font-weight: bold;">CONTROL NEEDS &ndash;</div>
+                                    <div style="">IN ONE PLACE</div>
+                                </div>
+                                <div id="contactDownload">
+                                    <input class="sendLinkMobileEmail form-control mobileFullWidth" type="text" placeholder="Your phone's email address" style="display:inline; "/>
+                                    <div style="width:100%; max-width:304px; text-align:center;"><table style="width:100%; border:0px;"><tr><td width="35%"><hr /></td><td width="25%">&nbsp;OR&nbsp;</td><td width="35%"><hr /></td></tr></table></div>
+                                    <select required name="mobilePhoneCountry" class="mobilePhoneCountry form-control" style="display:inline;">
+                                        <option value="" disabled selected hidden>+ (&nbsp;1&nbsp;)</option>
+                                        {% for country in countries %}
+                                            <option iso2='{{country.iso2}}' data-status='{{country.phone}}' {% if UserCountry is defined and UserCountry == country.iso2 %}selected='selected'{% endif %}>{{country.iso2}} +{{country.phone}} &nbsp; &mdash; &nbsp; {{country.name}}</option>
+                                        {% endfor %}
+                                    </select>
+                                    <input class="sendLinkMobileNumber form-control" type="text" placeholder="Your phone number" style="display:inline; position:relative; top:-1px;"/>
+                                    <a style="height:34px; line-height:32px; padding: 0px 8px; margin:10px 0px; width:100%; max-width:304px;" class="one-btn btn btn-primary btn-big mobileMasterSubmitButton" role="button" href="javascript://" onClick="mobileMasterSubmit(this)">Send now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{% endblock %}
+
+
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/javascript">
+        onResize = function() {
+            ordersMadeEasyImageHeight = $('#ordersMadeEasyBoxDesktop > img').height();
+            businessIntelligenceImageHeight = $('#businessIntelligenceBoxDesktop > img').height();
+            offsetProportion = (businessIntelligenceImageHeight - ordersMadeEasyImageHeight) / businessIntelligenceImageHeight;
+            offset = ordersMadeEasyImageHeight - businessIntelligenceImageHeight;
+            $('#businessIntelligenceBoxDesktop').css('top', offset + 'px');
+            $('#featuresSectionDesktop').css('margin-bottom', offset + 'px');
+            offsetProportion = (businessIntelligenceImageHeight - ordersMadeEasyImageHeight) / businessIntelligenceImageHeight;
+            offset = $('#serviceImageRight').height() - $('#serviceTextRight').height();
+            $('#serviceTextRight').css('margin-top', offset + 'px');
+        }
+        $(window).load(onResize);
+        $(window).resize(onResize);
+
+        function mobileMasterSubmit(obj) {
+            var countryCode = $('.mobilePhoneCountry option:selected').data('status');
+            if(countryCode == "" || countryCode == undefined ) countryCode = $('.mobilePhoneCountry option:selected').eq(1).attr("data-status");
+            var phoneNumber = $(".sendLinkMobileNumber").val();
+            var Email = $("#Email").val();
+            if(phoneNumber != "" && phoneNumber != undefined ) smsMobileLink(obj);
+            if(Email != "" && Email != undefined ) $(".mktoButton").click();
+        }
+    </script>
+{% endblock %}

@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document>
+		<EightTips>
+			<en>
+				<title>Download the AsiaInspection 8 Tips</title>
+				<desc>To access this exclusive content, please provide your email address.</desc>
+				<submit>Submit</submit>
+			</en>
+			<fr>
+				<title>Télécharger les 8 recommandations d'AsiaInspection</title>
+				<desc>Pour accéder à ce contenu, merci d'indiquer votre adresse email:</desc>
+				<submit>Envoyer</submit>
+			</fr>
+			<zh>
+				<title>下载AsiaInspection的8技巧</title>
+				<desc>欲下载此独家内容，请提供您的电子邮件地址。</desc>
+				<submit>提交</submit>
+			</zh>
+			<es>
+				<title>Descargue los 8 Consejos de AsiaInspection</title>
+				<desc>Para acceder a este contenido exclusivo, por favor escriba su e-mail.</desc>
+				<submit>Enviar</submit>
+			</es>
+			<de>
+				<title>Laden Sie die AsiaInspection 8 Tipps</title>
+				<desc>Geben Sie bitte Ihre E-Mail-Adresse ein, um auf diese Tipps zuzugreifen.</desc>
+				<submit>Einreichen</submit>
+			</de>
+			<pt>
+				<title>Baixe o report com 8 dicas de Controle de Qualidade da AsiaInspection</title>
+				<desc>Para ter acesso a este report exclusivo, insira o seu endereço de email.</desc>
+				<submit>Submeter</submit>
+			</pt>
+			<tr>
+				<title>AsiaInspection 8 İpuçları indirin</title>
+				<desc>Bu özel içeriğe erişmek için, e-posta adresinizi veriniz.</desc>
+				<submit>Gönder</submit>
+			</tr>
+			<ru>
+				<desc>Для получения доступа к содержимому, пожалуйста, сообщите ваш электронный адрес.</desc>
+				<submit>Отправить</submit>
+			</ru>
+		</EightTips>
+
+		<SampleReport>
+			<en>
+				<title>Download Sample Report</title>
+				<desc>To access this sample report, please provide your email address</desc>
+				<submit>Submit</submit>
+			</en>
+			<fr>
+				<title>Télécharger un rapport d'inspection</title>
+				<desc>Pour accéder à un exemple de rapport, communiquez votre adresse email.</desc>
+				<submit>Confirmer</submit>
+			</fr>
+			<zh>
+				<title>下载报告样本</title>
+				<desc>欲下载此示例报告，请提供您的电子邮件地址</desc>
+				<submit>提交</submit>
+			</zh>
+			<es>
+				<title>Descargar el reporte de ejemplo</title>
+				<desc>Para acceder a este informe de ejemplo, por favor escriba su e-mail</desc>
+				<submit>Enviar</submit>
+			</es>
+			<de>
+				<title>Download Sample Report</title>
+				<desc>Um auf diesen Beispielbericht zugreifen zu können, geben Sie bitte Ihre E-Mail Adresse an.</desc>
+				<submit>Einreichen</submit>
+			</de>
+			<pt>
+				<title>Download do Relatório Amostra</title>
+				<desc>Para ter acesso a este report exclusivo, insira o seu endereço de email</desc>
+				<submit>Submeter</submit>
+			</pt>
+			<tr>
+				<title>Örnek Rapor indirin</title>
+				<submit>Gönder</submit>
+			</tr>
+			<ru>
+				<title>Загрузить образец  отчета</title>
+				<desc>Для получения доступа к содержимому, пожалуйста, сообщите ваш электронный адрес.</desc>
+				<submit>Отправить</submit>
+			</ru>
+		</SampleReport>
+
+		<TruthChina>
+			<en>
+				<title>The Truth About China - Q1 Barometer</title>
+			</en>
+			<zh>
+				<title>中国的真相 - 第一季度报表</title>
+			</zh>
+			<ru>
+				<title>Правда о Китае</title>
+			</ru>
+		</TruthChina>
+
+		<Barometer2013Q2>
+			<en>
+				<title>The Truth About Social Responsibility</title>
+			</en>
+			<zh>
+				<title>社会责任的真相</title>
+			</zh>
+			<fr>
+				<title>La Vérité sur la Sécurité Sociale</title>
+			</fr>
+		</Barometer2013Q2>
+
+		<error>
+			<en>Please enter a valid email address.</en>
+			<zh>请输入一个有效的邮箱地址。</zh>
+			<fr>Veuillez fournir une adresse mail valide.</fr>
+			<es>Por favor, introduzca un e-mail válido.</es>
+			<de>Bitte geben sie eine gültige E-Mail-Adresse</de>
+		</error>
+
+		<networkCoverage>
+			<en>
+				<title>We perform Inspections in the following countries</title>
+				<country>China</country>
+				<country>Taiwan</country>
+				<country>India</country>
+				<country>Bangladesh</country>
+				<country>Vietnam</country>
+				<country>Korea</country>
+				<country>Thailand</country>
+				<country>Pakistan</country>
+				<country>Philippines</country>
+				<country>Cambodia</country>
+				<country>Indonesia</country>
+				<country>Laos</country>
+				<country>Malaysia</country>
+				<country>Sri Lanka</country>
+				<country>Turkey</country>
+			</en>
+			<fr>
+				<title>Nous effectuons des inspections dans les pays suivants</title>
+				<country>Chine</country>
+				<country>Taiwan</country>
+				<country>Inde</country>
+				<country>Bangladesh</country>
+				<country>Vietnam</country>
+				<country>Korée</country>
+				<country>Thailande</country>
+				<country>Pakistan</country>
+				<country>Philippines</country>
+				<country>Cambodge</country>
+				<country>Indonésie</country>
+				<country>Laos</country>
+				<country>Malaisie</country>
+				<country>Sri Lanka</country>
+				<country>Turquie</country>
+			</fr>
+			<zh>
+				<title>我们在以下国家/地区提供产品检验服务</title>
+				<country>中国</country>
+				<country>台湾</country>
+				<country>印度</country>
+				<country>孟加拉国</country>
+				<country>越南</country>
+				<country>韩国</country>
+				<country>泰国</country>
+				<country>巴基斯坦</country>
+				<country>菲律宾</country>
+				<country>柬埔寨</country>
+				<country>印度尼西亚</country>
+				<country>老挝</country>
+				<country>马来西亚</country>
+				<country>斯里兰卡</country>
+				<country>土耳其</country>
+			</zh>
+			<es>
+				<title>Realizamos inspecciones en los siguientes países</title>
+				<country>China</country>
+				<country>Taiwán</country>
+				<country>India</country>
+				<country>Bangladesh</country>
+				<country>Vietnam</country>
+				<country>Corea del Sur</country>
+				<country>Tailandia</country>
+				<country>Pakistán</country>
+				<country>Filipinas</country>
+				<country>Camboya</country>
+				<country>Indonesia</country>
+				<country>Laos</country>
+				<country>Malasia</country>
+				<country>Sri Lanka</country>
+				<country>Turquía</country>
+			</es>
+			<de>
+				<title>Wir führen Inspektionen in den folgenden Ländern</title>
+			</de>
+		</networkCoverage>
+
+		<lostPassword>
+			<en>
+				<title>Forgot Your Password?</title>
+				<text>Please enter the email address you registered with and your login credentials will be emailed to you.</text>
+				<submit>Submit</submit>
+			</en>
+			<zh>
+				<title>你忘记你的密码？</title>
+				<text>请输入您注册的邮箱地址，您的登录信息会以邮件形式发送给您。</text>
+				<submit>提交</submit>
+			</zh>
+			<es>
+				<title>¿Ha olvidado la contraseña?</title>
+				<text>Por favor, introduzca el email de registro para recibir la contraseña.</text>
+				<submit>Enviar</submit>
+			</es>
+			<tr>
+				<text>E-posta adresinizi girin ve giriş kimlik size gönderilecektir lütfen.</text>
+				<submit>Gönder</submit>
+			</tr>
+		</lostPassword>
+
+		<jobDesc>
+			<en>
+				<ok>Ok</ok>
+			</en>
+		</jobDesc>
+
+		<affiliateTerms>
+			<en>
+				<topText><![CDATA[This AsiaInspection Affiliate Program Agreement (the "Agreement") sets forth the terms and conditions regarding the AsiaInspection Affiliate Program (the "Program") of AsiaInspection Ltd. ("AsiaInspection"). BY CLICKING ON THE "Sign-Up Now" BUTTON AT THE END OF THE AFFILIATE APPLICATION, YOU (IF YOU ARE ACTING ON BEHALF OF YOURSELF AS AN INDIVIDUAL) OR YOUR COMPANY (IF YOU ARE ACTING ON BEHALF OF YOUR COMPANY) (THE "AFFILIATE") AGREE(S) TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT. PLEASE READ THIS ENTIRE AGREEMENT CAREFULLY BEFORE ACCEPTING ITS TERMS.]]></topText>
+				<section>
+					<title>Definitions</title>
+					<text><![CDATA[Capitalized terms in this Agreement will have the meanings set forth below or attributed to them in various sections of the Agreement. However, use of the term "Affiliate" in this Agreement shall not be interpreted or construed to mean that any party to this Agreement is an "affiliate" of any other party for purposes of any federal and state securities laws. "Affiliate Originated Visitor" means a unique end-user who accesses the AsiaInspection Site through an Affiliate Link on the Affiliate Site. "AsiaInspection Brand Features" means AsiaInspection trade names, trademark, service mark and/or logo authorized by AsiaInspection and found at AsiaInspection.com "AsiaInspection Content" means AsiaInspection-provided quality-control focused articles and other content. "AsiaInspection Site" means the AsiaInspection World Wide Web site which is the destination of the URL included by AsiaInspection in the Link. "Intellectual Property Rights" means all rights in and to trade secrets, patents, copyrights, trademarks, know-how, as well as moral rights and similar rights of any type under the laws of any governmental authority, domestic or foreign, including rights in and to all applications and registrations relating to any of the foregoing. "Link" means a hypertext and/or graphical link, to or from one Web site to another Web site which allows an Affiliate Originated Visitor to automatically transfer from the Affiliate Site to the AsiaInspection Site.]]></text>
+				</section>
+				<section>
+					<title>Enrollment in the Program</title>
+					<text><![CDATA[To begin the enrollment process, Affiliate will submit and complete Affiliate Program application via AsiaInspection.com. AsiaInspection will evaluate Affiliate's application and notify you of your acceptance or rejection of your application. AsiaInspection may reject your application and reserves the right to terminate this Agreement for any reason with or without notice to Affiliate including but not limited to a determination that the Affiliate Site is unsuitable for or incompatible with the Program.]]></text>
+				</section>
+				<section>
+					<title>Links</title>
+					<text><![CDATA[We </font><b><font face="Arial">prohibit any masking</font></b><font face="Arial"> of your URLs - making it appear as though your link is an official </font><a class="blueColor" href="http://www.asiainspection.com">www.AsiaInspection.com</a><font face="Arial">, or inspection.AsiaInspection.com. You may not use links that automatically redirect the user to the </font><a href="http://www.asiainspection.com" class="blueColor">www.AsiaInspection.com</a><font face="Arial">, or </font><a href="http://www.asiainspection.com" class="blueColor">AsiaInspection.com</a><font face="Arial"> website in your search ads. Any Affiliate Link placed must be done so in such a way that it is not misleading to any Affiliate Originated Visitor and done so with the intention of delivering users to the AsiaInspection Site for that Link. Affiliate acknowledges that the Affiliate Site will include the AsiaInspection Brand Features, and Affiliate has no right to alter, remove, or customize the AsiaInspection Brand Features. Affiliate will not use or display the Link(s) or the AsiaInspection Brand Features in a manner that is defamatory, misleading, libelous, and obscene or otherwise potentially damaging to the reputation of AsiaInspection, or the goodwill associated with the AsiaInspection Brand Features. Any Affiliate Link must not use the no follow tag.</font>]]></text>
+				</section>
+				<section>
+					<title>Affiliate Obligations and Restrictions</title>
+					<text><![CDATA[Affiliate will be solely responsible for the development, operation and maintenance of Affiliate Site and for all materials that appear on Affiliate Site, including but not limited to: (a) the accuracy and appropriateness of materials posted on Affiliate Site; and (b) ensuring that materials posted on Affiliate Site do not violate or infringe upon the rights of any third party. Affiliate agrees to refrain from the following: (a) purchasing and/or using domain name(s) that incorporate any portion of the AsiaInspection Brand Features; (b) purchasing any search engine keywords that outrank and/or outbid any of the AsiaInspection Brand Features; (c) identifying the Affiliate site as an "official site" ("affiliate" or "authorized affiliate" are permitted uses); and (d) changing any AsiaInspection Product price and/or offering any additional Affiliate discounts or rebate on any AsiaInspection Product. Affiliate hereby agrees to indemnify, defend and hold harmless AsiaInspection, its shareholders, officers, directors, employees, agents, partners, successors and assigns, from and against any and all claims, losses, liabilities, damages or expenses (including, without limitation, attorneys' fees) arising from the development, operation, maintenance and contents of Affiliate Site.</font>]]></text>
+				</section>
+				<section>
+					<title>Competitive Service</title>
+					<text><![CDATA[If you are approved as an Affiliate, AsiaInspection would prefer that you not be an affiliate or otherwise promote, market or sell any products that are competitive with AsiaInspection Products. If you do market competitive products and services, you agree to place our Link, banners, and any other content identifying AsiaInspection and/or describing the our products and services (the "Content") in a location and in a manner on your Site that is equal to or better than the location and manner in which you place a competitor's Content. </font>]]></text>
+				</section>
+				<section>
+					<title>Order Processing</title>
+					<text><![CDATA[AsiaInspection will process orders placed by users who follow the Links from Affiliate's Site to AsiaInspection's Web Site. AsiaInspection reserves the right to reject or withhold acceptance or fulfillment of orders for any reason or for no reason, including but not limited to the failure of any customer making an order to comply with our terms and conditions of sale, (which we may revise periodically without notice to you). AsiaInspection will be responsible for all aspects of order processing and fulfillment. </font>]]></text>
+				</section>
+				<section>
+					<title>Commissions</title>
+					<text><![CDATA[AsiaInspection will pay Affiliate 8% in commission on all paid services for the life of the client from the date of registration. Phone sales are not eligible for commissions under this program. In order to be eligible to earn a commission, your clients must order by clicking on the affiliate link you place on your Web site or you may refer affiliates offline by contacting <a href="mailto:affiliate@asiainspection.com">affiliate@asiainspection.com</a>. AsiaInspection clients are not eligible for the affiliate program. Affiliate may not directly, or indirectly, knowingly target existing AsiaInspection clients. If Affiliate violates any of the terms and conditions contained herein, Affiliate forfeits any unpaid commissions.<br />]]></text>
+				</section>
+				<section>
+					<title>Payments</title>
+					<text><![CDATA[Subject to Section 7 above, AsiaInspection will pay Affiliate the Commissions and Bounties earned with payments calculated on a quarterly basis (Described as January 1</font><sup><font face="Arial">st</font></sup><font face="Arial"> through March 31st, April 1</font><sup><font face="Arial">st</font></sup><font face="Arial"> through June 30</font><sup><font face="Arial">th</font></sup><font face="Arial">, July 1</font><sup><font face="Arial">st</font></sup><font face="Arial"> through September 30</font><sup><font face="Arial">th</font></sup><font face="Arial">, October 1</font><sup><font face="Arial">st</font></sup><font face="Arial"> through December 31</font><sup><font face="Arial">st</font></sup><font face="Arial">). Approximately forty-five (45) days following the end of each quarter (Described as March 31, June 30</font><sup><font face="Arial">th</font></sup><font face="Arial">, September 30</font><sup><font face="Arial">th</font></sup><font face="Arial">, and December 31</font><sup><font face="Arial">st</font></sup><font face="Arial">) during the agreement, AsiaInspection will send Affiliate the Commissions and Bounties earned via wire transfer or paypal, less any other fees or reduction for returns that AsiaInspection is required by law to withhold, and excluding fraudulent, redundant, or non-qualifying Commissions or Bounties. If the Commissions and Bounties payable to Affiliate for any quarter are less than $100.00 USD, AsiaInspection will hold those fees until the total amount due is greater than $100.00 USD (unless this Agreement is terminated). Affiliate may be taxed on the accrual of Commissions or Bounties, depending on the tax laws of Affiliate's federal, state, and local jurisdictions. Affiliate shall be responsible for any and all tax liability arising out of your accrual or receipt of Commissions or Bounties and Affiliate hereby agrees to indemnify and hold AsiaInspection harmless from any and all claims, damages and expenses (including, without limitation, attorneys' fees) arising from such tax liability. Each party is responsible for bearing their own bank charges (including intermediary bank charges if client's bank doesn't process the transfer themselves). </font>]]></text>
+				</section>
+				<section>
+					<title>License Grant</title>
+					<text><![CDATA[AsiaInspection hereby grants to Affiliate a limited, nonexclusive, royalty-free, nontransferable, worldwide license, without the right to sublicense, to use, reproduce, publicly perform, distribute and display the AsiaInspection Brand Features and AsiaInspection Content at the Affiliate Site solely in the form delivered by AsiaInspection. Affiliate is only entitled to use the AsiaInspection Brand Features and AsiaInspection Content to the extent that the Affiliate is a member in good standing in the Program.</font>]]></text>
+				</section>
+				<section>
+					<title>Reservation of Rights</title>
+					<text><![CDATA[AsiaInspection reserves all rights other than those expressly granted in this Agreement, and no licenses are granted except as expressly set forth herein. AsiaInspection retains all right, title, and interest in and to the AsiaInspection Brand Features and the AsiaInspection Site, together with all Intellectual Property Rights thereto. In addition, AsiaInspection shall establish all AsiaInspection Product pricing and associated fees. AsiaInspection may, in its sole discretion, change the AsiaInspection Product pricing with or without notice. </font>]]></text>
+				</section>
+				<section>
+					<title>Program Information</title>
+					<text><![CDATA[AsiaInspection will own all right, title and interest in and to all information that is created or collected in the operation of the AsiaInspection Site including, without limitation: (i) any contact information collected from any Affiliate Originated Visitors, (the "Contact Information"); and (ii) any information collected about product sales at the AsiaInspection Site generated through the Affiliate Link(s), (the "Sales Information"). AsiaInspection (will/can) not share contact information to Affiliates and/or other third parties. AsiaInspection will make certain Sales Information available online to Affiliate from time to time. Affiliate will not disclose any Sales Information to any third party without AsiaInspection's prior approval. Subject to the terms and conditions of this Agreement, AsiaInspection grants to Affiliate a worldwide, non-exclusive, royalty-free license to use Sales Information solely in the manner and subject to the restrictions set forth in this Section. Each party shall comply with its respective privacy policies and statements in handling, using and disclosing any Contact Information and Sales Information. </font>]]></text>
+				</section>
+				<section>
+					<title>Termination</title>
+					<text><![CDATA[This Agreement will become effective on the Effective Date and ends when terminated by either party in accordance with this Agreement. This Agreement may be terminated (i) by AsiaInspection, with or without cause, and with or without notice to Affiliate, and (ii) by Affiliate, with or without cause, by removing the AsiaInspection Brand Feature from the Affiliate Site, and notifying AsiaInspection of its intention to terminate the Agreement. Upon termination or expiration of the Agreement: (i) all licenses granted herein shall terminate; (ii) Affiliate shall immediately remove any Affiliate Link(s) and AsiaInspection Brand Features from Affiliate Site; (iii) AsiaInspection will pay Affiliate any accrued and unpaid Fees, provided such fees exceed $100; and (iv) Sections 14, 15, 16, 17, 18, 20, and 21 and this sentence will survive. If AsiaInspection should terminate this Agreement because Affiliate is in breach of a material term, AsiaInspection may withhold Commissions or Bounties payable to you in an amount equal to the amount by which AsiaInspection believes in good faith that we have been damaged by such breach, including prospective damages and damages resulting from claims by third-parties caused by such breach.</font>]]></text>
+				</section>
+				<section>
+					<title>Modification</title>
+					<text><![CDATA[At any time and in AsiaInspection's sole discretion, AsiaInspection may modify any of the terms and conditions contained in this Agreement by (i) posting a change notice or a new agreement on AsiaInspection.com and/or (ii) e-mailing a revised agreement to Affiliate. If any modification is unacceptable to Affiliate, Affiliate's only recourse is to terminate this Agreement. Affiliate's continued participation in the program following AsiaInspection's posting of a change notice or new agreement.AsiaInspection.com and/or affiliate's receipt of a revised agreement will constitute binding acceptance of the modification. </font>]]></text>
+				</section>
+				<section>
+					<title>Disclaimer</title>
+					<text><![CDATA[THE ASIAINSPECTION SITE AND RELATED SERVICES ARE PROVIDED "AS IS" WITH NO WARRANTY, AND ASIAINSPECTION EXPRESSLY DISCLAIMS ANY WARRANTY, EXPRESS OR IMPLIED, REGARDING THE ASIAINSPECTION SITE, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT AND IMPLIED WARRANTIES ARISING FROM COURSE OF DEALING OR COURSE OF PERFORMANCE. IN ADDITION, ASIAINSPECTION MAKES NO REPRESENTATION OR WARRANTY THAT THE LINKS, THE TRACKING DATA, THE OPERATION OF ASIAINSPECTION'S SITE, OR BE FREE'S PROCEDURES AND SYSTEMS FOR TRACKING AND REPORTING SALES GENERATED BY YOUR SITE WILL BE UNINTERRUPTED OR ERROR-FREE, AND ASIAINSPECTION SHALL NOT BE LIABLE FOR THE CONSEQUENCES OF ANY INTERRUPTIONS OR ERRORS, INCLUDING, WITHOUT LIMITATION, LOSS OF DATA. ASIAINSPECTION SHALL HAVE NO LIABILITIES OR OBLIGATIONS UNDER WARRANTY OR OTHERWISE TO ANY OF YOUR CUSTOMERS FOR DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE DELIVERY, USE OR PERFORMANCE OF ASIAINSPECTION'S PRODUCTS.</font>]]></text>
+				</section>
+				<section>
+					<title>Limitation of Liability</title>
+					<text><![CDATA[UNDER NO CIRCUMSTANCES WILL ASIAINSPECTION BE LIABLE WHETHER IN TORT, CONTRACT OR OTHERWISE FOR INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES (INCLUDING BUT NOT LIMITED TO DAMAGES FOR ANY LOSS OF REVENUE, PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION OR DATA, LOSS OF GOODWILL, WORK STOPPAGE, HARDWARE OR SOFTWARE FAILURE, OR OTHER PECUNIARY LOSS) ARISING FROM OR RELATING TO ANY PROVISION OF THIS AGREEMENT OR THE PROGRAM. WITHOUT LIMITING THE FOREGOING, ASIAINSPECTION'S AGGREGATE LIABILITY ARISING WITH RESPECT TO THIS AGREEMENT WILL NOT EXCEED THE TOTAL FEES PAID OR PAYABLE TO AFFILIATE UNDER THIS AGREEMENT.</font>]]></text>
+				</section>
+				<section>
+					<title>Authority</title>
+					<text><![CDATA[If the person entering into this Agreement is acting on behalf of his or her company, such person represents to AsiaInspection that he or she has all requisite corporate power and authority to enter into this Agreement on behalf of Affiliate, that this Agreement has been duly authorized by Affiliate and that this Agreement will constitute the legal, valid and binding obligation of Affiliate. Such person hereby agrees to indemnify and hold AsiaInspection harmless from any and all claims, damages and expenses (including, without limitation, attorneys' fees) arising from any breach of this Section. If the person entering into this Agreement is acting on one's behalf, such person represents to AsiaInspection that he or she is an individual, 18 years of age or older. </font>]]></text>
+				</section>
+				<section>
+					<title>Publicity</title>
+					<text><![CDATA[Affiliate shall not create, publish, distribute, or permit any written material that makes reference to AsiaInspection without first submitting such material to AsiaInspection and receiving written consent from AsiaInspection. 18. Relationship of Parties. Affiliate and AsiaInspection are independent contractors, and nothing in this Agreement will create any partnership, joint venture, agency, franchise, sales representative, or employment relationship, or the relationship of principal and agent between the parties. Affiliate will have no authority to make or accept any offers or representations on AsiaInspection's behalf. Affiliate will not make any statement, whether on Affiliate Site or otherwise, that reasonably would contradict anything in this Section. Affiliate, as an independent contractor, will have sole responsibility for its expenses, employees, sales representatives and agents. </font>]]></text>
+				</section>
+				<section>
+					<title>Communications</title>
+					<text><![CDATA[Affiliate agrees that by becoming an AsiaInspection Affiliate, AsiaInspection will contact you on a periodic basis with information about AsiaInspection's affiliate programs. </font>]]></text>
+				</section>
+				<section>
+					<title>Jurisdiction</title>
+					<text><![CDATA[These terms and conditions shall be governed by and construed in accordance with Hong Kong Law.  All disputes or differences of any kind whatsoever between the parties in connection with or arising out of the services shall be submitted to the non exclusive jurisdiction of the courts of Hong Kong.</font>]]></text>
+				</section>
+				<section>
+					<title>Notice</title>
+					<text><![CDATA[Any notice to be given hereunder will be in writing and given by facsimile, postpaid registered or certified mail return receipt requested, or electronic mail. The date of receipt shall be deemed the date on which such notice is given. Notice to AsiaInspection will be directed to AsiaInspection Ltd., 5/F, Dah Sing Life Building,99-105 Des Voeux Road Central HK. Tel. (852) 8332 1345 - Fax. (852) 2774 2053) within seven days following discovery of the facts, or three months from the completion of the AI Service.. </font>]]></text>
+				</section>
+				<section>
+					<title>Assignment</title>
+					<text><![CDATA[You may not assign this Agreement, by operation of law or otherwise, without our prior written consent. Subject to that restriction, this Agreement will be binding on, inure to the benefit of, and be enforceable against the parties to this Agreement and their respective successors and assigns. </font>]]></text>
+				</section>
+				<section>
+					<title>Independent Investigation</title>
+					<text><![CDATA[YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT AND AGREE TO ALL ITS TERMS AND CONDITIONS. YOU UNDERSTAND THAT WE MAY AT ANY TIME (DIRECTLY OR INDIRECTLY) SOLICIT CUSTOMER REFERRALS ON TERMS THAT MAY DIFFER FROM THOSE CONTAINED IN THIS AGREEMENT OR OPERATE WEB SITES THAT ARE SIMILAR TO OR COMPETE WITH YOUR WEB SITE. YOU HAVE INDEPENDENTLY EVALUATED THE DESIRABILITY OF PARTICIPATING IN THE AFFILIATE PROGRAM AND ARE NOT RELYING ON ANY REPRESENTATION, GUARANTEE, OR STATEMENT OTHER THAN AS SET FORTH IN THIS AGREEMENT. </font></p>]]></text>
+				</section>
+			</en>
+		</affiliateTerms>
+
+		<loginByEmail>
+			<en>
+				<multipleAccounts>The email you entered is attached to more than one account.</multipleAccounts>
+				<clickConnect>Please select the account you want to log in with.</clickConnect>
+				<username>User Name</username>
+				<company>Company</company>
+			</en>
+			<zh>
+				<multipleAccounts>这个电子邮箱已与多个账号关联。</multipleAccounts>
+				<clickConnect>请选择您想要登录的账户。</clickConnect>
+				<username>用户名</username>
+				<company>公司</company>
+			</zh>
+		</loginByEmail>
+
+		<AuditPhotos>
+
+			<en>
+				<img text="The entrance to the factory." image="Social-Audit-Factory-Front-Door.jpg" thumb="spriteSRAthumb_010"></img>
+				<img text="The emergency exit is locked and preventing an urgent evacuation." image="Social-Audit-Entrance-Emergency-Exit.jpg" thumb="spriteSRAthumb_008"></img>
+				<img text="Emergency exit lights are tested to ensure they remain lit during a power outage." image="Social-Audit-Emergency-Exit.jpg" thumb="spriteSRAthumb_007"></img>
+				<img text="Fire extinguishers are checked to be easily accessible and in working condition." image="Social-Audit-Fire-Extinguishers-has-been-buried-under-the-product.jpg" thumb="spriteSRAthumb_015"></img>
+				<img text="There should always be a clear path to the fire extinguishers." image="Social-Audit-Fire-Extinguish-in-the-office-center.jpg" thumb="spriteSRAthumb_012"></img>
+				<img text="Auditors verify production documents and working hours." image="Social-Audit-Production-document-checking.jpg" thumb="spriteSRAthumb_003"></img>
+				<img text="Auditors ensure all equipment is fully functional and in safe working condition." image="Social-Audit-Factory-Equipment-Checking.jpg" thumb="spriteSRAthumb_002"></img>
+				<img text="Employees are ensured to have access to, and wear, proper safety equipment." image="Social-Audit-Ear-plug-protecting-workers-ear.jpg" thumb="spriteSRAthumb_006"></img>
+				<img text="Fire extinguishers have their expiry dates checked." image="Social-Audit-Fire-Extinguisher-need-not-be-expired-and-broken.jpg" thumb="spriteSRAthumb_013"></img>
+				<img text="Reports include numerous production line photos, taking you inside the factory." image="Social-Audit-Production-Line-Garments.jpg" thumb="spriteSRAthumb_017"></img>
+				<img text="A raw material warehouse." image="Social-Audit-Raw-Material.jpg" thumb="spriteSRAthumb_019"></img>
+				<img text="A finished product warehouse." image="Social-Audit-Warehouse-for-finished-product.jpg" thumb="spriteSRAthumb_011"></img>
+				<img text="Employee production procedures are ensured to be proper and safe." image="Social-Audit-Production-Line-Review.jpg" thumb="spriteSRAthumb_001"></img>
+				<img text="Outside the employee dormitory." image="Social-Audit-Dormitory-Building.jpg" thumb="spriteSRAthumb_005"></img>
+				<img text="Inside the employee dormitory." image="Social-Audit-Dormitory.jpg" thumb="spriteSRAthumb_004"></img>
+				<img text="Employee working hours are checked to comply with applicable laws." image="Social-Audit-Work-Schedule.jpg" thumb="spriteSRAthumb_021"></img>
+				<img text="Examine employee records for compensation, working hours, age and forced labor." image="Social-Audit-Personal-File.jpg" thumb="spriteSRAthumb_016"></img>
+				<img text="Clients receive their detailed reports within 48 hours following the audit." image="Social-Audit-Sample-Summary.jpg" thumb="spriteSRAthumb_020"></img>
+			</en>
+
+			<fr>
+				<img text="L'entrée de l'usine." image="Social-Audit-Factory-Front-Door.jpg" thumb="spriteSRAthumb_010"></img>
+				<img text="L'issue de secours est verrouillée et empeche une evacuation d'urgence." image="Social-Audit-Entrance-Emergency-Exit.jpg" thumb="spriteSRAthumb_008"></img>
+				<img text="Les lumières de secours sont testés pour assurer qu'ils restent allumés pendant une panne de courant." image="Social-Audit-Emergency-Exit.jpg" thumb="spriteSRAthumb_007"></img>
+				<img text="Les extincteurs doivent être facilement accessible et en état de marche." image="Social-Audit-Fire-Extinguishers-has-been-buried-under-the-product.jpg" thumb="spriteSRAthumb_015"></img>
+				<img text="Les extincteurs doivent rester accessibles et en état de marche." image="Social-Audit-Fire-Extinguish-in-the-office-center.jpg" thumb="spriteSRAthumb_012"></img>
+				<img text="Les auditeurs vérifient les documents de production et les horaires de l'usine." image="Social-Audit-Production-document-checking.jpg" thumb="spriteSRAthumb_003"></img>
+				<img text="Les auditeurs s'assurent que l'équipement est entièrement fonctionnel et en bon état de marche." image="Social-Audit-Factory-Equipment-Checking.jpg" thumb="spriteSRAthumb_002"></img>
+				<img text="Les employés doivent porter l'équipement de sécurité approprié." image="Social-Audit-Ear-plug-protecting-workers-ear.jpg" thumb="spriteSRAthumb_006"></img>
+				<img text="La date d'expiration des extincteurs est vérifié." image="Social-Audit-Fire-Extinguisher-need-not-be-expired-and-broken.jpg" thumb="spriteSRAthumb_013"></img>
+				<img text="Les rapports comprennent de nombreuses photos de la ligne de production, et vous emmène à l'intérieur de l'usine." image="Social-Audit-Production-Line-Garments.jpg" thumb="spriteSRAthumb_017"></img>
+				<img text="Un entrepôt de matière première." image="Social-Audit-Raw-Material.jpg" thumb="spriteSRAthumb_019"></img>
+				<img text="Un entrepôt de produits finis." image="Social-Audit-Warehouse-for-finished-product.jpg" thumb="spriteSRAthumb_011"></img>
+				<img text="Les procédures de production sont verifiés pour rester correctes et sûres pour les employés" image="Social-Audit-Production-Line-Review.jpg" thumb="spriteSRAthumb_001"></img>
+				<img text="L'exterieur du dortoir des employés." image="Social-Audit-Dormitory-Building.jpg" thumb="spriteSRAthumb_005"></img>
+				<img text="L'interieur du dortoir des employés." image="Social-Audit-Dormitory.jpg" thumb="spriteSRAthumb_004"></img>
+				<img text="Les horaires des employés sont vérifiées par rapport aux lois applicables." image="Social-Audit-Work-Schedule.jpg" thumb="spriteSRAthumb_021"></img>
+				<img text="La rémunération, les horaires de travail, et l'âge des employés sont verifiés." image="Social-Audit-Personal-File.jpg" thumb="spriteSRAthumb_016"></img>
+				<img text="Les clients recoivent leur rapport detaillé dans un délai de 48 heures apres l'audit." image="Social-Audit-Sample-Summary.jpg" thumb="spriteSRAthumb_020"></img>
+			</fr>
+
+			<zh>
+				<img text="工厂入口。" image="Social-Audit-Factory-Front-Door.jpg" thumb="spriteSRAthumb_010"></img>
+				<img text="紧急出口封锁，无法进行紧急疏散。" image="Social-Audit-Entrance-Emergency-Exit.jpg" thumb="spriteSRAthumb_008"></img>
+				<img text="对紧急出口灯进行检测，以确保它们在停电中不会熄灭。" image="Social-Audit-Emergency-Exit.jpg" thumb="spriteSRAthumb_007"></img>
+				<img text="对灭火器进行检查，确保它们方便取用并且功能良好。" image="Social-Audit-Fire-Extinguishers-has-been-buried-under-the-product.jpg" thumb="spriteSRAthumb_015"></img>
+				<img text="灭火器通道始终要畅通无阻。" image="Social-Audit-Fire-Extinguish-in-the-office-center.jpg" thumb="spriteSRAthumb_012"></img>
+				<img text="审核人员核实生产文件和工作时间。" image="Social-Audit-Production-document-checking.jpg" thumb="spriteSRAthumb_003"></img>
+				<img text="审核人员确保所有设备的功能齐全且处于安全的工作环境中。" image="Social-Audit-Factory-Equipment-Checking.jpg" thumb="spriteSRAthumb_002"></img>
+				<img text="确保员工拥有适当的安全防护装备并正确佩戴。" image="Social-Audit-Ear-plug-protecting-workers-ear.jpg" thumb="spriteSRAthumb_006"></img>
+				<img text="检查灭火器有效期。" image="Social-Audit-Fire-Extinguisher-need-not-be-expired-and-broken.jpg" thumb="spriteSRAthumb_013"></img>
+				<img text="报告中包含大量生产线照片，使您身临其境。" image="Social-Audit-Production-Line-Garments.jpg" thumb="spriteSRAthumb_017"></img>
+				<img text="原料仓库。" image="Social-Audit-Raw-Material.jpg" thumb="spriteSRAthumb_019"></img>
+				<img text="成品仓库。" image="Social-Audit-Warehouse-for-finished-product.jpg" thumb="spriteSRAthumb_011"></img>
+				<img text="确保员工生产程序正确、安全。" image="Social-Audit-Production-Line-Review.jpg" thumb="spriteSRAthumb_001"></img>
+				<img text="员工宿舍外。" image="Social-Audit-Dormitory-Building.jpg" thumb="spriteSRAthumb_005"></img>
+				<img text="员工宿舍内。" image="Social-Audit-Dormitory.jpg" thumb="spriteSRAthumb_004"></img>
+
+				<img text="检查员工工作时间是否符合相关法律规定。" image="Social-Audit-Work-Schedule.jpg" thumb="spriteSRAthumb_021"></img>
+				<img text="检查员工记录，了解薪酬、工作时间、年龄情况以及是否存在被迫劳动。" image="Social-Audit-Personal-File.jpg" thumb="spriteSRAthumb_016"></img>
+				<img text="审核结束后 48 小时内向客户发送详细报告。" image="Social-Audit-Sample-Summary.jpg" thumb="spriteSRAthumb_020"></img>
+			</zh>
+
+			<pt>
+				<img text="The entrance to the factory." image="Social-Audit-Factory-Front-Door.jpg" thumb="spriteSRAthumb_010"></img>
+				<img text="The emergency exit is locked and preventing an urgent evacuation." image="Social-Audit-Entrance-Emergency-Exit.jpg" thumb="spriteSRAthumb_008"></img>
+				<img text="Emergency exit lights are tested to ensure they remain lit during a power outage." image="Social-Audit-Emergency-Exit.jpg" thumb="spriteSRAthumb_007"></img>
+				<img text="Fire extinguishers are checked to be easily accessible and in working condition." image="Social-Audit-Fire-Extinguishers-has-been-buried-under-the-product.jpg" thumb="spriteSRAthumb_015"></img>
+				<img text="There should always be a clear path to the fire extinguishers." image="Social-Audit-Fire-Extinguish-in-the-office-center.jpg" thumb="spriteSRAthumb_012"></img>
+				<img text="Auditors verify production documents and working hours." image="Social-Audit-Production-document-checking.jpg" thumb="spriteSRAthumb_003"></img>
+				<img text="Auditors ensure all equipment is fully functional and in safe working condition." image="Social-Audit-Factory-Equipment-Checking.jpg" thumb="spriteSRAthumb_002"></img>
+				<img text="Employees are ensured to have access to, and wear, proper safety equipment." image="Social-Audit-Ear-plug-protecting-workers-ear.jpg" thumb="spriteSRAthumb_006"></img>
+				<img text="Fire extinguishers have their expiry dates checked." image="Social-Audit-Fire-Extinguisher-need-not-be-expired-and-broken.jpg" thumb="spriteSRAthumb_013"></img>
+				<img text="Reports include numerous production line photos, taking you inside the factory." image="Social-Audit-Production-Line-Garments.jpg" thumb="spriteSRAthumb_017"></img>
+				<img text="A raw material warehouse." image="Social-Audit-Raw-Material.jpg" thumb="spriteSRAthumb_019"></img>
+				<img text="A finished product warehouse." image="Social-Audit-Warehouse-for-finished-product.jpg" thumb="spriteSRAthumb_011"></img>
+				<img text="Employee production procedures are ensured to be proper and safe." image="Social-Audit-Production-Line-Review.jpg" thumb="spriteSRAthumb_001"></img>
+				<img text="Outside the employee dormitory." image="Social-Audit-Dormitory-Building.jpg" thumb="spriteSRAthumb_005"></img>
+				<img text="Inside the employee dormitory." image="Social-Audit-Dormitory.jpg" thumb="spriteSRAthumb_004"></img>
+				<img text="Employee working hours are checked to comply with applicable laws." image="Social-Audit-Work-Schedule.jpg" thumb="spriteSRAthumb_021"></img>
+				<img text="Examine employee records for compensation, working hours, age and forced labor." image="Social-Audit-Personal-File.jpg" thumb="spriteSRAthumb_016"></img>
+				<img text="Clients receive their detailed reports within 48 hours following the audit." image="Social-Audit-Sample-Summary.jpg" thumb="spriteSRAthumb_020"></img>
+			</pt>
+
+		</AuditPhotos>
+
+		<FactoryAuditPhotos>
+
+			<en>
+				<img text="All aspects of factory production are examined to ensure quality is maintained" image="Factory%20-%20Audit%20-%20All%20aspects%20of%20factory%20production%20are%20examined%20to%20ensure%20quality%20is%20maintained.jpg" thumb="spriteSRFAthumb_001"></img>
+				<img text="Employees are ensured to have access to, and wear, proper safety equipment" image="Factory%20-%20Audit%20-%20Employees%20are%20ensured%20to%20have%20access%20to,%20and%20wear,%20proper%20safety%20equipment.jpg" thumb="spriteSRFAthumb_005"></img>
+				<img text="Employees are observed to ensure safety protocols are being followed" image="Factory%20-%20Audit%20-%20Employees%20are%20observed%20to%20ensure%20safety%20protocols%20are%20being%20followed.jpg" thumb="spriteSRFAthumb_006"></img>
+				<img text="Factory equipment is inspected to make sure it is in proper working condition" image="Factory%20-%20Audit%20-%20Factory%20equipment%20is%20inspected%20to%20make%20sure%20it%20is%20in%20proper%20working%20condition.jpg" thumb="spriteSRFAthumb_007"></img>
+				<img text="Fire extinguishers are checked to be easily accessible and in working condition" image="Factory%20-%20Audit%20-%20Fire%20extinguishers%20are%20checked%20to%20be%20easily%20accessible%20and%20in%20working%20condition.jpg" thumb="spriteSRFAthumb_008"></img>
+				<img text="Fire extinguishers have their expiry dates checked" image="Factory%20-%20Audit%20-%20Fire%20extinguishers%20have%20their%20expiry%20dates%20checked.jpg" thumb="spriteSRFAthumb_009"></img>
+				<img text="Inspections are made on factory materials, as well as machinery" image="Factory%20-%20Audit%20-%20Inspections%20are%20made%20on%20factory%20materials,%20as%20well%20as%20machinery.jpg" thumb="spriteSRFAthumb_010"></img>
+				<img text="Inspection of factory equipment and production ensures safety protocol is followed" image="Factory%20-%20Audit%20-%20Inspections%20are%20made%20to%20factory%20equipment%20and%20production,%20ensuing%20safety%20protocol%20is%20adhered%20to.jpg" thumb="spriteSRFAthumb_011"></img>
+				<img text="Product is inspected to ensure it is to code" image="Factory%20-%20Audit%20-%20Product%20is%20inspected%20to%20ensure%20it%20is%20to%20code.jpg" thumb="spriteSRFAthumb_012"></img>
+				<img text="Production Line also need to be checked during the whole inspection process" image="Factory%20-%20Audit%20-%20Production%20Line%20also%20need%20to%20be%20checked%20during%20the%20whole%20inspection%20process.jpg" thumb="spriteSRFAthumb_013"></img>
+				<img text="Production procedures are ensured to be proper and safe" image="Factory%20-%20Audit%20-%20Production%20procedures%20are%20ensured%20to%20be%20proper%20and%20safe.jpg" thumb="spriteSRFAthumb_014"></img>
+				<img text="Reports include photos of factory production line and storage" image="Factory%20-%20Audit%20-%20Reports%20include%20photos%20of%20factory%20production%20line%20and%20storage.jpg" thumb="spriteSRFAthumb_015"></img>
+				<img text="The finished product, waiting for shipment" image="Factory%20-%20Audit%20-%20The%20finished%20product,%20waiting%20for%20shipment.jpg" thumb="spriteSRFAthumb_016"></img>
+				<img text="The entrance to the factory" image="Factory%20-%20Audit%20-The%20entrance%20to%20the%20factory.jpg" thumb="spriteSRFAthumb_017"></img>
+				<img text="All factory certificates are reviewed to ensure that they are current" image="Factory%20-%20Audit%20-%20All%20factory%20certificates%20are%20reviewed%20to%20ensure%20that%20they%20are%20current.jpg" thumb="spriteSRFAthumb_002"></img>
+				<img text="Clients receive their detailed reports within 48 hours following the audit" image="Factory%20-%20Audit%20-%20Clients%20receive%20their%20detailed%20reports%20within%2048%20hours%20following%20the%20audit.jpg" thumb="spriteSRFAthumb_003"></img>
+				<img text="Corrective Action Plans are set before the inspection" image="Factory%20-%20Audit%20-%20Corrective%20Action%20Plans%20are%20set%20before%20the%20inspection.jpg" thumb="spriteSRFAthumb_004"></img>
+			</en>
+
+			<ru>
+				<img text="Оцениваются все аспекты производственного процесса для подтверждения соблюдения качества на заводе" image="Factory%20-%20Audit%20-%20All%20aspects%20of%20factory%20production%20are%20examined%20to%20ensure%20quality%20is%20maintained.jpg" thumb="spriteSRFAthumb_001"></img>
+				<img text="Подтверждается наличие доступа и ношение сотрудниками средств защиты" image="Factory%20-%20Audit%20-%20Employees%20are%20ensured%20to%20have%20access%20to,%20and%20wear,%20proper%20safety%20equipment.jpg" thumb="spriteSRFAthumb_005"></img>
+				<img text="Производится наблюдение за сотрудниками для обеспечения соблюдения правил безопасности" image="Factory%20-%20Audit%20-%20Employees%20are%20observed%20to%20ensure%20safety%20protocols%20are%20being%20followed.jpg" thumb="spriteSRFAthumb_006"></img>
+				<img text="Оборудование завода инспектируется, чтобы убедиться в его надлежащем рабочем состоянии" image="Factory%20-%20Audit%20-%20Factory%20equipment%20is%20inspected%20to%20make%20sure%20it%20is%20in%20proper%20working%20condition.jpg" thumb="spriteSRFAthumb_007"></img>
+				<img text="Огнетушители проверяются на легкодоступность и надлежащее рабочее состояние" image="Factory%20-%20Audit%20-%20Fire%20extinguishers%20are%20checked%20to%20be%20easily%20accessible%20and%20in%20working%20condition.jpg" thumb="spriteSRFAthumb_008"></img>
+				<img text="Проверяется срок годности огнетушителей" image="Factory%20-%20Audit%20-%20Fire%20extinguishers%20have%20their%20expiry%20dates%20checked.jpg" thumb="spriteSRFAthumb_009"></img>
+				<img text="Инспекции проводятся по материалам завода и по оборудованию" image="Factory%20-%20Audit%20-%20Inspections%20are%20made%20on%20factory%20materials,%20as%20well%20as%20machinery.jpg" thumb="spriteSRFAthumb_010"></img>
+				<img text="Инспекция оборудования завода и производственного процесса обеспечивает соблюдение правил безопасности" image="Factory%20-%20Audit%20-%20Inspections%20are%20made%20to%20factory%20equipment%20and%20production,%20ensuing%20safety%20protocol%20is%20adhered%20to.jpg" thumb="spriteSRFAthumb_011"></img>
+				<img text="Продукция инспектируется на соответствие с правилами" image="Factory%20-%20Audit%20-%20Product%20is%20inspected%20to%20ensure%20it%20is%20to%20code.jpg" thumb="spriteSRFAthumb_012"></img>
+				<img text="Производственная линия также требует проверки во время инспекции" image="Factory%20-%20Audit%20-%20Production%20Line%20also%20need%20to%20be%20checked%20during%20the%20whole%20inspection%20process.jpg" thumb="spriteSRFAthumb_013"></img>
+				<img text="Проверка процесса производства на безопасность и надлежащее состояние" image="Factory%20-%20Audit%20-%20Production%20procedures%20are%20ensured%20to%20be%20proper%20and%20safe.jpg" thumb="spriteSRFAthumb_014"></img>
+				<img text="Отчеты включают фотографии производственной линии и склада" image="Factory%20-%20Audit%20-%20Reports%20include%20photos%20of%20factory%20production%20line%20and%20storage.jpg" thumb="spriteSRFAthumb_015"></img>
+				<img text="Готовая продукция, ожидающая отправки" image="Factory%20-%20Audit%20-%20The%20finished%20product,%20waiting%20for%20shipment.jpg" thumb="spriteSRFAthumb_016"></img>
+				<img text="Вход на завод" image="Factory%20-%20Audit%20-The%20entrance%20to%20the%20factory.jpg" thumb="spriteSRFAthumb_017"></img>
+				<img text="Все сертификаты завода проверены на действительность" image="Factory%20-%20Audit%20-%20All%20factory%20certificates%20are%20reviewed%20to%20ensure%20that%20they%20are%20current.jpg" thumb="spriteSRFAthumb_002"></img>
+				<img text="Клиенты получают детальный отчет в течение 48 часов после проведения аудита" image="Factory%20-%20Audit%20-%20Clients%20receive%20their%20detailed%20reports%20within%2048%20hours%20following%20the%20audit.jpg" thumb="spriteSRFAthumb_003"></img>
+				<img text="Планы корректирующих действий составляются перед инспекцией" image="Factory%20-%20Audit%20-%20Corrective%20Action%20Plans%20are%20set%20before%20the%20inspection.jpg" thumb="spriteSRFAthumb_004"></img>
+			</ru>
+
+		</FactoryAuditPhotos>
+
+		<RegLookFor>
+			<en>
+				<title>What type of help are you looking for?</title>
+				<FindJob>Career opportunities</FindJob>
+				<Info>Proposing your company's services to AI</Info>
+				<ConfirmDate>Questions about an existing order</ConfirmDate>
+				<BookInspect>Placing an order</BookInspect>
+				<Collaborate>Proposing your company's services to AI</Collaborate>	
+				<submit>Submit</submit>
+				<JobPosts><![CDATA[Please check out <a href="/career-opportunities">our vacancies here</a> and apply online.]]></JobPosts>
+				<EmailMarket><![CDATA[Contact us at <a href="mailto:marketing@asiainspection.com">marketing@asiainspection.com</a>.]]></EmailMarket>
+				<ConfirmEmail><![CDATA[Please contact <a href="mailto:coordination@asiainspection.com">coordination@asiainspection.com</a> and include your order number; you do not need to register an account online.]]></ConfirmEmail>	
+				<HomeButton>Home</HomeButton>
+			</en>
+
+			<zh>
+				<title>请选择您所需要的服务</title>
+				<BookInspect>创建账户并在线下单</BookInspect>
+				<ConfirmDate>咨询您的订单</ConfirmDate>
+				<Collaborate>提供贵公司的服务给AI 亚检</Collaborate>
+				<Info>咨询服务详情</Info>
+				<FindJob>寻找工作机会</FindJob>
+				<submit>提交</submit>
+				<EmailMarket><![CDATA[联系我们: <a href="mailto:marketing@asiainspection.com">marketing@asiainspection.com</a>。]]></EmailMarket>
+				<ConfirmEmail><![CDATA[请联系 <a href="mailto:coordination@asiainspection.com">coordination@asiainspection.com</a> 并注明您的订单号， 您不需要在线注册帐户。]]></ConfirmEmail>
+				<JobPosts><![CDATA[请在这里查看 AI 亚检的职位空缺，并<a href="/career-opportunities">在线申请</a>。]]></JobPosts>
+				<HomeButton>返回主页</HomeButton>
+			</zh>
+			
+		</RegLookFor>
+
+</document>

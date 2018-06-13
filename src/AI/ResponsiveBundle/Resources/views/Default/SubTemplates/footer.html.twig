@@ -1,0 +1,230 @@
+<div class="footer container">
+
+    <div class="row" style="padding:20px 0px;text-align:center; background-color:white;margin:0px;">
+        <div class="col-xs-12">
+            <div class="footerlinksFollowIcon">
+                <a href="http://www.linkedin.com/company/asiainspection" target="_blank" rel="nofollow"><div class="ico_linkedin"></div></a>
+            </div>
+            {% if app.request.locale == "zh" %}
+              <div class="footerlinksFollowIcon">
+                <a href="http://www.weibo.com/asiainspection" target="_blank" rel="nofollow"><div class="ico_weibo"></div></a>
+              </div>
+              <div class="footerlinksFollowIcon">
+                <a href="http://i.youku.com/asiainspection" target="_blank" rel="nofollow"><div class="ico_youku"></div></a>
+              </div>
+              <div class="footerlinksFollowIcon">
+                <a href="https://s3.asiainspection.com/images/wechat-qr-large.png" target="_blank" rel="nofollow"><div class="ico_wechat"></div></a>
+              </div>
+              <div class="footerlinksFollowIcon">
+                <a href="https://s3.asiainspection.com/images/wechat-qr-large.png" target="_blank" rel="nofollow"><div class="ico_QR_code"></div></a>
+              </div>
+            {% else %}
+            <div class="footerlinksFollowIcon">
+                <a href="http://www.instagram.com/asiainspection" target="_blank" rel="nofollow"><div class="ico_instagram"></div></a>
+            </div>
+            <div class="footerlinksFollowIcon">
+                <a href="http://facebook.com/asiainspection" target="_blank" rel="nofollow"><div class="ico_facebook"></div></a>
+            </div>
+            <div class="footerlinksFollowIcon">
+                <a href="http://twitter.com/asiainspection" target="_blank" rel="nofollow"><div class="ico_twitter"></div></a>
+            </div>
+            <div class="footerlinksFollowIcon">
+                <a href="https://www.youtube.com/user/asiainspection" target="_blank" rel="nofollow"><div class="ico_youtube"></div></a>
+            </div>
+            {% endif %}
+            
+            <!--
+            <div class="footerlinksFollowIcon">
+                <a href="http://www.slideshare.net/asiainspection" target="_blank"><div class="ico_slideshare"></div></a>
+            </div>
+            -->
+
+            <div id="footerIcon" style='vertical-align:middle; display:inline-block; margin:5px; border-left:1px solid #bebebe;margin-left:20px; padding-left:29px;'>
+                <a href='https://play.google.com/store/apps/details?id=com.asiainspection' target='_blank' rel="nofollow"><img src='{{assetsDomain}}/images/but_app_play.png' border='0' /></a>
+                &nbsp;
+                <a href='https://itunes.apple.com/us/app/id589783645' target='_blank' rel="nofollow" style="margin:5px;"><img src='{{assetsDomain}}/images/but_app_store.png' border='0'  /></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="footerlinks" class="row wrapper">
+        <div id="bigWindowLinks">
+            <div class='footerlinks_box col-xs-12 col-md-3'>
+                <a href="#" class="dropdown-toggle footerlinks_box_title" data-toggle="dropdown" role="button" aria-expanded="false">{% trans %}Learn More{% endtrans %}</a>
+                 <ul class="dropdown-menu" role="menu">
+                    <li style='white-space:nowrap;'><a href="/who-we-are">{% trans %}Why Use Our QC Services?{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/quality-control-services/product-and-manufacturing-inspections">{% trans %}Why Do You Need Inspections?{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/quality-control-services/supplier-audit-programs">{% trans %}Why Do You Need Audits?{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/quality-control-services/laboratory-testing">{% trans %}Why Do You Need Lab Tests?{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/quality-control-pricing">{% trans %}Pricing and Conditions{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/quality-control-coverage">{% trans %}Operation Regions{% endtrans %}</a></li>
+                    <li id="bigScreen" style='white-space:nowrap;'><a href="/popup?video=watchdemo&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=420&amp;width=730&amp;modal=true" class="thickbox " title="{% trans %}Watch a Demo{% endtrans %}">{% trans %}Demo{% endtrans %}</a></li>
+                    <li id="smallScreen" style='display:none;white-space:nowrap;'><a href="https://www.youtube.com/v/xkgWD4KLccY?version=3%26autoplay=%26showinfo=0%26vq=hd720" title="Watch a Demo!">{% trans %}Demo{% endtrans %}</a></li>
+                </ul>
+            </div>
+            <div class='footerlinks_box col-xs-12 col-md-3'>
+                <a href="#" class="dropdown-toggle footerlinks_box_title" data-toggle="dropdown" role="button" aria-expanded="false">{% trans %}Quality and Risk Management{% endtrans %}</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li style='white-space:nowrap;'><a href="/app">{% trans %}Quality Control on your Mobile{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/aql-acceptable-quality-limit">{% trans %}Acceptable Quality Limit (AQL){% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/pre-shipment-inspection">{% trans %}Clothing Textile Inspection{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/quality-control-bangladesh">{% trans %}Quality Control in Bangladesh{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/quality-control-in-china">{% trans %}Quality Control in China{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/quality-control-vietnam">{% trans %}Quality Control in Vietnam{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="http://www.africainspection.com">{% trans %}Quality Control in Africa{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/food-safety-testing">{% trans %}Food Safety{% endtrans %}</a></li>
+                    {% if app.request.locale == "es"%}<li style='white-space:nowrap;'><a href="/importacion-previo-en-origen-en-china">Previo en Origen</a></li>{% endif %}
+                </ul>
+            </div>
+            <div class='footerlinks_box col-xs-12 col-md-2'>
+                <a href="#" class="dropdown-toggle footerlinks_box_title" data-toggle="dropdown" role="button" aria-expanded="false">{% trans %}Audits{% endtrans %}</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li style='white-space:nowrap;'><a href="/manufacturing-audit">ISO 9001</a></li>
+                    <li style='white-space:nowrap;'><a href="/ethical-audit">SA 8000</a></li>
+                    <li style='white-space:nowrap;'><a href="/c-tpat-compliance">C-TPAT</a></li>
+                    <li style='white-space:nowrap;'><a href="/smeta-audit">SMETA</a></li>
+                    <li style='white-space:nowrap;'><a href="/environmental-audit">ISO 14000</a></li>
+                    <li style='white-space:nowrap;'><a href="/bsci-supplier-audits">{% trans %}bsci-header-title{% endtrans %}</a></li>
+                </ul>
+            </div>
+            <div class='footerlinks_box col-xs-12 col-md-3'>
+                <a href="#" class="dropdown-toggle footerlinks_box_title" data-toggle="dropdown" role="button" aria-expanded="false">{% trans %}Compliance Testing{% endtrans %}</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li style='white-space:nowrap;'><a href="/quality-control-services/laboratory-testing">{% trans %}Heavy Metal Test{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/rohs-testing">{% trans %}RoHS Compliance{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/cpsia-testing">{% trans %}Consumer Product Safety{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/reach-testing">{% trans %}REACH Regulation{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/phthalate-toys-laboratory-testing">{% trans %}Phthalates Testing{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/toy-safety-laboratory-testing">{% trans %}Toy Safety Tips{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/astm-f963-16-toy-safety-standard">{% trans %}ASTM F963-16 Toy Safety Testing{% endtrans %}</a></li>
+                    {% if app.request.locale == "en" or app.request.locale == "zh" %}<li style='white-space:nowrap;'><a href="/testing/saso-certificate-of-conformity">{% trans %}SASO Certificate of Conformity{% endtrans %}</a></li>{% endif %}
+                    <li style='white-space:nowrap;'><a href="/cal-prop-65-compliance-testing">{% trans %}CA Proposition 65 Compliance{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/qca-member-discount">{% trans %}QCA Member Testing Program{% endtrans %}</a></li>
+                </ul>
+            </div>
+            <div class='footerlinks_box col-xs-12 col-md-1'>
+                <a href="#" class="dropdown-toggle footerlinks_box_title" data-toggle="dropdown" role="button" aria-expanded="false">{% trans %}Corporate{% endtrans %}</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li style='white-space:nowrap;'><a href="/who-we-are">{% trans %}About AsiaInspection{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/career-opportunities">{% trans %}Careers{% endtrans %}</a></li>
+                    <!-- <li style='white-space:nowrap;'><a href="/affiliate-program">{% trans %}Affiliate Program{% endtrans %}</a></li> -->
+                    <li style='white-space:nowrap;'><a href="/conditions-of-service">{% trans %}Legal{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/asia-inspection-site-map">{% trans %}Sitemap{% endtrans %}</a></li>
+                    <li style='white-space:nowrap;'><a href="/asia-inspection-partners">{% trans %}Partners{% endtrans %}</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+
+
+<div class="container">
+    <div id="FooterISO" >
+        <hr class="fancy-line"></hr>
+        <table align="center" valign="middle" style="margin:0 auto;padding-top:50px;" id="footCopyright">
+            <tr>
+                <td align="center" style="font-size:11px;">{% trans %}This site is protected by copyright and trademark laws under US and international law.{% endtrans %}</td>
+            </tr>
+            <tr>
+                <td align="center" style="padding-top:10px;padding-bottom:20px;font-size:11px;">
+                    AsiaInspection &copy; {{ 'now'|date('Y') }}
+                    {% if app.request.locale == "zh" %}<br /><br />粤ICP备17142922号{% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+{# Deploying Chatbox only on pages with no NMI form and excluding from Careers pages #}
+{% if nmi is not defined and app.request.attributes.get('_route') != "careers_Career Opportunities" %}
+    <div class="mboxDefault"> <!-- <script type="text/javascript" src="/js/freshchat.js" /> --> </div>
+    <script type="text/javascript">mboxCreate("AI-Chat-Deploy");</script>
+{% endif %}
+
+{# -- Debug -- #}
+<script type="text/javascript">
+    function gup() {
+        var qs = document.location.search;
+        qs = qs.split('+').join(' ');
+        var params = {}, tokens, re = /[?&]?([^=]+)=([^&]*)/g;
+        while (tokens = re.exec(qs))
+            params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
+        return params;
+    }
+    var params = gup()
+    if(params.debug != undefined){
+        // Popup Settings
+        html = '<div style="position:absolute; top:20px; right:20px; min-width:300px; min-height:300px; background-color:#DADFE5; border:1px dashed black; text-align:left; padding:15px; z-index:3000; box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);">';
+        html += '<b>GDPR Cookie Settings</b><br /><br />';
+        html += '<input id="chk_Consent" type="checkbox" style="-ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2);"> &nbsp; Consent<br /><br />';
+        html += '<input id="chk_EU" type="checkbox" style="-ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2);"> &nbsp; European<br /><br />';
+        html += 'Client Status:<br />';
+        html += '<input id="chk_client_nonopt" type="checkbox" style="-ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2);"> &nbsp; Non-Opt In<br />';
+        html += '<input id="chk_client_emp" type="checkbox" style="-ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2);"> &nbsp; Employee<br />';
+        html += '<input id="chk_client_dnd" type="checkbox" style="-ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2);"> &nbsp; Do Not Disturb<br /><br />';
+        html += 'Lead Status:<br />';
+        html += '<input id="chk_lead_nonopt" type="checkbox" style="-ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2);"> &nbsp; Non-Opt In<br />';
+        html += '<input id="chk_lead_emp" type="checkbox" style="-ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2);"> &nbsp; Employee<br />';
+        html += '<input id="chk_lead_dnd" type="checkbox" style="-ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2);"> &nbsp; Do Not Disturb<br /><br />';
+        html += '<input id="chk_deleteSkip" type="checkbox" style="-ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2);"> &nbsp; Delete Skip Cookie?<br />';
+        html += '<br /><a href="javascript:void(0)" onClick="doTheDew();">Reload Page</a>';
+        html += '</div>';
+        $("body").append(html);
+    }
+    function doTheDew() {
+        ck_consent = ($("#chk_Consent").prop("checked") ? "2018-03-08" : "");
+        ck_eu = ($("#chk_EU").prop("checked") ? "1" : "");
+        ck_client = "";
+        if($("#chk_client_nonopt").prop("checked")) ck_client = "Non-Opt In List";
+        if($("#chk_client_emp").prop("checked")) ck_client = "Employee";
+        if($("#chk_client_dnd").prop("checked")) ck_client = "Do Not Disturb";
+        ck_lead = "";
+        if($("#chk_lead_nonopt").prop("checked")) ck_lead = "Non-Opt In List";
+        if($("#chk_lead_emp").prop("checked")) ck_lead = "Employee";
+        if($("#chk_lead_dnd").prop("checked")) ck_lead = "Do Not Disturb";
+        if($("#chk_deleteSkip").prop("checked")) setCookie("showGDPRpopup",0,0);
+        //coooookey = '[{"Id":149702,"Email":"vincent.macdonald@asiainspection.com"'+ck_consent+'","clientStatus":"'+ck_client+'","leadStatus":"'+ck_lead+'","FirstName":"Vincent","LastName":"Macdonald","isEU":"'+ck_eu+'"}]';
+        coooookey = {"Id":149702, "Email":"vincent.macdonald@asiainspection.com", "clientStatus":ck_client, "leadStatus":ck_lead, "FirstName":"Vincent", "LastName":"Macdonald", "isEU":ck_eu};
+        if(ck_consent != "") coooookey.activeConsentDate = ck_consent;
+        coooookey = "["+JSON.stringify(coooookey)+"]";
+        setCookie("marketo",coooookey,1);
+        window.location = window.location.href.split("?")[0];
+    }
+</script>
+{# -- Debug -- #}
+
+{% if app.request.cookies.get('marketo') is not null and "emailPreferences" not in app.request.pathinfo and "register" not in app.request.pathinfo and "registrationsuccess" not in app.request.pathinfo and "mobile-regulatory-updates" not in app.request.pathinfo %}
+    <script type="text/javascript">
+    $(document).ready(function(){
+        if(typeof tb_show === "function") {
+            marketo = getCookie("marketo");
+            console.log(marketo);
+            marketo = JSON.parse(marketo)[0];
+            // -- Debug --
+            console.log("\n-- Debug --");
+            console.log("Email: "+marketo.Email);
+            if(marketo.activeConsentDate == undefined) { console.log("Active Consent: NEED"); } else { console.log("Active Consent: HAVE"); }
+            if(marketo.isEU == "1") { console.log("European: YES"); } else { console.log("European: NO"); }
+            if(marketo.clientStatus == "Non-Opt In List" || marketo.leadStatus == "Non-Opt In List") { console.log("Opt-In: YES"); } else { console.log("Opt-In: NO"); }
+            if(marketo.clientStatus == "Employee" || marketo.leadStatus == "Employee") { console.log("Employee: YES"); } else { console.log("Employee: NO"); }
+            if(marketo.clientStatus == "Do Not Disturb" || marketo.leadStatus == "Do Not Disturb") { console.log("Do Not Disturb: YES"); } else { console.log("Do Not Disturb: NO"); }
+            if(getCookie("showGDPRpopup") != 1) { console.log("SKIP: NO"); } else { console.log("SKIP: YES"); }
+            console.log("-- Debug --\n");
+            // -- Debug --
+            if(marketo.activeConsentDate == undefined && marketo.isEU == "1" && marketo.clientStatus != "Non-Opt In List" && marketo.clientStatus != "Employee" && marketo.clientStatus != "Do Not Disturb" && marketo.leadStatus != "Non-Opt In List" && marketo.leadStatus != "Employee" && marketo.leadStatus != "Do Not Disturb" && getCookie("showGDPRpopup") != 1) {
+                setTimeout(function() {
+                    tb_show("Action Required for "+marketo.Email,"/popup/gdpr-consent/"+marketo.Email);
+                    $("#TB_ajaxContent").css({
+                        "height":"auto",
+                        "width":"auto"
+                    });
+                }, 5000);
+            }
+        }
+    });
+    </script>
+
+{% endif %}

@@ -1,0 +1,73 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+<head>
+    <title>Memo Detail</title>
+</head>
+
+<body>
+    <p style="padding-top:15px;font-size:13px;font-family:Arial;">Dear all,</p>
+<p style="padding:15px;font-size:13px;font-family:Arial;"> A memo for an event we hosted has just been submitted, details are as follows : </p>
+
+        
+    <div class="box-white">
+        <div style="margin-bottom:20px;padding-left:20px;">  
+            <p><span style="font-weight:bold;">Name:</span><br />{{row.salesName}}</p>
+            <p><span style="font-weight:bold;">Tradeshow:</span><br />{{row.tradeshow}}</p>
+            <p><span style="font-weight:bold;">Lead Quality:</span><br />{{row.leadQuality}}</p>
+            <p><span style="font-weight:bold;">What industry are the attendees in:</span><br />{{row.attendee_industry}}</p>
+            <p><span style="font-weight:bold;">What type of company:</span><br />{{row.visitors}}</p>
+            <p><span style="font-weight:bold;">Are topics interesting:</span><br />{{row.int_topic}}</p>
+            <p><span style="font-weight:bold;">Suggested topics:</span><br />{{row.sug_topic}}</p>
+            <p><span style="font-weight:bold;">Other suggestions:</span><br />{{row.suggestions}}</p>
+            <p><span style="font-weight:bold;">Number of attendees:</span><br />{{row.attendee_count}}</p>
+            <p><span style="font-weight:bold;">Overall rating:</span><br /><br />{{row.seminar_rating}}</p>
+            <p><span style="font-weight:bold;">How they heard about our event:</span><br /><br />{{row.how_heard}}</p>
+        </div>
+        <div style="clear:both;"></div><br />
+        <span style="font-weight:bold;">Results:</span><br />
+
+        {% set saso = false %}
+        {% for result in results %}
+            {% if (result.h4 is defined and result.h4 > 0) or (result.w4 is defined and result.w4 > 0) or (result.c4 is defined and result.c4 > 0) %} {% set saso = true %} {% endif %}
+        {% endfor %}
+
+        <table class="bordered" style="width:100%;margin-top:20px; border: solid #ccc 1px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; -webkit-box-shadow: 0 1px 1px #ccc;  -moz-box-shadow: 0 1px 1px #ccc;  box-shadow: 0 1px 1px #ccc; " id="memoTable">
+            <tr>
+                <td style="font-weight:bold;">Name</td>
+                <td style="font-weight:bold;">Total Leads</td> 
+                <td style="font-weight:bold;">H1</td>
+                <td style="font-weight:bold;">H2</td>
+                <td style="font-weight:bold;">H3</td>
+                {% if saso %}<td style="font-weight:bold;">SASO H</td>{% endif %}
+                <td style="font-weight:bold;">W1</td>
+                <td style="font-weight:bold;">W2</td>
+                <td style="font-weight:bold;">W3</td>
+                {% if saso %}<td style="font-weight:bold;">SASO W</td>{% endif %}
+                <td style="font-weight:bold;">C1</td>
+                <td style="font-weight:bold;">C2</td>
+                <td style="font-weight:bold;">C3</td>
+                {% if saso %}<td style="font-weight:bold;">SASO C</td>{% endif %}
+            </tr>
+            {% for result in results %}
+            <tr class="memoRow">
+                <td>{{result.name}}</td>
+                <td>{{result.num}}</td>
+                <td>{{result.h1}}</td>
+                <td>{{result.h2}}</td>
+                <td>{{result.h3}}</td>
+                {% if saso %}<td>{{result.h4}}</td>{% endif %}
+                <td>{{result.w1}}</td>
+                <td>{{result.w2}}</td>
+                <td>{{result.w3}}</td>
+                {% if saso %}<td>{{result.w4}}</td>{% endif %}
+                <td>{{result.c1}}</td>
+                <td>{{result.c2}}</td>
+                <td>{{result.c3}}</td>
+                {% if saso %}<td>{{result.c4}}</td>{% endif %}
+            </tr>
+            {% endfor %}
+        </table>
+        <div style="clear:both;"></div><br>
+       <p style="padding-top:30px;font-size:13px;font-family:Arial;"> Best Regards,<br><br>The AI Marketing Team</p>
+    </div>
+</body>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <pageTitle>Quality Control in Africa: Product Inspections, Social and Factory Audits and Lab Testing | AfricaInspection.com</pageTitle>
+    <pageDesc></pageDesc>
+    <pageKeywords></pageKeywords>
+    <title>We Bring Trust and Ethical Standards to Trade Globally</title>
+    <subTitle>African Inspection performs on-site supplier audit programs, product inspections and laboratory tests for global brands, retailers and importers to secure and manage their supply chain in Africa.</subTitle>
+ 
+	
+	<section2>
+			<title>Your Supply Chain Partner</title>
+			<box>
+				<img>https://s3.asiainspection.com/images/responsive/ico_management.png</img>
+				<title>Comprehensive Online &amp; Mobile Management</title>
+				<content><![CDATA[Manage your product and supplier compliance from your online account. <a href="/app" style="font-size:1em; display:inline-block;">Use the AI app</a> when on the go!]]></content>
+			</box>
+			<box>
+				<img>https://s3.asiainspection.com/images/responsive/ico_turnaround.png</img>
+				<title>Leading Turnaround &amp; Flexibility</title>
+				<content>Onsite within 48 hours. Reports the same day. Cancel up to 4pm the day before.</content>
+			</box>
+			<box>
+				<img>https://s3.asiainspection.com/images/responsive/ico_intelligence.png</img>
+				<title>Supply Chain Intelligence</title>
+				<content>Use your real-time dashboard to benchmark and identify your high performing suppliers.</content>
+			</box>
+			<box>
+				<img>https://s3.asiainspection.com/images/responsive/ico_expertise.png</img>
+				<title>Product Expertise</title>
+				<content>Over 1,000 off-the-shelf customizable product-specific inspection checklists.</content>
+			</box>
+			<watchDemo>Watch a demo</watchDemo>
+		</section2>
+
+		<section3>
+			<title>Services by Industry</title>
+			<contents>
+				<![CDATA[
+				<p class="pwhite">AfricaInspection has over 1,000 inspectors, auditors and lab experts specialized by industry to ensure your product and suppliers meet all safety and performance standards for your destination market.</p>
+				 <p class="pwhite" style="margin-bottom: 2em;">Access hundreds of off-the-shelf customizable inspection checklists online, receive expert advice on your product safety requirements and supplier auditing programs to ensure compliance at the source.</p>
+				]]>
+			</contents>
+			<links>
+				<title>Softlines</title>
+				<src>/industry-softline</src>
+			</links>
+			<links>
+				<title>Hardlines</title>
+				<src>/industry-hardline</src>
+			</links>
+			<links>
+				<title>Technical Parts</title>
+				<src>/industry-techparts</src>
+			</links>
+			<links>
+				<title>Food</title>
+				<src>http://www.asiafoodinspection.com/</src>
+			</links>
+		</section3>
+
+		<section4>
+			<title>Simple, All-Inclusive Pricing</title>
+			<learnMore>Learn More</learnMore>
+			<bookNow>Book Now</bookNow>
+			<box>
+				<title>Product Inspections</title>
+				<price>${{priceIA}}</price>
+				<content>Verify your product meets all specifications in the factory.</content>
+			</box>
+			<box>
+				<title>Supplier Audit Programs</title>
+				<price>${{priceAA}}</price>
+				<content>Engage with capable and ethical suppliers.</content>
+			</box>
+			<box>
+				<title>Laboratory Testing</title>
+				<price>Instant Quote</price>
+				<content>Ensure compliance with safety standards: REACH, RoHS, EN71, CPSIA...</content>
+			</box>
+		</section4>
+		<section5>
+			<title>Retailers and Importers from 120 Countries Trust AI with their Supply Chain</title>
+			<subTitle>Satisfied Customers Worldwide</subTitle>
+		</section5>
+		<section6>
+			<title>Latest Publications</title>
+			<getItNow>Get it now</getItNow>
+			<row>
+				<title>homepage_barometer_thumb_title</title>
+				<img>/images/universalimage.php?img=latestbarometerthumb</img>
+				<button>View Now</button>
+				<link>/barometer</link>
+			</row>
+			<row>
+				<title>homepage-publications-latestWhitepaperTitle</title>
+				<img>https://s3.asiainspection.com/images/responsive/whitepaper4.png</img>
+				<button>Download Now</button>
+				<link>/whitepaper/speed-to-market-and-consumer-safety</link>
+			</row>
+			<row>
+				<title>View a Sample Report for Your Industry</title>
+				<img>https://s3.asiainspection.com/images/responsive/sample_report.png</img>
+				<button>Download Now</button>
+				<link>/samplereports</link>
+			</row>
+		</section6>
+</document>

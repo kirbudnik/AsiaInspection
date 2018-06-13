@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+
+	<en>
+		<menu title="Quality Control Services" link="/quality-control-services" id="Services">
+			<submenu title="Inspection Services" link="/quality-control-services#product_inspections" ico="ico_inspections">
+				<item link="/pre-shipment-inspection">Pre-Shipment Inspection</item>
+				<item link="/production-monitoring">Production Monitoring</item>
+				<item link="/during-production-inspection">During Production Check</item>
+				<item link="/initial-production-check">Initial Production Check</item>
+				<item link="/container-loading-check">Container Loading Check</item>
+				<item link="/testing/food-inspection-services">Food Inspections</item>
+			</submenu>
+				
+			<submenu title="Supplier Audit Programs" link="/quality-control-services#audit" ico="ico_audits">
+				<item link="/manufacturing-audit">Manufacturing Audits</item>
+				<item link="/ethical-audit">Ethical Audits</item>
+				<item link="/c-tpat-compliance">C-TPAT</item>
+				<item link="/environmental-audit">Environmental Audit</item>
+				<item link="/structural-audits">Structural Audits</item>
+				<item link="http://www.asiafoodinspection.com">Food Supplier Audit</item>
+			</submenu>
+			
+			<submenu title="Testing Services" link="/quality-control-services#laboratory_testing" ico="ico_labTest">
+				<item link="/quality-control-services/laboratory-testing">Lab Testing and Certifications</item>
+				<item link="/cpsia-testing">CPSIA</item>
+				<item link="/reach-testing">REACH</item>
+				<item link="/rohs-testing">RoHS</item>
+				<item link="/food-testing-and-certification-lab">Food Testing</item>
+			</submenu>
+
+			<submenu title="Service Details" link="/quality-control-pricing" ico="ico_serviceDetails">
+				<item link="/quality-control-pricing">Pricing</item>
+				<item link="/quality-control-coverage-asia-china">Service Coverage</item>
+				<item link="/reference-samples">Reference Samples</item>
+			</submenu>
+		</menu>
+	
+		<menu title="By Industry" link="/quality-control-services-by-industry" id="Industry">
+			<submenu title="Softlines" link="/industry-softline"  ico="ico_softlines" tooltip="View Softlines Industry">
+				<item link="/industry-softline">Footwear</item>
+				<item link="/industry-softline">Garments and Apparel</item>
+				<item link="/industry-softline">Luggage and Bags</item>
+				<item link="/industry-softline">Soft Toys</item>
+				<item link="/industry-softline">Textiles and Fabrics</item>
+			</submenu>
+			
+			<submenu title="Hardlines" link="/industry-hardline" ico="ico_hardlines" tooltip="View Hardlines Industry">
+				<item link="/industry-hardline">Electrical &amp; Lighting</item>
+				<item link="/industry-hardline">Gifts &amp; Premiums</item>
+				<item link="/industry-hardline">Home &amp; Gardenware</item>
+				<item link="/industry-hardline">Industrial &amp; Construction</item>
+				<item link="/industry-hardline">Toys &amp; Recreational</item>
+			</submenu>
+			
+			<submenu title="Technical Parts" link="/industry-techparts" ico="ico_techParts" tooltip="View Technical Parts Industry">
+				<item link="/industry-techparts">Assemblies &amp; Molds</item>
+				<item link="/industry-techparts">Automotive Parts</item>
+				<item link="/industry-techparts">Machinery</item>
+				<item link="/industry-techparts">Precision Tooling</item>
+			</submenu>
+			
+			<submenu title="Food" link="http://www.asiafoodinspection.com" ico="ico_food" tooltip="View Food Industry">
+				<item link="http://www.asiafoodinspection.com">Seafood, Meat &amp; Poultry</item>
+				<item link="http://www.asiafoodinspection.com">Fruits &amp; Vegetables</item>
+				<item link="http://www.asiafoodinspection.com">Canned &amp; Frozen Food</item>
+				<item link="http://www.asiafoodinspection.com">Baby Food</item>
+				<item link="http://www.asiafoodinspection.com">Food Packaging</item>
+			</submenu>
+		</menu>
+
+		<menu title="About AI" link="/who-we-are" id="AboutUs">
+			<submenu title="About AsiaInspection" link="/who-we-are" ico="ico_aboutAI">
+				<item link="/who-we-are">Who We Are</item>
+				<item link="/corporate-values">Company Values</item>
+				<item link="/accreditations">Accreditations</item>
+				<item link="/asiainspection-testimonials">Testimonials</item>
+				<item link="/asia-inspection-partners">Our Partners</item>
+			</submenu>
+			
+			<submenu title="News &amp; Content" link="/asia-inspection-news" ico="ico_News">
+				<item link="/asia-inspection-news">Latest News</item>
+				<item link="/supply-chain-insights">Supply Chain Insights</item>
+				<item link="/samplereports">Sample Reports</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Careers" link="/career-opportunities" id="Careers"></menu>
+		<menu title="Contact Us" link="/contact-us" id="ContactUs"></menu>
+		<menu title="Create Your Account" link="/register" id="Register"></menu>
+	</en>
+
+	<ru>
+		<menu title="Услуги контроля качества" link="/quality-control-services" id="Services">
+			<submenu title="Инспекции" link="/quality-control-services#product_inspections" ico="ico_inspections">
+				<item link="/pre-shipment-inspection">Инспекция перед отправкой</item>
+				<item link="/production-monitoring">Мониторинг производства</item>
+				<item link="/during-production-inspection">Инспекция в ходе производства</item>
+				<item link="/initial-production-check">Проверка качества на начальном этапе производства</item>
+				<item link="/container-loading-check">Контроль загрузки контейнера</item>
+				<item link="http://www.asiafoodinspection.com">Контроль качества пищевых продуктов</item>
+			</submenu>
+				
+			<submenu title="Аудит" link="/quality-control-services#audit" ico="ico_audits">
+				<item link="/manufacturing-audit">Аудит фабрик</item>
+				<item link="/ethical-audit">Социальный аудит</item>
+				<item link="/c-tpat-compliance">Проверка на соответствие требованиям "Таможенно-торгового партнерства в борьбе с терроризмом"</item>
+				<item link="/environmental-audit">Экологический аудит</item>
+				<item link="http://www.asiafoodinspection.com">Аудит пищевого предприятия</item>
+			</submenu>
+			
+			<submenu title="Лабораторное тестирование" link="/quality-control-services#laboratory_testing" ico="ico_labTest">
+				<item link="/quality-control-services/laboratory-testing">Лабораторное тестирование и сертификация</item>
+				<item link="/cpsia-testing">CPSIA</item>
+				<item link="/reach-testing">REACH</item>
+				<item link="/rohs-testing">RoHs</item>
+				<item link="http://www.asiafoodinspection.com">Тестирование пищевых продуктов</item>
+			</submenu>
+
+			<submenu title="Информация об усугах" link="/quality-control-pricing" ico="ico_serviceDetails">
+				<item link="/quality-control-pricing">Тарифы</item>
+				<item link="/quality-control-coverage-asia-china">Зона охвата услуг</item>
+				<item link="/reference-samples">Контрольные образцы</item>
+			</submenu>
+		</menu>
+	
+		<menu title="По отраслям" link="/quality-control-services-by-industry" id="Industry">
+			<submenu title="Потребительские товары" link="/industry-softline"  ico="ico_softlines" tooltip="View Softlines Industry">
+				<item link="/industry-softline">Обувь</item>
+				<item link="/industry-softline">Одежда</item>
+				<item link="/industry-softline">Сумки и чемоданы</item>
+				<item link="/industry-softline">Мягкие игрушки</item>
+				<item link="/industry-softline">Текстиль и ткани</item>
+			</submenu>
+			
+			<submenu title="Хозяйственные товары" link="/industry-hardline" ico="ico_hardlines" tooltip="View Hardlines Industry">
+				<item link="/industry-hardline">Электрическое и осветительное оборудование</item>
+				<item link="/industry-hardline">Подарки и сувениры</item>
+				<item link="/industry-hardline">Товары доя дома и сада</item>
+				<item link="/industry-hardline">Промышленные и строительные товары</item>
+				<item link="/industry-hardline">Игрушки и товары для отдыха</item>
+			</submenu>
+			
+			<submenu title="Технические детали" link="/industry-techparts" ico="ico_techParts" tooltip="View Technical Parts Industry">
+				<item link="/industry-techparts">Сборные изделия и формы</item>
+				<item link="/industry-techparts">Автомобильные части</item>
+				<item link="/industry-techparts">Машинное оборудование</item>
+				<item link="/industry-techparts">Высокоточные инстркменты</item>
+			</submenu>
+			
+			<submenu title="Пищевые продукты" link="http://www.asiafoodinspection.com" ico="ico_food" tooltip="View Food Industry">
+				<item link="http://www.asiafoodinspection.com">Морские продукты, мясо и птица</item>
+				<item link="http://www.asiafoodinspection.com">Фрукты и овощи</item>
+				<item link="http://www.asiafoodinspection.com">Консервированные и замороженные продукты</item>
+				<item link="http://www.asiafoodinspection.com">Продукты для детского питания</item>
+				<item link="http://www.asiafoodinspection.com">Упаковка для пищевых продуктов</item>
+			</submenu>
+		</menu>
+
+		<menu title="Об AsiaInspection" link="/who-we-are" id="AboutUs">
+			<submenu title="Об AsiaInspection" link="/who-we-are" ico="ico_aboutAI">
+				<item link="/who-we-are">О компании</item>
+				<item link="/corporate-values">Ценности компании</item>
+				<item link="/accreditations">Лицензии и сертификаты</item>
+				<item link="/asiainspection-testimonials">Отзывы</item>
+			</submenu>
+			
+			<submenu title="Новости" link="/asia-inspection-news" ico="ico_News">
+				<item link="/asia-inspection-news">Последние новости</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Карьера" link="/career-opportunities" id="Careers"></menu>
+		<menu title="Контакты" link="/contact-us" id="ContactUs"></menu>
+		<menu title="Создайте ваш аккаунт" link="/register" id="Register"></menu>
+	</ru>
+	
+	<es>
+		<menu title="Servicios de control de calidad" link="/quality-control-services" id="Services">
+			<submenu title="Servicios de inspección" link="/quality-control-services#product_inspections" ico="ico_inspections">
+				<item link="/pre-shipment-inspection">Inspección Pre-Embarque</item>
+				<item link="/production-monitoring">Monitorización de la producción</item>
+				<item link="/during-production-inspection">Inspección durante la producción</item>
+				<item link="/initial-production-check">Inspección inicial de la producción</item>
+				<item link="/container-loading-check">Control de carga de contenedor</item>
+				<item link="http://www.asiafoodinspection.com">Inspección alimentaria</item>
+			</submenu>
+				
+			<submenu title="Auditorías" link="/quality-control-services#audit" ico="ico_audits">
+				<item link="/manufacturing-audit">Auditoría de fábrica</item>
+				<item link="/ethical-audit">Auditoría social</item>
+				<item link="/c-tpat-compliance">C-TPAT</item>
+				<item link="/environmental-audit">Auditoría medioambiental</item>
+				<item link="http://www.asiafoodinspection.com">Auditoría de fábricas de alimentos</item>
+			</submenu>
+			
+			<submenu title="Servicios de test" link="/quality-control-services#laboratory_testing" ico="ico_labTest">
+				<item link="/quality-control-services/laboratory-testing">Test de laboratorio y certificaciones</item>
+				<item link="/cpsia-testing">CPSIA</item>
+				<item link="/reach-testing">REACH</item>
+				<item link="/rohs-testing">RoHS</item>
+				<item link="http://www.asiafoodinspection.com">Análisis de alimentos</item>
+			</submenu>
+
+			<submenu title="Detalles del servicio" link="/quality-control-pricing" ico="ico_serviceDetails">
+				<item link="/quality-control-pricing">Tarifas</item>
+				<item link="/quality-control-coverage-asia-china">Red de Inspectores</item>
+				<item link="/reference-samples">Muestras de referencia</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Por sector" link="/quality-control-services-by-industry" id="Industry">
+			<submenu title="Artículos de textil" link="/industry-softline"  ico="ico_softlines" tooltip="View Softlines Industry">
+				<item link="/industry-softline">Calzado</item>
+				<item link="/industry-softline">Prendas de vestir y ropa</item>
+				<item link="/industry-softline">Maletas y bolsos</item>
+				<item link="/industry-softline">Juguetes de textil</item>
+				<item link="/industry-softline">Tejidos</item>
+			</submenu>
+			
+			<submenu title="Artículos en general" link="/industry-hardline" ico="ico_hardlines" tooltip="View Hardlines Industry">
+				<item link="/industry-hardline">Electrónica e iluminación</item>
+				<item link="/industry-hardline">Regalos y artículos promocionales</item>
+				<item link="/industry-hardline">Hogar y jardín</item>
+				<item link="/industry-hardline">Industria y construcción</item>
+				<item link="/industry-hardline">Juguetes y artículos recreativos</item>
+			</submenu>
+			
+			<submenu title="Piezas técnicas" link="/industry-techparts" ico="ico_techParts" tooltip="View Technical Parts Industry">
+				<item link="/industry-techparts">Artículos de montaje y moldes</item>
+				<item link="/industry-techparts">Piezas de automoción</item>
+				<item link="/industry-techparts">Maquinaria</item>
+				<item link="/industry-techparts">Herramientas de precisión</item>
+			</submenu>
+			
+			<submenu title="Alimentación" link="http://www.asiafoodinspection.com" ico="ico_food" tooltip="View Food Industry">
+				<item link="http://www.asiafoodinspection.com">Pescado, mariscos, carne y aves</item>
+				<item link="http://www.asiafoodinspection.com">Frutas y hortalizas</item>
+				<item link="http://www.asiafoodinspection.com">Alimentos congelados y enlatados</item>
+				<item link="http://www.asiafoodinspection.com">Comida para bebés</item>
+				<item link="http://www.asiafoodinspection.com">Envasado de alimentos</item>
+			</submenu>
+		</menu>
+
+		<menu title="Acerca de AI" link="/who-we-are" id="AboutUs">
+			<submenu title="Acerca de AsiaInspection" link="/who-we-are" ico="ico_aboutAI">
+				<item link="/who-we-are">Quiénes somos</item>
+				<item link="/corporate-values">Valores de la empresa</item>
+				<item link="/accreditations">Acreditaciones</item>
+				<item link="/asiainspection-testimonials">Testimonios</item>
+			</submenu>
+			
+			<submenu title="Noticias y contenido" link="/asia-inspection-news" ico="ico_News">
+				<item link="/asia-inspection-news">Últimas noticias</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Empleo" link="/career-opportunities" id="Careers"></menu>
+		<menu title="Contacto" link="/contact-us" id="ContactUs"></menu>
+		<menu title="Crear una cuenta" link="/register" id="Register"></menu>
+	</es>
+	
+	<zh>
+		<menu title="质量控制服务" link="/quality-control-services" id="Services">
+			<submenu title="检验服务" link="/quality-control-services#product_inspections" ico="ico_inspections">
+				<item link="/pre-shipment-inspection">装运前检验</item>
+				<item link="/production-monitoring">生产监测</item>
+				<item link="/during-production-inspection">生产中检验</item>
+				<item link="/initial-production-check">生产初期检验</item>
+				<item link="/container-loading-check">集装箱装箱检查</item>
+				<item link="http://www.asiafoodinspection.com">食品检验</item>
+			</submenu>
+				
+			<submenu title="审核" link="/quality-control-services#audit" ico="ico_audits">
+				<item link="/manufacturing-audit">工厂审核</item>
+				<item link="/ethical-audit">社会责任审核</item>
+				<item link="/c-tpat-compliance">C-TPAT</item>
+				<item link="/environmental-audit">环境审核</item>
+				<item link="http://www.asiafoodinspection.com">食品工厂审核</item>
+			</submenu>
+			
+			<submenu title=" 测试服务" link="/quality-control-services#laboratory_testing" ico="ico_labTest">
+				<item link="/quality-control-services/laboratory-testing">实验室测试和认证</item>
+				<item link="/cpsia-testing">CPSIA</item>
+				<item link="/reach-testing">REACH</item>
+				<item link="/rohs-testing">RoHS</item>
+				<item link="http://www.asiafoodinspection.com">食品测试</item>
+			</submenu>
+
+			<submenu title="服务详情" link="/quality-control-pricing" ico="ico_serviceDetails">
+				<item link="/quality-control-pricing">价格</item>
+				<item link="/quality-control-coverage-asia-china">服务覆盖范围</item>
+				<item link="/reference-samples">参考样品</item>
+			</submenu>
+		</menu>
+	
+		<menu title="行业分类" link="/quality-control-services-by-industry" id="Industry">
+			<submenu title="非耐用品" link="/industry-softline"  ico="ico_softlines" tooltip="View Softlines Industry">
+				<item link="/industry-softline">鞋类</item>
+				<item link="/industry-softline">服装</item>
+				<item link="/industry-softline">箱包</item>
+				<item link="/industry-softline">毛绒玩具</item>
+				<item link="/industry-softline">纺织面料</item>
+			</submenu>
+			
+			<submenu title="耐用消费品" link="/industry-hardline" ico="ico_hardlines" tooltip="View Hardlines Industry">
+				<item link="/industry-hardline">电器照明</item>
+				<item link="/industry-hardline">礼品</item>
+				<item link="/industry-hardline">家居园艺</item>
+				<item link="/industry-hardline">工业建筑</item>
+				<item link="/industry-hardline">娱乐玩具</item>
+			</submenu>
+			
+			<submenu title="技术部件" link="/industry-techparts" ico="ico_techParts" tooltip="View Technical Parts Industry">
+				<item link="/industry-techparts">组件模具</item>
+				<item link="/industry-techparts">汽车部件</item>
+				<item link="/industry-techparts">机械</item>
+				<item link="/industry-techparts">精密工具</item>
+			</submenu>
+			
+			<submenu title="食品" link="http://www.asiafoodinspection.com" ico="ico_food" tooltip="View Food Industry">
+				<item link="http://www.asiafoodinspection.com">海鲜禽肉</item>
+				<item link="http://www.asiafoodinspection.com">水果蔬菜</item>
+				<item link="http://www.asiafoodinspection.com">罐装冷冻食品</item>
+				<item link="http://www.asiafoodinspection.com">婴儿食品</item>
+				<item link="http://www.asiafoodinspection.com">食品包装</item>
+			</submenu>
+		</menu>
+
+		<menu title="关于 AI亚检" link="/who-we-are" id="AboutUs">
+			<submenu title="关于 AsiaInspection" link="/who-we-are" ico="ico_aboutAI">
+				<item link="/who-we-are">公司简介</item>
+				<item link="/corporate-values">业务守则</item>
+				<item link="/accreditations">认证</item>
+				<item link="/asiainspection-testimonials">客户好评</item>
+			</submenu>
+			
+			<submenu title="新闻报道" link="/asia-inspection-news" ico="ico_News">
+				<item link="/asia-inspection-news">最新动态</item>
+			</submenu>
+		</menu>
+	
+		<menu title="招贤纳士" link="/career-opportunities" id="Careers"></menu>
+		<menu title="联系我们" link="/contact-us" id="ContactUs"></menu>
+		<menu title="创建您的账户" link="/register" id="Register"></menu>
+	</zh>
+	
+	<fr>
+		<menu title="Services de contrôle qualité" link="/services-controle-qualite-chine-inde-asie" id="Services">
+			<submenu title="Services d'inspection" link="/services-controle-qualite-chine-inde-asie#product_inspections" ico="ico_inspections">
+				<item link="/inspection-produit-avant-expedition">Inspection avant expédition</item>
+				<item link="/suivi-production">Suivi de production</item>
+				<item link="/inspection-en-cours-de-production">Inspection en cours de production</item>
+				<item link="/controle-intial-production">Contrôle initial de production</item>
+				<item link="/controle-de-chargement-conteneur">Contrôle du chargement des conteneurs</item>
+				<item link="http://www.asiafoodinspection.fr">Inspections alimentaires</item>
+			</submenu>
+				
+			<submenu title="Audits" link="/services-controle-qualite-chine-inde-asie#audit" ico="ico_audits">
+				<item link="/audit-usine-fournisseur">Audit industriel</item>
+				<item link="/audit-social">Audit social</item>
+				<item link="/conformite-c-tpat">C-TPAT</item>
+				<item link="/environmental-audit">Audit environnemental</item>
+				<item link="http://www.asiafoodinspection.fr">Audit industriel lié à l'alimentaire</item>
+			</submenu>
+			
+			<submenu title="Services de contrôle" link="/services-controle-qualite-chine-inde-asie#laboratory_testing" ico="ico_labTest">
+				<item link="/test-laboratoire-certification">Tests en laboratoire et certifications</item>
+				<item link="/cpsia-test-laboratoire">CPSIA</item>
+				<item link="/reach-regulation-svhc">REACH</item>
+				<item link="/rohs-testing">RoHS</item>
+				<item link="http://www.asiafoodinspection.fr">Base de données de rapports de tests d'AI</item>
+			</submenu>
+
+			<submenu title="Détails des services" link="/prix-inspections-audits-tests" ico="ico_serviceDetails">
+				<item link="/prix-inspections-audits-tests">Tarifs</item>
+				<item link="/reseau-inspecteurs-asie">Couverture du service</item>
+				<item link="/reference-samples">Echantillon de Référence</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Par secteur d'activité" link="/quality-control-services-by-industry" id="Industry">
+			<submenu title="Biens de consommation non durables (softline)" link="/industry-softline"  ico="ico_softlines" tooltip="View Softlines Industry">
+				<item link="/industry-softline">Chaussures</item>
+				<item link="/industry-softline">Vêtements et prêt à porter</item>
+				<item link="/industry-softline">Bagages et sacs</item>
+				<item link="/industry-softline">Peluches</item>
+				<item link="/industry-softline">Textiles et tissus</item>
+			</submenu>
+			
+			<submenu title="Biens de consommation durables (hardline)" link="/industry-hardline" ico="ico_hardlines" tooltip="View Hardlines Industry">
+				<item link="/industry-hardline">Électrique et éclairage</item>
+				<item link="/industry-hardline">Cadeaux et objets promotionnels </item>
+				<item link="/industry-hardline">Articles pour la maison et le jardin</item>
+				<item link="/industry-hardline">Industriel et construction</item>
+				<item link="/industry-hardline">Jouets et loisirs</item>
+			</submenu>
+			
+			<submenu title="Pièces techniques" link="/industry-techparts" ico="ico_techParts" tooltip="View Technical Parts Industry">
+				<item link="/industry-techparts">Assemblages et moules</item>
+				<item link="/industry-techparts">Pièces automobiles</item>
+				<item link="/industry-techparts">Machines</item>
+				<item link="/industry-techparts">Outillage de précision</item>
+			</submenu>
+			
+			<submenu title="Aliments" link="http://www.asiafoodinspection.fr" ico="ico_food" tooltip="View Food Industry">
+				<item link="http://www.asiafoodinspection.fr">Produits de la mer, viande et volaille</item>
+				<item link="http://www.asiafoodinspection.fr">Fruits et légumes</item>
+				<item link="http://www.asiafoodinspection.fr">Conserves et surgelés</item>
+				<item link="http://www.asiafoodinspection.fr">Aliments pour bébés</item>
+				<item link="http://www.asiafoodinspection.fr">Emballage alimentaire</item>
+			</submenu>
+		</menu>
+
+		<menu title="À propos de AI" link="/qui-sommes-nous" id="AboutUs">
+			<submenu title="À propos de AsiaInspection" link="/qui-sommes-nous" ico="ico_aboutAI">
+				<item link="/qui-sommes-nous">Qui sommes-nous?</item>
+				<item link="/nos-valeurs">Valeurs de l'entreprise</item>
+				<item link="/accreditations">Accréditations</item>
+				<item link="/temoignages-inspection-produit-audit-fournisseur">Témoignages</item>
+			</submenu>
+			
+			<submenu title="Actualités &amp; Contenu" link="/actualites-asiainspection" ico="ico_News">
+				<item link="/actualites-asiainspection">Dernières nouvelles</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Carrières" link="/opportunites-carriere-asie" id="Careers"></menu>
+		<menu title="Contactez-nous" link="/contact" id="ContactUs"></menu>
+		<menu title="Créez votre compte" link="/enregistrement" id="Register"></menu>
+	</fr>
+
+	<de>
+		<menu title="Qualitätskontrolldienste" link="/qualitatskontrolldienste-china-indien-asien" id="Services">
+			<submenu title="Inspektionen" link="/qualitatskontrolldienste-china-indien-asien#product_inspections" ico="ico_inspections">
+				<item link="/prufung-vor-dem-versand">Inspektion vor dem Versand</item>
+				<item link="/fertigungsuberwachung">Fertigungsüberwachung</item>
+				<item link="/produktionskontrolle">Produktionskontrolle</item>
+				<item link="/vorbereitende-produktionskontrolle">Vorbereitende Produktionskontrolle</item>
+				<item link="/containerkontrolle">Container Ladekontrolle</item>
+				<item link="http://www.asiafoodinspection.com">Lebensmittelüberwachung</item>
+			</submenu>
+				
+			<submenu title="Audit" link="/qualitatskontrolldienste-china-indien-asien#audit" ico="ico_audits">
+				<item link="/werksinspektion">Fabrik Audit</item>
+				<item link="/ethical-audit">Sozial Audit</item>
+				<item link="/c-tpat-compliance">C-TPAT</item>
+				<item link="/environmental-audit">Ökoaudit</item>
+				<item link="http://www.asiafoodinspection.com">Lebensmittelwerk Audit</item>
+			</submenu>
+			
+			<submenu title="Testungsdienste" link="/qualitatskontrolldienste-china-indien-asien#laboratory_testing" ico="ico_labTest">
+				<item link="/labortests">Labortests und Zertifizierungen</item>
+				<item link="/cpsia-testing">CPSIA</item>
+				<item link="/reach-konformitat">REACH</item>
+				<item link="/rohs-testing">RoHS</item>
+				<item link="http://www.asiafoodinspection.com">Lebensmittelprüfung</item>
+			</submenu>
+
+			<submenu title="Informationen zu den Dienstleistungen" link="/inspektion-preise" ico="ico_serviceDetails">
+				<item link="/inspektion-preise">Preise</item>
+				<item link="/inspektor-netzwerk">Leistungsumfang</item>
+				<item link="/reference-samples">Referenzmuster</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Nach Branche" link="/quality-control-services-by-industry" id="Industry">
+			<submenu title="Softlines" link="/industry-softline"  ico="ico_softlines" tooltip="View Softlines Industry">
+				<item link="/industry-softline">Schuhe</item>
+				<item link="/industry-softline">Bekleidung</item>
+				<item link="/industry-softline">Gepäck und Taschen</item>
+				<item link="/industry-softline">Stofftiere</item>
+				<item link="/industry-softline">Textilien und Stoffe</item>
+			</submenu>
+			
+			<submenu title="Hardlines" link="/industry-hardline" ico="ico_hardlines" tooltip="View Hardlines Industry">
+				<item link="/industry-hardline">Elektrogeräte &amp; Beleuchtung</item>
+				<item link="/industry-hardline">Geschenkartikel &amp; Prämien</item>
+				<item link="/industry-hardline">Haushaltswaren &amp; Gartenartikel</item>
+				<item link="/industry-hardline">Industrie &amp; Bau</item>
+				<item link="/industry-hardline">Spielzeug &amp; Freizeitartikel</item>
+			</submenu>
+			
+			<submenu title="Technische Komponenten" link="/industry-techparts" ico="ico_techParts" tooltip="View Technical Parts Industry">
+				<item link="/industry-techparts">Baugruppen &amp; Gussformen</item>
+				<item link="/industry-techparts">Automobilteile</item>
+				<item link="/industry-techparts">Maschinen</item>
+				<item link="/industry-techparts">Präzisionswerkzeuge</item>
+			</submenu>
+			
+			<submenu title="Lebensmittel" link="http://www.asiafoodinspection.com" ico="ico_food" tooltip="View Food Industry">
+				<item link="http://www.asiafoodinspection.com">Meeresfrüchte, Fleisch &amp; Geflügel</item>
+				<item link="http://www.asiafoodinspection.com">Obst &amp; Gemüse</item>
+				<item link="http://www.asiafoodinspection.com">Konserven und Tiefkühlkost</item>
+				<item link="http://www.asiafoodinspection.com">Babynahrung</item>
+				<item link="http://www.asiafoodinspection.com">Lebensmittelverpackungen</item>
+			</submenu>
+		</menu>
+
+		<menu title="Über AI" link="/wer-sind-wir" id="AboutUs">
+			<submenu title="Über AsiaInspection" link="/wer-sind-wir" ico="ico_aboutAI">
+				<item link="/wer-sind-wir">Wer wir sind</item>
+				<item link="/inspektion-ethikkodex">Unsere Werte</item>
+				<item link="/accreditations">Zulassungen</item>
+				<item link="/asiainspection-testimonials">Zeugnisse</item>
+			</submenu>
+			
+			<submenu title="Neuigkeiten &amp; Inhalte" link="/neues" ico="ico_News">
+				<item link="/neues">Aktuelles</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Karriere" link="/career-opportunities" id="Careers"></menu>
+		<menu title="Kontakt" link="/kontakt" id="ContactUs"></menu>
+		<menu title="Konto einrichten" link="/registrieren" id="Register"></menu>
+	</de>
+
+	<it>
+		<menu title="Servizi di controllo di qualità" link="/qc-soluzioni" id="Services">
+			<submenu title="Servizi di ispezione" link="/qc-soluzioni#product_inspections" ico="ico_inspections">
+				<item link="/ispezione-finale-a-scandaglio">Controllo pre-spedizione</item>
+				<item link="/seguito-della-produzione">Monitoraggio della produzione</item>
+				<item link="/controllo-durante-la-produzione">Controllo in fase di produzione</item>
+				<item link="/controllo-pre-produzione">Controllo preliminare della produzione</item>
+				<item link="/ispezione-di-caricamento-di-contenitore">Controllo del caricamento dei container</item>
+				<item link="http://www.asiafoodinspection.com">Ispezioni di alimenti</item>
+			</submenu>
+				
+			<submenu title="Audit" link="/qc-soluzioni#audit" ico="ico_audits">
+				<item link="/audit-di-fabbrica">Controllo fabbrica</item>
+				<item link="/audit-sociale">Audit sociale</item>
+				<item link="/audit-e-conformita-C-TPAT">C-TPAT</item>
+				<item link="/audit-ambientale">Audit ambientale</item>
+				<item link="http://www.asiafoodinspection.com">Controllo fabbrica alimentare</item>
+			</submenu>
+			
+			<submenu title="Servizi di test" link="/qc-soluzioni#laboratory_testing" ico="ico_labTest">
+				<item link="/test-di-laboratorio">Test di laboratorio e certificazioni</item>
+				<item link="/test-di-conformita-cpsia">CPSIA</item>
+				<item link="/test-di-conformita-reach">REACH</item>
+				<item link="/test-di-conformita-rohs">RoHS</item>
+				<item link="http://www.asiafoodinspection.com">Test di prodotti alimentari</item>
+			</submenu>
+
+			<submenu title="Dettagli dei servizi" link="/prezzi" ico="ico_serviceDetails">
+				<item link="/prezzi">Tariffe</item>
+				<item link="/asia-inspection-rete">Copertura dei servizi</item>
+				<item link="/campioni-di-riferimento">Prodotti campione</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Per settore" link="/quality-control-services-by-industry" id="Industry">
+			<submenu title="Settore softline" link="/industry-softline"  ico="ico_softlines" tooltip="View Softlines Industry">
+				<item link="/industry-softline">Calzature</item>
+				<item link="/industry-softline">Abbigliamento</item>
+				<item link="/industry-softline">Bagagli e borse</item>
+				<item link="/industry-softline">Giocattoli di peluche</item>
+				<item link="/industry-softline">Stoffe e tessuti</item>
+			</submenu>
+			
+			<submenu title="Settore hardline" link="/industry-hardline" ico="ico_hardlines" tooltip="View Hardlines Industry">
+				<item link="/industry-hardline">Prodotti elettrici e luci</item>
+				<item link="/industry-hardline">Regali e premi</item>
+				<item link="/industry-hardline">Casa e giardino</item>
+				<item link="/industry-hardline">Articoli industriali ed edili</item>
+				<item link="/industry-hardline">Giocattoli e articoli ricreativi</item>
+			</submenu>
+			
+			<submenu title="Componenti tecnici" link="/industry-techparts" ico="ico_techParts" tooltip="View Technical Parts Industry">
+				<item link="/industry-techparts">Gruppi e stampi</item>
+				<item link="/industry-techparts">Parti di autoveicoli</item>
+				<item link="/industry-techparts">Macchinari</item>
+				<item link="/industry-techparts">Strumenti di precisione</item>
+			</submenu>
+			
+			<submenu title="Prodotti alimentari" link="http://www.asiafoodinspection.com" ico="ico_food" tooltip="View Food Industry">
+				<item link="http://www.asiafoodinspection.com">Pesce, carne e pollame</item>
+				<item link="http://www.asiafoodinspection.com">Frutta e verdura</item>
+				<item link="http://www.asiafoodinspection.com">Alimenti in scatola e surgelati</item>
+				<item link="http://www.asiafoodinspection.com">Alimenti per l'infanzia</item>
+				<item link="http://www.asiafoodinspection.com">Confezionamento alimenti</item>
+			</submenu>
+		</menu>
+
+		<menu title="Informazioni su AI" link="/asia-inspection-chi-siamo" id="AboutUs">
+			<submenu title="Informazioni su AsiaInspection" link="/asia-inspection-chi-siamo" ico="ico_aboutAI">
+				<item link="/asia-inspection-chi-siamo">Azienda</item>
+				<item link="/codice-etico">Valori aziendali</item>
+				<item link="/accreditamenti">Accreditamenti</item>
+				<item link="/testimonianza">I nostri testimonial</item>
+			</submenu>
+			
+			<submenu title="News su AI" link="/notiziaro" ico="ico_News">
+				<item link="/notiziaro">Ultime notizie</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Carriera" link="/opportunita-di-lavoro" id="Careers"></menu>
+		<menu title="Contattaci" link="/contattarci" id="ContactUs"></menu>
+		<menu title="Crea il tuo account" link="/registratevi" id="Register"></menu>
+	</it>
+	
+	<ar>
+		<menu title="خدمات مراقبة الجودة" link="/quality-control-services" id="Services">
+			<submenu title="خدمات التفتيش" link="/quality-control-services#product_inspections" ico="ico_inspections">
+				<item link="/pre-shipment-inspection">التفتيش قبل الشحن</item>
+				<item link="/production-monitoring">مراقبة الإنتاج</item>
+				<item link="/during-production-inspection">خلال فحص الإنتاج</item>
+				<item link="/initial-production-check">فحص الإنتاج الأولي</item>
+				<item link="/container-loading-check">فحص تحميل الحاويات</item>
+				<item link="http://www.asiafoodinspection.com">عمليات تفتيش الأغذية</item>
+			</submenu>
+				
+			<submenu title="عمليات التدقيق" link="/quality-control-services#audit" ico="ico_audits">
+				<item link="/manufacturing-audit">التدقيق في المصنع</item>
+				<item link="/ethical-audit">التدقيق الاجتماعي</item>
+				<item link="/c-tpat-compliance">الشراكة الجمركية-التجارية ضد الإرهاب (C-TPAT)</item>
+				<item link="/environmental-audit">التدقيق البيئي</item>
+				<item link="http://www.asiafoodinspection.com">التدقيق في مصنع الأغذية</item>
+			</submenu>
+			
+			<submenu title="خدمات الاختبار" link="/quality-control-services#laboratory_testing" ico="ico_labTest">
+				<item link="/quality-control-services/laboratory-testing">الاختبارات المعملية والشهادات</item>
+				<item link="/cpsia-testing">CPSIA</item>
+				<item link="/reach-testing">REACH</item>
+				<item link="/rohs-testing">RoHS</item>
+				<item link="http://www.asiafoodinspection.com">اختبار الأغذية</item>
+			</submenu>
+
+			<submenu title="تفاصيل الخدمات" link="/quality-control-pricing" ico="ico_serviceDetails">
+				<item link="/quality-control-pricing">التسعير</item>
+				<item link="/quality-control-coverage-asia-china">تغطية الخدمة</item>
+				<item link="/reference-samples">نماذج مرجعية</item>
+			</submenu>
+		</menu>
+	
+		<menu title="حسب القطاع" link="/quality-control-services-by-industry" id="Industry">
+			<submenu title="السلع الاستهلاكية غير المعمّرة" link="/industry-softline"  ico="ico_softlines" tooltip="View Softlines Industry">
+				<item link="/industry-softline">الأحذية</item>
+				<item link="/industry-softline">الملابس والأزياء</item>
+				<item link="/industry-softline">الأمتعة والحقائب</item>
+				<item link="/industry-softline">الألعاب المصنوعة من الأقمشة</item>
+				<item link="/industry-softline">المنسوجات والأقمشة</item>
+			</submenu>
+			
+			<submenu title="السلع الاستهلاكية المعمّرة" link="/industry-hardline" ico="ico_hardlines" tooltip="View Hardlines Industry">
+				<item link="/industry-hardline">الأدوات الكهربائية والإضاءة</item>
+				<item link="/industry-hardline">الهدايا والمنتجات الترويجية</item>
+				<item link="/industry-hardline">المنزل والحديقة</item>
+				<item link="/industry-hardline">المعدات الصناعية ومواد البناء</item>
+				<item link="/industry-hardline">الألعاب والمنتجات الترفيهية</item>
+			</submenu>
+			
+			<submenu title="الأجزاء التقنية" link="/industry-techparts" ico="ico_techParts" tooltip="View Technical Parts Industry">
+				<item link="/industry-techparts">التركيبات والقوالب</item>
+				<item link="/industry-techparts">قطع غيار السيارات</item>
+				<item link="/industry-techparts">الآليات</item>
+				<item link="/industry-techparts">الأدوات الدقيقة</item>
+			</submenu>
+			
+			<submenu title="الأطعمة" link="http://www.asiafoodinspection.com" ico="ico_food" tooltip="View Food Industry">
+				<item link="http://www.asiafoodinspection.com">المأكولات البحرية واللحوم والدواجن</item>
+				<item link="http://www.asiafoodinspection.com">الفواكه والخضار</item>
+				<item link="http://www.asiafoodinspection.com">الأطعمة المجمدة والمعلبة</item>
+				<item link="http://www.asiafoodinspection.com">أطعمة الأطفال</item>
+				<item link="http://www.asiafoodinspection.com">تعبئة الأطعمة</item>
+			</submenu>
+		</menu>
+
+		<menu title="حول شركة AsiaInspection" link="/who-we-are" id="AboutUs">
+			<submenu title="حول شركة AsiaInspection" link="/who-we-are" ico="ico_aboutAI">
+				<item link="/who-we-are">من نحن</item>
+				<item link="/corporate-values">قيم الشركة</item>
+				<item link="/accreditations">الاعتمادات</item>
+				<item link="/asiainspection-testimonials">شهادات العملاء</item>
+			</submenu>
+			
+			<submenu title="شركة AI في الأخبار" link="/asia-inspection-news" ico="ico_News">
+				<item link="/asia-inspection-news">أحدث الأخبار</item>
+			</submenu>
+		</menu>
+	
+		<menu title="الوظائف" link="/career-opportunities" id="Careers"></menu>
+		<menu title="الاتصال بنا" link="/contact-us" id="ContactUs"></menu>
+		<menu title="إنشاء حساب" link="/register" id="Register"></menu>
+	</ar>
+	
+	<pt>
+		<menu title="Serviços de controle de qualidade" link="/quality-control-services" id="Services">
+			<submenu title="Serviços de inspeção" link="/quality-control-services#product_inspections" ico="ico_inspections">
+				<item link="/pre-shipment-inspection">Verificação Pré-embarque</item>
+				<item link="/production-monitoring">Monitorização da produção</item>
+				<item link="/during-production-inspection">Verificação durante a produção</item>
+				<item link="/initial-production-check">Verificação ao início da produção</item>
+				<item link="/container-loading-check">Verificação do carregamento do container</item>
+				<item link="http://www.asiafoodinspection.com">Inspeções de alimentos</item>
+			</submenu>
+				
+			<submenu title="Auditorias" link="/quality-control-services#audit" ico="ico_audits">
+				<item link="/manufacturing-audit">Auditoria de fábrica</item>
+				<item link="/ethical-audit">Auditoria social</item>
+				<item link="/c-tpat-compliance">C-TPAT</item>
+				<item link="/environmental-audit">Auditoria ambiental</item>
+				<item link="http://www.asiafoodinspection.com">Auditoria de fábrica de produtos alimentícios</item>
+			</submenu>
+			
+			<submenu title="Serviços de testes" link="/quality-control-services#laboratory_testing" ico="ico_labTest">
+				<item link="/quality-control-services/laboratory-testing">Certificações e testes laboratoriais</item>
+				<item link="/cpsia-testing">CPSIA</item>
+				<item link="/reach-testing">REACH</item>
+				<item link="/rohs-testing">RoHS</item>
+				<item link="http://www.asiafoodinspection.com">Testes de alimentos</item>
+			</submenu>
+
+			<submenu title="Detalhes do serviço" link="/quality-control-pricing" ico="ico_serviceDetails">
+				<item link="/quality-control-pricing">Preços</item>
+				<item link="/quality-control-coverage-asia-china">Cobertura do serviço</item>
+				<item link="/reference-samples">Amostras de referência</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Por Indústria" link="/quality-control-services-by-industry" id="Industry">
+			<submenu title="Bens de consumo não duráveis" link="/industry-softline"  ico="ico_softlines" tooltip="View Softlines Industry">
+				<item link="/industry-softline">Calçados</item>
+				<item link="/industry-softline">Roupas e vestuário</item>
+				<item link="/industry-softline">Malas e bolsas</item>
+				<item link="/industry-softline">Brinquedos de pelúcia</item>
+				<item link="/industry-softline">Tecidos</item>
+			</submenu>
+			
+			<submenu title="Bens de consumo duráveis" link="/industry-hardline" ico="ico_hardlines" tooltip="View Hardlines Industry">
+				<item link="/industry-hardline">Elétricos e de iluminação</item>
+				<item link="/industry-hardline">Artigos promocionais</item>
+				<item link="/industry-hardline">Lar e jardim</item>
+				<item link="/industry-hardline">Industrial e construção</item>
+				<item link="/industry-hardline">Brinquedos e recreação</item>
+			</submenu>
+			
+			<submenu title="Peças técnicas" link="/industry-techparts" ico="ico_techParts" tooltip="View Technical Parts Industry">
+				<item link="/industry-techparts">Montagens e moldes</item>
+				<item link="/industry-techparts">Peças automotrizes</item>
+				<item link="/industry-techparts">Maquinaria</item>
+				<item link="/industry-techparts">Ferramentas de precisão</item>
+			</submenu>
+			
+			<submenu title="Alimentos" link="http://www.asiafoodinspection.com" ico="ico_food" tooltip="View Food Industry">
+				<item link="http://www.asiafoodinspection.com">Frutos do mar, carnes e aves</item>
+				<item link="http://www.asiafoodinspection.com">Frutas e vegetais</item>
+				<item link="http://www.asiafoodinspection.com">Alimentos enlatados e congelados</item>
+				<item link="http://www.asiafoodinspection.com">Alimentos para bebés</item>
+				<item link="http://www.asiafoodinspection.com">Embalagem dos alimentos</item>
+			</submenu>
+		</menu>
+
+		<menu title="Sobre AI" link="/who-we-are" id="AboutUs">
+			<submenu title="Sobre AsiaInspection" link="/who-we-are" ico="ico_aboutAI">
+				<item link="/who-we-are">Quem somos</item>
+				<item link="/corporate-values">Valores da empresa</item>
+				<item link="/accreditations">Certificações</item>
+				<item link="/asiainspection-testimonials">Depoimentos</item>
+			</submenu>
+			
+			<submenu title="AI na imprensa" link="/asia-inspection-news" ico="ico_News">
+				<item link="/asia-inspection-news">Notícias mais recentes</item>
+			</submenu>
+		</menu>
+	
+		<menu title="Carreiras" link="/career-opportunities" id="Careers"></menu>
+		<menu title="Fale conosco" link="/contact-us" id="ContactUs"></menu>
+		<menu title="Crie sua conta" link="/register" id="Register"></menu>
+	</pt>
+	
+	<tr>
+		<!--
+		<menu title="Kalite Kontrol Hizmetleri" link="/quality-control-services" id="Services">
+			<submenu title=" Denetim Hizmetleri" link="/quality-control-services#product_inspections" ico="ico_inspections">
+				<item link="/pre-shipment-inspection">Nakliyat Öncesi Denetleme</item>
+				<item link="/production-monitoring">Ürün Gözetimi</item>
+				<item link="/during-production-inspection">Üretim Sırasında Kontrol</item>
+				<item link="/initial-production-check">İlk Üretim Kontrolü</item>
+				<item link="/container-loading-check">Konteyner Yükleme Kontrolü</item>
+				<item link="http://www.asiafoodinspection.com">Gıda Denetleme</item>
+			</submenu>
+				
+			<submenu title="Teftişler" link="/quality-control-services#audit" ico="ico_audits">
+				<item link="/manufacturing-audit">Fabrika Teftişi</item>
+				<item link="/ethical-audit">Kayıt Teftişi</item>
+				<item link="/c-tpat-compliance">C-TPAT</item>
+				<item link="/environmental-audit">Çevresel Teftiş</item>
+				<item link="http://www.asiafoodinspection.com">Gıda Fabrikası Teftişi</item>
+			</submenu>
+			
+			<submenu title="Test Etme Hizmetleri" link="/quality-control-services#laboratory_testing" ico="ico_labTest">
+				<item link="/quality-control-services/laboratory-testing">Laboratuvar Testleri ve Sertifikalar</item>
+				<item link="/cpsia-testing">CPSIA</item>
+				<item link="/reach-testing">REACH</item>
+				<item link="/rohs-testing">RoHS</item>
+				<item link="http://www.asiafoodinspection.com">Gıda Testleri</item>
+			</submenu>
+		</menu>
+		-->
+	
+		<menu title="Endüstriye Göre" link="/quality-control-services-by-industry" id="Industry">
+			<submenu title="Tekstil Ürünleri" link="/industry-softline"  ico="ico_softlines" tooltip="View Softlines Industry">
+				<item link="/industry-softline">Ayakkabılar</item>
+				<item link="/industry-softline">Giyim Ürünleri</item>
+				<item link="/industry-softline">Bavul ve Çantalar</item>
+				<item link="/industry-softline">Yumuşak Oyuncaklar</item>
+				<item link="/industry-softline">Tekstil Ürünleri ve Kumaşlar</item>
+			</submenu>
+			
+			<submenu title="Mekanik Ürünler" link="/industry-hardline" ico="ico_hardlines" tooltip="View Hardlines Industry">
+				<item link="/industry-hardline">Elektrikli Cihazlar ve Işıklandırma</item>
+				<item link="/industry-hardline">Hediyeler ve İkramiyeler</item>
+				<item link="/industry-hardline">Ev ve Bahçe Eşyaları</item>
+				<item link="/industry-hardline">Endüstriyel Ürünler ve İnşaat Ürünleri</item>
+				<item link="/industry-hardline">Oyuncak ve Hobi</item>
+			</submenu>
+			
+			<submenu title="Teknik Parçalar" link="/industry-techparts" ico="ico_techParts" tooltip="View Technical Parts Industry">
+				<item link="/industry-techparts">Düzenekler ve Kalıplar</item>
+				<item link="/industry-techparts">Otomotiv Parçaları</item>
+				<item link="/industry-techparts">Makineler</item>
+				<item link="/industry-techparts">Hassas Alet Üretimi</item>
+			</submenu>
+			
+			<submenu title="Gıda" link="http://www.asiafoodinspection.com" ico="ico_food" tooltip="View Food Industry">
+				<item link="http://www.asiafoodinspection.com">Deniz Ürünleri, Kırmızı Et ve Beyaz Et</item>
+				<item link="http://www.asiafoodinspection.com">Meyve ve Sebzeler</item>
+				<item link="http://www.asiafoodinspection.com">Konserve ve Donmuş Gıda</item>
+				<item link="http://www.asiafoodinspection.com">Bebek Mamaları</item>
+				<item link="http://www.asiafoodinspection.com">Gıda Paketleme</item>
+			</submenu>
+		</menu>
+
+		<menu title="AI Hakkında" link="/" id="AboutUs">
+			<!--
+			<submenu title="AsiaInspection Hakkında" link="/who-we-are" ico="ico_aboutAI">
+				<item link="/who-we-are">Biz Kimiz?</item>
+				<item link="/corporate-values">Şirket Değerleri</item>
+				<item link="/accreditations">Yetki Belgeleri</item>
+				<item link="/asiainspection-testimonials">Tasdiknameler</item>
+			</submenu>
+			-->
+			
+			<submenu title="Hizmet Bilgileri" link="/quality-control-pricing" ico="ico_serviceDetails">
+				<item link="/quality-control-pricing">Ücretlendirme</item>
+				<!-- <item link="/quality-control-coverage-asia-china">Hizmet Kapsamı</item> -->
+				<!-- <item link="/reference-samples">Referans Numuneleri</item> -->
+			</submenu>
+			
+			<submenu title="Haberlerde AI" link="/asia-inspection-news" ico="ico_News">
+				<item link="/asia-inspection-news">En Yeni Haberler</item>
+			</submenu>
+		</menu>
+	
+		<!-- <menu title="Kariyerler" link="/career-opportunities" id="Careers"></menu> -->
+		<menu title="Bize Ulaşın" link="/contact-us" id="ContactUs"></menu>
+		<menu title="Hesabınızı Oluşturun" link="/register" id="Register"></menu>
+	</tr>
+	
+</document>

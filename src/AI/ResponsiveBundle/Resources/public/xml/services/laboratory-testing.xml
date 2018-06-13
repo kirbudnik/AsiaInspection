@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+    <pageMeta>
+        <pageTitle>
+            <en>Laboratory Testing | Product &amp; Material Testing - ISO 17025 Accredited | AsiaInspection</en>
+            <es>Servicios de Control de Calidad: Pruebas de laboratorio | Asiainspection.com</es>
+            <ar>خدمة الإختبارات المعملية للمنتجات</ar>
+            <fr>Contrôle Qualité : Tests et analyses laboratoire (REACH, EN 71, Plomb, Cadmium…) | AsiaInspection.fr</fr>
+            <zh>质量检测服务：实验室测试服务 | ChinaInspection.com</zh>
+            <de>Labortests | Produkt- und Materialsicherung | AsiaInspection</de>
+            <ru>Услуги контроля качества: Лабораторное тестирование |AsiaInspection.ru</ru>
+            <tr>Laboratuvar Testleri | Ürün ve Malzeme Testi - ISO 17025 Onaylı | AsiaInspection</tr>
+            <pt>Teste Laboratório | Teste Acreditado de Material e Produto - ISO 17025 | AsiaInspection.pt</pt>
+            <ru>Услуги лабораторного тестирования | AsiaInspection Охват услугами лабораторного тестирования</ru>
+            <it>Servizi di Analisi di Laboratorio | AsiaInspection Copertura Analisi di Laboratorio</it>
+        </pageTitle>
+        <pageDesc>
+            <en>Laboratory testing for quality control (QC) is fast and easy with our online platform and AI testing labs are accessible worldwide. Learn more about our lab services here.</en>
+            <es>Con el sello de aprobación de AsiaInspection, usted puede estar seguro que su producto pasará las pruebas más duras de control de calidad</es>
+            <ar>توفر لك خدمة الإختبارات المعملية للمنتجات اختبار منتجاتك لضمان خضوع المنتجات لجميع المعايير الدولية.</ar>
+            <fr>AsiaInspection propose des services de tests et d'analyses laboratoire aux importateurs opérant en Chine, Inde et dans toute l'Asie.</fr>
+            <zh>AsiaInspection 在中国、印度等亚洲其他国家提供质量检测及实验室测试服务。确保您的中国供应商及进口货物满意达标。</zh>
+            <ru>Со знаком одобения от Asia Inspection вы можете быть уверены в том, что ваша продукция пройдет самый строгий лабораторный тест и контроль качества.</ru>
+            <de>Mit der Onlineplattform von Asia Inspection sind Labortests zur Qualitätskontrolle einfach und schnell weltweit buchbar. Lernen Sie mehr hier.</de>
+            <tr>Kalite control (QC) için laboratuvar testeri çevrimiçi platformumuz ve dünya çapında ulaşılabilir AI test laboratuvarları ile hızlı ve kolaydır. Buradan laboratuvar hizmetlerimiz hakkında daha fazla bilgi alın.</tr>
+            <pt>Os testes de laboratório para o Controlo de Qualidade (CQ) são rápidos e simples com a nossa plataforma online e os laboratórios de testes da AI estão acessíveis por todo o mundo. Saiba mais sobre os nossos serviços de laboratório aqui.</pt>
+            <ru>Лабораторные тесты | Тестирование продукции и материалов - Аккредитация ISO 17025 | AsiaInspection</ru>
+            <it>Grazie alla nostra piattaforma online, l'analisi di laboratorio per il controllo di qualità (QC) è veloce e semplice e i laboratori di analisi AI sono disponibili in tutto il mondo. Scopri di più sui nostri servizi di laboratorio qui.</it>
+        </pageDesc>
+    </pageMeta>
+
+    <en>
+        <title>Laboratory Testing</title>
+        <subtext><![CDATA[<p>AsiaInspection offers an extensive selection of lab tests, performed to the full range of international standards at our fully accredited laboratories.</p>]]></subtext>
+        <section>
+            <title>AsiaInspection Laboratory Testing</title>
+            <subtext><![CDATA[
+                <p>In today's global market, manufacturers, retailers and importers must be mindful of product quality and safety requirements of their target markets. Failure to do so results in costly product recalls, legal issues, and reputational damage.</p>
+                <p>AI's lab testing services help businesses in over %total_Client_Countries% countries secure the quality and safety of their products. With %total_Labs% in-house labs and a network of preferred partners, we provide outstanding service coverage and an industry-leading turnaround, conducting tests to a wide range of international and industry-specific standards.</p><br />
+                <img src="https://s3.asiainspection.com/images/responsive/lab-testing-map.png" style="max-width:100%;margin-bottom:5px;" />
+                ]]></subtext>
+        </section>
+
+        <section>
+            <title>Secure Your Production Cycle</title>
+            <subtext><![CDATA[<p>We can conduct lab tests at every stage of your production cycle, including Pre-Production, Production, and After Market, testing samples of raw materials as well as finished products. Our sample collection process ensures that we will test a representative sample, not a sample your supplier may want you to test.</p>]]></subtext>
+        </section>
+
+        <section>
+            <title>AI Lab Testing Expertise</title>
+            <tab>
+                <image>img_cpsia.jpg</image>
+                <tab_title>CPSIA</tab_title>
+                <text>The Consumer Product Safety Improvement Act (CPSIA) is a United States Government law restricting levels of hazardous materials in products imported or made within the US, especially those for children.</text>
+                <link>labtest_CPSIA Testing</link>
+            </tab>
+            <tab>
+                <image>img_reach.jpg</image>
+                <tab_title>REACH</tab_title>
+                <text>REACH is a European Union regulation (1907/2006/EC) restricting the levels of specific chemical substances in all imported goods. Registration, Evaluation, Authorization and restriction of Chemicals (REACH) is one of the most comprehensive and far-reaching pieces of environmental legislation to come out of the European Union.</text>
+                <link>labtest_REACH Testing</link>
+            </tab>
+            <tab>
+                <image>img_rohs.jpg</image>
+                <tab_title>RoHS</tab_title>
+                <text>RoHS is a European Union directive restricting the use of hazardous materials in both products imported or made within the EU. RoHS affects any company importing goods containing electrical components into the European Union.</text>
+                <link>labtest_RoHS Testing</link>
+            </tab>
+            <tab>
+                <image>img_saso.jpg</image>
+                <tab_title>SASO</tab_title>
+                <text>In order to clear any shipment at Saudi customs, all imports require a Certificate of Conformity (also known as SASO CoC) issued by an authorized 3rd party provider certification body in the country of product origin.</text>
+                <link>SASO Testing</link>
+            </tab>
+            <tab>
+                <image>img_food_testing.jpg</image>
+                <tab_title>Food Testing</tab_title>
+                <text>From contaminants to genetically modified organisms, food companies are confronted by a host of food safety and quality challenges in today’s global marketplace. Testing at the source allows you to gain time and cost advantages.</text>
+                <link>labtest_Food</link>
+            </tab>
+            <tab>
+                <image>img_quality_assurance.jpg</image>
+                <tab_title>Quality Assurance for Products</tab_title>
+                <text>AI experts offer guidance to assist you in making critical decisions throughout your product development, manufacturing, and procurement processes. Our services help our clients deliver products that comply with global, federal, and state requirements as well as work with their teams to address any in-house or client specifications.</text>
+                <link>Quality Assurance Testing</link>
+            </tab>
+            <tab>
+                <image>img_phthalates_testing.jpg</image>
+                <tab_title>Phthalates Testing</tab_title>
+                <text>In response to consumer health concerns, phthalates are being phased out of toys in the United States CPSIA, Canada, and the European Union REACH. At high level of exposure, the toxicological properties of phthalates present a risk of cancer and can lead to adult infertility.</text>
+                <link>Phthalate Toys Testing</link>
+            </tab>
+            <tab>
+                <image>img_astm_f963.jpg</image>
+                <tab_title>ASTM F963-16 Toy Safety Testing</tab_title>
+                <text>ASTM F963 has long been a key standard for toy safety testing.</text>
+                <link>industries_Toys</link>
+            </tab>
+            <tab>
+                <image>img_calprop_65.jpg</image>
+                <tab_title>CA Proposition 65 Compliance</tab_title>
+                <text>Those doing business in the state of California must be aware of the Safe Drinking Water and Toxic Enforcement Act of 1986, more commonly known as California Proposition 65, or Cal Prop 65.</text>
+                <link>calprop65</link>
+            </tab>
+        </section>
+
+        <section>
+            <title>AI Lab Accreditations</title>
+            <subtext><![CDATA[
+                <p>With fully accredited capacities and a team of highly trained experts, AI is perfectly positioned to address all of your compliance needs.</p>
+                <p>Our laboratories are accredited by and in accordance with the following regulatory bodies and international standards:</p>
+                <ul class="image-list">
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cnas.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cma.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_anab.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_hoklas.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cpsc.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_iso_17025.png' /></li>
+                </ul>
+                ]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Testing Capabilities for Your Product and Industry</title>
+            <subtext>
+                <![CDATA[<p>Our laboratories offer over 6,000 tests in a number of product categories, including softlines, hardlines, promotional items, textiles, apparel, and more.</p>
+                <p>AI lab tests include:</p>
+                <ul>
+                    <li>Physical/Mechanical testing</li>
+                    <li>Chemical testing for lead, heavy metals and phthalates</li>
+                    <li>Flammability testing (wearing apparel &amp; hardlines)</li>
+                    <li>Indirect food additives/food simulating solvent extractives</li>
+                    <li>Reliability, comparative, and destructive testing</li>
+                    <li>Performance evaluations</li>
+                    <li>Component and raw materials testing</li>
+                    <li>Toxicological Risk Assessments (TRA) and LHAMA Evaluations</li>
+                    <li>Packaging and labeling evaluations</li>
+                    <li>Regulatory testing, including CPSIA, REACH, RoHS, ASTM, FDA, and more.</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title></title>
+            <subtext>
+                <![CDATA[<div class="take-a-tour-pane">
+                    <h2>Take a Tour of Our Labs</h2>
+                    Get a full view of AsiaInspection's laboratories, where we address the product safety compliance needs for clients in 120 countries.
+                    <a href='http://www.asiainspection.com/our-labs'><button>Take a Tour Now</button></a>
+                </div>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Pricing</title>
+            <subtext><![CDATA[<p>Your price quote becomes available as soon as you book the tests via our online database.</p>]]></subtext>
+        </section>
+    </en>
+    
+    <es>
+        <title>Pruebas de Laboratorio</title>
+        <subtext><![CDATA[<p>AsiaInspection ofrece una amplia selección de pruebas de laboratorio, realizadas de acuerdo con las normas internacionales en nuestros laboratorios plenamente acreditados.</p>]]></subtext>
+        <section>
+            <title>Pruebas de laboratorio de AsiaInspection</title>
+            <subtext><![CDATA[
+                <p>
+En el mercado global de hoy en día, los fabricantes, minoristas y los importadores deben ser conscientes de los requisitos de calidad y seguridad de los productos en sus mercados de destino. De no hacerlo, se traduce en costosas retiradas de productos, cuestiones legales y daños en su reputación.</p>
+                <p>
+Los servicios de pruebas de laboratorio de AI ayudan a empresas en más de %total_Countries% paises a garantizar la calidad de sus productos. Con tres laboratorios internos y una red de socios seleccionados, proporcionamos una cobertura de servicio excepcional y un giro líder en la industria, la realización de pruebas para una amplia gama de normas internacionales y específicas.</p><br />
+                <img src="https://s3.asiainspection.com/images/responsive/lab-testing-map.png" style="max-width:100%;margin-bottom:5px;" />
+                ]]></subtext>
+        </section>
+
+        <section>
+            <title>Asegure su ciclo de producción</title>
+            <subtext><![CDATA[<p>Podemos llevar a cabo pruebas de laboratorio en cada etapa de su ciclo de producción, incluida la pre-producción, producción, y after market, el análisis de muestras de materias primas, así como de productos terminados. Nuestro proceso de recogida de muestras le asegura que vamos a probar una muestra representativa, no una muestra que su proveedor quiera poner a prueba.</p>]]></subtext>
+        </section>
+
+        <section>
+            <title>Experiencia de AI en pruebas de laboratorio</title>
+            <subtext><![CDATA[
+                <p>Con cualidades plenamente acreditadas y un equipo de expertos altamente formados, AI está perfectamente posicionada para hacer frente al cumplimiento de todas sus necesidades.</p>
+                <p>Nuestros laboratorios están acreditados por y de acuerdo con los siguientes organismos reguladores y normas internacionales:</p>
+                <ul>
+                    <li>CNAS</li>
+                    <li>CMA </li>
+                    <li>ANAB </li>
+                    <li>HOKLAS </li>
+                    <li>CPSC </li>
+                    <li>ISO 17025</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Pruebas de capacidad para su producto y sector</title>
+            <subtext><![CDATA[
+                <p>Nuestros laboratorios ofrecen más de 6.000 pruebas en una serie de categorías de productos, incluidos softlines, hardlines, artículos promocionales, textiles, ropa y más.</p>
+                <p>Las pruebas de laboratorio de AI incluyen:</p>
+                <ul>
+                     <li>Pruebas físicas/mecánicas</li><li>Pruebas químicas para el plomo, metales pesados y ftalatos</li><li>Pruebas de inflamabilidad (prendas de vestir y hardlines)</li><li>Aditivos alimentarios indirectos simulando extractivos solventes</li><li>Pruebas de fiabilidad, comparativa y destructivas</li><li>Las evaluaciones de desempeño</li><li>Pruebas de componentes y materias primas</li><li>Evaluaciones de riesgos toxicológicos (TRA) y evaluaciones LHAMA</ li>
+                     <li>Evaluaciones de envasado y etiquetado</li><li>Pruebas reglamentarias, incluyendo CPSIA, REACH, RoHS, ASTM, FDA, y mucho más</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Tarifas</title>
+            <subtext><![CDATA[<p>Su presupuesto estará disponible tan pronto como reserve las pruebas a través de nuestra base de datos online.</p>]]></subtext>
+        </section>
+
+    </es>
+
+    <zh>
+        <title>实验室测试</title>
+        <subtext><![CDATA[<p>我们便捷的在线平台使您能够轻松访问我们的实验室网络，并快速找到您需要的所有测试。选择您的产品类别、生产国家、目的地国家，我们将提供所有相关的测试，以使您的产品保持合规。</p>]]></subtext>
+        <section>
+            <title>AI亚检全球实验室网络</title>
+            <subtext><![CDATA[<p>AI亚检在美国、中国内地和香港拥有三家内部实验室，并在全球范围内拥有30多个首选合作伙伴，确保您的产品符合安全、性能和卫生标准。</p>
+            <img src="https://s3.asiainspection.com/images/responsive/labtest2.png" style="max-width:100%;" />
+            <br /><b>图例</b><br />
+            <span style="color:#b31820;">AI亚检内部实验室</span><br />
+            <span style="color:black;">AI亚检合作伙伴实验室</span><br /><br />]]></subtext>
+        </section>
+        <section>
+            <title>认证</title>
+            <subtext><![CDATA[<p>AI亚检获以下管理部门认证，并达到相关国际标准。所有实验室所提供的测试服务都经过国际认证。点击此处查看AI全部认证项目和服务。</p>
+            <p>实验室测试认证包括：</p>
+            <p style="text-align:center;">• 中国合格评定国家认可委员会认证(No. L3438) • 中华医学会认证(No. 2012111018U) • 美国国家标准协会-美国质量学会认证机构认可委员会认证(AT-1500) <br />• 香港实验室认可计划认证 (No. 202) • 美国消费品安全委员会认证 (No. 1195) • 国际标准化组织认证17025</p>]]></subtext>
+        </section>
+
+    </zh>
+
+    <fr>
+        <title>Test de laboratoire</title>
+        <description>
+            <![CDATA[
+            <p>Grâce à notre plateforme en ligne exclusive vous trouvez rapidement les tests dont vous avez besoin. Sélectionnez votre catégorie de produit, le pays de fabrication et de destination, et nous vous indiquons tous les tests nécessaires pour être en règle et en conformité.</p>
+            <p>Faire appel à AsiaInspection pour vos tests vous permet de coupler vos tests en laboratoires à vos Inspections Produit. Nous vous garantissons que l'échantillon testé provient de votre production, et non d'une sélection faite par l'usine.</p>
+            <p>Vous recevrez un rapport détaillé vous indiquant si les tests ont été positifs ou non.</p>
+            ]]>
+        </description>
+        <buttonText url="/register">Commencer</buttonText>
+    </fr>
+
+    <ar>
+        <title>خدمة الإختبارات المعملية للمنتجات</title>
+        <subtext><![CDATA[<p>تقدم شركة AsiaInspection خيرات شاملة لإختبارات المعامل التي يتم تنفذها وفقاً لمجموعة كاملة من المعايير الدولة في معملنا المعتمدة.</p>]]></subtext>
+
+        <section>
+            <title>خدمة الإختبارات المعملية للمنتجات</title>
+            <subtext><![CDATA[
+                <p>اليوم في الأسواق العالمية ، يجب على المورد والمستورد أن يحرصوا على شروط و متطلبات الصحة والسلامة  في الأسواق المستهدفة لمنتجاتهم. عدم التقييد بالمعايير والشروط يؤدي إلى تكاليف باهضة لسحب المنتجات، تكاليف قانونية وضرر في السمعة. </p>
+                <p>خدمات الفحوصات المختبرية لشركة Ai تساعد شركات في أكثر من %total_Client_Countries% دولة لحماية جودة وسلامة منتجاتهم. نملك ثلاثة مختبرات في مقرنا وشبكه لشركاء مفضلين، نقدم لعملائنا تغطية ممتازة للخدمات و فحوصات شاملة للمتطلبات العالمية والخاصة ببعض المجلات التجارية </p><br />                <img src="https://s3.asiainspection.com/images/responsive/lab-testing-map.png" style="max-width:100%;margin-bottom:5px;" />
+            ]]></subtext>
+        </section>
+
+        <section>
+            <title>تأمين دورة الإنتاج</title>
+            <subtext><![CDATA[<p>يمكننا أن نقدم إختبارات في كل مرحلة من دورة الإنتاج، بما فيها مرحلة ماقبل الإنتاج، الإنتاج، و مرحلة مابعد التسويق، إختبار عينات المواد الخام  وايضاً المنتج الأخير. عملية تجميع العينات الخاصة بنا تضمن أننا سنقوم بفحص عينة مثالية وليست عينة يرغب منك المورد أن تقوم بفحصها </p>]]></subtext>
+        </section>
+
+        <section>
+            <title>خبراء  إختبارات المعامل لشركة AI </title>
+            <subtext><![CDATA[
+                <p> شركة AI تمتلك الوضعية المناسبة لتأمين جميع إحتياجات الإلتزام الخاصة بتجارتك عن طريق خبراء متخصصون وفريق عمل متدرب تدريباً عالياً.</p>
+                <p>جميع مخابراتنا معتمدة من قبل الهيئة العالمية التالية:</p>
+                <ul>
+                    <li>CNAS</li>
+                    <li>CMA </li>
+                    <li>ANAB </li>
+                    <li>HOKLAS </li>
+                    <li>CPSC </li>
+                    <li>ISO 17025</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>قدرات الإخبارات لمنتجاتك و صناعاتك</title>
+            <subtext><![CDATA[
+                <p>مختبراتنا تقدم أكثر من ٦٠٠٠ إختبار للعديد من فئات المتجات بما بها المتجات الترويجية، الأقمشة ، الملابس، المتجات الخفيفة والمتجات الثقيلة ألخ .</p>
+                <p>إختبارات شركة AI تتضمن التالي :</p>
+                <ul>
+                    <li>إختبارات ميكانيكية </li>
+                    <li>تحاليل كميائية للرصاص والمعادن الثقيلة </li>
+                    <li>تحاليل الإحتراق (للملابس والمتجات الثقيلة)</li>
+                    <li>المواد الإضافية العير مباشرة للأطعمة </li>
+                    <li>إختبارات الضمانة والمقارنة والتلف</li>
+                    <li>تقييم الأداء </li>
+                    <li>إختبارات المواد الخام والمكونات </li>
+                    <li>  تقييم خطر التسمم و تقييم LAHAMA </li>
+                    <li>تقيم التعبئة</li>
+                    <li>إختبارات المنظمات مثل  CPSIA, REACH, RoHS, ASTM, FDA</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>التسعير </title>
+            <subtext><![CDATA[<p>يمكنك الحصول على التسعيرة الخاصة بك فور قيمك بتسجيل موعد للإخبار عبر قاعدة البيانات الخاصة بنا على الإنترنت.</p>]]></subtext>
+        </section>
+
+    </ar>
+
+    <ru>
+        <title>Лабораторные тесты</title>
+        <subtext><![CDATA[<p>AsiaInspection предлагает огромный выбор лабораторных тестов, проводимых в соответствии с полным набором международных стандартов в наших аккредитованных лабораториях.</p>]]></subtext>
+        <section>
+            <title>Лабораторные тестирования AsiaInspection</title>
+            <subtext><![CDATA[
+                <p>На современном глобальном рынке производители, предприятия розничной торговли и импортеры должны помнить о качестве продукции и требованиях безопасности своих целевых рынков. В противном случае их ждут затратные отзывы продукции, проблемы с законом и ущерб репутации.</p>
+                <p>Услуги лабораторного тестирования AI помогают предпринимателям в более чем 120 странах обеспечить качество и безопасность своей продукции. Благодаря четырем собственным лабораториям и сети привилегированных партнеров, мы обеспечиваем исключительную зону обслуживания и самую высокую скорость работы в отрасли, проводя тесты в соответствии с широким спектром международных и отраслевых стандартов.</p><br />
+                <img src="https://s3.asiainspection.com/images/responsive/lab-testing-map.png" style="max-width:100%;margin-bottom:5px;" />
+                ]]></subtext>
+        </section>
+
+        <section>
+            <title>Обеспечьте безопасность своего производственного цикла</title>
+            <subtext><![CDATA[<p>Мы можем проводить тесты на любом этапе вашего производственного цикла, включая предпроизводство, производство и послепродажное обслуживание, тестируя образцы сырья и готовую продукцию. Наша процедура забора образца гарантирует, что мы протестируем репрезентативный образец, а не тот, который поставщик хочет отправить на тестирование.</p>]]></subtext>
+        </section>
+
+        <section>
+            <title>Квалифицированное лабораторное тестирование AI</title>
+            <tab>
+                <image>img_cpsia.jpg</image>
+                <tab_title>CPSIA</tab_title>
+                <text>Закон о повышении безопасности потребительских товаров (CPSIA) - это американский закон, ограничивающий уровень опасных веществ в продукции, изготовленной или импортируемой в США, особенно в продукции для детей. Узнать подробности</text>
+                <link>labtest_CPSIA Testing</link>
+            </tab>
+            <tab>
+                <image>img_reach.jpg</image>
+                <tab_title>REACH</tab_title>
+                <text>REACH - это регламент Евросоюза (1907/2006/EC), ограничивающий уровень определенных химических субстанций в импортируемых товарах. Регистрация, оценка, разрешение и ограничение химических веществ (REACH) - один из самых всеобъемлющих и перспективных экологических законов Европейского союза. Узнать подробности</text>
+                <link>labtest_REACH Testing</link>
+            </tab>
+            <tab>
+                <image>img_rohs.jpg</image>
+                <tab_title>RoHS</tab_title>
+                <text>RoHS - это директива Европейского Союза, ограничивающая использование опасных веществ в продукции, импортируемой или изготовляемой в ЕС. Нормы RoHS распространяются на любую компанию, импортирующую в Евросоюз товары с электрическими компонентами. Узнать подробности</text>
+                <link>labtest_RoHS Testing</link>
+            </tab>
+            <tab>
+                <image>img_saso.jpg</image>
+                <tab_title>SASO</tab_title>
+                <text>Чтобы успешно пройти саудовскую таможню, все импортные товары должны иметь сертификат соответствия (называемый SASO CoC), выпущенный уполномоченным независимым органом в стране происхождения продукта. Узнать подробности</text>
+                <link>SASO Testing</link>
+            </tab>
+            <tab>
+                <image>img_food_testing.jpg</image>
+                <tab_title>Тестирование пищевых продуктов</tab_title>
+                <text>На современном глобальном рынке компании-производители продовольствия встречают массу проблем с безопасностью продукции и качеством, начиная с загрязнителей и заканчивая генетически модифицированными организмами. Тестирование в источнике позволяет вам выиграть время и дает ценовые преимущества. Узнать подробности</text>
+                <link>labtest_Food</link>
+            </tab>
+            <tab>
+                <image>img_quality_assurance.jpg</image>
+                <tab_title>Гарантия качества для товаров</tab_title>
+                <text>Эксперты AI предлагают советы, чтобы помочь вам принять критически важные решения на всем протяжении ваших процессов развития, производства и закупки. С помощью наших услуг клиенты могут поставлять на рынок продукцию, соответствующую глобальным, федеральным и региональным требованиям, а также научить своих работников принимать меры в соответствии с внутренними или клиентскими спецификациями. Узнать подробности</text>
+                <link>Quality Assurance Testing</link>
+            </tab>
+            <tab>
+                <image>img_phthalates_testing.jpg</image>
+                <tab_title>Phthalates Testing</tab_title>
+                <text>В ответ на тревоги потребителей о здоровье использование фталатов в игрушках было постепенно запрещено в нормах США (CPSIA), Канады и Евросоюза (REACH). При высоком уровне воздействия токсикологические свойства фталатов представляют риск развития рака и могут привести к бесплодию во взрослом возрасте. Узнать подробности</text>
+                <link>Phthalate Toys Testing</link>
+            </tab>
+            <tab>
+                <image>img_astm_f963.jpg</image>
+                <tab_title>ASTM F963-16 Toy Safety Testing</tab_title>
+                <text>Стандарт ASTM F963 долгое время был ключевым в области тестирования игрушек на безопасность.</text>
+                <link>industries_Toys</link>
+            </tab>
+            <tab>
+                <image>img_calprop_65.jpg</image>
+                <tab_title>CA Proposition 65 Compliance</tab_title>
+                <text>Те, кто занимается бизнесом в Калифорнии, должны учитывать Закон о безопасности питьевой воды и контроле ее токсичности от 1986 года, более известном как Законодательная инициатива 65 штата Калифорния. Узнать подробности</text>
+                <link>calprop65</link>
+            </tab>
+        </section>
+
+        <section>
+            <title>Лабораторные аккредитации AI</title>
+            <subtext><![CDATA[
+                <p>With fully accredited capacities and a team of highly trained experts, AI is perfectly positioned to address all of your compliance needs.</p>
+                <p>Our laboratories are accredited by and in accordance with the following regulatory bodies and international standards:</p>
+                <ul class="image-list">
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cnas.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cma.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_anab.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_hoklas.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cpsc.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_iso_17025.png' /></li>
+                </ul>
+                ]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Тестирующие мощности для вашей продукции и производства</title>
+            <subtext>
+                <![CDATA[<p>Наши лаборатории предлагают более 6 000 тестов для ряда категорий продукции, в том числе: одежда и обувь, товары для быта, рекламная продукция, текстиль и многое другое.</p>
+                <p>Лабораторные тесты AI включают в себя:</p>
+                <ul>
+                    <li>Физическое/Механическое тестирование</li>
+                    <li>Химическое тестирование на свинец, тяжелые металлы и фталаты</li>
+                    <li>Тестирование на воспламеняемость (одежда и товары для быта)</li>
+                    <li>Косвенные пищевые добавки/вкусоароматические экстрагирующие агенты</li>
+                    <li>Тестирование надежности, сравнительное и деструктивное тестирование</li>
+                    <li>Оценка эксплуатационных качеств</li>
+                    <li>Тестирование компонентов и сырья</li>
+                    <li>Оценка токсикологических рисков (TRA) и тестирование LHAMA</li>
+                    <li>Оценка упаковки и маркировки</li>
+                    <li>Нормативное тестирование, в том числе по регламентам CPSIA, REACH, RoHS, ASTM, FDA и др.</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title></title>
+            <subtext>
+                <![CDATA[<div class="take-a-tour-pane">
+                    <h2>Take a Tour of Our Labs</h2>
+                    Get a full view of AsiaInspection's laboratories, where we address the product safety compliance needs for clients in 120 countries.
+                    <a href='http://www.asiainspection.com/our-labs'><button>Take a Tour Now</button></a>
+                </div>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Расценки</title>
+            <subtext><![CDATA[<p>Ваша смета станет доступна, как только вы закажете тесты через онлайн-форму.</p>]]></subtext>
+        </section>
+
+    <de>
+        <title>Laboratory Testing</title>
+        <subtext><![CDATA[<p>AsiaInspection bietet eine extensive Auswahl an Labortests an, die von unseren voll akkreditierten Labors über die ganze Bandbreite der internationalen Standards durchgeführt werden.</p>]]></subtext>
+        <section>
+            <title>AsiaInspection Labortests</title>
+            <subtext><![CDATA[
+                <p>Auf dem heutigen globalen Markt müssen Hersteller, Händler und Importeure auf die Produktqualität und die Sicherheitsanforderungen ihrer Zielmärkte achten. Ein Versagen hierbei resultiert in teuren Produktrückrufaktionen, Rechtsstreitigkeiten und Rufschädigung.</p>
+                <p>AI Laborprüfungsservices helfen Gewerben in mehr als %total_Client_Countries% Ländern, die Qualität und die Sicherheit ihrer Produkte zu sichern. Mit drei hausinternen Labors und einem Netzwerk bevorzugter Partner bieten wir Ihnen herausragende Serviceabdeckung und einen Turnaround, der in der Branche führend ist und führen Tests über eine große Bandbreite internationaler und branchenspezifischer Standards durch.</p><br />
+                <img src="https://s3.asiainspection.com/images/responsive/lab-testing-map.png" style="max-width:100%;margin-bottom:5px;" />
+            ]]></subtext>
+        </section>
+
+        <section>
+            <title>Sichern Sie Ihren Produktionszyklus</title>
+            <subtext><![CDATA[<p>Wir können in jedem Stadium Ihres Produktionszyklus Labortests durchführen, einschließlich Vorproduktionsphase, während der Produktion und im Anschlussmarkt, durch Testen der Rohmaterialien wie auch der Fertigprodukte. UNSER Prozess, wie wir Proben sammeln, stellt sicher, dass eine repräsentative Probe geprüft wird, nicht eine Probe, von der der Zulieferer möchte, dass sie getestet wird.</p>]]></subtext>
+        </section>
+
+        <section>
+            <title>AI Laboruntersuchungsexpertise</title>
+            <subtext><![CDATA[
+                <p>Mit voll akkreditierten Kapazitäten und einem Team aus hochtrainierten Experten ist AI perfekt aufgestellt, um sich um alle Ihre Bedürfnisse im Bereich Konformität zu kümmern.</p>
+                <p>Unsere Labore sind akkreditiert von und in Übereinstimmung mit den folgenden Regulierungskörperschaften und internationalen Standards:</p>
+                <ul>
+                    <li>CNAS</li>
+                    <li>CMA </li>
+                    <li>ANAB </li>
+                    <li>HOKLAS </li>
+                    <li>CPSC </li>
+                    <li>ISO 17025</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Testmöglichkeiten für Ihre Produkte und Ihre Branche</title>
+            <subtext><![CDATA[
+                <p>Unsere Labore bieten über 6000 Test an in einer Reihe von Produktkategorien, einschließlich Softlines, Hardlines, Werbeartikel, Textilien, Bekleidung und mehr.</p>
+                <p>AI Labortests beinhalten:</p>
+                <ul>
+                    <li>Physische / mechanische Tests</li>
+                    <li>Chemische Untersuchung auf Blei, Schwermetalle und Phthalate</li>
+                    <li>Entflammbarkeitsprüfungen (Bekleidung & Hardlines)</li>
+                    <li>Indirekte Lebensmittelzusätze/Lebensmittelsimulierende Lösungsextrakte</li>
+                    <li>Zuverlässigkeit, Vergleichstest und destruktive Prüfungen</li>
+                    <li>Leistungsbewertungen</li>
+                    <li>Komponenten- und Rohmaterialprüfung</li>
+                    <li>Toxikologische Risikoabschätzung (TRA) und LHAMA-Evaluierungen</li>
+                    <li>Verpackungs- und Etikettierungsbewertung</li>
+                    <li>Überprüfung auf Einhaltung der gesetzlichen Vorgaben, inkl. CPSIA, REACH, RoHS, ASTM, FDA, usw.</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Preise</title>
+            <subtext><![CDATA[<p>Ihr Kostenvoranschlag wird verfügbar, sobald Sie die Tests über unsere Online-Datenbank buchen.</p>]]></subtext>
+        </section>
+
+    </de>
+
+    <it>
+        <title>Analisi di Laboratorio</title>
+        <subtext><![CDATA[<p>AsiaInspection offre un'ampia selezione di analisi di laboratorio, eseguite nel rispetto di un'ampia gamma di standard internazionali presso i nostri laboratori accreditati.</p>]]></subtext>
+        <section>
+            <title>Analisi di Laboratorio AsiaInspection</title>
+            <subtext><![CDATA[
+                <p>Nel mercato globale odierno, produttori, rivenditori ed importatori debbono essere consapevoli della qualità di prodotto e dei requisiti di sicurezza che vigono nei loro mercati di destinazione. Non esserlo significa ritrovarsi a dover fronteggiare costosi ritiri di prodotto dal mercato, problemi di carattere legale e danni di immagine.</p>
+                <p>I servizi di analisi di laboratorio AI aiutano le aziende di oltre %total_Client_Countries% Paesi a garantire la qualità e la sicurezza dei loro prodotti. Con quattro laboratori interni e una rete di partner selezionati, forniamo una copertura straordinaria e tempi di evasione al vertice del settore, eseguendo analisi sulla base di un'ampia gamma di standard internazionali e specifici per settore industriale.</p><br />
+                <img src="https://s3.asiainspection.com/images/responsive/lab-testing-map.png" style="max-width:100%;margin-bottom:5px;" />
+                ]]></subtext>
+        </section>
+
+        <section>
+            <title>Proteggi il Tuo Ciclo di Produzione</title>
+            <subtext><![CDATA[<p>Possiamo eseguire analisi di laboratorio ad ogni stadio del tuo ciclo di produzione - comprese la Pre-Produzione, la Produzione e l'After Market - analizzando campioni di materie prime così come di prodotti finiti. La nostra procedura di raccolta dei campioni ci garantisce di analizzare un campione rappresentativo, e non un campione che il tuo fornitore potrebbe volere che tu analizzassi.</p>]]></subtext>
+        </section>
+
+        <section>
+            <title>Competenza nelle Analisi di Laboratorio AI</title>
+            <tab>
+                <image>img_cpsia.jpg</image>
+                <tab_title>CPSIA</tab_title>
+                <text>The Consumer Product Safety Improvement Act (CPSIA) is a United States Government law restricting levels of hazardous materials in products imported or made within the US, especially those for children.</text>
+                <link>labtest_CPSIA Testing</link>
+            </tab>
+            <tab>
+                <image>img_reach.jpg</image>
+                <tab_title>REACH</tab_title>
+                <text>REACH is a European Union regulation (1907/2006/EC) restricting the levels of specific chemical substances in all imported goods. Registration, Evaluation, Authorization and restriction of Chemicals (REACH) is one of the most comprehensive and far-reaching pieces of environmental legislation to come out of the European Union.</text>
+                <link>labtest_REACH Testing</link>
+            </tab>
+            <tab>
+                <image>img_rohs.jpg</image>
+                <tab_title>RoHS</tab_title>
+                <text>RoHS is a European Union directive restricting the use of hazardous materials in both products imported or made within the EU. RoHS affects any company importing goods containing electrical components into the European Union.</text>
+                <link>labtest_RoHS Testing</link>
+            </tab>
+            <tab>
+                <image>img_saso.jpg</image>
+                <tab_title>SASO</tab_title>
+                <text>In order to clear any shipment at Saudi customs, all imports require a Certificate of Conformity (also known as SASO CoC) issued by an authorized 3rd party provider certification body in the country of product origin.</text>
+                <link>SASO Testing</link>
+            </tab>
+            <tab>
+                <image>img_food_testing.jpg</image>
+                <tab_title>Food Testing</tab_title>
+                <text>From contaminants to genetically modified organisms, food companies are confronted by a host of food safety and quality challenges in today’s global marketplace. Testing at the source allows you to gain time and cost advantages.</text>
+                <link>labtest_Food</link>
+            </tab>
+            <tab>
+                <image>img_quality_assurance.jpg</image>
+                <tab_title>Quality Assurance for Products</tab_title>
+                <text>AI experts offer guidance to assist you in making critical decisions throughout your product development, manufacturing, and procurement processes. Our services help our clients deliver products that comply with global, federal, and state requirements as well as work with their teams to address any in-house or client specifications.</text>
+                <link>Quality Assurance Testing</link>
+            </tab>
+            <tab>
+                <image>img_phthalates_testing.jpg</image>
+                <tab_title>Phthalates Testing</tab_title>
+                <text>In response to consumer health concerns, phthalates are being phased out of toys in the United States CPSIA, Canada, and the European Union REACH. At high level of exposure, the toxicological properties of phthalates present a risk of cancer and can lead to adult infertility.</text>
+                <link>Phthalate Toys Testing</link>
+            </tab>
+            <tab>
+                <image>img_astm_f963.jpg</image>
+                <tab_title>ASTM F963-16 Toy Safety Testing</tab_title>
+                <text>ASTM F963 has long been a key standard for toy safety testing.</text>
+                <link>industries_Toys</link>
+            </tab>
+            <tab>
+                <image>img_calprop_65.jpg</image>
+                <tab_title>CA Proposition 65 Compliance</tab_title>
+                <text>Those doing business in the state of California must be aware of the Safe Drinking Water and Toxic Enforcement Act of 1986, more commonly known as California Proposition 65, or Cal Prop 65.</text>
+                <link>calprop65</link>
+            </tab>
+        </section>
+
+        <section>
+            <title>AI Lab Accreditations</title>
+            <subtext><![CDATA[
+                <p>Con competenze completamente omologate ed un team di esperti altamente formati, AI è nella posizione ideale per gestire tutte le tue esigenze in fatto di conformità.</p>
+                <p>I nostri laboratori sono accreditati da e sulla base dei seguenti enti normativi e standard internazionali:</p>
+                <ul class="image-list">
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cnas.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cma.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_anab.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_hoklas.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cpsc.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_iso_17025.png' /></li>
+                </ul>
+                ]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Analisi delle Capacità per il Tuo Prodotto e il Settore Industriale</title>
+            <subtext>
+                <![CDATA[<p>I nostri laboratori offrono oltre 6.000 analisi in una varietà di categorie di prodotto, tra cui prodotti softline, prodotti hardline, articoli promozionali, tessuti, abbigliamento e molti altri ancora.</p>
+                <p>Le analisi di laboratorio AI comprendo:</p>
+                <ul>
+                    <li>Analisi fisica/meccanica</li>
+                    <li>Analisi chimica per la ricerca di piombo, metalli pesanti e ftalati</li>
+                    <li>Test di infiammabilità (abbigliamento e prodotti hardline)</li>
+                    <li>Additivi indiretti per alimenti/estratti che simulano alimenti</li>
+                    <li>Test di affidabilità, comparativi e distruttivi</li>
+                    <li>Valutazioni delle prestazioni</li>
+                    <li>Analisi di componenti e materie prime</li>
+                    <li>Valutazioni del Rischio Tossicologico (TRA) e valutazione LHAMA</li>
+                    <li>Valutazione dell'imballo e dell'etichettatura</li>
+                    <li>Analisi a norma di legge, comprese CPSIA, REACH, RoHS, ASTM, FDA, e altre ancora.</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title></title>
+            <subtext>
+                <![CDATA[<div class="take-a-tour-pane">
+                    <h2>Take a Tour of Our Labs</h2>
+                    Get a full view of AsiaInspection's laboratories, where we address the product safety compliance needs for clients in 120 countries.
+                    <a href='http://www.asiainspection.com/our-labs'><button>Take a Tour Now</button></a>
+                </div>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Tariffe</title>
+            <subtext><![CDATA[<p>Il preventivo dei tuoi costi diviene disponibile non appena prenoti le analisi tramite in nostro database online.</p>]]></subtext>
+        </section>
+
+    <pt>
+        <title>Teste de Laboratório</title>
+        <subtext><![CDATA[<p>A AsiaInspection oferece uma ampla seleção de testes de laboratório, realizados de acordo com as normas internacionais nos nossos laboratórios plenamente credenciados.</p>]]></subtext>
+        <section>
+            <title>Testes de Laboratório da AsiaInspection</title>
+            <subtext><![CDATA[
+                <p>No mercado global de hoje em dia, os fabricantes, retalhistas e importadores devem estar conscientes dos requisitos de qualidade e segurança dos produtos em seus mercados de destino. Não agir assim significa a retirada custosa de produtos, envolvimento com questões legais e danos à sua reputação.</p>
+                <p>Os serviços de testes de laboratório da AI ajudam as empresas em mais de 120 países a assegurar a qualidade e segurança dos seus produtos. Com quatro laboratórios internos e uma rede de parceiros preferidos, proporcionamos uma cobertura de serviço excepcional e revolucionário na indústria, realizando testes para uma ampla gama de normas internacionais e específicas.</p><br />
+                <img src="https://s3.asiainspection.com/images/responsive/lab-testing-map.png" style="max-width:100%;margin-bottom:5px;" />
+                ]]></subtext>
+        </section>
+
+        <section>
+            <title>Assegure o Seu Ciclo de Produção</title>
+            <subtext><![CDATA[<p>Podemos conduzir testes de laboratório em cada etapa do seu ciclo de produção, incluindo a Pré-Produção, Produção e Pós-Venda, testando amostras de matérias-primas, assim como produtos terminados. O nosso processo de recolhimento de amostra assegura que iremos testar uma amostra representativa, e não uma amostra que o seu fornecedor queira ver testada.</p>]]></subtext>
+        </section>
+
+        <section>
+            <title>Experiência da AI em testes de Laboratório</title>
+            <tab>
+                <image>img_cpsia.jpg</image>
+                <tab_title>CPSIA</tab_title>
+                <text>A Lei relativa à Melhoria na Segurança dos Produtos de Consumo (CPSIA) é uma Lei do Governo dos Estados Unidos, a qual restringe a entrada de materiais perigosos nos produtos importados ou fabricados nos EUA, especialmente os destinados às crianças.</text>
+                <link>labtest_CPSIA Testing</link>
+            </tab>
+            <tab>
+                <image>img_reach.jpg</image>
+                <tab_title>REACH</tab_title>
+                <text>A REACH é um conjunto de normativas europeias (1907/2006/EC) que restringe os níveis de substâncias químicas específicas em todos os bens importados. A REACH (Registo, Avaliação, Autorização e Restrição dos Produtos Químicos) é uma das peças fundamentais e a mais abrangente da legislação ambiental emanada pela União Europeia.</text>
+                <link>labtest_REACH Testing</link>
+            </tab>
+            <tab>
+                <image>img_rohs.jpg</image>
+                <tab_title>RoHS</tab_title>
+                <text>RoHS é uma diretiva da União Europeia, que restringe o uso de materiais perigosos em produtos importados ou feitos na UE. A RoHS afeta qualquer empresa que importe produtos que contenham componentes elétricos para a União Europeia.</text>
+                <link>labtest_RoHS Testing</link>
+            </tab>
+            <tab>
+                <image>img_saso.jpg</image>
+                <tab_title>SASO</tab_title>
+                <text>Para conseguir o desalfandegamento de bens na alfândega saudita, todas as importações necessitam de um Certificado de Conformidade (também conhecido por SASO CoC), emitido por um terceiro organismo certificador e reconhecido no país de origem do produto.</text>
+                <link>SASO Testing</link>
+            </tab>
+            <tab>
+                <image>img_food_testing.jpg</image>
+                <tab_title>Testes alimentares</tab_title>
+                <text>As empresas alimentares enfrentam múltiplos desafios de segurança e qualidade alimentar no mercado global atual, desde contaminações a organismos geneticamente modificados. Os testes na origem permitem que você ganhe tempo e obtenha outras vantagens econômicas.</text>
+                <link>labtest_Food</link>
+            </tab>
+            <tab>
+                <image>img_quality_assurance.jpg</image>
+                <tab_title>Garantia de qualidade de produtos</tab_title>
+                <text>Os peritos da AI proporcionam orientações para ajudá-lo a tomar decisões críticas ao longo dos processos de desenvolvimento de produto, fabricação e aquisição. Os nossos serviços ajudam os nossos clientes a fornecer produtos que cumprem os requisitos globais, federais e estatais, bem como a trabalhar com as suas equipes para dar resposta a quaisquer especificações internas ou dos clientes.</text>
+                <link>Quality Assurance Testing</link>
+            </tab>
+            <tab>
+                <image>img_phthalates_testing.jpg</image>
+                <tab_title>Teste de ftalatos</tab_title>
+                <text>Em resposta às preocupações de saúde dos clientes, os ftalatos estão sendo eliminados de forma gradativa dos brinquedos no CPSIA dos Estados Unidos, Canadá e no REACH da União Europeia. Com um elevado nível de exposição, as propriedades toxicológicas dos ftalatos apresentam risco de câncer e podem originar infertilidade nos adultos.</text>
+                <link>Phthalate Toys Testing</link>
+            </tab>
+            <tab>
+                <image>img_astm_f963.jpg</image>
+                <tab_title>Testes de segurança dos brinquedos ASTM F963-16</tab_title>
+                <text>Há muito tempo, a norma ASTM F963 é primordial no que diz respeito aos testes de segurança dos brinquedos.</text>
+                <link>industries_Toys</link>
+            </tab>
+            <tab>
+                <image>img_calprop_65.jpg</image>
+                <tab_title>Conformidade Proposta 65 Califórnia</tab_title>
+                <text>Quem exerce atividade empresarial no estado da Califórnia tem que conhecer o Safe Drinking Water and Toxic Enforcement Act de 1986, mais conhecido como a Proposta 65 Califórnia ou Prop 65 Cal.</text>
+                <link>calprop65</link>
+            </tab>
+        </section>
+
+        <section>
+            <title>Credenciamentos por laboratórios AI</title>
+            <subtext><![CDATA[
+                <p>Com qualidades plenamente credenciadas e uma equipe de especialistas altamente formados, a AI está perfeitamente posicionada para estar à frente de todas as suas necessidades de cumprimento.</p>
+                <p>Os nossos laboratórios estão credenciados e de acordo com os seguintes organismos reguladores e normas internacionais:</p>
+                <ul class="image-list">
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cnas.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cma.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_anab.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_hoklas.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_cpsc.png' /></li>
+                    <li><img src='https://s3.asiainspection.com/images/labtesting/logo_iso_17025.png' /></li>
+                </ul>
+                ]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Testes de Capacidade para o Seu Produto e Indústria</title>
+            <subtext>
+                <![CDATA[<p>Os nossos laboratórios oferecem mais de 6.000 testes numa série de categorias de produtos, incluindo softlines, hardlines, artigos promocionais, têxteis, roupa e mais.</p>
+                <p>Os testes de laboratório da AI incluem:</p>
+                <ul>
+                    <li>Testes Físicos/Mecânicos</li>
+                    <li>Testes químicos para o chumbo, metais pesados e ftalatos</li>
+                    <li>Testes de inflamabilidade (indumentária e hardlines)</li>
+                    <li>Aditivos alimentares indiretos, simulando extrativos solventes</li>
+                    <li>Testes de fiabilidade, comparativos e destrutivos</li>
+                    <li>Avaliações de desempenho</li>
+                    <li>Testes de componentes e matérias-primas</li>
+                    <li>Avaliações de Riscos Toxicológicos (TRA) e avaliações LHAMA</li>
+                    <li>Avaliações de Empacotamento e Etiquetagem</li>
+                    <li>Testes regulamentares, incluindo CPSIA, REACH, RoHS, ASTM, FDA, e muitos mais.</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title></title>
+            <subtext>
+                <![CDATA[<div class="take-a-tour-pane">
+                    <h2>Visite os nossos laboratórios</h2>
+                    Tenha uma perspectiva completa dos laboratórios da AsiaInspection, onde tratamos as necessidades de conformidade de acordo com os termos de segurança dos produtos para clientes em 120 países.
+                    <a href='http://www.asiainspection.com/our-labs'><button>Visite agora</button></a>
+                </div>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Tarifas</title>
+            <subtext><![CDATA[<p>O seu orçamento instantâneo estará disponível assim que reservar os testes, através da nossa base de dados online.</p>]]></subtext>
+        </section>
+    </pt>
+
+    <tr>
+        <title>Laboratuvar Testi</title>
+        <subtext><![CDATA[<p>AsiaInspection tamamen ruhsatlı laboratuvarlarımızda tam kapsamlı uluslararası standartlara göre gerçekleştirilen kapsamlıca seçilmiş laboratuvar testleri sunar.</p>]]></subtext>
+        <section>
+            <title>AsiaInspection Laboratuvar Testleri</title>
+            <subtext><![CDATA[
+                <p>Günümüzün global pazarında, imalatçılar, perakendeciler ve ithalatçılar hedef pazarlarının ürün kalitesi ve güvenlik ihtiyaçları konusunda bilinçli olmalıdır. Bu şekilde hareket edilmemesi maliyetli ürün geri çağırmaları, yasal sorunlar ve itibar kaybıyla sonuçlanır.</p>
+                <p>AI'nin laboratuvar testleri hizmetleri 120 ülkedeki işletmelerin ürünlerinin kalite ve güvenliğini sağlamalarına yardımcı olur. Dört kurum içi laboratuvarımız ve tercih ettiğimiz iş ortakları ağı ile, seçkin bir hizmet alanı ve sektör lideri bir geri dönüş sağlıyor, çok sayıda uluslararası ve sektöre özel standartlarda testler yürütüyoruz.</p><br />
+                <img src="https://s3.asiainspection.com/images/responsive/lab-testing-map.png" style="max-width:100%;margin-bottom:5px;" />
+                ]]></subtext>
+        </section>
+
+        <section>
+            <title>Üretim Çevriminizi Güvenceye Alın</title>
+            <subtext><![CDATA[<p>Ön üretim, Üretim ve İkinci Piyasa dahil olmak üzere, bitmiş ürünler gibi hammadde numune testleri yaparak üretim çevriminizin her kademesinde laboratuvar testleri yürütüyoruz. Numune toplama sürecimiz tedarikçinizin test edilmesini istediği numuneyi değil, üründen örnek alınan bir numunenin test edilmesini sağlamaktadır.</p>]]></subtext>
+        </section>
+
+        <section>
+            <title>AI Laboratuvar Testleri Uzmanlığı</title>
+            <subtext><![CDATA[
+                <p>AI tam ruhsatlı yetkileri ve son derece eğitimli uzmanlarıyla tüm uyum ihtiyaçlarınızı ele alan kusursuz bir konuma sahiptir.</p>
+                <p>Laboratuvarlarımız aşağıdaki düzenleyici makamlar ve uluslararası standartlar tarafından ve bunlara uygun olarak ruhsatlandırılmıştır:</p>
+                <ul>
+                    <li>CNAS</li>
+                    <li>CMA </li>
+                    <li>ANAB </li>
+                    <li>HOKLAS </li>
+                    <li>CPSC </li>
+                    <li>ISO 17025</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>AI Lab Testing Expertise</title>
+            <tab>
+                <image>img_cpsia.jpg</image>
+                <tab_title>CPSIA</tab_title>
+                <text>Tüketici Ürünlerine İlişkin Geliştirilmiş Yasa (CPSIA) özellikle çocuklara yönelik ithal edilmiş y da ABD içinde imal edilmiş ürünlerdeki tehlikeli maddelerin seviyelerini yasaklayan bir Birleşik Devletler Hükümet yasasıdır.</text>
+                <link>labtest_CPSIA Testing</link>
+            </tab>
+            <tab>
+                <image>img_reach.jpg</image>
+                <tab_title>REACH</tab_title>
+                <text>REACH tüm ithal ürünlerde belirli kimyasal maddelerin seviyesini kısıtlayan bir Avrupa Birliği düzenlemesidir (1907/2006/EC). Kimyasalların Kaydı, Değerlendirilmesi, İzni ve Kısıtlanması (REACH) Avrupa Birliği'nden çıkan en kapsamlı ve etki çevresi geniş çevre mevzuatlarından biridir.</text>
+                <link>labtest_REACH Testing</link>
+            </tab>
+            <tab>
+                <image>img_rohs.jpg</image>
+                <tab_title>RoHS</tab_title>
+                <text>RoHS hem ithal edilen, hem AB içerisinde imal edilen ürünlerdeki tehlikeli maddelerin kullanımını kısıtlayan bir Avrupa Birliği yönergesidir. RoHS Avrupa Birliği'ne elektrikli bileşenler içeren mal ithalatı yapan tüm firmaları etkiler.</text>
+                <link>labtest_RoHS Testing</link>
+            </tab>
+            <tab>
+                <image>img_saso.jpg</image>
+                <tab_title>SASO</tab_title>
+                <text>Suudi gümrüğünden tüm sevkıyatların çekilmesi için, tüm ithal ürünlerin ihracatçı ülkenin yetkili bir 3. taraf hizmet sağlayıcısı tarafından verilmiş bir Uygunluk Belgesi'ne (SASO CoC olarak da bilinir) sahip olmaları gerekir.</text>
+                <link>SASO Testing</link>
+            </tab>
+            <tab>
+                <image>img_food_testing.jpg</image>
+                <tab_title>Gıda Testi</tab_title>
+                <text>Kirletici maddelerden genetiği değiştirilmiş organizmalara, gıda firmaları günümüzün global pazarında bir gıda güvenliği ve kalite güçlükleriyle karşı karşıya kalmaktadır. Kaynağında test yaptırmak size zaman ve maliyet avantajları sağlar.</text>
+                <link>labtest_Food</link>
+            </tab>
+            <tab>
+                <image>img_quality_assurance.jpg</image>
+                <tab_title>Ürünler için Kalite Güvencesi</tab_title>
+                <text>AI uzmanları ürün geliştirme, imalat ve tedarik süreçleriniz boyunca kritik kararlar almanıza yardıcı olacak rehberlik hizmeti sunmaktadır. Hizmetlerimiz müşterilerimize global, federal ve devlet şartlarına uygun ürünler teslim etmelerine yardımcı olmakla birlikte, tüm kurum içi ya da müşteri şartnamelerini karşılamak için kendi ekipleriyle çalışmalarına da yardımcı olur.</text>
+                <link>Quality Assurance Testing</link>
+            </tab>
+            <tab>
+                <image>img_phthalates_testing.jpg</image>
+                <tab_title>Fatalat Testi</tab_title>
+                <text>Tüketici sağlığı endişelerine karşılık olarak, Birleşik Devletler CPSIA, Kanada ve Avrupa Birliği REACH'te fatalatlar oyuncaklardan çıkartılmıştır. Yüksek maruziyet seviyesinde fatalatların toksikolojik özellikleri kanser riski göstermekte ve yetişkinlerde infertiliteye yol açabilmektedir. Daha Fazla Bilgi Al</text>
+                <link>Phthalate Toys Testing</link>
+            </tab>
+            <tab>
+                <image>img_astm_f963.jpg</image>
+                <tab_title>ASTM F963-16 Oyuncak Güvenliği Testi</tab_title>
+                <text>ASTM F963 uzun süredir oyuncak güvenliği testlerinde temel bir standarttır.</text>
+                <link>industries_Toys</link>
+            </tab>
+            <tab>
+                <image>img_calprop_65.jpg</image>
+                <tab_title>CA Öneri 65 Uygunluk</tab_title>
+                <text>California eyaletinde iş yapanların daha çok California Önerisi 65 ya da Cal Prop 65 olarak bilinen, 1986 tarihli Güvenli İçme Suyu ve Toksik Uygulama Kanunu'ndan haberdar olmalıdırlar. Daha Fazla Bilgi Al</text>
+                <link>calprop65</link>
+            </tab>
+        </section>
+
+        <section>
+            <title>Ürün ve Sektörünüz için Test İmkanları</title>
+            <subtext><![CDATA[
+                <p>Laboratuvarlarımız soft ürünler, katı ürünler, promosyon malzemeleri, tekstil, giyim ve daha fazlası dahil birçok ürün kategorisinde 6000'in üzerinde test sunmaktadır.</p>
+                <p>AI laboratuvar testlerine aşağıdakiler dahildir:</p>
+                <ul>
+                    <li>Fiziksel/Mekanik test</li>
+                    <li>Kurşun, ağır metaller ve fatalarlar için kimyasal test</li>
+                    <li>Tutuşabilirlik testi (giyim eşyası & katı ürünler)</li>
+                    <li>Endirekt gıda katkıları/gıda benzeştirme solvent özütleri</li>
+                    <li>Güvenilirlik, karşılaştırıcı ve tahrip edici test</li>
+                    <li>Performans değerlendirmeleri</li>
+                    <li>Bileşen ve hammadde testi</li>
+                    <li>Toksikolojik Risk Değerlendirmelesi (TRA) ve LHAMA Değerlendirmeleri</li>
+                    <li>Paketleme ve etiketleme değerlendirmeleri</li>
+                    <li>CPSIA, REACH, RoHS, ASTM, FDA ve daha fazlasını içeren mevzuata ilişkin testler.</li>
+                </ul>]]>
+            </subtext>
+        </section>
+
+        <section>
+            <title>Fiyatlandırma</title>
+            <subtext><![CDATA[<p>Çevrimiçi veritabanımız üzerinden testler için kayıt yaptırdığınızda fiyat teklifiniz hazır olacaktır.</p>]]></subtext>
+        </section>
+    </tr>
+
+</document>

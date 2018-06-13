@@ -1,0 +1,17 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title %}Sales Leads Upload{% endblock %}
+
+{% block content %}
+    <div class="box-white">
+        {% if salesLeads == 1 %}
+            <h1  class="margin20">Upload Completed! (上传成功)</h1>
+            <p>Your file has been uploaded to the system and is waiting for approval. <br>Once it's approved, it will be automatically uploaded to Zoho and you will be notified through email.<br> If it's rejected, you will receive an email with explaination. </p>
+            <p style="margin-bottom:40px;"> 你的文件上传成功，将会被有关人员审阅，通过后将会自动上传到zoho。如果审核不通过，你将会收到一封邮件阐述不通过的理由。</p>
+            <a href="/sales-leads">Back to upload page （继续上传）</a>
+        {% else %}
+            <h1  class="margin20 text-center">Upload Completed!</h1>
+            <a href="/tradeshow-memo">Back to upload page </a>
+        {% endif %}
+        <center><p><script>(function(e,t,n,o){var s,c,a;e.SMCX=e.SMCX||[],t.getElementById(o)||(s=t.getElementsByTagName(n),c=s[s.length-1],a=t.createElement(n),a.type="text/javascript",a.async=!0,a.id=o,a.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/0XA4BBVHePNLnOMv0OZHsj1Trqd7Sa6qDCZnXyEdLXICxKoM2Lp05iDtenTx7a0B.js"].join(""),c.parentNode.insertBefore(a,c))})(window,document,"script","smcx-sdk");</script></p></center>
+    </div>
+{%endblock%}

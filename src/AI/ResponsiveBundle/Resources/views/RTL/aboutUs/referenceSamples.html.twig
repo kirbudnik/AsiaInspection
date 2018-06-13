@@ -1,0 +1,274 @@
+{% extends 'AIResponsiveBundle:RTL:aboutUs/whoWeAreBase.html.twig' %}
+{% block pagename %}RefSamples{% endblock %}
+{% block title %}{% if pageTitle is defined %}{{pageTitle}}{% endif %}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block bigTitle %} {{xml.title}} {% endblock %}
+{% block smallText %}{{xml.titleSubText}}{% endblock %}
+
+{% block whoWeAreText %}
+  
+  <p>{{xml.sendDetails}}</p><br>
+
+
+<div class="container tabContainer fix-dir">
+    <div class="gradient-grey4" id="referenceSampleGrey4">
+            <div class="serviceTab selectedServiceTab pie standardbox text-center" tab="tabContent_inspect" style="border-left:0px;">{{xml.inspectTabTitle}}</div>
+            <div class="serviceTab gradient-grey4 standardbox text-center" tab="tabContent_labtest" style="border-right:0px;padding-left:0px;padding-right:0px;">{{xml.labTestTabTitle}}</div>
+            <div style="clear:both;"></div>
+    </div>
+
+    <div id="tabContent_inspect" class="tabContent container" >
+      <div class="col-xs-12">
+        <p class="text-center" style="padding-top:15px;">{{xml.selectRegion}}</p>
+      </div>
+        <div class="col-lg-1 col-lg-offset-2 col-md-2 col-md-offset-1 col-xs-4 ">
+          <b>{{xml.region}}</b>
+        </div>
+
+        <div class="col-md-3 col-xs-8">
+          <select id="refCountryDrop" style="width:80%;margin-left:15px;">
+              <option value='asia'>{{countryTitles[0]}}</option>";
+              <option value='africa'>{{countryTitles[1]}}</option>";
+              <option value='europe'>{{countryTitles[2]}}</option>";
+              <option value='latinamerica'>{{countryTitles[3]}}</option>";
+            </select>
+        </div>
+        <div class="col-lg-1 col-md-2 col-xs-4 countryPadding">
+           <b>{{xml.country}}</b>
+        </div>
+
+        <div class="col-md-3 col-xs-8 countryPadding"  >
+            <select id="dropdownref_asia" class="dropdownref" style="width:80%;margin-left:15px;">{%set i =0%}{% for area in countryList.Asia.area %}<option value={{asia[i]|replace({' ': ''}) }}>{{area}}</option>{%set i = i+1%}{% endfor %}</select>
+            <select id="dropdownref_africa" class="dropdownref" style="display:none;width:80%;margin-left:15px;" >{%set i =0%}{% for area in countryList.Africa.area %}<option value={{africa[i]|replace({' ': ''}) }}>{{area}}</option>{%set i = i+1%}{% endfor %}</select>
+            <select id="dropdownref_europe" class="dropdownref" style="display:none;width:80%;margin-left:15px;">{%set i =0%}{% for area in countryList.Europe.area %}<option value={{europe[i]|replace({' ': ''}) }}>{{area}}</option>{%set i = i+1%}{% endfor %}</select>
+            <select id="dropdownref_latinamerica" class="dropdownref" style="display:none;width:80%;margin-left:15px;">{%set i =0%}{% for area in countryList.LatinAmerica.area %}<option value={{latinAmerica[i]|replace({' ': ''}) }}>{{area}}</option>{%set i = i+1%}{% endfor %}</select>
+        </div>
+
+        <div style="clear:both"></div>
+      <div style="width:90%;margin-left:5%;margin-right:5%;">
+        <hr style="margin-top:20px;">
+          <h2 id="refLocationBoxTitle"style="padding-bottom:10px;" >Serving China</h2>
+
+
+
+                 <div class="col-xs-12 RST_Chinanote RST_China RST_HongKong sidebox">
+                      <div class="col-md-2 " id="imageShipChina">
+                        <img  src="https://s3.asiainspection.com/images/shipmentChina.png">
+                      </div>
+                      <div class="col-md-10 col-xs-12 ">
+                        <b>{{xml.chinaShipTitle}}</b><br />{{xml.chinaShipDesc}}
+                      </div>
+                    </div>
+
+               <div class="col-xs-12 paddingLeftZero" style="padding-top:20px;">
+                        {%set i =0%}
+                          {% for region in offices.Region %}
+                              {%for row in region.area %}
+                                {%if regionNames[i]=='China'%}
+                                  <div class=' RSTcontent RST_{{regionNames[i]}} ' >
+                                {%else%}
+                                 <div class='RSTcontent RST_{{regionNames[i]}}' style='display:none; margin-bottom:0px;'>
+                                {%endif%}
+                                <h6 id="cityName" >For {{row.city|raw}}</h6>
+                                    <div class="col-md-5 col-xs-12 paddingLeftZero" >
+
+                                         <p >{{row.address|raw}}</p>
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 sidebox">
+                                             <p> {{xml.contact}}<br><b>{{row.contact|raw}}</b></p>
+                                     </div>
+                                     <div style="clear:both"></div>
+                                    </div>
+                              {% endfor %}
+                              {% set i = i+1%}
+                      {%endfor%}
+                                </div>
+
+              </div>
+      </div>
+
+      <div id="tabContent_labtest" class="tabContent container" style="display:none;">
+
+      <!-- LabTest Tab [Begin] -->
+
+      <div class="col-xs-12">
+      <p>{{xml.labTestSampSend}}</p>
+
+      <p class="referenceSampleTitle" style="color:black; font-weight:bold;">{{xml.labTestAmerica|raw}}</p>
+      <div class="col-md-5 col-xs-12" style="padding-left:0px;">
+        <b>Attn: Laboratory Testing</b><br />
+        4455 Genesee Street,<br />
+        Building 6<br />
+        Buffalo, NY 14225<br />
+        <br />
+        <b>USA Sample Receiving Hours</b><br />
+        9:00am – 5:00pm EST, Monday – Friday (excluding business holidays)<br />
+        <b>Please note:</b> Samples received after 3:00pm will be treated as received the next business day.<br />
+      </div>
+      <div class="col-md-4 col-xs-12 sidebox">
+            <p > {{xml.contact}}<br><b>+1 716 635 1180</b></p>
+      </div>
+       <div style="clear:both;"></div>
+       <hr class="hrgrey"><p></p>
+       <p class="referenceSampleTitle" style="color:black; font-weight:bold;">{{xml.labTestHK|raw}}</p>
+      <div class="col-md-5 col-xs-12" style="padding-left:0px;">
+        <b>Attn: Laboratory Testing</b><br />
+        3/F, Liven House<br />
+        No. 61 – 63 King Yip Street<br />
+        Kwun Tong, Kowloon<br />
+        <br />
+        <b>Hong Kong Sample Receiving Hours</b><br />
+        9:00am – 6:00pm, Monday – Saturday (excluding business holidays)<br />
+        <b>Please note:</b> Samples received after 3:00pm will be treated as received the next business day.<br />
+      </div>
+      <div class="col-md-4 col-xs-12 sidebox">
+            <p > {{xml.contact}}<br><b>+852 3185 8000</b></p>
+      </div>
+       <div style="clear:both;"></div>
+      <hr class="hrgrey"><p></p>
+      <p  class="referenceSampleTitle" style="font-weight:bold;">{{xml.labTestinChina}}</p>
+      <div class="col-md-5 col-xs-12 paddingLeftZero" >
+        <b>Attn: Laboratory Testing</b><br>
+        5th Floor, A2 Building<br />
+        No. 1213 Huo Ju South Road<br />
+        Binjiang District<br />
+        Hangzhou, Zhejiang, China 310002<br />
+        <a href="javascript:void" style="display:block;padding:5px 0px;" onclick="$('#ref_labtestChina_chinese').animate({height: 'toggle'}, 500);">{{xml.addressLink}}</a>
+
+          <div id='ref_labtestChina_chinese' style="display:none;width:235px;">
+              杭州亚检检测技术有限公司<br />
+              联系人： 实验室测试组<br />
+              杭州市滨江区浦沿街道<br />
+              火炬南路1213号A2栋五楼<br />
+              邮编：310002<br />
+              <br style="font-size:4px;" />
+          </div>
+      </div>
+      <div class="col-md-4 col-xs-12 sidebox">
+            <p> {{xml.contact}}<br><b> +86 571 8999 7167</b></p>
+      </div>
+      <div style="clear:both;"></div>
+
+      <hr class="hrgrey"><p></p>
+      <p class="referenceSampleTitle" style="color:black;">{{xml.labTestNorthAf|raw}}</p>
+      <div class="col-md-5 col-xs-12" style="padding-left:0px;">
+        <b>Attn: Laboratory Testing</b><br />
+        AsiaInspection<br />
+        Paseo de la Castellana, 95, Planta 29<br />
+        28046 Madrid<br />
+        Spain<br />
+      </div>
+      <div class="col-md-4 col-xs-12 sidebox">
+            <p>{{xml.contact}}<br><b> +34 91 888 88 88</b></p>
+      </div>
+       <div style="clear:both;"></div>
+      <hr class="hrgrey"><p></p>
+     <p class="referenceSampleTitle" style="color:black;"> {{xml.labTestSouthAf|raw}}</p>
+      <div class="col-md-5 col-xs-12" style="padding-left:0px;padding-bottom:5px; display:none;">
+          <b>Attn: Laboratory Testing</b><br>
+          77 Burlington Road <br>
+          Reservoir Hills<br>
+          Durban, 4091<br>
+          South Africa<br>
+      </div>
+     <div class="col-md-4 col-xs-12 sidebox">
+            <p> {{xml.contact}}<br><b> +27 105 006 177 </b></p>
+      </div>
+      </div>
+      </div>
+      <!-- LabTest Tab [End] -->
+      <a id="toTop" href="javascript:" class="pull-right" style="display:none;padding-top:10px;">Choose a different location</a>
+  </div>
+
+  <div style="clear:both"></div>
+
+    <img src="https://s3.asiainspection.com/images/responsive/headerImages/reference_samples_[lg].jpg" alt="Reference Samples for Product Inspections | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+    <img src="https://s3.asiainspection.com/images/shipmentChina.png" alt="Reference Samples – China | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+  
+{% endblock %}
+
+{% block offerbox1 %}
+    <div class="sidebarTitlebar">
+        <h5>{{box1.title}}</h5>
+    </div>
+    <div class="sidebarContentBox">
+        {{box1.boxContent|raw}}
+    </div>
+{% endblock %}
+
+{% block offerbox2 %}
+    <div class="sidebarTitlebar">
+        <h5>{{box2.title}}</h5>
+    </div>
+    <div class="sidebarContentBox">
+        <div class="gradient-grey">
+        <div class=" col-xs-9 paddingLeftZero" >
+        {{box2.box1content|raw}}
+        </div>
+        <div class="col-xs-3 " style="padding-right:0px;">
+        <div class="spriteservice_sidebox_box middleIcon" style="margin-left:-23px; margin-top:3px;"></div>
+        </div>
+        <div class="col-xs-12 paddingLeftRightZero" style="padding-top:10px;" >
+        {%if box2.box1content2 is defined%}
+    
+        {{box2.box1content2|raw}}
+        {%endif%}
+        </div>
+        </div>
+    
+        <div class="col-xs-12" style="padding:10px 0px 20px 0px " >
+        <b >{{box2.box2title}}</b><br>
+        <div class="col-xs-9 paddingLeftZero"  >
+        {{box2.box2content|raw}}
+        <br>
+        </div>
+        <div class=" col-xs-3" style="padding-right:0px;">
+        <div class="spriteservice_sidebox_redcircle middleIcon" style="margin-left:-14px; margin-top:3px;"></div>
+        </div>
+        <div class="col-xs-12 paddingLeftZero" style="padding-top:10px;">
+        <a id="sidebox_cantShip" href="javascript:;" >{{box2.box2linkText}}</a><br />
+        </div>
+        </div>
+    
+    
+        <div style="clear:both;"></div>
+        <div id="sidebox_cantShip_content" style="display:none;padding-left:15px;">
+        <ul  class="smallBullet col-xs-6">
+        {%set i =0%}
+        {%for li in box2.cantShip.li%}
+    
+        {% if(i%2 == 1) %}
+        <li style='font-size:12px;'>{{li}}</li>
+        {%endif%}
+        {%set i =i+1%}
+        {%endfor%}
+        </ul>
+        <ul class="smallBullet col-xs-6">
+        {%set i =0%}
+        {%for li in box2.cantShip.li%}
+    
+        {% if(i%2 == 0) %}
+        <li style='font-size:12px;'>{{li}}</li>
+        {%endif%}
+        {%set i =i+1%}
+        {%endfor%}
+        </ul>
+        <div style="clear:both;"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block offerbox3 %}
+   <div class="sidebarTitlebar" style="margin-top:20px;">
+       <h5>{{box3.title}}</h5>
+   </div>
+   <div class="sidebarContentBox" style="background-color:#E6E6E6;">
+       <div class="col-xs-9 paddingLeftZero" style="padding-right:10px;">
+           {{box3.boxContent|raw}}
+       </div>
+       <div class="col-xs-3">
+           <div class="spritesamplestoragepolicy_box middleIcon" style="margin-left:-8px; margin-top:3px;"></div>
+       </div>
+       <div style="clear:both;"></div>
+   </div>
+{% endblock %}

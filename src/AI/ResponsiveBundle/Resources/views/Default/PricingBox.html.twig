@@ -1,0 +1,177 @@
+<!-- Pricing Box [Begin] -->
+
+{# Set Undefined Template Variables [BEGIN] #}
+{% if demoLink is not defined %} {% set demoLink = "/popup?video=watchdemo&lang=en&mobile=false&TB_iframe=true&ToDown=20&height=420&width=730&modal=true" %} {% endif %}
+{% if demoLinkSmall is not defined %} {% set demoLinkSmall = "https://www.youtube.com/v/xkgWD4KLccY?version=3%26autoplay=%26showinfo=0%26vq=hd720" %} {% endif %}
+{% if priceAsia is not defined %} {% set priceAsia = "$" + price_Inspect_Low %} {% endif %}
+{% if priceEurope is not defined %} {% set priceEurope = "$" + price_Inspect_High %} {% endif %}
+{% if watchWhat is not defined %} {% set watchWhat = "" %} {% endif %}
+{% if displayNone is not defined %} {% set displayNone = "" %} {% endif %}
+{% if inspectionImage is not defined %} {% set inspectionImage = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=psi" %} {% endif %}
+{% if videoLinkSmall is not defined %} {% set videoLinkSmall = "" %} {% endif %}
+{% if videoLink is not defined %} {% set videoLink = "" %} {% endif %}
+{% if inspectionImage1 is not defined %} {% set inspectionImage1 = "" %} {% endif %}
+
+{% set reportCat = "inspection" %}{% set reportName = "psi" %} {# Defaults #}
+{% if type == "SA" or type == "BSCI" %} {% set reportCat = "audit" %}{% set reportName = "ea" %} {% endif %}
+{% if type == "FA" %} {% set reportCat = "audit" %}{% set reportName = "ma" %} {% endif %}
+{% if type == "CTPAT" %} {% set reportCat = "audit" %}{% set reportName = "ctpat" %} {% endif %}
+{% if type == "ENVIRO" %} {% set reportCat = "audit" %}{% set reportName = "environmental" %} {% endif %}
+{% if type == "structuralAudit" %} {% set reportCat = "audit" %}{% set reportName = "structural" %} {% endif %}
+{% if type == "FoodA" %} {% set reportCat = "audit" %}{% set reportName = "psi" %} {% endif %}
+{% if type == "GHP" %} {% set reportCat = "audit" %}{% set reportName = "ea" %} {% endif %}
+{% if type == "GMP" %} {% set reportCat = "audit" %}{% set reportName = "ma" %} {% endif %}
+{% if type == "FactoryImprovement" %} {% set reportCat = "audit" %}{% set reportName = "ma" %} {% endif %}
+{% if type == "SMETAAudit" %} {% set reportCat = "audit" %}{% set reportName = "smeta" %} {% endif %}
+{% if type == "supplier_audit_programs" %} {% set reportCat = "audit" %}{% set reportName = "ea" %} {% endif %}
+{% if type == "inspection_services" %} {% set reportCat = "inspection" %}{% set reportName = "psi" %} {% endif %}
+{% if type == "PSI" %} {% set reportCat = "inspection" %}{% set reportName = "psi" %} {% endif %}
+{% if type == "PM" %} {% set reportCat = "inspection" %}{% set reportName = "pm" %} {% endif %}
+{% if type == "DUPRO" %} {% set reportCat = "inspection" %}{% set reportName = "dupro" %} {% endif %}
+{% if type == "IPC" %} {% set reportCat = "inspection" %}{% set reportName = "ipc" %} {% endif %}
+{% if type == "CLC" %} {% set reportCat = "inspection" %}{% set reportName = "clc" %} {% endif %}
+{% if type == "FPSI" %} {% set reportCat = "inspection" %}{% set reportName = "vegetables" %} {% endif %}
+{% if type == "360labs" %} {% set reportCat = "labtest" %}{% set reportName = "lab-testing" %} {% endif %}
+{% if type == "LAB" %}
+    {% set reportCat = "labtest" %}{% set reportName = "lab-testing" %} {# Defaults #}
+    {% if labType == "LT" %} {% set reportName = "lab-testing" %} {% endif %}
+    {% if labType == "FT" %} {% set reportName = "lab-testing" %} {% endif %}
+    {% if labType == "REACH" %} {% set reportName = "reach" %} {% endif %}
+    {% if labType == "CPSIA" %} {% set reportName = "cpsia" %} {% endif %}
+    {% if labType == "ROHS" %} {% set reportName = "rohs" %} {% endif %}
+{% endif %}
+{% if type == "softline" %} {% set reportName = "tshirt" %} {% endif %}
+{% if type == "hardline" %} {% set reportName = "tablet" %} {% endif %}
+{% if type == "techpart" %} {% set reportName = "ipc" %} {% endif %}
+{% if type == "food" %} {% set reportName = "seafood" %} {% endif %}
+{% if type == "footwear" %} {% set reportName = "shoes" %} {% endif %}
+{% if type == "apparel" %} {% set reportName = "tshirt" %} {% endif %}
+{% if type == "electrical" %} {% set reportName = "smartphone" %} {% endif %}
+{% if type == "jewelry" %} {% set reportName = "watch" %} {% endif %}
+{% if type == "toys" %} {% set reportName = "toy-car" %} {% endif %}
+{% if type == "eyewear" %} {% set reportName = "eyewear" %} {% endif %}
+{% if type == "spectacle-frames" %} {% set reportName = "eyewear" %} {% endif %}
+{% if type == "sunglasses" %} {% set reportName = "eyewear" %} {% endif %}
+{% if type == "optical-lenses" %} {% set reportName = "eyewear" %} {% endif %}
+{% if type == "reading-glasses" %} {% set reportName = "eyewear" %} {% endif %}
+{% if type == "eye-protectors" %} {% set reportName = "eyewear" %} {% endif %}
+{% if type == "sports-eyewear-goggles" %} {% set reportName = "eyewear" %} {% endif %}
+{% if type == "cosmetics" %} {% set reportName = "psi" %} {% endif %}
+{% if type == "promotional-products" %} {% set reportName = "ceramic-rabbit" %} {% endif %} 
+{% if type == "food-containers" %} {% set reportName = "seafood" %} {% endif %}
+{% if type == "food-produce" %} {% set reportName = "blueberry" %} {% endif %}
+{% if type == "seafood" %} {% set reportName = "seafood" %} {% endif %}
+{% if type == "meat-poultry" %} {% set reportName = "seafood" %} {% endif %}
+{% if type == "beverages" %} {% set reportName = "seafood" %} {% endif %}
+{% if type == "processed-food" %} {% set reportName = "seafood" %} {% endif %}
+{% if type == "textiles" %} {% set reportName = "tshirt" %} {% endif %}
+{# Set Undefined Template Variables [END] #}
+
+{# Exclude either the demo or 'see a real' sections from these pages #}
+{% set noDemoList = ["SMETAAudit","food-produce","berries"] %}
+{% set noSeeReal = ["supplier_audit_programs","food","beverages","meat-poultry","processed-food","food-produce","food-containers","seafood","berries","360labs"] %}
+
+<div class="offer-box pblack" style="margin-top:15px; {% if hidePricingBox is defined and hidePricingBox == true %}display:none;{% endif %}"> {# Main Outer Wrapper [BEGIN] #}
+
+    <div id="sidePricingBox" class="offer-box" style="margin-top:20px; min-width:240px; padding:0px; {% if hidePricingBox is defined and hidePricingBox == true %}display:none;{% endif %}">
+        <!-- <b>PriceBoxTest - {{type}}</b><br/> -->
+        <div class="sidebarTitlebar">
+            {% if type is defined and (type == "LAB" or type == "360labs" or type == "softline" or type == "apparel" or type == "textiles" or type == "footwear" or type == "hardline" or type == "cosmetics" or type == "electrical" or type == "eyewear" or type == "jewelry" or type == "promotional-products" or type == "toys" or type == "food" or type == "food-produce" or type == "processed-food" or type == "seafood" or type == "meat-poultry" or type == "beverages" or type == "food-containers" or type == "berries" or type == "techpart" or type == "aql") %}
+                <h5>{% trans %}Pricing{% endtrans %}</h5>
+            {% else %}
+                <h5>{% trans %}Pricing Per Man-day{% endtrans %}</h5>
+            {% endif %}
+        </div>
+        <div class="sidebarContentBox"> <!-- Begin Container Div -->
+            {% if type is defined and type == "food-produce" or type == "berries" %}
+                <a href="javascript:void(0)" role="button" class="one-btn btn btn-primary btn-afi" onclick="jump2NMI();">{% trans %}Contact Us for Pricing{% endtrans %}</a>
+                <hr />
+                <button title="{% trans %}Download Sample Report{% endtrans %}" style="width:100%; margin:10px 0px; height:auto; padding:0px;" class="btn-w2blu serviceReport" type="{{reportCat}}" report="{{reportName}}"><img src="{{assetsDomain}}/images/responsive/blue_downSample.png" width="25px" style="valign:middle; position:relative; top:-1px;"> {% trans %}Download a Sample Report{% endtrans %}</button>
+                {% if type == "berries" or type == "food-produce" %}
+                    <a href="/whitepaper/challenges-for-berries" class="btn btn-w2blu" title="{% trans %}Quick Guide: Berry Challenges{% endtrans %}" style="width:100%; margin:10px 0px; height:auto; padding:0px; font-size:11px;"><img src="{{assetsDomain}}/images/responsive/blue_downSample.png" width="25px" style="valign:middle; position:relative; top:-1px;"> {% trans %}Quick Guide: Berry Challenges{% endtrans %}</a>
+                {% endif %}
+
+            {% elseif type is defined and (type == "LAB" or type == "360labs") %}
+                <h2 style="padding-top:10px;">{% trans %}Instant Quote upon Booking{% endtrans %}</h2>
+            {% elseif type in ["FPSI", "FoodA", "GHP", "GMP"] %}
+                <!-- Special cases for Food Services -->
+                <span>{% trans %}from{% endtrans %}</span>
+                {% if type == "FPSI" %}
+                    <h2 id="sideboxH1">${{price_Inspect_Food}} USD</h2>
+                {% else %}
+                    <h2 id="sideboxH1">${{price_Audit_Low}} USD</h2>
+                {% endif %}
+            {# Industry Pages [Begin] #}
+            {% elseif type in ["softline","apparel","textiles","footwear","hardline","cosmetics","electrical","eyewear","jewelry","promotional-products","toys" ,"food" ,"food-produce" ,"processed-food" ,"seafood" ,"meat-poultry" ,"beverages" ,"food-containers" ,"berries" ,"techpart","spectacle-frames","sunglasses","optical-lenses","reading-glasses","eye-protectors","sports-eyewear-goggles","aql"] %}
+                {% trans %}Inspections (per man-day){% endtrans %} {% trans %}from{% endtrans %}<br />
+                {% if type in ["food", "food-produce", "processed-food", "seafood", "meat-poultry", "beverages", "food-containers","berries"] %}
+                    <div id="sideboxH1" class="h1" style="display:inline-block; margin-top:0px;">${{price_Inspect_Food}} USD</div>
+                {% else %}
+                    <div id="sideboxH1" class="h1" style="display:inline-block; margin-top:0px;">${{price_Inspect_Low}} USD</div>
+                {% endif %}
+                <br />
+                {% trans %}Audits (per man-day){% endtrans %} {% trans %}from{% endtrans %}<br />
+                <div id="sideboxH1" class="h1" style="display:inline-block; margin-top:0px;"> ${{price_Audit_Low}} USD</div>
+                <br />
+                {% trans %}Lab Testing{% endtrans %}
+                <div id="sideboxH1" class="h1" style="margin-top:0px;">{% trans %}Instant Quote{% endtrans %}</div>
+            {# Industry Pages [End] #}
+            {% else %}
+                <span>{% trans %}from{% endtrans %}</span>
+                <h2 id="sideboxH1">${{priceAsia}} USD{% if type == "BSCI" %} *{% endif %}</h2>
+                {% if type == "structuralAudit" or type == "ENVIRO" %}
+                    <!-- Structural Audit Content -->
+                {% else %}
+                    <!--
+                    <p class="pgrey">{% trans %}China, India, Bangladesh, Vietnam, Cambodia, Thailand, Africa and Latin America{% endtrans %}</p>
+                    <h2 id="sideboxH1">${{priceEurope}} USD{% if type == "BSCI" %} *{% endif %}</h2>
+                    <p class="pgrey">{% trans %}Europe, Greater Asia and Brazil{% endtrans %}</p>
+                    -->
+                {% endif %}
+            {% endif %}
+            {% if type != "food-produce" and type != "LAB" and type != "360labs" %}<a href="/quality-control-pricing">{% trans %}See our pricing page for more details{% endtrans %}</a><br />{% endif %}
+            {% if type != "food-produce" and type != "berries" %}
+                <a href="/register" class="btn btn-primary" style="width:100%; margin:10px 0px;">{% trans %}Get Started{% endtrans %}</a>
+            {% endif %}
+            <div style="clear:both;"></div>
+        </div> <!-- End Container Div -->
+
+    </div>
+    <!-- Pricing Box [End] -->
+
+</div>  {# Main Outer Wrapper [END] #}
+
+{# Download Sample Report Buttons and "Watch a Real" sections #}
+<div style="margin:15px 0px;">
+    <div class="col-xs-12 {% if type not in noDemoList %}col-md-7{% endif %}" style="padding:0px; float:left;">
+        {# Temp code to redirect to sample report page anything that doesn't have a report #}
+        {% if type in ["techpart", "jewelry", "cosmetics", "promotional-products", "food-containers", "meat-poultry", "beverages", "processed-food", "FoodA", "GHP", "GMP", "FactoryImprovement", "FT", "BSCI"] %}
+            <a href="/samplereports" class="btn btn-afi" title="{% trans %}Download Sample Report{% endtrans %}" style="width:100%; margin:10px 0px; height:auto; padding:0px; font-size:11px;"><img src="{{assetsDomain}}/images/responsive/white_downSample.png" width="25px" style="valign:middle; position:relative; top:-1px;"> {% trans %}Download a Sample Report{% endtrans %}</a>
+        {% elseif type not in ["food-produce","berries"] %}
+            <button title="{% trans %}Download Sample Report{% endtrans %}" style="width:100%; margin:10px 0px; height:auto; padding:0px; font-size:11px;" class="btn-afi serviceReport" type="{{reportCat}}" report="{{reportName}}"><img src="{{assetsDomain}}/images/responsive/white_downSample.png" width="25px" style="valign:middle; position:relative; top:-1px;"> {% trans %}Download a Sample Report{% endtrans %}</button>
+        {% endif %}
+    </div>
+    {% if type not in noDemoList %}
+        <div class="col-xs-12 col-md-4" style="padding:0px; float:right;">
+            <a href="{{demoLink}}" class="btn btn-primary btn-afi thickbox" title="{% trans %}Watch a Demo{% endtrans %}" style="width:100%; margin:10px 0px; height:auto; padding:0px; font-size:11px;"><img src="{{assetsDomain}}/images/responsive/white_seeDemo.png" width="25px" style="valign:middle; position:relative; top:-1px;"> {% trans %}See a Demo{% endtrans %}</a>
+        </div>
+    {% endif %}
+    {% if type is defined and type == "LAB" %}
+        <a href="/whitepaper/quick-guide-azo-dyes" class="btn btn-afi" title="{% trans %}Download Sample Report{% endtrans %}" style="width:100%; margin:10px 0px; height:auto; padding:0px; font-size:11px;"><img src="{{assetsDomain}}/images/responsive/white_downSample.png" width="25px" style="valign:middle; position:relative; top:-1px;"> {% trans %}Quick Guide: Azo Dyes{% endtrans %}</a>
+    {% endif %}
+    <div style="clear:both;"></div>
+</div>
+
+{# Watch a Real Inspection #}
+{% if type is defined and type not in noSeeReal %}
+    <div>
+        <div id="bigScreen">
+            <a href="{{videoLink}}" class="thickbox" title="{{watchWhat|trans}}" style="{{displayNone}}" onclick="trackLink('See-A-Real-{{type}}');"><img src="{{inspectionImage}}" width="100%"></a>
+        </div>
+        <div id="smallScreen" style="display:none;">
+            <a href="{{videoLinkSmall}}" title="{% trans %}Watch a Real Inspection{% endtrans %}" onclick="trackLink('See-A-Real-{{type}}');"><img src="{{inspectionImage1}}" width="100%"></a>
+        </div>
+    </div>
+{% else %}
+    <div style="clear:both;"></div>
+{% endif %}

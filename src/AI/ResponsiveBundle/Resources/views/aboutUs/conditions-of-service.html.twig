@@ -1,0 +1,60 @@
+{% extends '::base.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pageDescription %}Review AsiaInspection's conditions of service here to learn about provision of services, AI's obligations and undertakings, principal's obligations and undertakings and other conditions.{% endblock %}
+
+{% block body %}
+<div class="container wrapper">
+    <div class="col-xs-12 wrapper">
+        <div class="col-md-10 col-md-offset-1 col-xs-12 sidebox wrapper margin20">
+            <h1 class="margin20">{% if xml.title is defined %}{{xml.title}}{% else %}Terms and Conditions{% endif %}</h1>
+            <div class="box-white">
+                <div style="margin-bottom:20px;">
+                    <h4>{% if xml.contentsTitle is defined %}{{xml.contentsTitle}}{% else %}Contents{% endif %}</h4>
+                    {% set i = 1 %}
+                    {% for section in xml.section %}
+                        <p style="margin:0px;"><a href='#{{shortname[i-1]}}' tocid={{i-1}}>{{i}}. {{section.title}}</a></p>
+                        {% set i = i+1 %}
+                    {% endfor %}
+                </div>
+                <hr />
+                {% set i = 1 %}
+                {% for section in xml.section %}
+                    <a name='{{shortname[i-1]}}' style='text-decoration:none;position:relative;top:-100px;'>&nbsp;</a><div class='head-small'><h2 style="padding-bottom:15px;padding-top:0px;">{{i}}. {{section.title}}</h2></div>
+                    {% if section.text is defined %}
+                        <p>{{section.text}}</p>
+                    {% endif %}
+                    {% set j =1 %}
+                    {% if section.sub is defined %}
+                        {% for sub1 in section.sub %}
+                            <a name='{{shortname[i-1]}}_{{i}}.{{j}}' style='text-decoration:none;position:relative;top:-100px;'>&nbsp;</a><div class='para'><p style="font-size:15px;"><span style="font-weight:bold;">{{i}}.{{j}} </span> {{sub1|raw}}</p></div>
+                            {% if sub1.bullet is defined %}
+                                <ul class='smallbullet'>
+                                    {% for list in sub1.bullet.li %}
+                                        <li>{{list|raw}}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                            {% if sub1.sub is defined %}
+                                {% set k = 1 %}
+                                {% for subsub in sub1.sub %}
+                                    <div class='para'><p><span style="font-weight:bold;">{{i}}.{{j}}.{{k}} </span> {{subsub|raw}}</p></div>
+                                    {% if subsub.bullet.li is defined %}
+                                        <ul class='smallbullet'>
+                                            {% for li in subsub.bullet.li %}
+                                                <li>{{li}}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    {% endif %}
+                                    {% set k = k+1 %}
+                                {% endfor %}
+                            {% endif %}
+                            {% set j= j+1 %}
+                        {% endfor %}
+                    {% endif %}
+                    {% set i = i+1 %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

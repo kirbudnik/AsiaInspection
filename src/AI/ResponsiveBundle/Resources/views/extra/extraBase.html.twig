@@ -1,0 +1,46 @@
+{% extends '::base.html.twig' %}
+{% block title %}{% if pageTitle is defined %}{{pageTitle}}{% endif %}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined %}{{pageKeywords}}{% endif %}{% endblock %}
+
+{% block body %}
+    
+    <div class="headerbox">
+        <div class="container vcenter_parent wrapper">
+            <div class="col-xs-12 vcenter_parent wrapper paddingLeftRightZero">
+                <div class="col-lg-7 col-lg-offset-1 col-md-8 col-md-offset-1 col-xl-offset-0 col-xs-10 col-xs-offset-1 vcenter_parent" id="bigWidth" style="padding-left:0px;padding-right:0px;">
+                    <div class="vcenter" style="display:inline-block;">
+                        <h1 class="mainHeader">{% block bigTitle %}{% endblock %}</h1>
+                        <div class="mainSubHeader">{% block smallText %}{% endblock %}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container wrapper mainBlock">
+        <div class="col-xs-12 subMainBlock">
+            <div class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-offset-1 col-md-7 col-lg-7 col-xl-offset-0 col-xl-8 paddingLeftRightZero">
+                {% block mainBlock %}{% endblock %}
+            </div>
+            <div class="sidebox col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-5 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0" >
+                <div class="sidebox col-xs-12 col-md-offset-1" id="sideBoxContainer">
+                    <!-- Need More Information Box [Begin] -->
+                    {% include 'AIResponsiveBundle:Default:NeedMoreInfo.html.twig' %}
+                    <!-- Need More Information Box [End] -->
+
+                    {% block offerbox %}{% endblock %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts  '@AIResponsiveBundle/Resources/public/js/industryFixedMenu_v2.js' filter='?uglifyjs2' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

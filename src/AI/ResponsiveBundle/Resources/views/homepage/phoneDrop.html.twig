@@ -1,0 +1,11 @@
+<!-- [Begin] Hidden div with mbox to select the phone number by users location -->
+<div style="display:none;">
+    <select id="ContactPhoneBoxDropHidden">
+    {% for office in offices %}
+        <option value="{{office.number}}" tollfree="{{office.tollfree}}" key="{{office.englishkey}}">{{office.name}}</option>
+    {% endfor %}
+    </select>
+    <div class="mboxDefault"><script type="text/javascript">defaultnum = $('[key="China_(English)"]','#ContactPhoneBoxDropHidden').attr("selected","selected").val();</script></div>
+    <script type="text/javascript">mboxCreate("contactPhoneDrop");</script>
+</div>
+<!-- [End] Hidden div with mbox to select the phone number by users location -->

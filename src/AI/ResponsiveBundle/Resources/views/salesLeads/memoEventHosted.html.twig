@@ -1,0 +1,257 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title %}Tradeshow Memo{% endblock %}
+{% block content %}
+    <h1 style="margin:20px 0px;">{% if not is_granted('ROLE_USER') %}Tradeshow Memo and Lead Management Tool{% else %}Tradeshow and Event Memo Upload{% endif %}</h1>
+    {% if is_granted('ROLE_USER') %}
+        <div class="tradeshowdrop_divbox" style="margin-bottom:20px;">
+            <span>Type of Memo: </span>
+            <select id="tradeshowMemoDropSelectType" >
+                <option value="">-- Please Choose --</option>
+                <option value="tradeshow-exhibiting">Exhibiting Tradeshow or Event (with Booth)</option>
+                <option value="tradeshow-visiting">Visiting Tradeshow (no booth)</option>
+                <option value="event-visiting">Sponsored or Visited Event (no booth)</option>
+                <option value="event-speaking">Speaking Event (no booth)</option>
+                <option value="event-hosted" selected="selected">Self-hosted Event</option>
+                <option value="webinar">Webinar</option>
+            </select>
+            <img src='https://s3.asiainspection.com/images/loading.gif' id="tradeshowMemoLoadingTypeGif" style='height:20px;vertical-align:middle;display:none;'>
+        </div>
+    {% endif %}
+    <div class="box-white">
+        <div style="margin-bottom:20px;">
+            {% if errors is defined %}
+                {% set i = 1 %}
+                <br />
+                <p style="font-weight:bold;color:red;">The following errors occurred during upload: 
+                {% for error in errors %}
+                    <p style="color:red">{{i}}: {{error}};</p>
+                    {% set i = i + 1 %}
+                {% endfor %}
+            {% endif %}
+            <input type="hidden" id="validateErrorText" value="">
+        </div>
+        <div style="clear:both;"></div>
+            <form method="post" enctype="multipart/form-data" name="uploadMemoEventHostForm" action="/uploadMemo" id="uploadMemoEventHostForm" class="validate-form" style="padding-left:15px;padding-right:15px;" onSubmit="event.preventDefault(); validateEventHostedMemoForm()">
+                <input type="hidden" name="event_type" value="event-hosted">
+        
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label>Your Name :</label></div>
+                    <div class="col-lg-8 col-xs-7" id="SalesNamesDropDowns">
+                       <select class="dropdownref_Master dropdownref" name="SalesID" required style="max-width:300px;">
+                           <option value="" type="AI">-- Please Choose --</option>
+                           {% for row in salesInfo %}<option zohoid="{{row['zohoID']}}" type="{{row['account']}}"{% if row['name'] == fullname %} selected{% endif %}>{{row['name']}}</option>{% endfor %}
+                       </select>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+                <br />
+
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label>Show/Event:</label></div>
+                    <div class="col-lg-8 col-xs-7" id="ShowDropDowns">
+                        <select class="dropdownref" required name="tradeshow" style="width:70%;">
+                            <option value="">-- Please Choose --</option>
+                            {% for tradeshow in tradeshowList %}<option loc="{{tradeshow.location}}">{{tradeshow.tradeshow}}</option>{% endfor %}
+                        </select>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+                <br />
+
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label>Lead Quality: <img class="hoverQuestion" cargo="LeadQuality" src="https://s3.asiainspection.com/images/responsive/blueQM.png" width="15px"/></label></div>
+                    <div class="col-lg-8 col-xs-7">
+                        <select id="leadQuality" required name="leadQuality" >
+                        <option value="">-- Choose --</option>
+                            {% for i in 0..10 %}
+                                <option value="{{i}}">{{i}}</option>
+                            {% endfor %}
+                    </select><span>&nbsp;/&nbsp;10  (the best being 10)</span>
+                    </div>
+                    <div id="txtLeadQuality" class="notshow" style="display:none;">Example:<br /><br /> 6 / 10 &nbsp;&nbsp;  (10 being the best)<br /></div>
+                    <div style="clear:both;"></div>
+                </div>
+                <br />
+
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label> What industry are the attendees in?: <img class="hoverQuestion" cargo="Industry" src="https://s3.asiainspection.com/images/responsive/blueQM.png" width="15px"/></label></div>
+                    <div class="col-lg-8 col-xs-7">
+                        <textarea id="attendee_industry" name="attendee_industry" rows="5" type="text" required style="width:80%;"></textarea>
+                    </div>
+                    <div id="txtIndustry" class="notshow" style="display:none;">Example:<br /><br /> 40% of the attendees were in the Electronic Products industry, 60% were in the Furniture industry</div>
+                    <div style="clear:both;"></div>
+                </div>
+                <br />
+
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label> What type of company are they?: <img class="hoverQuestion" cargo="Visitors" src="https://s3.asiainspection.com/images/responsive/blueQM.png" width="15px"/></label></div>
+                    <div class="col-lg-8 col-xs-7">
+                        <textarea id="visitors" name="visitors" rows="5" type="text" required style="width:80%;"></textarea>
+                    </div>
+                    <div id="txtVisitors" class="notshow" style="display:none;">Example:<br /><br /> Retail, importer, supplier, factory, etc.</div>
+                    <div style="clear:both;"></div>
+                </div>
+                <br />
+
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label> Were the topics interesting to the audience? If no, state the reasons: <img class="hoverQuestion" cargo="IntTopic" src="https://s3.asiainspection.com/images/responsive/blueQM.png" width="15px"/></label></div>
+                    <div class="col-lg-8 col-xs-7">
+                        <textarea id="int_topic" name="int_topic" rows="5" type="text" required style="width:80%;"></textarea>
+                    </div>
+                    <div id="txtIntTopic" class="notshow" style="display:none;">Example:<br /><br /> While we were focussing on A and B, the audience was more concerned about X and Y.</div>
+                    <div style="clear:both;"></div>
+                </div>
+                <br />
+
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label> Are there any other specific topics you or the audience suggest for our next event?: <img class="hoverQuestion" cargo="SugTopic" src="https://s3.asiainspection.com/images/responsive/blueQM.png" width="15px"/></label></div>
+                    <div class="col-lg-8 col-xs-7">
+                        <textarea id="sug_topic" name="sug_topic" rows="5" type="text" required style="width:80%;"></textarea>
+                    </div>
+                    <div id="txtSugTopic" class="notshow" style="display:none;">Example:<br /><br /> The audience had a lot of questions about X so I suggest an event focussed on Y.</div>
+                    <div style="clear:both;"></div>
+                </div>
+                <br />
+
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label> Other suggestions for marketing to improve if any: <img class="hoverQuestion" cargo="Sug" src="https://s3.asiainspection.com/images/responsive/blueQM.png" width="15px"/></label></div>
+                    <div class="col-lg-8 col-xs-7">
+                        <textarea id="suggestions" name="suggestions" rows="5" type="text" required style="width:80%;"></textarea>
+                    </div>
+                    <div id="txtSug" class="notshow" style="display:none;">Example:<br /><br /> Can provide more factory audit and lab testing report. The contractor was not supportive enough as we have been calling for many times but no reply to fix the TV and light.</div>
+                    <div style="clear:both;"></div>
+                </div>
+                <br />
+
+                <div class="wrap">
+                    <div class="col-lg-12 col-xs-12 paddingLeftRightZero"><label>Below was feedback gathered from the audiences (contact Marketing for details before you send in your memo):</label></div>
+                </div>
+
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label> Number of attendees: </label></div>
+                    <div class="col-lg-8 col-xs-7">
+                        <input type="text" name="attendee_count" required style="width:80%;">
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+                <br />
+
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label> What's the overall rating for the seminar: </label></div>
+                    <div class="col-lg-8 col-xs-7">
+                            <label><input type="radio" class="seminar_rating" name="seminar_rating" value="Excellent"> Excellent</label>
+                            <label><input type="radio" class="seminar_rating" name="seminar_rating" value="Good"> Good</label>
+                            <label><input type="radio" class="seminar_rating" name="seminar_rating" value="Fair"> Fair</label>
+                            <label><input type="radio" class="seminar_rating" name="seminar_rating" value="Poor" checked> Poor</label>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+                <br />
+
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label> How did they hear about our event?: <img class="hoverQuestion" cargo="Heard" src="https://s3.asiainspection.com/images/responsive/blueQM.png" width="15px"/></label></div>
+                    <div class="col-lg-8 col-xs-7">
+                        <textarea id="how_heard" name="how_heard" rows="5" type="text" required style="width:80%;"></textarea>
+                    </div>
+                    <div id="txtHeard" class="notshow" style="display:none;">Example:<br /><br /> Newsletter (30%), sales invitation (40%), social media (20%), Others (state details)</div>
+                    <div style="clear:both;"></div>
+                </div>
+
+                <!-- Begin Add Leads -->
+                <h2 style="margin-bottom:30px; margin-top:15px;">Lead Qualification by Day <button type="button" class="btn-secondary addButton">Add Additional Sales</button></h2>
+                <div class="resultDiv form-group">
+                    <div class="col-md-5 col-xs-12 paddingLeftRightZero">
+                        <div class="col-xs-2 " >Name</div>
+                        <div class="col-xs-4 paddingLeftRightZero"> 
+                            <select class="dropdownref result_0_name resultsAllNames" name="result_0_name" required style="width:85%;"><option value="">-- Choose --</option>{% for row in salesNames %}<option zohoid="{{row['zohoID']}}" type="{{row['account']}}">{{row['name']}}</option>{% endfor %}</select>
+                        </div>
+                        <div class="col-xs-3 " >No. of Leads</div>
+                        <div class="col-xs-2 paddingLeftRightZero"><input name="result_0_num" class="resultSum "readonly value="0"  type="number" style="width:100%;"/></div>
+                    </div>
+                    <div class="col-md-7 col-xs-12 numberFields paddingLeftRightZero" >
+                        <span class="col-xs-2"> Hot1 : </span><input  name="result_0_h1" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2"> Hot2 : </span><input name="result_0_h2" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero"/>
+                        <span class="col-xs-2"> Hot3 : </span><input name="result_0_h3" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2 sasoField"> Hot SASO : </span><input name="result_0_h4" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero sasoField" />
+                        <div style="clear:both;"></div><br />
+                        <span class="col-xs-2" style="padding-right:0px;"> Warm1 : </span><input name="result_0_w1" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2" style="padding-right:0px;"> Warm2 : </span><input name="result_0_w2" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero"/>
+                        <span class="col-xs-2" style="padding-right:0px;"> Warm3 : </span><input name="result_0_w3" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2 sasoField" style="padding-right:0px;"> Warm SASO : </span><input name="result_0_w4" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero sasoField" />
+                        <div style="clear:both;"></div><br />
+                        <span class="col-xs-2"> Cold1 : </span><input name="result_0_c1" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2"> Cold2 : </span><input name="result_0_c2" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero"/>
+                        <span class="col-xs-2"> Cold3 : </span><input name="result_0_c3" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2 sasoField"> Cold SASO : </span><input name="result_0_c4" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero sasoField" />
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+                <div style="clear:both;"></div>
+
+                <div class="form-group hide " id="resultTemplate"  style="margin-top:20px;">
+                    <hr />
+                    <div class="col-md-5 col-xs-12 paddingLeftRightZero">
+                        <div class="col-xs-2">Name</div>
+                        <div class="col-xs-4 paddingLeftRightZero">
+                            <select class="dropdownref resultName" name="name" style="width:85%;"><option value="">-- Choose --</option>{% for row in salesNames %}<option zohoid="{{row['zohoID']}}" type="{{row['account']}}">{{row['name']}}</option>{% endfor %}</select>
+                        </div>
+                        <div class="col-xs-3 " >No. of Leads</div>
+                        <div class="col-xs-2 paddingLeftRightZero"><input name="num" class="resultSum" type="number" readonly value="0" style="width:100%;"/></div>
+                        <div class="col-xs-12" style="text-align:center;">
+                            <button type="button" name="btn" class="btn-secondary removeButton" style="margin-top:10px;">Delete</button>
+                        </div>
+                    </div>
+                    <div class="col-md-7  col-xs-12 numberFields paddingLeftRightZero" id="resultFields">
+                        <span class="col-xs-2"> Hot1 : </span><input  name="h1" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2"> Hot2 : </span><input name="h2" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero"/>
+                        <span class="col-xs-2"> Hot3 : </span><input name="h3" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2 sasoField"> Hot SASO : </span><input name="h4" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero sasoField" />
+                        <div style="clear:both;"></div><br />
+                        <span class="col-xs-2"> Warm1 : </span><input name="w1" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2"> Warm2 : </span><input name="w2" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero"/>
+                        <span class="col-xs-2"> Warm3 : </span><input name="w3" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2 sasoField"> Warm SASO : </span><input name="w4" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero sasoField" />
+                        <div style="clear:both;"></div><br />
+                        <span class="col-xs-2"> Cold1 : </span><input name="c1" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2"> Cold2 : </span><input name="c2" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero"/>
+                        <span class="col-xs-2"> Cold3 : </span><input name="c3" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero" />
+                        <span class="col-xs-2 sasoField"> Cold SASO : </span><input name="c4" type="number" min="0" class="resultNum col-xs-1 paddingLeftRightZero sasoField" />
+                        <div style="clear:both;"></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="clear:both;"></div>
+                <br /><br />
+                <!-- End Add Leads -->
+
+                <div class="wrap">
+                    <p>A copy of your memo will automatically be sent to you and the following recipients: </p>
+                    <p>
+                        <span id="notCHBEmail">{% for email in displayMails_NoBooth %}{{email}}<br />{% endfor %}</span>
+                    </p>
+                   <button type="button" class="btn-secondary addEmailButton">Add Additional Emails to Receive this Memo</button> 
+                   <input type="checkbox" id="manual"><label>&nbsp;  Manually Add Email &nbsp;<img class="hoverQuestion" cargo="ManuallyInput" src="https://s3.asiainspection.com/images/responsive/blueQM.png" width="15px"/></label>
+                   {% if is_granted('ROLE_ADMIN') %} <br /><input type="checkbox" name="adminNoSendEmail" /> &nbsp; Do not send Tradeshow Memo email<br /> {% endif %}
+                   <div id="txtManuallyInput" class="notshow" style="display:none;">
+                        Checking this option and click the Add Email Button allows you to input emails that aren't listed in the drop down list.<br /><br />
+                        Note that only emails with @asiainspection.com , @asiafoodinspection.com and @ansecogroup.com will be sent out.
+                    </div>
+
+                    <div class="email-group hide " id="emailTemplate"  style="margin-top:20px;">
+                        <input name="email" type="email" class="emailAddr" style="width:60%;" /><img src="https://s3.asiainspection.com/images/icons/delete.png" id="deleteEmail" class="deleteEmailButton" style="margin-left:3px;width:13px;cursor: pointer;">
+                    </div>
+                    <div class="email-dropdown-group hide " id="emailDropTemplate"  style="margin-top:20px;">
+                        <select class="dropdownref emailName"  name="emailDrop" class="emailAddr"  style="width:60%;">{% for row in salesNames %}<option value="{{row['zohoID']}}" type="{{row['account']}}">{{row['name']}}</option>{% endfor %}</select> <img src="https://s3.asiainspection.com/images/icons/delete.png" id="deleteEmail"  class="deleteEmailDropButton" style="cursor: pointer;width:13px;">
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+
+                <div style="text-align:center;">
+                    <button id="uploadMemoSubmit" name="btnSubmit"  type="submit" class="btn-primary smallButton" style="margin:40px 0px 10px 0px;">Upload Now</button>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+{% endblock %}

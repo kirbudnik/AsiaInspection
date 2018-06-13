@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+
+		<en>
+			<title>Are you sure the toys you import are safe?</title>
+			<blurb>AsiaInspection Laboratory Testing services help you ensure a safe product, free of hazardous chemicals.</blurb>
+			<footLink url="/quality-control-services">Learn More</footLink>
+		</en>
+
+		<it>
+			<title>Sei sicuro che i giocattoli che importi sono sicuri?</title>
+			<blurb>I test di laboratorio di AsiaInspection possono aiutarti a fornire prodotti sicuri, privi di sostanze chimiche pericolose</blurb>
+			<footLink url="/quality-control-services">Per saperne di più</footLink>
+		</it>
+		
+		<zh>
+			<title>您确定您所进口的玩具产品是安全的吗？</title>
+			<blurb>AsiaInspection实验室测试服务能够帮助您确保您产品的安全性，远离危险的化学制品。</blurb>
+			<footLink url="/quality-control-services">了解更多</footLink>
+		</zh>
+		
+		<fr>
+			<title>Que savez-vous de la qualité des jouets que vous importez?</title>
+			<blurb>Les tests en laboratoire d'AsiaInspection sont là pour certifier la sécurité et la qualité de vos produits.</blurb>
+			<footLink url="/quality-control-services">En savoir plus</footLink>
+		</fr>
+		
+		<ru>
+			<title>в безопасности ввозимых игрушек.</title>
+			<blurb>Yслуги Испытательная лаборатория поможет вам обеспечить безопасный продукт, свободный от опасных химических веществ.</blurb>
+			<footLink url="/quality-control-services">Подробнее</footLink>
+		</ru>
+		
+		<es>
+			<title>¿Está seguro que los juguetes que importa son seguros?</title>
+			<blurb>Las Pruebas de Laboratorio de AsiaInspection garantizan que su producto sea inocuo y libre de sustancias químicas peligrosas.</blurb>
+			<footLink url="/servicios-control-calidad-china-india-asia">Leer más</footLink>
+		</es>
+		
+		<ar>
+			<title>هل أنت متأكد من أن اللعب التي تستورد آمنة؟</title>
+			<blurb>تساعدك خدمات الإختبارات المعملية للمنتجات على ضمان منتج آمن، خال من المواد الكيميائية الخطرة.</blurb>
+			<footLink url="/quality-control-services">اقرأ المزيد</footLink>
+		</ar>
+		
+		<de>
+			<!--<title>Sind die Spielzeuge, die Sie importieren, sicher?</title>-->
+			<title>Spielzeuge die Sie importieren, sicher?</title>
+			<blurb>Der AsiaInspection Labortest Service hilft Ihnen, sichere Produkte ohne gefährliche Inhaltsstoffe zu gewährleisten.</blurb>
+			<footLink url="/quality-control-services">Mehr Informationen</footLink>
+		</de>
+
+		<pt>
+			<title>Tem a certeza de que importa brinquedos seguros?</title>
+			<blurb>Testes em laboratório da AsiaInspection ajudam-no a garantir um produto seguro e sem químicos perigosos.</blurb>
+			<footLink url="/quality-control-services">Saiba mais</footLink>
+		</pt>
+
+</document>

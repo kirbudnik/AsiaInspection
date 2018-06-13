@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+        <meta name="apple-itunes-app" content="app-id=589783645">
+        <title>{% block title %}Asia Inspection{% endblock %}</title>
+        {% block stylesheets %}
+
+            <link href="{{asset('/css/bootstrap.css')}}" rel="stylesheet"/>
+            <link href="{{asset('/css/bootstrap-theme.css')}}" rel="stylesheet"/>
+            <link href="{{asset('/css/thickbox.css')}}" rel="stylesheet"/>
+            {%stylesheets filter="cssrewrite"
+                '@AIResponsiveBundle/Resources/public/css/buttons.css'
+                
+            %}
+            <link rel="stylesheet" href="{{asset_url}}"/>
+            {%endstylesheets%}
+            {%stylesheets filter="scss"
+                '@AIResponsiveBundle/Resources/public/css/styles.scss'
+            %}
+            <link id="mainCSS" rel="stylesheet" href="{{asset_url}}"/>
+            {%endstylesheets%}
+
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <script src="/js/jquery-1.11.2.min.js"></script>
+        <script src="/js/mbox.js"></script>
+    </head>
+    <body style="overflow-x:hidden;" {%if app.request.locale == "ar"%} dir="rtl"{%endif%}>
+        <div id="page_{%block pagename%}{%endblock%}" class="container">
+           {%if app.request.locale == "ar"%}{% include('AIResponsiveBundle:Default:SubTemplates/navRTL.html.twig')%}{%else%}{% include('AIIndiaResponsiveBundle:Default:SubTemplates/nav.html.twig')%} {%endif%}
+            {% block body %}{% endblock %}
+            {% include('AIIndiaResponsiveBundle:Default:SubTemplates/footer.html.twig') %}
+        </div>
+        {% block javascripts %}
+            <script src="{{asset('/js/bootstrap.js')}}"></script>
+            <script src="{{asset('/js/thickbox.js')}}"></script>
+            <script src="{{asset('/js/jquery.mousewheel.min.js')}}"></script>
+            <script src="{{asset('/js/unslider.min.js')}}"></script>
+            {% javascripts 
+                '@AIResponsiveBundle/Resources/public/js/custom.js' 
+                filter='?uglifyjs2'
+            %}
+            <script type="text/javascript" src="{{ asset_url }}"></script>
+            {% endjavascripts %}
+        {% endblock %}
+
+        {% if tracking.body is defined %}
+            {% if app.request.cookies.get('Developer') == 'true' %}
+                <pre style="color:black; font-size:11px; background-color:rgba(0,0,255,0.2); border-radius:10px; margin:15px;">{{tracking.body}}</pre>
+            {% endif %}
+            {{tracking.body|raw}}
+        {% endif %}
+        <div id="backToTop"><img src="/images/up_chevron.png" style="height:15px; max-height:100%; padding-right:10px;">Back to Top</div>
+    </body>
+</html>

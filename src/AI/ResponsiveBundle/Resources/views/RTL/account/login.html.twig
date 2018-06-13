@@ -1,0 +1,32 @@
+{% extends '::account.html.twig' %}
+{%block title%}Log in | AsiaInspection.com{%endblock%}
+
+{% block popup_title %}Login to Your Account{% endblock %}
+{% block popup_switch_button_caption %}Don't have an account yet?{% endblock %}
+{% block popup_switch_button_label %}Sign Up{% endblock %}
+{% block popup_switch_button_url %}/register{% endblock %}
+{% block popup_width %}600px{% endblock %}
+
+{% block content %}
+    <div style="color:#b31820; font-size:0.9em; max-width:61%; margin:1em 15px 0px;" class="pull-right">{{ app.request.query.get("error") | raw }}</div>
+    <div style="clear:both;"></div>
+    {{form_start(form)}}
+    <div class="form-group">
+        <div class="formRow">
+            {{ form_errors(form) }}
+            {{ form_label(form.username, 'Username', {'label_attr': {'class': 'control-label col-xs-4 text-center '}}) }}
+            <div class="col-xs-8" style="margin-bottom:1em;">
+                {{ form_widget(form.username, {'attr': {'class': 'form-control'}})  }}
+            </div>
+        </div>
+        <div class="formRow">
+            {{ form_label(form.password, 'Password', {'label_attr': {'class': 'control-label col-xs-4 text-center '}}) }}
+            <div class="col-xs-8">
+                {{ form_widget(form.password, {'attr': {'class': 'form-control'}})  }}
+            </div>
+        </div> 
+    </div>
+    {{form_end(form)}}
+{% endblock %}
+
+{% block legaltext %}{% endblock %}

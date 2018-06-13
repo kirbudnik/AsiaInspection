@@ -1,0 +1,128 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{%block title%}
+    {% if ShowTitle is defined %}{{ShowTitle}}{% else %}View Memo Details{%endif%}
+{%endblock%}
+{%block content%}
+            <h1 class="margin20">
+                {%if not is_granted('ROLE_USER') %}
+                    Tradeshow Memo and Lead Management Tool
+                {%else%}
+                    {% if ShowTitle is defined %}{{ShowTitle}}{% else %}View Memo Details{%endif%}
+                {%endif%}
+            </h1>
+            <div class="box-white">
+                    <div style="margin-bottom:20px;">  
+                        <div class="col-xs-2 pBold">Name : </div> <div class="col-xs-10">{{row.salesName}}</div>
+                        <div class="col-xs-2 pBold">Tradeshow :  </div> <div class="col-xs-10">
+
+                            <div id="changeTradeshow_PrimaryView">
+                                <span id="changeTradeshow_ShowName" showid="{{memoID}}">{{row.tradeshow}}</span> &nbsp; {%if is_granted('ROLE_ADMIN')%}<a href="javascript://" id="changeTradeshow_Edit">Edit</a>{%endif%}
+                            </div>
+
+                            <div id="changeTradeshow_SecondaryView" style="display:none;">
+                                <select class="dropdownref_AI dropdownref" id="changeTradeshow_TradeshowList">
+                                    <option style="color:white; font-weight:bold; background-color:grey;" disabled="disabled">--- AI Tradeshows ---</option>
+                                        {% for tradeshow in tradeshowList %}
+                                            {% if row.tradeshow == tradeshow %}
+                                                <option selected="selected">{{tradeshow}}</option>
+                                            {% else %}
+                                                <option>{{tradeshow}}</option>
+                                            {% endif %}
+                                        {% endfor %}
+                                </select>
+                                &nbsp; 
+                                <span id="changeTradeshow_SavText"><a href="javascript://" id="changeTradeshow_Save">Save</a> &nbsp; <a href="javascript://" id="changeTradeshow_Cancel">Cancel</a></span>
+                                <span id="changeTradeshow_SavWait" style="display:none;"><img src="https://s3.asiainspection.com/images/loading.gif" style="width:20px;" /></span>
+                            </div>
+
+                        </div>
+                        {% if row.day %} <div class="col-xs-2 pBold">Day :  </div> <div class="col-xs-10">{{row.day}}</div> {% endif %}
+                        {% if row.booth_feedback %} <div class="col-xs-2 pBold">Feedback :  </div> <div class="col-xs-10">{{row.booth_feedback}}</div> {% endif %}
+                        {% if row.leadQuality %} <div class="col-xs-2 pBold">Lead Quality :  </div> <div class="col-xs-10">{{row.leadQuality}} / 10</div> {% endif %}
+                        {% if row.low_qual_reason %} <div class="col-xs-2 pBold">Reason for lead quality :  </div> <div class="col-xs-10">{{row.low_qual_reason}}</div> {% endif %}
+                        {% if row.clientsMet %} <div class="col-xs-2 pBold">Clients/Prospects :  </div> <div class="col-xs-10">{{row.clientsMet}}</div> {% endif %}
+                        {% if row.attendee_industry %} <div class="col-xs-2 pBold">Attendee industry :  </div> <div class="col-xs-10">{{row.attendee_industry}}</div> {% endif %}
+                        {% if row.int_topic %} <div class="col-xs-2 pBold">{% if row.event_type == 'event-hosted' %}Topic{% else %}Speech{% endif %} interesting :  </div> <div class="col-xs-10">{{row.int_topic}}</div> {% endif %}
+                        {% if row.sug_topic %} <div class="col-xs-2 pBold">Topics suggested :  </div> <div class="col-xs-10">{{row.sug_topic}}</div> {% endif %}
+                        {% if row.exhibitors %} <div class="col-xs-2 pBold">How many exhibitors : </div> <div class="col-xs-10"> {{row.exhibitors}}</div> {% endif %}
+                        {% if row.exhibitor_countries %} <div class="col-xs-2 pBold">Exhibitor countries : </div> <div class="col-xs-10"> {{row.exhibitor_countries}}</div> {% endif %}
+                        {% if row.competitors %} <div class="col-xs-2 pBold">Competitors : </div> <div class="col-xs-10"> {{row.competitors}}</div> {% endif %}
+                        {% if row.traffic %} <div class="col-xs-2 pBold">Traffic and Highlight : </div> <div class="col-xs-10">{{row.traffic}}</div> {% endif %}
+                        {% if row.event_type != "event-hosted" %}<div class="col-xs-2 pBold">Do it next time :  </div> <div class="col-xs-10">{{row.do_next}}</div>{% endif %}
+                        {% if row.next_reasons %} <div class="col-xs-2 pBold">Reasons : </div> <div class="col-xs-10">{{row.next_reasons}}</div> {% endif %}
+                        {% if row.exhibitor_feedback %} <div class="col-xs-2 pBold">Exhibitor Feedback : </div> <div class="col-xs-10"> {{row.exhibitor_feedback}}</div> {% endif %}
+                        {% if row.visitors %} <div class="col-xs-2 pBold">Types of visitors : </div> <div class="col-xs-10"> {{row.visitors}}</div> {% endif %}
+                        {% if row.visitor_countries %} <div class="col-xs-2 pBold">Visitor countries : </div> <div class="col-xs-10"> {{row.visitor_countries}}</div> {% endif %}
+                        {% if row.visitor_poll %} <div class="col-xs-2 pBold">Visitor poll responses : </div> <div class="col-xs-10"> {{row.visitor_poll}}</div> {% endif %}
+                        {% if row.attendee_opinion %} <div class="col-xs-2 pBold">Attendee opinion : </div> <div class="col-xs-10"> {{row.attendee_opinion}}</div> {% endif %}
+                        {% if row.event_type == "event-visiting" %} <div class="col-xs-2 pBold">Sponsorship exposure : </div> <div class="col-xs-10"> {{row.sponsor_details}}</div> {% endif %}
+                        {% if row.event_type == "tradeshow-exhibiting" %} <div class="col-xs-2 pBold">Concurrent Seminar : </div> <div class="col-xs-10"> {{row.concurrent}}</div> {% endif %}
+                        {% if row.concurrent_reasons %} <div class="col-xs-2 pBold">Concurrent Reasons : </div> <div class="col-xs-10"> {{row.concurrent_reasons}}</div> {% endif %}
+                        {% if row.suggestions %} <div class="col-xs-2 pBold">Suggestions :</div> <div class="col-xs-10"> {{row.suggestions}}</div> {% endif %}
+                        {% if row.attendee_count %} <div class="col-xs-2 pBold">Number of attendees :</div> <div class="col-xs-10"> {{row.attendee_count}}</div> {% endif %}
+                        {% if row.seminar_rating %} <div class="col-xs-2 pBold">Overall rating :</div> <div class="col-xs-10"> {{row.seminar_rating}}</div> {% endif %}
+                        {% if row.how_heard %} <div class="col-xs-2 pBold">How they heard about our event :</div> <div class="col-xs-10"> {{row.how_heard}}</div> {% endif %}
+                        {% if row.event_type != "event-hosted" %}
+                            <div class="col-xs-2 pBold">Photos :    </div> 
+                            <div class="col-xs-10">
+                                {%for photo in photos%}
+                                    <a target="_blank" href="{{link}}{{row.tradeshow}}/{{photo}}">{{photo}}</a><br />
+                                {%endfor%}
+                            </div><br />
+                        {% endif %}
+                        <div style="clear:both;"></div><br />
+                        <span class="pBold"> Results : </span><br />
+
+                        {% set saso = false %}
+                        {% for result in results %}
+                            {% if (result.h4 is defined and result.h4 > 0) or (result.w4 is defined and result.w4 > 0) or (result.c4 is defined and result.c4 > 0) %} {% set saso = true %} {% endif %}
+                        {% endfor %}
+
+                        <table class="bordered" style="width:100%;margin-top:20px;" id="memoTable">
+                            <tr>
+                                <td class="pBold">Name</td>
+                                <td class="pBold">Num of Leads</td> 
+                                <td class="pBold">H1</td>
+                                <td class="pBold">H2</td>
+                                <td class="pBold">H3</td>
+                                {% if saso %}<td class="pBold">SASO H</td>{% endif %}
+                                <td class="pBold">W1</td>
+                                <td class="pBold">W2</td>
+                                <td class="pBold">W3</td>
+                                {% if saso %}<td class="pBold">SASO W</td>{% endif %}
+                                <td class="pBold">C1</td>
+                                <td class="pBold">C2</td>
+                                <td class="pBold">C3</td>
+                                {% if saso %}<td class="pBold">SASO C</td>{% endif %}
+                            </tr>
+                            {% for result in results %}
+                                <tr class="memoRow">
+                                    <td>{{result.name}}</td>
+                                    <td>{{result.num}}</td>
+                                    <td>{{result.h1}}</td>
+                                    <td>{{result.h2}}</td>
+                                    <td>{{result.h3}}</td>
+                                    {% if saso %}<td>{{result.h4}}</td>{% endif %}
+                                    <td>{{result.w1}}</td>
+                                    <td>{{result.w2}}</td>
+                                    <td>{{result.w3}}</td>
+                                    {% if saso %}<td>{{result.w4}}</td>{% endif %}
+                                    <td>{{result.c1}}</td>
+                                    <td>{{result.c2}}</td>
+                                    <td>{{result.c3}}</td>
+                                    {% if saso %}<td>{{result.c4}}</td>{% endif %}
+                                </tr>
+                            {% endfor %}
+                        </table>
+                        <div style="clear:both;"></div><br />
+                    </div>
+                    {%if is_granted('ROLE_ADMIN') %}
+                        <div style="width:100%; text-align:center;">
+                            <a href="/ResendTradeshowMemo/{{memoID}}/{{ row.event_type }}" role="button" class="btn btn-primary btn-big" style="margin: 0px 10px 0px 10px;">Resend Tradeshow Memo Email</a>
+                            &nbsp; &nbsp; &nbsp;
+                            <a href="javascript://" showid="{{memoID}}" role="button" id="deleteTradeshow_Delete" class="btn btn-primary btn-big" style="margin: 0px 10px 0px 10px;">Delete Tradeshow Memo</a>
+                            <div id="deleteTradeshow_SavWait" style="display:none;"><br /><img src="https://s3.asiainspection.com/images/loading.gif" style="width:20px;" /></div>
+                        </div>
+                    {%endif%}
+            </div>
+{%endblock%}

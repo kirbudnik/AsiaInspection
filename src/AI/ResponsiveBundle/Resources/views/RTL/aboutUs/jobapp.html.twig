@@ -1,0 +1,259 @@
+{% extends 'AIResponsiveBundle:RTL:aboutUs/whoWeAreBase.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block displayNone %}display:none;{% endblock %}
+{% block pagename %}JobApplication{% endblock %}
+{% block bigTitle %}{% trans %}Job Application{% endtrans %}{% endblock %}
+
+{% block whoWeAreText %}
+
+ {% if success is defined and success == true %}
+    <div style="text-align:left;padding-top:5px;">
+     {{xml.success.msg|raw}}
+    </div>
+    <div style="text-align:left;margin-bottom:20px;padding-top:20px;">
+      {{xml.success.signature|raw}}
+    </div>
+    <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+    <script type="IN/FollowCompany" data-id="207808" data-counter="right"></script>
+
+{% else %}
+{% if jobDescription is defined %}<h2 id="jobappTitle" >{% if title is defined %}{{title}}{% else %}Your Resume{% endif %}&nbsp;&nbsp;<a id="viewJobBigScreen" href="jobDescription?id={{jobid}}&amp;width=853&amp;height=430&amp;TB_iframe=true" {% if title is defined %}title="{{title}}"{% endif %} class="thickbox" style="font-size:13px;">{% trans %}View Job Description{% endtrans %}</a></h2><a id="viewJobSmallScreen" href="javascript:" style="display:none;font-size:13px; padding-bottom:20px;">{% trans %}View Job Description{% endtrans %}</a>
+{% else %}<h2 style="color:rgb(179, 24, 32);padding-top:20px;padding-bottom:30px;margin-bottom:0px;">{% trans %}Your Resume{% endtrans %}</h2>
+{% endif %}
+{% if jobDescription is defined %}
+<div id="jobappDescription" class="marginZero" style="display:none;padding-bottom:30px;">{{jobDescription|raw}}</div>
+{% endif %}
+
+<form  class="validate-form" method="post" action="/submitJobAppForm" enctype="multipart/form-data" id="jobAppCompleteForm" >
+    <input type="text" name="spamcheck" value="" style="display:none;">
+     <input type="hidden" name="type" value="jobapp">
+   {% if jobid is defined %}    <input type="hidden" name="jobID" value="{{jobid}}"> {% endif %}
+    <input type="hidden" name="jobappURL" value="{{current_url}}">
+<div class="col-lg-6 col-xs-12" style="padding:0px;">
+    <div class="wrap">
+      <div class="col-lg-4 col-xs-5 paddingLeftRightZero">
+        <label>{{xml.applyAboutYou.firstName | trans}}<span class="red">*</span>:</label>
+      </div>
+      <div class="col-lg-8 col-xs-7"  id = "jobAppField">
+        <div class="col-xs-4 paddingLeftZero">
+        <select id="gender-box" name="jobGenderTitle" tabindex="1">
+          <option>Mr</option>
+          <option>Mrs.</option>
+          <option>Miss</option>
+        </select>
+      </div>
+      <div class="col-xs-8 paddingLeftZero" style="padding-right:3px;">
+        <input type="text" name="jobFirstName" {% if userData.firstName is defined %} value="{{userData.firstName}}" {% endif %} id="firstName" required  tabindex="2" />
+      </div>
+
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <br/>
+    <div class="wrap">
+      <div class="col-lg-4 col-xs-5 paddingLeftRightZero" >
+          <label>{{xml.applyAboutYou.lastName | trans }}<span class="red">*</span>:</label>
+      </div>
+      <div class="col-lg-8 col-xs-7" id = "jobAppField">
+        <input type="text" name="jobLastName" style="width: 100%;" {% if userData.lastName is defined %} value="{{userData.lastName}}" {% endif %} required tabindex="3" />
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <br/>
+
+    <div class="wrap">
+      <div class="col-lg-4 col-xs-5 paddingLeftRightZero">
+        <label>{{xml.applyAboutYou.address | trans}}<span class="red">*</span>:</label>
+      </div>
+      <div class="col-lg-8 col-xs-7" id = "jobAppField">
+        <textarea cols="5" name="jobAddress" id="jobAddress" rows="" required  tabindex="4">{% if userData.mainAddress is defined %}{{userData.mainAddress}}{% endif %}</textarea>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <br/>
+
+    <div class="wrap">
+      <div class="col-lg-4 col-xs-5 paddingLeftRightZero" >
+        <label>{{xml.applyAboutYou.mobile | trans}}<span class="red">*</span>:</label>
+      </div>
+      <div class="col-lg-8 col-xs-7" id = "jobAppField">
+        <input type="text" name="jobMobile" required style="width: 100%;" class="phonenum" tabindex="5" {% if userData.phoneNumbers.mobile is defined %} value="{{userData.phoneNumbers.mobile}}" {% endif %} />
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <br/>
+
+
+
+  </div>
+
+  <div class="col-lg-6 col-xs-12"  style="padding:0px;">
+
+
+    <div class="wrap">
+      <div class="col-lg-4 col-xs-5 paddingLeftRightZero" >
+        <label>{{xml.applyAboutYou.city | trans}}<span class="red">*</span>:</label>
+      </div>
+      <div class="col-lg-8 col-xs-7" id = "jobAppField">
+        <input type="text" name="jobCity" style="width: 100%;"  {% if userData.location.name is defined %} value="{{userData.location.name}}" {% endif %} required tabindex="6" />
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <br/>
+
+    <div class="wrap" >
+      <div class="col-lg-4 col-xs-5 paddingLeftRightZero" >
+        <label>{{xml.applyAboutYou.country | trans}}<span class="red">*</span>:</label>
+      </div>
+      <div class="col-lg-8 col-xs-7" id = "jobAppField">
+        <select class="count-reg" name="jobCountry" style="width: 100%; line-height:20px;" required tabindex="7" style="width:174px;">
+          {% if userData.location.name is not defined %}<option selected="selected"></option>{% endif %}
+          {% set i =0 %}
+          {% for country in countries %}
+            <option areacode="{{country.phone}}" {% if userData.location.name is defined and country.name == userData.location.name %}selected="selected" {% endif %}>{{countryNames[i] | trans}}</option>
+            {% set i = i+1 %}
+          {% endfor %}
+        </select>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <br />
+    <div class="wrap">
+      <div class="col-lg-4 col-xs-5 paddingLeftRightZero" >
+        <label>{{xml.applyAboutYou.phone | trans}}<span class="red">*</span>:</label>
+      </div>
+      <div class="col-lg-8 col-xs-7" id = "jobAppField">
+        <input type="text" name="jobPhone" required class="phonenum" style="width: 100%;" tabindex="8" {% if userData.phoneNumbers.home is defined %}value="{{userData.phoneNumbers.home}}" {% endif %}/>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <br/>
+    <div class="wrap">
+      <div class="col-lg-4 col-xs-5 paddingLeftRightZero" >
+        <label>{{xml.applyAboutYou.email | trans}}<span class="red">*</span>:</label>
+      </div>
+      <div class="col-lg-8 col-xs-7" id = "jobAppField">
+        <input type="email" name="jobEmail" style="width: 100%;" {% if userData.emailAddress is defined %} value="{{userData.emailAddress}}" {% endif %} required class="email" tabindex="9" />
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <br/>
+
+    <div class="wrap">
+      <div class="col-lg-4 col-xs-5 paddingLeftRightZero">
+        <label>{{xml.applyAboutYou.confirmEmail | trans}}<span class="red">*</span>:</label>
+      </div>
+      <div class="col-lg-8 col-xs-7" id = "jobAppField">
+        <input type="email" required name="jobConfirmEmail" style="width: 100%;" {% if userData.emailAddress is defined %} value="{{userData.emailAddress}}" {% endif %}  class="email" tabindex="10" />
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <br/>
+  </div>
+  <div style="clear:both;"></div>
+
+       <div class="mid-title" >
+       <b>{{xml.applySupport.title | trans}}</b>
+       </div>
+
+  <br/>
+
+
+  <div id="support-block">
+          <textarea name="jobSupportComments" id="jobSupportComments"  tabindex="11">
+{% if userData.dateOfBirth is defined %}Date of Birth: {{userData.dateOfBirth.day}}/{{userData.dateOfBirth.month}}/{{userData.dateOfBirth.year}}&#10;&#10;{% endif %}
+{% if userData.summary is defined %}{{userData.summary}}&#10;&#10;{% endif %}
+&#10;{% if userData.skills is defined %}{% for skills in userData.skills.values %}{{skills.skill.name}}, {% endfor %}{% endif %}
+          </textarea>
+  </div>
+
+  <br />
+  <div class="wrap" style="text-align:left;{% if jobid is not defined %}display:none; {% endif %}">
+    <label>{{xml.WhereHear.title | trans}}<span class="red">*</span>:</label>
+    <select class="count-reg" name="jobWhereHear" id="jobWhereHear" tabindex="12">
+      <option selected="selected" disabled>{{xml.WhereHear.specify | trans}}</option>
+      {% set i =0 %}
+      {% for opt in xml.WhereHear.opt %}
+        <option value='{{tag[i]}}'>{{opt}}</option>
+        {% set i =i+1 %}
+       {% endfor %}
+    </select>
+    <br /><br />
+    <div id="jobSpecificsWrap" style="display:none;">
+      <label>{{xml.WhereHear.specify}}:</label>
+      <input type="text" name="jobSpecifics" style="width: 418px;" tabindex="13" />
+    </div>
+  </div>
+
+
+  <div class="block-three">
+      <div class="mid-title">
+   <b>  {{xml.applyUpload.title | trans}}</b>
+    </div>
+  </div>
+  <br/>
+   <center>
+
+<div class="col-xs-12 noMarginSmallScreen"  id="paddingSideSmallScreen" style="margin-bottom:20px;padding-left:0px;padding-right:0px;">
+    <div class="uploadbis">
+      <div class="col-md-1 col-xs-12 marginBottomSmallScreen paddingLeftRightZero" >
+        {{xml.applyUpload.cv|raw}}<span class="red">*</span>
+      </div>
+      <div class="col-md-4 col-xs-12 marginBottomSmallScreen">
+            <div class="input-group" id="cvUpload">
+                <span class="input-group-btn">
+                    <a  class="btn btn-secondary btn-file btn-small" style="width:80px;margin-right:0px;" >
+                        Browse&hellip; <input type="file" name="jobUploadCV" required size="10" id="paddingSideSmallScreen"  tabindex="14"/>
+                    </a>
+                </span>
+                <input type="text" class="form-control" readonly style="height:24px;border-left:0;"/>
+            </div>
+
+      </div>
+    </div>
+    <div class="uploadbis">
+      <div class="col-md-3 col-xs-12 marginBottomSmallScreen paddingLeftRightZero" >
+       {{xml.applyUpload.other|raw}}
+      </div>
+      <div class="col-md-4 col-xs-12 marginBottomSmallScreen">
+        <div class="input-group">
+                <span class="input-group-btn">
+                    <a  class="btn btn-secondary btn-file btn-small" style="width:80px;margin-right:0px;" >
+                        Browse&hellip; <input type="file" name="jobUploadOther" size="10" id="paddingSideSmallScreen"  tabindex="15" />
+                    </a>
+                </span>
+                <input type="text" class="form-control" readonly style="height:24px;border-left:0;"/>
+            </div>
+      </div>
+    </div>
+</div>
+
+</form>
+<button id="jobAppSubmit" class="three-btn btn-primary" style="margin-top:30px;" >{{xml.applySupport.applyButton | trans}}</button>
+  </center>
+    {% endif %}
+{% endblock %}
+
+{% block offerbox1 %}
+    <div class="sidebarTitlebar">
+        <h5>{{followus}}</h5>
+    </div>
+    <div class="sidebarContentBox">
+        <center>
+        <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+        <script type="IN/FollowCompany" data-id="207808" data-counter="right"></script>
+        </center>
+    </div>
+{% endblock %}
+
+{% block offerbox2 %}
+<div class="sidebarTitlebar">
+        <h5>{{sidebox.whyWorkTitle}}</h5>
+    </div>
+    <div class="sidebarContentBox">
+        <img src="https://s3.asiainspection.com/images/whyWork_img.jpg" width="100%" style="padding-top:5px;">
+        {{sidebox.whyWorkText|raw}}
+        <a target="_blank" href="https://www.youtube.com/watch?v=BAwhcc6GY30&list=PL8KLu_GoEuLVXxolg_qVQ416Ls_pMOtwk">{% trans %}See our Employee Videos{% endtrans %}</a>
+    </div>
+{% endblock %}

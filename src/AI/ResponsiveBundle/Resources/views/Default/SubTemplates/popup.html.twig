@@ -1,0 +1,284 @@
+{% set vidtype = app.request.query.get('video') %}
+{% set lang = app.request.query.get('lang') %}
+{% set width = app.request.query.get('width') %}
+{% set height = app.request.query.get('height') %}
+{% set poptype = app.request.query.get('type') %}
+{% if app.request.locale == "zh" %}
+    {% set assetsDomain = assets_china_domain %}
+{% else %}
+    {% set assetsDomain = assets_domain %}
+{% endif %}
+
+{% block stylesheets %}
+    {% stylesheets filter="scss"
+        '@AIResponsiveBundle/Resources/public/css/spriteAuditPhotos.scss'
+        '@AIResponsiveBundle/Resources/public/css/popup.scss'
+    %}
+    <link rel="stylesheet" href="{{asset_url}}"/>
+    {% endstylesheets %}
+    {% stylesheets filter="cssrewrite" filter='?uglifycss' 
+        '@AIResponsiveBundle/Resources/public/css/buttons.css'
+    %}
+    <link rel="stylesheet" href="{{asset_url}}"/>
+    {% endstylesheets %}
+{% endblock %}
+
+<script type='text/javascript' src='/js/mbox.js'></script>
+<script type='text/javascript' src='/js/jquery-1.11.2.min.js'></script>
+<script type='text/javascript' src='/js/jwplayer.js'></script>
+{% javascripts 
+  '@AIResponsiveBundle/Resources/public/js/popup.js' 
+  filter='?uglifyjs2' 
+ %}
+    <script type='text/javascript' src='{{ asset_url }}'></script>
+{% endjavascripts %}
+
+<script type='text/javascript'>jwplayer.key='oPERdfT2dyFZJbzR66CRCaeu1joZMpUwoWx6Gw==';</script>
+
+{% if vidtype == "inspection" %}
+<object width='690' height='387'>
+  <param name='movie' value='https://www.youtube.com/v/_wmLuZq1rk8?version=3%26autoplay=%26showinfo=0%26vq=hd720'></param>
+  <param name='allowScriptAccess' value='always'></param>
+  <embed src='https://www.youtube.com/v/_wmLuZq1rk8?version=%26autoplay=1%26showinfo=%26vq=hd720'
+         type='application/x-shockwave-flash'
+         allowscriptaccess='always'
+         width='690' height='387'></embed>
+</object>
+{% endif %}
+
+{% if vidtype == "hardlineinspection" %}
+<object width='690' height='387'>
+  <param name='movie' value='https://www.youtube.com/v/EK4hBPZPdqM?version=3%26autoplay=%26showinfo=0%26vq=hd720'></param>
+  <param name='allowScriptAccess' value='always'></param>
+  <embed src='https://www.youtube.com/v/EK4hBPZPdqM?version=%26autoplay=1%26showinfo=%26vq=hd720'
+         type='application/x-shockwave-flash'
+         allowscriptaccess='always'
+         width='690' height='387'></embed>
+</object>
+{% endif %}
+
+{% if vidtype == "inspectionyouku" %}
+<center>
+  <object width='620' height='387'>
+  <param name='movie' value='http://player.youku.com/player.php/sid/XNTg0NTgzOTcy/v.swf?isAutoPlay=true'></param>
+  <param name='quality' value='high'></param>
+  <param name='allowScriptAccess' value='always'></param>
+  <embed src='http://player.youku.com/player.php/sid/XNTg0NTgzOTcy/v.swf?isAutoPlay=tru%26quality=high' type='application/x-shockwave-flash' allowscriptaccess='always' width='620' height='387' quality='high'></embed>
+  </object>
+</center>
+{% endif %}
+
+{% if vidtype == "introvideo" %}
+  <div class='mboxDefault'>
+        <!-- %26controls=%26rel=0 add to url to hide controls and suggested content -->
+        <object id='introVidSlide'  width='932' height='523'>
+        <param name='movie' value='https://www.youtube.com/v/P-RrccyvHqI?version=3%26autoplay=%26showinfo=0%26rel=0%26vq=hd720'></param>
+        <param name='allowScriptAccess' value='always'></param>
+        <embed src='https://www.youtube.com/v/P-RrccyvHqI?version=%26autoplay=1%26showinfo=%26rel=%26vq=hd720'
+                type='application/x-shockwave-flash'
+                allowscriptaccess='always'
+                width='932' height='523'></embed>
+        </object>
+  </div><script type='text/javascript'>mboxCreate('homeintrovideo');</script>
+{% endif %}
+
+{% if vidtype == "mobilevideo" %}
+
+  <div class='mboxDefault'>
+        <!-- %26controls=&rel=0 add to url to hide controls and suggested content -->
+        <object id='introVidSlide'  width='932' height='523'>
+        <param name='movie' value='https://www.youtube.com/v/5Ia6atTejhI?version=3&autoplay=1&showinfo=0&rel=0&vq=hd720'></param>
+        <param name='allowScriptAccess' value='always'></param>
+        <embed src='https://www.youtube.com/v/5Ia6atTejhI?version=&autoplay=1&showinfo=&rel=&vq=hd720'
+                type='application/x-shockwave-flash'
+                allowscriptaccess='always'
+                width='932' height='523'></embed>
+        </object>
+  </div><script type='text/javascript'>mboxCreate('homeintrovideo');</script>
+{% endif %}
+
+{% if vidtype == "demo" %}
+  <div class='mboxDefault'>
+      <object id='demovid' style='display:none;' width='690' height='387'>
+      <param name='movie' value='https://www.youtube.com/v/xkgWD4KLccY?version=3%26autoplay=%26showinfo=0%26vq=hd720'></param>
+      <param name='allowScriptAccess' value='always'></param>
+      <embed src='https://www.youtube.com/v/xkgWD4KLccY?version=%26autoplay=1%26showinfo=%26vq=hd720'
+          type='application/x-shockwave-flash'
+          allowscriptaccess='always'
+          width='733' height='416'></embed>
+      </object>
+  </div>
+  <script type='text/javascript'>mboxCreate('en_service_demo_video');</script>
+{% endif %}
+
+{% if vidtype == "labTestDemo" %}
+  <center>
+    <object id='inspectvid' width='690' height='387'>
+      <param name='movie' value='https://www.youtube.com/v/3uCnmUjtioM?version=3&autoplay=1&showinfo=0&vq=hd720'></param>
+      <param name='allowScriptAccess' value='always'></param>
+      <embed src='https://www.youtube.com/v/3uCnmUjtioM?version=&autoplay=1&showinfo=&vq=hd720'
+          type='application/x-shockwave-flash'
+          allowscriptaccess='always'
+          width='739' height='416'></embed>
+    </object>
+  </center>
+{% endif %}
+
+{% if vidtype == "labdemo" %}
+  <script type='text/javascript'>window.location='{{assetsDomain}}/files/asiaDemo_web_LT.html';</script>
+{% endif %}
+
+{% if vidtype == "watchinspectionWithLinks" %}
+  <div class='mboxDefault'>
+    <object id='demovid' style='display:none;' width='690' height='387'>
+    <param name='movie' value='https://www.youtube.com/v/xkgWD4KLccY?version=3%26autoplay=%26showinfo=0%26vq=hd720'></param>
+    <param name='allowScriptAccess' value='always'></param>
+    <embed src='https://www.youtube.com/v/xkgWD4KLccY?version=%26autoplay=1%26showinfo=%26vq=hd720'
+        type='application/x-shockwave-flash'
+        allowscriptaccess='always'
+        width='733' height='416'></embed>
+    </object>
+    
+    <object id='inspectvid' width='690' height='387'>
+    <param name='movie' value='https://www.youtube.com/v/gt1ZyhcOD78?version=3%26autoplay=%26showinfo=0%26vq=hd720'></param>
+    <param name='allowScriptAccess' value='always'></param>
+    <embed src='https://www.youtube.com/v/gt1ZyhcOD78?version=%26autoplay=1%26showinfo=%26vq=hd720'
+        type='application/x-shockwave-flash'
+        allowscriptaccess='always'
+        width='733' height='416'></embed>
+    </object>
+  </div><script type='text/javascript'>mboxCreate('dualdemoinspect');</script>
+  
+  <div style='margin:0px 0px 15px 2px; position:absolute; bottom:0px; width:98%;'>
+  <div style='float:left;'>
+    <a href='javascript:' vid='inspection' class='demoInspectionSwitch' style='text-decoration:none; font-size:16px; color:black; font-weight:bold;'>Watch Inspection</a> <span style='font-size:16px; color:#b0b0b0; font-weight:bold;'>/</span> <a href='javascript:' vid='demo' class='demoInspectionSwitch' style='text-decoration:none; font-size:16px; color:#b0b0b0; font-weight:bold;'>See Demo</a>
+  </div>
+{% endif %}
+
+{% if vidtype == "watchdemo" %}
+    {% if lang == "zh" %}
+      <center><embed src='http://player.youku.com/player.php/sid/XMzA3NTg1Njg4NA==/v.swf' allowFullScreen='true' quality='high' width='100%' height="95%" align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed></center>
+    {% else %}
+      <center>
+        <object id='inspectvid' width='690' height='387'>
+        <param name='movie' value='https://www.youtube.com/v/xkgWD4KLccY?version=3&autoplay=1&showinfo=0&vq=hd720'></param>
+        <param name='allowScriptAccess' value='always'></param>
+        <embed src='https://www.youtube.com/v/xkgWD4KLccY?version=3&autoplay=1&showinfo=0&vq=hd720'
+            type='application/x-shockwave-flash'
+            allowscriptaccess='always'
+            width='739' height='416'></embed>
+        </object>
+      </center>
+    {% endif %}
+{% endif %}
+
+{% if vidtype == "watchinspection" %}
+    {% set vidcat = app.request.query.get('category') %}
+    <center>
+
+    {% if vidcat is defined and vidcat == "electronics" %}
+        <object id='inspectvid' width='690' height='387'>
+        <param name='movie' value='https://www.youtube.com/v/BDWTnDaOl0U?version=3&autoplay=&showinfo=0&vq=hd720'></param>
+        <param name='allowScriptAccess' value='always'></param>
+        <embed src='https://www.youtube.com/v/BDWTnDaOl0U?version=&autoplay=1&showinfo=&vq=hd720'
+            type='application/x-shockwave-flash'
+            allowscriptaccess='always'
+            width='742' height='434'></embed>
+        </object>
+    {% else %}
+        <object id='inspectvid' width='690' height='387'>
+        <param name='movie' value='https://www.youtube.com/v/gt1ZyhcOD78?version=3&autoplay=&showinfo=0&vq=hd720'></param>
+        <param name='allowScriptAccess' value='always'></param>
+        <embed src='https://www.youtube.com/v/gt1ZyhcOD78?version=&autoplay=1&showinfo=&vq=hd720'
+            type='application/x-shockwave-flash'
+            allowscriptaccess='always'
+            width='742' height='434'></embed>
+        </object>
+    {% endif %}
+
+    </center>
+{% endif %}
+
+{% if type is defined %}
+    {% if (type == "factoryauditphotos" or type == "auditphotos" ) %}
+    <div id="popupcontent" style="" dir="ltr">
+      <!-- Main Image and Sliders -->
+      <center>
+        {% if smallScreen == 0 %}
+        <div style="width:525px;z-index:20;height:{% if type =="auditphotos" %}65%{% else %}61%{% endif %};overflow:hidden;text-align:center;">
+          <div style="position:absolute;width:525px;padding-top:25%;">
+            <div style="position:relative;z-index:100;float:left;">
+              <div class="spriteSliderArrow_prev homeSliderArrow"></div>
+            </div>
+            <div style="position:relative;z-index:100;float:right;">
+              <div class="spriteSliderArrow_next homeSliderArrow"></div>
+            </div>
+          </div>
+          {% else %}
+          <div>
+          {% endif %}
+          <img id="RealAuditMain" src="{{assetsDomain}}/images/{% if type =="auditphotos" %}realaudit{% else %}realfactoryaudit{% endif %}/{{images[0]}}" style="width:100%;">
+        </div>
+
+        <!-- Text container for each image's text description -->
+        {% if smallScreen == 0 %}
+        <div id="RealAuditText" style="width:535px;margin:10px 0px;padding-left:3px;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;text-align:left;">{{texts[0]}}</div>
+        {% else %}
+         <div id="RealAuditText" style="width:100%;margin-top:15px;margin-bottom:30px;font-family:Arial,Helvetica,sans-serif;font-size:45px;font-weight:bold;text-align:center;">{{texts[0]}}</div>
+        {% endif %}
+        <!-- The thumbnail images -->
+        {% if smallScreen == 0 %}
+        <div style="margin-bottom:10px;width:545px;text-align:center;">
+        {% else %}
+         <div style="width:90%;padding-left:5%;padding-right:5%;">
+          {% endif %}
+          {% set row = 0 %}
+          {% set i = 0 %}
+             {% for image in images %}
+            <div style=" {% if smallScreen == 0 %}width:50px;height:50px;margin:5px;{% else %}width:20%;height:8%;margin:2.5%;{% endif %}float:left;">
+             {% if smallScreen == 0 %}<img class="RealAuditThumb {{thumbs[i]}}" inuse="{% if row==0 %}true{% endif %}" src="{{assetsDomain}}/images/transp.gif" style="cursor:pointer;{% if row==0 %}border:2px solid red;{% endif %}" txt="{{texts[i]}}" fullpic="{{images[i]}}"  />
+             {% else %}
+             <img class="RealAuditThumb" src="{{assetsDomain}}/images/{% if type =="auditphotos" %}realaudit{% else %}realfactoryaudit{% endif %}/{{images[i]}}" inuse="{% if row==0 %}true{% endif %}" src="{{assetsDomain}}/images/transp.gif" style="cursor:pointer;{% if row==0 %}border:2px solid red;{% endif %}" txt="{{texts[i]}}" fullpic="{{images[i]}}" width="100%" height="100%" />
+             {% endif %}
+            </div>
+          {% set row = row+1 %}
+          {% set i = i +1 %}
+          {% endfor %}
+          <div style="clear:both;"></div>
+        </div>
+      </center>
+      <script type="text/javascript">
+        //preloading images
+        var RealAuditImages = new Array();
+        popupPreloadTimer = setInterval(function(){
+          if($("#popupcontent:visible").length == 1){
+            clearInterval(popupPreloadTimer);
+            $(".RealAuditThumb").each(function(index){
+              $(this).attr("index",index);
+              RealAuditImages[index] = new Image();
+              RealAuditImages[index].src = "{{assetsDomain}}/images/{% if type =="auditphotos" %}realaudit{% else %}realfactoryaudit{% endif %}/"+$(this).attr("fullpic");
+            });
+          }
+        }, 100);
+      </script>
+    </div>
+    {% endif %}
+    {% if type == "consentGiven" %}
+      <div style="padding:0px 10px;">
+        <p>Thank you for your confirmation. You will continue receiving our emails.</p>
+        <p>Feel free to choose the emails that interest you on this page.</p>
+        <center><a href="javascript:void(0);" class="btn btn-primary" role="button" onClick="parent.eval('tb_remove()');">Ok</a></center>
+      </div>
+    {% endif %}
+    <script type="text/javascript">
+           //Whenever thumbnail is clicked in the Real Audit Photos box
+          $(".RealAuditThumb").click(function(){
+            $(".RealAuditThumb").css("border","0px").attr("inuse","");
+            Thumb = this;
+            $(Thumb).css("border","2px solid red").attr("inuse","true");
+            $("#RealAuditMain").attr("src",RealAuditImages[$(Thumb).attr("index")].src);
+            $("#RealAuditText").html($(Thumb).attr("txt"));
+          });
+          /******************************************************************************************************************/
+    </script>
+{% endif %}

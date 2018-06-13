@@ -1,0 +1,38 @@
+<div id="fixedNavSpacer" style="height:85px; width:100%;"></div>
+<nav class="navbar navbar-ai" style="text-align:center; position:fixed; background-color:white; width:100%; border-radius:0px; z-index:1999; top:0px; border-bottom:1px solid #333333;">
+
+    <div class="container-fluid wrapper" style="padding:10px 0px 10px 0px;">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="row" style="margin:0px;">
+
+            <div class="navbar-header col-xs-offset-1 col-xs-10 col-sm-1 col-md-2 col-lg-3 col-xl-offset-0" style="padding-bottom:0px;">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/">
+                     {% if app.request.locale == "zh" %}<div id="ChinaInspection_Logo" style="margin-top:2px;"></div>
+                     {% else %}<div id="AI_Logo" style="margin-top:0px;"></div>{% endif %}
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse" style="padding:0px;">
+                <div id="rightNavWrapper" class="col-xs-12 col-sm-10 col-md-9 col-lg-8 pull-right">
+                    <ul id="mainNav" class="nav navbar-nav" style="width:100%;">
+                        <li class="tab pull-right"><a href="https://www.asiainspection.com/register">{% trans %}Create Your Account{% endtrans %}</a></li>
+                        <li class="tab pull-right"><a href="https://customer.asiainspection.com/login" style="color:#b31820;">{% trans %}Log In{% endtrans %}</a></li>
+                        <li class="tab pull-right"><a href="https://www.asiainspection.com/contact-us">{% trans %}Contact{% endtrans %}</a></li>
+                        <div style="clear:both;"></div>
+                    </ul>
+                    <div style="clear:both;"></div>
+               </div> <!-- nav wrapper Div -->
+
+            </div><!-- /.navbar-collapse -->
+
+        </div> <!-- ./end of row -->
+
+    </div><!-- /.container-fluid -->
+</nav>

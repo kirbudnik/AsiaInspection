@@ -1,0 +1,24 @@
+{% extends 'AIResponsiveBundle:aboutUs:aboutUsBase.html.twig'%}
+{% block title %}Thank You For Your Feedback! | Asiainspection.com{% endblock %}
+{% block pagename %}surveyThanks{% endblock %}
+{% block bigTitle %}Thank You For Your Feedback{% endblock %}
+{% block smallText %}{% endblock %}
+
+{% block aboutUsMainBlock %}
+    <br />
+    <p>If there's anything we can do to meet your quality control needs in Asia, please contact us at <a href="mailto:customerservice@asiainspection.com">customerservice@asiainspection.com</a> or visit our <a href="/contact-us">contact us</a> page.</p>
+    {% if feedbackGiven is defined and feedbackGiven == true %}
+        
+    {% else %}
+        <p style="margin:30px 0px 10px;">Feel free to share any additional comments you may have:</p>
+        <br />
+        <form action="" method="post">
+            <input type="hidden" id="recordID" name="recordID" value="{{recordID}}" />
+            <textarea id="surveyComments" name="surveyComments" style="width:100%;" rows="5"></textarea>
+            <br /><br />
+            <center><button type="submit" class="btn-primary" style="min-width:180px;">Submit</button></center>
+        </form>
+    {% endif %}
+    <br />
+{% endblock %}
+

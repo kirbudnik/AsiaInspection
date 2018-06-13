@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<en>
+		<title>Need More Information?</title>
+		<subtitle>We'll respond within 24 hours.</subtitle>
+		<userName>Name</userName>
+		<companyName>Company</companyName>
+		<emailAddress>Email</emailAddress>
+		<country>Country</country>
+		<telephone>Telephone</telephone>
+		<qstn>Question</qstn>
+		<howHearQstn>How did you hear about us?</howHearQstn>
+		<messageTextBox>Please type your question in English here</messageTextBox>
+		<submitButtonText>Contact Me</submitButtonText>
+		<refSampLink>/quality-control-coverage-asia-china</refSampLink>
+		<refSampLinkText>Looking for where to send reference samples?</refSampLinkText>
+		<questions>
+			<item val="1">Our services (prices, locations ,products...)</item>
+			<item val="2">The AI website</item>
+			<item val="3">A current Order with AI</item>
+			<item val="4">A job application</item>
+			<item val="Other">Other</item>
+		</questions>
+		<error>Bitte füllen Sie dieses Feld</error>
+		<formSubmitted><![CDATA[Thank you - your inquiry has been sent.<br />We will come back to you shortly.]]></formSubmitted>
+		<contactagree>By contacting AI you agree to our</contactagree>
+		<policy> privacy policy</policy>
+	</en>
+	<es>
+		<title>¿Necesita más información?</title>
+		<subtitle>Le contestaremos en menos de 24 horas.</subtitle>
+		<userName>Nombre</userName>
+		<companyName>Empresa</companyName>
+		<emailAddress>Email</emailAddress>
+		<country>País</country>
+		<telephone>Teléfono</telephone>
+		<qstn>Pregunta</qstn>
+		<howHearQstn>¿Cómo ha oido hablar de nosotros?</howHearQstn>
+		<messageTextBox>Por favor, escriba su pregunta aquí</messageTextBox>
+		<submitButtonText>Enviar</submitButtonText>
+		<refSampLink>/quality-control-coverage-asia-china</refSampLink>
+		<refSampLinkText>Looking for where to send reference samples?</refSampLinkText>
+		<questions>
+			<item val="1">Nuestros Servicios (tarifas, sedes ,productos...)</item>
+			<item val="2">El sito web de AI</item>
+			<item val="3">Una petición en curso con AI</item>
+			<item val="4">Una solicitud de trabajo</item>
+			<item val="Other">Otros</item>
+		</questions>
+		<error>Por favor cumplimente este campo</error>
+		<formSubmitted><![CDATA[Gracias - su consulta ha sido enviada.<br />Le responderemos en breve.]]></formSubmitted>
+		<contactagree>By contacting AI you agree to our</contactagree>
+		<policy> privacy policy</policy>
+	</es>
+
+	<ar>
+		<title>هل تحتاج إلى معلومات أخرى؟</title>
+		<subtitle>سيصلك ردنا فى خلال ٢٤ ساعه</subtitle>
+		<userName>الإسم الكامل</userName>
+		<companyName>الشركة</companyName>
+		<emailAddress>عنوان البريد الإلكتروني</emailAddress>
+		<country>البلد</country>
+		<telephone>رقم الهاتف</telephone>
+		<qstn>سؤال</qstn>
+		<howHearQstn>كيف سمعت عنا؟</howHearQstn>
+		<messageTextBox>يرجي كتابة السؤال باللغة الإنجليزية</messageTextBox>
+		<submitButtonText>إرسل الآن</submitButtonText>
+		<refSampLink>/quality-control-coverage-asia-china</refSampLink>
+		<refSampLinkText>هل تبحث عن المكان الذي سوف ترسل إليه  العينة المرجعية ؟</refSampLinkText>
+		<questions>
+			<item val="1">خدماتنا (الأسعار والمواقع والمنتجات)</item>
+			<item val="2">مواقعنا على الإنترنت</item>
+			<item val="3">الطلبات الحالية</item>
+			<item val="4">استمارة العمل</item>
+			<item val="Other">طلبات أخرى</item>
+		</questions>
+		<error>يرجى تعبئة هذا الفراغ</error>
+		<formSubmitted><![CDATA[شكراً لقد تم إرسال استفساراتك .<br />سوف يتم الرد على استفساراتك في أقرب وقت .]]></formSubmitted>
+		<contactagree>By contacting AI you agree to our</contactagree>
+		<policy> privacy policy</policy>
+	</ar>
+
+	<zh>
+		<title>需要更多信息？</title>
+		<subtitle>我们将在24小时内回复您</subtitle>
+		<userName>姓名</userName>
+		<companyName>公司名称</companyName>
+		<emailAddress>电子邮箱</emailAddress>
+		<country>国家/地区</country>
+		<telephone>电话</telephone>
+		<qstn>问题</qstn>
+		<howHearQstn>您是如何得知我们的?</howHearQstn>
+		<messageTextBox>请在这里用英文输入您的问题</messageTextBox>
+		<submitButtonText>现在发送</submitButtonText>
+		<refSampLink>/quality-control-coverage-asia-china</refSampLink>
+		<refSampLinkText>样品邮寄地在哪？</refSampLinkText>
+		<questions>
+			<item val="1">我们的服务（价格，位置，产品...）</item>
+			<item val="2">AI亚检网站</item>
+			<item val="3">一个当前的AI亚检订单</item>
+			<item val="4">一个工作申请</item>
+			<item val="Other">其他</item>
+		</questions>
+		<error>请填写这些项目</error>
+		<formSubmitted><![CDATA[Thank you - your inquiry has been sent.<br />We will come back to you shortly.]]></formSubmitted>
+		<contactagree>By contacting AI you agree to our</contactagree>
+		<policy> privacy policy</policy>
+	</zh>
+
+	<fr>
+		<title>Besoin de plus d'informations ?</title>
+		<subtitle>Nous vous répondrons dans les 24 heures.</subtitle>
+		<userName>Nom</userName>
+		<companyName>Entreprise</companyName>
+		<emailAddress>Courriel</emailAddress>
+		<telephone>Téléphone</telephone>
+		<country>Pays</country>
+		<qstn>Question</qstn>
+		<messageTextBox>Saisissez votre question ici</messageTextBox>
+		<submitButtonText>Envoyez maintenant</submitButtonText>
+		<formSubmitted><![CDATA[TMerci – votre demande a bien été envoyée.<br/>Nous reviendrons vers vous très vite]]></formSubmitted>
+		<questions>
+			<item val="1">Nos services (prix, lieux, produits...)</item>
+			<item val="2">Le Site Web d'AI</item>
+			<item val="3">Une Commande en cours avec AI</item>
+			<item val="4">Une candidature</item>
+			<item val="Other">Autre</item>
+		</questions>
+		<error>Merci de remplir ce champ</error>
+		<contactagree>By contacting AI you agree to our</contactagree>
+		<policy> privacy policy</policy>
+	</fr>
+
+	<ar>
+		<!-- Arabic Content -->
+	</ar>
+
+	<de>
+		<title>Mehr Informationen?</title>
+		<subtitle>Wir werden innerhalb von 24 Stunden antworten.</subtitle>
+		<userName>Name</userName>
+		<companyName>Unternehmen</companyName>
+		<emailAddress>Email</emailAddress>
+		<country>Land</country>
+		<telephone>Telefon</telephone>
+		<qstn>Frage</qstn>
+		<howHearQstn>Woher haben Sie von uns gehört?</howHearQstn>
+		<messageTextBox>Bitte geben Sie Ihre Frage auf Englisch hier ein</messageTextBox>
+		<submitButtonText>Jetzt Senden</submitButtonText>
+		<refSampLink>/quality-control-coverage-asia-china</refSampLink>
+		<refSampLinkText>Wohin können Sie Referenzproben schicken? </refSampLinkText>
+		<questions>
+			<item val="1">Unsere Leistungen (Preise, Orte, Produkte…)</item>
+			<item val="2">Die AI-Webseite</item>
+			<item val="3">Ein laufender Auftrag mit AI</item>
+			<item val="4">Eine Job-Bewerbung</item>
+			<item val="Other">Andere</item>
+		</questions>
+		<error>Bitte füllen Sie dieses Feld aus</error>
+		<formSubmitted><![CDATA[Vielen Dank - Ihre Anfrage wurde abgeschickt. <br /> Wir melden uns in Kürze.]]></formSubmitted>
+		<contactagree>By contacting AI you agree to our</contactagree>
+		<policy> privacy policy</policy>
+	</de>
+
+	<ru>
+		<title>Вам нужна более подробная информация?</title>
+		<subtitle>Мы отвечаем в течение 24 часов.</subtitle>
+		<userName>Фамилия</userName>
+		<companyName>Компания</companyName>
+		<emailAddress>Электронная почта</emailAddress>
+		<country>Страна</country>
+		<telephone>Телефон</telephone>
+		<qstn>Question</qstn>
+		<howHearQstn>How did you hear about us?</howHearQstn>
+		<messageTextBox>Пожалуйста, напишите ваш вопрос по-английски здесь</messageTextBox>
+		<submitButtonText>Свяжитесь со мной</submitButtonText>
+		<refSampLink>/quality-control-coverage-asia-china</refSampLink>
+		<refSampLinkText>Looking for where to send reference samples?</refSampLinkText>
+		<questions>
+			<item val="1">Our services (prices, locations ,products...)</item>
+			<item val="2">The AI website</item>
+			<item val="3">A current Order with AI</item>
+			<item val="4">A job application</item>
+			<item val="Other">Other</item>
+		</questions>
+		<error>Bitte füllen Sie dieses Feld</error>
+		<formSubmitted><![CDATA[Thank you - your inquiry has been sent.<br />We will come back to you shortly.]]></formSubmitted>
+		<contactagree>Связываясь с AI, вы соглашаетесь с нашей политикой</contactagree>
+		<policy> конфиденциальности</policy>
+	</ru>
+
+	<es>
+		<!-- Spanish Content -->
+	</es>
+
+	<it>
+		<title>Need More Information?</title>
+		<subtitle>We'll respond within 24 hours.</subtitle>
+		<userName>Name</userName>
+		<companyName>Company</companyName>
+		<emailAddress>Email</emailAddress>
+		<country>Country</country>
+		<telephone>Telephone</telephone>
+		<qstn>Question</qstn>
+		<howHearQstn>How did you hear about us?</howHearQstn>
+		<messageTextBox>Please type your question in English here</messageTextBox>
+		<submitButtonText>Contact Me</submitButtonText>
+		<refSampLink>/quality-control-coverage-asia-china</refSampLink>
+		<refSampLinkText>Looking for where to send reference samples?</refSampLinkText>
+		<questions>
+			<item val="1">Our services (prices, locations ,products...)</item>
+			<item val="2">The AI website</item>
+			<item val="3">A current Order with AI</item>
+			<item val="4">A job application</item>
+			<item val="Other">Other</item>
+		</questions>
+		<error>Bitte füllen Sie dieses Feld</error>
+		<formSubmitted><![CDATA[Thank you - your inquiry has been sent.<br />We will come back to you shortly.]]></formSubmitted>
+		<contactagree>By contacting AI you agree to our</contactagree>
+		<policy> privacy policy</policy>
+	</it>
+
+	<pt>
+		<title>PRECISA DE MAIS INFORMAÇÕES?</title>
+		<subtitle>Responderemos em 24 horas.</subtitle>
+		<userName>Nome</userName>
+		<companyName>Empresa</companyName>
+		<emailAddress>Email</emailAddress>
+		<country>Country</country>
+		<telephone>Telefone</telephone>
+		<qstn>Question</qstn>
+		<howHearQstn>How did you hear about us?</howHearQstn>
+		<messageTextBox>Escreve a sua pergunta em inglês aqui</messageTextBox>
+		<submitButtonText>Contatar-me</submitButtonText>
+		<refSampLink>/quality-control-coverage-asia-china</refSampLink>
+		<refSampLinkText>Looking for where to send reference samples?</refSampLinkText>
+		<questions>
+			<item val="1">Our services (prices, locations ,products...)</item>
+			<item val="2">The AI website</item>
+			<item val="3">A current Order with AI</item>
+			<item val="4">A job application</item>
+			<item val="Other">Other</item>
+		</questions>
+		<error>Bitte füllen Sie dieses Feld</error>
+		<formSubmitted><![CDATA[Thank you - your inquiry has been sent.<br />We will come back to you shortly.]]></formSubmitted>
+		<contactagree>Ao contactar a AI concorda com a nossa</contactagree>
+		<policy> política de privacidade</policy>
+	</pt>
+
+	<tr>
+		<title>DAHA FAZLA BİLGİYE Mİ İHTİYACINIZ VAR?</title>
+		<subtitle>24 saat içinde yanıt vereceğiz.</subtitle>
+		<userName>İsim</userName>
+		<companyName>Firma</companyName>
+		<emailAddress>E-posta</emailAddress>
+		<country>Country</country>
+		<telephone>Telefon</telephone>
+		<qstn>Question</qstn>
+		<howHearQstn>How did you hear about us?</howHearQstn>
+		<messageTextBox>Lütfen buraya sorunuzu İngilizce olarak yazın</messageTextBox>
+		<submitButtonText>Bana Ulaşın</submitButtonText>
+		<refSampLink>/quality-control-coverage-asia-china</refSampLink>
+		<refSampLinkText>Looking for where to send reference samples?</refSampLinkText>
+		<questions>
+			<item val="1">Our services (prices, locations ,products...)</item>
+			<item val="2">The AI website</item>
+			<item val="3">A current Order with AI</item>
+			<item val="4">A job application</item>
+			<item val="Other">Other</item>
+		</questions>
+		<error>Bitte füllen Sie dieses Feld</error>
+		<formSubmitted><![CDATA[Thank you - your inquiry has been sent.<br />We will come back to you shortly.]]></formSubmitted>
+		<contactagree>AI ile iletişime politikamızı kabul ediyorsunuz</contactagree>
+		<policy>geçerek gizlilik</policy>
+	</tr>
+</document>
+<!--
+**********************************************************
+Original Content [Begin]
+**********************************************************
+	<title>
+		<en>Need More Information?</en>
+		<zh></zh>
+		<fr>Plus d'informations</fr>
+		<ar>هل تحتاج إلى معلومات أخرى؟</ar>
+		<de>Mehr Informationen?</de>
+		<ru>Вам нужно больше информации?</ru>
+		<es>¿Necesita más información?</es>
+		<it>Maggiori informazioni?</it>
+		<pt>Necessita de mais informações?</pt>
+		<tr><![CDATA[<span style="font-size:17px;">Daha fazla bilgi ihtiyacınız var?</span>]]></tr>
+	</title>
+
+	<subtitle>
+		<en>We'll respond within 24 hours</en>
+		<zh></zh>
+		<es>Le contestaremos en menos de 24 horas</es>
+		<fr>Nous vous répondrons d'ici 24 heures</fr>
+		<ar>سيصلك ردنا فى خلال ٢٤ ساعه</ar>
+		<ru>Мы ответим в течение 24 часов</ru>
+		<pt>Nós vamos responder dentro de 24 horas</pt>
+		<tr><![CDATA[<span style="font-size:15px;">Biz 24 saat içinde cevap vereceğiz</span>]]></tr>
+	</subtitle>
+
+	<userName>
+		<en>Name</en>
+		<zh></zh>
+		<fr>Nom et prénom</fr>
+		<ar>الإسم الكامل</ar>
+		<de>Name</de>
+		<ru>Полное имя</ru>
+		<es>Nombre y Apellidos</es>
+		<it>Nome e Cognome</it>
+		<pt>Nome</pt>
+		<tr>Ad</tr>
+	</userName>
+
+	<companyName>
+		<en>Company</en>
+		<zh></zh>
+		<fr>Entreprise</fr>
+		<ar>الشركة</ar>
+		<de>Unternehmen</de>
+		<ru>Название компании</ru>
+		<es>Empresa</es>
+		<it>Azienda</it>
+		<pt>Firma</pt>
+		<tr>Şirket</tr>
+	</companyName>
+
+	<emailAddress>
+		<en>Email</en>
+		<zh></zh>
+		<fr>Email</fr>
+		<ar>عنوان البريد الإلكتروني</ar>
+		<de>Email</de>
+		<ru>Электронный адрес</ru>
+		<es>Email Profesional</es>
+		<it>E-mail</it>
+		<pt>E-mail</pt>
+		<tr>Email</tr>
+	</emailAddress>
+
+	<country>
+		<en>Country</en>
+		<zh></zh>
+		<fr>Pays</fr>
+		<de>Land</de>
+		<ru>Страна/регион</ru>
+		<es>País</es>
+		<ar>الدولة</ar>
+		<it>Paese</it>
+		<pt>País</pt>
+		<tr>Ülke</tr>
+	</country>
+
+	<telephone>
+		<en>Telephone</en>
+		<zh></zh>
+		<fr>Téléphone</fr>
+		<ar>رقم الهاتف</ar>
+		<de>Telefon</de>
+		<ru>Телефон</ru>
+		<es>Teléfono</es>
+		<it>Telefono</it>
+		<pt>Telefone</pt>
+		<tr>Telefon</tr>
+	</telephone>
+
+	<qstn>
+		<en>Question</en>
+		<zh></zh>
+		<fr>Question</fr>
+		<de>Frage</de>
+		<ru>Вопрос</ru>
+		<es>Pregunta</es>
+		<ar>سؤال</ar>
+		<it>Demande</it>
+		<pt>Pergunta</pt>
+		<tr>Soru</tr>
+	</qstn>
+
+	<howHearQstn>
+		<en>How did you hear about us?</en>
+		<zh></zh>
+		<fr>Comment avez-vous entendu parler de nous?</fr>
+		<de>Woher haben Sie von uns gehört?</de>
+		<ru>Как Вы узнали о нашей компании?</ru>
+		<es>¿Como nos ha conocido?</es>
+		<ar>كيف سمعت عنا؟</ar>
+		<it>Oer favore, scriva qui la sua richiesta</it>
+		<pt>Como você ficou sabendo sobre nós?</pt>
+	</howHearQstn>
+
+	<messageTextBox>
+		<en>Please type your question in English here</en>
+		<zh></zh>
+		<fr>Veuillez entrer votre question ici en anglais</fr>
+		<ar>يرجي كتابة السؤال باللغة الإنجليزية</ar>
+		<de>Bitte geben Sie Ihre Frage auf Englisch hier ein</de>
+		<ru>Введите свой вопрос на английском языке</ru>
+		<es>Por favor escriba su pregunta aquí</es>
+		<it>Come ci avete conosciuto</it>
+		<pt>Digite sua pergunta em Inglês aqui</pt>
+		<tr>Lütfen sorunuzu bu alana İngilizce olarak yazınız</tr>
+	</messageTextBox>
+
+	<submitButtonText>
+		<en>Send Now</en>
+		<zh></zh>
+		<fr>Envoyer</fr>
+		<ar>إرسل الآن</ar>
+		<de>Jetzt Senden</de>
+		<ru>послать сейчас</ru>
+		<es>Enviar</es>
+		<it>Invia</it>
+		<pt>Enviar agora</pt>
+		<tr>Şimdi Gönderin</tr>
+	</submitButtonText>
+
+	<refSampLink>
+		<en>/quality-control-coverage-asia-china</en>
+		<fr>/reseau-inspecteurs-asie</fr>
+		<pt>/cobertura-servicos-china-india-asia</pt>
+	</refSampLink>
+
+	<refSampLinkText>
+		<en>Looking for where to send reference samples?</en>
+		<zh></zh>
+		<fr>Où envoyer mes échantillons de référence?</fr>
+		<ar>هل تبحث عن المكان الئي سوف ترسل إلية العينة مرجعية الإنتاج ؟</ar>
+		<de>Wohin können Sie Referenzproben schicken? </de>
+		<ru>Вы не знаете, куда высылать образец?</ru>
+		<es>¿Quiere saber dónde enviar sus muestras?</es>
+		<it>Dove inviare i prodotti campione?</it>
+		<pt>Necessita saber para onde enviar amostras de referência?</pt>
+		<tr>Referans numunelerini nereye gönderebilirsiniz</tr>
+	</refSampLinkText>
+
+	<questions>
+		<en>
+			<item val="1">Our services (prices, locations ,products...)</item>
+			<item val="2">The AI website</item>
+			<item val="3">A current Order with AI</item>
+			<item val="4">A job application</item>
+			<item val="Other">Other</item>
+		</en>
+		<zh>
+
+		</zh>
+		<fr>
+			<item val="1">Nos services (prix, localisations ,produits...)</item>
+			<item val="2">Le site web d'AI</item>
+			<item val="3">Une commande en cours avec AI</item>
+			<item val="4">Candidature Spontanée</item>
+		</fr>
+		<de>
+			<item val="1">Our services (prices, locations ,products...)</item>
+			<item val="2">The AI website</item>
+			<item val="3">A current Order with AI</item>
+			<item val="4">A job application</item>
+			<item val="Other">Other</item>
+		</de>
+		<ar>
+			<item val="1">خدماتنا (الأسعار والمواقع والمنتجات)</item>
+			<item val="2">مواقعنا على الإنترنت</item>
+			<item val="3">الطلبات الحالية</item>
+			<item val="4">استمارة العمل</item>
+			<item val="Other">طلبات أخرى</item>
+		</ar>
+		<es>
+			<item val="1">Nuestros servicios (tarifas, lugares, productos ...) </item>
+			<item val="2">La web de AI</item>
+			<item val="3">Un pedido con AI</item>
+			<item val="4">Una solicitud de empleo</item>
+			<item val="Other">Otro</item>
+		</es>
+		<pt>
+			<item val="1">Nossos serviços (preços, locais, produtos ...)</item>
+			<item val="2">O site AI</item>
+			<item val="3">A ordem atual com AI</item>
+			<item val="4">A pedido de emprego</item>
+			<item val="Other">Outro</item>
+		</pt>
+		<ru>
+			<item val="1">наши услуги ( цены, расположение, продукция…)</item>
+			<item val="2">веб-сайт AI</item>
+			<item val="3">текущий заказ с AI</item>
+			<item val="4">Заявление о приеме на работу</item>
+			<item val="Other">другое</item>
+		</ru>
+	</questions>
+
+	<error>
+		<en>Please fill out this field</en>
+		<zh></zh>
+		<fr>Veuillez remplir ce champ</fr>
+		<de>Bitte füllen Sie dieses Feld</de>
+		<es>Por favor llene este campo</es>
+		<it>compilare questo campo</it>
+		<de>Füllen Sie dieses Feld</de>
+		<pt>Por favor, rellene este campo</pt>
+	</error>
+**********************************************************
+Original Content [End]
+**********************************************************
+-->

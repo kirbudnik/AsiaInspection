@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+  <coles>
+    <client>coles</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/coles-logo.jpeg</logo>
+  </coles>
+  <costco>
+    <client>costco</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/costco-logo.png</logo>
+  </costco>
+  <dunelmmills>
+    <client>dunelmmill</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/Dunelm-logo.png</logo>
+  </dunelmmills>
+  <dunelmmills>
+    <client>dunelmmill</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/Dunelm-logo.png</logo>
+  </dunelmmills>
+  <gap>
+    <client>gap</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/gap-logo.jpeg</logo>
+  </gap>
+  <groupe-dynamite>
+    <client>groupe-dynamite</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/Groupe-Dynamite-logo.jpg</logo>
+  </groupe-dynamite>
+  <jd>
+    <client>jd</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/jd-logo.png</logo>
+  </jd>
+  <marjane>
+    <client>marjane</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/marjane-logo.jpg</logo>
+  </marjane>
+  <mrprice>
+    <client>mr Price</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/mr-price-logo.jpg</logo>
+  </mrprice>
+  <target>
+    <client>target</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/target-logo.png</logo>
+  </target>
+  <woolworths>
+    <client>woolworths</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/woolworths-logo.jpg</logo>
+  </woolworths>
+  <xxxlutz>
+    <client>xxxlutz</client>
+    <logo>https://s3.asiainspection.com/images/client-logos/XXXLutz-logo.png</logo>
+  </xxxlutz>
+</document>

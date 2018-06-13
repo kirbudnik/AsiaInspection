@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+    <pageMeta>
+        <pageTitle>
+            <en>Inspection &amp; Audit Reference Samples | AsiaInspection</en>
+            <es>Inspección y auditoría de muestras de referencia | AsiaInspection</es>
+            <ar>عينات مرجعية</ar>
+            <fr>Échantillons de référence | AsiaInspection.fr</fr>
+            <zh>参考样品 | ChinaInspection.com</zh>
+            <ru>География предоставления услуг контроля качества |AsiaInspection</ru>
+            <de>Referenzmuster | AsiaInspection.de</de>
+            <tr>Muayene ve Denetim Referans Numuneleri | AsiaInspection</tr>
+            <pt>Relatórios de Amostras | AsiaInspection</pt>
+        </pageTitle>
+        <pageDesc>
+            <en>Providing inspection and audit reference samples is free and allows our teams to see exactly what your product should look like and how it should perform. Find out where to send your reference samples and get more details here.</en>
+            <es>Cobertura para el seguro de calidad y control de calidad en pruebas.</es>
+            <ar>شركتنا توفر خدمات فحص المنتجات داخل بلدان قارة آسيا وأفريقيا</ar>
+            <fr>Couverture des assurances pour les contrôles de qualité.</fr>
+            <tr>Muayene ve denetim referans numunesi sağlanması ücretsizdir ve ekiplerimizin ürünün nasıl görünmesi gerektiği ve bunun nasıl yapılması gerektiğini tam olarak görmelerini sağlar. Buradan referans numunelerinizi nereye göndereceğinizi ve daha fazla detayı bulabilirsiniz.</tr>
+            <pt>Os nossos últimos relatórios de amostras</pt>
+        </pageDesc>
+    </pageMeta>
+
+    <en>
+        <title>Reference Samples</title>
+        <titleSubText>Providing a reference sample is free and allows our teams to see exactly what your product should look like and how it should perform.</titleSubText>
+        <sendDetails>For details on where to send reference samples, select the type of service you will be providing a sample for.</sendDetails>
+        <inspectTabTitle>Inspection Reference Samples</inspectTabTitle>
+        <labTestTabTitle>Laboratory Testing Reference Samples</labTestTabTitle>
+        <selectRegion>Please select the region and country where the inspection will be performed:</selectRegion>
+        <region>Region</region>
+        <country>Country</country>
+        <city>City / Province</city>
+        <sendSamp>Send Your Samples To</sendSamp>
+        <contact>Contact</contact>
+        <addressLink>Address in Chinese [+/-]</addressLink>
+        <chinaShipTitle>For Shipments to China</chinaShipTitle>
+        <chinaShipDesc>On the declaration form, you must write the Importer Customs Registration Code RC: 4453661787</chinaShipDesc>
+        <labTestSampSend>All samples should be sent to our Lab Testing Sample Center for processing.</labTestSampSend>
+        <labTestAmerica>North and South America</labTestAmerica>
+        <labTestHK>Hong Kong</labTestHK>
+        <labTestinChina>Within China</labTestinChina>
+        <labTestNorthAf><![CDATA[<b>Northern Africa</b>: Algeria, Egypt, Morocco and Tunisia]]></labTestNorthAf>
+        <labTestSouthAf><![CDATA[<b>Southern Africa</b>: Botswana, Lesotho, Madagascar, Mauritius, South Africa and Swaziland]]></labTestSouthAf>
+        <offices>
+            <Region name="China">
+                <area>
+                    <city>Shenzhen Xiamen Hong Kong Guangzhou Dongguan Taiwan</city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Shenzhen</b><br />
+                        Attn: Reference Samples<br />
+                        2209 Guidu Building<br />
+                        3007 Chun Feng Road<br />
+                        Luohu District<br />
+                        Shenzhen, China 518001<br />
+                        <a href='javascript:void' style='display:inline-block;padding:5px 0px;' onClick="$('#ref_sz_chinese').animate({height: 'toggle'}, 500);">Address in Chinese [+/-]</a><br />
+                        <div id='ref_sz_chinese' style='display:none;'>
+                            亚检产品质量检验（深圳）有限公司<br />
+                            中国深圳罗湖春风路3007号桂都大厦2209<br />
+                            邮编：518001<br />
+                            <br style="font-size:4px;" />
+                        </div>
+                    ]]></address>
+                    <contact>+86 755 2223 9888</contact>
+                </area>
+                <area>
+                    <city>Hangzhou Ningbo Shanghai Beijing Qingdao</city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Hangzhou</b><br />
+                        Attn: Reference Samples<br />
+                        5th Floor, A2 Building<br />
+                        No. 1213 Huo Ju South Road<br />
+                        Binjiang District<br />
+                        Hangzhou, Zhejiang, China 310002<br />
+                        <a href='javascript:void' style='display:inline-block;padding:5px 0px;' onClick="$('#ref_hz_chinese').animate({height: 'toggle'}, 500);">Address in Chinese [+/-]</a><br />
+                        <div id='ref_hz_chinese' style='display:none;'>
+                            杭州亚检检测技术有限公司<br />
+                            联系人： 实验室测试组<br />
+                            杭州市滨江区浦沿街道<br />
+                            火炬南路1213号A2栋五楼<br />
+                            邮编：310002<br />
+                            <br style="font-size:4px;" />
+                        </div>
+                    ]]></address>
+                    <contact>+86 571 8999 7167</contact>
+                </area>
+            </Region>
+
+            <Region name="Bangladesh">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Dhaka</b><br />
+                        Attn: Reference Samples<br />
+                        Concept Tower, Flat no 13/D,<br />
+                        68,69 Green Road,<br />
+                        Dhaka, Bangladesh 1205<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+
+            <Region name="HongKong">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Shenzhen</b><br />
+                        Attn: Reference Samples<br />
+                        2209 Guidu Building<br />
+                        3007 Chun Feng Road<br />
+                        Luohu District<br />
+                        Shenzhen, China 518001<br />
+                        <a href='javascript:void' style='display:inline-block;padding:5px 0px;' onClick="$('#ref_hksz_chinese').animate({height: 'toggle'}, 500);">Address in Chinese [+/-]</a><br />
+                        <div id='ref_hksz_chinese' style='display:none;'>
+                            亚检产品质量检验（深圳）有限公司<br />
+                            中国深圳罗湖春风路3007号桂都大厦2209<br />
+                            邮编：518001<br />
+                            <br style="font-size:4px;" />
+                        </div>
+                    ]]></address>
+                    <contact>+86 755 2223 9888</contact>
+                </area>
+            </Region>
+
+            <Region name="India">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection New Dehli</b><br />
+                        Attn: Reference Samples<br />
+                        Flat No 306, 3rd Floor,<br />
+                        Sheetla House,<br /> 
+                        73-74, Nehru Place,<br /> 
+                        New Dehli, India 110019<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+
+            <Region name="Indonesia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Jakarta</b><br />
+                        Attn: Ridha Laksamana<br />
+                        Griya Kelud, Jl. Kelud Kiri Atas Kav 13 No.15,<br /> 
+                        Jatibening Baru, Pondokgede, Bekasi City,<br /> 
+                        Jawa Barat, Indonesia 17412<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+
+            <Region name="SouthKorea">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Seoul</b><br />
+                        Attn: Reference Samples<br />
+                        206-206, 8, 26 Kil Jungrung - Ro,<br /> 
+                        Sungbuk-ku, Seoul, Korea 02814<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+
+            <Region name="Malaysia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Kuala Lampur</b><br />
+                        Attn: Reference Samples<br />
+                        100 Ladang Jelebu,<br /> 
+                        71600 Kuala Klawang, Jelebu,<br /> 
+                        Negeri Sembilan Darul Khusus, Malaysia 70450<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+
+            <Region name="Pakistan">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Karachi</b><br />
+                        Attn: Reference Samples<br />
+                        A-424 Sector 11-B,<br />
+                        North Karachi,<br />
+                        Karachi Pakistan 75000<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+
+            <Region name="Philippines">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Philippines Inc</b><br />
+                        Attn: Reference Samples<br />
+                        13 Palm st. Apple Village 2 ,<br /> 
+                        Cainta, Rizal,<br /> 
+                        Philippines 1900<br />
+                    ]]></address>
+                    <contact>+63 32 272 2277</contact>
+                </area>
+            </Region>
+
+            <Region name="Taiwan">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Shenzhen</b><br />
+                        Attn: Reference Samples<br />
+                        2209 Guidu Building<br />
+                        3007 Chun Feng Road<br />
+                        Luohu District<br />
+                        Shenzhen, China 518001<br />
+                        <a href='javascript:void' style='display:inline-block;padding:5px 0px;' onClick="$('#ref_tw_chinese').animate({height: 'toggle'}, 500);">Address in Chinese [+/-]</a><br />
+                        <div id='ref_tw_chinese' style='display:none;'>
+                            亚检产品质量检验（深圳）有限公司<br />
+                            中国深圳罗湖春风路3007号桂都大厦2209<br />
+                            邮编：518001<br />
+                            <br style="font-size:4px;" />
+                        </div>
+                    ]]></address>
+                    <contact>+86 755 2223 9888</contact>
+                </area>
+            </Region>
+
+            <Region name="Thailand">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Bangkok</b><br />
+                        Attn: Reference Samples<br />
+                        49/270 Moo 5 Vararak Klong<br />
+                        336 Mittraparb Village, 
+                        Onnut road, Nongbon, Prawet, 
+                        Bangkok, Thailand 10250<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+
+            <Region name="Vietnam">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Vietnam</b><br />
+                        Attn: Reference Samples<br />
+                        House No 1, Floor 5, A Block,<br />
+                        Gia Phuc Apartment<br />
+                        To Vinh Dien Street<br />
+                        Thu Duc, Ho Chi Minh city<br />
+                        Vietnam 70000<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+
+            <Region name="Cambodia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Cambodia</b><br />
+                        Attn: Reference Samples<br />
+                        No.44o, St.2009,<br />
+                        Sangkat Kakab,<br />
+                        Khan Posenchey,<br />
+                        Phnom Penh Cambodia 12406<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+
+            <Region name="Myanmar">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Yangon</b><br />
+                        Attn: Reference Samples<br />
+                        No (47) , Santhawtar Rice Mail Street,<br /> 
+                        Aung Mingalar Quarter,<br /> 
+                        Hlegu Township, Yangon<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+
+            <Region name="Algeria">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Botswana">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Egypt">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>Ahmed Nasr Elsayed Abd Elhafez</b><br />
+                        Elbehera - Kafer eldawar, elmezana<br />
+                        borg elmarakby, 3rd floor<br />
+                        Egypt<br />
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Ethiopia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Jordan">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Lesotho">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Attn: Reference Samples<br />
+                        #A8 Taiwan Flats Mohlomi Road.<br />
+                        Maseru West,Maseru 100 Lesotho<br />
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Madagascar">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Mauritius">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Morocco">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Nigeria">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Swaziland">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Box 481 Mbabane<br />
+                        Swaziland H100<br />
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Tunisia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Albania">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="BosniaHerzegovina">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Bulgaria">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Croatia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Cyprus">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="CzechRepublic">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Denmark">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Estonia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Finland">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Germany">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Greece">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Hungary">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Ireland">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Italy">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Via Giuseppe Bentivogli 7<br />
+                        Int 9. 40138<br />
+                        Bologna, Italy<br />
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="France">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        28 rue Marbeuf<br />
+                        Paris, France<br />
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="UnitedKingdom">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Kosovo">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Latvia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Lithuania">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Macedonia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Malta">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Montenegro">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Poland">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Portugal">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Romania">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Serbia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Slovakia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Slovenia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Spain">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Paseo de la Castellana, 95, Planta 29<br />
+                        28046 - Madrid, Spain<br />
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Sweden">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Turkey">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Ozlem Uysal<br />
+                        Doganevler caddesi.<br />
+                        Ozsenbahce sitesi.<br />
+                        F Blok D: 36 Umraniye<br />
+                        Istanbul, Turkey<br />
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Argentina">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Uruguay">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Nicaragua">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Haiti">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="DominicanRepublic">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Brazil">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Chile">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Colombia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Guatemala">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Mexico">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Peru">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Australia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+            <Region name="Japan">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection New Dehli</b><br />
+                        Attn: Reference Samples<br />
+                        Flat No 306, 3rd Floor,<br />
+                        Sheetla House,<br /> 
+                        73-74, Nehru Place,<br /> 
+                        New Dehli, India 110019<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+            
+            <Region name="Laos">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Vietnam</b><br />
+                        House No 1, Floor 5, A Block,<br />
+                        Gia Phuc Apartment<br />
+                        To Vinh Dien Street<br />
+                        Thu Duc, Ho Chi Minh city<br />
+                        Vietnam 70000<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+            
+            <Region name="Singapore">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Kuala Lampur</b><br />
+                        Attn: Reference Samples<br />
+                        100 Ladang Jelebu,<br /> 
+                        71600 Kuala Klawang, Jelebu,<br />
+                        Negeri Sembilan Darul Khusus, Malaysia 70450<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+            
+            <Region name="SriLanka">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection Sri Lanka</b><br />
+                        Attn: Reference Samples<br />
+                        372 Peradiniya Road,<br /> 
+                        Gampola, Sri Lanka 20500<br />
+                    ]]></address>
+                    <contact>+91 11 4672 3300</contact>
+                </area>
+            </Region>
+            
+            <Region name="SaudiArabia">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+            <Region name="UnitedArabEmirates">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+            <Region name="Kenya">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+            <Region name="SouthAfrica">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        77 Burlington Road,<br />
+                        Reservoir Hills<br />
+                        Durban<br />
+                        South Africa
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+            <Region name="Belgium">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <!-- <Region name="BosniaHerzegovina">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+        
+            <Region name="CzechRepublic">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            -->
+            <Region name="Netherlands">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+            <Region name="Moldova">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+            <Region name="Switzerland">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+            <Region name="Ukraine">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+
+            <Region name="Canada">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Suite 2600, 4720 Kingsway,<br />
+                        Burnaby, Vancouver<br />
+                        Canada V5H 4N2
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region> 
+
+            <Region name="Ecuador">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+            <Region name="ElSalvador">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+            <Region name="Honduras">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        Please call +33 1 7997 9884 to find out where to send your samples.
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+            <Region name="UnitedStates">
+                <area>
+                    <city><![CDATA[<b class='red'>All Areas</b>]]></city>
+                    <address><![CDATA[
+                        <b>AsiaInspection</b><br />
+                        4455 Genesee Street<br />
+                        Building 6<br />
+                        Buffalo, NY 14225<br />
+                    ]]></address>
+                    <contact>+33 1 7997 9884</contact>
+                </area>
+            </Region>
+            
+        </offices>
+    </en>
+
+    <es>
+        <title>Muestras de referencia</title>
+        <titleSubText>Proporcionar una muestra de referencia es gratuito y permite a nuestros equipos ver exactamente cómo debe ser su producto y cómo se debe llevar a cabo.</titleSubText>
+        <sendDetails>Para más detalles sobre dónde enviar muestras de referencia, seleccione el tipo de servicio.</sendDetails>
+        <inspectTabTitle>Muestrar de referencia para inspecciones</inspectTabTitle>
+        <labTestTabTitle>Muestras de referencia para pruebas de laboratorio</labTestTabTitle>
+        <selectRegion>Por favor seleccione la región y el país donde se realizará la inspección:</selectRegion>
+        <region>Región</region>
+        <country>Pais</country>
+        <city>Ciudad / Provincia</city>
+        <sendSamp>Enviar sus muestras a</sendSamp>
+        <contact>Contacto</contact>
+        <addressLink>Dirección en Chino [+/-]</addressLink>
+        <chinaShipTitle>Para envíos a China</chinaShipTitle>
+        <chinaShipDesc>En el formulario de declaración, debe escribir el "Importer Customs Registration Code RC": 4453661787</chinaShipDesc>
+        <labTestSampSend>Todas las muestras deben ser enviadas a nuestro centro de análisis de muestras de laboratorio para su procesamiento.</labTestSampSend>
+        <labTestAmerica>North and South America</labTestAmerica>
+        <labTestHK>Hong Kong</labTestHK>
+        <labTestinChina>En China</labTestinChina>
+        <labTestNorthAf><![CDATA[<b>Norte de África</b>: Argelia, Egipto, Marruecos y Túnez]]></labTestNorthAf>
+        <labTestSouthAf><![CDATA[<b>Sur de África</b>: Botsuana, Lesoto, Madagascar, Mauricio, Sudáfrica y Suazilandia]]></labTestSouthAf>
+    </es>
+
+    <zh>
+        <title>质量控制遍及整个亚洲和非洲</title>
+        <titleSubText>AsiaInspection在亚洲地区和指定非洲国家提供反应更加迅速的产品检验、工厂审核及实验室测试服务。</titleSubText>
+        <samplesInspect><![CDATA[<b>检验样品组</b>： 请根据国家名称查找样品寄送地址。点击下图，相应的地址将会出现在地图的下方。]]></samplesInspect>
+        <samplesLab><![CDATA[<b>测试样品组</b>: 所有样品都需寄送至我们的测试样品中心以待测试。]]></samplesLab>
+        <addressLink>点击此处查看地址详情 [+/-]</addressLink>
+        <sendDetails>若要查看把样品送到哪里，请选择服务种类。</sendDetails>
+        <inspectTabTitle>产品检验</inspectTabTitle>
+        <labTestTabTitle>实验室测试</labTestTabTitle>
+        <selectRegion>请选择你想要进行检验的国家地区:</selectRegion>
+        <region>地区</region>
+        <country>国家</country>
+        <city>城市 / 省份</city>
+        <sendSamp>把你的样品送到</sendSamp>
+        <contact>联系</contact>
+        <chinaShipTitle>装运中国</chinaShipTitle>
+        <chinaShipDesc>On the declaration form, you must write the Importer Customs Registration Code RC: 4453661787</chinaShipDesc>
+        <labTestSampSend>所有样品必须送到我们的实验中心接受处理。</labTestSampSend>
+        <labTestAmerica>North and South America</labTestAmerica>
+        <labTestHK>Hong Kong</labTestHK>
+        <labTestinChina>中国境内</labTestinChina>
+        <labTestNorthAf><![CDATA[<b>Northern Africa</b>: Algeria, Egypt, Morocco and Tunisia]]></labTestNorthAf>
+        <labTestSouthAf><![CDATA[<b>Southern Africa</b>: Botswana, Lesotho, Madagascar, Mauritius, South Africa and Swaziland]]></labTestSouthAf>
+        <addressSlider>
+            <section>
+                <title><![CDATA[<b>中国</b>]]></title>
+                <address>
+                    <![CDATA[
+                    <b>Attn: Laboratory Testing</b><br />
+                    2209 Guidu Building <br />
+                    3007 Chun Feng Road <br />
+                    Luohu District <br />
+                    Shenzhen, China 518001<br />
+                    +86 755 2223 9888
+                    ]]>
+                </address>
+                <address>
+                    <![CDATA[
+                    <b>联系人：实验室测试组</b><br />
+                    亚检产品质量检验（深圳）有限公司<br />
+                    中国深圳罗湖春风路3007号桂都大厦2209<br />
+                    邮编：518001<br />
+                    +86 755 2223 9888
+                    ]]>
+                </address>
+            </section>
+            <section>
+                <title><![CDATA[<b>北非</b>: 阿尔及利亚，埃及，摩洛哥和突尼斯]]></title>
+                <address><![CDATA[
+                    <b>AsiaInspection</b><br />
+                    Attn: Reference Samples<br />
+                    Paseo de la Castellana, 95, Planta 29<br />
+                    28046 Madrid<br />
+                    Spain<br />
+                    +34 91 888 88 88
+                ]]></address>
+            </section>
+            <section>
+                <title><![CDATA[<b>Southern Africa</b>: Botswana, Lesotho, Madagascar, Mauritius, South Africa and Swaziland]]></title>
+                <address>
+                    <![CDATA[
+                    <b>Attn: Laboratory Testing</b><br />
+                    77 Burlington Road <br />
+                    Reservoir Hills<br />
+                    Durban, 4091<br />
+                    South Africa<br />
+                    +27 105 006 177
+                    ]]>
+                </address>
+            </section>
+        </addressSlider>
+
+    </zh>
+
+    <fr>
+        <title>Échantillons de référence</title>
+        <titleSubText>Tout échantillon de référence fourni est gratuit et permet à nos équipes de voir exactement à quoi votre produit devrait ressembler et comment il devrait fonctionner.</titleSubText>
+        <sendDetails>Pour savoir où envoyer vos échantillons de référence, sélectionnez ci-dessous le type de service commandé.</sendDetails>
+        <inspectTabTitle>Echantillon de référence pour l’inspection</inspectTabTitle>
+        <labTestTabTitle>Echantillon de référence pour un test de laboratoire</labTestTabTitle>
+        <selectRegion>Veuillez sélectionner le continent et la région où aura lieu l’inspection :</selectRegion>
+        <region>Continent</region>
+        <country>Pays</country>
+        <city>Ville / Province</city>
+        <sendSamp>Envoyez votre échantillon à :</sendSamp>
+        <contact>Contact</contact>
+        <chinaShipTitle>Pour un envoi en Chine</chinaShipTitle>
+        <chinaShipDesc>Sur la déclaration d’envoi, veuillez indiquer le « Importer Customs Registration Code RC » : 4453661787</chinaShipDesc>
+        <labTestSampSend>Tous les échantillons doivent être envoyés à notre Centre de Tests en Laboratoire des Échantillons pour analyse.</labTestSampSend>
+        <labTestAmerica>North and South America</labTestAmerica>
+        <labTestHK>Hong Kong</labTestHK>
+        <labTestinChina>En Chine</labTestinChina>
+        <labTestNorthAf><![CDATA[<b>Afrique du Nord</b>: Algerie, l'Egypte, le Maroc et la Tunisie]]></labTestNorthAf>
+        <labTestSouthAf><![CDATA[<b>Afrique du Sud</b>: Botswana, le Lesotho, Madagascar, Maurice, l'Afrique du Sud et Swaziland.]]></labTestSouthAf>
+        <samplesInspect><![CDATA[<strong>Echantillon de référence pour une inspection</strong>: Sur la carte ci-dessous, cliquez sur le pays où aura lieu l’inspection et l’adresse où envoyer votre échantillon de référence s’affichera.]]></samplesInspect>
+        <samplesLab><![CDATA[<strong>Echantillon de référence pour un test en laboratoire</strong>: Tous les échantillons de référence doivent être envoyés à notre centre d’échantillon pour tests en laboratoire. ]]></samplesLab>
+        <addressLink>Cliquez ici pour voir l’adresse s'afficher</addressLink>
+        <addressSlider>
+            <section>
+                <title><![CDATA[<b>En Chine</b>]]></title>
+                <address>
+                    <![CDATA[
+                    <b>Attn: Laboratory Testing</b><br />
+                    2209 Guidu Building <br />
+                    3007 Chun Feng Road <br />
+                    Luohu District <br />
+                    Shenzhen, China 518001<br />
+                    +86 755 2223 9888
+                    ]]>
+                </address>
+                <address>
+                    <![CDATA[
+                    <b>联系人：实验室测试组</b><br />
+                    亚检产品质量检验（深圳）有限公司<br />
+                    中国深圳罗湖春风路3007号桂都大厦2209<br />
+                    邮编：518001<br />
+                    +86 755 2223 9888
+                    ]]>
+                </address>
+            </section>
+            <section>
+                <title><![CDATA[<b>Afrique du Nord</b>: Algerie, l'Egypte, le Maroc et la Tunisie]]></title>
+                <address><![CDATA[
+                    <b>AsiaInspection</b><br />
+                    Attn: Reference Samples<br />
+                    Paseo de la Castellana, 95, Planta 29<br />
+                    28046 Madrid<br />
+                    Spain<br />
+                    +34 91 888 88 88
+                ]]></address>
+            </section>
+            <section>
+                <title><![CDATA[<b>Afrique du Sud</b>: Botswana, le Lesotho, Madagascar, Maurice, l'Afrique du Sud et Swaziland.]]></title>
+                <address>
+                    <![CDATA[
+                    <b>Attn: Laboratory Testing</b><br />
+                    77 Burlington Road <br />
+                    Reservoir Hills<br />
+                    Durban, 4091<br />
+                    South Africa<br />
+                    +27 105 006 177
+                    ]]>
+                </address>
+            </section>
+        </addressSlider>
+    </fr>
+
+    <de>
+        <title>Qualitätskontrolle in China und Asien</title>
+        <titleSubText>Inspektionen, Audits und Labortests werden von AsiaInspection maßgeschneitert und höchst flexibel vorbereitet und durchgeführt.</titleSubText>
+        <samplesInspect><![CDATA[<b>Beispielsamples</b>: Die richtige Adresse, um Ihr Beispielmuster zuzuschicken, finden Sie unten.]]></samplesInspect>
+        <samplesLab><![CDATA[<b>Laborsamples</b>: Alle Muster zur Laboruntersuchung sollen an unser Lab Testing Sample Center versendet werden.]]></samplesLab>
+        <addressLink>Klicken Sie hier für die Versandadresse</addressLink>
+        <sendDetails>Für Details, wohin die Referenzproben gesendet werden sollen, wählen Sie die Art der Leistung aus, für die Sie ein Muster abgeben. </sendDetails>
+        <inspectTabTitle>Kontrolle Referenzproben</inspectTabTitle>
+        <labTestTabTitle>Labortest Referenzproben</labTestTabTitle>
+        <selectRegion>Bitte wählen Sie Region und Land aus, in dem die Kontrolle durchgeführt wird:</selectRegion>
+        <region>Region</region>
+        <country>Country</country>
+        <city>Stadt / Region</city>
+        <sendSamp>Senden Sie Ihre Proben an</sendSamp>
+        <contact>Contact</contact>
+        <addressLink>Adresse auf Chinesisch [+/-]</addressLink>
+        <chinaShipTitle>Für Sendungen nach China</chinaShipTitle>
+        <chinaShipDesc>Auf dem Zollformular müssen Sie den Einfuhr-Zollregistrierungscode RC:4453661787 angeben</chinaShipDesc>
+        <labTestSampSend>Alle Proben sollten zur Weiterverarbeitung an unser Labortest-Probenzentrum geschickt werden. </labTestSampSend>
+        <labTestAmerica>North and South America</labTestAmerica>
+        <labTestHK>Hong Kong</labTestHK>
+        <labTestinChina>Innerhalb Chinas</labTestinChina>
+        <labTestNorthAf><![CDATA[<b>Nordafrika</b>: Algerien, Ägypten, Marokko und Tunesien]]></labTestNorthAf>
+        <labTestSouthAf><![CDATA[<b>Südliches Afrika </b>: Botswana, Lesotho, Madagaskar, Mauritius, Südafrika und Swasiland]]></labTestSouthAf>
+    </de>
+
+    <ar>
+        <title>خدمات الفحص لجودة المنتجات بقارتي أسيا و أفريقيا</title>
+        <sendDetails>للحصول على تفاصيل مكان إرسال العينات المرجعية، قم بإختيار نوع الخدمة للعينة المقدمة .</sendDetails>
+        <titleSubText>جميع خدمات الشركة من الفحص علي جودة المنتجات و خدمة التفتيش علي المصانع لضمان جودة الإنتاج إلي خدمة الإختبارات المعملية للمنتجات متوفره في جميع بلدان قارة أسيا و بعض  البلاد في قارة أفريقيا </titleSubText>
+        <inspectTabTitle>عينات مرجعية للفحص</inspectTabTitle>
+        <labTestTabTitle>عينات مرجعية للاختبارات المعملية</labTestTabTitle>
+        <selectRegion>الرجاء تحديد المنطقة والدولة التي سيتم إجراء الفحص بها:</selectRegion>
+            <region>المنطقة</region>
+        <country>البلد </country>
+        <city>المدينة / المحافظة </city>
+        <sendSamp>ارسل عيناتك إلى :</sendSamp>
+        <contact>رقم الاتصال</contact>
+        <addressLink>العنوان باللغة الصينية [+/-]</addressLink>
+        <chinaShipTitle>للشحنات إلى الصين</chinaShipTitle>
+        <chinaShipDesc>على نموذج البيان، يجب عليك كتابة رمز تسجيل جمارك المستورد RC: 4453661787</chinaShipDesc>
+        <labTestSampSend>يجب إرسال كل العينات إلى مركز اختبار العينة المعملي للمعالجة.</labTestSampSend>
+        <labTestAmerica>North and South America</labTestAmerica>
+        <labTestHK>Hong Kong</labTestHK>
+        <labTestinChina>داخل الصين</labTestinChina>
+        <labTestNorthAf><![CDATA[<b>شمال أفريقيا:</b> الجزائر ومصر والمغرب وتونس]]></labTestNorthAf>
+        <labTestSouthAf><![CDATA[<b>جنوب أفريقيا:</b> بتسوانا وليسوتو ومدغشقر وموريشيوس وجنوب أفريقيا وسوازيلاند]]></labTestSouthAf>
+        <samplesInspect><![CDATA[<b>عينات مرجعية الفحص علي جودة المنتجات :</b> للبحث عن العنوان الذي سوف يتم إرسال العيبنه الخاصه بمنتجك إليه يرجي الضغط علي أقرب موقع اقرب مكتب من مكاتبنا لموقعك علي الخريطه التاليه و سوف يظهر لك عنوان المكتب بالتفصيل تحت الخريطه]]></samplesInspect>
+        <samplesLab><![CDATA[<b>عينات مرجعية الإختبارات المعملية للمنتجات:</b>يرجي إرسال جميع عينات الإختبارات المعملية للمنتجات إلي مختبرنا المركزي ]]></samplesLab>
+        <addressLink>إضغط هنا للحصول علي عنوان المختبر</addressLink>
+        <addressSlider>
+            <section>
+                <title><![CDATA[<b>داخل الصين</b>]]></title>
+                <address>
+                    <![CDATA[
+                    <b>Attn: Laboratory Testing</b><br />
+                    2209 Guidu Building <br />
+                    3007 Chun Feng Road <br />
+                    Luohu District <br />
+                    Shenzhen, China 518001<br />
+                    +86 755 2223 9888
+                    ]]>
+                </address>
+                <address>
+                    <![CDATA[
+                    <b>联系人：实验室测试组</b><br />
+                    亚检产品质量检验（深圳）有限公司<br />
+                    中国深圳罗湖春风路3007号桂都大厦2209<br />
+                    邮编：518001<br />
+                    +86 755 2223 9888
+                    ]]>
+                </address>
+            </section>
+            <section>
+                <title><![CDATA[<b>شمال أفريقيا:</b> الجزائر ومصر والمغرب وتونس]]></title>
+                <address><![CDATA[
+                    <b>AsiaInspection</b><br />
+                    Attn: Reference Samples<br />
+                    Paseo de la Castellana, 95, Planta 29<br />
+                    28046 Madrid<br />
+                    Spain<br />
+                    +34 91 888 88 88
+                ]]></address>
+            </section>
+            <section>
+                <title><![CDATA[<b>جنوب أفريقيا:</b> بتسوانا وليسوتو ومدغشقر وموريشيوس وجنوب أفريقيا وسوازيلاند]]></title>
+                <address>
+                    <![CDATA[
+                    <b>Attn: Laboratory Testing</b><br />
+                    77 Burlington Road <br />
+                    Reservoir Hills<br />
+                    Durban, 4091<br />
+                    South Africa<br />
+                    +27 105 006 177
+                    ]]>
+                </address>
+            </section>
+        </addressSlider>
+    </ar>
+
+    <it>
+        <title>Campioni di Riferimento</title>
+        <titleSubText>La fornitura di un campione di riferimento è gratuita e consente ai nostri team di vedere esattamente come dovrebbe apparire il tuo prodotto e come dovrebbe funzionare.</titleSubText>
+        <sendDetails>For details on where to send reference samples, select the type of service you will be providing a sample for.</sendDetails>
+        <inspectTabTitle>Inspection Reference Samples</inspectTabTitle>
+        <labTestTabTitle>Laboratory Testing Reference Samples</labTestTabTitle>
+        <selectRegion>Please select the region and country where the inspection will be performed:</selectRegion>
+        <region>Region</region>
+        <country>Country</country>
+        <city>City / Province</city>
+        <sendSamp>Send Your Samples To</sendSamp>
+        <contact>Contact</contact>
+        <addressLink>Address in Chinese [+/-]</addressLink>
+        <chinaShipTitle>For Shipments to China</chinaShipTitle>
+        <chinaShipDesc>On the declaration form, you must write the Importer Customs Registration Code RC: 4453661787</chinaShipDesc>
+        <labTestSampSend>Tutti i campioni devono essere inviati al nostro Centro per l'Analisi di Laboratorio dei Campioni per l'elaborazione.</labTestSampSend>
+        <labTestAmerica>North and South America</labTestAmerica>
+        <labTestHK>Hong Kong</labTestHK>
+        <labTestinChina>Within China</labTestinChina>
+        <labTestNorthAf><![CDATA[<b>Northern Africa</b>: Algeria, Egypt, Morocco and Tunisia]]></labTestNorthAf>
+        <labTestSouthAf><![CDATA[<b>Southern Africa</b>: Botswana, Lesotho, Madagascar, Mauritius, South Africa and Swaziland]]></labTestSouthAf>
+        <addressSlider>
+            <section>
+                <title><![CDATA[<b>All'interno della Cina</b>]]></title>
+                <address>
+                    <![CDATA[
+                    <b>Attn: Laboratory Testing</b><br />
+                    2209 Guidu Building <br />
+                    3007 Chun Feng Road <br />
+                    Luohu District <br />
+                    Shenzhen, China 518001<br />
+                    +86 755 2223 9888
+                    ]]>
+                </address>
+                <address>
+                    <![CDATA[
+                    <b>联系人：实验室测试组</b><br />
+                    亚检产品质量检验（深圳）有限公司<br />
+                    中国深圳罗湖春风路3007号桂都大厦2209<br />
+                    邮编：518001<br />
+                    +86 755 2223 9888
+                    ]]>
+                </address>
+            </section>
+            <section>
+                <title><![CDATA[<b>Nord Africa</b>: Algeria, Egitto, Marocco e Tunisia]]></title>
+                <address><![CDATA[
+                    <b>AsiaInspection</b><br />
+                    Attn: Reference Samples<br />
+                    Paseo de la Castellana, 95, Planta 29<br />
+                    28046 Madrid<br />
+                    Spain<br />
+                    +34 91 888 88 88
+                ]]></address>
+            </section>
+            <section>
+                <title><![CDATA[<b>Sud Africa</b>: Botswana, Lesotho, Madagascar, Mauritius, Sud Africa e Swaziland]]></title>
+                <address>
+                    <![CDATA[
+                    <b>Attn: Laboratory Testing</b><br />
+                    77 Burlington Road <br />
+                    Reservoir Hills<br />
+                    Durban, 4091<br />
+                    South Africa<br />
+                    +27 105 006 177
+                    ]]>
+                </address>
+            </section>
+        </addressSlider>
+    </it>
+
+    <pt>
+        <title>Controle qualidade em toda a China e Ásia</title>
+        <titleSubText>AsiaInspection oferece melhor reatividade para executar inspeções, auditorias e testes laboratoriais em qualquer parte da Ásia.</titleSubText>
+        <sendDetails>Para dados sobre para onde enviar amostras de referência, selecione o tipo de serviço para o qual irá fornecer uma amostra.</sendDetails>
+        <inspectTabTitle>Inspeção de amostras de referência</inspectTabTitle>
+        <labTestTabTitle>Amostras de referência de testes de laboratório</labTestTabTitle>
+        <selectRegion>Please select the region and country where the inspection will be performed:</selectRegion>
+        <region>Região</region>
+        <country>País</country>
+        <city>City / Province</city>
+         <sendSamp>Send Your Samples To</sendSamp>
+        <contact>Contacto</contact>
+        <addressLink>Address in Chinese [+/-]</addressLink>
+        <chinaShipTitle>Para envios para a China</chinaShipTitle>
+        <chinaShipDesc>No formulário de declaração, deve escrever o Código RC de Registo da Alfândega do Importador: 4453661787</chinaShipDesc>
+        <labTestSampSend>Todas as amostras devem ser enviadas para o nosso Centro de Amostras de Teste de Laboratório para processamento.</labTestSampSend>
+        <labTestAmerica>North and South America</labTestAmerica>
+        <labTestHK>Hong Kong</labTestHK>
+        <labTestinChina>Within China</labTestinChina>
+        <labTestNorthAf><![CDATA[<b>Northern Africa</b>: Algeria, Egypt, Morocco and Tunisia]]></labTestNorthAf>
+        <labTestSouthAf><![CDATA[<b>Southern Africa</b>: Botswana, Lesotho, Madagascar, Mauritius, South Africa and Swaziland]]></labTestSouthAf>
+        <samplesInspect><![CDATA[<b>Amostras de referência para Inspeção</b>:  Para encontrar um endereço onde enviar as amostras em cada país, clique no mapa e o endereço vai aparecer embaixo.]]></samplesInspect>
+        <samplesLab><![CDATA[<b>Amostras de Laboratório</b>: Todas as amostras devem ser enviadas para nosso Centro de processamento de amostras para testes de laboratório.]]></samplesLab>
+        <addressLink>Clique aqui para obter o endereço</addressLink>
+        <addressSlider>
+            <section>
+                <title><![CDATA[<b>Within China</b>]]></title>
+                <address>
+                    <![CDATA[
+                    <b>Attn: Laboratory Testing</b><br />
+                    2209 Guidu Building <br />
+                    3007 Chun Feng Road <br />
+                    Luohu District <br />
+                    Shenzhen, China 518001<br />
+                    +86 755 2223 9888
+                    ]]>
+                </address>
+                <address>
+                    <![CDATA[
+                    <b>联系人：实验室测试组</b><br />
+                    亚检产品质量检验（深圳）有限公司<br />
+                    中国深圳罗湖春风路3007号桂都大厦2209<br />
+                    邮编：518001<br />
+                    +86 755 2223 9888
+                    ]]>
+                </address>
+            </section>
+            <section>
+                <title><![CDATA[<b>Northern Africa</b>: Algeria, Egypt, Morocco and Tunisia]]></title>
+                <address><![CDATA[
+                    <b>AsiaInspection</b><br />
+                    Attn: Reference Samples<br />
+                    Paseo de la Castellana, 95, Planta 29<br />
+                    28046 Madrid<br />
+                    Spain<br />
+                    +34 91 888 88 88
+                ]]></address>
+            </section>
+            <section>
+                <title><![CDATA[<b>Southern Africa</b>: Botswana, Lesotho, Madagascar, Mauritius, South Africa and Swaziland]]></title>
+                <address>
+                    <![CDATA[
+                    <b>Attn: Laboratory Testing</b><br />
+                    77 Burlington Road <br />
+                    Reservoir Hills<br />
+                    Durban, 4091<br />
+                    South Africa<br />
+                    +27 105 006 177
+                    ]]>
+                </address>
+            </section>
+        </addressSlider>
+    </pt>
+    <ru>
+        <title>Контрольные образцы для Азии, Африки, Европы и Латинской Америки</title>
+        <titleSubText>Предоставление контрольных образцов является бесплатным и позволит нашей команде в точности оценить, как ваша продукция должна выглядеть и каким образом функционировать.</titleSubText>
+        <sendDetails>Для того, чтобы узнать, куда послать контрольные образцы, выберите услугу, для оказания которой вы собираетесь предоставить образец.</sendDetails>
+        <inspectTabTitle>Контрольные образцы для инспекции</inspectTabTitle>
+        <labTestTabTitle>Контрольные образцы для лабораторных исследований</labTestTabTitle>
+        <selectRegion>Пожалуйста, выберите регион и страну проведения инспекции:</selectRegion>
+        <region>область</region>
+        <country>страна</country>
+        <city>Город / Провинция</city>
+        <sendSamp>Отправьте ваши образцы в</sendSamp>
+        <contact>Контакты</contact>
+        <chinaShipTitle>Для отправки в Китай</chinaShipTitle>
+        <chinaShipDesc>На бланке декларации вы должны написать регистрационный таможенный код импортера  RC: 4453661787</chinaShipDesc>
+        <labTestSampSend>Все образцы должны быть отправлены в наш Центр лабораторных исследований</labTestSampSend>
+        <labTestAmerica>North and South America</labTestAmerica>
+        <labTestHK>Hong Kong</labTestHK>
+        <labTestinChina>В пределах Китая</labTestinChina>
+        <labTestNorthAf><![CDATA[<b>Северная Африка</b>: Алжир, Египет, Морокко и Тунис]]></labTestNorthAf>
+        <labTestSouthAf><![CDATA[<b>Южная Африка</b>: Ботсвана, Лесото, Мадагаскар, Маврикий, ЮАР и Свазиленд]]></labTestSouthAf>
+    </ru>
+
+    <tr>
+        <title>Referans Numuneler</title>
+        <titleSubText>Bir referans numune sağlanması ücretsizdir ve ekiplerimizin ürünün nasıl görünmesi gerektiği ve bunun nasıl yapılması gerektiğini tam olarak görmelerini sağlar.</titleSubText>
+        <sendDetails>Referans numunelerin nereye gönderileceği konusunda detaylı bilgi için, numune vereceğiniz hizmet türünü seçin.</sendDetails>
+        <inspectTabTitle>Muayene Referans Numuneleri</inspectTabTitle>
+        <labTestTabTitle>Laboratuvar Testi Referans Numuneleri</labTestTabTitle>
+        <selectRegion>Lütfen muayenenin yapılacağı bölge ve ülkeyi seçin:</selectRegion>
+        <region>Bölge</region>
+        <country>Ülke</country>
+        <city>City / Province</city>
+        <sendSamp>Send Your Samples To</sendSamp>
+        <contact>İletişim</contact>
+        <addressLink>Çince Adres [+/-]</addressLink>
+        <chinaShipTitle>Çin'e Sevkıyatlar için</chinaShipTitle>
+        <chinaShipDesc>Beyannameye İthalatçı Gümrük Kayıt Kodu'nu yazmanız gerekir RC: 4453661787</chinaShipDesc>
+        <labTestSampSend>Tüm numuneler işlenmek üzere Laboratuvar Testi Örnekleme Merkezi'mize gönderilmelidir.</labTestSampSend>
+        <labTestAmerica>North and South America</labTestAmerica>
+        <labTestHK>Hong Kong</labTestHK>
+        <labTestinChina>Çin içerisinde</labTestinChina>
+        <labTestNorthAf><![CDATA[<b>Kuzey Afrika</b>: Cezayir, Mısır, Fas ve Tunus]]></labTestNorthAf>
+        <labTestSouthAf><![CDATA[<b>Güney Afrika</b>:  Botsvana, Lesoto, Madagaskar, Morityus, Güney Afrika ve Svaziland]]></labTestSouthAf>
+    </tr>
+
+</document>

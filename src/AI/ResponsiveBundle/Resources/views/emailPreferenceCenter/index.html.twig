@@ -1,0 +1,494 @@
+{% extends '::base.html.twig' %}
+{% block title %}{% if pageTitle is defined %}{{pageTitle}}{% endif %}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined %}{{pageKeywords}}{% endif %}{% endblock %}
+{% block pagename %}emailPref{% endblock %}
+
+{% block body %}
+
+    <link href="/css/thickbox.css" rel="stylesheet"/>
+    <script src="/js/thickbox.js"></script>
+    <style>
+        .flex_container {
+            display:                 flex;
+            display:                 -webkit-flex; /* Safari 8 */
+            flex-wrap:               wrap;
+            -webkit-flex-wrap:       wrap;         /* Safari 8 */
+            justify-content:         center;
+            -webkit-justify-content: center;       /* Safari 8 */
+        }
+
+        .pref_header {
+            padding-left:5px;
+            padding-right:5px;
+        }
+
+        .content_pref {
+            text-align:center;
+        }
+        #TB_window {
+            border-radius: 9px;
+            overflow-y: hidden;
+            overflow-x: hidden !important;
+        }
+        #TB_ajaxContent {
+            font-size:14px;
+            padding-top:10px;
+            text-align:center;
+        }
+        #emailinput {
+            width: 100%;
+            border: 1px solid rgb(206, 207, 209);
+            border-radius: 3px;
+            box-shadow: 0 0 5px rgb(223, 224, 225) inset;
+            background-color: rgb(249,249,249);
+            box-sizing: border-box;
+            padding: 6px 12px;
+            line-height: 20px;
+            font-size: 14px;
+            height: 34px;
+            margin-bottom:15px;
+        }
+        #submitemail {
+            font-size: 16px;
+            line-height: 27px;
+            width: 58%;
+        }
+        .invalField {
+            /*-webkit-appearance: none;*/
+            -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(178,24,32);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(178,24,32);
+            outline: 0 none;
+        }
+    </style>
+    <link rel="stylesheet" href="/components/switchery/dist/switchery.css" />
+    <script src="/components/switchery/dist/switchery.js"></script>
+
+    <div class="headerbox">
+      <div class="container vcenter_parent wrapper">
+        <div class="col-xs-12 vcenter_parent wrapper paddingLeftRightZero">
+          <div class="col-lg-7 col-lg-offset-1  col-md-8 col-md-offset-1 col-xl-offset-0 col-xs-10 col-xs-offset-1 vcenter_parent" id="bigWidth" style="padding-left:0px;padding-right:0px;">
+            <div class="vcenter  {%if isSafari is defined%}{%if isSafari==true%}headerTitle{%endif%}{%endif%}" style="display:inline-block;">
+                <h1 class="mainHeader">{% block bigTitle %}Email Preference Center{% endblock %}</h1>
+                <div class="mainSubHeader">{% block smallText %}At AI we respect your privacy and only want to send you the emails that you genuinely want{% endblock %}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container wrapper" style="background-color:white; width:100%;">
+        <div class="flex_container" style="padding:40px 0px 10px 0px;">
+            <div class="email_preference_form" style="display:none;width:100%">
+                {% if emailExists == false %}
+                    <div style="color:#b31820; text-align:center; font-weight:bold; margin:0px 0px 10px 0px;">This email does not exist in our database.<br />It will be added as soon as the preferences are saved.</div>
+                {% endif %}
+                {% if unsubscribed == true %}
+                    {% if invalid_message != '' %}
+                        <div style="color:#b31820; text-align:center; font-weight:bold; margin:0px 0px 10px 0px;">
+                            {{invalid_message|raw}}
+                        </div>
+                    {% endif %}
+                    <div id="unsubscribeMsg" style="color:#b31820; text-align:center; font-weight:bold; margin:0px 0px 10px 0px;">You are currently unsubscribed.</div>
+                {% endif %}
+            </div>
+            <div style="width:380px; margin-bottom:10px;padding:15px;background-color:#E6E6E6;border-right: solid 10px white;border-left: solid 10px white;{% if competitor %} display:none;{% endif %}">
+                <div class="email_preference_success" style="display:none;">
+                    <div class="flex_container" style="font-weight:900; font-size:20px;">
+                        Your settings have been updated.
+                    </div>
+                </div>
+                <div class="email_preference_error" style="display:none;">
+                    <div class="flex_container" style="padding:10px;">
+                        <center>
+                            <form method="GET" action="">
+                                <input type="text" id="emailinput" value="" name="email" placeholder="Please specify an email" />
+                                <input type="submit" id="submitemail" value="Edit Preferences" class="two-btn btn btn-primary btn-big" />
+                            </form>
+                        </center>
+                    </div>
+                </div>
+                <div class="email_preference_form" style="display:none;">
+                    <div class="flex_container" style="font-weight:900;">
+                        Please choose the emails you want to receive<br />
+                        <p style="font-weight: 400; text-align: center; margin-top:10px;"> We typically only send a few emails each month, but you can further filter to receive only the emails that are of most interest to you.</p>
+                    </div>
+                    <div style="height:30px;"></div>
+                    <div class="col-xs-9 col-sm-9" style="text-align:left; line-height:32px;">Receive all e-mails</div>
+                    <div class="col-xs-3 col-sm-3">
+                        <input type="checkbox" class="js-switch receive_all_emails_checkbox" checked />
+                    </div>
+                    <div style="clear:both;"></div>
+                    <div style="padding-top:8px; padding-bottom:8px;"><hr style="margin-top:0px; margin-bottom:0px;"></div>
+                    <div class="col-xs-9 col-sm-9" style="text-align:left;">Our quarterly barometer and press releases</div>
+                    <div class="col-xs-3 col-sm-3">
+                        <input type="checkbox" class="js-switch quarterly_barometer_checkbox" checked />
+                    </div>
+                    <div style="clear:both;"></div>
+                    <div style="padding-top:8px; padding-bottom:8px;"><hr style="margin-top:0px; margin-bottom:0px;"></div>
+                    <div class="col-xs-9 col-sm-9" style="text-align:left;">Our regulatory recap and educational updates</div>
+                    <div class="col-xs-3 col-sm-3">
+                        <input type="checkbox" class="js-switch regulatory_recap_checkbox" checked />
+                    </div>
+                    <div style="clear:both;"></div>
+                    <div style="padding-top:8px; padding-bottom:8px;"><hr style="margin-top:0px; margin-bottom:0px;"></div>
+                    <div class="col-xs-9 col-sm-9" style="text-align:left; line-height:32px;">Event and webinar invitations</div>
+                    <div class="col-xs-3 col-sm-3">
+                        <input type="checkbox" class="js-switch event_webinar_checkbox" checked />
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="email_preference_form" style="display:none; width:380px; margin-bottom:10px;padding:15px;background-color:#E6E6E6;border-right: solid 10px white;border-left: solid 10px white;">
+
+                <div class="flex_container" style="font-weight:900;">
+                    What AI services are of interest to you?<br>
+                    <p style="font-weight: 400; text-align: center; margin-top:10px;">Let us know so that we can make sure you only receive information that's relevant to you.<br /><br /></p>
+                </div>
+                <div style="clear:both;"></div>
+                <div style="height:30px;"></div>
+                <div class="col-xs-9 col-sm-9" style="text-align:left;">Supplier Audit Programs</div>
+                <div class="col-xs-3 col-sm-3">
+                    <input type="checkbox" class="js-switch audit_checkbox" checked />
+                </div>
+                <div style="clear:both;"></div>
+                <div style="padding-top:8px; padding-bottom:8px;"><hr style="margin-top:0px; margin-bottom:0px;"></div>
+                <div class="col-xs-9 col-sm-9" style="text-align:left;">Inspection Services</div>
+                <div class="col-xs-3 col-sm-3">
+                    <input type="checkbox" class="js-switch inspection_checkbox" checked />
+                </div>
+                <div style="clear:both;"></div>
+                <div style="padding-top:8px; padding-bottom:8px;"><hr style="margin-top:0px; margin-bottom:0px;"></div>
+                <div class="col-xs-9 col-sm-9" style="text-align:left; line-height:32px;">Lab Testing and Certifications</div>
+                <div class="col-xs-3 col-sm-3">
+                    <input type="checkbox" class="js-switch lab_checkbox" checked />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container wrapper" style="background-color:white; width:100%; margin-bottom:20px;">
+        <div class="flex_container" style="padding:0px 0px 10px 0px;">
+            <div class="email_preference_form" style="display:none; max-width:760px; width:100%; margin-bottom:10px; padding:15px 0; background-color:#E6E6E6; border-right:solid 10px white; border-left:solid 10px white;">
+                <div style="font-weight:900; padding-left: 25px;">Personal Information<br> <!-- ONLY if Marketo Token --></div>
+                <div class="flex_container">
+                    <div  style="padding-top:15px;background-color:#E6E6E6;margin-right: 10px;margin-left: 10px;">
+                        <div class="col-xs-3 col-sm-3" style="text-align:left; line-height:32px;">Language</div>
+                        <div class="col-xs-9 col-sm-9">
+                            <select class="form-control" id="lang_select">
+                                <option {% if language == "" %}selected {% endif %}value="" disabled>Please select a language</option>
+                                {% for lang, disp in languages %}<option {% if language == lang %}selected {% endif %}value="{{lang}}">{{disp}}</option>{% endfor %}
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div style="clear:both;"></div>
+            <div class="flex_container" style="width:100%;font-weight:900; padding-top:10px;">
+                <button type="button" class="btn-primary btn-big update_email_preference_button email_preference_form" style="display:none;">Update Preferences</button>
+            </div>
+
+            {% if consentDate == false %}
+                <div id="consentBoxWrapper" class="flex_container email_preference_form" style="max-width:760px; width:100%; margin:20px 0px 10px 0px; padding:15px 0; background-color:#E6E6E6; border-right:solid 10px white; border-left:solid 10px white; display:none;">
+                    <div  style="background-color:#E6E6E6; padding:15px; width:100%;">
+                        <div class="col-xs-1 col-sm-1" style="text-align:left; line-height:32px; text-align:center;">
+                            <input type="checkbox" id="confirmBox" style="-ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2); margin-top:11.5%;" {% if activeConsent is defined and activeConsent == true %}checked="checked"{% endif %}/>
+                        </div>
+                        <div class="col-xs-11 col-sm-11">
+                            <span>By clicking this box you agree to our <a href="/conditions-of-service#privacyPolicy" target="_blank">privacy policy</a> and authorize AsiaInspection to process your personal data for the sole purpose of contacting you.</span>
+                            <br /><br />
+                            <span>We will only send you emails related to the topics you selected above.  You can always unsubscribe or reduce the emails AI sends by changing your email preferences, so please bookmark this page!</span>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+
+            <div class="flex_container email_preference_form" style="display:none;width:100%; padding-top:20px;">
+                <a href="" onclick="return false;"class="unsubscribe_from_all">Unsubscribe from all</a>
+            </div>
+            <div style="display:none;">
+                <a name="You Have Been Unsubscribed" href="#TB_inline?height=250&width=300&inlineId=unsubscribe_pop_up" class="unsubscribe_pop_up_click thickbox">Click</a>
+                <div ID="unsubscribe_pop_up" style="font-size:12px; font-weight:900">
+                    We hate to see you go, but we're here for you if ever you need us!  Please allow up to 48 hours for processing.<br>
+                    <br>
+                    If you would like to share any feedback, we can be reached at <a href="mailto:customerservice@asiainspection.com?subject=Unsubscribed Feedback">customerservice@asiainspection.com</a>
+                    <div style="padding-top:10px;">
+                        <a href="" onclick="tb_remove(); return false;"><button type="button" class="btn-primary btn-big close_pop_up_button">Close</button></a>
+                    </div>
+
+                </div>
+
+                <a name="Email Preferences Updated" href="#TB_inline?height=100&width=300&inlineId=preferences_updated_pop_up" class="preferences_updated_pop_up_click thickbox">Click</a>
+                <div ID="preferences_updated_pop_up" style="font-size:12px; font-weight:900">
+                    Thank you!<br>Your preferences have been saved.
+                    <div style="padding-top:10px;">
+                        <a href="" onclick="tb_remove(); return false;"><button type="button" class="btn-primary btn-big close_pop_up_button">Close</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<script>
+    $("#confirmBox").on("change", function(){
+        $(this).removeClass("invalField");
+    });
+
+    function set_switchery(switchElement, checkedBool) {
+        if((checkedBool && !switchElement.isChecked()) || (!checkedBool && switchElement.isChecked())) {
+            switchElement.setPosition(true);
+            //switchElement.handleOnchange(true);
+        }
+    }
+    
+    $(document).ready(function() {
+
+        {% if activeConsent is defined and activeConsent == true %}
+            tb_show("Thanks for Confirming","/popup?type=consentGiven&height=150&width=445&TB_iframe=true");
+        {% endif %}
+
+        //$('.close_pop_up_button').on('click', function() {
+        $('.close_pop_up_button').click(function() {
+            console.info('in here');
+            tb_remove();
+            $('#TB_window').tb_remove();
+        });
+
+        var subscriber_email = "{{subscriber_email}}";
+        var subscriber_email_id = "{{subscriber_email_id}}";
+
+        //var Switchery = require('switchery');
+
+        $('.email_preference_success').css('display','none');
+        if (subscriber_email == "") {
+            $('.email_preference_error').css('display','');
+        } else {
+            $('.email_preference_form').css('display','');
+        }
+
+
+
+        var receive_all_emails = "{{receive_all_emails}}";
+        var rec_educational = "{{rec_educational}}";
+        var rec_events = "{{rec_events}}";
+        var rec_barometer = "{{rec_barometer}}";
+        var rec_audits = "{{rec_audits}}";
+        var rec_inspections = "{{rec_inspections}}";
+        var rec_lab = "{{rec_lab}}";
+
+
+        //console.info('in here');
+        //console.info(subscriber_email);
+
+        var elem = document.querySelector('.receive_all_emails_checkbox');
+        //var html = $("<div />").append($(".receive_all_emails_checkbox").clone()).html();
+
+        //console.info(html);
+        var receive_all_emails_switchery = new Switchery(elem);
+
+
+
+        if (receive_all_emails == "0") {
+            set_switchery(receive_all_emails_switchery, false);
+        }
+        
+
+        elem = document.querySelector('.quarterly_barometer_checkbox');
+        var quarterly_barometer_switchery = new Switchery(elem);
+        if (rec_barometer == "0") {
+            set_switchery(quarterly_barometer_switchery, false);
+        }
+
+
+        elem = document.querySelector('.regulatory_recap_checkbox');
+        var regulatory_recap_switchery = new Switchery(elem);
+        if (rec_educational == "0") {
+            set_switchery(regulatory_recap_switchery, false);
+        }
+
+
+        elem = document.querySelector('.event_webinar_checkbox');
+        var event_webinar_switchery = new Switchery(elem);
+        if (rec_events == "0") {
+            set_switchery(event_webinar_switchery, false);
+        }
+
+        elem = document.querySelector('.audit_checkbox');
+        var audit_switchery = new Switchery(elem);
+        if (rec_audits == "0") {
+            set_switchery(audit_switchery, false);
+        }
+
+
+        elem = document.querySelector('.inspection_checkbox');
+        var inspection_switchery = new Switchery(elem);
+        if (rec_inspections == "0") {
+            set_switchery(inspection_switchery, false);
+        }
+
+
+        elem = document.querySelector('.lab_checkbox');
+        var lab_switchery = new Switchery(elem);
+        if (rec_lab == "0") {
+            set_switchery(lab_switchery, false);
+        }
+
+        var auto_set_receive_all_emails = function() {
+            if ($('.regulatory_recap_checkbox').is(':checked') &&
+                $('.event_webinar_checkbox').is(':checked') &&
+                $('.quarterly_barometer_checkbox').is(':checked')
+            ) {
+                set_switchery(receive_all_emails_switchery, true);
+            } else {
+
+                if (!$('.regulatory_recap_checkbox').is(':checked') &&
+                    !$('.event_webinar_checkbox').is(':checked') &&
+                    !$('.quarterly_barometer_checkbox').is(':checked')
+                ) {
+                    set_switchery(receive_all_emails_switchery, false);
+                }
+            }
+        };
+
+
+        var receive_all_emails_checkbox = document.querySelector('.receive_all_emails_checkbox')
+        receive_all_emails_checkbox.onchange = function() {
+            if ($('.receive_all_emails_checkbox').is(':checked')) {
+                set_switchery(quarterly_barometer_switchery, true);
+                set_switchery(regulatory_recap_switchery, true);
+                set_switchery(event_webinar_switchery, true);
+            } else {
+                set_switchery(quarterly_barometer_switchery, false);
+                set_switchery(regulatory_recap_switchery, false);
+                set_switchery(event_webinar_switchery, false);
+            }
+        };
+
+
+        var rec_barometer_checkbox = document.querySelector('.quarterly_barometer_checkbox')
+        rec_barometer_checkbox.onchange = function() {
+            auto_set_receive_all_emails();
+
+            if ($('.quarterly_barometer_checkbox').is(':checked')) {
+            } else {
+                set_switchery(receive_all_emails_switchery, false);
+            }
+        };
+
+
+        var rec_educational_checkbox = document.querySelector('.regulatory_recap_checkbox')
+        rec_educational_checkbox.onchange = function() {
+            auto_set_receive_all_emails();
+
+            if ($('.regulatory_recap_checkbox').is(':checked')) {
+            } else {
+                set_switchery(receive_all_emails_switchery, false);
+            }
+        };
+
+
+
+        var rec_events_checkbox = document.querySelector('.event_webinar_checkbox')
+        rec_events_checkbox.onchange = function() {
+            auto_set_receive_all_emails();
+
+            if ($('.event_webinar_checkbox').is(':checked')) {
+            } else {
+                set_switchery(receive_all_emails_switchery, false);
+            }
+        };
+
+        $(".unsubscribe_from_all").click(function() {
+            $("#consentBoxWrapper").hide();
+            set_switchery(receive_all_emails_switchery, false);
+            set_switchery(quarterly_barometer_switchery, false);
+            set_switchery(regulatory_recap_switchery, false);
+            set_switchery(event_webinar_switchery, false);
+            $('.update_email_preference_button').trigger('click');
+        });
+
+        $(".update_email_preference_button").click(function(){
+            var allowSubmission = true;
+            var data = {};
+
+            data.rec_barometer = ($('.quarterly_barometer_checkbox').is(':checked'));
+            data.rec_educational = ($('.regulatory_recap_checkbox').is(':checked'));
+            data.rec_events = ($('.event_webinar_checkbox').is(':checked'));
+            data.rec_audits = ($('.audit_checkbox').is(':checked'));
+            data.rec_inspections = ($('.inspection_checkbox').is(':checked'));
+            data.rec_lab = ($('.lab_checkbox').is(':checked'));
+            data.first_name = ($('#first_name').val());
+            data.last_name = ($('#last_name').val());
+            data.lang_select = ($('#lang_select').val());
+            data.country = ($('#country').val());
+            data.industry = ($('#industry').val());
+            data.job_title = ($('#job_title').val());
+            data.new_email = ($('#new_email').val());
+            data.subscriber_email_id = subscriber_email_id;
+            data.subscriber_email = subscriber_email;
+
+            // If Confirm box is showing and not set
+            if( $("#confirmBox:visible").length > 0 ) {
+                if( !$("#confirmBox").prop("checked") ) {
+                    $("#confirmBox").addClass("invalField");
+                    allowSubmission = false;
+                }
+            }
+
+            if(allowSubmission) {
+                $.ajax({
+                    type: 'POST',
+                    url :"/emailPreferences/update",
+                    dataType: "json",
+                    data : (data),
+                    success: function(result) {
+                        console.info(result);
+                        if (result.is_success) {
+                            //alert("Your Settings have Been Updated");
+                            //$('.email_preference_success').css('display','');
+                            //$('.email_preference_form').css('display','none');
+                            $('#noprefs').hide();
+                            if (!$('.regulatory_recap_checkbox').is(':checked') &&
+                                !$('.event_webinar_checkbox').is(':checked') &&
+                                !$('.quarterly_barometer_checkbox').is(':checked')
+                            ) {
+                                $('.unsubscribe_pop_up_click').trigger('click');
+                                var TB_WIDTH = 300,
+                                TB_HEIGHT = 250; // set the new width and height dimensions here..
+                                $('#TB_ajaxContent').css('width',TB_WIDTH + 'px');
+                                $('#TB_ajaxContent').css('height',TB_HEIGHT +'px');
+                                $("#TB_window").animate({
+                                    marginLeft: '-' + parseInt((TB_WIDTH / 2), 10) + 'px',
+                                    width: TB_WIDTH + 'px',
+                                    height: TB_HEIGHT + 'px',
+                                    marginTop: '-' + parseInt((TB_HEIGHT / 2), 10) + 'px'
+                                });
+                            } else {
+                                $('.preferences_updated_pop_up_click').trigger('click');
+                                $('#unsubscribeMsg').hide();
+                                var TB_WIDTH = 300,
+                                TB_HEIGHT = 200; // set the new width and height dimensions here..
+                                $('#TB_ajaxContent').css('width',TB_WIDTH + 'px');
+                                $('#TB_ajaxContent').css('height',TB_HEIGHT +'px');
+                                $("#TB_window").animate({
+                                    marginLeft: '-' + parseInt((TB_WIDTH / 2), 10) + 'px',
+                                    width: TB_WIDTH + 'px',
+                                    height: TB_HEIGHT + 'px',
+                                    marginTop: '-' + parseInt((TB_HEIGHT / 2), 10) + 'px'
+                                });
+                            }
+                        } else {
+                        }
+                    }
+                });
+            } // end 'allowSubmission' check
+        });
+    });
+
+</script>
+
+        </div>
+    </div>
+
+{% endblock %}

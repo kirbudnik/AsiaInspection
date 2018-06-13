@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<pageMeta>
+		<pageTitle>
+			<en>Electronic Product Testing &amp; Quality Control | AsiaInspection – Electrical Testing Laboratories &amp; QC Services</en>
+			<ar>الأجهزة الكهربائية والإلكترونية| AsiaInspection – مراقبة جودة مخصصة لمجال الأجهزة الكهربائية والإلكترونية</ar>
+			<fr>Services de Contrôle Qualité pour l’Industrie Électrique et Électronique | Inspections, Tests en Laboratoire, Audits d’Usines et Éthiques | AsiaInspection.com</fr>
+			<de>Electronikprodukt-Tests und Qualitätskontrolle | AsiaInspection - Elektro-Test-Labors und QC-Dienstleistungen</de>
+			<zh>电子产品检测及质量控制|AsiaInspection-电子检测实验室及质量控制服务</zh>
+			<tr>Elektronik Ürün Testi ve Kalite Kontrolü | AsiaInspection – Elektrik Testi Laboratuvarları ve Kalite Kontrol Hizmetleri</tr>
+			<pt>Teste de Produtos Eletrónicos e Controlo de Qualidade | AsiaInspection - Laboratórios de Testes Elétricos e Serviços de CQ</pt>
+			<ru>Тестирование и контроль качества электронных товаров | AsiaInspection – Лаборатории и услуги контроля качества электрических товаров</ru>
+			<it>Controllo della Qualità e Test dei Prodotti elettronici | AsiaInspection - Servizi di Analisi di Laboratorio e Controllo della Qualità</it>
+		</pageTitle>
+		<pageDesc>
+			<en>AI offers electronic product testing and quality control services. Learn about our laboratory, physical, and mechanical tests for consumer electronics here.</en>
+			<ar>تقدم AsiaInspection عمليات فحص المنتج وخدمات الاختبارات المعملية لمجموعة كبيرة من المنتجات الكهربائية والإلكترونية، بما في ذلك أجهزة المستهلك الإلكترونية واللاسلكية.</ar>
+			<fr>AsiaInspection propose des inspections de produits, des audits fournisseurs et des tests en laboratoire sur-mesure pour l’industrie électronique et le secteur électrique afin de se conformer aux réglementations spécifiques des différents pays ainsi qu'aux normes internationales.</fr>
+			<de>AI bietet Produkttests und Qualitätskontrolldienste für elektronische Produkte an. Erfahren Sie hier mehr über unsere Labortests und unsere physikalischen und mechanischen Tests für elektronische Konsumgüter.</de>
+			<zh>AI亚检提供电子产品的检测和质量控制服务。了解更多关于我们为消费电子提供实验室、物理和机械检测的内容。</zh>
+			<tr>AI elektronik ürün testi ve kalite kontrol hizmetleri sunmaktadır. Buradan tüketici elektroniği için laboratuvarımız, fiziksel ve mekanik testler hakkında bilgi alın.</tr>
+			<pt>A AI oferece testes de produtos eletrónicos e serviços de controlo de qualidade. Saiba mais sobre os nossos testes de laboratório, físicos e mecânicos para o consumidor de eletrónica aqui.</pt>
+			<ru>AI предлагает тестирование и услуги по контролю качества электронных товаров. Здесь вы можете узнать подробнее о наших лабораториях, физических и механических тестах для потребительской электроники.</ru>
+			<it>AI offre servizi di test di prodotti elettronici e controllo della qualità. Scopri di più sui nostri test meccanici, fisici e di laboratorio per dispositivi di elettronica di consumo qui.</it>
+		</pageDesc>
+		<pageKeywords>
+			<en>electronic product testing, electrical testing laboratories, electronic testing lab, electronic testing service, electronic quality control</en>
+			<fr>Électrique, électronique, électroménager, éclairage, inspections, audits, tests en laboratoire</fr>
+			<ar></ar>
+			<de>elektronische Produkttests, Elektro-Testlabors, Elektronik-Testlabors, Elektronik-Test-Service, Elektronik-Qualitätskontrolle</de>
+			<zh>电子产品检测、电气检测实验室、电子检测实验室、电子检测服务、电子质量检测</zh>
+			<tr>elektronik ürün testi, elektrik test laboratuvarları, elektronik test laboratuvarı, elektronik test hizmeti, elektronik kalite kontrolü</tr>
+			<pt>teste produto eletrónica, laboratórios teste elétricidade, lab teste eletrónica, serviço teste eletrónica, controlo qualidade eletrónica</pt>
+			<ru>тестирование электроники, лаборатории тестирования электрических товаров, лаборатории тестирования электроники, услуги по тестированию электронных товаров, контроль качества электроники</ru>
+			<it>test prodotti elettronici, test di laboratorio di prodotti elettrici, test di laboratorio di prodotti elettronici, servizi test elettronici, controllo della qualità prodotti elettronici</it>
+		</pageKeywords>
+	</pageMeta>
+
+	<en>
+		<imageAlt>Consumer Electronics Product Inspection | AI – Electrical Testing &amp; Quality Control</imageAlt>
+		<title>Electrical and Electronic</title>
+		<subTitle>AsiaInspection offers product inspections and laboratory testing services for a wide range of electrical and electronic products, including consumer electronics and wireless devices.</subTitle>
+		<schedButton url="/register">Get Started</schedButton>
+		<soloutionTitle>QC Tailored for the Electrical and Electronic Industry</soloutionTitle>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<soloutionContent>
+			<![CDATA[
+			<p>Every year, hundreds of consumer electrical and electronic goods get recalled, dealing serious reputational and financial damages to brands and retailers. The most common causes of recalls are safety-related, including overheating, electric shock and explosion. In most cases, these faulty products can be traced to low-cost manufacturing destinations.</p>
+			<p>AI's physical, mechanical and <a href="/quality-control-services/laboratory-testing">laboratory tests</a> will help your electrical and electronic products meet the requirements of your destination market and international safety standards. Rely on our electrics and electronics product testing expertise to secure your brand image and consumer loyalty.</p>
+
+			<h2>Electrics and Electronics Inspection Expertise</h2>
+
+			<p>AI on site <a href="/pre-shipment-inspection">inspections</a> offers a number of physical and mechanical tests to check the safety, quality and performance characteristics of your electrical and electronic devices:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Hipot test</li>
+							<li>Earth continuity test</li>
+							<li>Power cord pull test</li>
+							<li>Stability test</li>
+							<li>Power consumption test</li>
+							<li>Motor rotation speed measurement</li>
+							<li>Internal construction review</li>
+							<li>Working current/voltage check</li>
+							<li>Noise level measurement</li>
+						</ul>
+					</td>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Waterproof test</li>
+							<li>Product parameter check</li>
+							<li>Product function/performance test</li>
+							<li>Workmanship review</li>
+							<li>Frequency checking</li>
+							<li>Working distance for wireless device</li>
+							<li>Frequency response test for speaker and microphone</li>
+							<li>Impedance check</li>
+							<li>Signal-to-noise ratio</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+
+			<h2>Electrics and Electronics Inspection Expertise</h2>
+
+			<p>AI's laboratories offer the following tests for your electrical and electronic products, helping you meet quality and safety standards of your destination market:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>US California Proposition 65 for Consumer Products</li>
+							<li>Toxics in packaging</li>
+							<li>EMC / EMI testing</li>
+							<li>Product safety testing (UL / IEC)</li>
+							<li>FCC / RTTE testing for wireless and RF products</li>
+							<li><a href="/rohs-testing">RoHS testing</a></li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+			]]>
+		</soloutionContent>
+	</en>
+	   
+	   <es>
+		<imageAlt>Inspección de electrónica de consumo | AI – Control de calidad y pruebas eléctricas</imageAlt>
+		<title>Eléctricidad y Electrónica</title>
+		<subTitle>AsiaInspection ofrece servicios de inspección de productos y pruebas de laboratorio para una amplia gama de produtos eléctricos y electrónicos, como la  electrónica de consumo y dispositivos inalámbricos.</subTitle>
+		<schedButton url="/register">Get Started</schedButton>
+		<soloutionTitle>Control de calidad adaptado a la industria eléctrica y electrónica</soloutionTitle>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<soloutionContent>
+			<![CDATA[
+			<p>Cada año, cientos de productos eléctricos y electrónicos se retiran, causando graves daños a la reputación de las marcas y proveedores y causando graves pérdidas económicas. Las causas más comunes de estos retiros están relacionadas con la seguridad, incluyendo problemas con el sobrecalentamiento, descargas eléctricas y explosiones. En la mayoría de los casos, estos productos defectuosos fueron fabricados en países con bajos costes de producción.</p>
+			<p>Las pruebas mecánicas y físicas de laboratorio de AI le permiten asegurarse de que los productos eléctricos y electrónicos cumplen con los requisitos de su mercado de destino y las normas internacionales de seguridad. Confíe en nuestra experiencia en pruebas de productos eléctricos y electrónicos para preservar su imagen de marca y la lealtad del cliente.</p>
+
+			<h2>Experiencia en Electricidad y Electrónica</h2>
+
+			<p>AI ofrece un gran número de pruebas físicas y mecánicas para verificar la seguridad, calidad y características de presentación de sus dispositivos eléctricos y electrónicos:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Prueba Hipot</li>
+							<li>Prueba de continuidad de tierra</li>
+							<li>Prueba de tracción del cable de alimentación</li>
+							<li>Prueba de estabilidad</li>
+							<li>Prueba de consumo de potencia</li>
+							<li>Medida de velocidad de rotación del motor</li>
+							<li>Revisión de construcción interna</li>
+							<li>Verificación de corriente/voltage en funcionamiento</li>
+							<li>Medición del nivel de ruido</li>
+						</ul>
+					</td>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Prueba acuática</li>
+							<li>Verificación de los parámetros del producto</li>
+							<li>Prueba de función y rendimiento del producto</li>
+							<li>Revisión de mano de obra</li>
+							<li>Verificación de frecuencia</li>
+							<li>Distancia de funcionamiento para dispositivos inalámbricos</li>
+							<li>Prueba de frecuencia para altavoces y micrófonos</li>
+							<li>Verificación de impedancia</li>
+							<li>Ratio señal-ruido</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+
+			<h2>Experiencia en pruebas de laboratorio para productos eléctricos y electrónicos</h2>
+
+			<p>Los laboratorios de AI le ofrecen las siguientes pruebas para productos eléctricos y electrónicos, para ayudar a cumplir las normas de calidad y seguridad de su mercado de destino:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Proposicion 65 US California para productos de consumo</li>
+							<li>Tóxicos en empaquetado</li>
+							<li>Pruebas EMC / EMI </li>
+							<li>Pruebas de seguridad de productos (UL / IEC)</li>
+							<li>Pruebas FCC / RTTE para wireless y productos RF</li>
+							<li>Pruebas RoHS</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+			]]>
+		</soloutionContent>
+	</es>
+
+	<ar>
+		<title>الأجهزة الكهربائية والإلكترونية
+		</title>
+		<subTitle>تقدم AsiaInspection عمليات فحص المنتج وخدمات الاختبارات المعملية لمجموعة كبيرة من المنتجات الكهربائية والإلكترونية، بما في ذلك أجهزة المستهلك الإلكترونية واللاسلكية.
+		</subTitle>
+		<schedButton url="/register">ابدأ
+		</schedButton>
+		<soloutionTitle>مراقبة جودة مخصصة لمجال الأجهزة الكهربائية والإلكترونية
+		</soloutionTitle>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<soloutionContent>
+			<![CDATA[
+			<p>في كل عام، يتم سحب مئات من البضائع الاستهلاكية الكهربائية والإلكترونية، مما يسبب التعامل مع الإضرار الخطير بالسمعة والمخاطر المالية للعلامات التجارية والبائعين بالتجزئة. من بين أشهر أسباب سحب المنتجات تلك المتعلقة بالأمان، بما في ذلك الحرارة المرتفعة والصدمات الكهربائية والانفجار. في أغلب الحالات، يمكن أن يكون منشأ هذه المنتجات المعيبة جهات التصنيع منخفضة التكلفة.
+			</p>
+			<p>ستساعد الاختبارات المعملية والميكانيكية والمادية في أسيا للفحص في استيفاء منتجاتك الكهربائية والإلكترنية لمتطلبات السوق الهدف ومعايير الأمان الدولية. اعتمد على خبرتنا الكهربائية والإلكترونية لتأمين صورة علامتك التجارية وولاء المستهلك.
+			</p>
+
+			<h2>خبرة في الأجهزة الكهربائية والإلكترونية
+			</h2>
+
+			<p>تقدم أسيا للفحص عددًا من الاختبارات المادية والميكانيكية لفحص صفات الأمان والجودة والأداء للأجهزة الكهربائية والإلكترونية:
+			</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>اختبار Hipot
+							</li>
+							<li>اختبار التأريض المستمر
+							</li>
+							<li>اختبار شد كابل الطاقة
+							</li>
+							<li>اختبار الثبات
+							</li>
+							<li>اختبار استهلاك الطاقة
+							</li>
+							<li>قياس سرعة دوران الموتور
+							</li>
+							<li>مراجعة البنية الداخلية
+							</li>
+							<li>فحص التيار/الفولت أثناء العمل
+							</li>
+							<li>قياس مستوى الضوضاء
+							</li>
+						</ul>
+					</td>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>اختبار مقاومة الماء
+							</li>
+							<li>فحص معيار المنتج
+							</li>
+							<li>اختبار وظيفة/أداء المنتج
+							</li>
+							<li>مراجعة العمالة
+							</li>
+							<li>فحص التردد
+							</li>
+							<li>مسافة العمل للأجهزة اللاسلكية
+							</li>
+							<li>اختبار استجابة التردد للميكروفون والسماعة
+							</li>
+							<li>فحص المعاوقة
+							</li>
+							<li>معدل الإشارة إلى الضوضاء
+							</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+
+			<h2>خبرة الاختبارات المعملية للأجهزة الكهربائية والإلكترونية
+			</h2>
+
+			<p>تقدم معامل أسيا للفحص الاختبارات التالية لمنتجاتك الكهربائية والإلكترونية، مما يساعدك على الوفاء بمعايير الجودة والأمان للسوق الهدف:
+			</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>قانون كاليفورنيا رقم 65 من الولايات المتحدة للمنتجات الاستهلاكية
+							</li>
+							<li>المواد السامة في العبوات
+							</li>
+							<li>اختبارات EMC / EMI
+							</li>
+							<li>اختبار أمان المنتج (UL / IEC)
+							</li>
+							<li>اختبار FCC / RTTE للمنتجات اللاسلكية وترددات الراديو
+							</li>
+							<li>اختبارات RoHS
+							</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+			]]>
+		</soloutionContent>
+	</ar>
+
+	<fr>
+		<title>Électrique et Électronique</title>
+		<subTitle>AsiaInspection propose des inspections de produits et des services de tests en laboratoire pour une large gamme de produits électriques et électroniques, comme l’électronique grand public et les appareils sans fil.</subTitle>
+		<schedButton url="/register">Démarrer</schedButton>
+		<soloutionTitle>Contrôle Qualité sur-mesure pour l’industrie Électrique et Électronique</soloutionTitle>
+		<soloutionContent>
+			<![CDATA[
+			<p>Chaque année, des centaines de produits électriques et électroniques grand public sont rappelés, infligeant de sérieux dommages à la réputation des marques et des revendeurs et provoquant de sévères pertes économiques. Les causes les plus communes de ces rappels sont liées à la sécurité, y compris à des problèmes de surchauffe, de chocs électriques et d’explosions. Dans la plupart des cas, ces produits défectueux ont été fabriqués dans des pays à faibles coûts de production.</p>
+			<p>Les audits fournisseurs, les inspections produits sur site et les tests mécaniques et physiques effectués en laboratoire par AI vous permettront de vous assurer que vos produits électriques et électroniques sont conformes aux exigences de leur marché de destination ainsi qu'aux normes de sécurité internationales. Faites confiance à notre expertise en termes d’appareils électriques et électroniques pour préserver votre image de marque et fidéliser vos clients.</p>
+
+			<h2>Expertise en Électrique et Électronique</h2>
+
+			<p>Les inspections produits effectuées par AI dans les sites de production peuvent inclure un grand nombre de tests physiques et mécaniques pour vérifier les caractéristiques en termes de sécurité, de qualité et de performance de vos appareils électriques et électroniques :</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Test Hi-pot</li>
+							<li>Test de continuité électrique à la terre</li>
+							<li>Tests d’arrachement et de traction du cordon électrique</li>
+							<li>Test de stabilité</li>
+							<li>Test de consommation d’énergie</li>
+							<li>Mesure de la vitesse de rotation du moteur</li>
+							<li>Examen de la structure intérieure</li>
+							<li>Test de tension/intensité de fonctionnement</li>
+							<li>Mesure du niveau de bruit</li>
+						</ul>
+					</td>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Test d’étanchéité</li>
+							<li>Vérification des paramètres du produit</li>
+							<li>Test des fonctions/performance du produit</li>
+							<li>Examen de la finition</li>
+							<li>Contrôle de la fréquence</li>
+							<li>Contrôle de la distance de fonctionnement pour les dispositifs sans fil</li>
+							<li>Test de fréquence de réponse des haut-parleurs et des microphones</li>
+							<li>Contrôle d’impédance</li>
+							<li>Rapport signal/bruit</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+
+			<h2>Tests en Laboratoires</h2>
+
+			<p>Les laboratoires d’AI proposent les tests suivants pour vos produits électriques et électroniques afin de vous aider à respecter les normes en termes de qualité et de sécurité de votre marché de destination :</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Proposition 65 en Californie USA pour les Produits de Consommation</li>
+							<li>Toxiques dans l’emballage</li>
+							<li>Tests EMC/EMI</li>
+							<li>Tests de sécurité produit (UL / IEC)</li>
+							<li>Tests FCC/RTTE pour les produits radio et sans fil</li>
+							<li>Tests RoHS</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+			]]>
+		</soloutionContent>
+	</fr>
+
+	<zh>
+		<imageAlt>Consumer Electronics Product Inspection | AI – Electrical Testing &amp; Quality Control</imageAlt>
+		<title>电子电器</title>
+		<subTitle>AI亚检为包括消费电子和无线设备在内的一系列电子电器产品提供产品检验和实验室检测服务。</subTitle>
+		<schedButton url="/register">Get Started</schedButton>
+		<soloutionTitle>为电子电器行业量身打造的质量控制体系</soloutionTitle>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<soloutionContent>
+			<![CDATA[
+			<p>每年都有上百款消费型电子电器产品被召回，对品牌和经销商造成了巨大的声誉和经济损失。召回最常见的原因通常与安全相关，包括过热、电击甚至爆炸。在大多数情况下，这些问题产品都能追溯到制造商低成本的投入。</p>
+			<p>AI亚检的物理、机械和实验室检测能够帮助您的电子电器产品达到目的地市场的要求和国际安全标准。请相信我们的电子电器产品检测技术能够保障您的品牌形象和顾客忠诚度。</p>
+
+			<h2>专业的电子电器产品检测服务</h2>
+
+			<p>AI亚检为您的电子电器产品提供物理和机械检测，检查产品的安全、质量和性能：</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>高压绝缘试验</li>
+							<li>接地电阻测试</li>
+							<li>电线拉拔测试</li>
+							<li>稳定性测试</li>
+							<li>电量耗费测试</li>
+							<li>发动机转速测量</li>
+							<li>内部构造审查</li>
+							<li>工作电流/电压检查</li>
+							<li>噪音程度测量</li>
+						</ul>
+					</td>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>防水测试</li>
+							<li>产品参数检查</li>
+							<li>产品功能/性能检测</li>
+							<li>工艺审查</li>
+							<li>频率检查</li>
+							<li>无线设备的工作距离</li>
+							<li>扬声器、麦克风的频率回应测试</li>
+							<li>电阻检查</li>
+							<li>信噪比</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+
+			<h2>电子电器产品实验室检测专业领域</h2>
+
+			<p>AI亚检实验室提供电子电器产品测试满足目的地市场的质量安全标准：</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>加州65提案</li>
+							<li>美国包装材料有害物质法规</li>
+							<li>电磁兼容性/电磁干扰检测</li>
+							<li>产品安全检测（美国保险商试验所/国际电工委员会）</li>
+							<li>针对无线产品和无线电频率产品联邦通信委员会/无线电及通讯终端指令检测</li>
+							<li>欧盟《关于限制在电子电器设备中使用某些有害成分的指令》检测</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+			]]>
+		</soloutionContent>
+	</zh>
+	
+	<de>
+		<imageAlt>Consumer Electronics Product Inspection | AI – Electrical Testing &amp; Quality Control</imageAlt>
+		<title>Elektrische und elektronische Produkte</title>
+		<subTitle>AsiaInspection bietet Produktprüfungen und Labortests für eine breite Palette elektrischer und elektronischer Produkte an, darunter auch Unterhaltungselektronik und drahtlose Geräte.</subTitle>
+		<schedButton url="/register">Get Started</schedButton>
+		<soloutionTitle>QC speziell für die Elektro- und Elektronikindustrie</soloutionTitle>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<soloutionContent>
+			<![CDATA[
+			<p>Jedes Jahr werden Hunderte elektrischer und elektronischer Konsumgüter zurückgerufen. Hersteller und Einzelhändler erleiden dadurch Rufschädigungen und finanzielle Verluste. Die häufigsten Ursachen für Rückrufe sind Sicherheitsprobleme, darunter Überhitzung, Stromschläge und Explosionen. In den meisten Fällen können diese fehlerhaften Produkte zu Billigherstellern zurückverfolgt werden.</p>
+			<p>Jedes Jahr werden Hunderte elektrischer und elektronischer Konsumgüter zurückgerufen. Hersteller und Einzelhändler erleiden dadurch Rufschädigungen und finanzielle Verluste. Die häufigsten Ursachen für Rückrufe sind Sicherheitsprobleme, darunter Überhitzung, Stromschläge und Explosionen. In den meisten Fällen können diese fehlerhaften Produkte zu Billigherstellern zurückverfolgt werden.</p>
+
+			<h2>Kompetenz im Test elektrischer und elektronischer Produkte</h2>
+
+			<p>AI bietet eine Reihe von physikalischen und mechanischen Tests an, um die Sicherheit, Qualität und Leistungsmerkmale Ihrer elektrischen und elektronischen Geräte zu überprüfen:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Hipot-Test</li>
+							<li>Erdungsprüfung</li>
+							<li>Netzkabel-Zugprüfung</li>
+							<li>Stabilitätsprüfung</li>
+							<li>Energieverbrauchsprüfung</li>
+							<li>Motordrehzahlmessung</li>
+							<li>Konstruktionsprüfung</li>
+							<li>Arbeitsstrom-/Spannungsprüfung</li>
+							<li>Schalldruckpegelmessung</li>
+						</ul>
+					</td>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Wasserdichtigkeitsprüfung</li>
+							<li>Produktparameterprüfung</li>
+							<li>Produktfunktions-/Leistungstest</li>
+							<li>Verarbeitungsüberprüfung</li>
+							<li>Frequenzkontrolle</li>
+							<li>Betriebsabstand für drahtlose Geräte</li>
+							<li>Frequenzgangstest für Lautsprecher und Mikrofon</li>
+							<li>Impedanzprüfung</li>
+							<li>Verhältnis zwischen Signal und Rauschen</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+
+			<h2>Kompetenz in Elektro- und Elektronik-Labortests</h2>
+
+			<p>Die AI-Labors bieten die folgenden Tests für Ihre elektrischen und elektronischen Produkte an und helfen Ihnen, die Qualitäts- und Sicherheitsstandards Ihres Zielmarkts zu erfüllen:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>US California Proposition 65 für Konsumgüter</li>
+							<li>Giftstoffe in der Verpackung</li>
+							<li>EMC/EMI-Tests</li>
+							<li>Produktsicherheitstests (UL/IEC)</li>
+							<li>FCC/RTTE-Tests für drahtlose und HF-Produkte</li>
+							<li>RoHS-Tests</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+			]]>
+		</soloutionContent>
+	</de>
+
+	<tr>
+		<imageAlt>Consumer Electronics Product Inspection | AI – Electrical Testing &amp; Quality Control</imageAlt>
+		<title>Elektrik ve Elektronik Ürün</title>
+		<subTitle>AsiaInspection tüketici elektroniği ve kablosuz aygıtlar dahil olmak üzere birçok elektrikli ve elektronik ürün için ürün muayenesi ve laboratuvar testi hizmetleri sunar.</subTitle>
+		<schedButton url="/register">Başla</schedButton>
+		<soloutionTitle>Elektrik ve Elektronik Sektörüne Özel Kalite Kontrol</soloutionTitle>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<soloutionContent>
+			<![CDATA[
+			<p>Her yıl, yüzlerce tüketici elektrikli ve elektronik ürünleri çağrılmakta, marka ve perakendeciler ciddi itibar kaybı ve mali zararlarla uğraşmaktadır. Geri çağırmaların en genel nedeni aşırı ısınma, elektrik çarpması ve patlama dahil güvenlikle alakalıdır. Çoğu durumda bu hatalı ürünler düşük maliyetli imalat noktalarına yönlendirilebilmektedir.</p>
+			<p>AI'nin fiziksel, mekanik ve laboratuvar testleri hedef piyasanızdaki koşulları ve uluslararası güvenlik standartlarını karşılamanızda size yardımcı olacaktır. Marka imajınızı ve tüketici sadakatini güvenceye almak için elektrikli ve elektronik ürün testi uzmanlığımıza güvenin.</p>
+
+			<h2>Elektrikli ve Elektronik Ürün Muayenesi Uzmanlığı</h2>
+
+			<p>AI saha muayeneleri elektrikli ve elektronik cihazlarınızın güvenlik, kalite ve performans özelliklerini kontrol edecek bir dizi fiziksel ve mekanik test sunmaktadır:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Yüksek gerilim testi</li>
+							<li>Topraklama sürekliliği testi</li>
+							<li>Güç kablosu çekme testi</li>
+							<li>Stabilite testi</li>
+							<li>Güç tüketimi testi</li>
+							<li>Motor devir hızı ölçümü</li>
+							<li>İç yapı incelemesi</li>
+							<li>Çalışma akımı/voltajı kontrolü</li>
+							<li>Gürültü seviyesi ölçümü</li>
+						</ul>
+					</td>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Su geçirmezlik testi</li>
+							<li>Ürün parametre kontrolü</li>
+							<li>Ürün fonksiyon/performans testi</li>
+							<li>İşçilik değerlendirmesi</li>
+							<li>Frekans kontrolü</li>
+							<li>Kablosuz aygıt için çalışma mesafesi</li>
+							<li>Hoparlör ve mikrofon için frekans yanıt testi</li>
+							<li>Empedans kontrolü</li>
+							<li>Sinyal gürültü oranı</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+
+			<h2>Elektrikli ve Elektronik Ürün Muayenesi Uzmanlığı</h2>
+
+			<p>AI laboratuvarları elektrikli ve elektronik ürünleriniz için, hedef piyasanızdaki kalite ve güvenlik standartlarını karşılamanızda size yardımcı olacak aşağıdaki testleri sunmaktadır:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Tüketici Ürünleri için ABD California Teklif 65</li>
+							<li>Paketlemedeki zehirli maddeler</li>
+							<li>EMC / EMI testi</li>
+							<li>Ürün güvenliği testi (UL / IEC)</li>
+							<li>Kablosuz ve RF ürünler için FCC / RTTE testi</li>
+							<li>RoHS testi</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+			]]>
+		</soloutionContent>
+	</tr>
+
+	<pt>
+		<imageAlt>Consumer Electronics Product Inspection | AI – Electrical Testing &amp; Quality Control</imageAlt>
+		<title>Eletricidade e Eletrónica</title>
+		<subTitle>A AsiaInspection oferece serviços de inspecção de produtos e testes de laboratório para uma ampla gama de produtos eléctricos e electrónicos, tais como electrónica de consumo e os dispositivos sem fios.</subTitle>
+		<schedButton url="/register">Começar</schedButton>
+		<soloutionTitle>Controlo de Qualidade Adaptado à Indústria Elétrica e Eletrónica</soloutionTitle>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<soloutionContent>
+			<![CDATA[
+			<p>Cada ano, centenas de produtos eléctricos e electrónicos são retirados do mercado, causando sérios danos à reputação das marcas e fornecedores e graves prejuízos económicos. As causas mais comuns dessas retiradas estão relacionadas com a segurança, incluindo problemas com o sobreaquecimento, choque elétrico e explosão. Na maioria dos casos, estes produtos defeituosos foram fabricados em países com baixos custos de produção.</p>
+			<p>Os testes físicos, mecânicos e de laboratório irão fazer com que os produtos elétricos e eletrónicos vão ao encontro dos requisitos do seu mercado de destino e normas de segurança internacional. Contamos com a nossa experiência em testes de produtos elétricos e eletrónicos para preservar a sua imagem de marca e a fidelização de clientes.</p>
+
+			<h2>Experiência em Eletricidade e Eletrónica</h2>
+
+			<p>A AI oferece uma ampla gama de testes físicos e mecânicos para verificar a segurança, qualidade e características de apresentação dos seus dispositivos elétricos e eletrónicos:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Teste Hipot</li>
+							<li>Teste de continuidade da terra</li>
+							<li>Teste de tração do cabo de alimentação</li>
+							<li>Teste de estabilidade</li>
+							<li>Teste de consumo de potência</li>
+							<li>Medida de velocidade de rotação do motor</li>
+							<li>Revisão da construção interna</li>
+							<li>Inspeção da corrente/voltagem em funcionamento</li>
+							<li>Medição do nível de ruído</li>
+						</ul>
+					</td>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Teste à prova de água</li>
+							<li>Verificação dos parâmetros do produto</li>
+							<li>Teste de função/desempenho do produto</li>
+							<li>Inspeção da mão-de-obra</li>
+							<li>Verificação da frequência</li>
+							<li>Distância de funcionamento para dispositivos sem fios</li>
+							<li>Teste de frequência para altifalantes e microfones</li>
+							<li>Verificação da impedância</li>
+							<li>Relação sinal-ruído</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+
+			<h2>Experiência em Eletricidade e Eletrónica</h2>
+
+			<p>Os laboratórios da AI oferecem os seguintes testes para os seus produtos elétricos e eletrónicos, ajudando-o a ir ao encontro das normas de qualidade e segurança do seu mercado de destino:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Proposição 65 US Califórnia para produtos de consumo</li>
+							<li>Tóxicos no acondicionamento</li>
+							<li>Testes EMC / EMI</li>
+							<li>Testes de segurança de produto (UL / IEC)</li>
+							<li>Testes FCC / RTTE para produtos sem fio e RF</li>
+							<li><a href="/rohs-testing">Teste RoHS</a></li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+			]]>
+		</soloutionContent>
+	</pt>
+
+	<ru>
+		<imageAlt>Consumer Electronics Product Inspection | AI – Electrical Testing &amp; Quality Control</imageAlt>
+		<title>Электрические и электронные товары</title>
+		<subTitle>AsiaInspection предлагает услуги по инспекции продукции и лабораторным тестированиям для широкого спектра электрических и электронных товаров, включая потребительскую электронику и беспроводные устройства.</subTitle>
+		<schedButton url="/register">Начать</schedButton>
+		<soloutionTitle>Контроль качества, разработанный специально для производства электронных и электрических товаров</soloutionTitle>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<soloutionContent>
+			<![CDATA[
+			<p>Каждый год сотни потребительских электронных и электрических товаров отзывают с рынка, что наносит серьезный репутационный и финансовый ущерб брендам и предприятиям розничной торговли. Самые частые причины отзыва товаров связаны с безопасностью, в том числе с перегревом, риском поражения электротоком и риском взрыва. В большинстве случаев эти неисправные товары происходят из низкозатратных производств.</p>
+			<p>Физические, механические и лабораторные тесты AI помогут вашим электрическим и электронным товарам соответствовать требованиям вашего целевого рынка и международным стандартам безопасности. Опираясь на наш опыт тестирования электрической и электронной продукции, сохраните имидж своего бренда и лояльность потребителей.</p>
+
+			<h2>Квалифицированная инспекция электронных и электрических товаров</h2>
+
+			<p>Инспекторы AI на местах проводят ряд физических и механических тестов, чтобы проверить безопасность, качество и эксплуатационные свойства ваших электронных и электрических приборов:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Испытание высоким напряжением</li>
+							<li>Испытание на непрерывность заземления</li>
+							<li>Тест натяжения кабеля питания</li>
+							<li>Тест на устойчивость</li>
+							<li>Тест потребления энергии</li>
+							<li>Измерение скорости вращения двигателя</li>
+							<li>Обзор внутреннего устройства</li>
+							<li>Проверка рабочего тока/напряжения</li>
+							<li>Измерение уровня шума</li>
+						</ul>
+					</td>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Испытание на водонепроницаемость</li>
+							<li>Проверка параметров изделия</li>
+							<li>Тестирование функций / эксплуатационных качеств продукта</li>
+							<li>Обзор качества работы</li>
+							<li>Проверка частоты</li>
+							<li>Рабочее расстояние для беспроводных устройств</li>
+							<li>Тест частотной характеристики для громкоговорителя и микрофона</li>
+							<li>Проверка импеданса</li>
+							<li>Соотношение "сигнал-шум"</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+
+			<h2>Квалифицированная инспекция электронных и электрических товаров</h2>
+
+			<p>Лаборатории AI предлагают следующие тесты для вашей электронной и электрической продукции, помогая вам соответствовать стандартам качества и безопасности вашего целевого рынка.</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Законодательная инициатива 65 штата Калифорния для потребительских товаров</li>
+							<li>Токсичные вещества в упаковке</li>
+							<li>Тестирование EMC / EMI</li>
+							<li>Тестирование безопасности продукции (UL / IEC)</li>
+							<li>Тестирование FCC / RTTE для беспроводных и радио-устройств</li>
+							<li><a href="/rohs-testing">Тестирование RoHS</a></li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+			]]>
+		</soloutionContent>
+	</ru>
+
+	<it>
+		<imageAlt>Consumer Electronics Product Inspection | AI – Electrical Testing &amp; Quality Control</imageAlt>
+		<title>Dispositivi Elettrici ed Elettronici</title>
+		<subTitle>AsiaInspection offre ispezioni di prodotto e servizi di analisi di laboratorio per una vasta gamma di prodotti elettrici ed elettronici, compresi i dispositivi di elettronica di consumo e i dispositivi wireless.</subTitle>
+		<schedButton url="/register">Inizia Ora</schedButton>
+		<soloutionTitle>CQ su Misura per il Settore Elettrico ed Elettronico</soloutionTitle>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<soloutionContent>
+			<![CDATA[
+			<p>Ogni anno, centinaia di prodotti elettrici ed elettronici vengono richiamati, con gravi danni per marchi e rivenditori tanto sotto il profilo della reputazione che sotto quello finanziario. Le cause più comuni dei richiami hanno a che fare con la sicurezza, ivi compresi surriscaldamenti, scosse elettriche o esplosioni. Nella maggior parte dei casi, questi prodotti difettosi provengono da località in cui si effettua una produzione a basso costo.</p>
+			<p>I test fisici e meccanici e le analisi di laboratorio di AI faranno in modo che i tuoi prodotti elettrici ed elettronici rispondano ai requisiti del tuo mercato di destinazione e rispettino gli standard di sicurezza internazionali. Affidati alla nostra competenza nell'analisi dei prodotti elettrici ed elettronici per proteggere l'immagine del tuo marchio e preservare la fedeltà del consumatore.</p>
+
+			<h2>Competenza nell'Ispezione di Prodotti Elettrici ed Elettronici</h2>
+
+			<p>Le ispezioni in loco di AI comprendono un numero di test fisici e meccanici per verificare la sicurezza, la qualità e le caratteristiche prestazionali dei tuoi dispositivi elettrici ed elettronici:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Test Hipot</li>
+							<li>Test della messa a terra</li>
+							<li>Test di trazione del cavo di alimentazione</li>
+							<li>Test di stabilità</li>
+							<li>Test di consumo di energia</li>
+							<li>Misurazione della velocità di rotazione del motore</li>
+							<li>Verifica della costruzione interna</li>
+							<li>Controllo della corrente/tensione operativa</li>
+							<li>Misurazione del livello del rumore</li>
+						</ul>
+					</td>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Test di impermeabilità</li>
+							<li>Controllo dei parametri del prodotto</li>
+							<li>Test di funzionalità/prestazione del prodotto</li>
+							<li>Verifica della Lavorazione</li>
+							<li>Controllo della frequenza</li>
+							<li>Controllo della distanza operativa per i dispositivi wireless</li>
+							<li>Test della risposta in frequenza per altoparlante e microfono</li>
+							<li>Controllo dell'impedenza</li>
+							<li>Rapporto segnale/rumore</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+
+			<h2>Competenza nell'Ispezione di Prodotti Elettrici ed Elettronici</h2>
+
+			<p>I laboratori AI offrono i seguenti test per i tuoi prodotti elettrici ed elettronici, per aiutarti a soddisfare i requisiti di sicurezza e qualità del tuo mercato di destinazione:</p>
+			<table border="0" width="100%">
+				<tr>
+					<td width="50%">
+						<ul style="margin:0px;">
+							<li>Proposta 65 California US per i Prodotti di Consumo</li>
+							<li>Sostanze tossiche nelle confezioni</li>
+							<li>Test EMC/EMI</li>
+							<li>Test della sicurezza del prodotto (UL/IEC)</li>
+							<li>Test FCC/RTTE per prodotti wireless e RF</li>
+							<li><a href="/rohs-testing">Test RoHS</a></li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<br />
+			]]>
+		</soloutionContent>
+	</it>
+
+</document>

@@ -1,0 +1,126 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title %}Upload non-opt in file for Zoho import{% endblock %}
+{% block content %}
+        <h1  style="margin-top:20px;">Upload non-opt in file for Zoho import{% if not is_granted('ROLE_ADMIN') %}, admin only{% endif %}</h1>
+        {% if is_granted('ROLE_ADMIN') %}<p style="margin-bottom:20px;">This page will upload your contact file to Zoho  (via the Marketing server). Please only upload files that have been checked and approved by Michael Bland!</p>{% endif %}
+         <div class="box-white">
+            <div style="margin-bottom:20px;">
+
+    <input type="hidden" id="validateErrorText" value="">
+    <form method="post" enctype="multipart/form-data" id="uploadLeadsForm" name="uploadLeadsForm" class="validate-form">
+        
+        <br>
+        <div class="uploadbis">
+            <div class="col-lg-4 col-xs-5 paddingLeftRightZero">
+                <label>XLSX file with non-opt in leads</label> 
+            </div>
+            <div class="col-lg-8 col-xs-7 inputField">
+                <div class="input-group" id="cvUpload" style="width:50%;">
+                    <span class="input-group-btn">
+                        <a  class="btn btn-secondary btn-file btn-small" style="width:80px;margin-right:0px;" >
+                            Browse&hellip; <input type="file" id="leadsCSV" name="leadsCSV" required size="10" tabindex="5"/>
+                        </a>
+                    </span>
+                    <input type="text" id="fileInputBox" class="form-control" readonly style="height:24px;border-left:0;"/>
+                </div>
+                <div style="color:red; margin-top:5px; display:none;" id="notwarning">This is not an XLSX file.</div>
+            </div>
+        </div>
+     <div style="clear:both;"></div>
+
+     <div id="leadsErrorDisplay" style="width:100%; margin-top:15px; display:none; color:red;"></div>
+     <div id="leadsSuccessDisplay" style="width:100%; margin-top:15px; display:none; color:green; font-size:30px;"></div>
+     
+     <div style="clear:both;"></div>
+       <div style="clear:both;"></div>
+        <div style="text-align:center;">
+            <button id="salesLeadsUploadSubmit" name="submit"  type="button" class="btn-primary smallButton" style="margin:20px 0px;">Upload Now</button>
+            <br />
+            <progress value="0" style="width:32%;"></progress>
+        </div>
+    </form> 
+</div>
+</div>
+    <script type="text/javascript">
+        // Warning before upload if they have chosen a file that is not a CSV
+        fileName = "";
+        $('#leadsCSV').change(function() {
+            $("#leadsSuccessDisplay").hide();
+            var file = this.files[0];
+            fileName = file.name;
+            var mimeTypes = ['application/vnd.ms-excel','text/plain','text/csv','text/tsv','csv','application/octet-stream','text/comma-separated-values',''];
+            if( $.inArray( file.type, mimeTypes ) < 0 ) {
+                $("#fileInputBox").css({"box-shadow":"inset 0px 0px 7px 1px red"});
+                $("#notCSVwarning").show();
+                $("#notCSVwarning").html("This is not a XLSX file: <b>"+file.type+"</b>");
+            } else {
+                $("#fileInputBox").css({"box-shadow":"none"});
+                $("#notCSVwarning").hide();
+                $("#notCSVwarning").html("This is not an XLSX file.");
+            }
+        });
+        
+        $('#salesLeadsUploadSubmit').click(function() {
+            $("#leadsErrorDisplay").hide();
+            var formData = new FormData($('form')[0]);
+            $.ajax({
+                url: '/uploadNonOptIn',
+                type: 'POST',
+                xhr: function() {  // Custom XMLHttpRequest
+                    var myXhr = $.ajaxSettings.xhr();
+                    if(myXhr.upload) {
+                        myXhr.upload.addEventListener('progress',progressHandlingFunction, false);
+                    }
+                    return myXhr;
+                },
+                error: errorHandler,
+                success: completeHandler,
+                data: formData,
+                cache: false,
+                contentType: false,
+                processData: false
+            });
+        });
+        
+        function progressHandlingFunction(e){
+            if(e.lengthComputable){
+                $('progress').attr({value:e.loaded,max:e.total});
+            }
+        }
+
+        function completeHandler(data){
+            data = JSON.parse(data);
+            if(data.success == "true"){
+                $("#leadsSuccessDisplay").text("Your file has been submitted, please allow up to 2 hours for processing.").show();
+            } else {
+                $("#salesLeadsUploadSubmit").removeAttr("disabled");
+                htmlerrors = "<p><u><b>The following errors occurred during upload: （上传时候发生了以下错误)</b></u></p><ul>";
+                errors = data.errors;
+                errors.forEach(function(entry) {
+                    htmlerrors += "<li style='margin-bottom:5px;'>"+entry+"</li>";
+                });
+                htmlerrors += "</ul>";
+                $("#leadsErrorDisplay").html(htmlerrors).show();
+            }
+        }
+
+        function errorHandler(e){
+            if(e.status == 504){
+                // 504 Error Handler
+                showName = $("select:visible","#tradeshowDropdowns").val();
+                $("#salesLeadsUploadSubmit").removeAttr("disabled");
+                htmlerrors = "<p><u><b>The following errors occurred during upload: （上传时候发生了以下错误)</b></u></p><ul>";
+                htmlerrors += "<p><b>Proxy Timed Out!</b></p><p>There is something between your computer and the webserver that timed out, Possibly a VPN or Proxy.<br /><br />Please confirm with <a href='mailto:vincent.macdonald@asiainspection.com?subject=Did%20my%20contacts%20upload%3F%20(504%20Error)&body=Hi%20Vince%2C%0A%0AI%20tried%20to%20upload%20the%20file%20"+fileName+"%20and%20I%20got%20a%20timeout%20error.%0A%0ACan%20you%20please%20let%20me%20know%20if%20they%20uploaded%20to%20the%20leads%20tool%20or%20if%20I%20need%20to%20upload%20them%20again%3F%0A%0AThanks'>Vincent MacDonald</a> or <a href='mailto:sharon.zhou@asiainspection.com?subject=Did%20my%20contacts%20upload%3F%20(504%20Error)&body=Hi%20Sharon%2C%0A%0AI%20tried%20to%20upload%20the%20file%20"+fileName+"%20and%20I%20got%20a%20timeout%20error.%0A%0ACan%20you%20please%20let%20me%20know%20if%20they%20uploaded%20to%20the%20leads%20tool%20or%20if%20I%20need%20to%20upload%20them%20again%3F%0A%0AThanks'>Sharon Zhou</a> if your contacts were uploaded successfully.</p>";
+                $("#leadsErrorDisplay").html(htmlerrors).show();
+            }
+            if(e.status == 500){
+                // 500 Error Handler
+                showName = $("select:visible","#tradeshowDropdowns").val();
+                $("#salesLeadsUploadSubmit").removeAttr("disabled");
+                htmlerrors = "<p><u><b>The following errors occurred during upload: （上传时候发生了以下错误)</b></u></p><ul>";
+                htmlerrors += "<p><b>Error (500)</b>: Something has gone wrong on the server.<br />Please send the file to <a href='mailto:michael.mesarch@asiainspection.com?subject=Leads%20Tool%20(500)%20Error&body=Hi%20Michael%2C%0A%0AI%20tried%20to%20upload%20the%20file%20"+fileName+"%20for%20the%20show%20"+showName+"%20and%20I%20got%20a%20500%20error.%0A%0ACan%20you%20please%20check%20out%20what%20happened%20with%20the%20attached%20file%3F%0A%0AThanks'>Michael Mesarch</a>.</p>";
+                $("#leadsErrorDisplay").html(htmlerrors).show();
+            }
+        }
+    </script>
+{% endblock %}

@@ -1,0 +1,70 @@
+{% extends 'AIResponsiveBundle:aboutUs:aboutUsBase.html.twig'%}
+{% block title %}Thank You For Your Feedback! | Asiainspection.com{% endblock %}
+{% block pagename %}surveyThanks{% endblock %}
+{% block bigTitle %}Thank You For Your Feedback{% endblock %}
+{% block smallText %}{% endblock %}
+
+{% block aboutUsMainBlock %}
+
+        <div class="col-xs-10 col-xs-offset-1 col-md-offset-1 col-md-7 col-xl-offset-0 col-xl-8" style="margin-top:20px;">
+            {% if feedbackGiven is defined and feedbackGiven == true %}
+                <span>Your feedback will help us improve our service in the future.</span>
+            {% else %}
+                <form action="" method="post">
+                    <input type="hidden" name="token" value="{{ csrf_token("thanks") }}">
+                    <input type="hidden" id="recordID" name="recordID" value="{% if recordID is defined %}{{recordID}}{% endif %}" />
+                    <textarea id="surveyComments" name="surveyComments" style="width:100%; min-height:290px; padding:15px;" rows="5" placeholder="Feel free to share any additional comments you may have:"></textarea>
+                    <br /><br />
+                    <div style="text-align:right;"><button type="submit" class="btn-primary" style="min-width:180px;">Submit</button></div>
+                </form><br />
+            {% endif %}
+        </div>
+
+        <div class="col-xs-10 col-xs-offset-1 col-md-offset-0 col-md-4" style="margin-top:20px;">
+            <!-- Contact Us By Phone Box [Begin] -->
+            <div class="offer-box" style="margin-bottom:15px; padding:30px;">
+                <p>If there's anything we can do to meet your quality control needs in Asia, please contact us at <a href="mailto:customerservice@asiainspection.com">customerservice@asiainspection.com</a> or visit our <a href="/contact-us">contact us</a> page.</p><br />
+                <h5>Contact Us By Phone</h5>
+                <hr />
+
+                <div class="ContactNumberBox2" style="margin:10px 0px 20px 0px;">
+                    <h2>
+                        <span class="ContactNumberTollfree2" style="display:none;"><a href="" class="ui-link2"></a><br /><br /></span>
+                        <span class="ContactNumberPhone2">
+                            {% for region in contacts.Locations.region %}
+                                {% for office in region.office %}
+                                     {% if userCountry==office.countryCode %}<a href="tel:{{office.number}}" class="ui-link2">{{office.number}}</a>{% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                        </span>
+                    </h2>
+                </div>
+
+                <div class="numers_China_contact" style="display:none;">
+                    <b>Operations:</b>
+                    <p>+86 755 2223 9888</p>
+                    <b>Sales:</b>
+                    <p>+86 755 2223 9086</p>
+                    <b>Lab Testing:</b>
+                    <p>+86 577 6160 3663</p>
+                </div>
+
+                <div class="ui-select">
+                    <p>{% trans %}Contact a local office{% endtrans %}</p>
+                    <select class="ContactNumberSelect2">
+                        {% for region in contacts.Locations.region %}
+                        <option style="background-color:#B31820; font-weight:bold; color:#FFFFFF;" disabled="disabled">{{region.name.en}}</option>
+                        {% for office in region.office %}
+                        <option phone="{{office.number}}" country="{{office.countryCode}}" {% if userCountry==office.countryCode %}selected{% endif %}>{{office.en}}</option>
+                        {% endfor %}
+                        <option disabled="disabled"></option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+            </div>
+            <!-- Contact Us By Phone Box [End] -->
+        </div>
+
+{% endblock %}
+

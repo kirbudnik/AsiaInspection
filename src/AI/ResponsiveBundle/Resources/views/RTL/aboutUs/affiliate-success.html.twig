@@ -1,0 +1,36 @@
+{% extends '::base.html.twig' %}
+{%block title%}Affiliate Program{%endblock%}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+{%block body%}
+<div class="container wrapper">
+    <div class="col-xs-12 wrapper">
+        <div class="col-md-10 col-md-offset-1 col-xs-12 wrapper margin20">
+
+      	    <h1  class="margin20">Affiliate Program</h1>
+            <div class="box-white">
+                <div style="margin-bottom:20px;">
+                    {#{%if spam==1%}#}
+                        {#{%if confirm==1%}#}
+                            {#<h2 style="color:rgb(179,24,32);">Affiliate Registration Confirmation Needed</h2>#}
+                            {#<p>Thank you for your interest in AsiaInspection!</p>#}
+                            {#<p>To complete your affiliate registration, please reply to the confirmation email sent to the address you registered with and confirm your details.</p>#}
+                            {#<strong><font face="Arial">The AsiaInspection team</font></strong><br /><br />#}
+                        {#{%else%}#}
+                            {#<h2 style="color:rgb(179,24,32);">Affiliate Registration Failed</h2>#}
+                            {#<p>Your behavior looks like a robot and your registration has not been accepted.</p>#}
+                            {#<p>If you need help contact us at <a href="mailto:customerservice@asiainspection.com?subject=Affiliate%20Registration%20Assistance">customerservice@asiainspection.com</a></p>#}
+                            {#<strong><font face="Arial">The AsiaInspection team</font></strong><br /><br />#}
+                        {#{%endif%}#}
+                    {#{%else%}#}
+                        <h1 style="color:rgb(179,24,32);">Congratulations : You have successfully registered on the affiliate program!</h1><br />
+                        <font face="Arial">Thank you for your interest in our services.</font><br /><br />
+                        <strong><font face="Arial">The AsiaInspection team</font></strong><br /><br />
+                    {#{%endif%}#}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock%}

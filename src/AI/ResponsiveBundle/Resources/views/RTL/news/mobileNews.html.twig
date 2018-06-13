@@ -1,0 +1,54 @@
+{% extends '::mobileBase.html.twig' %}
+{%block title%}{%if pageTitle is defined%}{{pageTitle}}{%else%}Mobile News{%endif%}{%endblock%}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+{%block body%}
+<section id="main">
+
+    <div class="newsFilter">
+        <form>
+            <select class="newsFilterSelect" id="news-filter-1">
+                <option value="news-post">All News</option>
+                <option value="general-news">AI General News</option>
+                <option value="reg-update">Regulatory Updates</option>
+            </select>
+        </form>
+    </div>
+
+    {% set maxNew = 12 %} {# number of stories initially visible #}
+    {% for post in posts %}
+        {%if loop.index==maxNew %}
+            <a href="javascript:;" class="showOld">Older Articles</a>
+        {% endif %}
+        <div id="post-{{loop.index}}" class="{{post.type}} {%if loop.index>=maxNew %} old-post {% endif %} news-post type-post">
+            <div class="block_module">
+                <div class="blog">
+                    <span class="post_date">{{post.datetime}}</span>
+                    {%if post.link is defined%}
+                        <h1><a href="{{post.url}}">{{post.title|raw}}</a></h1>
+                    {% else %}
+                        <h1>{{post.title|raw}}</h1>
+                    {%endif%}
+                    <p>{{post.blurb|raw}}</p>
+                    {%if post.link is defined%}
+                        <a class="readArticleLink" href="{{post.url}}"><div class="readArticleButton"><div class="readArticleText">{{post.link|raw}}</div></div></a>
+                    {%endif%}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+
+    <div class="newsFilter">
+        <form>
+            <select class="newsFilterSelect" id="news-filter-2">
+                <option value="news-post">All News</option>
+                <option value="general-news">AI General News</option>
+                <option value="reg-update">Regulatory Updates</option>
+            </select>
+        </form>
+    </div>
+
+</section>
+
+{%endblock%}

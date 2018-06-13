@@ -1,0 +1,39 @@
+{% extends '::base.html.twig' %}
+{%block title%}Dashboard Demo{%endblock%}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+
+ {%block bigTitle%}New Dashboard Feature{%endblock%}
+ {%block smallText%}Now Track Your Quality KPI's and Rank Suppliers!{%endblock%}
+ {%block pagename%}DashboardDemo{%endblock%}
+
+
+{% block body -%}
+<div style="padding:50px; text-align:center;">
+<p>Your real-time dashboard will enable you to benchmark and identify your high performing suppliers in real time.</p>
+<br /><br />
+
+<script src="/js/jwplayer.js"></script>
+<script type='text/javascript'>jwplayer.key='oPERdfT2dyFZJbzR66CRCaeu1joZMpUwoWx6Gw==';</script>
+
+    <div class="mboxDefault">
+      <iframe
+        style="margin-left:55px;"
+        width="845"
+        height="475"
+        frameborder="0"
+        allowfullscreen
+        src="//www.youtube.com/embed/nHZhPHVr8vc?version=3&amp;autoplay=1&amp;showinfo=0&amp;rel=0&amp;vq=hd720"
+      >
+      </iframe>
+    </div>
+
+  <script type="text/Javascript">mboxCreate("en_dashboard_video");</script>
+
+  <br />
+  <div style="text-align:center;margin-top:35px;">
+    <a style="font-size:24px;font-weight:bold;" target="_blank" href="http://customer.asiainspection.com/login">Access Your Dashboard Now!</a>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends '::base.html.twig' %}
+{%block title%}Test the Lead Content of Your Tap Water | AsiaInspection.com{%endblock%}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+{%block pagename%}tapwater{%endblock%}
+
+{%block body%}
+    <div class="headerbox">
+        <div class="container vcenter_parent wrapper">
+            <div class="col-xs-12 vcenter_parent wrapper paddingleftSmall">
+                <div class="col-lg-7 col-lg-offset-1 col-xs-10 col-md-8 col-md-offset-1 col-xl-offset-0 col-xs-offset-1 vcenter_parent paddingLeftRightZero" id="bigWidth" >
+                    <div class="vcenter">
+                        <h1 class="mainHeader">Test the Lead Content of Your Tap Water</h3>
+                        <div class="mainSubHeader">Recent reports show Hong Kong tap water had 3.5 times Hong Kong safety limits.<br />Are you and your family at risk?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container wrapper" style="width:100%; padding-bottom:20px;">
+        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 col-xl-offset-0 paddingLeftRightZero" style="margin-top:20px;">
+            <ol>
+                <li style="margin-bottom:5px;">Download the order form below, fill it out and send it by email / fax to AI|ANSECO.</li>
+                <li style="margin-bottom:5px;">Send payment for your order: <b>$230 HKD</b> by transfer or cheque</li>
+                <li style="margin-bottom:5px;">Deliver the water sample at our office, drop it off at an MTR Station or call our courier pick up ($100 HKD extra charge)</li>
+                <li style="margin-bottom:5px;">Receive your Test Report by email within 4 days</li>
+            </ol>
+            <div class="text-center" style="margin-top:20px;">
+                <a href="{{assetsDomain}}/files/CS-HK-SRF_Water_Testing.doc" target="_blank" role="button" class="one-btn btn-big btn btn-primary" style="max-width:260px;">Download the Form</a>
+            </div>
+        </div>
+    </div>
+
+{%endblock%}

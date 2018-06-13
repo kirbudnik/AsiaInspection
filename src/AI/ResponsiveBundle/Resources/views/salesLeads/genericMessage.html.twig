@@ -1,0 +1,12 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{%block title%}{{title}}{%endblock%}
+
+{%block content%}
+    <div class="box-white">
+        <h1 class="margin20">{{title}}</h1>
+        <br />
+        <p>{{message|raw}}</p>
+        <br />
+        <a href="{{link}}">{{linkText}}</a>
+    </div>
+{%endblock%}

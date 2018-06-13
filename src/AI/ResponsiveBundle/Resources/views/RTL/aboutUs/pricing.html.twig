@@ -1,0 +1,120 @@
+{% extends 'AIResponsiveBundle:aboutUs:aboutUsBase.html.twig' %}
+
+{%block title%}{{pageTitle}}{%endblock%}
+{%block pagename%}Pricing{%endblock%}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+ {%block bigTitle%} {{xml.title}} {%endblock%}
+ {%block smallText%}{{xml.subtext|raw}}{%endblock%}
+
+{%block aboutUsMainBlock%}
+<div id="aboutUsPricing">
+    <div class="col-xs-11 col-xs-offset-1 col-sm-10 col-sm-offset-1 wrapper paddingLeftZero">
+        <br />
+        <div id="homePricingBoxWrapper" class="row">
+
+            <div class=" col-xs-12 col-sm-offset-0 col-sm-12 col-md-4 vcenter_parent margin20Small">
+                <div class="pricing-offer-box-titlebar">
+                    <h5 style="margin:0px; color:white; font-size:17px; text-transform:uppercase;">{{xml.offerbox1.title}}</h5>
+                </div>
+                <div class="text-center pricing-offer-box pgrey vcenter_parent">
+                    <div class="pricingContent vcenter_parent">
+                        <div> &nbsp; </div>
+                        <h2>${{price_Inspect_Low}} USD</h2>
+                        {%if xml.manday is defined%}{{xml.manday}}{%else%}{%trans%}Per Man Day{%endtrans%}{%endif%} *
+                        <hr />
+                        <div> &nbsp; </div>
+                        <h2>${{price_Inspect_High}} USD</h2>
+                        {%if xml.manday is defined%}{{xml.manday}}{%else%}{%trans%}Per Man Day{%endtrans%}{%endif%} **
+                        <br /><br />
+                        <a href="http://customer.asiainspection.com/login" role="button"  class="btn btn-primary btn-md" style="width:176px;">{{xml.offerbox1.order}}</a><br/>
+                        <hr />
+                        <a href="/quality-control-services#audit">{{xml.offerbox1.learnMore}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-xs-12 col-sm-offset-0 col-sm-12 col-md-4 vcenter_parent margin20Small">
+                <div class="pricing-offer-box-titlebar">
+                    <h5 style="margin:0px; color:white; font-size:17px; text-transform:uppercase;">{{xml.offerbox2.title}}</h5>
+                </div>
+                <div class="text-center pricing-offer-box pgrey vcenter_parent">
+                    <div class="pricingContent vcenter_parent">
+                        <div>{%trans%}from{%endtrans%}</div>
+                        <h2>${{price_Audit_Low}} USD</h2>
+                        {%if xml.manday is defined%}{{xml.manday}}{%else%}{%trans%}Per Man Day{%endtrans%}{%endif%} *
+                        <hr />
+                        <div>{%trans%}from{%endtrans%}</div>
+                        <h2>${{price_Audit_High}} USD</h2>
+                        {%if xml.manday is defined%}{{xml.manday}}{%else%}{%trans%}Per Man Day{%endtrans%}{%endif%} **
+                        <br /><br />
+                        <a href="http://customer.asiainspection.com/login" role="button"  class="btn btn-primary btn-md" style="width:176px;">{{xml.offerbox2.order}}</a><br/>
+                        <hr />
+                        <a href="/quality-control-services#audit">{{xml.offerbox2.learnMore}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-offset-0 col-sm-12 col-md-4 vcenter_parent margin20Small">
+                <div class="pricing-offer-box-titlebar">
+                    <h5 style="margin:0px; color:white; font-size:17px; text-transform:uppercase;">{{xml.offerbox3.title}}</h5>
+                </div>
+                <div class="text-center pricing-offer-box pgrey vcenter_parent">
+                    <div class="pricingContent vcenter_parent">
+                        <div> &nbsp; </div>
+                        <h2> &nbsp;</h2>
+                        {% if app.request.locale != "fr" %}&nbsp;{% endif %}
+                        <h2>{%trans%}Instant Pricing{%endtrans%}</h2>
+                        <div> &nbsp; </div>
+                        &nbsp;<br />&nbsp;
+                        {% if app.request.locale != "fr" %}<br />&nbsp;{% endif %}
+                        <br /><br />
+                        <a href="http://customer.asiainspection.com/login" role="button"  class="btn btn-primary btn-md" style="width:176px;">{{xml.offerbox3.order}}</a><br/>
+                        <hr />
+                        <a href="/quality-control-services#audit">{{xml.offerbox3.learnMore}}</a>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;" class="row">
+                <div class="col-xs-12">
+                    <table border="0" style="margin:10px 0px 0px 15px;">
+                        <tr><td style="padding-right:5px;">*</td><td>{% trans %}Pricing_Zone_A{% endtrans %}</td></tr>
+                        <tr><td style="padding-right:5px;">**</td><td>{% trans %}Pricing_Zone_B{% endtrans %}</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" style="padding-bottom:20px;padding-top:20px;">
+            <div class="col-lg-9 col-xs-12" style="margin-top:10px;">
+
+                <h2>{{xml.pricingCover.title1}}</h2>
+                {{xml.pricingCover.list1|trans|raw}}
+
+                <br />
+
+                <h2>{{xml.pricingCover.title3}}</h2>
+                {{xml.pricingCover.pgph|trans|raw}}
+
+            </div>
+            <div id="txtSameDayAudit" class="notshow" style="display:none;">{{xml.hoverOne|raw}}</div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var allRadios = document.getElementsByName('radioButton');
+    var booRadio;
+    var x = 0;
+    for(x = 0; x < allRadios.length; x++){
+        allRadios[x].onclick = function() {
+            if(booRadio == this){
+                this.checked = false;
+                booRadio = null;
+            }else{
+                booRadio = this;
+            }
+        };
+    }
+</script>
+{%endblock%}

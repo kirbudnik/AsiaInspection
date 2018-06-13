@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>DUPRO - During Production Inspection | In Process Quality Control</en>
+			<ar>فحص أثناء الإنتاج. | In Process Quality Control</ar>
+			<es>Servicios de Inspección de Control de Calidad: Inspeccion durante la producción | Asiainspection.com</es>
+			<fr>Contrôle Qualité : Inspection en cours de production, During production Inspection | AsiaInspection.fr</fr>
+			<zh>质量检测服务：生产中检验服务 | ChinaInspection.com</zh>
+			<de>Globale Kontrolle während der Produktion | Qualitätssicherung</de>
+			<pt>Serviços de controle de qualidade: Verificação inicial da produção (DUPRO) | AsiaInspection.pt</pt>
+			<ru>DUPRO – Инспекция в ходе производства | Контроль качества в процессе производства</ru>
+			<tr>DUPRO - Üretim Sırasında Muayene | Süreçte Kalite Kontrol</tr>
+		</pageTitle>
+		<pageDesc>
+			<en>For during production inspections (DUPRO) we use the internationally recognized ANSI/ASQC statistical sampling procedure. Learn more about or in process quality control services.</en>
+			<ar>للفحص أثناء الإنتاج، نستخدم  اجراءات أخذ العينات الإحصائية المعترف بها دولياً ANSI/ASQC . تعلم المزيد عن فحص أثناء الإنتاج</ar>
+			<es>Inspecciones durante la producción.</es>
+			<fr>Inspection en cours de production.</fr>
+			<zh>AsiaInspection 提供工厂生产中检验服务</zh>
+			<ru>Для инспекций в ходе производства (DUPRO) мы используем международно признанную процедуру статистической выборки ANSI/ASQC. Узнайте подробнее о наших услугах по контролю качества в процессе производства.</ru>
+			<de>Eine Stichprobenziehung bei bereits produzierter Ware hilft Fehler frühzeitig zu erkennen und zu beheben. Lernen Sie mehr über unsere Qualitätssicherung.</de>
+			<tr>Üretim sırasında muayeneler (DUPRO) için uluslararası alanda tanınmış ANSI/ASQC istatiksel numune alma prosedürünü kullanıyoruz. Süreçte kalite kontrol hizmetlerimiz hakkında daha fazla bilgi alın.</tr>
+		</pageDesc>
+	</pageMeta>
+
+	<en>
+		<title>During Production Check</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">A During Production Check (DUPRO) will identify any issues early in the manufacturing cycle, giving you the time needed to react and fix them.</p>
+
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>Why You Need a DUPRO: </b> When around 20% of production is complete, take a deep dive into your production, processes, capacity, and goods and then make critical decisions at an early stage, and avoid potentially catastrophic surprises later in the production cycle.</p>
+			]]></subtext2>
+		<whyUsTitle>Why AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD all-inclusive per man-day]]></li>
+			<li><![CDATA[An inspector onsite within 48 hours<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> and same day reports<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Easy online scheduling with customizable checklists</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</en>
+
+	<zh>
+		<title>生产中检验</title>
+		<subtext>
+			<![CDATA[
+			<p>生产中检验可以在生产初期发现生产环节中的问题，并给您足够的时间做出相应的反馈并解决问题。</p>
+
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>为什么您需要进行生产中检验: </b> 当20%的产品生产完毕时，对您工厂的生产过程、生产能力以及生产成品进行详细检查，将有助于您在生产初期做出关键性的决策，从而避免潜在的灾难性问题直到进入生产周期之后才被发现。</p>
+			]]></subtext2>
+		<whyUsTitle>为什么选择 AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[每人每天检验仅需 US${{priceIA}}]]></li>
+			<li><![CDATA[检验人员48小时内<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> 到达现场并当天出具检验报告<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>自定义检验标准，简易在线排程</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection保证将在48小时内派遣验货员到达工厂。<br /><br />但是这个时间期限也有赖于工厂的准备工作是否完成，并且是否与AsiaInspection充分合作。此外，如果遭遇其它不可控因素如交通晚点或其他任何意外事故，该时间期限将不能保证。]]>
+		</hoverOne>
+		<hoverTwo>
+			 正常情况下，80%的报告均可在检测当日出具。但是，报告是否能当天出具也取决于工厂是否配合。
+		</hoverTwo>
+		<schedButton url="/register">咨询详情</schedButton>
+	</zh>
+
+	<fr>
+		<title>Inspection en cours de production </title>
+		<subtext>
+			<![CDATA[
+			<p>Une inspection en cours de production permet d’identifier et de résoudre tout problème pendant le cycle de production.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Pourquoi AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD tout compris par jour-homme.]]></li>
+			<li><![CDATA[Inspecteur sur site sous 48 heures<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> et rapport le jour même<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Commande en ligne facile et protocole d'inspection personnalisé.</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantit l’intervention d’un inspecteur sur site dans les 48 heures.<br /><br />Cette fenêtre d’intervention est toutefois sujette à la coopération de l’usine et à son niveau de préparation. La garantie ne couvre pas les facteurs indépendants de la volonté d’AsiaInspection, tels que les retards dans les transports, ou tout autre cas de force majeure. ]]>
+		</hoverOne>
+		<hoverTwo>
+			80% des rapports sont remis le jour même de l’inspection. La remise du rapport le jour même dépend de la coopération totale de l’usine.
+		</hoverTwo>
+		<schedButton url="/register">Commencer</schedButton>
+	</fr>
+
+	<ar>
+		<title>خدمة الفحص خلال الإنتاج</title>
+		<subtext>
+			<![CDATA[
+			<p>خدمة السيطرة علي جودة الإنتاج تتيح لك التصرف السريع و إصلاح أخطاء أو مشاكل الإنتاج في حالة وقوع هذه الأخطاء أو المشاكل</p>
+			<p><b>لماذا تحتاج إلي  خدمة السيطرة علي جودة الإنتاج</b>عند إكتمال ٢٠ بالمائة من إجمالي كمية المنتج الخاص بك ، سوف نقوم بإعطائك تقرير مفصل يتضمن جودة الإنتاج و المواد المستخدمة و الجدول الزمني المتوقع مما يعطيك نظرة متعمقة داخل المصنع و عملية الإنتاج و يعطيك القدرة  علي إتخاذ قرارات إستراتيجية حاسمة لتجنب وقوع أي نوع من المشاكل أو العقبات لعملية الإنتاج الخاصة بك بعد ذلك</p>
+			]]>
+		</subtext>
+		<whyUsTitle>لماذا شركتنا هي الافضل في هذا المجال</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[سعر الخدمة هو {{priceIE}}</span> دولار امريكي شامل جميع التكاليف في اليوم للمفتش الواحد]]></li>
+			<li><![CDATA[مفتشنا في الوقع المحدد في أقل من ٤٨ ساعة<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> و التقارير الخاصة بمنتجاتك في نفس اليوم<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>يمكنك تحديد ميعاد للخدمة بكل سهولة عن طريق موقعنا علي الإنترنت</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">إبدأ الحجز الأن</schedButton>
+	</ar>
+
+	<ru>
+		<title>Инспекция в ходе производства</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">Инспекция в ходе производства (DUPRO) выявит проблемы на раннем этапе производственного цикла и даст вам необходимое время, чтобы отреагировать и исправить их.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>Why You Need a DUPRO: </b> When around 20% of production is complete, take a deep dive into your production, processes, capacity, and goods and then make critical decisions at an early stage, and avoid potentially catastrophic surprises later in the production cycle.</p>
+			]]></subtext2>
+		<whyUsTitle>Why AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD all-inclusive per man-day]]></li>
+			<li><![CDATA[An inspector onsite within 48 hours<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> and same day reports<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Easy online scheduling with customizable checklists</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</ru>
+
+	<es>
+		<title>Inspección durante la Producción</title>
+		<subtext>
+			<![CDATA[
+			<p>Una inspección durante producción (DUPRO) le permitirá identificar cualquier incidencia en el proceso, otorgándole el tiempo suficiente para poder reaccionar.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>¿Por qué necesita una DUPRO? </b> Cuando la producción alcance el 20% se realiza un exhaustivo chequeo de la misma, proceso empleado y capacidad productiva de la fábrica. Así podrá tomar decisiones cuanto antes, evitando sorpresas desagradables antes del embarque.</p>
+			]]>
+		</subtext2>
+		<whyUsTitle>¿Por qué elegir AsiaInspection?</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[{{priceIA}} USD todo incluido por persona y día.]]></li>
+			<li><![CDATA[Un inspector irá a su fábrica en menos de 48 horas<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> y usted recibirá el reporte el mismo día<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Reserve online y cree su protocolo de inspección a medida.</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantiza disponer de un inspector en su fábrica en menos de 48 horas.<br /><br />Este plazo, sin embargo, no garantiza que la fábrica está preparada o que colabore con AsiaInspection. Tampoco está garantizada nuestra presencia debida a factores externos fuera del control de AsiaInspection, como retrasos en el transporte o cualquier otro evento de fuerza mayor.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% de nuestros informes de inspección son enviados el mismo día. Siempre dependiendo de la colaboración por parte de la fábrica durante nuestra visita.
+		</hoverTwo>
+		<schedButton url="/crear-cuenta">¡Empiece ya!</schedButton>
+	</es>
+
+	<de>
+		<title>Einmalige Produktionskontrollen </title>
+		<subtext>
+			<![CDATA[
+			<p>Eine einmalige Produktionskontrolle ist eine frühzeitige Kontrolle der Qualität Ihrer Produkte, so daß genug Zeit ist, in die Produktion einzugreifen, falls es zu Missständen kommt.</p>
+			<p><b>Warum einmalige Produktionskontrollen: </b> Wenn ca. 20% Ihrer Ware produziert wurde, können wir frühzeitig Probleme erkennen und so Überraschungen vermeiden, bevor es zu spät ist.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Warum AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} pro Manntag all-inclusive]]></li>
+			<li><![CDATA[Vorbuchungsfrist von 48 Stunden<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> und Berichte am gleichen Tag<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Einfaches online-Buchungssystem und vielfältige Optionen zur Anpassung an Ihre Bedürfnisse</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInsepction garantiert, einen Kontrolleur oder einen Auditor bereitzustellen, der innerhalb von 48 Stunden in der Fabrik sein kann.<br /><br />Dieser Zeitrahmen garantiert jedoch in keinem Fall, dass die Fabrik vorbereitet ist oder mit AsiaInspection kooperieren wird. Die Garantie gilt auch nicht auf Faktoren, auf die AsiaInspection keinen Einfluss hat, wie zum Beispiel Transportverzögerungen oder höhere Gewalt.]]>
+		</hoverOne>
+		<hoverTwo>
+			80 % aller Prüfberichte werden noch am selben Tag geliefert. Berichte, die am gleichen Tag geliefert werden sollen, erfordern die  volle Unterstützung der Fabrik.
+		</hoverTwo>
+		<schedButton url="/register">Erste Schritte</schedButton>
+	</de>
+
+	<it>
+		<title>Controllo in Corso di Produzione</title>
+		<subtext>
+			<![CDATA[
+			<p>Un Controllo in Corso di Produzione (DUPRO) identificherà eventuali problemi nelle prime fasi del ciclo di produzione, concedendoti il tempo necessario per reagire e risolverli.</p>
+			<p>Quando ci si avvicina al 20% del ciclo produttivo, esegua un controllo approfondito della produzione, e del prodotto realizzato. Assuma le scelte più significative nello stadio iniziale ed eviti potenziali brutte sorprese in un momento successivo della fase produttiva.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Perché AsiaInspection:</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD  tutto compreso al giorno per ispettore.]]></li>
+			<li><![CDATA[Possibilità di avere un ispettore in situ in 48 ore<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> e di ricevere il report lo stesso giorno<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>.]]></li>
+			<li>Easy online scheduling with customizable checklists</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantisce la disponibilità di un ispettore pronto per visitare la fabbrica in 48 ore. <br /><br />Questo lasso di tempo, tuttavia, non assicura che la fabbrica sia pronta o cooperi con AsiaInspection. Né assicura ogni eventuale ritardo dovuto a fattori esterni, come ritardi nei trasporti, disastri naturali, ecc...]]>
+		</hoverOne>
+		<hoverTwo>
+			L'80% dei report sono consegnati il giorno stesso. La consegna di un report nello stesso giorno è condizionata da una completa collaborazione da parte della fabbrica.
+		</hoverTwo>
+		<schedButton url="/register">Inizia ora!</schedButton>
+	</it>
+
+	<pt>
+		<title>Verificação durante a produção</title>
+		<subtext>
+			<![CDATA[
+			<p>Você prefere descobrir problemas no início, em vez de descobri-los durante o ciclo de fabricação? Uma <b>Verificação durante a produção (DUPRO)</b> ajudará você a identificar e corrigir problemas no início do ciclo de fabricação.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Por que usar a AsiaInspection?</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[US${{priceIA}} com tudo incluso por dia de trabalho]]></li>
+			<li><![CDATA[Um inspetor no local em 48 horas<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> and same day reports<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Agendamento fácil com listas de verificação personalizáveis</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[A AsiaInspection garante ter um inspetor ou auditor pronto para se apresentar na fábrica num prazo de 48 horas.<br/><br/> Este prazo não garante, no entanto, a preparação ou cooperação da fábrica com a AsiaInspection. Também não oferece garantias contra fatores limitadores fora do controlo da AsiaInspection, como atrasos de viagem, ou qualquer evento considerado de força maior.]]>
+		</hoverOne>
+		<hoverTwo>
+			80 % aller Prüfberichte werden noch am selben Tag geliefert. Berichte, die am gleichen Tag geliefert werden sollen, erfordern die  volle Unterstützung der Fabrik.
+		</hoverTwo>
+		<schedButton url="/register">Introdução</schedButton>
+	</pt>
+
+	<tr>
+		<title>Üretim Sırasında Kontrol</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">Üretim Sırasında Kontrol (DUPRO) size reaksiyon göstermek ve sorunları gidermek için gereken zamanı vererek, imalat çevriminde her türlü sorunu erken tespit etmenizi sağlayacaktır.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>Why You Need a DUPRO: </b> When around 20% of production is complete, take a deep dive into your production, processes, capacity, and goods and then make critical decisions at an early stage, and avoid potentially catastrophic surprises later in the production cycle.</p>
+			]]></subtext2>
+		<whyUsTitle>Neden AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD Her şey dahil fiyatlandırma]]></li>
+			<li><![CDATA[48 seat içinde sahada olan denetçi<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> Aynı gun denetim raporları[2]<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Kolay çevrimiçi hizmet düzenlemeleri</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</tr>
+
+</document>

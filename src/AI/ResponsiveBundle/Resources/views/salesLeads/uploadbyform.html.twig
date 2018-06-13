@@ -1,0 +1,148 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{%block title%}Zoho Lead Upload{%endblock%}
+
+{%block content%}
+    <h1  style="margin-top:20px;">{% if not is_granted('ROLE_USER') %}Tradeshow Memo and Lead Management Tool{%else%}Zoho Lead Upload{%endif%}</h1>{%if not is_granted('ROLE_USER')%}<br />{%endif%}
+    <div class="box-white">
+        <div style="margin-bottom:20px;">
+            <input type="hidden" id="validateErrorText" value="">
+            <form method="post" action="/checkCSV" enctype="multipart/form-data" name="uploadLeadsForm" class="validate-form" onSubmit="return validateSalesLeadsForm()">
+            <div class="wrap">
+                <div class="col-lg-4 col-xs-5 paddingLeftRightZero">
+                    <label>Service Type (服务类型):</label>
+                </div>
+                <div class="col-lg-8 col-xs-7 inputField">
+                    <select class="accountDrop" name="account" tabindex="1">
+                        <option value="AI">AI</option>
+                        <option value="AFI">AFI</option>
+                        <option value="CHB">CHB</option>
+                        <option value="Anseco">Anseco</option>
+                        <option value="ProQC">ProQC</option>
+                        <option value="PIA">PIA</option>
+                        <option value="Goal">Goal</option>
+                        <option value="Etic">Etic</option>
+                    </select>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <br />
+            <div class="wrap">
+                <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label>Your Name (你的名字):</label></div>
+                <div class="col-lg-8 col-xs-7 inputField" id="salesNamesDropdowns">
+                    <select class="dropdownref_AI dropdownref"  name="AIsalesID" ><option value="default" type="AI">-- Please Choose --</option>{% for row in AIsalesInfo %} <option value="{{row['zohoID']}}" type="{{row['account']}}">{{row['name']}}</option>{% endfor %}</select>
+                    <select class="dropdownref_AFI dropdownref" name="AFIsalesID" style="display:none;"><option value="default" type="AFI">-- Please Choose --</option>{% for row in AFIsalesInfo %} <option value="{{row['zohoID']}}" type="{{row['account']}}">{{row['name']}}</option>{% endfor %}</select>
+                    <select class="dropdownref_CHB dropdownref" name="CHBsalesID" style="display:none;"><option value="default" type="CHB">-- Please Choose --</option>{% for row in CHBsalesInfo %} <option value="{{row['zohoID']}}" type="{{row['account']}}">{{row['name']}}</option>{% endfor %}</select>
+                    <select class="dropdownref_Anseco dropdownref" name="AnsecosalesID" style="display:none;"><option value="default" type="Anseco">-- Please Choose --</option>{% for row in salesNames %} <option value="{{row['zohoID']}}" type="{{row['account']}}">{{row['name']}}</option>{% endfor %}</select>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <div id="sourceLeadSelectDiv">
+                <br />
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero">
+                        <label>Lead Source (来源):</label>
+                    </div>
+                    <div class="col-lg-8 col-xs-7 inputField">
+                        <span class="leadSource" >
+                            <input type="radio" class="leadsourceBtn" id="source_tradeshow" name="source" value="tradeshow" checked>
+                            <label for="q0_yes">Tradeshow/Event (展会/活动)</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="radio" class="leadsourceBtn"  name="source" value="other"  >
+                            <label for="q0_no" >Other Source (其他来源)</label>
+                        </span>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+            <div id="tradeshowListDropBySource">
+                <br />
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero">
+                        <label>Tradeshow or Event (展会名称):<img class="hoverQuestion" cargo="EventList" src="https://s3.asiainspection.com/images/responsive/blueQM.png" width="15px"/></label>
+                    </div>
+                    <div class="col-lg-8 col-xs-7 inputField" id="tradeshowDropdowns">
+                        <select class="dropdownref_AI dropdownref" name="AItradeshow" style="width:70%;"><option value="default" type="AI">-- Please Choose --</option>{% for tradeshow in tradeshowList['AI'] %} <option>{{tradeshow}}</option>{% endfor %}</select>
+                        <select class="dropdownref_AFI dropdownref"  name="AFItradeshow" style="display:none;width:70%;"><option value="default" type="AFI">-- Please Choose --</option>{% for tradeshow in tradeshowList['AFI'] %} <option>{{tradeshow}}</option>{% endfor %}</select>
+                        <select  class="dropdownref_CHB dropdownref" name="CHBtradeshow" style="display:none;width:70%;"><option value="default" type="CHB">-- Please Choose --</option>{% for tradeshow in tradeshowList['CHB'] %} <option>{{tradeshow}}</option>{% endfor %}</select>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div id="txtEventList" class="notshow" style="display:none;">
+                    If the tradeshow or event you attended is not in here, please email <a href="mailto:sharon.zhou@asiainspection.com">sharon.zhou@asiainspection.com</a>.
+                </div>
+            </div>
+            <div id="leadsource_specify" style="display:none;">
+                <br />
+                <div class="wrap">
+                    <div class="col-lg-4 col-xs-5 paddingLeftRightZero">
+                        <label>Specify Your Lead Source :</label>
+                    </div>
+                    <div class="col-lg-8 col-xs-7 inputField">
+                        <select id="source_specify" name="source_specify" style="width:60%;">
+                            <option>Advertisement</option>
+                            <option>Alibaba</option>
+                            <option>Already a client</option>
+                            <option>Baidu</option>
+                            <option>Bing</option>
+                            <option>Called AsiaInspection</option>
+                            <option>Contacted by AI CHB</option>
+                            <option>Contacted by AsiaFoodInspection</option>
+                            <option>Contacted by AsiaInspection</option>
+                            <option>Employee Lead Gen</option>
+                            <option>Europages</option>
+                            <option>GlobalSources.com</option>
+                            <option>Google</option>
+                            <option>Importers.com</option>
+                            <option>IPPAG</option>
+                            <option>Kompass</option>
+                            <option>LinkedIn</option>
+                            <option>Made-in-china.com</option>
+                            <option>MFG.com</option>
+                            <option>Other Internet search</option>
+                            <option>Personal Network</option>
+                            <option>Press</option>
+                            <option>Recommendation</option>
+                            <option>Silliker</option>
+                            <option>Social Media</option>
+                            <option>Supplier</option>
+                            <option>Webinar</option>
+                            <option>Yahoo</option>
+                        </select>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div id="txtEventList" class="notshow" style="display:none;">
+                    If the tradeshow or event you attended is not in here, please email <a href="mailto:sharon.zhou@asiainspection.com">sharon.zhou@asiainspection.com</a>.
+                </div>
+            </div>
+            <br />
+            <div class="wrap">
+            <div class="col-lg-4 col-xs-5 paddingLeftRightZero">
+                <label>Comma Separated List</label>
+            </div>
+            <div class="col-lg-8 col-xs-7 inputField">
+                <div class="col-xs-12 paddingLeftRightZero">
+                    <textarea id="parseCSVtextarea" style="width:100%;" rows="20" placeholder="Copy CSV contents here, make any corrections and hit 'Parse'"></textarea>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            {%if errors is defined%}
+                {%set i =1%}
+                <br />
+                <p style="font-weight:bold;color:red;">The following errors occurred during upload: （上传时候发生了以下错误)
+                {%for error in errors%}
+                    <p style="color:red">{{i}}: {{error}};</p>
+                    {%set i =i+1%}
+                {%endfor%}
+            {%endif%}
+            {%if success is defined%}
+                <br />
+                <p style="font-weight:bold;color:green;">Upload completed!!</p>
+            {%endif%}
+            <div style="clear:both;"></div>
+            <div style="text-align:center;">
+                <button id="leadsform_Submit" type="button" class="btn-primary smallButton" style="margin:20px 0px;">Parse Text</button>
+            </div>
+            </form>
+        </div>
+    </div>
+{%endblock%}

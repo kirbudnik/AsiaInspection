@@ -1,0 +1,361 @@
+/**
+ * -----------------------------------------------------------------------------
+ * BUTTONS
+ * -----------------------------------------------------------------------------
+ * http://202.66.128.138:82/demo.php
+ * 
+ * Type classes :
+ *   - for main action              : .btn-primary
+ *   - for secondary action         : .btn-secondary
+ *   - for negative action          : .btn-negative
+ *   - AFI specific                 : .btn-afi
+ *
+ * Behavior classes:
+ *   - is disabled                  : .btn-disabled
+ *   - is major                     : .btn-major
+ *   - equally-sized in container   : .one-btn / .two-btn x2 / .three-btn x3
+ *
+ * Size classes
+ *   - big button                   : .btn-big
+ *   - regular button               : .btn-regular (by default)
+ *   - small button                 : .btn-small
+ */
+
+/* Global declaration for all buttons */
+a.btn,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    border: none;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    _display: inline-block; /* Hack for old IE versions */
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    height: 30px;
+    line-height: 26px;
+    outline: 0;
+    overflow: visible;
+    padding: 0px 20px;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s;
+}
+a.btn {
+    line-height: 28px;
+}
+
+a.btn:active,
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active {
+  /*  box-shadow: inset 0px 0px 3px rgba(30, 30, 30, 1), 0px 0px 1px #FFF, 0px 1px 0px #FFF;  */
+    transition: none;
+}
+
+a.btn.btn-disabled,
+button.btn-disabled,
+input[type="button"].btn-disabled,
+input[type="submit"].btn-disabled,
+input[type="reset"].btn-disabled {
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+a.btn.btn-disabled:hover,
+button.btn-disabled:hover,
+input[type="button"].btn-disabled:hover,
+input[type="submit"].btn-disabled:hover,
+input[type="reset"].btn-disabled:hover {
+    cursor: not-allowed;
+}
+
+a.btn.btn-disabled:active,
+button.btn-disabled:active,
+input[type="button"].btn-disabled:active,
+input[type="submit"].btn-disabled:active,
+input[type="reset"].btn-disabled:active {
+    box-shadow: none;
+    transition: none;
+}
+/* END - Global declaration for all buttons */
+
+/* Button sizes */
+a.btn.btn-small,
+button.btn-small,
+input[type="button"].btn-small,
+input[type="submit"].btn-small,
+input[type="reset"].btn-small {
+    font-size: 11px;
+    height: 24px;
+    line-height: 20px;
+    padding: 0px 16px;
+}
+a.btn.btn-small {
+    line-height: 22px;
+}
+
+a.btn.btn-regular,
+button.btn-regular,
+input[type="button"].btn-regular,
+input[type="submit"].btn-regular,
+input[type="reset"].btn-regular {
+    font-size: 13px;
+    height: 30px;
+    padding: 0px 20px;
+}
+
+a.btn.btn-big,
+button.btn-big,
+input[type="button"].btn-big,
+input[type="submit"].btn-big,
+input[type="reset"].btn-big {
+    font-size: 16px;
+    height: 40px;
+    line-height: 36px;
+    padding: 0px 24px;
+}
+a.btn.btn-big {
+    line-height: 38px;
+}
+/* END - Button sizes */
+
+/* Button behaviors */
+a.btn.btn-major,
+button.btn-major,
+input[type="button"].btn-major,
+input[type="submit"].btn-major,
+input[type="reset"].btn-major {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a.btn.one-btn,
+button.one-btn,
+input[type="button"].one-btn,
+input[type="submit"].one-btn,
+input[type="reset"].one-btn {
+    width: 100%;
+}
+
+a.btn.two-btn,
+button.two-btn,
+input[type="button"].two-btn,
+input[type="submit"].two-btn,
+input[type="reset"].two-btn {
+    width: 47%;
+    margin-left: 6%;
+    text-align: center;
+}
+
+a.btn.two-btn:first-child,
+button.two-btn:first-child,
+input[type="button"].two-btn:first-child,
+input[type="submit"].two-btn:first-child,
+input[type="reset"].two-btn:first-child {
+    margin-left: 0%;
+}
+
+a.btn.three-btn,
+button.three-btn,
+input[type="button"].three-btn,
+input[type="submit"].three-btn,
+input[type="reset"].three-btn {
+    width: 32%;
+    margin-left: 2%;
+    text-align: center;
+}
+
+a.btn.three-btn:first-child,
+button.three-btn:first-child,
+input[type="button"].three-btn:first-child,
+input[type="submit"].three-btn:first-child,
+input[type="reset"].three-btn:first-child {
+    margin-left: 0%;
+}
+/* END - Button behaviors */
+
+/* Primary button: green */
+a.btn.btn-primary,
+button.btn-primary,
+button.btn-primary:focus,
+input[type="button"].btn-primary,
+input[type="submit"].btn-primary,
+input[type="reset"].btn-primary {
+    background-color: #5BA331;
+    border: 1px solid #5BA331;
+    color: white;
+}
+
+a.btn.btn-primary:hover,
+button.btn-primary:hover,
+input[type="button"].btn-primary:hover,
+input[type="submit"].btn-primary:hover,
+input[type="reset"].btn-primary:hover {
+    background-color: #4B8728;
+}
+
+a.btn.btn-primary:active,
+button.btn-primary:active,
+input[type="button"].btn-primary:active,
+input[type="submit"].btn-primary:active,
+input[type="reset"].btn-primary:active {
+    background-color: #4B8728;
+}
+
+a.btn.btn-primary.btn-disabled:hover,
+button.btn-primary.btn-disabled:hover,
+input[type="button"].btn-primary.btn-disabled:hover,
+input[type="submit"].btn-primary.btn-disabled:hover,
+input[type="reset"].btn-primary.btn-disabled:hover {
+    background-color: #5BA331;
+}
+/* END - Primary button: green */
+
+/* Secondary button: white */
+a.btn.btn-secondary,
+button.btn-secondary,
+input[type="button"].btn-secondary,
+input[type="submit"].btn-secondary,
+input[type="reset"].btn-secondary {
+    background-color: white;
+    border: 1px solid #5BA331;
+    color: #5BA331;
+}
+
+a.btn.btn-secondary:hover,
+button.btn-secondary:hover,
+input[type="button"].btn-secondary:hover,
+input[type="submit"].btn-secondary:hover,
+input[type="reset"].btn-secondary:hover {
+    background-color: #EEF5EE;
+}
+
+a.btn.btn-secondary:active,
+button.btn-secondary:active,
+input[type="button"].btn-secondary:active,
+input[type="submit"].btn-secondary:active,
+input[type="reset"].btn-secondary:active {
+    background-color: #EEF5EE;
+}
+
+a.btn.btn-secondary.btn-disabled:hover,
+button.btn-secondary.btn-disabled:hover,
+input[type="button"].btn-secondary.btn-disabled:hover,
+input[type="submit"].btn-secondary.btn-disabled:hover,
+input[type="reset"].btn-secondary.btn-disabled:hover {
+    background-color: white;
+}
+/* END - Secondary button: white */
+
+/* Negative button: red */
+a.btn.btn-negative,
+button.btn-negative,
+input[type="button"].btn-negative,
+input[type="submit"].btn-negative,
+input[type="reset"].btn-negative {
+    background-color: #B11820;
+    border: 1px solid #B11820;
+    color: white;
+}
+
+a.btn.btn-negative:hover,
+button.btn-negative:hover,
+input[type="button"].btn-negative:hover,
+input[type="submit"].btn-negative:hover,
+input[type="reset"].btn-negative:hover {
+    background-color: #9C0F16;
+}
+
+a.btn.btn-negative:active,
+button.btn-negative:active,
+input[type="button"].btn-negative:active,
+input[type="submit"].btn-negative:active,
+input[type="reset"].btn-negative:active {
+    background-color: #9C0F16;
+}
+
+a.btn.btn-negative.btn-disabled:hover,
+button.btn-negative.btn-disabled:hover,
+input[type="button"].btn-negative.btn-disabled:hover,
+input[type="submit"].btn-negative.btn-disabled:hover,
+input[type="reset"].btn-negative.btn-disabled:hover {
+    background-color: #B11820;
+}
+/* END - Negative button: red */
+
+/* AFI specific button: blue */
+a.btn.btn-afi,
+button.btn-afi,
+input[type="button"].btn-afi,
+input[type="submit"].btn-afi,
+input[type="reset"].btn-afi {
+    background-color: #0066A6;
+    border: 1px solid #0066A6;
+    color: white;
+}
+
+a.btn.btn-w2blu,
+button.btn-w2blu,
+input[type="button"].btn-w2blu,
+input[type="submit"].btn-w2blu,
+input[type="reset"].btn-w2blu {
+    background-color: white;
+    border: 1px solid #0066A6;
+    color:#0066A6;
+}
+
+
+a.btn.btn-afi:hover,
+button.btn-afi:hover,
+input[type="button"].btn-afi:hover,
+input[type="submit"].btn-afi:hover,
+input[type="reset"].btn-afi:hover {
+    background-color: #00568C;
+}
+
+a.btn.btn-afi:active,
+button.btn-afi:active,
+input[type="button"].btn-afi:active,
+input[type="submit"].btn-afi:active,
+input[type="reset"].btn-afi:active {
+    background-color: #00568C;
+}
+
+a.btn.btn-afi.btn-disabled:hover,
+button.btn-afi.btn-disabled:hover,
+input[type="button"].btn-afi.btn-disabled:hover,
+input[type="submit"].btn-afi.btn-disabled:hover,
+input[type="reset"].btn-afi.btn-disabled:hover {
+    background-color: #0066A6;
+}
+
+a.btn.btn-w2blu:active,
+button.btn-w2blu:active,
+input[type="button"].btn-w2blu:active,
+input[type="submit"].btn-w2blu:active,
+input[type="reset"].btn-w2blu:active {
+    background-color: #D2D2D2;
+}
+
+a.btn.btn-w2blu:hover,
+button.btn-w2blu:hover,
+input[type="button"].btn-w2blu:hover,
+input[type="submit"].btn-w2blu:hover,
+input[type="reset"].btn-w2blu:hover {
+    background-color: #D2D2D2;
+}
+
+/* END - AFI specific button: blue */
+

@@ -1,0 +1,2198 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="homepage_barometer_thumb_title">
+                <source>homepage_barometer_thumb_title</source>
+                <target>AI第二季度报表: 2017新热点：产品质量议题和企业社会责任挑战</target>
+            </trans-unit>
+           <trans-unit id="Pricing_Zone_A">
+             <source>Pricing_Zone_A</source>
+             <target>Zone A: China, Bangladesh, India, Vietnam, Thailand, Cambodia, Africa and Latin America</target>
+           </trans-unit>
+           <trans-unit id="Pricing_Zone_B">
+             <source>Pricing_Zone_B</source>
+             <target>Zone B: Europe, North America, Greater Asia and Brazil</target>
+           </trans-unit>
+            <trans-unit id="viewIndustryReport">
+                <source>View a Sample Report for Your Industry</source>
+                <target>浏览与您行业相关的检验报告样本</target>
+            </trans-unit>
+
+            <trans-unit id="nav-softlines">
+                <source>nav-softlines</source>
+                <target>非耐用品</target>
+            </trans-unit>
+            <trans-unit id="nav-garments-apparel">
+                <source>nav-garments-apparel</source>
+                <target>服装</target>
+            </trans-unit>
+            <trans-unit id="nav-textiles-fabrics">
+                <source>nav-textiles-fabrics</source>
+                <target>纺织品</target>
+            </trans-unit>
+            <trans-unit id="nav-footwear">
+                <source>nav-footwear</source>
+                <target>鞋类</target>
+            </trans-unit>
+            <trans-unit id="nav-other-softlines">
+                <source>nav-other-softlines</source>
+                <target>别的非耐用消费品</target>
+            </trans-unit>
+            <trans-unit id="nav-hardlines">
+                <source>nav-hardlines</source>
+                <target>耐用消费品</target>
+            </trans-unit>
+            <trans-unit id="nav-cosmetics">
+                <source>nav-cosmetics</source>
+                <target>化妆品</target>
+            </trans-unit>
+            <trans-unit id="nav-electrical-electronics">
+                <source>nav-electrical-electronics</source>
+                <target>电子电器</target>
+            </trans-unit>
+            <trans-unit id="nav-eyewear">
+                <source>nav-eyewear</source>
+                <target>眼镜类</target>
+            </trans-unit>
+            <trans-unit id="nav-jewelry">
+                <source>nav-jewelry</source>
+                <target>首饰</target>
+            </trans-unit>
+            <trans-unit id="nav-promotional-products">
+                <source>nav-promotional-products</source>
+                <target>企业宣传礼品</target>
+            </trans-unit>
+            <trans-unit id="nav-toys-recreational">
+                <source>nav-toys-recreational</source>
+                <target>玩具及娱乐用品</target>
+            </trans-unit>
+            <trans-unit id="nav-other-hardlines">
+                <source>nav-other-hardlines</source>
+                <target>别的耐用消费品</target>
+            </trans-unit>
+            <trans-unit id="nav-food">
+                <source>nav-food</source>
+                <target>食品</target>
+            </trans-unit>
+            <trans-unit id="nav-fresh-produce">
+                <source>nav-fresh-produce</source>
+                <target>新鲜农产品</target>
+            </trans-unit>
+            <trans-unit id="nav-processed-foods">
+                <source>nav-processed-foods</source>
+                <target>加工食品</target>
+            </trans-unit>
+            <trans-unit id="nav-seafood">
+                <source>nav-seafood</source>
+                <target>海鲜</target>
+            </trans-unit>
+            <trans-unit id="nav-meat-and-poultry">
+                <source>nav-meat-and-poultry</source>
+                <target>肉类和家禽</target>
+            </trans-unit>
+            <trans-unit id="nav-beverages">
+                <source>nav-beverages</source>
+                <target>饮料</target>
+            </trans-unit>
+            <trans-unit id="nav-food-containers">
+                <source>nav-food-containers</source>
+                <target>食品容器</target>
+            </trans-unit>
+            <trans-unit id="nav-tech-parts">
+                <source>nav-tech-parts</source>
+                <target>技术与机械</target>
+            </trans-unit>
+            <trans-unit id="nav-saso-coc">
+                <source>SASO Certificate of Conformity</source>
+                <target>SASO CoC 认证</target>
+            </trans-unit>
+            <trans-unit id="nav-structural-audits">
+                <source>Structural Audits</source>
+                <target>结构审核</target>
+            </trans-unit>
+            <trans-unit id="footer-astm">
+                <source>ASTM F963-16 Toy Safety Testing</source>
+                <target>ASTM F963-16玩具安全测试</target>
+            </trans-unit>
+            <trans-unit id="footer-prop65">
+                <source>CA Proposition 65 Compliance</source>
+                <target>加利福尼亚65号提案</target>
+            </trans-unit>
+            <trans-unit id="1">
+                <source>Our Services</source>
+                <target>我们的服务</target>
+            </trans-unit>
+            <trans-unit id="knowledge">
+                <source>Knowledge</source>
+                <target>信息中心</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>About Us</source>
+                <target>关于我们</target>
+            </trans-unit>
+             <trans-unit id="4">
+                <source>Contact</source>
+                <target>联系我们</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Your Account</source>
+                <target>您的帐户</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Pricing Per Man-day</source>
+                <target>价格详情 （每人每天）</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>China, India, Bangladesh, Vietnam, Cambodia, Thailand, Africa and Latin America</source>
+                <target>中国，印度，孟加拉国，越南，柬埔寨, 泰国，非洲和拉丁美洲</target>
+            </trans-unit>
+             <trans-unit id="8">
+                <source>Europe, Greater Asia and Brazil</source>
+                <target>欧洲和巴西和亚洲其他地区</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>BOOK AN INSPECTION</source>
+                <target>在线下单</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Download a Sample Report</source>
+                <target>查看报告样本</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>See a Demo</source>
+                <target>详细介绍</target>
+            </trans-unit>
+             <trans-unit id="12">
+                <source>Ethical and Manufacturing Audit</source>
+                <target>工厂审核</target>
+            </trans-unit>
+             <trans-unit id="13">
+                <source>Instant Quote</source>
+                <target>即时报价</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Laboratory Test</source>
+                <target>实验室测试</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>BOOK AN AUDIT</source>
+                <target>在线下单</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Online Product Inspection</source>
+                <target>产品检验</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Who We Are</source>
+                <target>公司简介</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Company Values</source>
+                <target>业务守则</target>
+            </trans-unit>
+             <trans-unit id="19">
+                <source>Service Coverage</source>
+                <target>业务网络</target>
+            </trans-unit>
+             <trans-unit id="20">
+                <source>Reference Samples</source>
+                <target>参考样品</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Accreditations</source>
+                <target>认证证明</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Pricing</source>
+                <target>价格详情</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Testmonials</source>
+                <target>客户好评</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>News</source>
+                <target>新闻报道</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Careers</source>
+                <target>招贤纳士</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Career Opportunities</source>
+                <target>职业机会</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>See Opportunities</source>
+                <target>查看工作机会</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Client Testimonial</source>
+                <target>客户好评</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>"As a Quality Manager, I recognize the necessity of timely and accurate inspection reports. When it comes to AsiaInspection, the professionalism of...</source>
+                <target>作为一名质量经理，我认可一点，那就是检验报告必需符合及时性与准确性要求。“提起...</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Read More</source>
+                <target>了解更多</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Quality Manager</source>
+                <target>质量经理</target>
+            </trans-unit>
+           <trans-unit id="32">
+                <source>In The News</source>
+                <target>新闻动态</target>
+            </trans-unit>
+             <trans-unit id="33">
+                <source>A Note From our CEO</source>
+                <target>总裁寄语</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>"As global trade continues to increase, and supply chains get increasingly complex, buyers from brands, retailers, importers need increased visibility and control over their manufacturing worldwide.</source>
+                <target>“随着全球贸易继续增长，供应链不断复杂化，买方，无论是品牌、零售商还是进口商，都需要更好地监督和管理他们在世界各地的生产制造。</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Our ambition at AI is to make it easier for our clients to control the quality and compliance of their product and suppliers through the use of our services and the real-time supply intelligence we offer them."</source>
+                <target>我们希望，通过使用AI亚检的服务以及我们提供的实时供应链信息，客户在管理其产品和供应商的质量和合规情况时，可以更加轻松自如。”</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>"If you need a service that is second to none, AsiaInspection can help your company move forward quickly. Making a booking with AsiaInspection could...</source>
+                <target>“感谢你们提供的工厂审核，社会责任审核和C-TPAT审核服务，让我们如此快速的收到报告。我非常享受与AsiaInspection的...</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Head Buyer</source>
+                <target>质量经理</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>CEO</source>
+                <target>首席执行官</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Check It Out</source>
+                <target>去看看</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Pre-Shipment Inspection</source>
+                <target>装运前检验</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Production Monitoring</source>
+                <target>生产监测</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>During Production Check</source>
+                <target>生产中检验</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Initial Production Check</source>
+                <target>生产初期检验</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Container Loading Check</source>
+                <target>集装箱装箱检查</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Food Inspections</source>
+                <target>食品检验</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Manufacturing Audits</source>
+                <target>工厂审核</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Ethical Audits</source>
+                <target>社会责任审核</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Supplier Audit Programs</source>
+                <target>供应商审核</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Environmental Audits</source>
+                <target>环境审核</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Food Audits (GMP and GHP)</source>
+                <target>食品工厂审核</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Testing Services</source>
+                <target>测试服务</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Lab Testing and Certifications</source>
+                <target>实验室测试和认证</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>AI Test Reports Database</source>
+                <target>AI亚检测试报告数据库</target>
+            </trans-unit>
+                <trans-unit id="54">
+                <source>Food Testing</source>
+                <target>食品测试</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Service Details</source>
+                <target>服务详情</target>
+            </trans-unit>
+                <trans-unit id="56">
+                <source>Pricing</source>
+                <target>价格</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Service Coverage</source>
+                <target>服务覆盖范围</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Reference Samples</source>
+                <target>参考样品</target>
+            </trans-unit>
+                <trans-unit id="59">
+                <source>Your Industry</source>
+                <target>行业分类</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Softlines</source>
+                <target>非耐用品</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Hardlines</source>
+                <target>耐用消费品</target>
+            </trans-unit>
+           <trans-unit id="62">
+                <source>( Electrical &amp; Lighting, Gifts &amp; Premiums, Home &amp; Gardenware, Industrial &amp; Construction, Toys &amp; Recreational )</source>
+                <target>（ 电器照明, 礼品, 家居园艺, 工业建筑， 娱乐玩具 ）</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Technical Parts</source>
+                <target>技术部件</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>nav-Assemblies-etc</source>
+                <target>（ 组件模具， 汽车部件， 机械， 精密工具 ）</target>
+            </trans-unit>
+           <trans-unit id="65">
+                <source>Food</source>
+                <target>食品</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>( Seafood, Meat &amp; Poultry, Fruits &amp; Vegetables, Canned &amp; Frozen Food, Baby Food, Food Packaging )</source>
+                <target>（ 海鲜禽肉， 水果蔬菜， 罐装冷冻食品， 婴儿食品， 食品包装 ）</target>
+            </trans-unit>
+           <trans-unit id="67">
+                <source>About AsiaInspection</source>
+                <target>关于 AI亚检</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Testimonials</source>
+                <target>客户好评</target>
+            </trans-unit>
+           <trans-unit id="69">
+                <source>Our Partners</source>
+                <target>合作伙伴</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>News &amp; Content</source>
+                <target>新闻报道</target>
+            </trans-unit>
+           <trans-unit id="71">
+                <source>Latest News</source>
+                <target>最新动态</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Sample Reports</source>
+                <target>样品报告</target>
+            </trans-unit>
+           <trans-unit id="73">
+                <source>White Papers</source>
+                <target>白皮书</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Create Your Account</source>
+                <target>创建您的账户</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Log In</source>
+                <target>登录</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Inspection Services</source>
+                <target>质量控制服务</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>( Footwear, Garments and Apparel, Luggage and Bags, Soft Toys, Textiles and Fabrics )</source>
+                <target>( 鞋类, 服装 , 箱包, 毛绒玩具 , 纺织面料 )</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>The AI Benefits</source>
+                <target>AI亚检的优势</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Instant Quote upon Booking</source>
+                <target>在线下单即时报价</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Pricing for</source>
+                <target>价格：</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>LEARN MORE</source>
+                <target>了解更多</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Follow Us</source>
+                <target>关注我们</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Get Started</source>
+                <target>咨询详情</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>First Name</source>
+                <target>名字</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Create an Account</source>
+                <target>创建您的账户</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Already have an account?</source>
+                <target>已经拥有账号？</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Show Password</source>
+                <target>显示密码</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Free</source>
+                <target>免费</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>No-commitment</source>
+                <target>No-commitment</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>registration-sidebar-client-trust</source>
+                <target>受到来自 120多个国家的客户的信赖</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>Key Benefits</source>
+                <target>主要好处</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>A dedicated Account Manager to guide you</source>
+                <target>专门的客户经理会为您开启服务</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Your Online Dashboard (rank suppliers, track quality KPIs)</source>
+                <target>在线控制面板（供应商排名及质量 KPI 追踪）</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Hundreds of customizable Product Checklists</source>
+                <target>可定制产品检验清单</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Access to the AI Mobile App</source>
+                <target>有专门为手机定制的App，让您随时随地能查询</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Last Name</source>
+                <target>姓氏</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Country</source>
+                <target>国家</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>Company</source>
+                <target>公司</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>Telephone</source>
+                <target>电话</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>User Name</source>
+                <target>用户名</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Password</source>
+                <target>密码</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Create my Account</source>
+                <target>创建账户</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>Creating an account</source>
+                <target>创建账户的同时</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>More News from AI</source>
+                <target>更多新闻报道</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>More</source>
+                <target>更多</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>Load More Interviews</source>
+                <target>更多采访</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>Events</source>
+                <target>活动</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>Contact Us</source>
+                <target>联系我们</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>In The Press</source>
+                <target>报章报道</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>Job Type</source>
+                <target>工作类别</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>View Job Description</source>
+                <target>查看职位描述</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>Your Resume</source>
+                <target>您的简历</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>Job Application</source>
+                <target>职位申请</target>
+            </trans-unit>
+            <trans-unit id="114">
+                <source>About This Study</source>
+                <target>关于这篇报道</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>About Our Services</source>
+                <target>关于我们的服务</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>Per Man-day</source>
+                <target>每人每天</target>
+            </trans-unit>
+            <trans-unit id="117">
+                <source>GET A QUOTE</source>
+                <target>查看报价</target>
+            </trans-unit>
+            <trans-unit id="118">
+                <source>See detailed pricing</source>
+                <target>查看详细报价</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>Asia</source>
+                <target>亚洲</target>
+            </trans-unit>
+            <trans-unit id="ServiceCoverage.Region.AsiaPac">
+                <source>Asia-Pacific</source>
+                <target>亚太地区</target>
+            </trans-unit>
+            <trans-unit id="ServiceCoverage.Region.MidEast">
+                <source>Middle East</source>
+                <target>中东地区</target>
+            </trans-unit>
+            <trans-unit id="120">
+                <source>Africa</source>
+                <target>非洲</target>
+            </trans-unit>
+            <trans-unit id="121">
+                <source>Europe</source>
+                <target>欧洲</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>The Americas</source>
+                <target>美洲</target>
+            </trans-unit>
+            <trans-unit id="123">
+                <source>Share This On</source>
+                <target>分享这则新闻</target>
+            </trans-unit>
+             <trans-unit id="124">
+                <source>Why Use Our QC Services?</source>
+                <target>为什么使用AI亚检?</target>
+            </trans-unit>
+            <trans-unit id="125">
+                <source>Why Do You Need Inspections?</source>
+                <target>产品检验</target>
+            </trans-unit>
+            <trans-unit id="126">
+                <source>Why Do You Need Audits?</source>
+                <target>工厂审核</target>
+            </trans-unit>
+            <trans-unit id="127">
+                <source>Why Do You Need Lab Tests?</source>
+                <target>实验室测试</target>
+            </trans-unit>
+            <trans-unit id="128">
+                <source>Pricing and Conditions</source>
+                <target>价格与条件</target>
+            </trans-unit>
+            <trans-unit id="129">
+                <source>Demo</source>
+                <target>操作演示</target>
+            </trans-unit>
+            <trans-unit id="130">
+                <source>Quality and Risk Management</source>
+                <target>质量与风险管理</target>
+            </trans-unit>
+            <trans-unit id="131">
+                <source>Quality Control on your Mobile</source>
+                <target>AI亚检移动客户端</target>
+            </trans-unit>
+            <trans-unit id="132">
+                <source>Acceptable Quality Limit (AQL)</source>
+                <target>验收合格标准(AQL)</target>
+            </trans-unit>
+            <trans-unit id="133">
+                <source>Clothing Textile Inspection</source>
+                <target>服装纺织物检测</target>
+            </trans-unit>
+            <trans-unit id="134">
+                <source>Quality Control in Bangladesh</source>
+                <target>质检在孟加拉国</target>
+            </trans-unit>
+            <trans-unit id="135">
+                <source>Quality Control in China</source>
+                <target>质检在中国</target>
+            </trans-unit>
+            <trans-unit id="136">
+                <source>Quality Control in Vietnam</source>
+                <target>质检在越南</target>
+            </trans-unit>
+            <trans-unit id="137">
+                <source>Quality Control in Africa</source>
+                <target>质检在非洲</target>
+            </trans-unit>
+            <trans-unit id="138">
+                <source>Food Safety</source>
+                <target>食品安全：AsiaFoodInspection</target>
+            </trans-unit>
+            <trans-unit id="139">
+                <source>Compliance Testing</source>
+                <target>合规测试</target>
+            </trans-unit>
+            <trans-unit id="140">
+                <source>Audits</source>
+                <target>供应商审核</target>
+            </trans-unit>
+            <trans-unit id="141">
+                <source>Heavy Metal Test</source>
+                <target>重金属含量测试</target>
+            </trans-unit>
+            <trans-unit id="142">
+                <source>RoHS Compliance</source>
+                <target>RoHS认证</target>
+            </trans-unit>
+            <trans-unit id="143">
+                <source>Consumer Product Safety</source>
+                <target>消费品安全</target>
+            </trans-unit>
+            <trans-unit id="144">
+                <source>REACH Regulation</source>
+                <target>REACH法规</target>
+            </trans-unit>
+            <trans-unit id="145">
+                <source>Phthalates Testing</source>
+                <target>邻苯二甲酸盐测试</target>
+            </trans-unit>
+            <trans-unit id="146">
+                <source>Toy Safety Tips</source>
+                <target>玩具安全提示</target>
+            </trans-unit>
+            <trans-unit id="147">
+                <source>Corporate</source>
+                <target>我们</target>
+            </trans-unit>
+            <trans-unit id="148">
+                <source>Legal</source>
+                <target>法律声明</target>
+            </trans-unit>
+            <trans-unit id="149">
+                <source>Sitemap</source>
+                <target>网站地图</target>
+            </trans-unit>
+            <trans-unit id="150">
+                <source>This site is protected by copyright and trademark laws under US and international law.</source>
+                <target>本网站受美国版权法和商标法及国际法律的保护。</target>
+            </trans-unit>
+            <trans-unit id="151">
+                <source>Learn More</source>
+                <target>了解更多</target>
+            </trans-unit>
+            <trans-unit id="152">
+                <source>Operation Regions</source>
+                <target>业务网络</target>
+            </trans-unit>
+            <trans-unit id="153">
+                <source>Inspections</source>
+                <target>产品检验</target>
+            </trans-unit>
+            <trans-unit id="154">
+                <source>Lab Testing</source>
+                <target>实验室测试</target>
+            </trans-unit>
+            <trans-unit id="155">
+                <source>Partners</source>
+                <target>合作伙伴</target>
+            </trans-unit>
+             <trans-unit id="156">
+                <source>Affiliate Program</source>
+                <target>网站联盟</target>
+            </trans-unit>
+            <trans-unit id="157">
+                <source>Sitemap</source>
+                <target>网站地图</target>
+            </trans-unit>
+             <trans-unit id="158">
+                <source>Services</source>
+                <target>我们的服务</target>
+            </trans-unit>
+            <trans-unit id="159">
+                <source>Industries</source>
+                <target>行业分类</target>
+            </trans-unit>
+            <trans-unit id="160">
+                <source>Inspections and Audits in Vietnam</source>
+                <target>检验和审核–越南</target>
+            </trans-unit>
+            <trans-unit id="161">
+                <source>Inspections and Audits in Bangladesh</source>
+                <target>检验和审核–孟加拉国</target>
+            </trans-unit>
+            <trans-unit id="162">
+                <source>Inspections and Audits in India</source>
+                <target>检验和审核–印度</target>
+            </trans-unit>
+            <trans-unit id="163">
+                <source>AsiaInspection News</source>
+                <target>AI亚检新闻</target>
+            </trans-unit>
+            <trans-unit id="164">
+                <source>Registration Online</source>
+                <target>在线注册</target>
+            </trans-unit>
+            <trans-unit id="165">
+                <source>Laboratory Testing</source>
+                <target>实验室测试</target>
+            </trans-unit>
+            <trans-unit id="166">
+                <source>AQL Acceptable Quality Limit</source>
+                <target>质量标准</target>
+            </trans-unit>
+            <trans-unit id="167">
+                <source>Terms And Conditions</source>
+                <target>条款及细则</target>
+            </trans-unit>
+            <trans-unit id="168">
+                <source>C-TPAT Audits</source>
+                <target>C-TPAT 测试</target>
+            </trans-unit>
+            <trans-unit id="169">
+                <source>REACH Testing</source>
+                <target>REACH 测试</target>
+            </trans-unit>
+            <trans-unit id="170">
+                <source>TCPSIA Testing</source>
+                <target>TCPSIA 测试</target>
+            </trans-unit>
+            <trans-unit id="171">
+                <source>RoHS Testing</source>
+                <target>RoHS 测试</target>
+            </trans-unit>
+            <trans-unit id="172">
+                <source>CPSIA Testing</source>
+                <target>CPSIA 测试</target>
+            </trans-unit>
+            <trans-unit id="173">
+                <source>Press Release</source>
+                <target>新闻报道</target>
+            </trans-unit>
+            <trans-unit id="174">
+                <source>Cookie_Banner_Message</source>
+                <target><![CDATA[我们使用cookies来提高您的用户体验。 <a href=\"/conditions-of-service#privacyPolicy_8.5\">了解更多。</a>]]></target>
+            </trans-unit>
+
+              <!-- Ethical Audits page -->
+              <!-- currently in English only.  See ethical-audit.html.twig.  This is for future considerations-->
+
+            <trans-unit id="175">
+              <source>Ethical Audit Standards</source>
+              <target>Ethical Audit Standards</target>
+            </trans-unit>
+            <trans-unit id="176">
+              <source>For a modern business, an ethical supply chain is no longer an optional "feel-good" PR tool. Today, consumers, governments and NGOs are putting increasing pressure on brands and retailers to ensure transparency throughout their supply chains. Social accountability is an important element of a company's sourcing and marketing strategy, which helps ensure better product quality, foster consumer loyalty, and emphasize good corporate citizenship</source>
+              <target>For a modern business, an ethical supply chain is no longer an optional "feel-good" PR tool. Today, consumers, governments and NGOs are putting increasing pressure on brands and retailers to ensure transparency throughout their supply chains. Social accountability is an important element of a company's sourcing and marketing strategy, which helps ensure better product quality, foster consumer loyalty, and emphasize good corporate citizenship</target>
+            </trans-unit>
+            <trans-unit id="177">
+              <source>AI offers comprehensive ethical audit programs that can be conducted according to international standards, your company's in-house specifications or our own Best-In-Class Protocol.</source>
+              <target>AI offers comprehensive ethical audit programs that can be conducted according to international standards, your company's in-house specifications or our own Best-In-Class Protocol.</target>
+            </trans-unit>
+            <trans-unit id="178">
+              <source>All AI ethical audit programs cover the following aspects:</source>
+              <target>All AI ethical audit programs cover the following aspects:</target>
+            </trans-unit>
+            <trans-unit id="179">
+              <source>Hygiene, health and safety</source>
+              <target>Hygiene, health and safety</target>
+            </trans-unit>
+            <trans-unit id="180">
+              <source>Waste management</source>
+              <target>Waste management</target>
+            </trans-unit>
+            <trans-unit id="181">
+              <source>Child and young labor</source>
+              <target>Child and young labor</target>
+            </trans-unit>
+            <trans-unit id="182">
+              <source>Labor practices, including forced labor, worker representation, disciplinary practices and discrimination.</source>
+              <target>Labor practices, including forced labor, worker representation, disciplinary practices and discrimination.</target>
+            </trans-unit>
+            <trans-unit id="183">
+              <source>Working hours and wages</source>
+              <target>Working hours and wages</target>
+            </trans-unit>
+            <trans-unit id="184">
+              <source>Client-Specific Ethical Audit Protocols</source>
+              <target>Client-Specific Ethical Audit Protocols</target>
+            </trans-unit>
+            <trans-unit id="185">
+              <source>If your company already has a social accountability program in place, AI can tailor its existing ethical audit programs to suit your needs and ensure the compliance of your suppliers to your specific requirements.</source>
+              <target>If your company already has a social accountability program in place, AI can tailor its existing ethical audit programs to suit your needs and ensure the compliance of your suppliers to your specific requirements.</target>
+            </trans-unit>
+            <trans-unit id="186">
+              <source>Ethical Audits to International Standards</source>
+              <target>Ethical Audits to International Standards</target>
+            </trans-unit>
+            <trans-unit id="187">
+              <source>Our professionally certified auditors can conduct ethical audits according to all major internationally recognized social audits standards, including:</source>
+              <target>Our professionally certified auditors can conduct ethical audits according to all major internationally recognized social audits standards, including:</target>
+            </trans-unit>
+            <trans-unit id="188">
+              <source>AI's Best-In-Class Ethical Audit Protocol</source>
+              <target>AI's Best-In-Class Ethical Audit Protocol</target>
+            </trans-unit>
+            <trans-unit id="189">
+              <source>Using the best practices of existing standards and building on our own experience from performing over 10,000 audits every year, we have developed our own Best-In-Class ethical audit protocol.</source>
+              <target>Using the best practices of existing standards and building on our own experience from performing over 10,000 audits every year, we have developed our own Best-In-Class ethical audit protocol.</target>
+            </trans-unit>
+            <trans-unit id="190">
+              <source>When AI auditors visit a factory, they use GPS coordinates to confirm that your products are only being manufactured at the approved facility, and no unauthorized subcontracting is taking place.</source>
+              <target>When AI auditors visit a factory, they use GPS coordinates to confirm that your products are only being manufactured at the approved facility, and no unauthorized subcontracting is taking place.</target>
+            </trans-unit>
+            <trans-unit id="191">
+              <source>Our on-site process consists of:</source>
+              <target>Our on-site process consists of:</target>
+            </trans-unit>
+            <trans-unit id="192">
+              <source>Opening meeting</source>
+              <target>Opening meeting</target>
+            </trans-unit>
+            <trans-unit id="193">
+              <source>Factory tour</source>
+              <target>Factory tour</target>
+            </trans-unit>
+            <trans-unit id="194">
+              <source>Document review</source>
+              <target>Document review</target>
+            </trans-unit>
+            <trans-unit id="195">
+              <source>Worker interviews (group and individual)</source>
+              <target>Worker interviews (group and individual)</target>
+            </trans-unit>
+            <trans-unit id="196">
+              <source>Closing meeting with Corrective Action Plan (CAP) review</source>
+              <target>Closing meeting with Corrective Action Plan (CAP) review</target>
+            </trans-unit>
+            <trans-unit id="197">
+              <source>Furthermore, our Supplier Workshops (held before and during the audit) help educate your suppliers about the audit program, get them more involved and help them achieve compliance.</source>
+              <target>Furthermore, our Supplier Workshops (held before and during the audit) help educate your suppliers about the audit program, get them more involved and help them achieve compliance.</target>
+            </trans-unit>
+            <trans-unit id="198">
+              <source>Our worker interviews are structured and held in a way that ensures transparency and honesty. During the interview, our auditors use voice stress analysis and cross-check information to detect any deception or inconsistencies. Factory staff are also given an opportunity to provide anonymous feedback.</source>
+              <target>Our worker interviews are structured and held in a way that ensures transparency and honesty. During the interview, our auditors use voice stress analysis and cross-check information to detect any deception or inconsistencies. Factory staff are also given an opportunity to provide anonymous feedback.</target>
+            </trans-unit>
+            <trans-unit id="199">
+              <source>AI Ethical Auditors{</source>
+              <target>AI Ethical Auditors{</target>
+            </trans-unit>
+            <trans-unit id="200">
+              <source>AI has adopted an approach based on the key competences of auditors – attitude, skills and knowledge – in line with the reference tools developed by the Global Social Compliance Programme (GSCP)</source>
+              <target>AI has adopted an approach based on the key competences of auditors – attitude, skills and knowledge – in line with the reference tools developed by the Global Social Compliance Programme (GSCP)</target>
+            </trans-unit>
+            <trans-unit id="201">
+              <source>All AI auditors are professionally certified and undergo regular training to stay up to date with the latest standards and regulatory requirements. The average AI ethical auditor has performed 580 audits.</source>
+              <target>All AI auditors are professionally certified and undergo regular training to stay up to date with the latest standards and regulatory requirements. The average AI ethical auditor has performed 580 audits.</target>
+            </trans-unit>
+            <trans-unit id="202">
+              <source>Why Perform an Ethical Audit?</source>
+              <target>Why Perform an Ethical Audit?</target>
+            </trans-unit>
+            <trans-unit id="203">
+              <source>Ensure decent working conditions and human rights throughout your supply chain</source>
+              <target>Ensure decent working conditions and human rights throughout your supply chain</target>
+            </trans-unit>
+            <trans-unit id="204">
+              <source>Comply with statutory requirements (e.g. Modern Slavery Act 2015)</source>
+              <target>Comply with statutory requirements (e.g. Modern Slavery Act 2015)</target>
+            </trans-unit>
+            <trans-unit id="205">
+              <source>Prevent unauthorized subcontracting</source>
+              <target>Prevent unauthorized subcontracting</target>
+            </trans-unit>
+            <trans-unit id="206">
+              <source>Receive an accurate picture of ethical compliance in your supply chain</source>
+              <target>Receive an accurate picture of ethical compliance in your supply chain</target>
+            </trans-unit>
+            <trans-unit id="207">
+              <source>Foster cooperative relations with your suppliers</source>
+              <target>Foster cooperative relations with your suppliers</target>
+            </trans-unit>
+            <trans-unit id="208">
+              <source>Improve brand image and increase consumer loyalty</source>
+              <target>Improve brand image and increase consumer loyalty</target>
+            </trans-unit>
+
+            <!-- Homepage content id=177 - ? -->
+            <trans-unit id="209">
+                <source>We Bring Trust and Ethical Standards to Trade Globally</source>
+                <target>我们为全球贸易带来信任与道德标准</target>
+            </trans-unit>
+            <trans-unit id="210">
+                <source>AI performs on-site supplier audit programs, product inspections and laboratory tests for global brands, retailers and importers to secure and manage their supply chain.</source>
+                <target>AI亚检为全球品牌商、零售商和进口商提供供应商审核、产品验货及实验室测试服务，确保其供应链安全可靠。</target>
+            </trans-unit>
+            <trans-unit id="211">
+                <source>Create Your Free Account and Try the Service</source>
+                <target>账户注册快捷通道，一键体验优质服务</target>
+            </trans-unit>
+            <trans-unit id="212">
+                <source>Your Supply Chain Partner</source>
+                <target>您的供应链合作伙伴</target>
+            </trans-unit>
+            <!-- <trans-unit id="213">
+                <source>Comprehensive Online &amp; Mobile Management</source>
+                <target>Gestion en ligne et mobile</target>
+            </trans-unit>
+            <trans-unit id="214">
+                <source><![CDATA[Manage your product and supplier compliance from your online account. <a href="/app" style="font-size:1em; display:inline-block;">Use the AI app</a> when on the go!]]></source>
+                <target><![CDATA[Gérez la conformité de vos produits et de vos fournisseurs depuis votre compte en ligne. <a href="/app" style="font-size:1em; display:inline-block;">Utilisez l'app AI</a> lors de vos déplacements !]]></target>
+            </trans-unit> -->
+            <trans-unit id="215">
+                <source>Services by Industry</source>
+                <target>行业分类服务</target>
+            </trans-unit>
+            <trans-unit id="216">
+                <source>homepage_services_1</source>
+                <target>AsiaInspection 拥有 %total_Inspectors% 多名精于各行业的检验员、审核员和实验室专家，可确保您的产品和供应商满足目标市场的所有安全和性能标准。</target>
+            </trans-unit>
+            <trans-unit id="217">
+                <source>homepage_services_2</source>
+                <target>在线获取数百份常用的可定制化检验清单，接收有关产品安全要求和供应商审核方案的专家建议，从源头开始确保合规。</target>
+            </trans-unit>
+            <trans-unit id="218">
+                <source>Simple, All-Inclusive Pricing</source>
+                <target>省心的全包价格</target>
+            </trans-unit>
+            <trans-unit id="219">
+                <source>Product Inspections</source>
+                <target>Produktkontrollen</target>
+            </trans-unit>
+            <trans-unit id="220">
+                <source>Verify your product meets all specifications in the factory.</source>
+                <target>Überprüfen Sie noch in der Fabrik, ob Ihr Produkt alle Anforderungen einhält.</target>
+            </trans-unit>
+            <!-- <trans-unit id="221">
+                <source>Supplier Audit Programs</source>
+                <target>Lieferanten- Überprüfungsprogramme</target>
+            </trans-unit> -->
+            <trans-unit id="222">
+                <source>from</source>
+                <target>从</target>
+            </trans-unit>
+            <trans-unit id="223">
+                <source>Engage with capable and ethical suppliers.</source>
+                <target>Arbeiten Sie mit kompetenten, ethischen und nachhaltigen Zulieferern.</target>
+            </trans-unit>
+            <trans-unit id="224">
+                <source>Learn More</source>
+                <target>了解更多</target>
+            </trans-unit>
+            <trans-unit id="225">
+                <source>Laboratory Testing</source>
+                <target>Labortests</target>
+            </trans-unit>
+            <trans-unit id="226">
+                <source>Ensure compliance with safety standards: REACH, RoHS, EN71, CPSIA...</source>
+                <target>Sichern Sie die Einhaltung von Sicherheitsstandards, z.B. REACH, RoHS, etc. </target>
+            </trans-unit>
+            <trans-unit id="227">
+                <source>Book Now</source>
+                <target>立即预订</target>
+            </trans-unit>
+            <trans-unit id="228">
+                <source>Retailers and Importers from 120 Countries Trust AI with their Supply Chain</source>
+                <target>来自120个国家的零售商和进口商信任AI亚检对其供应链的检测</target>
+            </trans-unit>
+            <trans-unit id="229">
+                <source>SATISFIED CUSTOMERS WORLDWIDE</source>
+                <target>SATISFIED CUSTOMERS WORLDWIDE</target>
+            </trans-unit>
+            <trans-unit id="230">
+                <source>Executive Director</source>
+                <target>Executive Director</target>
+            </trans-unit>
+            <trans-unit id="231">
+                <source>President/CEO</source>
+                <target>President/CEO</target>
+            </trans-unit>
+            <trans-unit id="232">
+                <source>Head Buyer</source>
+                <target>Head Buye</target>
+            </trans-unit>
+            <trans-unit id="233">
+                <source>The UK's #1 Garden Buildings Retailer</source>
+                <target>The UK's #1 Garden Buildings Retailer</target>
+            </trans-unit>
+            <trans-unit id="234">
+                <source>Account Manager</source>
+                <target>Account Manager</target>
+            </trans-unit>
+            <trans-unit id="235">
+                <source>Hard Good Leisure Specialists</source>
+                <target>Hard Good Leisure Specialists</target>
+            </trans-unit>
+            <trans-unit id="236">
+                <source>Get It Now</source>
+                <target>点击获取</target>
+            </trans-unit>
+            <trans-unit id="237">
+                <source>Quality Manager</source>
+                <target>Qualitätsmanager</target>
+            </trans-unit>
+            <trans-unit id="238">
+                <source>Quality Tools for Smart Cleaning</source>
+                <target>Quality Tools for Smart Cleaning</target>
+            </trans-unit>
+            <trans-unit id="239">
+                <source>Director</source>
+                <target>Director</target>
+            </trans-unit>
+            <trans-unit id="240">
+                <source>Leading supplier of kitchen products</source>
+                <target>Leading supplier of kitchen products</target>
+            </trans-unit>
+            <trans-unit id="241">
+                <source>Senior Vice President</source>
+                <target>Senior Vice President</target>
+            </trans-unit>
+            <trans-unit id="242">
+                <source>North America Sport Board Games company</source>
+                <target>North America Sport Board Games company</target>
+            </trans-unit>
+            <trans-unit id="243">
+                <source>Buyer</source>
+                <target>Buyer</target>
+            </trans-unit>
+            <trans-unit id="244">
+                <source>European leader in Homeware products</source>
+                <target>Europäischer Marktführer bei Haushaltsprodukten</target>
+            </trans-unit>
+            <trans-unit id="245">
+                <source>Sales Director</source>
+                <target>Verkaufsleiter</target>
+            </trans-unit>
+            <trans-unit id="246">
+                <source>UK Promotion Agency</source>
+                <target>UK Werbeagentur</target>
+            </trans-unit>
+            <trans-unit id="247">
+                <source>Purchasing Manager</source>
+                <target>Einkaufsleiter</target>
+            </trans-unit>
+            <trans-unit id="248">
+                <source>Leading French importer of lamps &amp; lighting equipment</source>
+                <target>führender französischer Importeur von Lampen &amp; Beleuchtungsequipment</target>
+            </trans-unit>
+            <trans-unit id="249">
+                <source>President</source>
+                <target>Präsident</target>
+            </trans-unit>
+            <trans-unit id="250">
+                <source>U.S. Promotional merchandise importer</source>
+                <target>U.S. Importeur von Werbeartikeln</target>
+            </trans-unit>
+            <trans-unit id="251">
+                <source>Latest Publications</source>
+                <target>最新出版物</target>
+            </trans-unit>
+
+            <!-- End of Homepage -->
+
+            <trans-unit id="252">
+                <source>Download Sample Report</source>
+                <target>下载报告样本</target>
+            </trans-unit>
+            <trans-unit id="253">
+                <source>To access this sample report, please provide your email address</source>
+                <target>欲下载此示例报告，请提供您的电子邮件地址</target>
+            </trans-unit>
+
+            <!--company values page-->
+              <trans-unit id="254">
+                  <source>aboutUs-values-title</source>
+                  <target>我们的八个价值理念</target>
+              </trans-unit>
+              <trans-unit id="255">
+                  <source>aboutUs-values-subtitle</source>
+                  <target>AsiaInspection提倡基于以下8个理念的企业文化。</target>
+              </trans-unit>
+              <trans-unit id="256">
+                  <source>aboutUs-values-v1-title</source>
+                  <target>客户第一</target>
+              </trans-unit>
+              <trans-unit id="257">
+                  <source>aboutUs-values-v1-subtitle</source>
+                  <target>我们秉持以帮助客户在其从事行业取得持续成功作为企业目标。我们想客户所想，急客户所急，以赢取客户的满意及信任。我们追求并认真聆听客户的意见。</target>
+              </trans-unit>
+              <trans-unit id="258">
+                  <source>aboutUs-values-v2-title</source>
+                  <target>诚信正直</target>
+              </trans-unit>
+              <trans-unit id="259">
+                  <source>aboutUs-values-v2-subtitle</source>
+                  <target>我们销售的是信任。 无论做任何事情，我们都要维持最高的道德标准。在诚信正直面前，我们绝对不妥协。</target>
+              </trans-unit>
+              <trans-unit id="260">
+                  <source>aboutUs-values-v3-title</source>
+                  <target>以人为本</target>
+              </trans-unit>
+              <trans-unit id="261">
+                  <source>aboutUs-values-v3-subtitle</source>
+                  <target>我们的员工是公司最大的财富。我们吸引人才、培养人才、重用人才、留住人才。我们采取一对一的培训形式，帮助员工发展，培养员工的责任感。</target>
+              </trans-unit>
+              <trans-unit id="262">
+                  <source>aboutUs-values-v4-title</source>
+                  <target>从简择优</target>
+              </trans-unit>
+              <trans-unit id="263">
+                  <source>aboutUs-values-v4-subtitle</source>
+                  <target>我们竭尽所能，为客户提供最简便优化的解决方案及用户体验。</target>
+              </trans-unit>
+              <trans-unit id="264">
+                  <source>aboutUs-values-v5-title</source>
+                  <target>敏锐创新</target>
+              </trans-unit>
+              <trans-unit id="265">
+                  <source>aboutUs-values-v5-subtitle</source>
+                  <target>我们勇于改变创新。聚焦最新科技以及行业基准，追求最快捷有效的方法以维系成功标准。</target>
+              </trans-unit>
+              <trans-unit id="266">
+                  <source>aboutUs-values-v6-title</source>
+                  <target>勇于承担</target>
+              </trans-unit>
+              <trans-unit id="267">
+                  <source>aboutUs-values-v6-subtitle</source>
+                  <target>我们系统分析及衡量我们的工作业绩及表现。我们敢于面对问题，迅速行动，克服困难。我们不会只回顾过去、寻找借口；我们面对未来，解决问题。</target>
+              </trans-unit>
+              <trans-unit id="268">
+                  <source>aboutUs-values-v7-title</source>
+                  <target>多样文化</target>
+              </trans-unit>
+              <trans-unit id="269">
+                  <source>aboutUs-values-v7-subtitle</source>
+                  <target>我们接纳各种不同文化并且学优取精。这是是我们的宝贵财富。</target>
+              </trans-unit>
+              <trans-unit id="270">
+                  <source>aboutUs-values-v8-title</source>
+                  <target>社会目的</target>
+              </trans-unit>
+              <trans-unit id="271">
+                  <source>aboutUs-values-v8-subtitle</source>
+                  <target>我们以能将诚信带到全球贸易为豪。我们致力于帮助提高消费品的安全性、改善工作环境及培养本地人才向国际化。</target>
+              </trans-unit>
+
+<!-- /accrediation page [start] -->
+            <trans-unit id="aboutUs-accred-title">
+                <source>aboutUs-accred-title</source>
+                <target>认证证明</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-subtitle">
+                <source>aboutUs-accred-subtitle</source>
+                <target>AsiaInspection 由以下监管机构根据国际标准授权许可。</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-link">
+                <source>aboutUs-accred-link</source>
+                <target>浏览他们的网站</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-memberships">
+                <source>aboutUs-accred-memberships</source>
+                <target>成员资格</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-iso-name">
+                <source>aboutUs-accred-iso-name</source>
+                <target>ISO 9001:2008 认证</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-iso-desc">
+                <source>aboutUs-accred-iso-desc</source>
+                <target>AsiaInspection 协议经由质量管理最佳实践的国际标准（ISO 标准 9001:2008 (No.04610Q11564R0M)）认证。此项认证严格遵守 ISO 要求，是提高客户满意度的保证。目前，176 个国家/地区的 100 多万个组织均已执行 ISO 9001:2008 认证。 </target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aqsiq-name">
+                <source>aboutUs-accred-aqsiq-name</source>
+                <target>AQSIQ 许可证</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aqsiq-desc">
+                <source>aboutUs-accred-aqsiq-desc</source>
+                <target>在中华人民共和国执行质量监督控制服务需具备 AQSIQ 许可证，AsiaInspection 已取得该许可证（许可证编号为 134）。国家质量监督检验检疫总局 (AQSIQ) 是中华人民共和国主管国家进出口安全、质量、认证、授权和标准化的机构。</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cnas-name">
+                <source>aboutUs-accred-cnas-name</source>
+                <target>CNAS 认证 （ISO17020 和 ISO17025）</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cnas-desc">
+                <source>aboutUs-accred-cnas-desc</source>
+                <target><![CDATA[ AsiaInspection以及其实验室AI亚检温州实验室，是经CNAS认证并授权在中国提供质量检验和实验室测试服务的第三方质量检测公司（证书编号：<a href='https://s3.asiainspection.com/files/AI_2013-2016_CNAS_certificate-English.pdf' target='_blank'>No. CNAS IB0199</a>, <a href='https://s3.asiainspection.com/files/CHB_2014-2017_CNAS_certificate-English.pdf' target='_blank'>No. CNAS L3438</a>）。这资质认可表明了AI亚检及其温州实验室提供的服务，符合CNAS标准并满足全国认证认可工作主管机构CNCA（中国国家认证认可监督管理委员会）制定的准则。 <br /><br /> AsiaInspection依附着CNAS准则成为一个独立、公正和诚信的第三方质量检验公司。更多信息，敬请<a href="https://s3.asiainspection.com/files/Commitment_of_Impartiality.pdf" target="_blank">点击此处</a>。 ]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cma-name">
+                <source>aboutUs-accred-cma-name</source>
+                <target>CMA认证</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cma-desc">
+                <source>aboutUs-accred-cma-desc</source>
+                <target><![CDATA[AI亚检获得国家认证认可监督管理委员会颁布的CMA 认证（编号171120342011），可在中国境内执行相关实验室测试。AI亚检可向社会出具具有证明作用的数据和结果，可核发加盖 CMA 标记的测试报告和证书，证明受检产品符合强制质量和安全标准。出具的检测报告在中国被视为法律文件。]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ifia-name">
+                <source>aboutUs-accred-ifia-name</source>
+                <target>IFIA | International Federation of Inspection Agencies</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ifia-desc">
+                <source>aboutUs-accred-ifia-desc</source>
+                <target><![CDATA[IFIA is not-for profit a trade federation that represents over 40 of the world’s leading international testing, inspection and certification companies. IFIA aims to improve the methods, standards, safety procedures and rules used by its members for the benefit of both them and their stakeholders.<br /><br /> All applicants for IFIA membership are required to implement the IFIA Compliance Code, and members’ continuing compliance is independently audited on an annual basis.<br /><br /> Ask us about our Compliance Code and send us inquiries, complaints or feedback:  <a href="mailto:compliance@asiaInspection.com">compliance@asiaInspection.com</a>. ]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-anab-name">
+                <source>aboutUs-accred-anab-name</source>
+                <target>ANAB</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-anab-desc">
+                <source>aboutUs-accred-anab-desc</source>
+                <target><![CDATA[AI亚检 是 ANSI-ASQ 国家认证委员会 (ANAB) 认证机构，可通过 ACLASS 背书签发报告和证书。该认证旨在确认 AI亚检 符合第三方服务提供商的 ANAB 测试标准。<br /><br />ANAB（原 ACLASS）为非营利组织，致力于为测试和校准实验室、检验和认证机构、参考资料编撰者和水平测试提供商提供认证。ANAB 的目标是通过认证工作，消除繁琐的审计和测试，促进国际贸易，并确保商品、服务和环境的安全。]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cpsc-name">
+                <source>aboutUs-accred-cpsc-name</source>
+                <target>CPSC (CPSIA)</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-cpsc-desc">
+                <source>aboutUs-accred-cpsc-desc</source>
+                <target><![CDATA[AI亚检 是美国消费品安全委员会 (CPSC) 认证机构，可按照《消费品安全改进法案》(CPSIA) 以第三方身份提供测试和认证服务。<br /><br />CPSC 成立于 40 年前，负责监管 1,500 多种消费品的生产和销售，其使命是制定安全规范、研究潜在产品危害以及禁止或取消危险产品，杜绝拥有火灾、电气、化学或机械危险的产品对消费者造成伤害。]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-hoklas-name">
+                <source>aboutUs-accred-hoklas-name</source>
+                <target>HOKLAS</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-hoklas-desc">
+                <source>aboutUs-accred-hoklas-desc</source>
+                <target><![CDATA[AsiaInspection has been accredited by Hong Kong Accreditation Service (HKAS) under the Hong Kong Laboratory Accreditation Scheme (HOKLAS).  Our HKAS accreditation is an independent third-party formal demonstration that we have the competence in performing the activities included in our HKAS scope of accreditation. All conformity assessment bodies accredited by HKAS are required to implement effective quality assurance measures to assure the quality of their accredited activities.<br /><br />Operating since 1985, Hong Kong Accreditation Service provides accreditation for laboratories, certification bodies and inspection bodies located in Hong Kong. Its goals include upgrading the standards of operation of conformity assessment bodies and increasing efficiency in conformity assessment through mutual recognition and endorsement.]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-rjc-name">
+                <source>aboutUs-accred-rjc-name</source>
+                <target>RJC</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-rjc-desc">
+                <source>aboutUs-accred-rjc-desc</source>
+                <target><![CDATA[AsiaInspection is accredited by the Responsible Jewellery Council (RJC) to verify compliance with the RJC Code of Practices and the Signet Responsible Sourcing Protocol. RJC accreditation confirms that AsiaInspection is an impartial third-party auditor with the experience and expertise necessary to carry out ethical audits in jewelry manufacturing, wholesale, and retail.<br /><br />The Responsible Jewellery Council is a not-for-profit standard-setting and certification organization that includes over 800 companies involved in every step of the jewelry supply chain. The RJC Code of Practices is an international standard on responsible business practices in the jewelry supply chain, including human rights, labor rights, environmental impact, and other key considerations.]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ics-name">
+                <source>aboutUs-accred-ics-name</source>
+                <target>ICS (Initiative Clause Sociale)</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ics-desc">
+                <source>aboutUs-accred-ics-desc</source>
+                <target><![CDATA[AsiaInspection is one the partner auditing bodies of ICS (Initiative Clause Sociale), accredited to carry out ethical audits that assess suppliers’ compliance with the ICS Code of Conduct.<br /><br />Founded in 1998, ICS is a group of twenty retailers that work together to sustainably improve working conditions, guided by the universal human rights principles and local social regulations. The ICS Code of Conduct covers key areas of suppliers’ social performance and manufacturing ethics]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-saso-name">
+                <source>aboutUs-accred-saso-name</source>
+                <target>SASO 认证</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-saso-desc">
+                <source>aboutUs-accred-saso-desc</source>
+                <target><![CDATA[AI 亚检是获得沙特工商部和沙特标准、计量及质量局官方批准的认证机构。可对从亚洲和澳大利亚运往沙特市场的产品进行综合检验。经AI 亚检检验的产品符合SASO标准，将核发合格证书，凭此证书可在沙特海关办理清关。]]></target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-sedex-name">
+                <source>aboutUs-accred-sedex-name</source>
+                <target>联合审核组织 - Sedex</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-sedex-desc">
+                <source>aboutUs-accred-sedex-desc</source>
+                <target>AsiaInspection是Sedex联合审核组织（AAG）的成员，该协会是由商业审核公司和非政府组织组成非盈利性机构。Sedex以推进全球供应链中的道德提升为目标。</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-icphso-title">
+                <source>aboutUs-accred-icphso-title</source>
+                <target>ICPHSO</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-icphso-desc">
+                <source>aboutUs-accred-icphso-desc</source>
+                <target>ICPHSO 成立于 1993 年，是健康和安全专业人士的全球论坛。ICPHSO 的年度专题讨论会和区域研讨会促进了关于产品安全问题的国际对话，并为制造商、零售商、非政府组织以及所有其他利益相关者提供了分享经验的场所。</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ppai-title">
+                <source>aboutUs-accred-ppai-title</source>
+                <target>Promotional Products Association International</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ppai-desc">
+                <source>aboutUs-accred-ppai-desc</source>
+                <target>国际促销产品协会 (PPAI) 是时间最久和规模最大的国际非营利性促销产品协会，汇集了 13,000 多家公司， AI亚检 是其成员之一。PPAI 致力于推动促销产品行业的发展和创新，执行领先的促销产品安全和合规计划，并每年举办行业最大的贸易展览——PPAI Expo。</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-astra-title">
+                <source>aboutUs-accred-astra-title</source>
+                <target>ASTRA</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-astra-desc">
+                <source>aboutUs-accred-astra-desc</source>
+                <target>AI亚检 是美国专业玩具零售协会 (ASTRA) 会员，该协会是专业玩具行业最大的协会，拥有 1,700 多个会员。ASTRA 的使命是“引领玩具之路”，致力于为孩子们提供安全有趣的优质玩具，并为其会员提供支持，鼓励他们在专业玩具行业开展合作。</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-tia-title">
+                <source>aboutUs-accred-tia-title</source>
+                <target>Toy Industry Association</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-tia-desc">
+                <source>aboutUs-accred-tia-desc</source>
+                <target>AI亚检 是玩具行业协会 (TIA) 准会员，该非营利贸易协会代表着所有涉及到玩具和青少年娱乐产品制造的企业。TIA 在 35 年前帮助制定了首个综合性玩具标准，为行业的法律和贸易问题提供支持，并专注于安全和慈善事业。</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aafa-title">
+                <source>aboutUs-accred-aafa-title</source>
+                <target>AAFA</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-aafa-desc">
+                <source>aboutUs-accred-aafa-desc</source>
+                <target>AsiaInspection 是美国成衣及鞋业协会 (AAFA) 的成员，该协会代表 1000 多家世界知名品牌，在美国成衣及制鞋行业中具有一定发言权。AAFA 为其成员提供有用信息，帮助成员制定明智的商务决策，增强获利能力并减轻风险。</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-gscc-title">
+                <source>aboutUs-accred-gscc-title</source>
+                <target>国际供应链理事会</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-gscc-desc">
+                <source>aboutUs-accred-gscc-desc</source>
+                <target>AsiaInspection 是国际供应链理事会的成员，该理事会堪称亚洲 B2B 供应链行业最有实力的介质、成份和技术提供商。Chain Media 结合行业专业知识与全球业务范围，为全球主导行业成员提供杰出的供应链报告。</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ciqa-title">
+                <source>aboutUs-accred-ciqa-title</source>
+                <target>CCIQA</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-ciqa-desc">
+                <source>aboutUs-accred-ciqa-desc</source>
+                <target>AsiaInspection 被正式指派为中国出入境检验检疫协会 (CIQA) 的代表，该协会是中国国家质量监督检验检疫总局 (AQSIQ) 的办事机构。CIQA 主要负责提高进出口商品的质量和安全性。</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-apsca-title">
+                <source>aboutUs-accred-apsca-title</source>
+                <target>Association of Professional Social Compliance Auditors (APSCA)</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-apsca-desc">
+                <source>aboutUs-accred-apsca-desc</source>
+                <target>AsiaInspection is a member of the Association of Professional Social Compliance Auditors (APSCA), a practitioner-led initiative created to promote the use of independent social compliance audits to improve working conditions worldwide. APSCA’s mission is to enhance the professionalism, professionalism, consistency and credibility of the individuals and organizations performing independent social compliance audits.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fcchk-title">
+                <source>aboutUs-accred-fcchk-title</source>
+                <target>French Chamber of Commerce Hong Kong</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fcchk-desc">
+                <source>aboutUs-accred-fcchk-desc</source>
+                <target>The French Chamber is the largest European Chamber in Hong Kong. With more than 900 members of various nationalities, our mission is to contribute to developing and fostering business relations between France and Hong Kong. The Chamber offers 15 business-oriented committees and organizes over 70 events per year.</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fccchina-title">
+                <source>aboutUs-accred-fccchina-title</source>
+                <target>French Chamber of Commerce China</target>
+            </trans-unit>
+            <trans-unit id="aboutUs-accred-fccchina-desc">
+                <source>aboutUs-accred-fccchina-desc</source>
+                <target>The French Chamber of Commerce represents a network of more than 1,511 member organizations doing business in China. The Chamber’s main mission is to help companies succeed in China through information, networking and business support services. The French Chamber is a non-profit organization, governed by a steering committee of 30 members.</target>
+            </trans-unit>
+<!-- /accrediation page [end] -->
+
+              <!--/testimonials-->
+              <trans-unit id="294">
+                  <source>aboutUs-test-title</source>
+                  <target>客户好评</target>
+              </trans-unit>
+              <trans-unit id="295">
+                  <source>aboutUs-test-subtitle</source>
+                  <target></target>
+              </trans-unit>
+              <trans-unit id="296">
+                  <source>aboutUs-test-test1-quote</source>
+                  <target>"Designs for Hope is a non-profit whose goal is to provide sustainable electricity, clean water and technology to the world’s poorest with a unique challenge: to provide an extremely long-lasting low cost product while only working with manufacturers who pay their employees a fair wage and provide safe working conditions. With their onsite audits, AsiaInspection ensures we only work with suppliers who provide a safe working environment and who meet the highest social standards."</target>
+              </trans-unit>
+              <trans-unit id="297">
+                  <source>aboutUs-test-test1-who</source>
+                  <target><![CDATA[Executive Director<br><b>Designs for Hope</b><br/><a href="http://www.designsforhope.org/" target="_blank">www.designsforhope.org</a><br>]]></target>
+              </trans-unit>
+              <trans-unit id="298">
+                  <source>aboutUs-test-test2-quote</source>
+                  <target>"We have been extremely pleased with the quality of service received from AsiaInspection. Timely and detailed reports leave nothing to question; the user-friendly online platform is efficient and uncomplicated, making it easy to book and manage our quality control process online. Our dedicated account manager provides unparalleled service and is a true supply chain partner. We look forward to continue working with AsiaInspection!"</target>
+              </trans-unit>
+              <trans-unit id="299">
+                  <source>aboutUs-test-test2-who</source>
+                  <target><![CDATA[President/CEO<br>AVID Products<br/><a href="http://www.avidproducts.com" target="_blank">www.avidproducts.com</a><br>]]></target>
+              </trans-unit>
+              <trans-unit id="300">
+                  <source>aboutUs-test-test3-quote</source>
+                  <target>"If you need a service that is second to none, AsiaInspection can help your company move forward quickly. Making a booking with AsiaInspection could not be easier using their online booking service. The reports I receive are very detailed and help me to make sure that I never get shipped any partial shipments or sub-standard products. In business little things make a big difference and AsiaInspection fully understand our needs."</target>
+              </trans-unit>
+              <trans-unit id="301">
+                  <source>aboutUs-test-test3-who</source>
+                  <target><![CDATA[Head Buyer<br /><b>Garden Buildings Direct</b><br /><i>The UK's #1 Garden Buildings Retailer</i><br /><a href="http://www.gardenbuildingsdirect.co.uk" target="_blank">www.gardenbuildingsdirect.co.uk</a><br />]]></target>
+              </trans-unit>
+              <trans-unit id="302">
+                  <source>aboutUs-test-test4-quote</source>
+                  <target>"AsiaInspection has truly been our eyes in the factory. Full integration into our business has meant that any inspection performed follows our exact specifications and guidelines. This has allowed us to improve our product quality and safeguard our quality control process. In addition, the online booking and same day reporting provide us with greater flexibility to manage quality control throughout production and shipment."</target>
+              </trans-unit>
+              <trans-unit id="303">
+                  <source>aboutUs-test-test4-who</source>
+                  <target><![CDATA[Account Manager<br><b>Urban Leisure</b><br/>Hard Good Leisure Specialists<br><a href="http://www.macvad.com/urban-leisure.html" target="_blank">www.macvad.com</a><br>]]></target>
+              </trans-unit>
+              <trans-unit id="304">
+                  <source>aboutUs-test-test5-quote</source>
+                  <target>“只要一提到 AsiaInspection的名字，我就能收到“立竿见影”的效果。当我告诉我在中国的工厂代理商， 我将派出 AsiaInspection 的一支团队负责那里的审核时，那个代理人犹豫了一下，然后很不情愿地承认了虽然他们网站上的图片显示工厂业务繁忙，但事实上这个工厂根本不存在。于是我吸取了经验教训，以后凡是没有经过 AsiaInspection 的审核，我绝不会开始生产。这样一直发展下来，现在我和一家诚实并值得信任的代理商建立了良好的合作关系，新的工厂也信誉良好。衷心感谢你们带来的安全保障能让我安枕无忧。我完全能够感觉到你们是在保护我和我的商业利益。”</target>
+              </trans-unit>
+              <trans-unit id="305">
+                  <source>aboutUs-test-test5-who</source>
+                  <target><![CDATA[总监<br><b>Audio Traveler </b><br><i>City Audio Guides 的龙头企业</i><br/><a href="http://www.audiotraveler.com" target="_blank">www.audiotraveler.com</a>]]></target>
+              </trans-unit>
+              <trans-unit id="306">
+                  <source>aboutUs-test-test6-quote</source>
+                  <target>“感谢你们提供的工厂审核，社会责任审核和C-TPAT审核服务，让我们如此快速的收到报告。我非常享受与AsiaInspection的合作。你们的服务世界一流！”</target>
+              </trans-unit>
+              <trans-unit id="307">
+                  <source>aboutUs-test-test6-who</source>
+                  <target><![CDATA[质量经理<br><b>Bob Barker Company</b><br><i>服装和家居面料的领先供应商</i><br/><a href="http://www.bobbarker.com" target="_blank">www.bobbarker.com</a>]]></target>
+              </trans-unit>
+              <trans-unit id="308">
+                  <source>aboutUs-test-test7-quote</source>
+                  <target>作为一名质量经理，我认可一点，那就是检验报告必需符合及时性与准确性要求。“提起 AsiaInspection，其员工的专业素质、沟通的时效性和每份报告的详细程度正是我所需要的，这样我才能在生产的各个方面上都保持顶尖水平。我将一如既往毫不犹豫地将你们的服务推荐给我的同行和同事。”</target>
+              </trans-unit>
+              <trans-unit id="309">
+                  <source>aboutUs-test-test7-who</source>
+                  <target><![CDATA[质量经理<br><b>Unger Enterprises Inc.</b><br/><a href="http://www.ungerglobal.com" target="_blank">www.ungerglobal.com</a><br><i>智能清洁行业的品质工具</i>]]></target>
+              </trans-unit>
+              <trans-unit id="310">
+                  <source>aboutUs-test-test8-quote</source>
+                  <target>"在过去的20多年里，我曾与许多检验公司和审核代理商合作过，但是从来没有任何一家比 AsiaInspection 更加专业，更加高效率！ 不仅因为他们的审核员资深而专业，而且因为他们的管理团队可以随时帮助解决你的任何问题或提供其它任何你可能需要的帮助。他们按时完成检验和审核，并且很快给出结果！他们的报告配有详细图片，非常直观与清晰。当他们说成为 “监护您的供应链” 的时候，他们真的用行动做到了。我强烈推荐AsiaInspection！"</target>
+              </trans-unit>
+              <trans-unit id="311">
+                  <source>aboutUs-test-test8-who</source>
+                  <target><![CDATA[总监<br><b>Fox Run Brands</b><br/><a href="http://www.foxrunbrands.com" target="_blank">www.foxrunbrands.com</a><br><i>厨房用品的领先供应商</i>]]></target>
+              </trans-unit>
+              <trans-unit id="312">
+                  <source>aboutUs-test-test9-quote</source>
+                  <target><![CDATA[
+                        "自合作以来，AsiaInspection 一直为我们提供着出色的服务，我想借此机会表示衷心的感谢。 就我们自身而言，我们是无法按照AsiaInspection的质量标准完成自己的质量控制工作的。贵公司给出的报告具有很高的专业水准，现在我们将其发送给客户，以证明他们使用的产品已接受了严格的检验。我愿意向所有在海外制造产品的公司推荐 AsiaInspection。感谢 AsiaInspection 及其每位员工，是你们让我安寝无忧，不用担心远在中国的质量控制工作。<br>
+                        顺送安好,"
+                        ]]></target>
+              </trans-unit>
+              <trans-unit id="313">
+                  <source>aboutUs-test-test9-who</source>
+                  <target><![CDATA[资深副总裁<br><b>HeadzGamez</b><br/><a href="http://griddlygames.strikingly.com" target="_blank">griddlygames.strikingly.com</a><br><i>北美体育棋盘游戏公司</i>]]></target>
+              </trans-unit>
+              <trans-unit id="314">
+                  <source>aboutUs-test-test10-quote</source>
+                  <target>  <![CDATA[
+                            "尊敬的 AsiaInspection 检验团队：
+                    你们最近提交了两份内容详尽的XXXXXXX工厂检验报告，对此我们表示万分感谢。检验报告对我们做出决策很有帮助。借此机会我想告诉贵公司，因该制造商存在许多的质量与交付问题，我们将很快与其终止业务关系，并将生产转移到潮州的XXXXXXX工厂，因为后者的生产质量以及与我方的关系都在不断提升。感谢你们长期以来的支持以及精确的分析工作。 <br>
+                            谨祝安好！"
+                            ]]></target>
+              </trans-unit>
+              <trans-unit id="315">
+                  <source>aboutUs-test-test10-who</source>
+                  <target><![CDATA[采购员<br><b>Allibert</b><br/><a href="http://www.allibert.fr" target="_blank">www.allibert.fr</a><br><i>欧洲家居产品行业的领军企业</i>]]></target>
+              </trans-unit>
+              <trans-unit id="316">
+                  <source>aboutUs-test-test11-quote</source>
+                  <target>"我公司部分业务需要在亚洲采购促销用产品。我们十分担心风险问题，但自己又无法开展评估工作。我们需要值得信赖的合作伙伴。我们委任 AsiaInspection 替我们控制生产质量。迄今，我们十分满意其检验工作。他们效率很高，其互动式检验报告的质量令人赞叹。他们的服务使我们能够防患于未然并及时地通知客户。有了他们，我们在亚洲的业务更安全！"</target>
+              </trans-unit>
+              <trans-unit id="317">
+                  <source>aboutUs-test-test11-who</source>
+                  <target><![CDATA[销售总监<br><b>Fotorama UK Ltd</b><br/><a href="http://www.fotorama.co.uk" target="_blank">www.fotorama.co.uk</a><br><i>英国促销业务机构</i>]]></target>
+              </trans-unit>
+              <trans-unit id="318">
+                  <source>aboutUs-test-test12-quote</source>
+                  <target>"五年前，我们将亚洲范围内的质量检验业务完全交给了 AsiaInspection, 我们一起定制了针对我公司灯具与照明设备的检验方案。 AsiaInspection 派出了业务精干、训练有素的团队负责我公司的产品检验与工厂审查。他们仿佛成了我公司的一部分，只是他们替我们收集信息，使我们做出考虑周全的决策……毫无疑问， AsiaInspection 是我们不断拓展亚洲业务的最佳合作伙伴。"</target>
+              </trans-unit>
+              <trans-unit id="319">
+                  <source>aboutUs-test-test12-who</source>
+                  <target><![CDATA[采购经理<br><b>COREP</b><br/><a href="http://www.corep.com" target="_blank">www.corep.com</a><br><i>法国灯具&amp;照明设备的主要进口商</i>]]></target>
+              </trans-unit>
+              <trans-unit id="320">
+                  <source>aboutUs-test-test13-quote</source>
+                  <target>"一直以来，AsiaInspection 都令我们赞叹不已。他们的检验报告以及客户经理提供的整体服务质量总是好得让人感到不可思议。"</target>
+              </trans-unit>
+              <trans-unit id="321">
+                  <source>aboutUs-test-test13-who</source>
+                  <target><![CDATA[总裁<br><b>BAMKO</b><br/><a href="http://www.bamko.net" target="_blank">www.bamko.net</a><br><i>美国促销商品进口商</i>]]></target>
+              </trans-unit>
+             <trans-unit id="322">
+               <source>Contact a local office</source>
+               <target>请联系当地办事处</target>
+             </trans-unit>
+             <trans-unit id="323">
+               <source>Regulatory Update</source>
+               <target>中国法规与监管回顾</target>
+             </trans-unit>
+             <trans-unit id="355">
+               <source>Regulatory Updates</source>
+               <target>法规与监管回顾</target>
+             </trans-unit>
+             <trans-unit id="356">
+               <source>Regulatory Updates</source>
+               <target>法规与监管回顾</target>
+             </trans-unit>
+             <trans-unit id="357">
+               <source>AI provides you with regular updates on new product safety standards and regulations to help you keep on top of your products' compliance.</source>
+               <target>中国法规与监管新闻</target>
+             </trans-unit>
+              <!-- IDEA: We could use extra XLIFF elements and attributes as illustrated below. -->
+              <!-- The 'xml:lang' attribute would allow us to use a single file for all languages, for easier maintenance. -->
+              <!-- The 'resname' attribute helps humans know which field is associated with a translation. -->
+              <!-- The <group> element lets us organize better, and may allow some optimization by translator. -->
+              <!-- The attribute 'translate="no"' should disable translation for a group or unit, until targets have been entered, -->
+              <!-- but it is currently being ignored, so for now I have instead just commented out empty target lines. -->
+              <group resname="/fun-photos" translate="no">
+                  <trans-unit id="324" resname="pageMeta.pageTitle">
+                    <source>Fun Photos | AsiaInspection</source>
+                    <!-- <target xml:lang="zh"></target> -->
+                  </trans-unit>
+                  <trans-unit id="325" resname="pageMeta.pageDesc">
+                    <source>A gallery of interesting photos submitted by AsiaInspection employees.</source>
+                    <!-- <target xml:lang="zh"></target> -->
+                  </trans-unit>
+                  <trans-unit id="326" resname="section.bigTitle">
+                    <source><![CDATA[Share Fun &amp; Interesting Photos with stories@asiainspection.com]]></source>
+                    <!-- <target xml:lang="zh"><![CDATA[]]></target> -->
+                  </trans-unit>
+                  <trans-unit id="327" resname="section.title">
+                    <source>Send Interesting Photos and Earn $50 USD Per Photo!</source>
+                    <!-- <target xml:lang="zh"></target> -->
+                  </trans-unit>
+                  <trans-unit id="328" resname="section.paragraph">
+                    <source><![CDATA[Any employee who sends a photo to <a href="mailto:stories@asiainspection.com">stories@asiainspection.com</a> will (if the photo is used) be awarded a $50 bonus and entered into the annual prize draw. $50 is per photo used and there is no limit!]]></source>
+                    <!-- <target xml:lang="zh"><![CDATA[]]></target> -->
+                  </trans-unit>
+                  <trans-unit id="329" resname="section.paragraph">
+                    <source>The best photos are with our inspectors wearing an AI shirt or even something fun you see on the street. There are no bad ideas, so send anything! Inspectors, you may also send in fun or interesting photos of the defects you find.</source>
+                    <!-- <target xml:lang="zh"></target> -->
+                  </trans-unit>
+                  <trans-unit id="330" resname="section.paragraph">
+                    <source>Below are a few examples of photos that were awarded a bonus.</source>
+                    <!-- <target xml:lang="zh"></target> -->
+                  </trans-unit>
+                  <trans-unit id="331" resname="images.submittedBy">
+                    <source>Submitted by</source>
+                    <!-- <target xml:lang="zh"></target> -->
+                  </trans-unit>
+                  <trans-unit id="332" resname="images.image.caption">
+                    <source>Caption goes here.</source>
+                    <!-- <target xml:lang="zh"></target> -->
+                  </trans-unit>
+                  <trans-unit id="333" resname="images.image.name">
+                    <source>Three Inspectors</source>
+                    <!-- <target xml:lang="zh"></target> -->
+                  </trans-unit>
+                  <trans-unit id="334" resname="navMenu">
+                    <source>Fun Photos</source>
+                    <!-- <target xml:lang="zh"></target> -->
+                  </trans-unit>
+              </group>
+
+            <!-- Homepage - START -->
+            <trans-unit id="335">
+                <source>homepage_video_header</source>
+                <target><![CDATA[我们为全球贸易带来<br />信任与道德标准]]></target>
+            </trans-unit>
+            <trans-unit id="336">
+                <source>homepage_video_subheading</source>
+                <target><![CDATA[AI亚检为全球品牌商、零售商和进口商提供供应商审核、产品验货及实验室测试服务，确保其供应链安全可靠。]]></target>
+            </trans-unit>
+            <trans-unit id="337">
+                <source>homepage_video_get_started_button</source>
+                <target>咨询详情</target>
+            </trans-unit>
+            <trans-unit id="338">
+                <source>homepage_video_create_free_account</source>
+                <target>账户注册快捷通道，一键体验优质服务</target>
+            </trans-unit>
+            <trans-unit id="339">
+                <source>homepage_mobile_management_title</source>
+                <target>线上及移动端订单管理</target>
+            </trans-unit>
+            <trans-unit id="340">
+                <source>homepage_mobile_management_text</source>
+                <target><![CDATA[通过在线账户，对产品和供应商的合规性进行管理。随时随地<a href="/app" style="font-size:1em; display:inline-block;">使用AI亚检应用程序</a>！]]></target>
+            </trans-unit>
+            <trans-unit id="341">
+                <source>homepage_leading_turnaround_title</source>
+                <target>高效运转与灵活变通</target>
+            </trans-unit>
+            <trans-unit id="342">
+                <source>homepage_leading_turnaround_text</source>
+                <target>48小时内抵达现场。当日提供验货报告。预约时间前一天16:00前可随时取消预约。</target>
+            </trans-unit>
+            <trans-unit id="343">
+                <source>homepage_chain_intelligence_title</source>
+                <target>智能供应链管理</target>
+            </trans-unit>
+            <trans-unit id="344">
+                <source>homepage_chain_intelligence_text</source>
+                <target>使用实时操作面板来衡量并确定高绩效供应商。</target>
+            </trans-unit>
+            <trans-unit id="345">
+                <source>homepage_product_expertise_title</source>
+                <target>专业产品知识</target>
+            </trans-unit>
+            <trans-unit id="346">
+                <source>homepage_product_expertise_text</source>
+                <target>1000多份现成的可定制特定产品检验清单。</target>
+            </trans-unit>
+            <trans-unit id="347">
+                <source>homepage_watch_a_demo</source>
+                <target>详细介绍</target>
+            </trans-unit>
+            <trans-unit id="348">
+                <source>Learn more</source>
+                <target>了解更多</target>
+            </trans-unit>
+            <trans-unit id="349">
+                <source>Download Now</source>
+                <target>点击获取</target>
+            </trans-unit>
+            <trans-unit id="350">
+                <source>homepage_assurance_title</source>
+                <target>您供应链管理的得力助手</target>
+            </trans-unit>
+            <trans-unit id="351">
+                <source>homepage_assurance_global</source>
+                <target><![CDATA[倍受 <span class="sliderTextHighlight">%total_Client_Countries% 个国家</span>和地区的品牌商、零售商和进口商信赖。]]></target>
+            </trans-unit>
+            <trans-unit id="352">
+                <source>homepage_assurance_staff</source>
+                <target><![CDATA[全球 %total_Offices% 间分公司， %total_Staff% 名员工，业务覆盖 <span class="sliderTextHighlight">%total_Operating_Countries% 个国家</span>。]]></target>
+            </trans-unit>
+            <trans-unit id="353">
+                <source>homepage_assurance_factories</source>
+                <target><![CDATA[每年经AI亚检审核的工厂员工人数达 <span class="sliderTextHighlight">150 万人</span>。]]></target>
+            </trans-unit>
+            <trans-unit id="354">
+                <source>homepage_assurance_defects</source>
+                <target><![CDATA[2017 年，AI亚检在产品检测中发现并报告了 <span class="sliderTextHighlight">2,012,564 个产品缺陷</span>和瑕疵。]]></target>
+            </trans-unit>
+            <!-- Homepage - END -->
+            <trans-unit id="370">
+                <source>news_meta_title</source>
+                <target>AI亚检新闻</target>
+            </trans-unit>
+            <trans-unit id="371">
+                <source>news_meta_desc</source>
+                <target>AsiaInspection news covers the latest in supply chain quality control. Find industry updates, quarterly reports, and more from the leaders in quality control.</target>
+            </trans-unit>
+            <trans-unit id="372">
+                <source>news_meta_keys</source>
+                <target>supply chain industry news, quality control news</target>
+            </trans-unit>
+            <trans-unit id="373">
+                <source>news_header_title</source>
+                <target>新闻报道</target>
+            </trans-unit>
+            <trans-unit id="374">
+                <source>news_header_subtitle</source>
+                <target> </target>
+            </trans-unit>
+            <trans-unit id="375">
+                <source>View Now</source>
+                <target>现在查看</target>
+            </trans-unit>
+
+            <trans-unit id="Inspections.Benefits.title">
+                <source>Inspections.Benefits.title</source>
+                <target>AI亚检的优势</target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.whyUsTitle">
+                <source>Inspections.Benefits.whyUsTitle</source>
+                <target>为什么选择AI亚检</target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.whyUsList">
+                <source>Inspections.Benefits.whyUsList</source>
+                <target><![CDATA[
+                    <li>一站式报价</li>
+                    <li>审核员48小时之内上门服务<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup></li>
+                    <li>当日出具审核报告<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup></li>
+                    <li>在线预约服务，简单易行</li>
+                ]]></target>
+            </trans-unit>
+            <trans-unit id="Audits.Benefits.whyUsList">
+                <source>Audits.Benefits.whyUsList</source>
+                <target><![CDATA[
+                    <li>一站式报价（无审核员额外费用）</li>
+                    <li>详尽、可操作的报告以及关键业绩指标(KPIs)汇报</li>
+                    <li>审核员48小时之内上门服务<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup></li>
+                    <li>在线预约服务，简单易行：可通过网站或AI亚检移动应用客户端预订审核服务并查看报告</li>
+                ]]></target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.hoverOne">
+                <source>Inspections.Benefits.hoverOne</source>
+                <target><![CDATA[AsiaInspection保证将在48小时内派遣验货员到达工厂。<br /><br />但是这个时间期限也有赖于工厂的准备工作是否完成，并且是否与AsiaInspection充分合作。此外，如果遭遇其它不可控因素如交通晚点或其他任何意外事故，该时间期限将不能保证。]]></target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.hoverTwo">
+                <source>Inspections.Benefits.hoverTwo</source>
+                <target>正常情况下，80%的检验报告都将在检验当天出具。但是，报告是否能当天出具也取决于工厂是否配合。</target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.whyUse.reason">
+                <source>Inspections.Benefits.whyUse.reason</source>
+                <target><![CDATA[
+                    <p style="padding-bottom:5px;"><b>监护您的供应链！&reg;</b> - AI亚检是独立、经过认证、拥有执照的供应商审核公司，保护客户在供应链中的商业利益，为客户服务。</p>
+                    <p style="padding-bottom:5px;"><b>在线管理质量控制流程</b> - 免费设立账户，在线预约审核，安排支付，并接收详细的电子版审核报告。</p>
+                    <p style="padding-bottom:5px;"><b>更安全</b> - AI亚检采用最严格的国际标准，保障产品安全，并确保符合法规要求。</p>
+                    <p style="padding-bottom:5px;"><b>速度与灵活兼备</b> - 我们保证在48小时内到达亚洲范围内的任何一家工厂。<sup class="hoverText" cargo="txtFastReport"><a href="javascript://">[2]</a></sup>客户可以在预约检验日期前一天的下午4点前（中国时间）修改或取消订单。</p>
+                    <p style="padding-bottom:5px;"><b>全面的检验报告</b> - 检验当天出具报告的比例高达80%。每份报告都附有详细的照片；您看到的画面与检验员一模一样。</p>
+                ]]></target>
+            </trans-unit>
+            <trans-unit id="Inspections.Benefits.whyUse.hoverOne">
+                <source>Inspections.Benefits.whyUse.hoverOne</source>
+                <target><![CDATA[80%的验货报告在当天完成。报告当天完成率以工厂合作情况而定。]]></target>
+            </trans-unit>
+            <trans-unit id="Audits.Benefits.whyUse.reason">
+                <source>Audits.Benefits.whyUse.reason</source>
+                <target><![CDATA[
+                    <p style="padding-bottom:5px;"><b>监护您的供应链！&reg;</b> - AI亚检是独立、经过认证、拥有执照的供应商审核公司，保护客户在供应链中的商业利益，为客户服务。</p>
+                    <p style="padding-bottom:5px;"><b>在线管理质量控制流程</b> - 免费建立账号，在线预约审核，安排支付，并接收详细的电子版审核报告。</p>
+                    <p style="padding-bottom:5px;"><b>技术专业</b> - 为获得最佳审核质量，每位审核员都有各自的专业审核类型，并接受强制性深度培训和严格的内部审核。</p>
+                    <p style="padding-bottom:5px;"><b>全面的审核项目</b> - AI亚检可以帮助客户设立全球性的审核项目，审查每一家新采用的供应商。每份报告都包括工厂记录、管理层采访，并附有照片，保证建立完整的供应商资料。客户还能收到关键业绩指标及汇报，逐渐完善供应商的资料。</p>
+                ]]></target>
+            </trans-unit>
+            <trans-unit id="Registration.Industry">
+                <source>Industry</source>
+                <target>行业</target>
+            </trans-unit>
+            <trans-unit id="Registration.Bodycare_Fashion_Accessories">
+                <source><![CDATA[Bodycare, Fashion & Accessories]]></source>
+                <target>美妆与美容护理</target>
+            </trans-unit>
+            <trans-unit id="Registration.Electrical_Electronic_Products">
+                <source><![CDATA[Electrical & Electronic Products]]></source>
+                <target>电子与电子产品</target>
+            </trans-unit>
+            <trans-unit id="Registration.Food_Food_Packaging">
+                <source><![CDATA[Food & Food Packaging]]></source>
+                <target>食品与包装食品</target>
+            </trans-unit>
+            <trans-unit id="Registration.Gifts_Premiums">
+                <source><![CDATA[Gifts & Premiums]]></source>
+                <target>礼品及赠品</target>
+            </trans-unit>
+            <trans-unit id="Registration.Homeware_Gardenware">
+                <source><![CDATA[Homeware & Gardenware]]></source>
+                <target>家居用品及家庭园艺</target>
+            </trans-unit>
+            <trans-unit id="Registration.Industrial_Construction_Mechanical_Items">
+                <source><![CDATA[Industrial, Construction & Mechanical Items]]></source>
+                <target>工业、建筑和机械项目</target>
+            </trans-unit>
+            <trans-unit id="Registration.Printing_Packaging">
+                <source><![CDATA[Printing & Packaging]]></source>
+                <target>印刷与包装</target>
+            </trans-unit>
+            <trans-unit id="Registration.Textile_Apparel_Footwear_Accessories">
+                <source><![CDATA[Textile, Apparel, Footwear & Accessories]]></source>
+                <target>纺织、服装、鞋类及配件</target>
+            </trans-unit>
+            <trans-unit id="Registration.Toys_Recreational_Items">
+                <source><![CDATA[Toys & Recreational Items]]></source>
+                <target>玩具及休闲用品</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.Title">
+                <source>Benefits.LabTests.Title</source>
+                <target>为什么选择亚检实验室？</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.One">
+                <source>Benefits.LabTests.WhyList.One</source>
+                <target>服务覆盖全球（%total_Operating_Countries%个国家）</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Two">
+                <source>Benefits.LabTests.WhyList.Two</source>
+                <target>行业领先的周转时间（80%的测试可以在48小时内完成）</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Three">
+                <source>Benefits.LabTests.WhyList.Three</source>
+                <target>测试类型广泛（超过6000种）</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Four">
+                <source>Benefits.LabTests.WhyList.Four</source>
+                <target>在线选择、预约测试</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Five">
+                <source>Benefits.LabTests.WhyList.Five</source>
+                <target>通过移动端获取实时仪表板数据</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Six">
+                <source>Benefits.LabTests.WhyList.Six</source>
+                <target>负责任的客户经理</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.WhyList.Seven">
+                <source>Benefits.LabTests.WhyList.Seven</source>
+                <target>提供技术指导，并与最新监管动态同步</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.LearnMore">
+                <source>Benefits.LabTests.LearnMore</source>
+                <target>了解更多行业产品安全合规性解决方案：</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.ChildrenProducts">
+                <source>Benefits.LabTests.CatLink.ChildrenProducts</source>
+                <target>儿童产品</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Promotional">
+                <source>Benefits.LabTests.CatLink.Promotional</source>
+                <target>促销产品</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Food">
+                <source>Benefits.LabTests.CatLink.Food</source>
+                <target>食物接触物品</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Hardlines">
+                <source>Benefits.LabTests.CatLink.Hardlines</source>
+                <target>硬件产品</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Textiles">
+                <source>Benefits.LabTests.CatLink.Textiles</source>
+                <target>纺织品</target>
+            </trans-unit>
+            <trans-unit id="Benefits.LabTests.CatLink.Jewlery">
+                <source>Benefits.LabTests.CatLink.Jewlery</source>
+                <target>珠宝</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-title1">
+                <source>benefitsBox-title1</source>
+                <target>为什么选择AI亚检提供产品和供应商合规服务？</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-ourBenefits">
+                <source>benefitsBox-ourBenefits</source>
+                <target>AI亚检的优势</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-onlineManagement">
+                <source>benefitsBox-onlineManagement</source>
+                <target><![CDATA[<b>Comprehensive Online Management</b> - complete reports stored in your online account for quick decisions.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-flexibility">
+                <source>benefitsBox-flexibility</source>
+                <target><![CDATA[<b>Leading Turnaround & Flexibility</b> - reports uploaded the same day as the Inspection.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-globalCoverage">
+                <source>benefitsBox-globalCoverage</source>
+                <target><![CDATA[<b>Global Coverage</b> - a presence in all main production regions.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-expertInspectors">
+                <source>benefitsBox-expertInspectors</source>
+                <target><![CDATA[<b>Expert Inspector Teams</b> - our inspectors are highly trained agriculture professionals with years of experience in the field.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-industryExpertise">
+                <source>benefitsBox-industryExpertise</source>
+                <target><![CDATA[<b>Industry Expertise</b> - we are fully equipped to inspect every kind of produce, including berries.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-strictSampling">
+                <source>benefitsBox-strictSampling</source>
+                <target><![CDATA[<b>Strict Sampling Procedures</b> - our inspection protocols ensure representative sample collection and in-depth produce inspection.]]></target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-supplyIntelligence">
+                <source>benefitsBox-supplyIntelligence</source>
+                <target>实时获取供应商及其质量数据</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-leadingTurnaround">
+                <source>benefitsBox-leadingTurnaround</source>
+                <target>行业领先的审核、检测和检验周转时间</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-onlineMobile">
+                <source>benefitsBox-onlineMobile</source>
+                <target>通过网站与移动端，随时随地管理订单、获取数据</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-allIncPricing">
+                <source>benefitsBox-allIncPricing</source>
+                <target>检验和审核统一收费，即时获得检测报价</target>
+            </trans-unit>
+            <trans-unit id="benefitsBox-totals">
+                <source>benefitsBox-totals</source>
+                <target>在全球%total_Operating_Countries%个国家开展业务，拥有%total_Inspectors%名审核员和检验员和4家自有实验室</target>
+            </trans-unit>
+            <trans-unit id="Nav.garments_and_apparel">
+                <source>Garments &amp; Apparel</source>
+                <target>服装</target>
+            </trans-unit>
+            <trans-unit id="Nav.textiles_and_fabrics">
+                <source>Textiles &amp; Fabrics</source>
+                <target>纺织品测试</target>
+            </trans-unit>
+            <trans-unit id="Nav.footwear">
+                <source>Footwear</source>
+                <target>鞋类测试</target>
+            </trans-unit>
+            <trans-unit id="Nav.other_softlines">
+                <source>Other Softlines</source>
+                <target>别的非耐用消费品</target>
+            </trans-unit>
+            <trans-unit id="Nav.cosmetics">
+                <source>Cosmetics</source>
+                <target>化妆品</target>
+            </trans-unit>
+            <trans-unit id="Nav.electrical_and_electronics">
+                <source>Electrical &amp; Electronics</source>
+                <target>电气和电子</target>
+            </trans-unit>
+            <trans-unit id="Nav.eyewear">
+                <source>Eyewear</source>
+                <target>眼镜类测试</target>
+            </trans-unit>
+            <trans-unit id="Nav.jewelry">
+                <source>Jewelry</source>
+                <target>首饰</target>
+            </trans-unit>
+            <trans-unit id="Nav.promotional_products">
+                <source>Promotional Products</source>
+                <target>促销产品</target>
+            </trans-unit>
+            <trans-unit id="Nav.toys_and_recreational">
+                <source>Toys &amp; Recreational</source>
+                <target>玩具和娱乐用品检</target>
+            </trans-unit>
+            <trans-unit id="Nav.other_hardlines">
+                <source>Other Hardlines</source>
+                <target>别的耐用消费品</target>
+            </trans-unit>
+            <trans-unit id="Nav.food">
+                <source>Food</source>
+                <target>餐饮</target>
+            </trans-unit>
+            <trans-unit id="Nav.fresh_produce">
+                <source>Fresh produce</source>
+                <target>新鲜农产品</target>
+            </trans-unit>
+            <trans-unit id="Nav.processed_foods">
+                <source>Processed foods</source>
+                <target>加工食品</target>
+            </trans-unit>
+            <trans-unit id="Nav.seafood">
+                <source>Seafood</source>
+                <target>海鲜</target>
+            </trans-unit>
+            <trans-unit id="Nav.meat_and_poultry">
+                <source>Meat and poultry</source>
+                <target>肉类和家禽</target>
+            </trans-unit>
+            <trans-unit id="Nav.beverages">
+                <source>Beverages</source>
+                <target>饮料</target>
+            </trans-unit>
+            <trans-unit id="Nav.food_containers">
+                <source>Food containers</source>
+                <target>食品容器</target>
+            </trans-unit>
+            <trans-unit id="pricing.inspections.permanday">
+                <source>Inspections (per man-day)</source>
+                <target>检验 （每人每天）</target>
+            </trans-unit>
+            <trans-unit id="pricing.audits.permanday">
+                <source>Audits (per man-day)</source>
+                <target>审核 （每人每天）</target>
+            </trans-unit>
+            <trans-unit id="quickguide.azodyes">
+                <source>Quick Guide: Azo Dyes</source>
+                <target>快速指南：偶氮染料</target>
+            </trans-unit>
+            <trans-unit id="get.the.report">
+                <source>Get the Report</source>
+                <target>现在发送</target>
+            </trans-unit>
+            <trans-unit id="zh.Nav.service">
+                <source>By service</source>
+                <target>服务分类</target>
+            </trans-unit>
+            <trans-unit id="zh.Nav.industry">
+                <source>By industry</source>
+                <target>行业分类</target>
+            </trans-unit>
+            <trans-unit id="zh.Nav.SASO">
+                <source>SASO Certification</source>
+                <target>SASO认证</target>
+            </trans-unit>
+            <trans-unit id="zh.Nav.qas">
+                <source>Quality Assurance for Products</source>
+                <target>产品质量保证服务</target>
+            </trans-unit>
+            <trans-unit id="zh.Nav.product">
+                <source>Product Inspection</source>
+                <target>产品检验</target>
+            </trans-unit>
+            <trans-unit id="zh.Nav.supplychain">
+                <source>Supply Chain Insights</source>
+                <target>供应链观察</target>
+            </trans-unit>
+            <trans-unit id="zh.Nav.softlines">
+                <source>Other Industries</source>
+                <target>其他行业</target>
+            </trans-unit>
+            <trans-unit id="accred-pageTitle">
+                <source>accred-pageTitle</source>
+                <target>Accreditations from Regulatory Bodies &amp; International Standards (for lab testing, audits,  inspections)</target>
+            </trans-unit>
+            <trans-unit id="accred-pageDesc">
+                <source>accred-pageDesc</source>
+                <target>AsiaInspection is accredited by and in accordance with several regulatory bodies and international standards. View the full list and learn more about our inspection and audit qualifications here.</target>
+            </trans-unit>
+            <trans-unit id="accred-offerBox-testimonial">
+                <source>accred-offerBox-testimonial</source>
+                <target>As a Quality Manager, I recognize the necessity of timely and accurate inspection reports. When it comes to AsiaInspection, the professionalism of...</target>
+            </trans-unit>
+            <trans-unit id="accred-offerBox-companyDesc">
+                <source>accred-offerBox-companyDesc</source>
+                <target>Quality Tools for Smart Cleaning</target>
+            </trans-unit>
+            <trans-unit id="whitepaper-insights-about">
+                <source>This White Paper will give you insights about</source>
+                <target>这期白皮书将会为您分析</target>
+            </trans-unit>
+            <trans-unit id="whitepaper-complimentary-white-paper">
+                <source>Complimentary White Paper</source>
+                <target>免费白皮书</target>
+            </trans-unit>
+            <trans-unit id="get-the-white-paper-now">
+              <source>Get the White Paper Now</source>
+              <target>下载白皮书</target>
+            </trans-unit>
+            <!-- BSCI Audits [Begin] -->
+            <trans-unit id="bsci-header-title">
+                <source>bsci-header-title</source>
+                <target>BSCI审核</target>
+            </trans-unit>
+            <trans-unit id="bsci-header-subheading">
+                <source>bsci-header-subheading</source>
+                <target>一个旨在确保BSCI（倡议商界遵守社会责任组织）准则实施，帮助品牌商和供应商确保其供应链具备合适工作条件及行使必要社会责任的供应商审核项目。</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-title">
+                <source>bsci-sectionOne-title</source>
+                <target>BSCI供应商审核</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-pgphOne">
+                <source>bsci-sectionOne-pgphOne</source>
+                <target><![CDATA[如今，寻求建立道德供应链进行负责任采购的企业已拥有非常广泛的社会审核框架选择可供依循。BSCI（倡议商界遵守社会责任组织）是其中一个广为全球企业采纳的基本协议。AI亚检已获得BSCI审核执行资质，可为全球制造商、品牌商和零售商提供综合全面的审核项目。]]></target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-pgphTwo">
+                <source>bsci-sectionOne-pgphTwo</source>
+                <target>我们的优秀审核员将负责为您查实供应商设备遵守BSCI规范的情况，详情包括以下方面：</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list1">
+                <source>bsci-sectionOne-list1</source>
+                <target>工作时间及合理补偿</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list2">
+                <source>bsci-sectionOne-list2</source>
+                <target>职业健康与安全</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list3">
+                <source>bsci-sectionOne-list3</source>
+                <target>童工使用及年轻员工保障</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list4">
+                <source>bsci-sectionOne-list4</source>
+                <target>强制劳工或抵债劳工，及不稳定雇佣关系</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list5">
+                <source>bsci-sectionOne-list5</source>
+                <target>组织工会自由和集体谈判权</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list6">
+                <source>bsci-sectionOne-list6</source>
+                <target>商业道德行为</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list7">
+                <source>bsci-sectionOne-list7</source>
+                <target>歧视</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionOne-list8">
+                <source>bsci-sectionOne-list8</source>
+                <target>环境保护</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionTwo-title">
+                <source>bsci-sectionTwo-title</source>
+                <target>BSCI审核是什么？</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionTwo-pgphOne">
+                <source>bsci-sectionTwo-pgphOne</source>
+                <target><![CDATA[2003年，倡议商界遵守社会责任组织（BSCI）由<a href="http://www.amfori.org/content/amfori-bsci" target="_blank">Amfori</a>（前身为外贸组织）建立，其目标是在全球供应链日益复杂的大背景下，改善企业社会道德状况。BSCI规范包含的11个基本原则均以国际劳工组织的劳工标准、联合国人权宪章及其他国内外人权领域重要准则为根据。]]></target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionTwo-pgphTwo">
+                <source>bsci-sectionTwo-pgphTwo</source>
+                <target>BSCI规范的合规审核必须由BSCI的委派服务商执行，由专业的社会审核员到达工厂现场进行全面评估。BSCI审核结果有效期为两年，期满后需重新接受审核。</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-title">
+                <source>bsci-sectionThree-title</source>
+                <target>执行BSCI审核的原因？</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list1">
+                <source>bsci-sectionThree-list1</source>
+                <target>表明道德采购决心与承诺</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list2">
+                <source>bsci-sectionThree-list2</source>
+                <target>确保供应链具备合理工作条件</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list3">
+                <source>bsci-sectionThree-list3</source>
+                <target>提高品牌社会责任公信力</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list4">
+                <source>bsci-sectionThree-list4</source>
+                <target>遵守法定要求（如现代奴隶法案）</target>
+            </trans-unit>
+            <trans-unit id="bsci-sectionThree-list5">
+                <source>bsci-sectionThree-list5</source>
+                <target>与供应商或买家建立长期生产关系</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-one">
+                <source>bsci-benefits-one</source>
+                <target>审核预订流程精简化</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-two">
+                <source>bsci-benefits-two</source>
+                <target>快速出具报告</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-three">
+                <source>bsci-benefits-three</source>
+                <target>专业领域人才与知识</target>
+            </trans-unit>
+            <trans-unit id="bsci-benefits-four">
+                <source>bsci-benefits-four</source>
+                <target>运用数据分析工具与技能，提供KPIs，不断完善审核项目</target>
+            </trans-unit>
+            <trans-unit id="bsci-meta-pagetitle">
+                <source>bsci-meta-pagetitle</source>
+                <target>BSCI审核 - 供应商工厂及社会责任审核 |  AI亚检 - 质量控制服务</target>
+            </trans-unit>
+            <trans-unit id="bsci-meta-pagedesc">
+                <source>bsci-meta-pagedesc</source>
+                <target>AI亚检提供BSCI（倡议商界遵守社会责任组织）审核服务。与AI亚检合作，可为您确保供应链具备合理工作条件及行使必要社会责任。</target>
+            </trans-unit>
+            <trans-unit id="bsci-meta-pagekeywords">
+                <source>bsci-meta-pagekeywords</source>
+                <target>BSCI审核，BSCI社会责任审核，BSCI工厂审核</target>
+            </trans-unit>
+            <!-- BSCI Audits [End] -->
+            <trans-unit id="Instant-Pricing">
+                <source>Instant Pricing</source>
+                <target>即时报价</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

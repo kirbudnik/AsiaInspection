@@ -1,0 +1,172 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title %}Check contact details{% endblock %}
+{% block content %}
+        <h1  style="margin-top:20px;">Look up contact details{% if not is_granted('ROLE_ADMIN') %}, admin only{% endif %}</h1>
+        {% if is_granted('ROLE_ADMIN') %}<p style="margin-bottom:20px;">Enter a contact's email address to see their status and other database info.</p>{% endif %}
+         <div class="box-white">
+            <div style="margin-bottom:20px;">
+
+    <input type="hidden" id="validateErrorText" value="">
+        <div class="wrap">
+            <div class="col-lg-4 col-xs-5 paddingLeftRightZero"><label>Contact email (联系电子邮件):</label></div>
+            <div class="col-lg-8 col-xs-7 inputField" id="salesNamesDropdowns">
+                <input name="contactEmail" id="contactEmail" style="max-width:300px;width:25em;" type="text">
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+
+     </div>
+     <div style="clear:both;"></div>
+
+     <div id="leadsErrorDisplay" style="width:100%; margin-top:15px; display:none; color:red;"></div>
+     <div id="successDisplay" style="width:100%; margin-top:15px; display:none;">
+        <div style="background-color:white;">
+        <p>Hi<span id="am_first"></span>,</p>
+        <p>Please see below from an <span id="unclaimed" style="display:none">unclaimed </span><span id="is_active"></span> <span id="person_type"></span><span id="claimed"> of yours</span>. <span id="logins">The login is '<span id='login2'></span>'.</span></p>
+        <p id='oracle' style="display:none;">You may find them in AI Customer here: <a id='oracle_id'></a></p>
+        <p id='zoho' style="display:none;">You may find them in Zoho here: <a id='zoho_id'></a></p>
+        <ul style="list-style-type:none;padding-left:0">
+            <li><span style="font-weight:bold">Account Manager:</span>
+            <span id="account_manager"></span>
+            <li><span style="font-weight:bold">Person Status:</span>
+            <span id="person_status"></span>
+            <li><span style="font-weight:bold">Client Status:</span>
+            <span id="client_status"></span>
+            <li><span style="font-weight:bold">Login:</span>
+            <span id="login"></span>
+            <li><span style="font-weight:bold">Company Name:</span>
+            <span id="company_name"></span>
+            <li><span style="font-weight:bold">Client Name:</span>
+            <span id="client_name"></span>
+            <li><span style="font-weight:bold">Country:</span>
+            <span id="country"></span>
+        </ul>
+        </div>
+     </div>
+
+    <div style="clear:both;"></div>
+    <div style="text-align:center;">
+        <button id="emailSubmit" name="submit"  type="button" class="btn-primary smallButton" style="margin:20px 0px;">Look Up Now</button>
+        <br />
+    </div>
+</div>
+</div>
+    <script type="text/javascript">
+        $('#emailSubmit').click(function() {
+            $("#leadsErrorDisplay").hide();
+            $("#zoho").hide();
+            $("#oracle").hide();
+            $("#successDisplay").hide();
+            var formData = new FormData();
+            formData.append("contactEmail", $("#contactEmail").val());
+            $.ajax({
+                url: '/lookup-contact',
+                type: 'POST',
+                error: errorHandler,
+                success: completeHandler,
+                data: formData,
+                cache: false,
+                contentType: false,
+                processData: false
+            });
+        });
+        $("#contactEmail").keypress(function(e) {
+            if(e.which == 13) {
+                $("#emailSubmit").click();
+            }
+        });
+        function completeHandler(data){
+            data = JSON.parse(data);
+            if(data.success == "true"){
+                console.log(data);
+                var cols = ['account_manager','person_status','client_status','login','company_name','client_name','country'];
+                var i;
+                for (i = 0; i < cols.length; ++i) {
+                    if (data.data[cols[i]] === null) {
+                        $('#'+cols[i]).text('');
+                    } else {
+                        $('#'+cols[i]).text(data.data[cols[i]]);
+                    }
+                }
+                createEmail(data.data);
+                $("#successDisplay").show();
+            } else {
+                $("#emailSubmit").removeAttr("disabled");
+                htmlerrors = "<p><u><b>The following errors occurred during lookup: （在查找期间发生以下错误)</b></u></p><ul>";
+                errors = data.errors;
+                errors.forEach(function(entry) {
+                    htmlerrors += "<li style='margin-bottom:5px;'>"+entry+"</li>";
+                });
+                htmlerrors += "</ul>";
+                $("#leadsErrorDisplay").html(htmlerrors).show();
+            }
+        }
+
+        function errorHandler(e){
+            if(e.status == 504){
+                // 504 Error Handler
+                showName = $("select:visible","#tradeshowDropdowns").val();
+                $("#emailSubmit").removeAttr("disabled");
+                htmlerrors = "<p><u><b>The following errors occurred during contact lookup: （联系人查找过程中发生以下错误)</b></u></p><ul>";
+                htmlerrors += "<p><b>Proxy Timed Out!</b></p><p>There is something between your computer and the webserver that timed out, Possibly a VPN or Proxy.<br /><br />Please check with <a href='mailto:vincent.macdonald@asiainspection.com'>Vincent MacDonald</a> if this problem persists.</p>";
+                $("#leadsErrorDisplay").html(htmlerrors).show();
+            }
+            if(e.status == 500){
+                // 500 Error Handler
+                showName = $("select:visible","#tradeshowDropdowns").val();
+                $("#emailSubmit").removeAttr("disabled");
+                htmlerrors = "<p><u><b>The following errors occurred during contact lookup: （联系人查找过程中发生以下错误)</b></u></p><ul>";
+                htmlerrors += "<p><b>Error (500)</b>: Something has gone wrong on the server.<br />Please notify <a href='mailto:vincent.macdonald@asiainspection.com'>Vincent MacDonald</a>.</p>";
+                $("#leadsErrorDisplay").html(htmlerrors).show();
+            }
+        }
+        function createEmail(d) {
+            if (d['account_manager'] !== null && d['account_manager'] !== '') {
+                $('#am_first').text(' ' + d['account_manager'].split(' ')[0]);
+                $('#claimed').show();
+                $('#unclaimed').hide();
+            } else {
+                $('#am_first').text(' All');
+                $('#claimed').hide();
+                $('#unclaimed').show();
+            }
+            if (d['person_status'].includes('(Active)')) {
+                $('#is_active').text('active');
+            } else {
+                $('#is_active').text('inactive');
+            }
+            if (d['person_status'].includes('Client')) {
+                $('#person_type').text('client');
+            } else if (d['person_status'].includes('Registration')) {
+                $('#person_type').text('registration');
+            } else if (d['person_status'].includes('Factory')) {
+                $('#person_type').text('factory');
+            } else {
+                $('#person_type').text('lead');
+            }
+            if (d['login'] !== null && d['login'] !== '') {
+                $('#login2').text(d['login']);
+                $('#logins').show();
+            } else {
+                $('#login2').text('');
+                $('#logins').hide();
+            }
+            if (d['oracle_id'] !== null && d['oracle_id'] !== '') {
+                var o_link = 'https://sso2.asiainspection.com/back-office/companies/' + d['oracle_id'];
+                $('#oracle_id').text(o_link);
+                $('#oracle_id').attr('href',o_link);
+                $('#oracle').show();
+            }
+            if (d['zoho_id'] !== null && d['zoho_id'] !== '') {
+                var o_link = 'https://crm.zoho.com/crm/EntityInfo.do?module=Contacts&id=' + d['zoho_id'].substr(5);
+                $('#zoho_id').text(o_link);
+                $('#zoho_id').attr('href',o_link);
+                $('#zoho').show();
+            }
+        }
+    </script>
+    <style type="text/css"><!--
+    #successDisplay, #successDisplay *, #successDisplay * * {font-family:sans-serif}
+     -->
+    </style>
+{% endblock %}

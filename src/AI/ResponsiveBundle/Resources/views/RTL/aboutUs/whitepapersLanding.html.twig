@@ -1,0 +1,54 @@
+{% extends '::base.html.twig' %}
+{%block title%}{{landing.title}}{%endblock%}
+{%block pagename%}whitePapers{%endblock%}
+{%block body%}
+<div  class="headerbox">
+            <div class="container vcenter_parent wrapper">
+                       <div class="col-xs-12 vcenter_parent wrapper paddingLeftZero">
+                <div class=" {%if app.request.locale == "ar"%} col-xl-7 col-xl-offset-5 col-lg-7 col-lg-offset-4 {%else%}col-lg-7 col-lg-offset-1 col-xl-offset-0{%endif%}  col-xs-10 col-md-8 col-md-offset-1 col-xs-offset-1  vcenter_parent " id="bigWidth" style="padding-left:0px;padding-right:0px;">
+                              <div class="vcenter  {%if isSafari is defined%}{%if isSafari==true%}headerTitle{%endif%}{%endif%}" style="display:inline-block;">
+                                  <h1 class="mainHeader" >
+                                  {{landing.title}}</h1>
+                                 <div class="mainSubHeader">{{landing.intro}}</div>
+                             </div>
+                          </div>
+
+                        </div>
+            </div>
+</div>
+
+  <div class="container wrapper mainBlock">
+    <div class="col-xl-10 col-lg-10 col-lg-offset-1 col-xs-12 col-md-10 col-md-offset-1 col-xl-offset-1 paddingLeftZero" style="padding:20px;">
+    <!-- {% trans %}Access all AI content on{% endtrans %}&nbsp; <a href="http://www.slideshare.net/asiainspection/" target="_blank"><img src="https://s3.asiainspection.com/images/ico_slideshare_button.png" border="0" style="background-color:#F5F5F5; border-radius:3px; padding:5px 15px; cursor:pointer;" /></a> -->
+    </div>
+      <div class="col-xl-10 col-lg-10 col-lg-offset-1 col-xs-12 col-md-10 col-md-offset-1 col-xl-offset-1 paddingLeftZero " style="padding:10px 20px 20px 20px;;background-color:white;margin-bottom:20px; ">
+       {%set i =0%}
+       {%set papers=xml.whitePaper.item%}
+       {%if landing.section is defined%}
+          {%for section in landing.section%}
+              <div style='color:rgb(179,24,32); font-weight:bold; font-size:16px; margin-top:20px; box-sizing:border-box;'>{{section|raw}}</div>
+              <hr class='hrgrey' style='margin:5px 0px 10px 0px;'>
+              {%for paper in papers%}
+                {%if id[i] == paper.section|trim%}
+                  <div class="whitePaperSmallScreen" style="min-height:300px;">
+                      <div style='max-height:140px; overflow:hidden;'><img src='https://s3.asiainspection.com/images/{{paper.image}}' style='width:100%; max-height:285px;'></div>
+                      <div style='padding:10px;'>
+                          <div style='color:rgb(179,24,32); font-weight:bold; font-size:14px; margin-bottom:8px;'>{{paper.title}}</div>
+                          <div style='color:black; font-size:13px;'>{{paper.subtitle|raw}}</div>
+                          <div style='position:absolute; bottom:10px; left:0px; text-align:center; width:100%;padding:0px 10px;  box-sizing:border-box;'>
+                            <a href="/whitepaper/{{paper.id}}"  class="one-btn btn btn-primary">{{landing.download}}</a>
+
+                          </div>
+                      </div>
+                  </div>
+                {%endif%}
+            {%endfor%}
+           {%set i =i+1%}
+            <div style='clear:both;'></div>
+          {%endfor%}
+       {%endif%}
+    </div>
+</div>
+
+</div>
+{%endblock%}

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+
+    <pageMeta> <!-- translation: pageTitle and pageDesc -->
+        <pageTitle>Fun Photos | AsiaInspection</pageTitle>
+        <pageDesc>A gallery of interesting photos submitted by AsiaInspection employees.</pageDesc>
+        <!--<pageKeywords></pageKeywords>-->
+    </pageMeta>
+
+    <section> <!-- translation: all -->
+        <bigTitle><![CDATA[Share Fun &amp; Interesting Photos with stories@asiainspection.com]]></bigTitle>
+        <title>Send Interesting Photos and Earn $50 USD Per Photo!</title>
+        <paragraph><![CDATA[Any employee who sends a photo to <a href="mailto:stories@asiainspection.com">stories@asiainspection.com</a> and the photo is used will be awarded a $50 bonus and entered into the annual prize draw.]]></paragraph>
+        <paragraph><![CDATA[$50 is per photo used and there is no limit.]]></paragraph>
+        <paragraph><![CDATA[The best photos are with our inspectors wearing an AI shirt or even something fun you see on the street. There are no bad ideas, so send anything! Inspectors, you may also send in fun or interesting photos of the defects you find.]]></paragraph>
+        <paragraph><![CDATA[Below are a few examples of photos that were awarded a bonus.]]></paragraph>
+    </section>
+
+    <images> <!-- translation: submittedBy, image.name, and image.caption -->
+        <submittedBy>Submitted by</submittedBy>
+
+        <!-- Only filename is required.  The rest are optional: thumbpath, caption, submitter, name, date, type -->
+        <!-- But if name is undefined, the title defaults to "image", so for no title, define it as empty: <name></name> -->
+        <!-- If thumpath is defined, a thumbnail will be sought there with same filename as full image -->
+        <!-- Only name and caption are translated -->
+        <!-- date and type are currently ignored-->
+        <image>
+            <filename>3_inspectors.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption>Caption goes here.</caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Three Inspectors--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>bike.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Bike--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>boat.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Boat--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>busy_train.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Busy Train--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>car_bikes.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Car Bikes--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>cart.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Cart--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>christmas_trees.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Christmas Trees--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>ducks.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Ducks--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>eiffel_tower.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Eiffel Tower--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>elephant.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Elephant--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>fire_turkey.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Fire in Turkey--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>india_sign.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--India Sign--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>istanbul.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Istanbul--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>made_in_china.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name>Made in China</name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>product_of.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Product of...--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>product_weight.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Product Weight--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>rickshaw.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Rickshaw--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>riot.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Riot--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>snow.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Snow--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>team.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Team--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>traffic_jam_gazipur.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Traffic Jam in Gazipur--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>trucks.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Trucks--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>vietnam_factory.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Vietnam Factory--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>warning.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Warning--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>watch_inspection.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Watch Inspection--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>wires.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Wires--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+        <image>
+            <filename>yack.jpg</filename>
+            <thumbpath>tn/</thumbpath>
+            <!--<caption></caption>-->
+            <!--<submitter></submitter>-->
+            <name><!--Yak--></name>
+            <!--<date></date>-->
+            <!--<type></type>-->
+        </image>
+
+    </images>
+
+</document>

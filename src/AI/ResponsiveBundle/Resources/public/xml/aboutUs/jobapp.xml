@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>Quality Control Jobs and Careers | AsiaInspection</en>
+			<es>Carrera Laboral y Empleos en Control de Calidad | Asiainspection.com</es>
+						<ar>طلب التقدم الي وظيفة</ar>
+						<fr>Carrière dans le secteur du contrôle qualité | AsiaInspection.fr</fr>
+						<zh>质量控制工作及事业 | AsiaInspection.com</zh>
+						<de>Über AsiaInspection - Kundenmeinungen | AsiaInspection.com</de>
+						<pt>Controle de qualidade empregos e trabalhos | AsiaInspection.pt</pt>
+						<ru>Карьера и работа в области контроля качества |AsiaInspection</ru>
+		</pageTitle>
+		<pageDesc>
+			<en>Apply for a quality control job or career with AsiaInspection here. Work with professionals from all over the globe as part of a growing company, in a quickly evolving industry.</en>
+			<es>Complete la solicitúd de empleo si está interesado en unirse al equipo de AsiaInspection.</es>
+						<ar>املئ بياناتك لطلب التقدم الى وظيفة مميزة في شركتنا</ar>
+						<fr>Remplissez la demande d'emploi si vous êtes intéressé à joindre l'équipe d'AsiaInspection</fr>
+						<zh>如果您有兴趣加入Asia Inspection团队，请填写工作申请表。</zh>
+						<ru>Заполните заявление о приеме на работу, если вы хотите присоединиться к  команде AsiaInspection.</ru>
+		</pageDesc>
+		<pageKeywords>
+			<zh>亚洲检测工作申请</zh>
+		</pageKeywords>
+	</pageMeta>
+
+	<en>
+		<title>Job Application</title>
+		<subtext><![CDATA[Take your career to the next level with AsiaInspection!<br>Work with professionals from all over the globe as part of a growing company, in a quickly-evolving industry. See what AsiaInspection has to offer to you and your career and apply online now.]]></subtext>
+		<LinkedIn>Use your LinkedIn profile to apply to Asiainspection</LinkedIn>
+		<jobTitle>Position</jobTitle>
+		<jobDate>Date</jobDate>
+		<jobDept>Department</jobDept>
+		<jobDesc>Job Description</jobDesc>
+		<jobLoc>Location</jobLoc>
+		<applyTitle>About You</applyTitle>
+		<yes>Yes</yes>
+		<no>No</no>
+		<required>required fields</required>
+		<applyInspector>
+			<title>Are you applying for an inspector position?</title>
+			<expertises>
+				<title>Please input your fields of expertise</title>
+				<electric>Electrical &amp; Electronic products</electric>
+				<homeware>Homeware, Gardenware</homeware>
+				<fashion>Bodycare, Fashion &amp; accessories</fashion>
+				<printPack>Printing &amp; Packaging</printPack>
+				<construct>Constructions &amp; Mechanical items</construct>
+				<textile>Textile, Apparel, Footwear &amp; Accessories</textile>
+				<toys>Toys &amp; Recreational items</toys>
+				<food>Food &amp; Food containers</food>
+				<audit>Audit</audit>
+				<specElec>Special Electrical &amp; Electronic products</specElec>
+			</expertises>
+			<whereCanWork>
+				<title>Countries where you can work</title>
+				<bg>Bangladesh</bg>
+				<ch>China</ch>
+				<hk>Hong Kong</hk>
+				<india>India</india>
+				<indo>Indonesia</indo>
+				<mly>Malaysia</mly>
+				<pk>Pakistan</pk>
+				<ph>Philippines</ph>
+				<sgp>Singapore</sgp>
+				<sk>South Korea</sk>
+				<tw>Taiwan</tw>
+				<th>Thailand</th>
+				<tk>Turkey</tk>
+				<vn>Vietnam</vn>
+				<ot>Other</ot>
+			</whereCanWork>
+			<areas>Areas / Cities</areas>
+		</applyInspector>
+		<applyFunction>
+			<title>Which function do you apply for?</title>
+			<opt>Sales</opt>
+			<opt>Marketing</opt>
+			<opt>IT</opt>
+			<opt>HR</opt>
+			<opt>Administration</opt>
+			<opt>Finance</opt>
+			<opt>Quality Control Management</opt>
+			<opt>Food Quality Control Management</opt>
+		</applyFunction>
+		<applyAboutYou>
+			<title>About You</title>
+			<firstName>First Name</firstName>
+			<lastName>Last Name</lastName>
+			<nameTitle>Mr.</nameTitle>
+			<nameTitle>Mrs.</nameTitle>
+			<nameTitle>Miss</nameTitle>
+			<address>Address</address>
+			<city>City</city>
+			<country>Country/Region</country>
+			<phone>Telephone</phone>
+			<mobile>Mobile</mobile>
+			<email>Personal Email</email>
+			<confirmEmail>Confirm Email</confirmEmail>
+		</applyAboutYou>
+		<applyReferences>
+			<title>Professional References</title>
+			<aur>References available upon request</aur>
+			<reference>Reference</reference>
+			<company>Company Name</company>
+			<address>Adress</address>
+			<city>City</city>
+			<country>Country/Region</country>
+			<activity>Company activity</activity>
+			<contact>Contact name</contact>
+			<email>E-mail</email>
+			<mobile>Mobile</mobile>
+		</applyReferences>
+		<applyUpload>
+			<title>Upload Documents</title>
+			<picture>Picture</picture>
+			<passport>Passport scan</passport>
+			<cv>CV</cv>
+			<other>Cover / Reference Letter</other>
+		</applyUpload>
+		<applySupport>
+			<title>Supporting Comments Regarding Your Application</title>
+			<securityCode>Enter the security code</securityCode>
+			<applyButton>Apply Now</applyButton>
+		</applySupport>
+		<WhereHear>
+			<title>Where did you first read about this job opportunity?</title>
+			<specify>Please Choose</specify>
+			<opt tag="ai">Asiainspection.com</opt>
+			<opt tag="referral">Referral</opt>
+			<opt tag="linkedin">Facebook</opt>
+			<opt tag="linkedin">LinkedIn</opt>
+			<opt tag="zhaopin">Wechat</opt>
+			<opt tag="zhaopin">AIWeibo</opt>
+			<opt tag="jobsdb">JobsDB.com</opt>
+			<opt tag="51job">51job.com</opt>
+			<opt tag="zhaopin">Zhaopin.com</opt>
+			<opt tag="other">Other</opt>
+		</WhereHear>
+		<goBack url="/career-opportunities">Back</goBack>
+		<success>
+			 <msg>
+				<![CDATA[
+				<h2 class="marginZero padding15">Thank you for your interest in joining AsiaInspection!</h2>
+				<p>Your application will be processed by our Human Resources department and we will get back to you if and when we have an open position matching your profile.</p>
+				]]>
+			 </msg>
+			 <signature>
+				<![CDATA[ AsiaInspection Human Resources ]]>
+			 </signature>
+		</success>
+		<errors>
+			<general>Please fill out this field</general>
+		</errors>
+	</en>
+
+	<it>
+		<title>Invia il tuo CV</title>
+		<subtext>AsiaInspection è il luogo ideale per chiunque desideri mettere le proprie capacità al servizio di un'azienda in rapida ascesa e acquisire un'esperienza di livello internazionale.</subtext>
+		<LinkedIn>Utilizza il tuo profilo LinkedIn per candidarti in Asiainspection</LinkedIn>
+		<jobTitle>Posizione</jobTitle>
+		<jobDate>Aata</jobDate>
+		<jobDept>Dipartimento</jobDept>
+		<jobDesc>Descrizione del lavoro</jobDesc>
+		<jobLoc>localizzazione</jobLoc>
+		<applyTitle>Candidatura generale</applyTitle>
+		<yes>Sì</yes>
+		<no>No</no>
+		<required>required fields</required>
+		<applyInspector>
+			<title>Ti stai candidando per il ruolo di ispettore?</title>
+			<expertises>
+				<title>Please input your fields of expertise</title>
+				<electric>Electrical &amp; Electronic products</electric>
+				<homeware>Homeware, Gardenware</homeware>
+				<fashion>Bodycare, Fashion &amp; accessories</fashion>
+				<printPack>Printing &amp; Packaging</printPack>
+				<construct>Constructions &amp; Mechanical items</construct>
+				<textile>Textile, Apparel, Footwear &amp; Accessories</textile>
+				<toys>Toys &amp; Recreational items</toys>
+				<food>Food &amp; Food containers</food>
+				<audit>Audit</audit>
+				<specElec>Special Electrical &amp; Electronic products</specElec>
+			</expertises>
+			<whereCanWork>
+				<title>Countries where you can work</title>
+				<bg>Bangladesh</bg>
+				<ch>China</ch>
+				<hk>Hong Kong</hk>
+				<india>India</india>
+				<indo>Indonesia</indo>
+				<mly>Malaysia</mly>
+				<pk>Pakistan</pk>
+				<ph>Philippines</ph>
+				<sgp>Singapore</sgp>
+				<sk>South Korea</sk>
+				<tw>Taiwan</tw>
+				<th>Thailand</th>
+				<tk>Turkey</tk>
+				<vn>Vietnam</vn>
+				<ot>Other</ot>
+			</whereCanWork>
+			<areas>Areas / Cities</areas>
+		</applyInspector>
+		<applyFunction>
+			<title>Per quale ruolo ti stai candidando?</title>
+			<opt>Vendite</opt>
+			<opt>Marketing</opt>
+			<opt>IT</opt>
+			<opt>HR</opt>
+			<opt>Amministrazione</opt>
+			<opt>Finanze</opt>
+			<opt>Gestione dei controlli di qualità</opt>
+			<opt>Gestione dei controlli di qualità sugli alimenti</opt>
+		</applyFunction>
+		<applyAboutYou>
+			<title>Informazioni Personali</title>
+			<firstName>Nome</firstName>
+			<lastName>Cognome</lastName>
+			<nameTitle>Sig.</nameTitle>
+			<nameTitle>Sig.ra</nameTitle>
+			<nameTitle>Sig.na</nameTitle>
+			<address>Indirizzo</address>
+			<city>Città</city>
+			<country>Country/Region</country>
+			<phone>Telephone</phone>
+			<mobile>Cellulare</mobile>
+			<email>indirizzo e-mail privato</email>
+			<confirmEmail>conferma indirizzo e-mail</confirmEmail>
+		</applyAboutYou>
+		<applyReferences>
+			<title>Referenze professionali</title>
+			<aur>Referenze disponibili su richiesta</aur>
+			<reference>Referenze</reference>
+			<company>Nome dell'azienda</company>
+			<address>Adress</address>
+			<city>City</city>
+			<country>Country/Region</country>
+			<activity>Attività dell'azienda</activity>
+			<contact>Nome del referente</contact>
+			<email>E-mail</email>
+			<mobile>Mobile</mobile>
+		</applyReferences>
+		<applyUpload>
+			<title>Carica documenti</title>
+			<picture>Foto</picture>
+			<passport><![CDATA[Scansione<br/> del passaporto]]></passport>
+			<cv>CV</cv>
+			<other>Altro</other>
+		</applyUpload>
+		<applySupport>
+			<title>Lettere di referenze a supporto della candidatura</title>
+			<securityCode>Enter the security code</securityCode>
+			<applyButton>Candidati ora</applyButton>
+		</applySupport>
+		<WhereHear>
+			<title>Where did you first read about this job opportunity?</title>
+			<specify>Please Specify</specify>
+			<opt tag="ai">Asiainspection.com</opt>
+			<opt tag="referral">Referral</opt>
+			<opt tag="linkedin">Facebook</opt>
+			<opt tag="linkedin">LinkedIn</opt>
+			<opt tag="zhaopin">Wechat</opt>
+			<opt tag="zhaopin">AIWeibo</opt>
+			<opt tag="jobsdb">JobsDB.com</opt>
+			<opt tag="51job">51job.com</opt>
+			<opt tag="zhaopin">Zhaopin.com</opt>
+			<opt tag="other">Other</opt>
+		</WhereHear>
+		<success>
+			 <msg>
+				<![CDATA[
+				<b>Thank you for your interest in joining AsiaInspection!</b><br /><br />
+				Your application will be processed by our Human Resources department and we will get back to you if and when we have an open position matching your profile.<br /><br />
+				]]>
+			 </msg>
+			 <signature>
+				<![CDATA[<br />Best Regards,<br /><br />AsiaInspection Human Resources<br />]]>
+			 </signature>
+		</success>
+		<errors>
+			<general>Please fill out this field</general>
+		</errors>
+	</it>
+
+	<zh>
+		<title>提交您的简历</title>
+		<subtext>如果您正在寻找一家蓬勃发展的公司以施展自己的才能并获得国际经验，AsiaInspection 是您的绝佳选择。</subtext>
+		<LinkedIn>通过您的 LinkedIn 个人主页向AsiaInspection提交申请即可。</LinkedIn>
+		<jobTitle>职位</jobTitle>
+		<jobDate>日期</jobDate>
+		<jobDept>部门</jobDept>
+		<jobDesc>职责描述</jobDesc>
+		<jobLoc>地点</jobLoc>
+		<applyTitle>一般申请</applyTitle>
+		<yes>是</yes>
+		<no>否</no>
+		<required>必填</required>
+		<applyInspector>
+			<title>您是否要申请检验员一职？</title>
+			<expertises>
+				<title>请输入您的专业领域</title>
+				<electric>电器及电子产品</electric>
+				<homeware>家居用品、园艺用品</homeware>
+				<fashion>身体护理、时装及配饰</fashion>
+				<printPack>印刷包装</printPack>
+				<construct>建筑机械项目</construct>
+				<textile>纺织品、服饰、鞋类及配饰</textile>
+				<toys>玩具及娱乐项目</toys>
+				<food>食品及食品容器</food>
+				<audit>审核</audit>
+				<specElec>特殊电器及电子产品</specElec>
+			</expertises>
+			<whereCanWork>
+				<title>您期望工作的国家/地区</title>
+				<bg>孟加拉国</bg>
+				<ch>中国</ch>
+				<hk>香港</hk>
+				<india>印度</india>
+				<indo>印度尼西亚</indo>
+				<mly>马来西亚</mly>
+				<pk>巴基斯坦</pk>
+				<ph>菲律宾</ph>
+				<sgp>新加坡</sgp>
+				<sk>韩国</sk>
+				<tw>台湾</tw>
+				<th>泰国</th>
+				<tk>土耳其</tk>
+				<vn>越南</vn>
+				<ot>其他</ot>
+			</whereCanWork>
+			<areas>地区/城市</areas>
+		</applyInspector>
+		<applyFunction>
+			<title>您想申请什么职责？</title>
+			<opt>销售</opt>
+			<opt>市场营销</opt>
+			<opt>IT</opt>
+			<opt>人力资源</opt>
+			<opt>行政</opt>
+			<opt>金融</opt>
+			<opt>质量控制</opt>
+			<opt>食品质量控制</opt>
+		</applyFunction>
+		<applyAboutYou>
+			<title>关于你</title>
+			<firstName>名字</firstName>
+			<lastName>姓氏</lastName>
+			<nameTitle>先生</nameTitle>
+			<nameTitle>夫人</nameTitle>
+			<nameTitle>小姐</nameTitle>
+			<address>地址</address>
+			<city>城市</city>
+			<country>国家/地区</country>
+			<phone>电话</phone>
+			<mobile>手机</mobile>
+			<email>个人邮箱</email>
+			<confirmEmail>确认邮箱</confirmEmail>
+		</applyAboutYou>
+		<WhereHear>
+			<title>你由哪里第一次得知这个职位信息?</title>
+			<specify>请选择</specify>
+			<opt tag="ai">Asiainspection.com</opt>
+			<opt tag="referral">Referral</opt>
+			<opt tag="linkedin">Facebook</opt>
+			<opt tag="linkedin">LinkedIn</opt>
+			<opt tag="zhaopin">Wechat</opt>
+			<opt tag="zhaopin">AIWeibo</opt>
+			<opt tag="jobsdb">JobsDB.com</opt>
+			<opt tag="51job">51job.com</opt>
+			<opt tag="zhaopin">Zhaopin.com</opt>
+			<opt tag="other">Other</opt>
+		</WhereHear>
+		<applyReferences>
+			<title>专业参考</title>
+			<aur>可应要求提供参考</aur>
+			<reference>参考</reference>
+			<company>公司名</company>
+			<address>地址</address>
+			<city>城市</city>
+			<country>国家/地区</country>
+			<activity>公司活动</activity>
+			<contact>联系人姓名</contact>
+			<email>电子邮箱</email>
+			<mobile>联系电话</mobile>
+		</applyReferences>
+		<applyUpload>
+			<title>上传文档</title>
+			<picture>图片</picture>
+			<passport><![CDATA[护照<br />扫描件]]></passport>
+			<cv>简历</cv>
+			<other>其他</other>
+		</applyUpload>
+		<applySupport>
+			<title>就申请提供的意见</title>
+			<securityCode>输入安全码</securityCode>
+			<applyButton>现在申请</applyButton>
+		</applySupport>
+		<success>
+			 <msg>
+				<![CDATA[
+				<b>谢谢您申请加入AsiaInspection!</b><br /><br />
+				我们的人事部将会处理您的申请。如果有合适您的职位，我们会与您取得联系。<br /><br />
+				]]>
+			 </msg>
+			 <signature>
+				<![CDATA[<br />Best Regards,<br /><br />AsiaInspection人事部<br />]]>
+			 </signature>
+		</success>
+		<errors>
+			<general>请填写这些项目</general>
+		</errors>
+	</zh>
+	<fr>
+		<title>Envoyer votre CV</title>
+		<subtext>AsiaInspection est l'endroit idéal pour ceux qui cherchent à utiliser leurs compétences dans une entreprise à forte croissance et à acquérir une expérience internationale.</subtext>
+		<LinkedIn>Utilisez votre profil Linked-In pour postuler à AsiaInspection</LinkedIn>
+		<jobTitle>Position</jobTitle>
+		<jobDate>Date</jobDate>
+		<jobDept>Département</jobDept>
+		<jobDesc>Description du poste</jobDesc>
+		<jobLoc>Lieu</jobLoc>
+		<applyTitle>Application Générale</applyTitle>
+		<yes>Oui</yes>
+		<no>Non</no>
+		<required>champs requis</required>
+		<applyInspector>
+			<title>Postulez vous pour un poste d'inspecteur?</title>
+			<expertises>
+				<title>Veuillez remplir les champs avec vos expertises</title>
+				<electric>Produits electriques</electric>
+				<homeware>Accessoires maison et jardin</homeware>
+				<fashion>Soins du corps, mode et accessoires</fashion>
+				<printPack>Imprimerie et emballage</printPack>
+				<construct>Constructions et Mechanique</construct>
+				<textile>Textile, vêtements et chaussures</textile>
+				<toys>Jouets et objets loisirs</toys>
+				<food>Alimentaire</food>
+				<audit>Audit</audit>
+				<specElec>Electronique spécial</specElec>
+			</expertises>
+			<whereCanWork>
+				<title>Pays dans lesquels vous pouvez travailler</title>
+				<bg>Bangladesh</bg>
+				<ch>Chine</ch>
+				<hk>Hong Kong</hk>
+				<india>Indie</india>
+				<indo>Indonésie</indo>
+				<mly>Malaisie</mly>
+				<pk>Pakistan</pk>
+				<ph>Philippines</ph>
+				<sgp>Singapour</sgp>
+				<sk>Korée du Sud</sk>
+				<tw>Taiwan</tw>
+				<th>Thaïlande</th>
+				<tk>Turquie</tk>
+				<vn>Vietnam</vn>
+				<ot>Autre</ot>
+			</whereCanWork>
+			<areas>Lieux / Villes</areas>
+		</applyInspector>
+		<applyFunction>
+			<title>Quelle type de poste cherchez vous?</title>
+			<opt>Ventes</opt>
+			<opt>Marketing</opt>
+			<opt>Informatique</opt>
+			<opt>Resources humaines</opt>
+			<opt>Administration</opt>
+			<opt>Finance</opt>
+			<opt>Gestion contrôle qualité</opt>
+			<opt>Gestion contrôle qualité alimentaire</opt>
+		</applyFunction>
+		<applyAboutYou>
+			<title>Vos details</title>
+			<firstName>Prénom</firstName>
+			<lastName>Nom de famille</lastName>
+			<nameTitle>Mr.</nameTitle>
+			<nameTitle>Mme.</nameTitle>
+			<nameTitle>Mlle</nameTitle>
+			<address>Adresse</address>
+			<city>Ville</city>
+			<country>Pays/Région</country>
+			<phone>Téléphone</phone>
+			<mobile>Portable</mobile>
+			<email>E-mail</email>
+			<confirmEmail>Confirmez votre e-mail</confirmEmail>
+		</applyAboutYou>
+		<applyReferences>
+			<title>Références professionnelles</title>
+			<aur>Références disponibles sur demande</aur>
+			<reference>Références</reference>
+			<company>Nom de la société</company>
+			<address>Adresse</address>
+			<city>Ville</city>
+			<country>Pays/Région</country>
+			<activity>Activité de la société</activity>
+			<contact>Nom de contact</contact>
+			<email>E-mail</email>
+			<mobile>Portable</mobile>
+		</applyReferences>
+		<applyUpload>
+			<title>Pièces jointes</title>
+			<picture>Image</picture>
+			<passport><![CDATA[Passport<br />scan]]></passport>
+			<cv>CV</cv>
+			<other>Lettre de motivation</other>
+		</applyUpload>
+		<applySupport>
+			<title>Informations complémentaires</title>
+			<securityCode>Entrez le code de sécurité</securityCode>
+			<applyButton>Postuler</applyButton>
+		</applySupport>
+		<WhereHear>
+			<title>Où avez-vous d'abord trouvé cette offre?</title>
+			<specify>Choisissez</specify>
+			<opt tag="ai">Asiainspection.com</opt>
+			<opt tag="referral">Referral</opt>
+			<opt tag="linkedin">Facebook</opt>
+			<opt tag="linkedin">LinkedIn</opt>
+			<opt tag="zhaopin">Wechat</opt>
+			<opt tag="zhaopin">AIWeibo</opt>
+			<opt tag="jobsdb">JobsDB.com</opt>
+			<opt tag="51job">51job.com</opt>
+			<opt tag="zhaopin">Zhaopin.com</opt>
+			<opt tag="other">Autre</opt>
+		</WhereHear>
+		<success>
+			 <msg>
+				<![CDATA[
+				<b>Nous vous remercions de votre application pour AsiaInspection!</ B><br /> <br />
+				Votre demande sera traitée par notre service des ressources humaines et nous vous recontacterons si et quand nous avons une position correspondant à votre profil.<br /><br />
+				]]>
+			 </msg>
+			 <signature>
+				<![CDATA[<br />Cordiallement,<br /><br />resources humaines d'AsiaInspection<br />]]>
+			 </signature>
+		</success>
+		<errors>
+			<general>Veuillez remplir ce champ</general>
+		</errors>
+	</fr>
+	<ar>
+		<title>إرفق السيرة الذاتية الخاصة بك</title>
+		<subtext><![CDATA[<span dir='ltr'>AsiaInspection is the perfect place for anyone looking to utilize their skills in a high-growth company and gain international experience.</span>]]></subtext>
+		<LinkedIn>Use your LinkedIn profile to apply to Asiainspection</LinkedIn>
+		<jobTitle>Position</jobTitle>
+		<jobDate>Date</jobDate>
+		<jobDept>Department</jobDept>
+		<jobDesc>Job Description</jobDesc>
+		<jobLoc>Location</jobLoc>
+		<applyTitle>General application</applyTitle>
+		<yes>نعم</yes>
+		<no>لا</no>
+		<required>الحقول المطلوبة</required>
+		<applyInspector>
+			<title>هل أنت التقدم بطلب للحصول على موقف المفتش</title>
+			<expertises>
+				<title>يرجى إدخال حقول خبرتك</title>
+				<electric>Electrical &amp; Electronic products</electric>
+				<homeware>Homeware, Gardenware</homeware>
+				<fashion>Bodycare, Fashion &amp; accessories</fashion>
+				<printPack>لوازم الطباعه و التغليف</printPack>
+				<construct>Constructions &amp; Mechanical items</construct>
+				<textile>Textile, Apparel, Footwear &amp; Accessories</textile>
+				<toys>Toys &amp; Recreational items</toys>
+				<food>Food &amp; Food containers</food>
+				<audit>Audit</audit>
+				<specElec>Special Electrical &amp; Electronic products</specElec>
+			</expertises>
+			<whereCanWork>
+				<title>البلدان التي يمكنك العمل</title>
+				<bg>Bangladesh</bg>
+				<ch>China</ch>
+				<hk>Hong Kong</hk>
+				<india>India</india>
+				<indo>Indonesia</indo>
+				<mly>Malaysia</mly>
+				<pk>Pakistan</pk>
+				<ph>Philippines</ph>
+				<sgp>Singapore</sgp>
+				<sk>South Korea</sk>
+				<tw>Taiwan</tw>
+				<th>Thailand</th>
+				<tk>Turkey</tk>
+				<vn>Vietnam</vn>
+				<ot>Other</ot>
+			</whereCanWork>
+			<areas>المناطق / المدن</areas>
+		</applyInspector>
+		<applyFunction>
+			<title>ما هي الوظيفه التي قدمت طلبك لتلتحق بها؟</title>
+			<opt>Sales</opt>
+			<opt>Marketing</opt>
+			<opt>IT</opt>
+			<opt>HR</opt>
+			<opt>Administration</opt>
+			<opt>Finance</opt>
+			<opt>Quality Control Management</opt>
+			<opt>Food Quality Control Management</opt>
+		</applyFunction>
+		<applyAboutYou>
+			<title>المعلومات الشخصية</title>
+			<firstName>الاسم الشخصي</firstName>
+			<lastName>الاسم العائلي</lastName>
+			<nameTitle>السيد</nameTitle>
+			<nameTitle>السيدة</nameTitle>
+			<nameTitle>الآنسة</nameTitle>
+			<address>عنوان ال</address>
+			<city>مدينة</city>
+			<country>الدولة</country>
+			<phone>رقم الهاتف</phone>
+			<mobile>الهاتف المحمول</mobile>
+			<email>البريد الإلكتروني</email>
+			<confirmEmail>تأكيد البريد الإلكتروني</confirmEmail>
+		</applyAboutYou>
+		<applyReferences>
+			<title>الخبرات السابقة</title>
+			<aur>متوفرة عند الطلب مراجع</aur>
+			<reference>توصية</reference>
+			<company>إسم الشركة</company>
+			<address>عنوان ال</address>
+			<city>مدينة</city>
+			<country>الدولة</country>
+			<activity>نشاط الشركة</activity>
+			<contact>اسم جهة الاتصال</contact>
+			<email>البريد الإلكتروني</email>
+			<mobile>الهاتف المحمول</mobile>
+		</applyReferences>
+		<applyUpload>
+			<title>تحميل الملفات</title>
+			<picture>صور</picture>
+			<passport>جواز سفر</passport>
+			<cv>السيرة الذاتية</cv>
+			<other>ثان</other>
+		</applyUpload>
+		<WhereHear>
+			<title>Where did you first read about this job opportunity?</title>
+			<specify>Please Specify</specify>
+			<opt tag="ai">Asiainspection.com</opt>
+			<opt tag="referral">Referral</opt>
+			<opt tag="linkedin">Facebook</opt>
+			<opt tag="linkedin">LinkedIn</opt>
+			<opt tag="zhaopin">Wechat</opt>
+			<opt tag="zhaopin">AIWeibo</opt>
+			<opt tag="jobsdb">JobsDB.com</opt>
+			<opt tag="51job">51job.com</opt>
+			<opt tag="zhaopin">Zhaopin.com</opt>
+			<opt tag="other">Other</opt>
+		</WhereHear>
+		<applySupport>
+			<title>تعليقات لتدعم طلب تقديمك</title>
+			<securityCode>Enter the security code</securityCode>
+			<applyButton>الآن تطبيق</applyButton>
+		</applySupport>
+		<success>
+			 <msg>
+				<![CDATA[
+				<b>Thank you for your interest in joining AsiaInspection!</b><br /><br />
+				Your application will be processed by our Human Resources department and we will get back to you if and when we have an open position matching your profile.<br /><br />
+				]]>
+			 </msg>
+			 <signature>
+				<![CDATA[<br />Best Regards,<br /><br />AsiaInspection Human Resources<br />]]>
+			 </signature>
+		</success>
+		<errors>
+			<general>Please fill out this field</general>
+		</errors>
+	</ar>
+	<es>
+		<title>Envíe su CV</title>
+		<subtext>AsiaInspection es el lugar perfecto para aquellas personas que deseen poner en práctica sus conocimientos en una empresa en expansión y obtener experiencia en un ambiente internacional.</subtext>
+		<LinkedIn>Utilice su perfil de LinkedIn para aplicar a AsiaInspection</LinkedIn>
+		<jobTitle>Puesto</jobTitle>
+		<jobDate>Fecha</jobDate>
+		<jobDept>Departamiento</jobDept>
+		<jobDesc>Descripción del trabajo</jobDesc>
+		<jobLoc>Ubicación</jobLoc>
+		<applyTitle>Aplicación genérica</applyTitle>
+		<yes>Si</yes>
+		<no>No</no>
+		<required>campos requeridos</required>
+		<applyInspector>
+			<title>¿Busca un puesto de inspector?</title>
+			<expertises>
+				<title>Por favor, introduzca su especialidades</title>
+				<electric>Productos eléctricos y electrónicos</electric>
+				<homeware>Menaje y Artículos para el jardín</homeware>
+				<fashion>Cuidado del cuerpo, Moda y accesorios</fashion>
+				<printPack>imprenta y empaquetado</printPack>
+				<construct>Construcción y Artículos de Mecánica</construct>
+				<textile>Textil, Ropa, Calzado y Accesorios</textile>
+				<toys>Juguetes y Articulos de Ocio</toys>
+				<food>Alimentación y Envases</food>
+				<audit>Auditorías</audit>
+				<specElec>Productos eléctricos y electrónicos</specElec>
+			</expertises>
+			<whereCanWork>
+				<title>Países en los que puede trabajar</title>
+				<bg>Bangladesh</bg>
+				<ch>China</ch>
+				<hk>Hong Kong</hk>
+				<india>India</india>
+				<indo>Indonesia</indo>
+				<mly>Malasia</mly>
+				<pk>Pakistán</pk>
+				<ph>Filipinas</ph>
+				<sgp>Singapur</sgp>
+				<sk>Corea del Sur</sk>
+				<tw>Taiwan</tw>
+				<th>Tailandia</th>
+				<tk>Turquía</tk>
+				<vn>Vietnam</vn>
+				<ot>Otros</ot>
+			</whereCanWork>
+			<areas>Áreas / Ciudades</areas>
+		</applyInspector>
+		<applyFunction>
+			<title>¿En qué departamento está interesado?</title>
+			<opt>Ventas</opt>
+			<opt>Marketing</opt>
+			<opt>Informática</opt>
+			<opt>Recursos Humanos</opt>
+			<opt>Administración</opt>
+			<opt>Contabilidad</opt>
+			<opt>Control de calidad</opt>
+			<opt>Control de calidad de Alimentos</opt>
+		</applyFunction>
+		<applyAboutYou>
+			<title>Sobre Usted</title>
+			<firstName>Nombre</firstName>
+			<lastName>Apellido</lastName>
+			<nameTitle>Señor</nameTitle>
+			<nameTitle>Señora</nameTitle>
+			<nameTitle>Señorita</nameTitle>
+			<address>Dirección</address>
+			<city>Ciudad</city>
+			<country>País / Región</country>
+			<phone>Teléfono</phone>
+			<mobile>Móvil</mobile>
+			<email>E-mail</email>
+			<confirmEmail>Confirme su e-mail</confirmEmail>
+		</applyAboutYou>
+		<applyReferences>
+			<title>Referencias Profesionales</title>
+			<reference>Referencia</reference>
+			<company>Nombre de la compañía</company>
+			<address>Dirección</address>
+			<city>Ciudad</city>
+			<country>País / Región</country>
+			<activity>Actividad de la compañía</activity>
+			<contact>Nombre de contacto</contact>
+			<email>E-mail</email>
+			<mobile>Móvil</mobile>
+		</applyReferences>
+		<applyUpload>
+			<title>Adjuntar documentos</title>
+			<picture>Imagen</picture>
+			<passport><![CDATA[Pasaporte<br />scan]]></passport>
+			<cv>CV</cv>
+			<other>Otros</other>
+		</applyUpload>
+		<applySupport>
+			<title>Comentarios de apoyo respecto a su solicitud</title>
+			<securityCode>Introduzca el código de seguridad</securityCode>
+			<applyButton>Enviar</applyButton>
+		</applySupport>
+		<goBack url="/oportunidades-laborales">Volver</goBack>
+		<success>
+			 <msg>
+				<![CDATA[
+				<b>Gracias por su interés en formar parte de AsiaInspection!</b><br /><br />
+				Su solicitud será procesada por nuestro departamento de Recursos Humanos y nos pondremos en contacto con usted cuando dispongamos de una posición abierta que coincida con su perfil.<br /><br />
+				]]>
+			 </msg>
+			 <signature>
+				<![CDATA[<br />Reciba un cordial saludo,<br /><br />el Equipo de Recursos Humanos de AsiaInspection<br />]]>
+			 </signature>
+		</success>
+		<errors>
+			<general>Por favor rellene este campo</general>
+		</errors>
+	</es>
+	<de>
+		<title>Lebenslauf einreichen</title>
+		<subtext>AsiaInspection ist der perfekte Arbeitgeber für alle, die ihre Kenntnisse in einem schnell wachsenden Unternehmen anwenden und internationale Erfahrung sammeln möchten.</subtext>
+		<LinkedIn>Use your LinkedIn profile to apply to Asiainspection</LinkedIn>
+		<jobTitle>Position</jobTitle>
+		<jobDate>Date</jobDate>
+		<jobDept>Department</jobDept>
+		<jobDesc>Job Description</jobDesc>
+		<jobLoc>Location</jobLoc>
+		<applyTitle>About You</applyTitle>
+		<yes>Yes</yes>
+		<no>No</no>
+		<required>required fields</required>
+		<applyInspector>
+			<title>Are you applying for an inspector position?</title>
+			<expertises>
+				<title>Please input your fields of expertise</title>
+				<electric>Electrical &amp; Electronic products</electric>
+				<homeware>Homeware, Gardenware</homeware>
+				<fashion>Bodycare, Fashion &amp; accessories</fashion>
+				<printPack>Printing &amp; Packaging</printPack>
+				<construct>Constructions &amp; Mechanical items</construct>
+				<textile>Textile, Apparel, Footwear &amp; Accessories</textile>
+				<toys>Toys &amp; Recreational items</toys>
+				<food>Food &amp; Food containers</food>
+				<audit>Audit</audit>
+				<specElec>Special Electrical &amp; Electronic products</specElec>
+			</expertises>
+			<whereCanWork>
+				<title>Countries where you can work</title>
+				<bg>Bangladesh</bg>
+				<ch>China</ch>
+				<hk>Hong Kong</hk>
+				<india>India</india>
+				<indo>Indonesia</indo>
+				<mly>Malaysia</mly>
+				<pk>Pakistan</pk>
+				<ph>Philippines</ph>
+				<sgp>Singapore</sgp>
+				<sk>South Korea</sk>
+				<tw>Taiwan</tw>
+				<th>Thailand</th>
+				<tk>Turkey</tk>
+				<vn>Vietnam</vn>
+				<ot>Other</ot>
+			</whereCanWork>
+			<areas>Areas / Cities</areas>
+		</applyInspector>
+		<applyFunction>
+			<title>Which function do you apply for?</title>
+			<opt>Sales</opt>
+			<opt>Marketing</opt>
+			<opt>IT</opt>
+			<opt>HR</opt>
+			<opt>Administration</opt>
+			<opt>Finance</opt>
+			<opt>Quality Control Management</opt>
+			<opt>Food Quality Control Management</opt>
+		</applyFunction>
+		<applyAboutYou>
+			<title>About You</title>
+			<firstName>First Name</firstName>
+			<lastName>Last Name</lastName>
+			<nameTitle>Mr.</nameTitle>
+			<nameTitle>Mrs.</nameTitle>
+			<nameTitle>Miss</nameTitle>
+			<address>Adresse</address>
+			<city>Stadt</city>
+			<country>Land</country>
+			<phone>Telefon</phone>
+			<mobile>Mobile</mobile>
+			<email>Email</email>
+			<confirmEmail>Bestätigen Email</confirmEmail>
+		</applyAboutYou>
+		<applyReferences>
+			<title>Professional References</title>
+			<aur>References available upon request</aur>
+			<reference>Reference</reference>
+			<company>Company Name</company>
+			<address>Adress</address>
+			<city>City</city>
+			<country>Country/Region</country>
+			<activity>Company activity</activity>
+			<contact>Contact name</contact>
+			<email>E-mail</email>
+			<mobile>Mobile</mobile>
+		</applyReferences>
+		<applyUpload>
+			<title>Dokumente hochladen</title>
+			<picture>Picture</picture>
+			<passport>Passport scan</passport>
+			<cv>CV</cv>
+			<other>Deckblatt/Arbeitszeugnisse</other>
+		</applyUpload>
+		<applySupport>
+			<title>Weiterführende Angaben bezüglich Ihrer Bewerbung</title>
+			<securityCode>Enter the security code</securityCode>
+			<applyButton>Apply Now</applyButton>
+		</applySupport>
+		<WhereHear>
+			<title>Wo haben Sie zum ersten Mal von diesem Stellenangebot gelesen?</title>
+			<specify>Please Specify</specify>
+			<opt tag="ai">Asiainspection.com</opt>
+			<opt tag="referral">Referral</opt>
+			<opt tag="linkedin">Facebook</opt>
+			<opt tag="linkedin">LinkedIn</opt>
+			<opt tag="zhaopin">Wechat</opt>
+			<opt tag="zhaopin">AIWeibo</opt>
+			<opt tag="jobsdb">JobsDB.com</opt>
+			<opt tag="51job">51job.com</opt>
+			<opt tag="zhaopin">Zhaopin.com</opt>
+			<opt tag="other">Other</opt>
+		</WhereHear>
+		<goBack url="/career-opportunities">Back</goBack>
+		<success>
+			 <msg>
+				<![CDATA[
+				<h2 class="marginZero padding15">Thank you for your interest in joining AsiaInspection!</h2>
+				<p>Your application will be processed by our Human Resources department and we will get back to you if and when we have an open position matching your profile.</p>
+				]]>
+			 </msg>
+			 <signature>
+				<![CDATA[ AsiaInspection Human Resources ]]>
+			 </signature>
+		</success>
+		<errors>
+			<general>Please fill out this field</general>
+		</errors>
+	</de>
+
+	<pt>
+		<title>Candidatura</title>
+		<subtext>AsiaInspection is the perfect place for anyone looking to utilize their skills in a high-growth company and gain international experience.</subtext>
+		<LinkedIn>Use your LinkedIn profile to apply to Asiainspection</LinkedIn>
+		<jobTitle>Position</jobTitle>
+		<jobDate>Date</jobDate>
+		<jobDept>Department</jobDept>
+		<jobDesc>Job Description</jobDesc>
+		<jobLoc>Location</jobLoc>
+		<applyTitle>Sobre Você</applyTitle>
+		<yes>Yes</yes>
+		<no>No</no>
+		<required>required fields</required>
+		<applyInspector>
+			<title>Are you applying for an inspector position?</title>
+			<expertises>
+				<title>Please input your fields of expertise</title>
+				<electric>Electrical &amp; Electronic products</electric>
+				<homeware>Homeware, Gardenware</homeware>
+				<fashion>Bodycare, Fashion &amp; accessories</fashion>
+				<printPack>Printing &amp; Packaging</printPack>
+				<construct>Constructions &amp; Mechanical items</construct>
+				<textile>Textile, Apparel, Footwear &amp; Accessories</textile>
+				<toys>Toys &amp; Recreational items</toys>
+				<food>Food &amp; Food containers</food>
+				<audit>Audit</audit>
+				<specElec>Special Electrical &amp; Electronic products</specElec>
+			</expertises>
+			<whereCanWork>
+				<title>Countries where you can work</title>
+				<bg>Bangladesh</bg>
+				<ch>China</ch>
+				<hk>Hong Kong</hk>
+				<india>India</india>
+				<indo>Indonesia</indo>
+				<mly>Malaysia</mly>
+				<pk>Pakistan</pk>
+				<ph>Philippines</ph>
+				<sgp>Singapore</sgp>
+				<sk>South Korea</sk>
+				<tw>Taiwan</tw>
+				<th>Thailand</th>
+				<tk>Turkey</tk>
+				<vn>Vietnam</vn>
+				<ot>Other</ot>
+			</whereCanWork>
+			<areas>Areas / Cities</areas>
+		</applyInspector>
+		<applyFunction>
+			<title>Which function do you apply for?</title>
+			<opt>Sales</opt>
+			<opt>Marketing</opt>
+			<opt>IT</opt>
+			<opt>HR</opt>
+			<opt>Administration</opt>
+			<opt>Finance</opt>
+			<opt>Quality Control Management</opt>
+			<opt>Food Quality Control Management</opt>
+		</applyFunction>
+		<applyAboutYou>
+			<title>Sobre Você</title>
+			<firstName>Primeiro Nome</firstName>
+			<lastName>Sobrenome</lastName>
+			<nameTitle>Mr.</nameTitle>
+			<nameTitle>Mrs.</nameTitle>
+			<nameTitle>Miss</nameTitle>
+			<address>Endereço</address>
+			<city>Cidade</city>
+			<country>País/Eegião</country>
+			<phone>Telefone</phone>
+			<mobile>Móvel</mobile>
+			<email>E-mail Pessoal</email>
+			<confirmEmail>Confirmar e-mail</confirmEmail>
+		</applyAboutYou>
+		<applyReferences>
+			<title>Professional References</title>
+			<aur>References available upon request</aur>
+			<reference>Reference</reference>
+			<company>Company Name</company>
+			<address>Adress</address>
+			<city>City</city>
+			<country>Country/Region</country>
+			<activity>Company activity</activity>
+			<contact>Contact name</contact>
+			<email>E-mail</email>
+			<mobile>Mobile</mobile>
+		</applyReferences>
+		<applyUpload>
+			<title>Carregar documentos</title>
+			<picture>Fotografia</picture>
+			<passport><![CDATA[Digitalização<br/> do passaporte]]></passport>
+			<cv>CV</cv>
+			<other>Outro</other>
+		</applyUpload>
+		<applySupport>
+			<title>Comentários Relacionados com a sua Candidatura</title>
+			<securityCode>Enter the security code</securityCode>
+			<applyButton>Candidatar-Se Agora</applyButton>
+		</applySupport>
+		<WhereHear>
+			<title>Where did you first read about this job opportunity?</title>
+			<specify>por favor escolher</specify>
+			<opt tag="ai">Asiainspection.com</opt>
+			<opt tag="referral">Referral</opt>
+			<opt tag="linkedin">Facebook</opt>
+			<opt tag="linkedin">LinkedIn</opt>
+			<opt tag="zhaopin">Wechat</opt>
+			<opt tag="zhaopin">AIWeibo</opt>
+			<opt tag="jobsdb">JobsDB.com</opt>
+			<opt tag="51job">51job.com</opt>
+			<opt tag="zhaopin">Zhaopin.com</opt>
+			<opt tag="other">Other</opt>
+		</WhereHear>
+		<goBack url="/career-opportunities">Back</goBack>
+		<success>
+			 <msg>
+				<![CDATA[
+				<b>Thank you for your interest in joining AsiaInspection!</b><br /><br />
+				Your application will be processed by our Human Resources department and we will get back to you if and when we have an open position matching your profile.<br /><br />
+				]]>
+			 </msg>
+			 <signature>
+				<![CDATA[<br />Best Regards,<br /><br />AsiaInspection Human Resources<br />]]>
+			 </signature>
+		</success>
+		<errors>
+			<general>Please fill out this field</general>
+		</errors>
+	</pt>
+
+	<ru>
+		<title>Заявление о приеме на работу</title>
+		<subtext>AsiaInspection is the perfect place for anyone looking to utilize their skills in a high-growth company and gain international experience.</subtext>
+		<LinkedIn>Use your LinkedIn profile to apply to Asiainspection</LinkedIn>
+		<jobTitle>должность</jobTitle>
+		<jobDate>должность</jobDate>
+		<jobDept>отдел</jobDept>
+		<jobDesc>Описание работы</jobDesc>
+		<jobLoc>местонахождение</jobLoc>
+		<applyTitle>Информация о вас</applyTitle>
+		<yes>да</yes>
+		<no>нет</no>
+		<required>Обязательные для заполнения поля</required>
+		<goBack url="/career-opportunities">назад</goBack>
+		<success>
+			 <msg>
+				<![CDATA[
+				<b>Спасибо за ваше желание присоединиться к AsiaInspection!</b><br /><br />
+				Ваше заявление будет рассмотрено нашим отделом кадров, мы ответим вам в случае, если у нас имеется  должность, соответствующая вашему резюме.<br /><br />
+				]]>
+			 </msg>
+			 <signature>
+				<![CDATA[<br />Best Regards,<br /><br />AsiaInspection Human Resources<br />]]>
+			 </signature>
+		</success>
+		<errors>
+			<general>Пожалуйста, заполните это поле</general>
+		</errors>
+	</ru>
+</document>

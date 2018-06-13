@@ -1,0 +1,45 @@
+{% if app.request.locale == "ar" %} {% set twigBase = "AIResponsiveBundle:RTL:extra/extraBase.html.twig" %} {% else %} {% set twigBase = "AIResponsiveBundle:extra:extraBase.html.twig" %} {% endif %}
+{% extends twigBase %}
+
+{% block title %}Quality Assurance Services for Products | AsiaInspection – Supply Chain Solutions{% endblock %}
+{% block pageDescription %}AsiaInspection provides quality assurance services for a wide range of products. Find out how AI’s guidance can assist you with product development, manufacturing, and procurement processes.{% endblock %}
+{% block pageKeywords %}quality assurance services, product quality assurance, quality assurance solutions{% endblock %}
+
+{% block bigTitle %}{% trans %}QAS-Title{% endtrans %}{% endblock %}
+{% block smallText %}{% trans %}QAS-subtext{% endtrans %}{% endblock %}
+{% block pagename %}quality-assurance-services{% endblock %}
+
+{% block mainBlock %}
+	<br />
+	<h2>{% trans %}QAS-subTitle1{% endtrans %}</h2>
+	<P>{% trans %}QAS-subtext1{% endtrans %}</p>
+
+	<p>{% trans %}QAS-ListTitle{% endtrans %}</p>
+	<ul>
+		<li>{% trans %}QAS-list{% endtrans %}</li>
+		<li>{% trans %}QAS-list1{% endtrans %}</li>
+		<li>{% trans %}QAS-list2{% endtrans %}</li>
+		<li>{% trans %}QAS-list3{% endtrans %}</li>
+		<li>{% trans %}QAS-list4{% endtrans %}</li>
+		<li>{% trans %}QAS-list5{% endtrans %}</li>
+		<li>{% trans %}QAS-list6{% endtrans %}</li>
+		<li>{% trans %}QAS-list7{% endtrans %}</li>
+		<li>{% trans %}QAS-list8{% endtrans %}</li>
+	</ul>
+	<br />
+	<h2>{% trans %}QAS-subTitle2{% endtrans %}</h2>
+	<p>{% trans %}QAS-subText2{% endtrans %}</p>
+	<br />
+	<h2>{% trans %}QAS-subTitle3{% endtrans %}</h2>
+	<p>{% trans %}QAS-subText3{% endtrans %}</p>
+	<br />
+	<h2>{% trans %}QAS-AIBenefits{% endtrans %}</h2>
+	<p><b>{% trans %}QAS-AIBenefits-reason1{% endtrans %}</b></p>
+		<ul>
+			<li>{% trans %}QAS-AIBenefits-reason2{% endtrans %}</li>
+			<li>{% trans %}QAS-AIBenefits-reason3{% endtrans %}</li>
+			<li>{% trans %}QAS-AIBenefits-reason4{% endtrans %}</li>
+		</ul>
+
+{% endblock %}
+

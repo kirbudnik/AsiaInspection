@@ -1,0 +1,51 @@
+{% if app.request.locale == "ar" %} {% set twigBase = "AIResponsiveBundle:RTL:extra/extraBase.html.twig" %} {% else %} {% set twigBase = "AIResponsiveBundle:extra:extraBase.html.twig" %} {% endif %}
+{% extends twigBase %}
+
+{% block title %}Modern Slavery – The Facts | AsiaInspection{% endblock %}
+{% block pageDescription %}How much do you know about modern day slavery? This infographic will show you facts, examples and solutions for this grave and complex issue.{% endblock %}
+{% block pageKeywords %}{% endblock %}
+
+{% block bigTitle %}{% trans %}Modern Slavery – The Facts{% endtrans %}{% endblock %}
+{% block smallText %}{% endblock %}
+{% block pagename %}ILOinfographic{% endblock %}
+
+{% block mainBlock %}
+	<br />
+	<p>On any given day in 2016, over 40 million people were victims of modern slavery, and over 16 million of them were enslaved in the private sector, including global supply chains. Despite the progress made by the business community, governments, and human rights NGOs, traces of modern slavery can be found in hundreds of products sold on the high street, from chocolate and gold to prawns and textile.</p>
+	<p>This year, the International Labour Organization released in a report the most up-to-date figures on the state of modern slavery worldwide. The AI infographic below presents the summary of the report’s findings: from the geographic and industry spread of modern slavery, to possible solutions for this grave and complex issue.</p>
+	<br />
+	<div style="padding:0px;float:left; height:37px; line-height:35px;">
+		<a href="https://s3.asiainspection.com/images/infographic/AI-infographic-modern-slavery.zip">Downoad the Infographic</a>
+	</div>
+	<div style="padding:0px;float:right;">
+		<div style="display:inline-block; padding-top:8px; padding-left:2em; float:left; font-weight:bold;">{%trans%}Share This On{%endtrans%}:&nbsp;&nbsp;</div>
+		<div id="shareBtnSmall" style="display:inline-block;">
+			<span class='st_twitter_large' displayText='Tweet'></span>
+			<span class='st_facebook_large' displayText='Facebook'></span>
+			<span class='st_linkedin_large' displayText='LinkedIn'></span>
+			<span class='st_email_large' displayText='Email'></span>
+			<span class='st_sharethis_large' displayText='ShareThis'></span>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<center>
+		<a href="https://s3.asiainspection.com/images/infographic/infographic-modern-slavery.png" border="0"><img src="https://s3.asiainspection.com/images/infographic/infographic-modern-slavery.png" style="max-width:100%;" alt="Modern Slavery Infographic" /></a>
+	</center>
+	 
+{% endblock %}
+
+{% block javascripts %}
+	{{ parent() }}
+	{% javascripts  '@AIResponsiveBundle/Resources/public/js/industryFixedMenu_v2.js' filter='?uglifyjs2' %}
+		<script type="text/javascript" src="{{ asset_url }}"></script>
+	{% endjavascripts %}
+	<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">
+		stLight.options({
+			publisher:'12345',
+			doNotHash:true,
+			doNotCopy:true,
+			hashAddressBar:false
+		});
+	</script>
+{% endblock %}

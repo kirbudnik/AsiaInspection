@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+{% if app.request.locale == "zh" %}
+    {% set assetsDomain = assets_china_domain %}
+{% else %}
+    {% set assetsDomain = assets_domain %}
+{% endif %}
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+        <meta name="apple-itunes-app" content="app-id=589783645">
+        <meta name="google-play-app" content="app-id=com.asiainspection">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{% block pageDescription %}{% endblock %}">
+        <meta name="keywords" content="{% block pageKeywords %}{% endblock %}">
+        <meta name="robots" content="noindex,nofollow"/>
+        {%  block meta %}{% endblock %}
+        <title>{% block title %}Asia Inspection{% endblock %}</title>
+        {% if tracking.head is defined %} {{tracking.head|raw}} {% endif %}
+        {% block stylesheets %}
+
+            <link href="{{asset('/css/bootstrap.css')}}" rel="stylesheet"/>
+            <link href="{{asset('/css/bootstrap-theme.css')}}" rel="stylesheet"/>
+            <link href="{{asset('/css/thickbox.css')}}" rel="stylesheet"/>
+            <link href="{{asset('/css/jquery.smartbanner.css')}}" rel="stylesheet" media="screen"/>
+            <link href="{{asset('/css/cookie_banner.css')}}" rel="stylesheet"/>
+            {% stylesheets filter="cssrewrite" filter='?uglifycss' 
+                '@AIResponsiveBundle/Resources/public/css/buttons.css'
+            %}
+            <link rel="stylesheet" href="{{asset_url}}"/>
+            {% endstylesheets %}
+
+            {% stylesheets filter="scss" filter='?uglifycss' 
+                '@AIResponsiveBundle/Resources/public/css/styles.scss'
+            %}
+            <link id="mainCSS" rel="stylesheet" href="{{asset_url}}"/>
+            {% endstylesheets %}
+            <!-- Arabic Overrides -->
+            {% if app.request.locale == "ar" %}
+                {% stylesheets filter="scss" filter='?uglifycss' 
+                    '@AIResponsiveBundle/Resources/public/css/arabic.scss'
+                %}
+                <link id="arabicCSS" rel="stylesheet" href="{{asset_url}}"/>
+                {% endstylesheets %}
+            {% endif %}
+
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <script type="text/javascript" src="/js/head.js"></script>
+        <script src="/js/jquery-1.11.2.min.js"></script>
+        <script src="/js/mbox.js"></script>
+        <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+        <script type="text/javascript">
+            window.cookieconsent_options = {"message":"{% trans %}Cookie_Banner_Message{% endtrans %}","dismiss":"OK","learnMore":"","link":null,"theme":"dark-bottom"};
+        </script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+        <!-- End Cookie Consent plugin -->
+        
+        <!-- Begin Google Schema -->
+        <link rel="publisher" href="https://plus.google.com/101447018574085377404">
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "http://www.asiainspection.com",
+            "logo": "https://s3.asiainspection.com/images/logo_AI_60x60.png",
+        
+            "contactPoint" : [
+                {
+                    "@type" : "ContactPoint",
+                    "telephone" : "+1 888 264 8988",
+                    "contactType" : "customer service",
+                    "contactOption" : "TollFree",
+                    "areaServed" : ["US"]
+                },{
+                    "@type" : "ContactPoint",
+                    "telephone" : "+1 888 264 8988",
+                    "contactType" : "customer service",
+                    "contactOption" : "TollFree",
+                    "areaServed" : ["CA"]
+                },{
+                    "@type" : "ContactPoint",
+                    "telephone" : "+86 755 2223 9888",
+                    "contactType" : "customer service",
+                    "areaServed" : ["CN"]
+                },{
+                    "@type" : "ContactPoint",
+                    "telephone" : "+91 11 4672 3300",
+                    "contactType" : "customer service",
+                    "areaServed" : ["IN"]
+                },{
+                    "@type" : "ContactPoint",
+                    "telephone" : "+84 907 127 039",
+                    "contactType" : "customer service",
+                    "areaServed" : ["VN"]
+                },{
+                    "@type" : "ContactPoint",
+                    "telephone" : "+34 91 888 88 88",
+                    "contactType" : "customer service",
+                    "areaServed" : ["ES"]
+                },{
+                    "@type" : "ContactPoint",
+                    "telephone" : "+33 1 7997 9888",
+                    "contactType" : "customer service",
+                    "areaServed" : ["FR"]
+                },{
+                    "@type" : "ContactPoint",
+                    "telephone" : "+44 20 7048 6121",
+                    "contactType" : "customer service",
+                    "areaServed" : ["UK"]
+                },{
+                    "@type" : "ContactPoint",
+                    "telephone" : "+966 11 484 7130",
+                    "contactType" : "customer service",
+                    "areaServed" : ["SA"]
+                },{
+                    "@type" : "ContactPoint",
+                    "telephone" : "+27 105 006 177",
+                    "contactType" : "customer service",
+                    "areaServed" : ["ZA"]
+                },{
+                    "@type" : "ContactPoint",
+                    "telephone" : "+971 4 313 2735",
+                    "contactType" : "customer service",
+                    "areaServed" : ["AE"]
+                },{
+                    "@type" : "ContactPoint",
+                    "telephone" : "+20 1100 776663",
+                    "contactType" : "customer service",
+                    "areaServed" : ["EG"]
+                }
+            ],
+        
+            "sameAs" : [
+                "http://www.weibo.com/asiainspection",
+                "http://i.youku.com/asiainspection",
+                "http://facebook.com/asiainspection",
+                "http://twitter.com/asiainspection",
+                "https://www.youtube.com/user/asiainspection",
+                "http://www.linkedin.com/company/asiainspection",
+                "http://www.slideshare.net/asiainspection"
+            ]
+        
+        }
+        </script>
+        <!-- End Google Schema -->
+    </head>
+    <body style="overflow-x:hidden;" {% if app.request.locale == "ar" %} dir="rtl"{% endif %}>
+        <input id="language" type="hidden" value="{{app.request.locale}}">
+        <div id="page_{% block pagename %}{% endblock %}" class="container main-container">
+            {% block navigation %}
+                {% if app.request.locale == "ar" %}
+                    {% include('AIResponsiveBundle:RTL:Default/SubTemplates/nav.html.twig') %}
+                {% elseif app.request.locale == "zh" %}
+                    {% include('AIResponsiveBundle:Default:SubTemplates/chinese-nav.html.twig') %}
+                {% else %}
+                    {% include('AIResponsiveBundle:Default:SubTemplates/nav.html.twig') %}
+                {% endif %}
+            {% endblock %}
+
+            {% block body %}{% endblock %}
+
+            {% block footer %}
+                {% if app.request.locale == "ar" %}{% include('AIResponsiveBundle:RTL:Default/SubTemplates/footer.html.twig') %}{% else %}{% include('AIResponsiveBundle:Default:SubTemplates/footer.html.twig') %}{% endif %}
+            {% endblock %}
+        </div>
+        {% block javascripts %}
+            <script src="{{asset('/js/bootstrap.js')}}"></script>
+            <script src="{{asset('/js/thickbox.js')}}"></script>
+            <script src="{{asset('/js/jquery.mousewheel.min.js')}}"></script>
+            <script src="{{asset('/js/unslider.min.js')}}"></script>
+            <script src="{{asset('/js/jquery.smartbanner.js')}}"></script>
+            <!-- <script src="{{asset('/js/snoweffect.js')}}"></script> -->
+            {% javascripts
+                '@AIResponsiveBundle/Resources/public/js/custom.js' 
+                filter='?uglifyjs2'
+            %}
+            <script type="text/javascript" src="{{ asset_url }}"></script>
+            <script type="text/javascript">
+                    $(function () {
+                        $.smartbanner({
+                            title: 'AsiaInspection', // What the title of the app should be in the banner (defaults to <title>)
+                            author: 'AsiaInspection', // What the author of the app should be in the banner (defaults to <meta name="author"> or hostname)
+                            price: 'FREE', // Price of the app
+                            appStoreLanguage: 'us', // Language code for App Store
+                            inAppStore: 'On the App Store', // Text of price for iOS
+                            inGooglePlay: 'In Google Play', // Text of price for Android
+                            icon: null, // The URL of the icon (defaults to <link>)
+                            iconGloss: null, // Force gloss effect for iOS even for precomposed (true or false)
+                            button: 'VIEW', // Text on the install button
+                            scale: 'auto', // Scale based on viewport size (set to 1 to disable)
+                            speedIn: 300, // Show animation speed of the banner
+                            speedOut: 400, // Close animation speed of the banner
+                            daysHidden: 7, // Duration to hide the banner after being closed (0 = always show banner)
+                            daysReminder: 0, // Duration to hide the banner after "VIEW" is clicked (0 = always show banner)
+                            force: null // Choose 'ios' or 'android'. Don't do a browser check, just always show this banner
+                        });
+                        var _top = $(window).scrollTop();
+                        var _direction;
+                        $(window).scroll(function(){
+                            var _cur_top = $(window).scrollTop();
+                            if(_cur_top > 200)
+                            {
+                                $('.navbar').addClass('floating');
+                            }
+                            else
+                            {
+                                $('.navbar').removeClass('floating');
+                            }
+                        });
+                    });
+            </script>
+            {% endjavascripts %}
+        {% endblock %}
+
+        {# For pushing URL's to Baidu because apparently they can't crawl websites like google or any number of freeware tools can do #}
+        {% if app.request.locale == "zh" %}
+            <script>
+            (function() {
+                var bp = document.createElement('script');
+                var curProtocol = window.location.protocol.split(':')[0];
+                bp.src = 'https://push.zhanzhang.baidu.com/push.js';
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(bp, s);
+            })();
+            </script>
+        {% endif %}
+
+        {% if tracking.body is defined %} {{tracking.body|raw}} {% endif %}
+
+    </body>
+</html>

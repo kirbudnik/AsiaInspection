@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<en>
+		<viewSample>
+			<link title="Download Sample Report">View Sample Report</link>
+		</viewSample>
+		
+		<seeDemo>
+			<link demo="demo">See a Demo</link>
+		</seeDemo>
+		
+		<labDemo>
+			<link demo="labdemo">See a Demo</link>
+		</labDemo>
+		
+		<watchInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=watchinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=465&amp;width=720&amp;modal=true" special="newpop">Watch a Real Inspection</link>
+		</watchInspection>
+		
+		<watchHardlineInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=hardlineinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=410&amp;width=680&amp;modal=true">Watch a Real Inspection</link>
+		</watchHardlineInspection>
+		
+		<SAwhitePaper>
+			<link title="Download Ethical Audit (EA) White Paper">Download Case Study</link>
+		</SAwhitePaper>
+
+		<realAudit>
+			<link class="thickbox" title="Real Ethical Audit (EA) Photos" href="objects/Popup.php?type=auditphotos&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">See an Ethical Audit</link>
+		</realAudit>
+		
+		<realFactoryAudit>
+			<link class="thickbox" title="Real Manufacturing Audit (MA) Photos" href="objects/Popup.php?type=factoryauditphotos&amp;lang=en&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">See a Manufacturing Audit</link>
+		</realFactoryAudit>
+		
+		<ByIndustry>
+			<selectReport>Select a Sample Report</selectReport>
+			<softline>
+				<report id="soft-shirt">Dress Shirts</report>
+				<report id="plushtoy">Stuffed Toys</report>
+			</softline>
+			<hardline>
+				<report id="hard-dvb">Digital Video Set Box</report>
+				<report id="hard-tablet">Tablet PC</report>
+			</hardline>
+			<TechParts>
+				<report id="ceramictiles">Ceramic Tiles</report>
+				<report id="lamflooring">Laminate Flooring</report>
+			</TechParts>
+		</ByIndustry>
+
+		<AZOdyes>
+			<link title="AZO Whitepaper" href="quick-guide-azo-dyes">Quick Guide: Azo Dyes</link>
+		</AZOdyes>
+		
+	</en>
+	
+	<zh>
+		<viewSample>
+			<link title="下载报告样本">查看报告样本</link>
+		</viewSample>
+		
+		<seeDemo>
+			<link demo="demo">详细介绍</link>
+		</seeDemo>
+		
+		<labDemo>
+			<link demo="labdemo">详细介绍</link>
+		</labDemo>
+
+		<SAwhitePaper>
+			<link title="下载社会责任白皮书">下载社会责任白皮书</link>
+		</SAwhitePaper>
+		
+		<watchInspection>
+			<link class="thickbox" title="AsiaInspection验货员验货当天" href="objects/video.php?video=watchinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=465&amp;width=720&amp;modal=true" special="newpop">观看检验实况</link>
+		</watchInspection>
+		
+		<watchHardlineInspection>
+			<link class="thickbox" title="AsiaInspection验货员验货当天" href="objects/video.php?video=hardlineinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=410&amp;width=680&amp;modal=true">观看检验实况</link>
+		</watchHardlineInspection>
+		
+		<realAudit>
+			<link class="thickbox" title="工厂审核实况照片" href="objects/Popup.php?type=auditphotos&amp;lang=cn&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">观看审核实况</link>
+		</realAudit>	
+		
+		<realFactoryAudit>
+			<link class="thickbox" title="Real Manufacturing Audit (MA) Photos" href="objects/Popup.php?type=factoryauditphotos&amp;lang=cn&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">See a Real Manufacturing Audit (MA)</link>
+		</realFactoryAudit>
+		
+		<ByIndustry>
+			<selectReport> 查看报告</selectReport>
+			<softline>
+				<report id="soft-shirt">衬衫</report>
+				<report id="plushtoy">毛绒玩具</report>
+			</softline>
+			<hardline>
+				<report id="hard-dvb">机顶盒</report>
+				<report id="hard-tablet">平板电脑</report>
+			</hardline>
+			<TechParts>
+				<report id="ceramictiles">瓷砖</report>
+				<report id="lamflooring">强化木地板</report>
+			</TechParts>
+		</ByIndustry>
+		
+	</zh>
+	
+	<fr>
+		<viewSample>
+			<link title="Télécharger un Exemple de Rapport">Exemple de rapport</link>
+		</viewSample>
+		
+		<seeDemo>
+			<link demo="demo">Voir une démo</link>
+		</seeDemo>
+		
+		<labDemo>
+			<link demo="labdemo">Voir une démo</link>
+		</labDemo>
+
+		<realAudit>
+			<link class="thickbox" title="Vraies photos d'un audit industriel" href="objects/Popup.php?type=auditphotos&amp;lang=fr&amp;TB_iframe=true&amp;ToDown=20&amp;height=515&amp;width=540&amp;modal=true">Voir un audit</link>
+		</realAudit>
+		
+		<watchInspection>
+			<link class="thickbox" href="objects/video.php?video=watchinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=465&amp;width=720&amp;modal=true" special="newpop">Voir une inspection</link>
+		</watchInspection>
+		
+		<watchHardlineInspection>
+			<link class="thickbox" title="Voir une inspection" href="objects/video.php?video=hardlineinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=410&amp;width=680&amp;modal=true">Voir une inspection</link>
+		</watchHardlineInspection>
+		
+		<SAwhitePaper>
+			<link title="Télécharger le Livre Blanc des Audits Sociaux">Téléchargez l'étude de cas</link>
+		</SAwhitePaper>
+		
+		<realFactoryAudit>
+			<link class="thickbox" title="Real Manufacturing Audit (MA) Photos" href="objects/Popup.php?type=factoryauditphotos&amp;lang=fr&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">See a Real Manufacturing Audit (MA)</link>
+		</realFactoryAudit>
+		
+		<ByIndustry>
+			<selectReport>Voir un extrait de rapport</selectReport>
+			<softline>
+				<report id="soft-shirt">Chemises</report>
+				<report id="plushtoy">Peluches</report>
+			</softline>
+			<hardline>
+				<report id="hard-dvb">Boîtier décodeur de vidéo digitale</report>
+				<report id="hard-tablet">Tablette numérique</report>
+			</hardline>
+			<TechParts>
+				<report id="ceramictiles">Carreaux de céramique</report>
+				<report id="lamflooring">Revêtement de sol stratifié</report>
+			</TechParts>
+		</ByIndustry>
+		
+		<AZOdyes>
+			<link title="AZO Whitepaper" href="quick-guide-azo-dyes">Guide rapide : Colorants Azoïques</link>
+		</AZOdyes>
+	</fr>
+	
+	<de>
+		<viewSample>
+			<link title="Download Beispielbericht">Download Beispielbericht</link>
+		</viewSample>
+		
+		<seeDemo>
+			<link demo="demo">Demo</link>
+		</seeDemo>
+		
+		<labDemo>
+			<link demo="labdemo">Demo</link>
+		</labDemo>
+		
+		<watchInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=watchinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=465&amp;width=720&amp;modal=true" special="newpop">Sehen Sie eine Inspektion</link>
+		</watchInspection>
+
+		<watchHardlineInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=hardlineinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=410&amp;width=680&amp;modal=true">Sehen Sie eine Inspektion</link>
+		</watchHardlineInspection>
+		
+		<realFactoryAudit>
+			<link class="thickbox" title="Real Manufacturing Audit (MA) Photos" href="objects/Popup.php?type=factoryauditphotos&amp;lang=de&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">See a Real Manufacturing Audit (MA)</link>
+		</realFactoryAudit>
+
+		<ByIndustry>
+			<selectReport>Beispielbericht anzeigen</selectReport>
+			<softline>
+				<report id="soft-shirt">Anzughemden</report>
+				<report id="plushtoy">Stofftiere</report>
+			</softline>
+			<hardline>
+				<report id="hard-dvb">Digitale Set-Top-Box</report>
+				<report id="hard-tablet">Tablet PC</report>
+			</hardline>
+			<TechParts>
+				<report id="ceramictiles">Keramikfliesen</report>
+				<report id="lamflooring">Laminatboden</report>
+			</TechParts>
+		</ByIndustry>
+	</de>
+	
+	<ru>
+		<viewSample>
+			<link title="скачать образец отчета">Смотреть образец отчета</link>
+		</viewSample>
+		
+		<seeDemo>
+			<link demo="demo">Смотреть демо</link>
+		</seeDemo>
+		
+		<labDemo>
+			<link demo="labdemo">Смотреть демо</link>
+		</labDemo>
+		
+		<watchInspection>
+			<link class="thickbox" title="День на фабрике с сертифицированным инспектором AsiaInspection" href="objects/video.php?video=watchinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=465&amp;width=720&amp;modal=true" special="newpop">ПСмотреть инспекции</link>
+		</watchInspection>
+		
+		<watchHardlineInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=hardlineinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=410&amp;width=680&amp;modal=true">Посмотреть инспекции</link>
+		</watchHardlineInspection>
+		
+		<realFactoryAudit>
+			<link class="thickbox" title="Фотографии, сделанные во время аудита фабрики" href="objects/Popup.php?type=factoryauditphotos&amp;lang=ru&amp;TB_iframe=true&amp;ToDown=20&amp;height=515&amp;width=540&amp;modal=true">Смотреть аудит фабрики</link>
+		</realFactoryAudit>
+		
+		<SAwhitePaper>
+			<link title="Загрузить отдельный случай"><![CDATA[<span style="font-size:15px;color:inherit;">Загрузить отдельный случай</span>]]></link>
+		</SAwhitePaper>
+		
+		<ByIndustry>
+			<selectReport>выбирать образец отчета</selectReport>
+			<softline>
+				<report id="soft-shirt">Рубашки</report>
+				<report id="plushtoy">Мягкие игрушки</report>
+			</softline>
+			<hardline>
+				<report id="hard-dvb">Цифровая видеоприставка</report>
+				<report id="hard-tablet">Планшетный ПК</report>
+			</hardline>
+			<TechParts>
+				<report id="ceramictiles">Ceramic Tiles</report>
+				<report id="lamflooring">Laminate Flooring</report>
+			</TechParts>
+		</ByIndustry>
+	</ru>
+	
+	<ar>
+		<viewSample>
+			<link title="Download Sample Report">عرض تقرير العينات النموذجية</link>
+		</viewSample>
+		
+		<seeDemo>
+			<link demo="demo">إضغط هنا لتتفقد شرح توضيحي</link>
+		</seeDemo>
+		
+		<labDemo>
+			<link demo="labdemo">إضغط هنا لتتفقد شرح توضيحي</link>
+		</labDemo>
+		
+		<watchInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=watchinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=465&amp;width=720&amp;modal=true" special="newpop">شاهد تفتيشا</link>
+		</watchInspection>
+
+		<watchHardlineInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=hardlineinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=410&amp;width=680&amp;modal=true">مشاهدة ريال مدريد التفتيش</link>
+		</watchHardlineInspection>
+		
+		<realFactoryAudit>
+			<link class="thickbox" title="Real Manufacturing Audit (MA) Photos" href="objects/Popup.php?type=factoryauditphotos&amp;lang=ar&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">See a Real Manufacturing Audit (MA)</link>
+		</realFactoryAudit>
+		
+		<ByIndustry>
+			<selectReport>عرض نموذج التقرير</selectReport>
+			<softline>
+				<report id="soft-shirt">القمصان</report>
+				<report id="plushtoy">الألعاب المحشوة</report>
+			</softline>
+			<hardline>
+				<report id="hard-dvb">جهاز فك تشفير الفيديو الرقمي</report>
+				<report id="hard-tablet">كمبيوتر لوحي</report>
+			</hardline>
+			<TechParts>
+				<report id="ceramictiles">Ceramic Tiles</report>
+				<report id="lamflooring">Laminate Flooring</report>
+			</TechParts>
+		</ByIndustry>
+	</ar>
+	
+	<es>
+		<viewSample>
+			<link title="Descargar el reporte de ejemplo">Vea un reporte</link>
+		</viewSample>
+		
+		<seeDemo>
+			<link demo="demo">Ver Demo</link>
+		</seeDemo>
+		
+		<labDemo>
+			<link demo="demostración del test de laboratorio">Ver Demo</link>
+		</labDemo>
+		
+		<watchInspection>
+			<link class="thickbox" title="Un día en la fábrica con un Inspector certificado de AsiaInspection" href="objects/video.php?video=watchinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=465&amp;width=720&amp;modal=true" special="newpop">Ver una inspección real</link>
+		</watchInspection>
+		
+		<watchHardlineInspection>
+			<link class="thickbox" title="Un día en la fábrica con un Inspector certificado de AsiaInspection" href="objects/video.php?video=hardlineinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=410&amp;width=680&amp;modal=true">Ver una inspección real</link>
+		</watchHardlineInspection>
+		
+		<realFactoryAudit>
+			<link class="thickbox" title="Real Manufacturing Audit (MA) Photos" href="objects/Popup.php?type=factoryauditphotos&amp;lang=es&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">See a Real Manufacturing Audit (MA)</link>
+		</realFactoryAudit>
+		
+		<ByIndustry>
+			<selectReport>Ver informe de ejemplo</selectReport>
+			<softline>
+				<report id="soft-shirt">Camisetas de vestir</report>
+				<report id="plushtoy">Muñecos de peluche</report>
+			</softline>
+			<hardline>
+				<report id="hard-dvb">Equipo de configuración de vídeo digital</report>
+				<report id="hard-tablet">Tablet</report>
+			</hardline>
+			<TechParts>
+				<report id="ceramictiles">Ceramic Tiles</report>
+				<report id="lamflooring">Laminate Flooring</report>
+			</TechParts>
+		</ByIndustry>
+		
+	</es>
+
+	<it>
+		<viewSample>
+			<link title="Download Sample Report">Modelli di rapporto</link>
+		</viewSample>
+		
+		<seeDemo>
+			<link demo="demo">Guarda la demo</link>
+		</seeDemo>
+		
+		<labDemo>
+			<link demo="labdemo">Guarda la demo</link>
+		</labDemo>
+		
+		<watchInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=watchinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=465&amp;width=720&amp;modal=true" special="newpop">Guarda un'ispezione reale</link>
+		</watchInspection>
+
+		<watchHardlineInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=hardlineinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=410&amp;width=680&amp;modal=true">Guarda un'ispezione reale</link>
+		</watchHardlineInspection>
+		
+		<SAwhitePaper>
+			<link title="Download Case Study">Scarica il case study</link>
+		</SAwhitePaper>
+
+		<realAudit>
+			<link class="thickbox" title="Real Manufacturing Audit (MA) Photos" href="objects/Popup.php?type=auditphotos&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=650&amp;modal=true">Guarda un audit reale</link>
+		</realAudit>
+
+		<realFactoryAudit>
+			<link class="thickbox" title="Real Manufacturing Audit (MA) Photos" href="objects/Popup.php?type=factoryauditphotos&amp;lang=it&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">See a Real Manufacturing Audit (MA)</link>
+		</realFactoryAudit>
+
+		<ByIndustry>
+			<selectReport>Modelli di rapporto</selectReport>
+			<softline>
+				<report id="soft-shirt">Camicie</report>
+				<report id="plushtoy">Giocattoli imbottiti</report>
+			</softline>
+			<hardline>
+				<report id="hard-dvb">Set-top box digitale</report>
+				<report id="hard-tablet">PC tablet</report>
+			</hardline>
+			<TechParts>
+				<report id="ceramictiles">Ceramic Tiles</report>
+				<report id="lamflooring">Laminate Flooring</report>
+			</TechParts>
+		</ByIndustry>
+	</it>
+	
+	<pt>
+		<viewSample>
+			<link title="Download Sample Report">Exemplo de relatório</link>
+		</viewSample>
+		
+		<seeDemo>
+			<link demo="demo">Assista ao demo</link>
+		</seeDemo>
+		
+		<labDemo>
+			<link demo="labdemo">Assista ao demo</link>
+		</labDemo>
+		
+		<watchInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=watchinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=465&amp;width=720&amp;modal=true" special="newpop">Assista uma inspeção real</link>
+		</watchInspection>
+		
+		<SAwhitePaper>
+			<link title="Download Ethical Audit (EA) White Paper">Baixar estudo de caso</link>
+		</SAwhitePaper>
+
+		<realAudit>
+			<link class="thickbox" title="Real Manufacturing Audit (MA) Photos" href="objects/Popup.php?type=auditphotos&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=650&amp;modal=true">Agende uma auditoria</link>
+		</realAudit>
+
+		<realFactoryAudit>
+			<link class="thickbox" title="Real Manufacturing Audit (MA) Photos" href="objects/Popup.php?type=factoryauditphotos&amp;lang=pt&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">See a Real Manufacturing Audit (MA)</link>
+		</realFactoryAudit>
+		
+		<watchHardlineInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=hardlineinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=410&amp;width=680&amp;modal=true"><![CDATA[Assista a um vídeo de<br />uma inspeção real]]></link>
+		</watchHardlineInspection>
+		
+		<ByIndustry>
+			<selectReport>Ver exemplos de relatórios</selectReport>
+			<softline>
+				<report id="soft-shirt">Camisas</report>
+				<report id="plushtoy">Brinquedos de pelúcia</report>
+			</softline>
+			<hardline>
+				<report id="hard-dvb">Digital Video Set Box</report>
+				<report id="hard-tablet">Tablet</report>
+			</hardline>
+			<TechParts>
+				<report id="ceramictiles">Ceramic Tiles</report>
+				<report id="lamflooring">Laminate Flooring</report>
+			</TechParts>
+		</ByIndustry>
+	</pt>
+
+	<tr>
+		<viewSample>
+			<link title="Download Sample Report"> Örnek Bir Rapor İnceleyin</link>
+		</viewSample>
+		
+		<seeDemo>
+			<link demo="demo">See a Demo</link>
+		</seeDemo>
+		
+		<labDemo>
+			<link demo="labdemo">See a Demo</link>
+		</labDemo>
+		
+		<watchInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=watchinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=465&amp;width=720&amp;modal=true" special="newpop">Gerçek bir Denetim İzleyin</link>
+		</watchInspection>
+		
+		<watchHardlineInspection>
+			<link class="thickbox" title="A Day in the Factory with an AsiaInspection Certified Inspector" href="objects/video.php?video=hardlineinspection&amp;TB_iframe=true&amp;ToDown=20&amp;height=410&amp;width=680&amp;modal=true">Gerçek bir Denetim İzleyin</link>
+		</watchHardlineInspection>
+		
+		<SAwhitePaper>
+			<link title="Download Ethical Audit (EA) White Paper">Download Case Study</link>
+		</SAwhitePaper>
+
+		<realAudit>
+			<link class="thickbox" title="Real Ethical Audit (EA) Photos" href="objects/Popup.php?type=auditphotos&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">See a Ethical Audit (EA) Audit</link>
+		</realAudit>	
+		
+		<realFactoryAudit>
+			<link class="thickbox" title="Real Manufacturing Audit (MA) Photos" href="objects/Popup.php?type=factoryauditphotos&amp;lang=tr&amp;TB_iframe=true&amp;ToDown=20&amp;height=480&amp;width=540&amp;modal=true">See a Real Manufacturing Audit (MA)</link>
+		</realFactoryAudit>
+		
+		<ByIndustry>
+			<selectReport>Örnek Bir Rapor İnceleyin</selectReport>
+			<softline>
+				<report id="soft-shirt">Gömlekler</report>
+				<report id="plushtoy">Pelüş Oyuncaklar</report>
+			</softline>
+			<hardline>
+				<report id="hard-dvb">Dijital Video Seti Kutusu</report>
+				<report id="hard-tablet">Tablet Bilgisayar</report>
+			</hardline>
+			<TechParts>
+				<report id="ceramictiles">Ceramic Tiles</report>
+				<report id="lamflooring">Laminate Flooring</report>
+			</TechParts>
+		</ByIndustry>
+	</tr>
+
+</document>

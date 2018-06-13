@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>Worldwide Quality Control Coverage | AsiaInspection</en>
+			<es>Cobertura en Control de Calidad | AsiaInspection</es>
+			<ar>خدمات الفحص علي جودة المنتجات بقارة اسيا وآفريقيا</ar>
+			<fr>Contrôles qualité, zone de couverture - A propos d'AsiaInspection | AsiaInspection.fr</fr>
+			<zh>关于 AsiaInspection - 覆盖中国及整个亚洲的质量控制服务 | ChinaInspection.com</zh>
+			<pt>Sobre a AsiaInspection - Controle de qualidade | AsiaInspection.pt</pt>
+			<ru>География предоставления услуг контроля качества |AsiaInspection</ru>
+		</pageTitle>
+		<pageDesc>
+			<en>AsiaInspection provides inspections, audits and laboratory testing in countries around the world. View a map of our service areas and full list of countries we work in.</en>
+			<es>Cobertura para el seguro de calidad y control de calidad en pruebas.</es>
+			<ar>شركتنا توفر خدمات فحص المنتجات داخل بلدان قارة آسيا وأفريقيا</ar>
+			<fr>Couverture des assurances pour les contrôles de qualité.</fr>
+			<ru>География предоставления услуг по контролю качества для проверки гарантии качества</ru>
+		</pageDesc>
+	</pageMeta>
+
+	<en>
+		<title>Quality Control Services in Asia, Africa, Europe and The Americas</title>
+		<subtext>AsiaInspection provides Inspections, Audits and Laboratory Testing in the countries listed below.</subtext>
+		<countries>
+			<Asia title="Asia-Pacific">
+				<area code="AU">Australia</area>
+				<area code="BD">Bangladesh</area>
+				<area code="KH">Cambodia</area>
+				<area code="CN">China</area>
+				<area code="HK">Hong Kong</area>
+				<area code="IN">India</area>
+				<area code="ID">Indonesia</area>
+				<area code="JP">Japan</area>
+				<area code="LA">Laos</area>
+				<area code="MM">Myanmar</area>
+				<area code="SG">Singapore</area>
+				<area code="KR">South Korea</area>
+				<area code="LK">Sri Lanka</area>
+				<area code="MY">Malaysia</area>
+				<area code="PK">Pakistan</area>
+				<area code="PH">Philippines</area>
+				<area code="TW">Taiwan</area>
+				<area code="TH">Thailand</area>
+				<area code="VN">Vietnam</area>
+			</Asia>
+			<MiddleEast title="Middle East">
+				<area code="IL">Israel</area>
+				<area code="JO">Jordan</area>
+				<area code="SA">Saudi Arabia</area>
+				<area code="TM">Turkmenistan</area>
+				<area code="AE">United Arab Emirates</area>
+			</MiddleEast>
+			<Africa title="Africa">
+				<area code="BW">Botswana</area>
+				<area code="EG">Egypt</area>
+				<area code="ET">Ethiopia</area>
+				<area code="KE">Kenya</area>
+				<area code="LS">Lesotho</area>
+				<area code="MG">Madagascar</area>
+				<area code="MU">Mauritius</area>
+				<area code="MA">Morocco</area>
+				<area code="NG">Nigeria</area>
+				<area code="SZ">Swaziland</area>
+				<area code="ZA">South Africa</area>
+				<area code="TN">Tunisia</area>
+			</Africa>
+			<Europe title="Europe">
+				<area code="AL">Albania</area>
+				<area code="AT">Austria</area>
+				<area code="BE">Belgium</area>
+				<area code="BA">Bosnia Herzegovina</area>
+				<area code="BG">Bulgaria</area>
+				<area code="HR">Croatia</area>
+				<area code="CY">Cyprus</area>
+				<area code="CZ">Czech Republic</area>
+				<area code="DK">Denmark</area>
+				<area code="EE">Estonia</area>
+				<area code="FI">Finland</area>
+				<area code="FR">France</area>
+				<area code="DE">Germany</area>
+				<area code="GR">Greece</area>
+				<area code="HU">Hungary</area>
+				<area code="IE">Ireland</area>
+				<area code="IT">Italy</area>
+				<area code="XK">Kosovo</area>
+				<area code="LV">Latvia</area>
+				<area code="LT">Lithuania</area>
+				<area code="NL">Netherlands</area>
+				<area code="MK">Macedonia</area>
+				<area code="MT">Malta</area>
+				<area code="MD">Moldova</area>
+				<area code="ME">Montenegro</area>
+				<area code="PL">Poland</area>
+				<area code="PT">Portugal</area>
+				<area code="RO">Romania</area>
+				<area code="RS">Serbia</area>
+				<area code="SK">Slovakia</area>
+				<area code="SI">Slovenia</area>
+				<area code="ES">Spain</area>
+				<area code="SE">Sweden</area>
+				<area code="CH">Switzerland</area>
+				<area code="TR">Turkey</area>
+				<area code="UA">Ukraine</area>
+				<area code="GB">United Kingdom</area>
+			</Europe>
+			<LatinAmerica title="The Americas">
+				<area code="AR">Argentina</area>
+				<area code="BR">Brazil</area>
+				<area code="CA">Canada</area>
+				<area code="CL">Chile</area>
+				<area code="CO">Colombia</area>
+				<area code="DO">Dominican Republic</area>
+				<area code="EC">Ecuador</area>
+				<area code="SV">El Salvador</area>
+				<area code="GT">Guatemala</area>
+				<area code="HT">Haiti</area>
+				<area code="HN">Honduras</area>
+				<area code="MX" link="/quality-control-mexico">Mexico</area>
+				<area code="NI">Nicaragua</area>
+				<area code="PA">Panama</area>
+				<area code="PY">Paraguay</area>
+				<area code="PE">Peru</area>
+				<area code="US">United States</area>
+				<area code="UY">Uruguay</area>
+				<area code="VE">Venezuela</area>
+			</LatinAmerica>
+		</countries>
+	</en>
+
+	<zh>
+		<title>AsiaInspection品质控制服务遍布亚洲、非洲、欧洲和美洲</title>
+		<subtext>AsiaInspection为以下国家或地区提供检测、审核及实验室测试等服务。 </subtext>
+	</zh>
+	
+	<pt>
+		<title>Controle qualidade em toda a China e Ásia</title>
+		<subtext>AsiaInspection oferece melhor reatividade para executar inspeções, auditorias e testes laboratoriais em Ásia, África, Europa e América Latina.</subtext>
+		<countries>
+			<Asia title="Ásia-Pacífico">
+				<area code="AU">Austrália</area>
+				<area code="BD">Bangladesh</area>
+				<area code="KH">Camboja</area>
+				<area code="CN">China</area>
+				<area code="HK">RAE de Hong Kong da China</area>
+				<area code="IN">Índia</area>
+				<area code="ID">Indonésia</area>
+				<area code="JP">Japão</area>
+				<area code="LA">Laos</area>
+				<area code="MM">Myanmar (Birmânia)</area>
+				<area code="SG">Singapura</area>
+				<area code="KR">Coreia do Sul</area>
+				<area code="LK">Sri Lanka</area>
+				<area code="MY">Malásia</area>
+				<area code="PK">Paquistão</area>
+				<area code="PH">Filipinas</area>
+				<area code="TW">Taiwan</area>
+				<area code="TH">Tailândia</area>
+				<area code="VN">Vietname</area>
+			</Asia>
+			<MiddleEast title="Médio Oriente">
+				<area code="JO">Jordão</area>
+				<area code="SA">Arábia Saudita</area>
+				<area code="AE">Estados Árabes Unidos</area>
+			</MiddleEast>
+			<Africa title="África">
+				<area code="BW">Botswana</area>
+				<area code="EG">Egipto</area>
+				<area code="ET">Etiópia</area>
+				<area code="KE">Quénia</area>
+				<area code="LS">Lesoto</area>
+				<area code="MG">Madagáscar</area>
+				<area code="MU">Maurícia</area>
+				<area code="MA">Marrocos</area>
+				<area code="NG">Nigéria</area>
+				<area code="SZ">Suazilândia</area>
+				<area code="ZA">África do Sul</area>
+				<area code="TN">Tunísia</area>
+			</Africa>
+			<Europe title="Europa">
+				<area code="AL">Albânia</area>
+				<area code="BE">Bélgica</area>
+				<area code="BA">Bósnia e Herzegovina</area>
+				<area code="BG">Bulgária</area>
+				<area code="HR">Croácia</area>
+				<area code="CY">Chipre</area>
+				<area code="CZ">Républica Checa</area>
+				<area code="DK">Dinamarca</area>
+				<area code="EE">Estónia</area>
+				<area code="FI">Finlândia</area>
+				<area code="FR">França</area>
+				<area code="DE">Alemanha</area>
+				<area code="GR">Grécia</area>
+				<area code="HU">Hungria</area>
+				<area code="IE">Irlanda</area>
+				<area code="IT">Itália</area>
+				<area code="XK">Kosovo</area>
+				<area code="LV">Letónia</area>
+				<area code="LT">Lituânia</area>
+				<area code="NL">Holanda</area>
+				<area code="MK">Macedónia</area>
+				<area code="MT">Malta</area>
+				<area code="MD">Moldávia</area>
+				<area code="ME">Montenegro</area>
+				<area code="PL">Polónia</area>
+				<area code="PT">Portugal</area>
+				<area code="RO">Roménia</area>
+				<area code="RS">Sérvia</area>
+				<area code="SK">Eslováquia</area>
+				<area code="SI">Eslovénia</area>
+				<area code="ES">Espanha</area>
+				<area code="SE">Suécia</area>
+				<area code="CH">Suíça</area>
+				<area code="TR">Turquia</area>
+				<area code="UA">Ucrânia</area>
+				<area code="GB">Reino Unido</area>
+			</Europe>
+			<LatinAmerica title="Américas">
+				<area code="AR">Argentina</area>
+				<area code="BR">Brasil</area>
+				<area code="CL">Chile</area>
+				<area code="CO">Colômbia</area>
+				<area code="DO">República Dominicana</area>
+				<area code="EC">Equador</area>
+				<area code="SV">El Salvadr</area>
+				<area code="GT">Guatemala</area>
+				<area code="HT">Haiti</area>
+				<area code="HN">Honduras</area>
+				<area code="MX" link="/quality-control-mexico">México</area>
+				<area code="NI">Nicarágua</area>
+				<area code="PE">Peru</area>
+				<area code="US">Estados Unidos</area>
+				<area code="UY">Uruguai</area>
+			</LatinAmerica>
+		</countries>
+	</pt>
+
+	<it>
+		<title>Controllo della qualità in Asia, Africa, Europa e America Latina</title>
+		<subtext>Asia Inspection offre una maggior prontezza nella realizzazione di Ispezioni, Audits e Test di Laboratorio in Asia, Africa, Europa e America Latina.</subtext>
+	</it>
+
+	<fr>
+		<title>Contrôle qualité en Asie, Afrique, Europe et en Amérique latine</title>
+		<subtext>AsiaInspection propose ses services d’inspections de produits, d’audits et de tests en laboratoire partout en Asie, Afrique, Europe et Amérique latine.</subtext>
+	</fr>
+
+	<de>
+		<title>Qualitätskontrolle in China, Asien, Europa und Lateinamerika</title>
+		<subtext>Inspektionen, Audits und Labortests werden von AsiaInspection maßgeschneitert und höchst flexibel vorbereitet und durchgeführt.</subtext>
+	</de>
+
+	<ar>
+		<title>خدمات الفحص لجودة المنتجات بقارتي آسيا وأفريقيا وأوروبا وأمريكا اللاتينية</title>
+		<subtext>جميع خدمات الشركة من الفحص علي جودة المنتجات و خدمة التفتيش علي المصانع لضمان جودة الإنتاج إلي خدمة الإختبارات المعملية للمنتجات متوفره في جميع بلدان قارة أسيا و بعض  البلاد في قارة أفريقيا </subtext>
+	</ar>
+
+	<ru>
+		<title>Контроль качества услуг в Азии и Африке</title>
+		<subtext>AsiaInspection постоянно повышает возможности проведения проверок, ревизий и лабораторных тестирований в любой точке Азии и выберите производства стран Африки.</subtext>
+	</ru>
+
+	<es>
+		<title>Servicios de Control de Calidad en Asia, África, Europa y LatinoAmérica</title>
+		<subtext>AsiaInspection lleva a cabo inspecciones, auditorías y pruebas de laboratorio en cualquier lugar de Asia, África, Europa y LatinoAmérica.</subtext>
+	</es>
+
+	<tr>
+		<title>Hizmet Kapsamı</title>
+		<subtext>AsiaInspection aşağıda listelenen ülkelerde Muayene, Denetim ve Laboratuvar Testleri hizmeti vermektedir.</subtext>
+	</tr>
+
+</document>

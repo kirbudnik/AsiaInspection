@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<title>
+		<en>Contact Us By Phone</en>
+		<zh>电话联系我们</zh>
+		<fr>Par téléphone</fr>
+		<es>Llámenos por teléfono</es>
+		<ru>Cвязывайтесь с нами по телефону</ru>
+		<de>Telefon</de>
+		<ar>إتصل بنا عبر الهاتف</ar>
+		<it>Ci contatti telefonicamente</it>
+		<pt>Contate-nos por telefone</pt>
+		<tr>Bize Telefonla Ulaşın</tr>
+	</title>
+	
+	<headerText>
+		<en>For any questions you may have:</en>
+		<zh>如果您有任何问题，请拨以下号码联系我们:</zh>
+		<fr>Pour toute question:</fr>
+		<es>Para otras preguntas que tenga:</es>
+		<ru>По любым вопросам, которые у Вас могут быть:</ru>
+		<de>Für Fragen stehen folgende Büros zur Verfügung:</de>
+		<ar>للتساؤلات:</ar>
+	</headerText>
+
+	<instruction>
+		<en>Select from the country list below.</en>
+		<zh>请从以下国家列表中选择：</zh>		
+		<fr>Sélectionnez à partir de la liste ci-dessous.</fr>
+		<es>Seleccione un país de la lista de abajo.</es>
+		<pt>Selecione a partir da lista de países abaixo.</pt>
+		<ru>Выберите страну из списка ниже.</ru>
+		<tr>Aşağıdaki listeden ülkenizi seçin</tr>
+	</instruction>
+
+	<Factories>
+		<en>Factories</en>
+		<zh>如您是工厂，请拨</zh>
+		<fr>Usines</fr>
+		<ar>المصانع</ar>
+		<es>Fábricas</es>
+		<ru>Фабрики</ru>
+		<de>如您是工厂，请拨</de>
+		<number>+86 755 2223 9888</number>
+	</Factories>
+	
+	<OtherNumbers>
+		<Coordination>
+			<ChengDu>
+				<en>Operations</en>
+				<number>+86 755 2223 9888</number>
+			</ChengDu>
+			<Sales>
+				<en>Sales</en>
+				<number>+86 755 2223 9086</number>
+			</Sales>
+			<LabTest>
+				<en>Lab Testing</en>
+				<number>+86  577 6266 1336</number>
+			</LabTest>
+		</Coordination>
+	</OtherNumbers>
+	<!-- Please Keep The Offices in Alphabetical Order -->
+	<Locations>
+		<region>
+			<name>
+				<en>Asia</en>
+				<zh>亚洲</zh>
+				<fr>Asie</fr>
+				<ar>آسيا</ar>
+				<es>Asia</es>
+				<ru>Азия</ru>
+				<tr>Asya</tr>
+			</name>
+			<office>
+				<en>China (English)</en>
+				<zh>中国</zh>
+				<fr>Chine (English)</fr>
+				<ar>الصين (شنزن)</ar>
+				<es>China (Inglés)</es>
+				<ru>Китай (English)</ru>
+				<tr>Çin</tr>
+				<countryCode>CN</countryCode>
+				<number>+86 755 2223 9086</number>
+			</office>
+			<office>
+				<en>Hong Kong - Head Office</en>
+				<zh>香港 - 总部</zh>
+				<fr>Hong Kong - Agence Centrale</fr>
+				<ar>هونج كونج - المقر</ar>
+				<es>Hong Kong - Oficina Central</es>
+				<ru>Гонконг - Головной офис</ru>
+				<countryCode>HK</countryCode>
+				<number>+852 8332 1345</number>
+			</office>
+			<office>
+				<en>Philippines</en>
+				<zh>菲律宾</zh>
+				<fr>Philippines</fr>
+				<ar>الفلبين</ar>
+				<es>Filipinas</es>
+				<ru>Филиппины</ru>
+				<tr>Filipinler</tr>
+				<countryCode>PH</countryCode>
+				<number>+1 818 877 4163</number>
+			</office>
+		</region>
+		
+		<region>
+			<name>
+				<en>Europe</en>
+				<zh>欧洲</zh>
+				<fr>Europe</fr>
+				<ar>أوروبا</ar>
+				<es>Europa</es>
+				<ru>Европа</ru>
+				<tr>Avrupa</tr>
+			</name>
+			<office>
+				<en>Austria</en>
+				<zh>奥地利</zh>
+				<fr>Autriche</fr>
+				<ar>النمسا</ar>
+				<es>Austria</es>
+				<ru>Австрия</ru>
+				<de>Österreich</de>
+				<tr>Avusturya</tr>
+				<countryCode>AT</countryCode>
+				<number>+43 1 364 92 43</number>
+			</office>
+			<office>
+				<en>Belgium</en>
+				<es>Bélgica</es>
+				<fr>Belgique</fr>
+				<zh>比利时</zh>
+				<ru>Бельгия</ru>
+				<countryCode>BE</countryCode>
+				<number>+32 2 446 0198</number>
+			</office>
+			<office>
+				<en>Bulgaria</en>
+				<es>Bulgaria</es>
+				<fr>Bulgarie</fr>
+				<zh>保加利亚</zh>
+				<tr>Bulgaristan</tr>
+				<ru>Болгария</ru>
+				<ar>بلغاريا</ar>
+				<de>Bulgarien</de>
+				<countryCode>BG</countryCode>
+				<number>+359 249 283 70</number>
+			</office>
+			<office>
+				<en>Croatia</en>
+				<fr>Croatie</fr>
+				<zh>克罗地亚</zh>
+				<ru>Хорватия</ru>
+				<countryCode>HR</countryCode>
+				<number>+385 18000 164</number>
+			</office>
+			<office>
+				<en>Czech Republic</en>
+				<zh>捷克共和国</zh>
+				<fr>République tchèque</fr>
+				<ar>جمهورية التشيك</ar>
+				<es>República Checa</es>
+				<ru>Чешская республика</ru>
+				<de>Tschechische Republik</de>
+				<tr>Çek Cumhuriyeti</tr>
+				<countryCode>CZ</countryCode>
+				<number>+420 2 2585 0246</number>
+			</office>
+			<office>
+				<en>Denmark</en>
+				<zh>丹麦</zh>
+				<fr>Danemark</fr>
+				<ar>الدنمارك</ar>
+				<es>Dinamarca</es>
+				<ru>Дания</ru>
+				<de>Dänemark</de>
+				<tr>Danimarka</tr>
+				<countryCode>DK</countryCode>
+				<number>+45 7 877 33 76</number>
+			</office>
+			<office>
+				<en>Estonia</en>
+				<fr>Estonie</fr>
+				<zh>爱沙尼亚</zh>
+				<ru>Эстония</ru>
+				<countryCode>EE</countryCode>
+				<number>+372 880 30 10</number>
+			</office>
+			<office>
+				<en>Finland</en>
+				<zh>芬兰</zh>
+				<fr>Finlande</fr>
+				<ar>فنلندا</ar>
+				<es>Finlandia</es>
+				<ru>Финляндия</ru>
+				<de>Finnland</de>
+				<tr>Finlandiya</tr>
+				<countryCode>FI</countryCode>
+				<number>+358 9 427 04171</number>
+			</office>
+			<office>
+				<en>France</en>
+				<zh>法国</zh>
+				<fr>France</fr>
+				<ar>فرنسا</ar>
+				<es>Francia</es>
+				<ru>Франция</ru>
+				<de>Frankreich</de>
+				<tr>Fransa</tr>
+				<countryCode>FR</countryCode>
+				<number>+33 1 7997 9888</number>
+			</office>
+			<office>
+				<en>Germany</en>
+				<zh>德国</zh>
+				<fr>Allemagne</fr>
+				<ar>ألمانيا</ar>
+				<es>Alemania</es>
+				<ru>Германия</ru>
+				<de>Deutschland</de>
+				<tr>Almanya</tr>
+				<countryCode>DE</countryCode>
+				<number>+49 511 957 39 989</number>
+			</office>
+			<office>
+				<en>Italy</en>
+				<zh>意大利</zh>
+				<fr>Italie</fr>
+				<ar>إيطاليا</ar>
+				<es>Italia</es>
+				<ru>Италия</ru>
+				<de>Italien</de>
+				<tr>İtalya</tr>
+				<countryCode>IT</countryCode>
+				<number>+39 02 929 63 444</number>
+			</office>
+			<office>
+				<en>Latvia</en>
+				<zh>拉脱维亚</zh>
+				<fr>Lettonie</fr>
+				<ru>Латвия</ru>
+				<countryCode>LV</countryCode>
+				<number>+371 6788 1673</number>
+			</office>
+			<office>
+				<en>Liechtenstein</en>
+				<fr>Liechtenstein</fr>
+				<zh>列支敦斯登</zh>
+				<ru>Лихтенштейн</ru>
+				<countryCode>LI</countryCode>
+				<number>+423 376 92 76</number>
+			</office>
+			<office>
+				<en>Lithuania</en>
+				<fr>Lituanie</fr>
+				<es>Lituania</es>
+				<zh>立陶宛</zh>
+				<ru>Литва</ru>
+				<countryCode>LT</countryCode>
+				<number>+370 520 78 148</number>
+			</office>
+			<office>
+				<en>Luxembourg</en>
+				<fr>Luxembourg</fr>
+				<es>Luxemburgo</es>
+				<zh>卢森堡</zh>
+				<ru>Люксембург</ru>
+				<countryCode>LU</countryCode>
+				<number>+352 20 30 12 63</number>
+			</office>
+			<office>
+				<en>Norway</en>
+				<zh>挪威</zh>
+				<fr>Norvège</fr>
+				<ar>النرويج</ar>
+				<es>Noruega</es>
+				<ru>Норвегия</ru>
+				<de>Norwegen</de>
+				<tr>Norveç</tr>
+				<countryCode>NO</countryCode>
+				<number>+47 21 935341</number>
+			</office>
+			<office>
+				<en>Poland</en>
+				<zh>波兰</zh>
+				<fr>Pologne</fr>
+				<ar>بولندا</ar>
+				<es>Polonia</es>
+				<ru>Польша</ru>
+				<de>Polen</de>
+				<tr>Polonya</tr>
+				<countryCode>PL</countryCode>
+				<number>+48 22 2081909</number>
+			</office>
+			<office>
+				<en>Portugal</en>
+				<zh>葡萄牙</zh>
+				<fr>Portugal</fr>
+				<ar>البرتغال</ar>
+				<es>Portugal</es>
+				<ru>Португалия</ru>
+				<tr>Portekiz</tr>
+				<countryCode>PT</countryCode>
+				<number>+351 30 88 02468</number>
+			</office>
+			<office>
+				<en>Romania</en>
+				<zh>罗马尼亚</zh>
+				<fr>Roumanie</fr>
+				<ar>رومانيا</ar>
+				<es>Rumania</es>
+				<ru>Румыния</ru>
+				<de>Rumänien</de>
+				<tr>Romanya</tr>
+				<countryCode>RO</countryCode>
+				<number>+40 31 22 94 608</number>
+			</office>
+			<office>
+				<en>Russia</en>
+				<zh>俄国</zh>
+				<fr>Russie</fr>
+				<ar>روسيا</ar>
+				<es>Rusia</es>
+				<ru>Россия</ru>
+				<de>Russland</de>
+				<tr>Rusya</tr>
+				<countryCode>RU</countryCode>
+				<number>+7 499 609 23 98</number>
+			</office>
+			<office>
+				<en>Slovakia</en>
+				<zh>斯洛伐克</zh>
+				<fr>Slovaquie</fr>
+				<ar>سلوفاكيا</ar>
+				<es>Eslovaquia</es>
+				<ru>Словакия</ru>
+				<de>Slowakei</de>
+				<tr>Slovakya</tr>
+				<countryCode>SK</countryCode>
+				<number>+421 2 33 046 940</number>
+			</office>
+			<office>
+				<en>Slovenia</en>
+				<es>Eslovenia</es>
+				<fr>Slovénie</fr>
+				<zh>斯洛文尼亚</zh>
+				<ru>Словения</ru>
+				<countryCode>SI</countryCode>
+				<number>+386 1777 42 96</number>
+			</office>
+			<office>
+				<en>Spain</en>
+				<zh>西班牙</zh>
+				<es>España</es>
+				<fr>Espagne</fr>
+				<ar>اسبانيا</ar>
+				<ru>Испания</ru>
+				<de>Spanien</de>
+				<tr>İspanya</tr>
+				<countryCode>ES</countryCode>
+				<number>+34 91 888 88 88</number>
+			</office>
+			<office>
+				<en>Sweden</en>
+				<zh>瑞典</zh>
+				<fr>Suède</fr>
+				<ar>السويد</ar>
+				<es>Suecia</es>
+				<ru>Швеция</ru>
+				<de>Schweden</de>
+				<tr>İsveç</tr>
+				<countryCode>SE</countryCode>
+				<number>+46 8 124 105 62</number>
+			</office>
+			<office>
+				<en>Switzerland</en>
+				<zh>瑞士</zh>
+				<fr>Suisse</fr>
+				<ar>سويسرا</ar>
+				<es>Suiza</es>
+				<ru>Швейцария</ru>
+				<de>Schweiz</de>
+				<tr>İsviçre</tr>
+				<countryCode>CH</countryCode>
+				<number>+41 61 5087012</number>
+			</office>
+			<office>
+				<en>Turkey</en>
+				<zh>土耳其</zh>
+				<fr>Turquie</fr>
+				<ar>تركيا</ar>
+				<es>Turquía</es>
+				<ru>Турция</ru>
+				<de>Türkei</de>
+				<tr>Türkiye</tr>
+				<countryCode>TR</countryCode>
+				<number>+90 212 988 02 49</number>
+			</office>
+			<office>
+				<en>United Kingdom</en>
+				<zh>英国</zh>
+				<fr>Royaume Uni</fr>
+				<ar>المملكة المتحدة</ar>
+				<es>Inglaterra</es>
+				<ru>Великобритения</ru>
+				<de>Großbritannien</de>
+				<tr>Birleşik Krallık</tr>
+				<countryCode>GB</countryCode>
+				<number>+ 44 2038 073 888</number>
+			</office>
+		</region>
+
+		<region>
+			<name>
+				<en>North America</en>
+				<zh>北美</zh>
+				<fr>Amérique du Nord</fr>
+				<ar>امريكا الشمالية</ar>
+				<es>América del Norte</es>
+				<ru>Северная Америка</ru>
+				<tr>Kuzey Amerika</tr>
+			</name>
+			<office>
+				<en>Canada</en>
+				<zh>加拿大</zh>
+				<fr>Canada</fr>
+				<ar>كندا</ar>
+				<es>Canadá</es>
+				<ru>Канады</ru>
+				<de>Kanada</de>
+				<tr>Kanada</tr>
+				<countryCode>CA</countryCode>
+				<number>+1 888 264 8988</number>
+			</office>
+			<office>
+				<en>Mexico</en>
+				<zh>墨西哥</zh>
+				<fr>Mexique</fr>
+				<ar>المكسيك</ar>
+				<es>México</es>
+				<ru>Мексика</ru>
+				<de>Mexiko</de>
+				<tr>Meksika</tr>
+				<countryCode>MX</countryCode>
+				<number>+52 55 4170 3891</number>
+			</office>
+			<office>
+				<en>United States</en>
+				<zh>美国</zh>
+				<fr>USA</fr>
+				<ar>الولايات المتحدة الأمريكية</ar>
+				<es>EE.UU.</es>
+				<ru>США</ru>
+				<de>USA</de>
+				<tr>ABD</tr>
+				<countryCode>US</countryCode>
+				<number>+1 888 264 8988</number>
+				<!-- <number>+1 646 351 8646</number> -->
+				<tollfree>+1 888 264 8988</tollfree>
+			</office>
+		</region>
+
+		<region>
+			<name>
+				<en>South America</en>
+				<zh>南美</zh>
+				<fr>Amérique du Sud</fr>
+				<ar>أمريكا الجنوبية</ar>
+				<es>América del Sur</es>
+				<ru>Южной Америке</ru>
+				<tr>Güney Amerika</tr>
+			</name>
+			<office>
+				<en>Brazil</en>
+				<zh>巴西</zh>
+				<fr>Brésil</fr>
+				<ar>البرازيل</ar>
+				<es>Brasil</es>
+				<ru>Бразилия</ru>
+				<de>Brasilien</de>
+				<tr>Brezilya</tr>
+				<countryCode>BR</countryCode>
+				<number>+55 11 3958 4689</number>
+			</office>
+			<office>
+				<en>Chile</en>
+				<ru>Чили</ru>
+				<zh>智利</zh>
+				<countryCode>CL</countryCode>
+				<number>+56 225813465</number>
+			</office>
+			<office>
+				<en>Colombia</en>
+				<zh>哥伦比亚</zh>
+				<fr>Colombie</fr>
+				<ar>كولومبيا</ar>
+				<es>Colombia</es>
+				<ru>Колумбия</ru>
+				<de>Kolumbien</de>
+				<tr>Kolombiya</tr>
+				<countryCode>CO</countryCode>
+				<number>+57 1381 9594</number>
+			</office>
+			<office>
+				<en>Peru</en>
+				<ru>Перу</ru>
+				<zh>秘鲁</zh>
+				<countryCode>PE</countryCode>
+				<number>+51 17085378</number>
+			</office>
+		</region>
+
+		<region>
+			<name>
+				<en>Middle East</en>
+				<zh>中东</zh>
+				<fr>Moyen Orient</fr>
+				<ar>الشرق الأوسط</ar>
+				<es>Oriente Medio</es>
+				<ru>Средний Восток</ru>
+				<tr>Orta Doğu</tr>
+			</name>
+			<office>
+				<en>Egypt</en>
+				<countryCode>EG</countryCode>
+				<number>+20 1100 776663</number>
+			</office>
+			<office>
+				<en>Saudi Arabia</en>
+				<zh>沙特阿拉伯</zh>
+				<fr>Arabie Saoudite</fr>
+				<ar>السعودية</ar>
+				<es>Arabia Saudí</es>
+				<ru>Саудовская Аравия</ru>
+				<de>Saudi-Arabien</de>
+				<tr>Suudi Arabistan</tr>
+				<countryCode>SA</countryCode>
+				<number>+966 11 484 7130</number>
+			</office>
+			<office>
+				<en>United Arab Emirates</en>
+				<countryCode>AE</countryCode>
+				<number>+971 4 313 2735</number>
+			</office>
+		</region>
+
+		<region>
+			<name>
+				<en>Africa</en>
+				<zh>非洲</zh>
+				<fr>Afrique</fr>
+				<ru>Африка</ru>
+			</name>
+			<office>
+				<en>South Africa</en>
+				<zh>南非</zh>
+				<fr>Afrique du Sud</fr>
+				<ru>ЮАР</ru>
+				<countryCode>ZA</countryCode>
+				<number>+27 105 006 177</number>
+			</office>	
+		</region>
+			
+	</Locations>
+</document>

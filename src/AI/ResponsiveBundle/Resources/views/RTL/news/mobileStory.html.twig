@@ -1,0 +1,22 @@
+{% extends '::mobileBase.html.twig' %}
+{%block title%}{%if pageTitle is defined%}{{pageTitle}}{%else%}Mobile News{%endif%}{%endblock%}
+{%block pagename%}MobileNewsStory{%endblock%}
+
+{%block body%}
+
+    <div id="backButton-1" class="backButton">
+        <a href="javascript:history.go(-1)" onmouseover="self.status=document.referrer;return true">Back</a>
+    </div>
+     <div class="container wrapper mainBlock" style="padding:10px;">
+          <div class="storyContainer" >
+              {%if id is defined and type is defined and type == "reg-update"%}
+                <h1 class="mainHeader">{{id}} Regulatory Update</h1>
+              {%endif%}
+              {%include path ignore missing %}
+          </div>
+     </div>
+    <div id="backButton-2" class="backButton">
+        <a href="javascript:history.go(-1)" onmouseover="self.status=document.referrer;return true">Back</a>
+    </div>
+
+{% endblock %}

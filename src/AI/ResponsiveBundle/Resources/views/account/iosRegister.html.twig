@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+{% if app.request.locale == "zh" %}
+    {% set assetsDomain = assets_china_domain %}
+{% else %}
+    {% set assetsDomain = assets_domain %}
+{% endif %}
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <meta name="description" content="Register with AI to easily schedule product inspections, lab testing, and audits. Manage your product and supplier compliance all from your online account.">
+    <title>Create An Account | AsiaInspection</title>
+    {% if tracking.head is defined %} {{tracking.head|raw}} {% endif %}
+    {% block stylesheets %}
+        <link href="{{asset('/css/bootstrap.css')}}" rel="stylesheet"/>
+        <link href="{{asset('/css/bootstrap-theme.css')}}" rel="stylesheet"/>
+        {% stylesheets filter="cssrewrite" filter='?uglifycss' 
+            '@AIResponsiveBundle/Resources/public/css/buttons.css'
+        %}
+        <link rel="stylesheet" href="{{asset_url}}"/>
+        {% endstylesheets %}
+        {% stylesheets filter="scss" filter='?uglifycss' 
+            '@AIResponsiveBundle/Resources/public/css/styles.scss'
+        %}
+        <link rel="stylesheet" href="{{asset_url}}"/>
+        {% endstylesheets %}
+    {% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    <script src="/js/mbox.js"></script>
+    <script src="/js/jquery-1.11.2.min.js"></script>
+    <script src="/js/registration_headfunctions.js"></script>
+    <style>
+        html, body { height: auto; width:auto; }
+
+        .form-group { margin-bottom: 0px; }
+
+        #registrationWrap {
+            background-color: transparent;
+            padding: 0px;
+            /* width: 450px; */
+            /* max-width: calc(100% - 60px); */
+            position: relative;
+            text-align: left;
+            display: inline-block;
+            margin: 0px 30px 30px 30px;
+            overflow: hidden;
+        }
+
+        #ai_responsivebundle_register_submit {
+            background-color:#b31820;
+            border-color:#b31820;
+            text-transform: uppercase;
+            font-weight:bold;
+        }
+
+        input[type=text], input[type=password], input[type=email] {
+            border:0px;
+            border-radius:0px;
+            box-shadow:none;
+            -webkit-box-shadow:none;
+            border-bottom:1px solid #DEDFE3;
+            font-size:18px;
+            padding:30px 10px;
+        }
+
+        input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+            box-shadow:none;
+            -webkit-box-shadow:none;
+            border-bottom:0px;
+        }
+        .invalidFeild {
+            -webkit-appearance: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            outline: 0 none;
+        }
+
+        #ai_responsivebundle_register_industry, #ai_responsivebundle_register_country {
+            border:0px !important;
+            border-radius:0px !important;
+            box-shadow:none !important;
+            -webkit-box-shadow:none !important;
+            border-bottom:1px solid #DEDFE3 !important;
+            color: #999;
+            font-size:18px;
+            height:60px;
+            box-sizing:border-box;
+        }
+
+        #ai_responsivebundle_register_industry:focus, #ai_responsivebundle_register_country:focus {
+            box-shadow:none !important;
+            -webkit-box-shadow:none !important;
+            border-bottom:0px !important;
+        }
+
+        /* iOS Switchs [Begin] */
+        input[type="checkbox"].ios8-switch {
+            position: absolute;
+            margin: 8px 0 0 16px;    
+        }
+        input[type="checkbox"].ios8-switch + label {
+            position: relative;
+            padding: 5px 0 0 50px;
+            line-height: 2.0em;
+        }
+        input[type="checkbox"].ios8-switch + label:before {
+            content: "";
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 0;
+            width: 40px; /* x*5 */
+            height: 24px; /* x*3 */
+            border-radius: 16px; /* x*2 */
+            background: #fff;
+            border: 1px solid #d9d9d9;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        input[type="checkbox"].ios8-switch + label:after {
+            content: "";
+            position: absolute;
+            display: block;
+            left: 0px;
+            top: 0px;
+            width: 24px; /* x*3 */
+            height: 24px; /* x*3 */
+            border-radius: 16px; /* x*2 */
+            background: #fff;
+            border: 1px solid #d9d9d9;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        input[type="checkbox"].ios8-switch + label:hover:after {
+            box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        }
+        input[type="checkbox"].ios8-switch:checked + label:after {
+            margin-left: 16px;
+        }
+        input[type="checkbox"].ios8-switch:checked + label:before {
+            background: #55D069;
+        }
+        
+        /* LARGE */
+        
+        input[type="checkbox"].ios8-switch-lg {
+            margin: 10px 0 0 20px;
+        }
+        input[type="checkbox"].ios8-switch-lg + label {
+            position: relative;
+            padding: 7px 0 0 60px;
+            line-height: 2.3em;
+        }
+        input[type="checkbox"].ios8-switch-lg + label:before {
+            width: 50px; /* x*5 */
+            height: 30px; /* x*3 */
+            border-radius: 20px; /* x*2 */
+            margin-top: -8px;
+        }
+        input[type="checkbox"].ios8-switch-lg + label:after {
+            width: 30px; /* x*3 */
+            height: 30px; /* x*3 */
+            border-radius: 20px; /* x*2 */
+            margin-top: -8px;
+        }
+        input[type="checkbox"].ios8-switch-lg + label:hover:after {
+            box-shadow: 0 0 8px rgba(0,0,0,0.3);
+        }
+        input[type="checkbox"].ios8-switch-lg:checked + label:after {
+            margin-left: 20px; /* x*2 */
+        }
+        /* iOS Switchs [Begin] */
+
+        select {
+            padding:3px;
+            margin: 0;
+            -webkit-border-radius:4px;
+            -moz-border-radius:4px;
+            border-radius:4px;
+            -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+            -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+            box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+            color:#888;
+            border:none;
+            outline:none;
+            display: inline-block;
+            -webkit-appearance:none;
+            -moz-appearance:none;
+            appearance:none;
+            cursor:pointer;
+            background: white url('/images/chevron-down.png') no-repeat right center !important;
+        }
+    </style>
+</head>
+<body style="background-color:#EFF1F3; text-align:center;">
+    {% if 'chrome' in app.request.server.get('HTTP_USER_AGENT')|lower %} {% set chromebrowser = true %} {% else %} {% set chromebrowser = false %} {% endif %}
+    <div id="registrationWrap">
+
+        {% if error is defined and error != "" %}
+            <script type="text/javascript">alert("{{error|raw}}");</script>
+        {% endif %}
+        <div class="mboxDefault"></div><script type="text/javascript">mboxCreate("registerUpdates");</script>
+
+        <div class="form-group container" style="position:relative; overflow:hidden;">
+            {{form_start(form)}}
+            <img src="/images/mobile/user.png" style="height:25px; vertical-align:middle; margin-top:-2px; margin-right:5px;" /> <h3 style="font-weight:bold; margin:30px 10px 20px 10px; display:inline-block;">PERSONAL DETAILS</h3><br />
+            <div style="margin-bottom:1px;">
+                {{ form_widget(form.firstName, {'attr': {'class': 'form-control', 'placeholder': 'First Name'}, 'value' : field_first_name })  }}
+            </div>
+            <div style="margin-bottom:1px;">
+                {{ form_widget(form.lastName, {'attr': {'class': 'form-control', 'placeholder': 'Last Name'}, 'value' : field_last_name })  }}
+            </div>
+            <div style="margin-bottom:1px;">
+                {{ form_widget(form.telephone, {'attr': {'class': 'form-control', 'placeholder': 'Telephone'}, 'value' : field_phone })  }}
+                <p id="validPhone" style="color:#b31820;font-size:12px;display:none;padding-left:3px;text-align:left;">Only ( ) + 0-9 are allowed in this field.</p>
+                <p id="invalidPhoneNumber" style="color:#b31820;font-size:12px;display:none;padding-left:3px;text-align:left;">Invalid phone number, please contact us at <a href='mailto:customerservice@asiainspection.com'>customerservice@asiainspection.com</a></p>
+            </div>
+            <div style="margin-bottom:1px;">
+                {{ form_widget(form.email, {'attr': {'class': 'form-control', 'placeholder': 'Email'}, 'value' : field_email })  }}
+                <p id="validEmail" class="regWarningText">We need a valid email address.</p>
+                <p id="roleEmail" class="regWarningText"></p>
+                <p id="emailInUse" style="text-align:left; display:none;">This email already has an account - you can create a new one or 
+                    {% if chromebrowser is defined and chromebrowser == true %}
+                        <a href="intent://?page=reportlist#Intent;package=com.asiainspection;scheme=asiainspection;end;">log in</a>
+                    {% else %}
+                        <a href="asiainspection://?page=reportlist">log in</a>
+                    {% endif %}
+                .</p>
+            </div>
+
+            <img src="/images/mobile/factory.png" style="height:25px; vertical-align:middle; margin-top:-2px; margin-right:5px;" /> <h3 style="font-weight:bold; margin:30px 10px 20px 10px; display:inline-block;">COMPANY DETAILS</h3><br />
+            <div style="margin-bottom:1px;">
+                {{ form_widget(form.company, {'attr': {'class': 'form-control', 'placeholder': 'Company'}, 'value' : field_company })  }}
+            </div>
+            <div style="margin-bottom:1px; display:inline-block; width:49%; float:left;">
+                {{ form_widget(form.industry, {'attr': {'class': 'form-control', 'placeholder': 'Your Industry'}, 'value' : field_industry })  }}
+            </div>
+            <div style="margin-bottom:1px; display:inline-block; width:49%; float:right;">
+                {{ form_widget(form.country, {'attr': {'class': 'form-control', 'placeholder': 'Your Country'}})  }}
+            </div>
+            <div style="clear:both;"></div>
+
+            <img src="/images/mobile/folder.png" style="height:25px; vertical-align:middle; margin-top:-2px; margin-right:5px;" /> <h3 style="font-weight:bold; margin:30px 10px 20px 10px; display:inline-block;">ACCOUNT DETAILS</h3><br />
+            <div style="margin-bottom:1px;">
+                {{ form_widget(form.username, {'id': 'username','attr': {'class': 'form-control', 'placeholder': 'Username' }, 'value' : field_username })  }}
+                <p id="usernameInUse" class="regWarningText">This username has already been used. </p>
+                <p id="usernameInvalidFormat" class="regWarningText">Please input a valid username (no spaces allowed).</p>
+            </div>
+    
+            <div style="margin-bottom:1px;">
+                {{ form_widget(form.password, {'attr': {'class': 'form-control', 'placeholder': 'Password'}, 'value' : field_password })  }}
+                <input type="text" class="form-control" style="display:none;" id="regPasswordTxt" />
+                <p id="passwordLength" style="color:#b31820;font-size:12px;display:none;text-align:left;padding-left:3px;">The password needs at least 6 digits/characters.</p>
+            </div>
+            <div style="text-align:right; margin-top:15px; font-size:18px;">
+                {% trans %}Show Password{% endtrans %} &nbsp; &nbsp;  <input type="checkbox" class="ios8-switch ios8-switch-lg" id="regShowPassword" style="vertical-align:top; margin-right:5px;" /><label for='regShowPassword'></label>
+            </div>
+            {{form_end(form)}}
+
+            <center><img id="regLoadingGif" src='{{assetsDomain}}/images/loading.gif' style='height:20px;vertical-align:middle; margin:10px; display:none;'></center>
+            <div class="mboxDefault"></div><script type="text/javascript">mboxCreate("countriesDropdown");</script>
+
+            <p style="text-align:center; margin-bottom:0px; padding:0.75em 0px;">{% trans %}By creating an account you agree to the{% endtrans %}<br /><a href="/conditions-of-service" style="text-decoration:underline;">{% trans %}terms and conditions{% endtrans %}</a></p><br />
+            <div style="clear:both;"></div>
+        </div>
+
+    </div>
+
+    {% block javascripts %}
+        <script src="{{asset('/js/bootstrap.js')}}"></script>
+        {% javascripts
+            '@AIResponsiveBundle/Resources/public/js/custom.js' 
+            filter='?uglifyjs2' 
+        %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+    {% endblock %}
+
+    <script type="text/javascript">
+        $("option:eq(0)","#ai_responsivebundle_register_industry").text("Industry");
+        $("option:eq(0)","#ai_responsivebundle_register_country").text("Country");
+
+        $("#ai_responsivebundle_register_industry").focus(function(){ $(this).css("color","black"); });
+        $("#ai_responsivebundle_register_country").focus(function(){ $(this).css("color","black"); });
+
+        var Countries = new Array();
+        {% if countries is defined %}
+            {% for country in countries %}
+                Countries['{{country.iso2}}'] = "{{country.phone}}";
+            {% endfor %}
+        {% endif %}
+    </script>
+    {% if tracking.body is defined %} {{tracking.body|raw}} {% endif %}
+    <script type="text/javascript">
+        var Countries = new Array();
+        {% if countries is defined %}
+            {% for country in countries %}
+                Countries['{{country.iso2}}'] = "{{country.phone}}";
+            {% endfor %}
+        {% endif %}
+    </script>
+
+</body>
+</html>

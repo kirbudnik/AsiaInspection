@@ -1,0 +1,124 @@
+{% extends '::base.html.twig' %}
+{% block title %}{% if landing.pageTitle is defined %}{{landing.pageTitle}}{% else %}{{landing.title}}{% endif %}{% endblock %}
+{% block pageDescription %}{% if landing.pageDesc is defined %}{{landing.pageDesc}}{% endif %}{% endblock %}
+{% block pagename %}whitePapers{% endblock %}
+{% block body %}
+<style type="text/css">
+    @media screen and (max-width: 500px) { #showInsightsText { display:none; } }
+</style>
+
+<div class="headerbox">
+    <div class="container vcenter_parent wrapper">
+        <div class="col-xs-12 vcenter_parent wrapper paddingLeftZero">
+            <div class=" {%if app.request.locale == "ar"%} col-xl-7 col-xl-offset-5 col-lg-7 col-lg-offset-4 {%else%}col-lg-7 col-lg-offset-1 col-xl-offset-0{%endif%}  col-xs-10 col-md-8 col-md-offset-1 col-xs-offset-1  vcenter_parent " id="bigWidth" style="padding-left:0px;padding-right:0px;">
+                <div class="vcenter  {%if isSafari is defined%}{%if isSafari==true%}headerTitle{%endif%}{%endif%}" style="display:inline-block;">
+                    <h1 class="mainHeader">{{landing.title}}</h1>
+                    <div class="mainSubHeader">{{landing.intro}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container wrapper mainBlock">
+    <div class="col-xl-10 col-lg-10 col-lg-offset-1 col-xs-12 col-md-10 col-md-offset-1 col-xl-offset-1 paddingLeftZero " style="padding:10px 20px 20px 20px;;background-color:white;margin-bottom:20px;">
+
+        <div style="margin:20px 0px; background-color:#e3e7ea; padding:15px; overflow:hidden;">
+            <center>
+                <table border="0">
+                    <tr>
+                        <td id="showInsightsText" rowspan="3" valign="middle" align="right" style="padding:10px; width:120px;">{% trans %}Show Insights{% endtrans %}:</td>
+                        <td style="padding:3px;" colspan="3">
+                            <div style="display:inline-block;float:left; margin-top:3px;"><input type="radio" name="WhitepaperRadioBox" id="whitepapersByServiceRadio" style="vertical-align:top;" />{% trans %}By Service Type{% endtrans %} &nbsp;</div>
+                            <div style="display:inline-block;float:right; max-width:100%; background-color:yellow;">
+                                <select id="whitepapersByServiceDropdown" style="color:#5B5B5B; height:28px; max-width:100%; width:160px;">
+                                    <option value="showAll">{% trans %}Show All{% endtrans %}</option>
+                                    <option value="inspect">{% trans %}Inspection{% endtrans %}</option>
+                                    <option value="audit">{% trans %}Audit{% endtrans %}</option>
+                                    <option value="lab">{% trans %}Lab Testing{% endtrans %}</option>
+                                </select>
+                            </div>
+                            <div style="clear:both;"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center"><hr class="hrgrey" style="margin:3px; width:90%;" /></td>
+                        <td style="text-align:center; width:20px;"> OR </td>
+                        <td align="center"><hr class="hrgrey" style="margin:3px; width:90%;" /></td>
+                    </tr>
+                    <tr>
+                        <td style="padding:3px;" colspan="3">
+                            <div style="display:inline-block;float:left; margin-top:3px;"><input type="radio" name="WhitepaperRadioBox" id="whitepapersByIndustryRadio" style="vertical-align:top;" /> By Industry &nbsp; </div>
+                            <div style="display:inline-block;float:right; max-width:100%; background-color:yellow;">
+                                <select id="whitepapersByIndustryDropdown" style="color:#5B5B5B; height:28px; max-width:100%; width:160px;">
+                                    <option value="showAll">{% trans %}Show All{% endtrans %}</option>
+                                    {% if landing.section is defined %}
+                                        {% for section in landing.section %}
+                                            <option value="{{section.attributes.id}}">{{section|raw}}</option>
+                                        {% endfor %}
+                                    {% endif %}
+                                </select>
+                            </div>
+                            <div style="clear:both;"></div>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+
+        {% set papers=xml.whitePaper.item %}
+        {% for paper in papers %}
+            {% set classes = "" %}
+            {% if paper.service is defined %}
+                {% set services = paper.service|split(",") %}
+                {% for service in services %}
+                    {% set classes = classes ~ " service_" ~ service %}
+                {% endfor %}
+            {% endif %}
+            <div class="whitePaperSmallScreen industry_{{paper.section}}{{classes}}" style="min-height:300px;">
+                <div style='max-height:160px; overflow:hidden;'><img src='{{assetsDomain}}/images/{{paper.image}}' style='width:100%;'></div> <!-- max-height:140px; --> <!-- max-height:285px; -->
+                <div style='padding:10px;'>
+                  <div style='color:rgb(179,24,32); font-weight:bold; font-size:14px; margin-bottom:8px;'>{{paper.title}}</div>
+                  <div style='color:black; font-size:13px;'>{{paper.subtitle|raw}}</div>
+                  <div style='position:absolute; bottom:10px; left:0px; text-align:center; width:100%;padding:0px 10px;  box-sizing:border-box;'>
+                    <a href="{% if paper.type == 'page' %}{{paper.link}}{% else %}/whitepaper/{{paper.id}}{% endif %}"  class="one-btn btn btn-primary">{% if paper.type == 'page' %}{{'View Now'|trans}}{% else %}{{landing.download}}{% endif %}</a>
+                  </div>
+                </div>
+            </div>
+        {% endfor %}
+
+
+        <div style='clear:both;'></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $("#whitepapersByIndustryDropdown").change(function() {
+        $("#whitepapersByServiceRadio").prop("checked", false);
+        $("#whitepapersByIndustryRadio").prop("checked", true);
+        id = $(this).find(":selected").val();
+        if(id == "showAll") {
+            $(".whitePaperSmallScreen").fadeIn("slow");
+        } else {
+            $(".whitePaperSmallScreen").hide();
+            $(".industry_"+id).fadeIn("slow");
+        }
+    });
+
+    $("#whitepapersByServiceDropdown").change(function() {
+        $("#whitepapersByServiceRadio").prop("checked", true);
+        $("#whitepapersByIndustryRadio").prop("checked", false);
+        id = $(this).find(":selected").val();
+        if(id == "showAll") {
+            $(".whitePaperSmallScreen").fadeIn("slow");
+        } else {
+            $(".whitePaperSmallScreen").hide();
+            $(".service_"+id).fadeIn("slow");
+        }
+    });
+    
+</script>
+
+<img src="{{assetsDomain}}/images/responsive/headerImages/white_papers_[lg].jpg" alt="Supply Chain Audit & Inspections – Industry Whitepapers | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+
+{% endblock %}

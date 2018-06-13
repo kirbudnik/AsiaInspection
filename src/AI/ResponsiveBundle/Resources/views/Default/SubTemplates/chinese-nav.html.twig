@@ -1,0 +1,289 @@
+{% set nav_Services = {
+    main: 'ai_responsive_services_index',
+    psi: 'inspections_Pre-Shipment Inspection',
+    pm: 'inspections_Production Monitoring',
+    dupro: 'inspections_During Production Inspection',
+    ipc: 'inspections_Initial Production Check',
+    clc: 'inspections_Container Loading Check',
+    ma: 'audits_Manufacturing Audit',
+    ea: 'audits_Ethical Audit',
+    ctpat: 'audits_C-TPAT Audit',
+    enviro: 'audits_Environmental Audit',
+    cpsia: 'labtest_CPSIA Testing',
+    reach: 'labtest_REACH Testing',
+    rohs: 'labtest_RoHS Testing',
+    reports: 'labtest_AI Test Report Database',
+    pricing: 'serviceDetail_Pricing',
+    coverage: 'serviceDetail_Service Coverage',
+    samples: 'serviceDetail_Reference Samples',
+} %}
+
+{% set nav_Industry = {
+    main: 'industries_Industries',
+    softline: 'industries_Softlines',
+    hardline: 'industries_Hardlines',
+    techparts: 'industries_Techparts',
+} %}
+
+{% set nav_About = {
+    main: 'aboutus_Who We Are',
+    values: 'aboutus_Corporate Values',
+    accred: 'aboutus_Accreditations',
+    testimonial: 'aboutus_Testimonials',
+    partners: 'aboutus_Our Partners',
+    news: 'newsAndContent_Asia Inspection News',
+    whitepapers: 'newsAndContent_White Papers',
+    samples: 'newsAndContent_Sample Reports',
+} %}
+
+{% set nav_Career = {
+    main: 'aboutus_Career Opportunities',
+    viewjob: 'ai_responsive_aboutus_viewjob',
+    jobapp: 'careers_Job Application',
+} %}
+
+{% set nav_Contact = {
+    main: 'others_Contact Us',
+} %}
+
+{% block stylesheets %}
+    {%stylesheets filter="scss"
+        '@AIResponsiveBundle/Resources/public/css/chinesenav.scss'
+    %}
+    <link rel="stylesheet" href="{{asset_url}}"/>
+    {%endstylesheets%}
+{% endblock %}
+
+<nav class="navbar navbar-ai">
+<div id="alertBanner" style="background-color:rgb(255,251,130); text-align:center; padding:7px; position:relative; display:none;">
+    <div style="position:absolute; right:0px; top:0px; font-weight:bold; text-align:center; font-size:18px; cursor:pointer; padding:4px 10px;">X</div>
+    <span>AI亚检已获得 amfori BSCI审核执行资质，可为全球制造商提供综合全面的审核项目。<a href="/bsci-supplier-audits" style="color:blue;">点击这里</a>了解我们的服务详情 。</span>
+</div>
+    <div class="container-fluid wrapper" style="padding:10px 0px 10px 0px;">
+        <ul class="nav navbar-nav navbar-right">
+            <li id="phoneNumber" class="pull-right otherSectionBox">
+                <a id="selectPhone" href="#" data-toggle="dropdown" style="margin-right:0px;" class="dropdown-toggle">+852 8332 1345 &#x25BE;</a>
+                <div class="pie dropdown-menu" style="min-width:415px;">
+
+                    <div class="contactSelect_sectionBox">
+                        <div  style="border-bottom:1px solid rgb(94,94,94); font-weight:bold; width:100%; text-align:left; margin-bottom:5px;" flag="south_africa" phone="+27 105 006 177">Africa</div>
+                        <ul style="cursor: pointer;"  >
+                            <li class="selectOffice" flag="south_africa" phone="+27 105 006 177">South Africa</a></li>
+                            <li class="selectOffice" flag="south_africa" phone="+27 105 006 177">All Others</li>
+                        </ul>
+                        <div style="border-bottom:1px solid rgb(94,94,94); font-weight:bold; width:100%; text-align:left; margin-bottom:5px;" flag="hong_kong" phone="+852 8332 1345" >Asia</div>
+                        <ul style="cursor: pointer;">
+                            <li class="selectOffice" flag="china" phone="+86 755 2223 9086">China</li>
+                            <li class="selectOffice" flag="hong_kong" phone="+852 8332 1345">Hong Kong</li>
+                            <li class="selectOffice" flag="philippines" phone="+1 818 877 4163">Philippines</li>
+                            <li class="selectOffice" flag="hong_kong" phone="+852 8332 1345">All Others</li>
+                        </ul>
+                    </div>
+
+                    <div class="contactSelect_sectionBox">
+                        <div style="border-bottom:1px solid rgb(94,94,94); font-weight:bold; width:100%; text-align:left; margin-bottom:5px;" flag="spain" phone="+34 91 888 88 88">Europe</div>
+                        <ul style="cursor: pointer;">
+                            <li class="selectOffice" flag="austria" phone="+43 1 364 92 43">Austria</li>
+                            <li class="selectOffice" flag="belgium" phone="+32 2 446 0198">Belgium</li>
+                            <li class="selectOffice" flag="bulgaria" phone="+359 2 4928370">Bulgaria</li>
+                            <li class="selectOffice" flag="croatia" phone="+385 18000 164">Croatia</li>
+                            <li class="selectOffice" flag="czech_republic" phone="+420 2 2585 0246">Czech Republic</li>
+                            <li class="selectOffice" flag="denmark" phone="+45 7 877 33 76">Denmark</li>
+                            <li class="selectOffice" flag="finland" phone="+358 9 427 04171">Finland</li>
+                            <li class="selectOffice" flag="france" phone="+33 1 7997 9888">France</li>
+                            <li class="selectOffice" flag="germany" phone="+49 511 957 39 989">Germany</li>
+                            <li class="selectOffice" flag="italy" phone="+39 02 929 63 444">Italy</li>
+                            <li class="selectOffice" flag="latvia" phone="+371 6788 1673">Latvia</li>
+                            <li class="selectOffice" flag="luxembourg" phone="+352 20 30 12 63">Luxembourg</li>
+                            <li class="selectOffice" flag="norway" phone="+47 21 935341">Norway</li>
+                        </ul>
+                    </div>
+
+                    <div class="contactSelect_sectionBox">
+                        <ul style="margin-top:22px;cursor: pointer;">
+                            <li class="selectOffice" flag="poland" phone="+48 22 2081909">Poland</li>
+                            <li class="selectOffice" flag="portugal" phone="+351 30 88 02468">Portugal</li>
+                            <li class="selectOffice" flag="romania" phone="+40 31 22 94 608">Romania</li>
+                            <li class="selectOffice" flag="russia" phone="+7 499 609 23 98">Russia</li>
+                            <li class="selectOffice" flag="slovakia" phone="+421 2 33 046 940">Slovakia</li>
+                            <li class="selectOffice" flag="slovenia" phone="+386 1777 42 96">Slovenia</li>
+                            <li class="selectOffice" flag="spain" phone="+34 91 888 88 88">Spain</li>
+                            <li class="selectOffice" flag="sweden" phone="+46 8 124 105 62">Sweden</li>
+                            <li class="selectOffice" flag="switzerland" phone="+41 61 5087012">Switzerland</li>
+                            <li class="selectOffice" flag="turkey" phone="+90 212 988 02 49‎">Turkey</li>
+                            <li class="selectOffice" flag="uk" phone="+ 44 2038 073 888">United Kingdom</li>
+                            <li class="selectOffice" flag="spain" phone="+34 91 888 88 88">All Others</li>
+                        </ul>
+                    </div>
+
+                    <div class="contactSelect_sectionBox " style="margin-right:0px;">
+                        <div style="border-bottom:1px solid rgb(94,94,94); font-weight:bold; width:100%; text-align:left; margin-bottom:5px;" flag="saudi_arabia" phone="+966 11 484 7130">Middle East</div>
+                        <ul style="cursor: pointer;">
+                            <li class="selectOffice" flag="egypt" phone="+20 1100 776663">Egypt</li>
+                            <li class="selectOffice" flag="saudi_arabia" phone="+966 11 484 7130">Saudi Arabia</li>
+                            <li class="selectOffice" flag="united-arab-emirates" phone="+971 4 313 2735">UAE</li>
+                            <li class="selectOffice" flag="saudi_arabia" phone="+966 11 484 7130">All Others</li>
+                        </ul>
+                        <div style="border-bottom:1px solid rgb(94,94,94); font-weight:bold; width:100%; text-align:left; margin-bottom:5px;" flag="canada" phone="+1 888 264 8988">North America</div>
+                        <ul style="cursor: pointer;">
+                            <li class="selectOffice" flag="canada" phone="+1 888 264 8988">Canada</li>
+                            <li class="selectOffice" flag="mexico" phone="+52 55 4170 3891">Mexico</li>
+                            <li class="selectOffice" flag="united_states" phone="+1 888 264 8988">United States</li>
+                        </ul>
+                        <div style="border-bottom:1px solid rgb(94,94,94); font-weight:bold; width:100%; text-align:left; margin-bottom:5px;" flag="brazil" phone="+55 11 3958 4689">South America</div>
+                        <ul style="cursor: pointer;">
+                            <li class="selectOffice" flag="brazil" phone="+55 11 3958 4689">Brazil</li>
+                            <li class="selectOffice" flag="colombia" phone="+57 1381 9594">Colombia</li>
+                            <li class="selectOffice" flag="chile" phone="+56 225813465">Chile</li>
+                            <li class="selectOffice" flag="peru" phone="+51 17085378">Peru</li>
+                            <li class="selectOffice" flag="brazil" phone="+55 11 3958 4689">All Others</li>
+                        </ul>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </li>
+
+            <li class="dropdown pull-right">
+                {% if app.request.locale == "zh" %}
+                    <a  href="#" data-toggle="dropdown" style="padding-top:0px; text-align:center;" class="dropdown-toggle">中文</a>
+                {% elseif app.request.locale == "fr" %}
+                    <a  href="#" data-toggle="dropdown" style="padding-top:0px; text-align:center;" class="dropdown-toggle">Français</a>
+                {% elseif app.request.locale == "de" %}
+                    <a  href="#" data-toggle="dropdown" style="padding-top:0px; text-align:center;" class="dropdown-toggle">Deutsch</a>
+                {% else %}
+                    <a  href="#" data-toggle="dropdown" style="padding-top:0px; text-align:center;" class="dropdown-toggle">English</a>
+                {% endif %}
+                <ul class="dropdown-menu" style="left:-60px;">
+                    <li><a href="http://www.asiainspection.ae{{ app.request.requestUri }}" style="margin:0px;"><span dir="rtl">العربية</span></a></li>
+                    <li><a href="http://www.chinainspection.com{{ app.request.requestUri }}" style="margin:0px;">中文</a></li>
+                    <li><a href="http://www.asiainspection.com{{ app.request.requestUri }}" style="margin:0px;">English</a></li>
+                    <li><a href="http://www.asiainspection.fr{{ app.request.requestUri }}" style="margin:0px;">Français</a></li>
+                    <li><a href="http://www.asiainspection.de{{ app.request.requestUri }}" style="margin:0px;">Deutsch</a></li>
+                    <li><a href="http://www.asiainspection.it" style="margin:0px;">Italiano</a></li>
+                    <li><a href="http://www.asiainspection.com.br{{ app.request.requestUri }}" style="margin:0px;">Português</a></li>
+                    <li><a href="http://www.asiainspection.ru" style="margin:0px;">Pусский</a></li>
+                    <li><a href="http://www.asiainspection.es{{ app.request.requestUri }}" style="margin:0px;">Español</a></li>
+                    <li><a href="http://www.asiainspection.com.tr{{ app.request.requestUri }}" style="margin:0px;">Türk</a></li>
+                </ul>
+            </li>
+
+            <li id="yourAccount" class="pull-right otherSectionBox" ><a href="http://customer.asiainspection.com/login"  style="padding-top:0px;color:#b31820;">{% trans %}Log In{% endtrans %}</a></li>
+        </ul>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header col-xs-offset-1 col-xs-10 col-sm-1 col-md-2 col-lg-3 col-xl-offset-0" style="padding-bottom:0px;">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/">
+                <div id="ChinaInspection_Logo"></div>
+            </a>
+        </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse" style="padding:0px;">
+            <div id="rightNavWrapper" class="col-xs-12 col-sm-10 col-md-9 col-lg-8">
+            <!-- Right Side Nav [Begin] -->
+
+            <!-- Right Side Nav [End] -->
+            <ul id="mainNav" class="nav navbar-nav" style="width:100%;">
+
+                <li class="dropdown">
+                    <a id="navServiceDropToggle" href="#" class="dropdown-toggle {% for key, item in nav_Services %}{% if app.request.attributes.get('_route') == item %}nav-active{% endif %}{% endfor %}" data-toggle="dropdown" role="button" aria-expanded="false">{% trans %}Our Services{% endtrans %}</a>
+                    <ul class="dropdown-menu navmenu_Service" role="menu">
+                        <ul class="navMenuCol">
+                            <li><a href="/quality-control-services" style="font-weight:bold;">{% trans %}By service{% endtrans %}</a></li>
+                            <li><a href="/quality-control-services/supplier-audit-programs" class="hideSmall">{% trans %}Supplier Audit Programs{% endtrans %}</a></li>
+                            <li><a href="/quality-control-services/laboratory-testing" class="hideSmall">{% trans %}Lab Testing{% endtrans %}</a></li>
+                            <li><a href="/quality-control-services/product-and-manufacturing-inspections" class="hideSmall">{% trans %}Product Inspection{% endtrans %}</a></li>
+                            <li><a href="/testing/saso-certificate-of-conformity" class="hideSmall">{% trans %}SASO Certification{% endtrans %}</a></li>
+                            <li><a href="/quality-assurance-services" class="hideSmall">{% trans %}Quality Assurance for Products{% endtrans %}</a></li>    
+                        </ul>
+                        <ul class="navMenuCol">
+                            <li><a href="/quality-control-services-by-industry" style="font-weight:bold;">{% trans %}By industry{% endtrans %}</a></li>
+                            <li><a href="/testing/garments-apparel" class="hideSmall">{% trans %}nav-garments-apparel{% endtrans %}</a></li>
+                            <li><a href="/testing/textile-fabric-quality-control" class="hideSmall">{% trans %}nav-textiles-fabrics{% endtrans %}</a></li>
+                            <li><a href="/testing/footwear" class="hideSmall">{% trans %}nav-footwear{% endtrans %}</a></li>
+                            <li><a href="/testing/cosmetics" class="hideSmall">{% trans %}nav-cosmetics{% endtrans %}</a></li>
+                            <li><a href="/testing/eyewear" class="hideSmall">{% trans %}nav-eyewear{% endtrans %}</a></li>
+                            <li><a href="/testing/jewelry" class="hideSmall">{% trans %}nav-jewelry{% endtrans %}</a></li>
+                            <li><a href="/testing/promotional-products" class="hideSmall">{% trans %}nav-promotional-products{% endtrans %}</a></li>
+                            <li><a href="/testing/toy-safety-and-lab-testing" class="hideSmall">{% trans %}nav-toys-recreational{% endtrans %}</a></li>
+                            <li><a href="/food-safety-testing"  class="hideSmall">{% trans %}nav-food{% endtrans %}</a></li>
+                            <li><a href="/industry-techparts" class="hideSmall">{% trans %}nav-tech-parts{% endtrans %}</a></li>
+                            <li><a href="/testing/electrical" class="hideSmall">{% trans %}nav-electrical-electronics{% endtrans %}</a></li>
+                            <li><a href="/industry-softline" class="hideSmall">{% trans %}Other Industries{% endtrans %}</a></li>                               
+                        </ul>
+                        <ul class="navMenuCol">
+                            <li><a href="/quality-control-pricing" class="hideSmall" style="font-weight:bold;">{% trans %}Service Details{% endtrans %}</a></li>
+                            <li><a href="/quality-control-pricing">{% trans %}Pricing{% endtrans %}</a></li>
+                            <li><a href="/quality-control-coverage">{% trans %}Service Coverage{% endtrans %}</a></li>
+                            <li><a href="/reference-samples">{% trans %}Reference Samples{% endtrans %}</a></li>
+                        </ul>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a id="navIndustryDropToggle" href="#" class="dropdown-toggle {% for key, item in nav_Industry %}{% if app.request.attributes.get('_route') == item %}nav-active{% endif %}{% endfor %}" data-toggle="dropdown" role="button" aria-expanded="false">{% trans %}Knowledge{% endtrans %}</a>
+                    <ul class="dropdown-menu navmenu_Industry" role="menu">
+                        <div class="navMenuCol">
+                            <li><a href="/asia-inspection-news">{% trans %}Latest News{% endtrans %}</a></li>  
+                            <li><a href="/supply-chain-insights" class="hideSmall">{% trans %}Supply Chain Insights{% endtrans %}</a></li>
+                            <li><a href="/samplereports">{% trans %}Sample Reports{% endtrans %}</a></li>
+                            <li><a href="/regulatory-updates">{% trans %}Regulatory Updates{% endtrans %}</a></li>
+                            <li><a href="/aql-acceptable-quality-limit" class="hideSmall">{% trans %}Acceptable Quality Limit (AQL){% endtrans %}</a></li>
+                        </div>
+                    </ul>
+                </li>
+
+                <li class="dropdown" >
+                    <a id="navAboutDropToggle" href="#" class="dropdown-toggle {% for key, item in nav_About %}{% if app.request.attributes.get('_route') == item %}nav-active{% endif %}{% endfor %}" data-toggle="dropdown" role="button" aria-expanded="false" >{% trans %}About Us{% endtrans %}</a>
+                    <ul class="dropdown-menu navmenu_About" role="menu">
+                        <div class="navMenuCol">
+                            <li><a href="/who-we-are" class="hideSmall">{% trans %}About AsiaInspection{% endtrans %}</a></li>
+                            <li><a href="/who-we-are">{% trans %}Who We Are{% endtrans %}</a></li>
+                            <li><a href="/corporate-values">{% trans %}Company Values{% endtrans %}</a></li>
+                            <li><a href="/accreditations" class="hideSmall">{% trans %}Accreditations{% endtrans %}</a></li>
+                            <li><a href="/asiainspection-testimonials">{% trans %}Testimonials{% endtrans %}</a></li>
+                            <li><a href="/asia-inspection-partners" class="hideSmall">{% trans %}Our Partners{% endtrans %}</a></li>
+                        </div>
+                    </ul>
+                </li>
+                <li class="tab"><a href="/career-opportunities" class="{% for key, item in nav_Career %}{% if app.request.attributes.get('_route') == item %}nav-active{% endif %}{% endfor %}">{% trans %}Careers{% endtrans %}</a></li>
+                <li class="tab pull-right">
+                    <ul class="nav navbar-nav" style="list-style-type: none;">
+                        <li class="tab"><a href="/register">{% trans %}Create Your Account{% endtrans %}</a></li>
+                        <li class="tab"><a href="/contact-us" class="{% for key, item in nav_Contact %}{% if app.request.attributes.get('_route') == item %}nav-active{% endif %}{% endfor %}">{% trans %}Contact{% endtrans %}</a></li>
+                        <li class="tab pull-right-qrcode">
+                            <div class="qrcode-title">
+                                <img src="images/ico_we_chat.png" alt="" />
+                                <span>{% trans %}官方微信{% endtrans %}</span>
+                            </div>
+                            <span class="qrcode-content"></span>
+                        </li>                      
+                        <li class="tab" id="smallScreen" style="display:none;"><a href="http://customer.asiainspection.com/login" style="color:#b31820;" role="button" aria-expanded="false">{% trans %}Log In{% endtrans %}</a></li>
+                    </ul>
+                </li>
+                
+                <div style="clear:both;"></div>
+            </ul>
+            <div style="clear:both;"></div>
+
+            </div> <!-- nav wrapper Div -->
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    <div class="mboxDefault">
+        <script type="text/javascript">LocalizedPhoneHandler("China");</script>
+    </div>
+    <script type="text/javascript">mboxCreate("contactPhoneDrop");</script>
+    <script type="text/javascript">
+        if(getCookie("zh-alert-banner") != 1) $('#alertBanner').show();
+        $('#alertBanner').on("click",function(){
+            $(this).remove();
+            setCookie("zh-alert-banner",1,1);
+        });
+    </script>
+</nav>

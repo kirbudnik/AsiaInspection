@@ -1,0 +1,360 @@
+#AI_Logo {
+    width:60px;
+    height:60px;
+    background-image: $url_60x60_logo;
+    margin-top: 0px;
+}
+#ChinaInspection_Logo {
+    width:60px;
+    height:60px;
+    background-image: $url_60x60_logo;
+    margin-top: 0px;
+}
+
+.navbar.floating {
+    #rightNavWrapper {
+        display: none;
+    }
+}
+
+/* Xmas Logo [Begin]
+#AI_Logo {
+    background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm1.png);
+    width: 271px;
+    height: 89px;
+    margin-top:0px;
+}
+#ChinaInspection_Logo {
+    background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm1.png);
+    width: 271px;
+    height: 89px;
+    left:-130px;
+    margin-top:0px;
+    position:relative;
+}
+Xmas Logo [End] */
+
+.slide-feature4 {
+    h1 {
+        font-size: $font_size_8;
+        padding: 10px;
+    }
+    p {
+        font-size: 12px;
+        padding: 2px;
+    }
+}
+
+#applyBtn_LinkedIn{
+    width: 40%;
+}
+
+.whitePaperSmallScreen{
+     width:31%;
+}
+
+#ethicalWebinarHeader{
+    width:100%;
+}
+
+.spriteSeparator_h1 {
+    width: 100px;
+}
+.slide-feature9 {
+    img {
+        display: none;
+    }
+    h2 {
+        font-size: 13px;
+    }
+}
+.above990Display{
+    display:none !important;
+}
+.above990DisplayNone{
+    display:block;
+}
+
+#appMobile{
+    top:45px;
+}
+
+
+#appTablet{
+     top:113px;
+}
+
+#sitemapColumn{
+    width:33.3%;
+}
+
+.displayNone990{
+    display:none;
+}
+#printButton{
+    padding-top:20px;
+}
+.left {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.right {
+    width: 92%;
+    padding-left: 8% !important;
+}
+.column {
+    width: 50%;
+
+}
+.paddingTopBottom15_990To768{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.slide-feature3 a {
+    padding: 10px;
+}
+.mobileEmailSendLinks{
+    width:200px;
+    margin-bottom:20px;
+    margin-right:0px;
+}
+#footerlinks {
+    #bigWindowLinks {
+        a{
+            font-size: $font_size_1;
+            line-height: $font_size_1;
+            color: $color_shark_approx;
+            font-weight: bold;
+            padding:1em 0px;
+            display:block;
+        }
+        .footerlinks_box, .footerlinks_box_title{
+            padding:0px;
+            display:block;
+            text-align:center;
+            width:100%;
+            max-width:100%;
+            .dropdown-menu{
+                width:100%;
+                text-align:center;
+                display:none;
+                background-color:white;
+            }
+        }
+        .footerlinks_box_title { margin: 1em 0em; }
+        .open {
+            .dropdown-menu{
+                display:block;
+            }
+        }
+    }
+}
+
+.navbar-ai {
+    li > a { padding-left:12px; padding-right:12px; }
+    .dropdown-menu{
+        .navMenuCol:last-of-type {border-right:0px;}
+        .navMenuCol{
+            padding:20px;
+            margin-left:25px;
+            .navSubtitle:before{ left:-15px; }
+        }
+        &.navmenu_Service {
+            left:-100px;
+            width:600px;
+            .navMenuCol{
+                &:nth-child(2) {border-right:0px;}
+                width:250px;
+           }
+        }
+        &.navmenu_Industry {
+            left:-100px;
+            width:600px;
+            .navMenuCol{
+                &:nth-child(2) {border-right:0px;}
+                width:250px;
+            }
+        }
+        &.navmenu_About {
+            left:-160px;
+            width:450px;
+            .navMenuCol{
+                width:180px;
+            }
+        }
+    }
+}
+.showSmall{display:block !important;}
+.countryPadding{
+    margin-top:10px;
+}
+
+.middleIcon{
+    float: right !important;
+
+}
+.spriteservice_sidebox_redcircle{
+    margin-right: 11px !important;
+}
+
+.spritesamplestoragepolicy_box{
+    margin-right: -9px !important;
+    .home-pricing-box{
+        height:auto;
+        .homePriceCTA{
+            display:block;
+            a { width:65%; }
+        }
+    }
+}
+
+.slide-feature2 {
+    .homeSCP_image{ display:none; }
+}
+.jobdrop_divbox{
+    padding-left: 0px;
+    margin-top: 15px;
+    width: 70%;
+}
+#jobdrop_Type{
+    margin-bottom: 15px;
+}
+
+.marginBottomSmallScreen{
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.noMarginSmallScreen{
+    margin-top: 0px !important;
+}
+
+#jobAppSubmit{
+    padding-top: 3px;
+    margin-bottom: 25px;
+}
+
+
+.textRight{
+    text-align: left;
+}
+
+.box{
+    .qcs-box-background{
+        height:290px;
+    }
+}
+
+.overviewBanner{
+    #bigWidth{
+        margin-left:15px;
+    }
+}
+
+.slide-feature1 {
+    background-image: none;
+}
+
+.displaynone990{
+    display:none !important;
+}
+#display990{
+    display:inline-block !important;
+}
+
+.home-pricing-box{ height:100%; }
+
+#page_ServiceLanding{
+    .landingPageBoxContent{ height:auto; }
+}
+
+#page_Logout{
+    #logoutPhoneImage{
+        width:100%;
+        margin-bottom:1em;
+        img{
+            width:33%;
+        }
+    }
+    .mobileEmailSendLinks{
+        width:100%;
+    }
+    .box_MobileLinks_submit{
+        margin-top:15px;
+        margin-bottom:15px;
+    }
+}
+.responsive-md{
+    width:100%;
+}
+
+#pricingBottom{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top:15px;
+}
+
+#pricingHr{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.home-pricing-box{
+    .homePriceContent{
+        .learnMoreLink{
+            display:none;
+        }
+    }
+}
+
+#homePriceCTA{ display:none; }
+#homePricingBoxTitle { height: 7.5%; }
+#homePricingBoxWrapper {
+    .margin20Small{ margin-top:20px; margin-bottom:20px; }
+    .offer1, .offer2, .offer3{
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .homePriceCTA{
+        display:block;
+    }
+}
+
+.smHide{ display:none; }
+
+/* New Industry Pages Layout [Start] */
+.industrySectionImageLeft {
+    display:block;
+    height:auto;
+    overflow:hidden;
+    clear:both;
+    max-width:100%;
+    width:100%;
+    text-align:center;
+}
+.industrySectionImageRight {
+    display:block;
+    height:auto;
+    overflow:hidden;
+    clear:both;
+    max-width:100%;
+    width:100%;
+    text-align:center;
+}
+.industrySectionImageRight img, .industrySectionImageLeft img {width:50%; height:auto; margin-top:20px;}
+.industrySectionContentWithImage {
+    float:left;
+    padding:20px;
+    display:inline-block;
+    max-width: 100%;
+}
+/* New Industry Pages Layout [End] */
+
+#homepageTabletAnimationBox { height:280px; }
+#regFooterBarLinksTextBox { text-align:center; }
+

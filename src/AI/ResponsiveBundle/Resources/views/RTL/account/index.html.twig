@@ -1,0 +1,54 @@
+{% extends '::base.html.twig' %}
+{%block title%}Customer Register List {%endblock%}
+{% block body -%}
+
+    <h1>register list</h1>
+
+    <table class="records_list table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Country</th>
+                <th>Company</th>
+                <th>Telephone</th>
+                <th>Email</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('register_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.firstName }}</td>
+                <td>{{ entity.lastName }}</td>
+                <td>{{ entity.country }}</td>
+                <td>{{ entity.company }}</td>
+                <td>{{ entity.telephone }}</td>
+                <td>{{ entity.email }}</td>
+                <td>{{ entity.username }}</td>
+                <td>{{ entity.password }}</td>
+                <td>
+
+                        <a  calss='btn btn-default btn-xs' href="{{ path('register_show', { 'id': entity.id }) }}">show</a>
+
+                        <a calss='btn btn-default btn-xs' href="{{ path('register_edit', { 'id': entity.id }) }}">edit</a>
+
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+            <a class="btn-default" href="{{ path('register_new') }}">
+                new account
+            </a>
+
+
+
+
+    {% endblock %}

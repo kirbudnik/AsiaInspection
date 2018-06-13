@@ -1,0 +1,68 @@
+{% extends '::base.html.twig' %}
+{%block title%}Sales Leads{%endblock%}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {%stylesheets filter="cssrewrite"
+        '@AIResponsiveBundle/Resources/public/css/salesLeads.css'
+    %}
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="{{asset_url}}"/>
+    {%endstylesheets%}
+    <style type="text/css">.navbar-ai { display:none !important; } #fixedNavSpacer { display:none !important; } </style>
+{% endblock %}
+
+{% block body %}
+<div class="container wrapper">
+    <div class="col-xs-12 wrapper">
+        {% if 0 == 1 %}
+            <div class="col-xs-12  margin20">
+
+                {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                    {{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |
+                    <a href="{{ path('fos_user_security_logout') }}">
+                        {{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
+                    </a>
+                {% else %}
+                    <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
+                {% endif %}
+
+            </div>
+        {% endif %}
+        
+        <div class="box-white col-xs-12  margin20">
+            {% for type, messages in app.session.flashBag.all %}
+                {% for message in messages %}
+                    <div class="{{ type }}">
+                        {{ message|trans({}, 'FOSUserBundle') }}
+                    </div>
+                {% endfor %}
+            {% endfor %}
+
+            <div>
+                {% block fos_user_content %}
+                {% endblock fos_user_content %}
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock%}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts
+        '@AIResponsiveBundle/Resources/public/js/salesLeads.js' 
+        filter='?uglifyjs2'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    <script src="/js/jquery.tablesorter.js"></script>
+    <script type="text/javascript"><!--
+    var userin = document.getElementById("fos_user_registration_form_username");
+    userin.parentNode.style.display = 'none';
+    var emailin = document.getElementById("fos_user_registration_form_email");
+    emailin.addEventListener("change", function() {
+        userin.value = emailin.value;
+    });
+    --></script>
+    {% endjavascripts %}
+{% endblock %}

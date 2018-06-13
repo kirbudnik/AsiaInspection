@@ -1,0 +1,123 @@
+{% extends '::base.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pagename %}ServiceLanding{% endblock %}
+
+{% block body %}
+<br />
+
+<div class="container wrapper servicesLandingContent" style="margin-bottom:35px;">
+    <div class= "col-xs-12">
+        <!-- Audits [Begin] -->
+        <div class="col-md-4 col-xs-12 landingPageBox">
+        <a name="audits" style="position:relative; top:-80px;"></a>
+        <div class="box" style="margin-top:20px;">
+            <div class="qcs-box-background vcenter_parent" style="background-image:url('{{assetsDomain}}/images/responsive/small_audits.jpg');">
+                <h3 class="h3white text-center vcenter">{{xml.auditTab.title | trans}}</h3>
+            </div>
+
+            <div class="landingPageBoxContent">
+                <center>
+                    <span>{% trans %}from{% endtrans %}</span> <h2 style="display:inline-block;">${{price_Audit_Low}}</h2> {% if app.request.locale == "zh" %}<span>美元起</span>{% endif %}
+                    <p>{% trans %}Per Man-day{% endtrans %}</p>
+                    <a href="http://customer.asiainspection.com/login" role="button" class="btn btn-primary">{% trans %}BOOK AN AUDIT{% endtrans %}</a>
+                    <p style="margin:10px 0px 0px 0px;"><a href="/quality-control-pricing">{% trans %}See detailed pricing{% endtrans %}</a></p>
+                </center>
+                <hr>
+                <ul style="padding-left:20px;">
+                    {% for link in xml.auditTab.li %}
+                        <li>{{link}}</li>
+                    {% endfor %}
+                </ul>
+                <div style="clear:both;"></div>
+                <ul class="col-sm-offset-1 col-sm-5 col-md-offset-0 col-md-12" style="margin-bottom:0px; padding-left:20px;">
+                    {% for audit in auditLink %}
+                        <li><a href="{{audit.link}}">{{audit.title}}</a></li>
+                    {% endfor %}
+                </ul>
+                <div style="clear:both;"></div>
+            </div>
+
+        </div>
+        </div>
+        <!-- Audits [End] -->
+        <!-- Inspections [Begin] -->
+        <div class="col-md-4 col-xs-12 landingPageBox">
+        <a name="inspections" style="position:relative; top:-80px;"></a>
+        <div class="box" style="margin-top:20px;">
+            <div class="qcs-box-background vcenter_parent" style="background-image:url('{{assetsDomain}}/images/responsive/small_inspections.jpg');">
+                <h3 class="h3white text-center vcenter">{{xml.productTab.title}}</h3>
+            </div>
+            <div class="landingPageBoxContent">
+                <center>
+                    <span>{% trans %}from{% endtrans %}</span> <h2 style="display:inline-block;">${{price_Inspect_Low}}</h2> {% if app.request.locale == "zh" %}<span>美元起</span>{% endif %}
+                    <p>{% trans %}Per Man-day{% endtrans %}</p>
+                    <a href="http://customer.asiainspection.com/login" role="button" class="btn btn-primary">{% trans %}BOOK AN INSPECTION{% endtrans %}</a>
+                    <p style="margin:10px 0px 0px 0px;"><a href="/quality-control-pricing">{% trans %}See detailed pricing{% endtrans %}</a></p>
+                </center>
+                <hr>
+                <ul style="padding-left:20px;">
+                    {% for link in xml.productTab.li %}
+                        <li>{{link|raw}}</li>
+                    {% endfor %}
+                </ul>
+                <div style="clear:both;"></div>
+                <ul class="col-sm-offset-1 col-sm-5 col-md-offset-0 col-md-12" style="margin-bottom:0px; padding-left:20px;">
+                    {% set i=0 %}
+                    {% for list in xml.productSlide.listitem %}
+                        <li><a href="{{productLink[i]}}">{{productTitle[i]}}</a></li>
+                        {% set i = i +1 %}
+                    {% endfor %}
+
+                </ul>
+                <div style="clear:both;"></div>
+            </div>
+            </div>
+        </div>
+        <!-- Inspections [End] -->
+        <!-- Lab Tests [Begin] -->
+        <div class="col-md-4 col-xs-12 landingPageBox">
+        <a name="labtests" style="position:relative; top:-80px;"></a>
+        <div class="box" style="margin-top:20px;">
+            <div class="qcs-box-background vcenter_parent" style="background-image:url('{{assetsDomain}}/images/responsive/small_labtesting.jpg');">
+                <h3 class="h3white text-center vcenter">{{xml.labTab.title}}</h3>
+            </div>
+            <div class="landingPageBoxContent">
+                <center>
+                    <h2>{% trans %}Instant Quote{% endtrans %}</h2>
+                    <p>&nbsp;</p>
+                    <a href="http://customer.asiainspection.com/login" role="button" class="btn btn-primary">{% trans %}GET A QUOTE{% endtrans %}</a>
+                    <p style="margin:10px 0px 0px 0px;"><a href="/quality-control-pricing">{% trans %}See detailed pricing{% endtrans %}</a></p>
+                </center>
+                <hr>
+                <ul style="padding-left:20px;">
+                 {% for link in xml.labTab.li %}
+                            <li>{{link}}</li>
+                 {% endfor %}
+                <div style="clear:both;"></div>
+                </ul>
+                <ul class="col-sm-offset-1 col-sm-5 col-md-offset-0 col-md-12" style="margin-bottom:0px; padding-left:20px;">
+                    {% set i=0 %}
+                    {% for list in xml.labSlide.leftList.li %}
+                        <li><a href="{{labTabLink[i]}}">{{list}}</a></li>
+                        {% set i = i +1 %}
+                    {% endfor %}
+                    {% for list in xml.labSlide.rightList.li %}
+                        <li><a href="{{labTabLink[i]}}">{{list}}</a></li>
+                        {% set i = i +1 %}
+                    {% endfor %}
+                </ul>
+                <div style="clear:both;"></div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Lab Tests [End] -->
+    </div>
+</div>
+
+<img src="{{assetsDomain}}/images/responsive/small_audits.jpg" alt="Supply Chain Audit Programs | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+<img src="{{assetsDomain}}/images/responsive/small_inspections.jpg" alt="Product Inspections & Quality Control | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+<img src="{{assetsDomain}}/images/responsive/small_labtesting.jpg" alt="Lab Testing & Quality Control | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+
+{% endblock %}

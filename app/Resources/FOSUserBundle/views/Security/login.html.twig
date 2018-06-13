@@ -1,0 +1,27 @@
+{% extends "FOSUserBundle::layout.html.twig" %}
+
+{% block fos_user_content %}
+<div style="text-align: center">
+<form action="{{ path("fos_user_security_check") }}" method="post">
+    <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+
+    <h1 class="margin20">Login</h1>
+    {% if error %}
+    <div style="color:red;font-weight:bold;margin-bottom: 1em">{{ error|trans({'Invalid CSRF token.': 'Invalid CSRF token. Please reload the page and try again.'}, 'FOSUserBundle') }}</div>
+    {% endif %}
+    <span  style="font-weight:bold;">Username: &nbsp;&nbsp;&nbsp; </span>
+    <input type="text" id="fos_username" style="height:28px;width: 25em;" name="_username" value="{{ last_username }}" required="required" /><br /><br />
+
+    <span style="font-weight:bold;">Password: &nbsp;&nbsp;&nbsp; </span> 
+    <input type="password" id="password" name="_password" style="height:28px;margin-left:4px;width: 25em;" required="required" /><br />
+
+    <input type="checkbox" id="remember_me" name="_remember_me" value="on" />
+    <label for="remember_me">{{ 'security.login.remember_me'|trans({}, 'FOSUserBundle') }}</label><br />
+    <a href="{{ path('fos_user_resetting_request') }}">Forgot Password?</a> | 
+    <a href="{{ path('fos_user_registration_register') }}">Create Account</a><br /><br />
+
+    <input type="submit" class="btn-primary" style="margin-top:20px;" id="_submit" name="_submit" value="{{ 'security.login.submit'|trans({}, 'FOSUserBundle') }}" />
+</form>
+</div>
+
+{% endblock fos_user_content %}

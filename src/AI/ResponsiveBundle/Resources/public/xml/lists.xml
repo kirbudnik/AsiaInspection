@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<en>
+		<WhereHear>
+			<!-- Anything that does not fall in these catagories should be (Not Categorized) -->
+			<option name="ads" value="Advertising" submenu="Ads">I saw an AI billboard or magazine ad</option>
+			<option name="alreadyclient" value="Already a client">My company is already an AI client</option>
+			<option name="contactedbyai" value="Contacted by AsiaInspection">I received a cold call from AI</option>
+			<option name="internetsearch" value="Internet Search" submenu="InternetSearch">Through an online search</option>
+			<option name="news" value="News (TV, Radio, Press article)">I saw AI in the news</option>
+			<option name="recommend" value="Recommendation" submenu="Reccomend">Someone recommended AI to me</option>
+			<option name="socialmedia" value="Social Media" submenu="SocialMedia">Social Media</option>
+			<option name="tradeshow" value="Tradeshow" submenu="Tradeshows">I met AI at a tradeshow or event</option>
+		</WhereHear>
+		<TradeShowCountries>
+			
+			
+			
+            
+			
+			
+			
+			
+			
+		<country code="ESP">Spain</country><country code="COL">Colombia</country><country code="USA">United States</country><country code="MEX">Mexico</country><country code="HKG">Hong Kong SAR China</country><country code="CHN">China</country><country code="SAU">Saudi Arabia</country><country code="GBR">United Kingdom</country><country code="SWE">Sweden</country><country code="IND">India</country><country code="THA">Thailand</country><country code="ITA">Italy</country><country code="CHL">Chile</country><country code="HUN">Hungary</country><country code="EGY">Egypt</country><country code="CAN">Canada</country><country code="FRA">France</country><country code="DEU">Germany</country><country code="PER">Peru</country><country code="PAN">Panama</country></TradeShowCountries>
+		<Tradeshows>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+		<option name="Promogift" value="Promogift" location="ESP">Promogift</option><option name="Colombiatex" value="Colombiatex" location="COL">Colombiatex</option><option name="Sourcing_at_Magic" value="Sourcing at Magic" location="USA">Sourcing at Magic</option><option name="IHA" value="IHA" location="USA">IHA</option><option name="Antad_Expo" value="Antad Expo" location="MEX">Antad Expo</option><option name="Toy_and_Hobby_-_CHB" value="Toy and Hobby - CHB" location="HKG">Toy and Hobby - CHB</option><option name="China_Electronics_Fair_-_CHB" value="China Electronics Fair - CHB" location="CHN">China Electronics Fair - CHB</option><option name="CSF_-_Electronics" value="CSF - Electronics" location="HKG">CSF - Electronics</option><option name="HKTDC_-_Electronics" value="HKTDC - Electronics" location="HKG">HKTDC - Electronics</option><option name="CSF_-_Gifts" value="CSF - Gifts" location="HKG">CSF - Gifts</option><option name="CSF_-_Garments" value="CSF - Garments" location="HKG">CSF - Garments</option><option name="HKTDC_-_Gifts" value="HKTDC - Gifts" location="HKG">HKTDC - Gifts</option><option name="Canton_Fair" value="Canton Fair" location="CHN">Canton Fair</option><option name="China_Gifts_and_Houseware_-_CHB" value="China Gifts and Houseware - CHB" location="CHN">China Gifts and Houseware - CHB</option><option name="Colombia_Moda" value="Colombia Moda" location="COL">Colombia Moda</option><option name="China_Textile_and_Apparel" value="China Textile and Apparel" location="CHN">China Textile and Apparel</option><option name="PPAI_Safety_Summit" value="PPAI Safety Summit" location="USA">PPAI Safety Summit</option><option name="CSF_-_Electronics" value="CSF - Electronics" location="HKG">CSF - Electronics</option><option name="HKTDC_-_Electronics" value="HKTDC - Electronics" location="HKG">HKTDC - Electronics</option><option name="CSF_-_Gifts" value="CSF - Gifts" location="HKG">CSF - Gifts</option><option name="CSF_-_Garments" value="CSF - Garments" location="HKG">CSF - Garments</option><option name="HKTDC_Lighting" value="HKTDC Lighting" location="HKG">HKTDC Lighting</option><option name="Yiwu_Fair_-_CHB" value="Yiwu Fair - CHB" location="CHN">Yiwu Fair - CHB</option><option name="China_Toy_Fair_-_CHB" value="China Toy Fair - CHB" location="CHN">China Toy Fair - CHB</option><option name="Saudi_Build" value="Saudi Build" location="SAU">Saudi Build</option><option name="Made_in_Asia" value="Made in Asia" location="HKG">Made in Asia</option><option name="Source_Trends" value="Source Trends" location="HKG">Source Trends</option><option name="AAFA_Annual_Executive_Summit" value="AAFA Annual Executive Summit" location="USA">AAFA Annual Executive Summit</option><option name="Sedex_London" value="Sedex London" location="GBR">Sedex London</option><option name="PSF_Forum" value="PSF Forum" location="SWE">PSF Forum</option><option name="AAFA_Sourcing_Customs_and_Logistics_Conference" value="AAFA Sourcing Customs and Logistics Conference" location="USA">AAFA Sourcing Customs and Logistics Conference</option><option name="AAFA_International_Product_Safety" value="AAFA International Product Safety" location="USA">AAFA International Product Safety</option><option name="Scope_Supply_Chain_Conference_Spring" value="Scope Supply Chain Conference Spring" location="USA">Scope Supply Chain Conference Spring</option><option name="AAFA_Product_Safety_East" value="AAFA Product Safety East" location="USA">AAFA Product Safety East</option><option name="Store_Conferences" value="Store Conferences" location="USA">Store Conferences</option><option name="14th_July_Sponsoring_Consulate" value="14th July Sponsoring Consulate" location="HKG">14th July Sponsoring Consulate</option><option name="AAFA_Traceability" value="AAFA Traceability" location="USA">AAFA Traceability</option><option name="AAFA_Social_Responsibility" value="AAFA Social Responsibility" location="USA">AAFA Social Responsibility</option><option name="FDRA_Footwear_Sourcing_Summit" value="FDRA Footwear Sourcing Summit" location="USA">FDRA Footwear Sourcing Summit</option><option name="Global_Footwear_Sustainability_Summit" value="Global Footwear Sustainability Summit" location="USA">Global Footwear Sustainability Summit</option><option name="Sourcing_Journal" value="Sourcing Journal" location="USA">Sourcing Journal</option><option name="ICPHSO" value="ICPHSO" location="USA">ICPHSO</option><option name="BSR_Conference" value="BSR Conference" location="USA">BSR Conference</option><option name="GSCP_General_Meeting" value="GSCP General Meeting" location="USA">GSCP General Meeting</option><option name="Sedex_Shanghai" value="Sedex Shanghai" location="CHN">Sedex Shanghai</option><option name="AAFA_Product_Safety_Dhaka" value="AAFA Product Safety Dhaka" location="IND">AAFA Product Safety Dhaka</option><option name="Boston_Seafood" value="Boston Seafood" location="USA">Boston Seafood</option><option name="ThaiFex" value="ThaiFex" location="THA">ThaiFex</option><option name="Guangzhou_Import_Food_Exhibition" value="Guangzhou Import Food Exhibition" location="CHN">Guangzhou Import Food Exhibition</option><option name="National_IFT" value="National IFT" location="USA">National IFT</option><option name="China_International_Seafood_Expo" value="China International Seafood Expo" location="CHN">China International Seafood Expo</option><option name="Supply_Side_West" value="Supply Side West" location="USA">Supply Side West</option><option name="China_Fisheries_and_Seafood_Expo" value="China Fisheries and Seafood Expo" location="CHN">China Fisheries and Seafood Expo</option><option name="Canton_Fair" value="Canton Fair" location="CHN">Canton Fair</option><option name="Cersaie_Bologna" value="Cersaie Bologna" location="ITA">Cersaie Bologna</option><option name="Cersaie_Bologna" value="Cersaie Bologna" location="ITA">Cersaie Bologna</option><option name="Conexpo_Chile" value="Conexpo Chile" location="CHL">Conexpo Chile</option><option name="AAFA_HK_Executive_Summit" value="AAFA HK Executive Summit" location="HKG">AAFA HK Executive Summit</option><option name="Eco_Asia_Expo" value="Eco Asia Expo" location="HKG">Eco Asia Expo</option><option name="ITU_Telecom_World_Hungary" value="ITU Telecom World Hungary" location="HUN">ITU Telecom World Hungary</option><option name="Shenzhen_Packaging_Material_Fair" value="Shenzhen Packaging Material Fair" location="CHN">Shenzhen Packaging Material Fair</option><option name="HKTDC_-_Gifts" value="HKTDC - Gifts" location="HKG">HKTDC - Gifts</option><option name="Shenzhen_Gift_and_Houseware_Show" value="Shenzhen Gift and Houseware Show" location="CHN">Shenzhen Gift and Houseware Show</option><option name="China_Trade_and_Investor_Summit" value="China Trade and Investor Summit" location="CHN">China Trade and Investor Summit</option><option name="HKTDC_Toy_Fair" value="HKTDC Toy Fair" location="HKG">HKTDC Toy Fair</option><option name="New_York_Toy_Fair" value="New York Toy Fair" location="USA">New York Toy Fair</option><option name="Sourcing_at_Magic" value="Sourcing at Magic" location="USA">Sourcing at Magic</option><option name="IHA" value="IHA" location="USA">IHA</option><option name="Boston_Seafood" value="Boston Seafood" location="USA">Boston Seafood</option><option name="CSF_Electronics" value="CSF Electronics" location="HKG">CSF Electronics</option><option name="HKTDC_Electronics" value="HKTDC Electronics" location="HKG">HKTDC Electronics</option><option name="CSF_Gifts" value="CSF Gifts" location="HKG">CSF Gifts</option><option name="HKTDC_Gifts" value="HKTDC Gifts" location="HKG">HKTDC Gifts</option><option name="Thaifex" value="Thaifex" location="THA">Thaifex</option><option name="PPAI_Expo" value="PPAI Expo" location="USA">PPAI Expo</option><option name="Pitti_Tradeshow" value="Pitti Tradeshow" location="ITA">Pitti Tradeshow</option><option name="China_Textile_&amp;_Apparel" value="China Textile &amp; Apparel" location="CHN">China Textile &amp; Apparel</option><option name="CSF_Electronics" value="CSF Electronics" location="HKG">CSF Electronics</option><option name="HKTDC_Electronics" value="HKTDC Electronics" location="HKG">HKTDC Electronics</option><option name="CSF_Gifts" value="CSF Gifts" location="HKG">CSF Gifts</option><option name="HKTDC_Lighting" value="HKTDC Lighting" location="HKG">HKTDC Lighting</option><option name="Saudi_Build" value="Saudi Build" location="SAU">Saudi Build</option><option name="Made_in_Asia" value="Made in Asia" location="HKG">Made in Asia</option><option name="AAFA_Annual_Executive_Summit" value="AAFA Annual Executive Summit" location="USA">AAFA Annual Executive Summit</option><option name="Source_Trends" value="Source Trends" location="HKG">Source Trends</option><option name="PSF_Forum" value="PSF Forum" location="SWE">PSF Forum</option><option name="Sedex_London" value="Sedex London" location="GBR">Sedex London</option><option name="AAFA_Sourcing" value="AAFA Sourcing" location="USA">AAFA Sourcing</option><option name="AI_Self-Hosted_Event" value="AI Self-Hosted Event" location="HKG">AI Self-Hosted Event</option><option name="AAFA_International_Product_Safety" value="AAFA International Product Safety" location="USA">AAFA International Product Safety</option><option name="AAFA_Product_Safety_East" value="AAFA Product Safety East" location="USA">AAFA Product Safety East</option><option name="Sustainable_Brands" value="Sustainable Brands" location="USA">Sustainable Brands</option><option name="14th_July_Sponsoring_Consulate" value="14th July Sponsoring Consulate" location="HKG">14th July Sponsoring Consulate</option><option name="AAFA_Traceability" value="AAFA Traceability" location="USA">AAFA Traceability</option><option name="AAFA_Social_Responsibility" value="AAFA Social Responsibility" location="USA">AAFA Social Responsibility</option><option name="Global_Footwear_Sustainability" value="Global Footwear Sustainability" location="USA">Global Footwear Sustainability</option><option name="Sourcing_Journal" value="Sourcing Journal" location="USA">Sourcing Journal</option><option name="Ethical_Trade_Forum" value="Ethical Trade Forum" location="GBR">Ethical Trade Forum</option><option name="AAFA_HK_Executive_Summit" value="AAFA HK Executive Summit" location="HKG">AAFA HK Executive Summit</option><option name="GSCP_General_Meeting" value="GSCP General Meeting" location="USA">GSCP General Meeting</option><option name="Sedex_Shanghai" value="Sedex Shanghai" location="CHN">Sedex Shanghai</option><option name="AAFA_Social_Responsibility" value="AAFA Social Responsibility" location="USA">AAFA Social Responsibility</option><option name="AAFA_Product_Safety_Dhaka" value="AAFA Product Safety Dhaka" location="IND">AAFA Product Safety Dhaka</option><option name="China_Fisheries_&amp;_Seafood_Expo" value="China Fisheries &amp; Seafood Expo" location="CHN">China Fisheries &amp; Seafood Expo</option><option name="AFFI_Frozen_Food" value="AFFI Frozen Food" location="USA">AFFI Frozen Food</option><option name="ICPHSO_Annual_Meeting" value="ICPHSO Annual Meeting" location="USA">ICPHSO Annual Meeting</option><option name="PPAI_Responsibility_Summit" value="PPAI Responsibility Summit" location="USA">PPAI Responsibility Summit</option><option name="ICPHSO_Intrenational" value="ICPHSO Intrenational" location="USA">ICPHSO Intrenational</option><option name="Sunrise_Brand_Walk" value="Sunrise Brand Walk" location="USA">Sunrise Brand Walk</option><option name="ASI_Orlando" value="ASI Orlando" location="USA">ASI Orlando</option><option name="China_Textile_Forum" value="China Textile Forum" location="CHN">China Textile Forum</option><option name="Toy_&amp;_Hobby" value="Toy &amp; Hobby" location="HKG">Toy &amp; Hobby</option><option name="China_International_Gift_&amp;_Home" value="China International Gift &amp; Home" location="CHN">China International Gift &amp; Home</option><option name="China_Electronics_Fair" value="China Electronics Fair" location="CHN">China Electronics Fair</option><option name="China_Gifts_&amp;_Houseware" value="China Gifts &amp; Houseware" location="CHN">China Gifts &amp; Houseware</option><option name="Children_Baby_Maternity_Expo" value="Children Baby Maternity Expo" location="CHN">Children Baby Maternity Expo</option><option name="Prime_Source_Forum" value="Prime Source Forum" location="HKG">Prime Source Forum</option><option name="China_Hardware_Fair" value="China Hardware Fair" location="CHN">China Hardware Fair</option><option name="International_Gifts_&amp;_Homes" value="International Gifts &amp; Homes" location="CHN">International Gifts &amp; Homes</option><option name="China_Yiwu" value="China Yiwu" location="CHN">China Yiwu</option><option name="China_Toy_Fair" value="China Toy Fair" location="CHN">China Toy Fair</option><option name="China_Plastics_International_Expo" value="China Plastics International Expo" location="CHN">China Plastics International Expo</option><option name="Canton_Fair" value="Canton Fair" location="CHN">Canton Fair</option><option name="East_China_Fair" value="East China Fair" location="CHN">East China Fair</option><option name="Intertextile_Shanghai_Apparel_Fabrics" value="Intertextile Shanghai Apparel Fabrics" location="CHN">Intertextile Shanghai Apparel Fabrics</option><option name="Le_Marché_XXXVII_Egypt" value="Le Marché XXXVII Egypt" location="EGY">Le Marché XXXVII Egypt</option><option name="Vancouver-China_Lunch_Event" value="Vancouver-China Lunch Event" location="CAN">Vancouver-China Lunch Event</option><option name="EcoVadis" value="EcoVadis" location="FRA">EcoVadis</option><option name="Silicon_Dragon" value="Silicon Dragon" location="CHN">Silicon Dragon</option><option name="SGCD" value="SGCD" location="USA">SGCD</option><option name="ASTRA_Marketplace" value="ASTRA Marketplace" location="USA">ASTRA Marketplace</option><option name="Sedex_Shanghai" value="Sedex Shanghai" location="CHN">Sedex Shanghai</option><option name="LIMA" value="LIMA" location="USA">LIMA</option><option name="International_Vision_Expo_West" value="International Vision Expo West" location="USA">International Vision Expo West</option><option name="PPAI_Product_Responsibility_Summit" value="PPAI Product Responsibility Summit" location="USA">PPAI Product Responsibility Summit</option><option name="Asia_Functional_and_Technical_Textile_Symposium" value="Asia Functional and Technical Textile Symposium" location="HKG">Asia Functional and Technical Textile Symposium</option><option name="Sourcing_Journal_Summit" value="Sourcing Journal Summit" location="USA">Sourcing Journal Summit</option><option name="ABC_Kids_Expo" value="ABC Kids Expo" location="USA">ABC Kids Expo</option><option name="CSF_Gifts" value="CSF Gifts" location="HKG">CSF Gifts</option><option name="Sustainability_Supply_Chain_Summit" value="Sustainability Supply Chain Summit" location="USA">Sustainability Supply Chain Summit</option><option name="Ethical_Trade_and_Human_Right_Form" value="Ethical Trade and Human Right Form" location="GBR">Ethical Trade and Human Right Form</option><option name="Global_Sources_Sourcing_Summit" value="Global Sources Sourcing Summit" location="HKG">Global Sources Sourcing Summit</option><option name="HKTDC_Optical_Fair" value="HKTDC Optical Fair" location="HKG">HKTDC Optical Fair</option><option name="Jeddah_International_Trade_Fair" value="Jeddah International Trade Fair" location="SAU">Jeddah International Trade Fair</option><option name="Innovation_Business_Forum" value="Innovation Business Forum" location="GBR">Innovation Business Forum</option><option name="Mega_Show" value="Mega Show" location="HKG">Mega Show</option><option name="AAFA_HK_Executive_Summit" value="AAFA HK Executive Summit" location="HKG">AAFA HK Executive Summit</option><option name="China_Fisheries_and_Seafood_Expo" value="China Fisheries and Seafood Expo" location="CHN">China Fisheries and Seafood Expo</option><option name="ICPHSO_International_Symposium" value="ICPHSO International Symposium" location="USA">ICPHSO International Symposium</option><option name="PPAI_Expo" value="PPAI Expo" location="USA">PPAI Expo</option><option name="HKTDC_Toy_Fair" value="HKTDC Toy Fair" location="HKG">HKTDC Toy Fair</option><option name="Sourcing_at_Magic" value="Sourcing at Magic" location="USA">Sourcing at Magic</option><option name="MIDO_Eyewear_Show" value="MIDO Eyewear Show" location="ITA">MIDO Eyewear Show</option><option name="FruitLogistica" value="FruitLogistica" location="DEU">FruitLogistica</option><option name="Vision_Expo_East" value="Vision Expo East" location="USA">Vision Expo East</option><option name="CSF_Electronics" value="CSF Electronics" location="HKG">CSF Electronics</option><option name="CSF_Mobile_Electronics" value="CSF Mobile Electronics" location="HKG">CSF Mobile Electronics</option><option name="JAC_CSR_Forum" value="JAC CSR Forum" location="FRA">JAC CSR Forum</option><option name="TIA_Toy_Safety_Compliance_Update" value="TIA Toy Safety Compliance Update" location="USA">TIA Toy Safety Compliance Update</option><option name="Made_in_Asia" value="Made in Asia" location="HKG">Made in Asia</option><option name="Pitti_Immagine_Uomo" value="Pitti Immagine Uomo" location="ITA">Pitti Immagine Uomo</option><option name="Spielwarenmesse" value="Spielwarenmesse" location="DEU">Spielwarenmesse</option><option name="100%_Optical" value="100% Optical" location="GBR">100% Optical</option><option name="China_(Shanghai)_International_Optics_Fair" value="China (Shanghai) International Optics Fair" location="CHN">China (Shanghai) International Optics Fair</option><option name="CIFF" value="CIFF" location="GBR">CIFF</option><option name="ICPHSO_Meeting_and_Training_Symposium" value="ICPHSO Meeting and Training Symposium" location="USA">ICPHSO Meeting and Training Symposium</option><option name="Berlin_Asia_Apparel_Expo" value="Berlin Asia Apparel Expo" location="DEU">Berlin Asia Apparel Expo</option><option name="East_China_Fair" value="East China Fair" location="CHN">East China Fair</option><option name="Dev-TestShow" value="Dev-TestShow" location="USA">Dev-TestShow</option><option name="AAFA_Executive_Summit_-_USA" value="AAFA Executive Summit - USA" location="USA">AAFA Executive Summit - USA</option><option name="Intertextiles_Shanghai" value="Intertextiles Shanghai" location="CHN">Intertextiles Shanghai</option><option name="ASD_Market_Week" value="ASD Market Week" location="USA">ASD Market Week</option><option name="ICPHSO_NA_Regional_Product_Safety_Training_Workshop" value="ICPHSO NA Regional Product Safety Training Workshop" location="USA">ICPHSO NA Regional Product Safety Training Workshop</option><option name="HKTDC_Electronics" value="HKTDC Electronics" location="HKG">HKTDC Electronics</option><option name="Sedex_London" value="Sedex London" location="GBR">Sedex London</option><option name="_ICTI_CARE_meeting" value=" ICTI CARE meeting" location="USA"> ICTI CARE meeting</option><option name="Global_Sources_Summit" value="Global Sources Summit" location="HKG">Global Sources Summit</option><option name="Wenzhou_Optics_Fair" value="Wenzhou Optics Fair" location="CHN">Wenzhou Optics Fair</option><option name="Canton_Fair" value="Canton Fair" location="CHN">Canton Fair</option><option name="AI_Ethical_Compliance_Conference" value="AI Ethical Compliance Conference" location="HKG">AI Ethical Compliance Conference</option><option name="IPPAG" value="IPPAG" location="USA">IPPAG</option><option name="FDRA_Executive_Summit" value="FDRA Executive Summit" location="USA">FDRA Executive Summit</option><option name="Expo_Seguridad" value="Expo Seguridad" location="USA">Expo Seguridad</option><option name="EcoVadis" value="EcoVadis" location="FRA">EcoVadis</option><option name="London_Produce_Show" value="London Produce Show" location="GBR">London Produce Show</option><option name="Fruit_Attraction" value="Fruit Attraction" location="ESP">Fruit Attraction</option><option name="Innovation_Forum" value="Innovation Forum" location="GBR">Innovation Forum</option><option name="Sedex_Shanghai" value="Sedex Shanghai" location="CHN">Sedex Shanghai</option><option name="Dev_TestSpon" value="Dev TestSpon" location="USA">Dev TestSpon</option><option name="Dev-TestShow" value="Dev-TestShow" location="USA">Dev-TestShow</option><option name="Dev-TestSpeak" value="Dev-TestSpeak" location="USA">Dev-TestSpeak</option><option name="Dev-TestSelf" value="Dev-TestSelf" location="USA">Dev-TestSelf</option><option name="Expo_Electrica_International" value="Expo Electrica International" location="MEX">Expo Electrica International</option><option name="Expo_Carga" value="Expo Carga" location="USA">Expo Carga</option><option name="SPLICE_Licensors_Summit" value="SPLICE Licensors Summit" location="USA">SPLICE Licensors Summit</option><option name="ICPHSO_NA_Regional_Product_Safety_Training_Workshop" value="ICPHSO NA Regional Product Safety Training Workshop" location="USA">ICPHSO NA Regional Product Safety Training Workshop</option><option name="14TH_July_Sponsoring_Consulate" value="14TH July Sponsoring Consulate" location="HKG">14TH July Sponsoring Consulate</option><option name="Customs_Brokers_Congress" value="Customs Brokers Congress" location="USA">Customs Brokers Congress</option><option name="CBMA_China" value="CBMA China" location="CHN">CBMA China</option><option name="SIAGRO_SUR" value="SIAGRO SUR" location="PER">SIAGRO SUR</option><option name="Expoalimentaria" value="Expoalimentaria" location="PER">Expoalimentaria</option><option name="Asia_Fruitlogistica_Hong_Kong" value="Asia Fruitlogistica Hong Kong" location="HKG">Asia Fruitlogistica Hong Kong</option><option name="AAFA_Product_Safety_Seminar" value="AAFA Product Safety Seminar" location="USA">AAFA Product Safety Seminar</option><option name="AAFA_Sourcing_Conference" value="AAFA Sourcing Conference" location="USA">AAFA Sourcing Conference</option><option name="AAFA_Social_Responsibility" value="AAFA Social Responsibility" location="USA">AAFA Social Responsibility</option><option name="Asia_Fruitlogistica_Hong_Kong" value="Asia Fruitlogistica Hong Kong" location="HKG">Asia Fruitlogistica Hong Kong</option><option name="China_International_Optics_Fair" value="China International Optics Fair" location="CHN">China International Optics Fair</option><option name="PPAI_Responsibility_Summit" value="PPAI Responsibility Summit" location="USA">PPAI Responsibility Summit</option><option name="China_and_Asia_Footwear_Summit" value="China and Asia Footwear Summit" location="CHN">China and Asia Footwear Summit</option><option name="Asia_America_Wholesale" value="Asia America Wholesale" location="USA">Asia America Wholesale</option><option name="COMCE_Al_Dia" value="COMCE Al Dia" location="MEX">COMCE Al Dia</option><option name="Expoalimentaria" value="Expoalimentaria" location="PER">Expoalimentaria</option><option name="PPAI_-_Responsibility_Summit" value="PPAI - Responsibility Summit" location="USA">PPAI - Responsibility Summit</option><option name="World_Ethical_Apparel_Roundtable" value="World Ethical Apparel Roundtable" location="USA">World Ethical Apparel Roundtable</option><option name="USFIA_Apparel_Importers_Conference" value="USFIA Apparel Importers Conference" location="USA">USFIA Apparel Importers Conference</option><option name="AAFA_Internation_Supply_Chain_Conference" value="AAFA Internation Supply Chain Conference" location="USA">AAFA Internation Supply Chain Conference</option><option name="SILMO_Paris" value="SILMO Paris" location="FRA">SILMO Paris</option><option name="HKTDC_-_Electronics" value="HKTDC - Electronics" location="HKG">HKTDC - Electronics</option><option name="PMA_Fresh_Summit" value="PMA Fresh Summit" location="USA">PMA Fresh Summit</option><option name="Saudi_Build" value="Saudi Build" location="SAU">Saudi Build</option><option name="CSF_-_Electronics" value="CSF - Electronics" location="HKG">CSF - Electronics</option><option name="Canton_Fair" value="Canton Fair" location="CHN">Canton Fair</option><option name="Yiwu_Fair" value="Yiwu Fair" location="CHN">Yiwu Fair</option><option name="China_Fisheries_and_Seafood_Expo" value="China Fisheries and Seafood Expo" location="CHN">China Fisheries and Seafood Expo</option><option name="HKTDC_Toy_Fair" value="HKTDC Toy Fair" location="HKG">HKTDC Toy Fair</option><option name="ALACAT_Panama_Congress" value="ALACAT Panama Congress" location="PAN">ALACAT Panama Congress</option><option name="Sourcing_Journal_Summit" value="Sourcing Journal Summit" location="USA">Sourcing Journal Summit</option><option name="Global_Sources_Summit" value="Global Sources Summit" location="HKG">Global Sources Summit</option><option name="Canton_Fair_-_Phrase_Two" value="Canton Fair - Phrase Two" location="CHN">Canton Fair - Phrase Two</option><option name="Canton_Fair_-_Phrase_Three" value="Canton Fair - Phrase Three" location="CHN">Canton Fair - Phrase Three</option><option name="AAFA_Executive_Think_Tank" value="AAFA Executive Think Tank" location="USA">AAFA Executive Think Tank</option></Tradeshows>
+		<Ads>
+			<option name="adMag" value="Ad in Magazine">Ad in Magazine</option>
+			<option name="adAirport" value="Ad in Airport">Ad in Airport</option>
+			<option name="adBanner" value="Online Banner">Online Banner</option>
+		</Ads>
+		<Reccomend>
+			<option name="rcmdClient" value="Client or Friend or Other Company">Client / Friend / Other company...</option>
+			<option name="rcmdCOC" value="Chamber of Commerce">Chamber of Commerce</option>
+		</Reccomend>
+		<SocialMedia>
+			<option name="smFacebook" value="Facebook">Facebook</option>
+			<option name="smLinkedIn" value="LinkedIn">LinkedIn</option>
+			<option name="smYoutube" value="Youtube">Youtube</option>
+			<option name="smTwitter" value="Twitter">Twitter</option>
+			<option name="smWeibo" value="Weibo">Weibo</option>
+		</SocialMedia>
+		<InternetSearch>
+			<option name="schBaidu" value="Baidu">Baidu</option>
+			<option name="schBing" value="BING">BING</option>
+			<option name="schGoogle" value="Google">Google</option>
+			<option name="schYahoo" value="Yahoo">Yahoo</option>
+			<option name="schYandex" value="Yandex">Yandex</option>
+			<option name="schOther" value="Other Internet search">Other Internet search</option>
+		</InternetSearch>
+		<Industries>
+			<option name="indBodycare" value="Bodycare">Bodycare</option>
+			<option name="indElectric" value="Electrical and Electronic Products">Electrical &amp; Electronic Products</option>
+			<option name="indFood" value="Food and Food Containers">Food &amp; Food Containers</option>
+			<option name="indGifts" value="Gifts and Premiums">Gifts &amp; Premiums</option>
+			<option name="indHomeAndGarden" value="Home and Gardenware">Home &amp; Gardenware</option>
+			<option name="indIndustrial" value="Industrial, Mechanical and Construction Items">Industrial, Mechanical &amp; Construction Items</option>
+			<option name="indPrintPack" value="Printing and Packaging">Printing &amp; Packaging</option>
+			<option name="indTextile" value="Textile, Apparel, Footwear and Accessories">Textile, Apparel, Footwear &amp; Accessories</option>
+			<option name="indToys" value="Toys and Recreational Items">Toys &amp; Recreational Items</option>
+		</Industries>
+	</en>
+
+	<es>
+		<WhereHear>
+			<!-- Anything that does not fall in these catagories should be (Not Categorized) -->
+			<option name="ads" value="Advertising" submenu="Ads">Publicidad</option>
+			<option name="alreadyclient" value="Already a client">Ya soy cliente</option>
+			<option name="contactedbyai" value="Contacted by AsiaInspection">Contactado por AsiaInspection</option>
+			<option name="internetsearch" value="Internet Search" submenu="InternetSearch">Otro Buscador en Internet</option>
+			<option name="news" value="News (TV, Radio, Press article)">Noticias (TV, Radio, Prensa)</option>
+			<option name="recommend" value="Recommendation" submenu="Reccomend">Recomendación</option>
+			<option name="socialmedia" value="Social Media" submenu="SocialMedia">Redes sociales</option>
+			<option name="tradeshow" value="Tradeshow" submenu="Tradeshows">Feria</option>
+			<option name="event" value="Event" submenu="Event">Evento, Congreso</option>
+		</WhereHear>
+		<Tradeshows>
+			<option name="2016-03-AAFA_Annual_Executive_Summit" location="USA" value="2016 - 03 - AAFA Annual Executive Summit">AAFA Annual Executive Summit</option>
+            <option name="2016-07-AAFA_Social_Responsibility" location="USA" value="2016 - 07 - AAFA Social Responsibility">AAFA Social Responsibility</option>
+            <option name="2016-04-AAFA_Sourcing" location="USA" value="2016 - 04 - AAFA Sourcing">AAFA Sourcing Conference</option>
+            <option name="2017-10-ABC_Kids_Expo" location="USA" value="2017 - 10 - ABC Kids Expo">ABC Kids Expo</option>
+            <option name="2016-06-ASTRA" location="USA" value="2016 - 06 - ASTRA">ASTRA Marketplace</option>
+            <option name="2017-04-Canton_Fair" location="CHN" value="2017 - 04 - Canton Fair">Canton Fair (Spring)</option>
+            <option name="2016-11-China_Fisheries_and_Seafood_Expo" location="CHN" value="2016 - 11 - China Fisheries &amp; Seafood Expo">China Fisheries &amp; Seafood Expo</option>
+            <option name="2016-10-CSF-Electronics" location="HKG" value="2016 - 10 - CSF - Electronics">China Sourcing Fair Electronics (Autumn)</option>
+            <option name="2016-04-CSF-Electronics" location="HKG" value="2016 - 04 - CSF - Electronics">China Sourcing Fair Electronics (Spring)</option>
+            <option name="2016-10-CSF-Gifts" location="HKG" value="2016 - 10 - CSF - Gifts">China Sourcing Fair Gifts (Autumn)</option>
+            <option name="2016-04-CSF-Gifts" location="HKG" value="2016 - 04 - CSF - Gifts">China Sourcing Fair Gifts (Spring)</option>
+            <option name="2017-04-CSF-Mobile" location="HKG" value="2017 - 04 - CSF - Mobile">China Sourcing Fair Mobile (Spring)</option>
+            <option name="2016-10-China_Toys_Show" location="CHN" value="2016 - 10 - China Toys Show">China Toys Show</option>
+            <option name="2016-11-Compliance_Tuesday" location="HKG" value="2016 - 11 - Compliance Tuesday">Compliance Tuesday</option>
+            <option name="2016-04-EcoVadis" location="FRA" value="2016 - 04 - EcoVadis">EcoVadis</option>
+            <option name="2017-02-Fruitlogistica" location="GER" value="2017 - 02 - Fruitlogistica">FRUIT LOGISTICA</option>
+            <option name="2016-10-Global_Sources_Sourcing_Summit" location="HKG" value="2016 - 10 - Global Sources Sourcing Summit">Global Sources Sourcing Summit</option>
+            <option name="2016-10-HKTDC-Electronics" location="HKG" value="2016 - 10 - HKTDC - Electronics">HKTDC Electronics (Autumn)</option>
+            <option name="2016-04-HKTDC-Electronics" location="HKG" value="2016 - 04 - HKTDC - Electronics">HKTDC Electronics (Spring)</option>
+            <option name="2016-04-HKTDC-Gifts" location="HKG" value="2016 - 04 - HKTDC - Gifts">HKTDC Gifts (Spring)</option>
+            <option name="2016-11-HKTDC_Optical" location="HKG" value="2016 - 11 - HKTDC Optical">HKTDC Optical</option>
+            <option name="2016-01-HKTDC_Toy_Fair" location="HKG" value="2016 - 01 - HKTDC Toy Fair">HKTDC Toys</option>
+            <option name="2016-02-ICPHSO_Annual_Meeting" location="USA" value="2016 - 02 - ICPHSO Annual Meeting">ICPHSO Annual Meeting</option>
+            <option name="2016-10-Innovation_Forum" location="UKG" value="2016 - 10 - Innovation Forum">Innovation Forum</option>
+            <option name="2016-03-IHA" location="USA" value="2016 - 03 - IHA">International Home &amp; Housewares</option>
+            <option name="2016-12-Jeddah_International_Trade_Fair" location="SAU" value="2016 - 12 - Jeddah International Trade Fair">Jeddah International Trade Fair</option>
+            <option name="2016-03-Made_in_Asia" location="HKG" value="2016 - 03 - Made in Asia">Made in Asia</option>
+            <option name="2017-02-MIDO_Eyewear_Show" location="ITA" value="2017 - 02 - MIDO Eyewear Show">MIDO Eyewear Show</option>
+            <option name="2016-07-China_Textile_and_Apparel" location="USA" value="2016 - 07 - China Textile &amp; Apparel">New York China Textiles &amp; Apparel</option>
+            <option name="2016-02-NY_Toy_Fair" location="USA" value="2016 - 02 - NY Toy Fair">New York Toy Fair</option>
+            <option name="2016-01-PPAI_Expo" location="USA" value="2016 - 01 - PPAI Expo">PPAI Expo</option>
+            <option name="2016-09-PPAI_Responsibility_Summit" location="USA" value="2016 - 09 - PPAI Responsibility Summit">PPAI Responsibility Summit</option>
+            <option name="2016-10-Saudi_Build" location="SAU" value="2016 - 10 - Saudi Build">Saudi Build</option>
+            <option name="2016-03-Sedex_London" location="UKG" value="2016 - 03 - Sedex London">Sedex London</option>
+            <option name="2016-03-SourceTrends" location="HKG" value="2016 - 03 - SourceTrends">SourceTrends</option>
+            <option name="2016-02-Sourcing_at_Magic" location="USA" value="2016 - 02 - Sourcing at Magic">Sourcing at Magic</option>
+            <option name="2016-09-Sourcing_Journal_Summit" location="USA" value="2016 - 09 - Sourcing Journal Summit">Sourcing Journal Summit</option>
+            <option name="2016-10-Sustainable_Supply_Chain_Summit" location="UKG" value="2016 - 10 - Sustainable Supply Chain Summit">Sustainable Supply Chain Summit</option>
+            <option name="2016-05-ThaiFex" location="THI" value="2016 - 05 - ThaiFex">ThaiFex</option>
+            <option name="2017-02-Toy_Safety_Compliance" location="USA" value="2017 - 02 - Toy Safety Compliance">TIA Toy Safety Compliance</option>
+            <option name="2017-03-Vision_Expo_East" location="USA" value="2017 - 03 - Vision Expo East">Vision Expo East</option>
+		</Tradeshows>
+		<Ads>
+			<option name="adMag" value="Ad in Magazine">Publicidad en revista</option>
+			<option name="adAirport" value="Ad in Airport">Publicidad en el aeropuerto</option>
+			<option name="adBanner" value="Online Banner">Banner</option>
+		</Ads>
+		<Reccomend>
+			<option name="rcmdClient" value="Client or Friend or Other Company">Cliente / Amigo / Otra empresa...</option>
+			<option name="rcmdCOC" value="Chamber of Commerce">Cámara de Comercio</option>
+		</Reccomend>
+		<SocialMedia>
+			<option name="smFacebook" value="Facebook">Facebook</option>
+			<option name="smLinkedIn" value="LinkedIn">LinkedIn</option>
+			<option name="smYoutube" value="Youtube">Youtube</option>
+			<option name="smTwitter" value="Twitter">Twitter</option>
+			<option name="smWeibo" value="Weibo">Weibo</option>
+		</SocialMedia>
+		<InternetSearch>
+			<option name="schBaidu" value="Baidu">Baidu</option>
+			<option name="schBing" value="BING">BING</option>
+			<option name="schGoogle" value="Google">Google</option>
+			<option name="schYahoo" value="Yahoo">Yahoo</option>
+			<option name="schYandex" value="Yandex">Yandex</option>
+			<option name="schOther" value="Other Internet search">Otro buscador de Internet</option>
+		</InternetSearch>
+		<Industries>
+			<option name="indBodycare" value="Bodycare">Cuidado del cuerpo</option>
+			<option name="indElectric" value="Electrical and Electronic Products">Productos Electricos o Electrónicos</option>
+			<option name="indFood" value="Food and Food Containers">Alimentación o Envases</option>
+			<option name="indGifts" value="Gifts and Premiums">Regalo Promocional</option>
+			<option name="indHomeAndGarden" value="Home and Gardenware">Menaje del Hogar y Jardín</option>
+			<option name="indIndustrial" value="Industrial, Mechanical and Construction Items">Artículos Industriales, Mecánicos y de Construcción</option>
+			<option name="indPrintPack" value="Printing and Packaging">Imprenta y Empaquetado</option>
+			<option name="indTextile" value="Textile, Apparel, Footwear and Accessories">Textil, Ropa, Calzado y Accesorios</option>
+			<option name="indToys" value="Toys and Recreational Items">Juguetes y Artículos de Ocio</option>
+		</Industries>
+	</es>
+
+</document>

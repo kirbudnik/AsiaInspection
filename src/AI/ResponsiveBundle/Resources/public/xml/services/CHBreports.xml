@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<pageMeta>
+		<pageTitle>
+			<en>AI Laboratory Testing Reports Database | Please Login to Continue</en>
+			<fr>Base de Données de Rapports | AsiaInspection.fr</fr>
+			<zh>实验室报告数据库 |  AsiaInspection.com</zh>
+			<ar>قاعدة بيانات الفحوصات والتقرير  | AsiaInspection.ae  </ar>
+		</pageTitle>
+		<pageKeywords>
+			<en>Access your orders and results via the AI laboratory testing reports database here. Follow this link to login and access your reports.</en>
+		</pageKeywords>
+	</pageMeta>
+
+	<en>
+		<downReport>Download Report</downReport>
+		<upReport>Report Upload</upReport>
+		<labReports>AI Laboratory Testing Reports Database</labReports>
+		<reportNumber>Report Number</reportNumber>
+		<text1>You may verify the authenticity of an AsiaInspection Lab Test report using the form below.</text1>
+		<text2>Enter the Report Number and Password that should appear on the Report and you will be able to retrieve the original Report that was issued by AI.</text2>
+		<contactTeam>Contact our team for any questions.</contactTeam>
+		<username>Username</username>
+		<password>Password</password>
+		<reportFile>Report File</reportFile>
+		<login>Login</login>
+		<submit>Search</submit>
+		<upload>Upload</upload>
+		<errors>
+			<noReport>Error: Report not found or incorrect password given</noReport>
+			<wrongPass>Wrong Username or Password.</wrongPass>
+		</errors>
+	</en>
+	<ar>
+		<downReport>حمل تقرير </downReport>
+		<upReport>أضف تقرير</upReport>
+		<labReports>قاعدة بيانات الفحوصات المعملية</labReports>
+		<reportNumber>رقم التقرير </reportNumber>
+		<text1>
+يمكنك التأكد من مصداقية تقرير تم اصداره عن طريق شركتنا عن طريق  الإستمارة أدناه </text1>
+		<text2>أدخل رقم التقرير وكلمة المرور التي يفترض أن تظهر على التقرير وسوف تتمكن من إسترداد النسخة الأصلية التي تم اصدرها من قبلنا</text2>
+		<contactTeam>توصل مع فرق عملنا للإستفسار </contactTeam>
+		<username> إسم  المستخدم </username>
+		<password>كلمة السر </password>
+		<reportFile>ملف التقرير </reportFile>
+		<login>الدخول</login>
+		<submit>بحث </submit>
+		<upload>حمل</upload>
+		<errors>
+			<noReport>خطأ التقرير غير موجود أو كلمة المرور غير صحيحة </noReport>
+			<wrongPass>إسم المستخدم  أو كلمة المرور غير صحيح </wrongPass>
+		</errors>
+	</ar>
+	<fr>
+		<labReports>Base de Données des Rapports de Tests des Laboratoires AI</labReports>
+		<text1>Vous pouvez vérifier l'authenticité d'un Rapport de Test mené par AsiaInspection en utilisant le formulaire ci-dessous.</text1>
+		<text2>Entrez le Numéro de Rapport et le mot de passe qui devraient figurer sur le rapport et vous pourrez récupérer le Rapport original délivré par AI.</text2>
+		<contactTeam>Contactez notre équipe pour n'importe quelle question.</contactTeam>
+		<reportNumber>Numéro de Rapport</reportNumber>
+		<password>Mot de passe</password>
+		<submit>Recherche</submit>
+		<upload>Télécharger</upload>
+		<errors>
+			<noReport>Erreur : Rapport introuvable ou mot de passe incorrect</noReport>
+			<wrongPass>Nom d'utilisateur ou mot de passe incorrect.</wrongPass>
+		</errors>
+	</fr>
+	<zh>
+		<downReport>下载报告</downReport>
+		<upReport>报告上传 </upReport>
+		<labReports>AI亚检实验室报告数据库</labReports>
+		<text1>你可以通过填写以下的表格来认证你的AI亚检实验室报告的真实性。</text1>
+		<text2>输入你在收到的报告上的编号和密码，你就能通过邮件收到我们AI亚检发出的原始报告。</text2>
+		<contactTeam>如果有任何问题请联系我们的团队</contactTeam>
+		<reportNumber>报告编号</reportNumber>
+		<username>用户名</username>
+		<password>密码</password>
+		<reportFile>报告文件</reportFile>
+		<login>登录</login>
+		<upload>上传</upload>
+		<submit>查询</submit>
+		<errors>
+			<noReport>Error: Report not found or incorrect password given</noReport>
+			<wrongPass>Wrong Username or Password.</wrongPass>
+		</errors>
+	</zh>
+	<de>
+		<downReport>Bericht herunterladen</downReport>
+		<upReport>Report Upload</upReport>
+		<labReports>AI Laboratory Testing Reports Database</labReports>
+		<reportNumber>Report Number</reportNumber>
+		<text1>You may verify the authenticity of an AsiaInspection Lab Test report using the form below.</text1>
+		<text2>Enter the Report Number and Password that should appear on the Report and you will be able to retrieve the original Report that was issued by AI.</text2>
+		<contactTeam>Contact our team for any questions.</contactTeam>
+		<username>Username</username>
+		<password>Password</password>
+		<reportFile>Report File</reportFile>
+		<login>Login</login>
+		<submit>Search</submit>
+		<upload>Upload</upload>
+		<errors>
+			<noReport>Error: Report not found or incorrect password given</noReport>
+			<wrongPass>Wrong Username or Password.</wrongPass>
+		</errors>
+	</de>
+</document>

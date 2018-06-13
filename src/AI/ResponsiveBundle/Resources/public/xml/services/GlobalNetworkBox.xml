@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<en>
+		<title>Global Network, Local Knowledge</title>
+		<pgph>
+			With over %total_Inspectors% trained and qualified inspectors and auditors, we guarantee to be at any factory within 48 hours.
+			We follow the strictest hiring standards, employing only university graduates, with a minimum requirement of five years experience in quality control and auditing.  Each inspector and auditor is native to the area in which they work, with an unparalleled expertise in local business practices.
+		</pgph>
+		<clickMap url="/quality-control-coverage-asia-china">Service Coverage Map</clickMap>
+		<serviceArea>Service Area</serviceArea>
+	</en>
+	
+	<zh>
+		<title>全球网络，本土知识</title>
+		<pgph>
+			拥有%total_Inspectors%多名训练有素、业务精干的检验人员队伍，我们承诺， 能在48小时内深入到全亚洲的任何一家工厂。
+			我们遵行严格的雇佣规则，要求检验人员必须受过大学教育，并在质量检验领域拥有至少5年工作经验。同时实行地方雇佣办法，保证检验人员能将其熟知的地方文化及商业实践充分应用到工作中。 
+		</pgph>
+		<clickMap url="/quality-control-coverage-asia-china">点击放大</clickMap>
+		<serviceArea>服务区域</serviceArea>
+	</zh>
+	
+	<fr>
+		<title>Réseau global, connaissances locales </title>
+		<pgph>
+			Avec plus de 900 inspecteurs formés et qualifiés, nous garantissons une intervention dans toute usine d'Asie sous 48 h.
+			Nous appliquons les standards de recrutement les plus stricts : tous nos Inspecteurs possèdent un diplôme universitaire et ont un minimum de 5 ans d'expérience du contrôle qualité. Natifs de leur zone d'intervention, ils ont une connaissance pointue des pratiques locales. 
+		</pgph>
+		<clickMap url="/reseau-inspecteurs-asie">Cliquez pour elargir</clickMap>
+		<serviceArea>Zone de Service</serviceArea>
+	</fr>
+	
+	<ar>
+		<title>الشبكة العالمية والمعرفة المحلية</title>
+		<pgph>
+			مع أكثر من %total_Inspectors% مفتش مدرب و مؤهل ، نضمن لك أن يتواجد مفتشينا في الموقع في أقل من 48 ساعة ، شركتنا تتبع أدق المعايير في التوظيف . الشركة توظف خريجي الجامعات فقط مع إستيفاء شروط الحد الادني للتوظيف كمثال تواجد خبرة لا تقل عن خمسة سنوات في مجال مراقبة الجوده و كل مفتش يجب ان يكون من مقيمي المنطقة التي سوف يعمل بها و لديه خبرة كبيرة في مجال المعاملات التجارية في هذه المنطقة
+		</pgph>
+		<clickMap url="/quality-control-coverage-asia-china">اضغط للتكبير</clickMap>
+	</ar>
+	
+	<ru>
+		<title>Глобальная сеть, концентрация знаний</title>
+		<pgph>
+			Благодаря наличию более %total_Inspectors% обученных квалифицированных инспекторов мы сможем быть на любой фабрике Азии в течение 48 часов.
+			Мы следуем жестким стандартам найма, принимая на работу только выпускников ВУЗов с опытом работы в индустрии контроля качества не менее пяти лет. Каждый инспектор является специалистом в той области, в которой он работает, а также профессионалом в местных коммерческих практиках. 
+		</pgph>
+		<clickMap url="/quality-control-coverage-asia-china">Service Coverage Map</clickMap>
+	</ru>
+
+	<es>
+		<title>Red Global, Conocimientos Locales</title>
+		<pgph>
+			Con más de 900 inspectores formados y titulados, le garantizamos estar en cualquier fábrica de Asia en menos de 48 horas. Seguimos los estándares más estrictos de contratación, empleando únicamente a licenciados universitarios con una experiencia mínima de 5 años en control de calidad. Nativos del lugar donde inspeccionarán y con unos conocimientos sin parangón en las prácticas de negocio de su región.		
+		</pgph>
+		<clickMap url="/zonas-inspeccion-control-calidad-asia-china">Mapa de cobertura de servicio</clickMap>
+	</es>
+	
+	<de>
+		<title>Globales Netzwerk, lokales Fachwissen</title>
+		<pgph>Einer unserer mehr als %total_Inspectors% geschulten und qualifizierten Prüfer ist innerhalb von 48 Stunden beim gewünschten Werk in Asien. Garantiert. Alle unsere Mitarbeiter verfügen über einen Universitätsabschluss und mindestens fünf Jahre einschlägige Erfahrung. Sie stammen aus der Region und sind bestens mit lokalen Geschäftsgepflogenheiten vertraut.</pgph>
+		<clickMap url="/inspektor-netzwerk">Klicken zum Vergrößern</clickMap>
+	</de>
+	
+	<it>
+		<title>Rete globale, know-how locale</title>
+		<pgph>Con oltre %total_Inspectors% ispettori qualificati, AsiaInspection è in grado di raggiungere qualsiasi fabbrica in Asia nel giro di 48 ore.[1] I nostri ispettori sono assunti in base a criteri rigidissimi: laureati, vantano almeno 5 anni di esperienza nel settore del controllo qualità. Lavorano tutti nella propria regione di provenienza e possiedono una conoscenza estremamente approfondita della realtà imprenditoriale locale.</pgph>
+		<clickMap url="/quality-control-coverage-asia-china">Fai clic per ingrandire</clickMap>
+	</it>
+
+	<pt>
+		<title>Rede global, Conhecimento local</title>
+		<pgph>
+			Com mais de %total_Inspectors% inspetores treinados e qualificados, nós garantimos a nossa presença em qualquer fábrica na Ásia dentro de 48 horas. Seguimos os mais rígidos padrões de contratação, empregando somente profissionais com curso superior, com uma exigência de, no mínimo, cinco anos de experiência em controle de qualidade. Cada inspetor é nativo em sua própria área de atuação, com uma experiência inigualável nas práticas de negócios locais.
+		</pgph>
+		<clickMap url="/quality-control-coverage-asia-china">Clique para ampliar</clickMap>
+	</pt>
+
+	<tr>
+		<title>Global Ağ, Yerel Bilgi</title>
+		<pgph>
+			%total_Inspectors%'den fazla eğitimli ve kalifiye denetçi ve müfettiş ile, fabrikanız nerede olursa olsun 48 saat içinde orda olmayı garanti ediyoruz. Kalite alanında en az beş yıl deneyim şartıyla, sadece üniversite mezunlarını işe alarak en sıkı istihdam standartlarına uyuyoruz
+
+		</pgph>
+		<clickMap url="/quality-control-coverage-asia-china">Hizmet Kapsam Haritası</clickMap>
+		<serviceArea>Service Area</serviceArea>
+	</tr>
+</document>

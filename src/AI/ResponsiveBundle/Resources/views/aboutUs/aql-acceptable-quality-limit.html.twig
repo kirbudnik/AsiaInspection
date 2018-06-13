@@ -1,0 +1,36 @@
+{% extends 'AIResponsiveBundle:aboutUs:aboutUsBase.html.twig'%}
+{% block bigTitle %} {{xml.title}} {% endblock %}
+{% block pagename %}AQLstandards{% endblock %}
+{% block smallText %}{{xml.titleSubText}}{% endblock %}
+  
+{% block AQLcontent %}
+ <div class="container wrapper">
+   <div class="row subMainBlock margin20" style="margin-top:30px;">
+      <div class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-offset-1 col-md-7 col-lg-7 col-xl-offset-0 col-xl-8 sidebox paddingLeftZero wrapper">
+          <div style="margin-bottom:20px;">
+             <h2 class="marginZero padding15" style="font-weight:bold;margin-top:-15px;">{{xml.AQLtitle|raw}}</h4>
+             {{xml.AQLtext|raw}}
+             <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.howDoItitle}}</h4>
+             {{xml.howDoItext|raw}}
+             <div id="bigScreen" style="margin-top:20px;">
+               <img alt="Acceptable Quality Limit - AQL Standards Chart" src="{{assetsDomain}}/images/AQLTable.gif" class="center-block">
+             </div>
+               <div id="smallScreen" style="display:none;">
+                  <img alt="Acceptable Quality Limit - AQL Standards Chart" src="{{assetsDomain}}/images/AQLTable.gif" class="center-block" width="100%">
+              </div>
+          </div>
+      </div>
+        <div class="sidebox col-xs-12 col-md-4">
+          <div class="col-md-offset-1" style="margin-right:10px;">
+
+          {% set type = "aql" %}
+          {% include 'AIResponsiveBundle:Default:PricingBox.html.twig' %}
+
+          <!-- Need More Information Box [Begin] -->
+          {% include 'AIResponsiveBundle:Default:NeedMoreInfo.html.twig' %}
+          <!-- Need More Information Box [End] -->
+        </div>
+      </div>
+     </div>
+  </div>
+{% endblock %}

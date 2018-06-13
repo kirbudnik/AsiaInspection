@@ -1,0 +1,393 @@
+h1 {
+  font-family: 'Open Sans';
+  font-size: 30px; }
+
+.subheading {
+  font-family: 'Open Sans';
+  font-size: 15px; }
+
+p {
+  font-family: 'Open Sans';
+  font-size: 14px; }
+
+.subsection {
+  padding-top: 50px;
+  position: relative;
+  text-align: center; }
+  .subsection a:link, .subsection a:visited {
+    color: #78C0F0; }
+  .subsection a:hover, .subsection a:focus {
+    color: #337ab7;
+    text-decoration: underline; }
+
+/* Video Section */
+#sectionOne {
+  position: relative;
+  overflow: hidden;
+  padding-top: 0;
+  height: 425px;
+  background-image: url(https://s3.asiainspection.com/images/responsive/main_right_tiny.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: white; }
+  #sectionOne #textOverlay {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%; }
+  #sectionOne #videoOverlayHomepage {
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%; }
+  #sectionOne #v {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    /*
+    object-position: 50% 30%;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    */ }
+
+#sectionTwo .subheading {
+  margin-bottom: 5px; }
+#sectionTwo .image {
+  min-height: 50px;
+  margin-bottom: 10px; }
+
+#sectionThree .image {
+  margin-bottom: 10px; }
+
+#sectionFour {
+  padding-bottom: 30px; }
+
+#sectionFive {
+  padding-top: 60px;
+  padding-bottom: 20px; }
+
+#sectionSix {
+  padding-bottom: 60px; }
+
+.subsection:nth-child(even) {
+  background-color: #ffffff; }
+
+.subsection:nth-child(odd) {
+  background-color: #f7f7f7; }
+
+.footer {
+  background-color: #f1f1f1; }
+
+#homeGetStartedBox {
+  background-color: transparent;
+  text-align: center;
+  padding: 1.3em;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.homeSCP_image {
+  height: 40%;
+  background-image: "https://s3.asiainspection.com/images/responsive/AI-on-multiple-devices.png";
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 100%; }
+
+#homeDemoWrapper {
+  max-width: 1150px;
+  margin: 0 auto; }
+  #homeDemoWrapper .homeDemoBox {
+    margin-bottom: 20px; }
+  #homeDemoWrapper .homeWatchDemoLinks {
+    max-width: 75%;
+    margin: 0 auto; }
+  #homeDemoWrapper #demodesktoplink {
+    display: block;
+    min-width: 240px;
+    max-width: 330px;
+    margin: 0 auto;
+    color: white; }
+  #homeDemoWrapper #demomobilelink {
+    display: none;
+    min-width: 160px;
+    max-width: 320px;
+    margin: 0 auto;
+    color: white; }
+
+#homeServicesText {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto; }
+
+#homeServicesRow {
+  max-width: 1150px;
+  margin: 0 auto; }
+
+#homePublicationsRow {
+  max-width: 1150px;
+  margin: 0 auto; }
+
+#assuranceWrapper {
+  max-width: 1150px; }
+  #assuranceWrapper #SliderAssurance {
+    position: relative;
+    overflow: auto;
+    max-width: 1150px; }
+    #assuranceWrapper #SliderAssurance ul {
+      list-style: none;
+      margin-top: 40px; }
+      #assuranceWrapper #SliderAssurance ul .assuranceSlide {
+        min-height: 160px;
+        text-align: center;
+        float: left; }
+        #assuranceWrapper #SliderAssurance ul .assuranceSlide .assurancePictogram {
+          display: inline-block;
+          max-height: 72px;
+          vertical-align: middle;
+          margin-right: 20px; }
+        #assuranceWrapper #SliderAssurance ul .assuranceSlide .sliderText {
+          display: inline-block;
+          color: black;
+          font-size: 15px;
+          margin-bottom: 0; }
+          #assuranceWrapper #SliderAssurance ul .assuranceSlide .sliderText .sliderTextHighlight {
+            font-size: 30px; }
+
+.dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+  text-align: center;
+  -webkit-padding-end: 40px; }
+
+.dots li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid #aaa;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .4;
+  -webkit-transition: background .5s, opacity .5s;
+  -moz-transition: background .5s, opacity .5s;
+  transition: background .5s, opacity .5s; }
+
+.dots li.active {
+  background: #aaa;
+  opacity: 1; }
+
+#homePricingBoxWrapper {
+  max-width: 1150px;
+  margin: 0 auto 25px; }
+
+.homePublications .ourLatestBox h3 {
+  max-width: 360px;
+  margin: 0 auto; }
+.homePublications .ourLatestBox img {
+  margin-bottom: 10px; }
+.homePublications .ourLatestBox .buttonbox {
+  max-width: 360px;
+  margin: 0 auto; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .ourLatestBox h3 {
+    min-height: 30px; } }
+.serviceBox {
+  margin-bottom: 20px;
+  border-right: 1px solid #ddd; }
+
+.serviceBox:nth-child(4) {
+  border-right: 0; }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px; }
+
+  #demomobilelink {
+    display: block; }
+
+  #demodesktoplink {
+    display: none; }
+
+  #assuranceWrapper {
+    max-width: 320px; }
+    #assuranceWrapper #SliderAssurance {
+      max-width: 320px;
+      min-height: 260px; }
+    #assuranceWrapper .assuranceSlide {
+      min-height: 260px;
+      width: 320px; }
+      #assuranceWrapper .assuranceSlide .assurancePictogram {
+        margin-bottom: 15px;
+        margin-left: 20px; }
+
+  .serviceBox:nth-child(2) {
+    border-right: 0; } }
+a.btn.btn-primary,
+button.btn-primary,
+button.btn-primary:focus,
+input[type="button"].btn-primary,
+input[type="submit"].btn-primary,
+input[type="reset"].btn-primary {
+  background-color: #5BA331;
+  border: 1px solid #5BA331;
+  color: white; }
+
+a.btn.btn-primary:hover,
+button.btn-primary:hover,
+button.btn-primary:focus:hover,
+input[type="button"].btn-primary:hover,
+input[type="submit"].btn-primary:hover,
+input[type="reset"].btn-primary:hover {
+  background-color: #4B8728; }
+
+a.btn.btn-primary:active,
+button.btn-primary:active,
+input[type="button"].btn-primary:active,
+input[type="submit"].btn-primary:active,
+input[type="reset"].btn-primary:active {
+  background-color: #4B8728; }
+
+a.btn.btn-primary.btn-disabled:hover,
+button.btn-primary.btn-disabled:hover,
+input[type="button"].btn-primary.btn-disabled:hover,
+input[type="submit"].btn-primary.btn-disabled:hover,
+input[type="reset"].btn-primary.btn-disabled:hover {
+  background-color: #5BA331; }
+
+/*
+.homeTestimonial {
+    text-align: center;
+    width:100%;
+    .sliderText{
+        font-size: $font_size_11;
+        line-height: $font_size_11;
+        font-family:$font_primary;
+        color: $black;
+    }
+    p {
+        color: $color_celeste_approx;
+        font-family: $font_secondary;
+        font-weight: 10px;
+    }
+    .sectionHeader{ color: $black; }
+    background-color:$white;
+    position: absolute;
+    #TestimonialSlider{
+        p{ color:black; }
+    }
+    .homeClientLogo{
+        width: calc(16% - 1em);
+        height:8em;
+        display:inline-block;
+        margin-right:1em;
+        background-size: 85% auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: rgba(255,255,255,0.1);
+        position:relative;
+        &:nth-child(1) { background-image:$url_ClientLogo_3; width: calc(12% - 1em); }
+        &:nth-child(2) { background-image:$url_ClientLogo_2; width: calc(12% - 1em); }
+        &:nth-child(3) { background-image:$url_ClientLogo_1; width: calc(12% - 1em); }
+        &:nth-child(4) { background-image:$url_ClientLogo_4; width: calc(23% - 1em); background-position: center 42%; }
+        &:nth-child(5) { background-image:$url_ClientLogo_5; width: calc(24% - 1em); }
+        &:nth-child(6) { background-image:$url_ClientLogo_6; width: calc(13% - 1em); }
+        &:nth-child(7) { background-image:$url_ClientLogo_7; }
+        &:nth-child(8) { background-image:$url_ClientLogo_8; }
+        &:nth-child(9) { background-image:$url_ClientLogo_9; }
+        &:nth-child(10) { background-image:$url_ClientLogo_10; }
+        &:nth-child(11) { background-image:$url_ClientLogo_11; }
+        &:nth-child(12) { background-image:$url_ClientLogo_12; }
+        &:nth-child(13) { background-image:$url_ClientLogo_13; }
+    }
+}
+*/
+/*
+#homePricingBoxWrapper{
+    height:50%;
+    margin-bottom:25px;
+    .homePriceCTA{ display:none; }
+}
+#homePricingBoxTitle{ height:17.5%; margin:$font-size_1 0px; }
+#homePriceCTA{ height:17.5%; }
+
+.homePublications{
+    text-align:center;
+    h1 { color:$color_chambray_approx; }
+    .ourLatestBox{
+        h3 { color:$black; font-weight:bold; }
+        .buttonbox { bottom:1em; padding:0 10px;margin:0 auto; }
+        display:inline-block;
+        text-align:center;
+        margin-bottom:$font_size_8;
+        height:90%;
+    }
+    img { max-width:100%; }
+}
+#homePublicationsRow {
+    .ourLatestBox{
+        a{padding:0;}
+    }
+}
+*/
+/*targeting ipad portrait*/
+/*
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+    #homePricingBoxWrapper{
+        height:65%;
+    }
+    #rowPriceCTA{
+        display:none;
+    }
+    .slide-feature4{
+        height:100% !important;
+        padding-bottom: 30px;
+
+    }
+    #scrollAnchor_2{
+        height:600px !important;
+
+    }
+
+    #demomobilelink{
+        margin-top: 40px;
+    }
+    #section2HeaderWrap{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #scrollAnchor_5{
+        height:600px !important;
+    }
+    .homeTestimonial{
+        height:600px !important;
+    }
+    #ipadSpectialHomeClientTestimonialRow{
+        height:65% !important;
+    }
+
+
+    #TestimonialSlider{
+        height:300px !important;
+    }
+    #TestimonialSlider ul{
+        height:300px !important;
+    }
+}
+
+*/

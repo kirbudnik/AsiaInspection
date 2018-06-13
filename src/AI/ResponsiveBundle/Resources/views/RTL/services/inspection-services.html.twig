@@ -1,0 +1,66 @@
+{% extends 'AIResponsiveBundle:RTL:services/serviceBase.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pagename %}{% if headerbox is defined %}{{headerbox}}{% endif %}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined %}{{pageKeywords}}{% endif %}{% endblock %}
+{% block bigTitle %} {{xml.title}} {% endblock %}
+{% block smallText %}
+    <div class="pwhite">{{xml.subtext|raw}} </div>
+    <!-- <a href="/register" role="button" class="btn btn-primary btn-regular headerButton">{{'Get Started'|trans}}</a> -->
+{% endblock %}
+
+{# Set Template Variables [BEGIN] #}
+{% if type == "inspection_services" %}
+    {% set priceAsia = "$" + price_Inspect_Low %}
+    {% set priceEurope = "$" + price_Inspect_High %}
+{% elseif type == "supplier_audit_programs" %}
+    {% set priceAsia = "$" + price_Audit_Low %}
+    {% set priceEurope = "$" + price_Audit_High %}
+{% else %}
+    {% set priceAsia = "$" + price_Inspect_Low %}
+    {% set priceEurope = "$" + price_Inspect_High %}
+{% endif %}
+{% set demoLink = "/popup?video=watchdemo&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=420&amp;width=730&amp;modal=true" %}
+{% set videoLink = "/popup?video=watchinspection&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=440&amp;width=730&amp;modal=true" %}
+{% set watchWhat = "Watch a Real Inspection" %}
+{% set inspectionImage = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=psi" %}
+{% set videoLinkSmall = "https://www.youtube.com/v/gt1ZyhcOD78?version=3%26autoplay=%26showinfo=0%26vq=hd720" %}
+{% set inspectionImage1 = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=psi" %}
+{# Set Template Variables [END] #}
+
+{% block serviceText %}
+    {% if xml.headers.head1 is defined %}
+        <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.headers.head1}}</h2>
+    {% endif %}
+    {% if xml.subtext1 is defined %}
+        {{xml.subtext1|raw}}
+    {% endif %}
+    {% if xml.mylist is defined %}
+    <ul class="marginZero">
+        {%for list in xml.mylist.li%}<li>{{list|raw}}</li>{%endfor%}
+    </ul>
+    {% endif %}
+    {% if xml.headers.head2 is defined %}
+        <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.headers.head2}}</h2>
+    {% endif %}
+    {% if xml.subtext2 is defined %}
+        {{xml.subtext2|raw}}
+    {% endif %}
+    {% if xml.headers.head3 is defined %}
+        <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.headers.head3}}</h2>
+    {% endif %}
+    {% if xml.mylist2 is defined %}
+    <ul class="marginZero">
+        {%for list in xml.mylist2.li%}<li>{{list | trans}}</li>{%endfor%}
+    </ul>
+    {% endif %}
+    <br />
+{% endblock %}
+
+{% block serviceBenefits %}
+    {% if type == "supplier_audit_programs" %}
+        <iframe src="/benefits/audits?_locale={{locale}}" frameborder=0 scrolling="no" onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px';" style="width:100%;"></iframe>
+    {% else %}
+        <iframe src="/benefits/inspections?_locale={{locale}}" frameborder=0 scrolling="no" onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px';" style="width:100%;"></iframe>
+    {% endif %}
+{% endblock %}

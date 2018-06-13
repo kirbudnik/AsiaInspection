@@ -1,0 +1,39 @@
+{% extends '::base.html.twig' %}
+{% block title %}{% if pageTitle is defined and pageTitle != "" %}{{pageTitle}}{% else %}{% trans %}AsiaInspection News{% endtrans %}{% endif %}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined and pageDesc != "" %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined and pageKeywords != "" %}{{pageKeywords}}{% endif %}{% endblock %}
+{% block pagename %}RegulatoryUpdates{% endblock %}
+
+{% block body %}
+    <style type="text/css">
+        .mainBlock table {border:1px solid black; margin-bottom:15px;}
+        .mainBlock td {border:1px solid black; padding:5px;}
+        .bookmark {position:relative; top:-110px; display:inline-block;}
+        .mainBlock .moretext {display:none; margin-top:10px;}
+    </style>
+    <div  class="headerbox">
+        <div class="container vcenter_parent wrapper">
+            <div class="col-xs-12 vcenter_parent wrapper paddingLeftZero">
+                <div class="{% if app.request.locale == "ar" %} col-xl-7 col-xl-offset-5 col-lg-7 col-lg-offset-4 {% else %}col-lg-7 col-lg-offset-1 col-xl-offset-0{% endif %}  col-xs-10 col-md-8 col-md-offset-1 col-xs-offset-1 vcenter_parent" id="bigWidth" style="padding-left:0px;padding-right:0px;">
+                    <div class="vcenter {% if isSafari is defined and isSafari==true %}headerTitle{% endif %}" style="display:inline-block;">
+                        <h1 class="mainHeader">{{Story.Title}}</h1>
+                        <div class="mainSubHeader"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container wrapper mainBlock">
+        <div class="col-xl-12 col-xl-offset-0 col-lg-10 col-lg-offset-1 col-xl-offset-0  col-xs-10 col-md-10 col-md-offset-1 col-xs-offset-1" style="margin-top:20px;background-color:white; padding:20px;">
+            <a name="{{Story.Unique_Url}}" class="bookmark"></a>
+            <p>{{Story.Abstract|raw}}</p>
+            {{Story.Content|raw}}<br />
+            <br /><p style="text-align:center;"><i>This summary is not intended to be exhaustive nor should it be construed as legal advice.</i></p>
+            <div style="float:left; display:inline-block;"><a href="javascript:history.back()">&lt; Back</a></div>
+            <div style="float:right; display:inline-block;"><a href="/regulatory">{% trans %}View the complete list of regulatory updates{% endtrans %}</a></div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+
+{% endblock %}

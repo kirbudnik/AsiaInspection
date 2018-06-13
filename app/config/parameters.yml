@@ -1,0 +1,40 @@
+# This file is auto-generated during the composer install
+parameters:
+    mailer_transport: smtp
+    mailer_host: smtp-hk.asiainspection.com
+    mailer_port: '587'
+    mailer_user: emailsender
+    mailer_password: Atps2rWmgOgC9
+    locale: en
+    secret: bbe9df5db6bd83b474fde132dba068f6da8c70e4
+    database_driver: mysqli
+    database_host: 54.251.119.26
+    database_port: null
+    database_name: symfony
+    database_user: aidata
+    database_password: byNdf9W44T
+    sales_db: Staging
+    data_db: Staging
+    database_service:  true
+    is_prod_server: false
+    url : null
+    price_Inspect_Low: 309
+    price_Inspect_High: 409
+    price_Inspect_Food: 399
+    price_Audit_Low: 649
+    price_Audit_High: 849
+    price_Reports: 69
+    total_Inspections: "215,000" # Not currently used (Comment added on Jan.15,2018)
+    total_Inspectors: "2,000"
+    total_Offices: "20"
+    total_Staff: "2,300"
+    total_Nationality: "60"
+    total_Client_Countries: "120"
+    total_Operating_Countries: "85"
+    total_languages: "20"
+    total_Labs: "3"
+    assets_domain: https://s3.asiainspection.com
+    assets_china_domain: https://s3.asiainspection.com
+
+    #Override Translator Class
+    translator.class: AI\ResponsiveBundle\Translation\Translator

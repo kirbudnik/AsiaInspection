@@ -1,0 +1,177 @@
+{% extends '::base.html.twig' %}
+{% block title %}You Have Successfully Logged Out |  AsiaInspection.com{% endblock %}
+{% block pagename %}Logout{% endblock %}
+
+{% block body %}
+
+    <style>
+        body {background-color:#ffffff;}
+        #page_Logout #logoutConfirmText { padding:0px; }
+        #LogoutTitleBar {
+            background-color:#ddd;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align:center;
+        }
+        #phoneImage {
+            width:40%;
+            float:left;
+            display:inline-block;
+            position:relative;
+            max-width:300px;
+            height:100%;
+        }
+        #everythingElseonTheRight {
+            width:50%;
+            float:right;
+            display:inline-block;
+        }
+        #phoneImage img {
+            position:absolute;
+            left:-50%;
+            width:180%;
+            margin-top:10%;
+        }
+        @media screen and (max-width: 850px) { 
+            #phoneImage { display:none; }
+            #everythingElseonTheRight { width:100%; }
+            #LogoutTitleBar > span { display:block; }
+            #page_Logout #logoutConfirmText { padding-bottom:0px; }
+        }
+        @media screen and (min-width: 990px) { 
+            #phoneImage img { margin-top:-5%; }
+        }
+    </style>
+
+    <!-- MARKETO [Begin] -->
+    {% if app.request.get('aliId') is defined and app.request.get('aliId') != null %}
+        <script type="text/javascript">
+            $(document).ready(function(){
+                replaceHTML = '<div class="mobileSuccessMessage" style="display:inline-block; text-align:center;"><div style="margin-bottom:1em;"><div style="text-align:center; background-color:white; padding:15px 25px;"><h3 style="font-size:14px; margin-bottom:0px; color:#5aa231;">Sent! Check your mobile device now to get the app\'s download link.</h3></div></div></div>';
+                $("#mainDownloadForms").append(replaceHTML);
+                $("#contactDownload").append(replaceHTML);
+                $("#processDownload").append(replaceHTML).find(".mobileSuccessMessage").css("margin-right","10px");
+                $("#mobileDownloadForms").append(replaceHTML);
+            });
+        </script>
+    {% endif %}
+    <script src="//app-ab16.marketo.com/js/forms2/js/forms2.min.js"></script>
+    <script src="/js/arrive.min.js"></script>
+        
+    <script type="text/javascript">
+        $(document).arrive(".mktoButton", function() {
+            $("#Email").val(getCookie('email')).attr("placeholder","Your email address").addClass("sendLinkMobileEmail mobileFullWidth");
+            mktoObj = $("#mktoForm_1139");
+            $(".mktoAsterix", mktoObj).parent().remove();
+            $(".mktoOffset", mktoObj).remove();
+            $(".mktoGutter", mktoObj).remove();
+            $(".mktoFormCol", mktoObj).css({
+                "width":"100%",
+                "margin-bottom":"0px"
+            });
+            $(".mktoFieldWrap", mktoObj).css("width","100%");
+            $("#Email", mktoObj).css({
+                "width":"100%",
+                "border":"1px solid rgb(206, 207, 209)",
+                "border-radius":"3px",
+                "box-shadow":"0 0 5px rgb(223, 224, 225) inset",
+                "background-color":"rgb(249,249,249)",
+                "box-sizing":"border-box",
+                "padding":"6px 12px",
+                "line-height":"20px",
+                "font-size":"14px",
+                "height":"34px"
+            }).parents(".mktoFormRow").css({
+                "width":"100%",
+                "display":"inline-block",
+                "max-width":"304px",
+                "float":"left"
+            });
+            $(".mktoButtonWrap", mktoObj).css("margin","0px");
+            $(mktoObj).css({
+                "width":"100%"
+            });
+            $(".mktoButton").addClass("two-btn btn btn-primary btn-big mobileFullWidth").text("{% trans %}Send now{% endtrans %}").css({
+                "display":"inline-block",
+                "width":"100%",
+                "width":"120px",
+                "background-image":"none",
+                "background-color":"#5ba331",
+                "font-size":"16px",
+                "line-height":"20px",
+                "margin-left":"15px",
+                "height":"34px"
+            }).hide();
+        });
+    </script>
+
+    <div class="container wrapper vcenter_parent" style="margin-bottom:1.5em; text-align:center;">
+        <div style="width:900px; max-width:80%; margin:0 auto;">
+
+            <div id="LogoutTitleBar" style="max-width:100%; padding:20px;">
+                <img style="width:30px; height:30px; vertical-align:middle;" src="/images/greenCheck.png">
+                <h2 id="logoutConfirmText" style="display:inline-block; font-size:1.5em;">You have been logged out.</h2> &nbsp;
+                <span style="font-size:1.5em;">We hope to see you back soon!</span>
+            </div>
+
+            <div class="" style="max-width:100%; text-align:left; padding:2em; background-color:#b31820;">
+                <div id="phoneImage">
+                    <img src="/images/anim_iPhone-AsiaInspection_OK.gif">
+                </div>
+                <div id="everythingElseonTheRight">
+                    <h1 style="color:white; font-weight:bold;">AI Goes Mobile!</h1>
+                    <h3 style="color:white; font-weight:bold;">Access Your Account, Wherever You Are!</h3>
+                    <br />
+                    <p style="color:white;">Get the App now by sending the download link to your phone:</p>
+                
+                    <div id="mainDownloadForms">
+                        <form id="mktoForm_1139"></form>
+                            <script>MktoForms2.loadForm("//app-ab16.marketo.com", "944-QDO-384", 1139);</script>
+                            <div style="clear:both;"></div>
+                            <div style="width:100%; max-width:304px; text-align:center; color:white;"><table style="width:100%; border:0px;"><tr><td width="35%"><hr /></td><td width="25%">&nbsp;OR&nbsp;</td><td width="35%"><hr /></td></tr></table></div>
+                            <select required name="mobilePhoneCountry" class="mobilePhoneCountry form-control" style="display:inline-block; position:relative; top:1px; max-width:100px; margin-bottom:10px;">
+                                <option value="" disabled selected hidden>+ (&nbsp;1&nbsp;)</option>
+                                {% for country in countries %}
+                                    <option iso2='{{country.iso2}}' data-status='{{country.phone}}' {% if UserCountry is defined and UserCountry == country.iso2 %}selected='selected'{% endif %}>{{country.iso2}} +{{country.phone}} &nbsp; &mdash; &nbsp; {{country.name}}</option>
+                                {% endfor %}
+                            </select>
+                            <input class="sendLinkMobileNumber form-control" type="text" placeholder="Your phone number" style="display:inline; max-width:204px"/>
+                        </form><br />
+                        <a style="height:34px; line-height:32px; width:100%; max-width:304px; padding: 0px 8px; margin:10px 0px;" class="one-btn btn btn-primary btn-big mobileMasterSubmitButton" role="button" href="javascript://" onClick="mobileMasterSubmit(this); trackLink('logoutAppDownload');">Get the App Now!</a>
+                    </div>
+                    <div style="clear:both;"></div>
+                    
+                    <br />
+    
+                    <ul style="color:white; padding-left: 15px">
+                        <li>Instantly get results of Inspections, Audits and Testing</li>
+                        <li>Book orders in minutes on the go</li>
+                        <li>Access your AI Dashboard with quality charts and benchmarks</li>
+                        <li>Get the latest AI news and regulatory updates</li>
+                    </ul>
+                </div>
+    
+                <div class="successMobile" style="display:none;"><p style="color:green;text-align:center;font-weight:bold;"><br/>Done! Check your emails: you should receive a link to the AI App shortly.</p></div>
+                <div style="clear:both;"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function mobileMasterSubmit(obj) {
+            var countryCode = $('.mobilePhoneCountry option:selected').data('status');
+            if(countryCode == "" || countryCode == undefined ) countryCode = $('.mobilePhoneCountry option:selected').eq(1).attr("data-status");
+            var phoneNumber = $(".sendLinkMobileNumber").val();
+            var Email = $("#Email").val();
+            if(phoneNumber != "" && phoneNumber != undefined ) {
+                $(".mobileSuccessMessage").remove();
+                smsMobileLink(obj);
+            } else {
+                $(".mobileSuccessMessage").remove();
+                if(Email != "" && Email != undefined ) $(".mktoButton").click();    
+            }
+        }
+    </script>
+
+{% endblock %}

@@ -1,0 +1,242 @@
+{% extends '::base.html.twig' %}
+{% block title %}{% if content.pageTitle is defined %}{{content.pageTitle}}{% else %}{{content.title}}{% endif %}{% endblock %}
+{% block pageDescription %}{% if content.pageDesc is defined %}{{content.pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if content.pageKeys is defined%}{{content.pageKeys}}{% endif %}{% endblock %}
+{% block pagename %}whitePapers{% endblock %}
+{% block body %}
+<script src="//app-ab16.marketo.com/js/forms2/js/forms2.min.js"></script>
+<script src="/js/arrive.min.js"></script>
+<style>
+    #mainForm {
+            float:left;
+            border:2px solid #ddd;
+            padding:20px;
+            margin-top: 33px;
+        }
+    #bulletPoints {
+            float:left;
+            padding-top: 33px;
+        }
+    #LeftWrapper {
+            width: 50%;
+            float:left;
+            display:inline-block;
+            position:relative;
+        }
+    #RightWrapper {
+            width: 100%;
+            float:right;
+            display:inline-block;
+            padding-left: 40px;
+        }
+</style>
+
+<div class="headerbox">
+    <div class="container vcenter_parent wrapper">
+        <div class="col-xs-12 vcenter_parent wrapper paddingLeftRightZero">
+            <div class="{%if app.request.locale == 'ar' %} col-xl-7 col-xl-offset-5 col-lg-7 col-lg-offset-4 {% else %} col-lg-7 col-lg-offset-1 col-xl-offset-0{% endif %} col-md-8 col-md-offset-1  col-xs-10 col-xs-offset-1 vcenter_parent" id="bigWidth" style="padding-left:0px;padding-right:0px;">
+                <div class="vcenter  {%if isSafari is defined%}{%if isSafari==true%}headerTitle{% endif %}{% endif %}" style="display:inline-block;">
+                    <h1 class="mainHeader">{% trans %}Complimentary White Paper{% endtrans %}</h1>
+                    <div class="mainSubHeader">{% if content.title is defined %}{{content.title}}{% endif %}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container wrapper mainBlock" style="padding-bottom:30px;">
+
+<div class="col-xs-12" style="margin-top:0px; background-color:#fff; padding-left:0px; padding-right:0px; padding-bottom:10px;">
+    <div id="bulletPoints" class="col-lg-6 col-lg-offset-1 col-xl-offset-0 col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1">
+        <h2>{% if content.title is defined%}{{content.title}}{% endif %}</h2>
+        <br />
+        <p><b>{% if content.subtitle is defined%}{{content.subtitle}}{% endif %}</b></p>
+        <p><b>{% trans %}This White Paper will give you insights about{% endtrans %}:</b></p>
+        <div>           
+            {% for insight in content.insights.item %}
+                <ul>
+                <li>{{insight|raw}}</li>
+                </ul>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="mainForm" class="col-xs-10 col-xs-offset-1 col-sm-4">
+        <div style="text-align:left; font-weight:bold; width:80%; display:inline-block;">{% trans %}Get the White Paper{% endtrans %}</div>
+        <!-- MARKETO [Begin] -->
+        {% if app.request.get('aliId') is defined and app.request.get('aliId') != null %}
+            <div style="text-align:center; background-color:rgba(64,64,66,0.2); padding:15px; margin:30px 0px;">
+                <h3 style="font-size:14px; margin-bottom:0px; color:#5aa231;">Your whitepaper has been sent, please check your email.</h3>
+            </div>
+        {% else %}
+            {% if content.marketoID is defined %}
+                <form id="mktoForm_{{content.marketoID}}"></form>
+                <script type="text/javascript">
+                    MktoForms2.loadForm("//app-ab16.marketo.com", "944-QDO-384", {{content.marketoID}});
+                    $(document).arrive(".mktoButton", function() {
+                        $("#Email").val( getCookie('email') );
+                        mktoObj = $("#mktoForm_{{content.marketoID}}");
+                        $(".mktoAsterix", mktoObj).parent().remove();
+                        $(".mktoOffset", mktoObj).remove();
+                        $(".mktoGutter", mktoObj).remove();
+                        $(".mktoFormCol", mktoObj).css({
+                            "width":"100%",
+                            "margin":"0px"
+                        });
+                        $(".mktoFieldWrap", mktoObj).css({
+                            "width":"100%",
+                            "margin":"0px"
+                        });
+                        $(".mktoButtonRow", mktoObj).css("width","100%");
+                        $("#Email", mktoObj).css({
+                            "width":"100%",
+                            "border":"1px solid rgb(206, 207, 209)",
+                            "border-radius":"3px",
+                            "box-shadow":"0 0 5px rgb(223, 224, 225) inset",
+                            "background-color":"rgb(249,249,249)",
+                            "box-sizing":"border-box",
+                            "padding":"6px 12px",
+                            "line-height":"20px",
+                            "font-size":"14px",
+                            "height":"34px",
+                            "margin-top":"0px"
+                        }).attr("placeholder","Your email address");
+                        $(".mktoButtonWrap", mktoObj).css("margin","0px");
+                        $(mktoObj).css({
+                            "width":"100%"
+                        });
+                        $(".mktoButton").attr("id","marketoSubmitButton").addClass("two-btn btn btn-primary btn-big").text("{% trans %}Send now{% endtrans %}").css({
+                            "width":"100%",
+                            "background-image":"none",
+                            "background-color":"#5ba331",
+                            "font-size":"16px",
+                            "line-height":"27px",
+                            "margin":"10px 0px 0px 0px"
+                        }).click(function(){
+                            trackContentDownload('whitepaper','{{content.source}}');
+                            email = $("#Email").val();
+                            if(email != "") {
+                                setCookie("email", email, 365);
+                                // Save Locally
+                                $.ajax({
+                                    type: "POST",
+                                    url: "/getEmail",
+                                    async: "false",
+                                    data: "email="+email+"&target={{content.source}}&category=Whitepaper",
+                                    dataType: "text",
+                                    success: function(msg){ }
+                                });
+                            }
+                        });
+                    });
+                    $(document).arrive(".mktoError", function() {
+                        if( window.matchMedia('all and (max-width: 500px)').matches ) {
+                            $(this).css({
+                                "margin-top":"75px",
+                                "background-color":"white",
+                                "border":"2px solid #ddd",
+                                "padding-bottom":"7px"
+                            });
+                        } else {
+                            $(this).css("margin-top","0px");
+                        }
+                        errorHtml = $(this).html();
+                        $("#insightErrorBox").html(errorHtml);
+                        $("#insightSecondFormBoxButton").text("Send Now").removeAttr("disabled");
+                    });
+                </script>
+            {% else %}
+                <div class="text-center" style="margin:20px 0px padding:40px;;">
+                    <a href="javascript://" onclick="trackContentDownload('whitepaper','{{content.source}}'); whitepaper('{{content.source}}','');" style="width:100%;" class="two-btn btn btn-primary btn-big">{% trans %}Get the White Paper Now{% endtrans %}</a>
+                </div>
+            {% endif %}
+        {% endif %}
+        <!-- MARKETO [End] -->
+    </div>
+    <div style="clear:both;"></div>
+    <hr class="hrgrey" style="width:100%;" />   
+</div>
+<div style="clear:both;"></div>
+
+    {# Left Wrapper #}
+    <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-0 col-md-offset-1 col-xl-offset-0 col-xl-4" style="margin-top:10px; background-color:#ddd; padding:20px;">
+        <div id="LeftWrapper" class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-0 col-sm-12 col-md-10" style="padding:0px; width:100%">
+        
+            {% if content.marketoID is defined %}
+                <a href="javascript://" onclick="trackContentDownload('whitepaper','{{content.source}}'); $('.mktoButton').click();" style="text-decoration:none;">
+            {% else %}
+                <a href="javascript://" onclick="trackContentDownload('whitepaper','{{content.source}}'); whitepaper('{{content.source}}','');" style="text-decoration:none;">
+            {% endif %}
+                <img src="{{assetsDomain}}/images/{{content.image}}" style="width:100%;" border="0" alt="{%if content.title is defined%}{{content.title}}{%endif%}">
+            </a>
+        </div>
+        <div id="share-this" style="margin-top:25px; width:100%;">
+            <div id="shareBtnSmall" style="display:inline-block;">
+                <span class='st_facebook_large' displayText='Facebook'></span>
+                <span class='st_twitter_large' displayText='Tweet'></span>
+                <span class='st_googleplus_large' displayText='LinkedIn'></span>
+                <span class='st_linkedin_large' displayText='LinkedIn'></span>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div> {# End Left Wrapper #}
+
+    {# Right Wrapper #}
+    <div class="col-xs-12 col-xs-offset-0 col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-0 col-xl-6 col-xl-offset-0" style="margin-top:0px;">
+        <div id="RightWrapper" class="col-xs-12 col-xs-offset-0 col-sm-12" style="margin-left:0px;">
+            <div id="insightContentBox">
+                {% if content.content is defined %}
+                    <div style="width:100%;">{{content.content|raw}}</div>
+                {% else %}
+                    {% if englishContent.content is defined %}
+                        <div style="width:100%;">{{englishContent.content|raw}}</div>
+                    {% endif %}
+                {% endif %}
+                <div id="insightSecondFormBox" style="margin:20px 0px; border:2px solid #ddd; padding:20px; text-align:center;">
+                    {% if app.request.get('aliId') is defined and app.request.get('aliId') != null %}
+                        <div style="text-align:center; background-color:rgba(64,64,66,0.2); padding:15px; margin:30px 0px;">
+                            <h3 style="font-size:14px; margin-bottom:0px; color:#5aa231;">Your whitepaper has been sent, please check your email.</h3>
+                        </div>
+                    {% else %}
+                        <div style="text-align:left; font-weight:bold; width:80%; display:inline-block; margin-bottom:15px;">{% trans %}Get the White Paper{% endtrans %}</div>
+                        <input id="insightSecondFormBoxEmail" class="form-control" type="text" placeholder="Your email address" style="width:80%; display:inline-block;"/>
+                        <div id="insightErrorBox" style=""></div>
+                        <a id="insightSecondFormBoxButton" style="height:34px; line-height:32px; padding:0px 8px; margin:15px 0px 0px 0px; width:80%;" class="one-btn btn btn-primary btn-big" role="button" href="javascript://" onClick="fillOutMarketoForm()">{% trans %}Send now{% endtrans %}</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div> {# End Right Wrapper #}
+
+</div>
+
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+    stLight.options({
+      publisher:'12345',
+      doNotHash:true,
+      doNotCopy:true,
+      hashAddressBar:false
+    });
+
+    $("#insightSecondFormBoxEmail").val( getCookie('email') );
+    
+    function fillOutMarketoForm() {
+        $("#Email").val( $("#insightSecondFormBoxEmail").val() );
+        $("#insightSecondFormBoxButton").text("Please Wait").attr("disabled","disabled");
+        $("#marketoSubmitButton").click();
+    }
+</script>
+{%endblock%}
+
+
+  
+      
+      
+
+
+
+
+
+
+  

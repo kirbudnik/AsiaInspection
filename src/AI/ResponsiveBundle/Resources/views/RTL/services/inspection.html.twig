@@ -1,0 +1,47 @@
+{% extends 'AIResponsiveBundle:RTL:services/serviceBase.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined %}{{pageKeywords}}{% endif %}{% endblock %}
+{% block pagename %}{{type}}{% endblock %}
+{% block bigTitle %} {{xml.title}} {% endblock %}
+{% block smallText %}
+    <div class="pwhite">{{xml.subtext|raw}} </div>
+    <!-- <a href="/register" role="button" class="btn btn-primary btn-regular headerButton">{{'Get Started'|trans}}</a> -->
+{% endblock %}
+
+{# Set Template Variables [BEGIN] #}
+{% set priceAsia = "$" + price_Inspect_Low %}
+{% set priceEurope = "$" + price_Inspect_High %}
+{% set demoLink = "/popup?video=watchdemo&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=420&amp;width=730&amp;modal=true" %}
+{% set videoLink = "/popup?video=watchinspection&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=440&amp;width=730&amp;modal=true" %}
+{% set watchWhat = "Watch a Real Inspection" %}
+{% set inspectionImage = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=psi" %}
+{% set videoLinkSmall = "https://www.youtube.com/v/gt1ZyhcOD78?version=3%26autoplay=%26showinfo=0%26vq=hd720" %}
+{% set inspectionImage1 = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=psi" %}
+{# Set Template Variables [END] #}
+
+{% block serviceText %}
+    <h2 class="marginZero padding15" style="font-weight:bold;">{{whatis.title}}</h2>
+    {% for pgph in whatis.pgph %}
+        <p> {{pgph|replace({'{{priceIA}}': price_Inspect_Low,'{{priceIE}}': price_Inspect_High })|raw}} </p>
+    {% endfor %}
+
+    {% if xml.subtext3title is defined and xml.subtext3 is defined %}
+        <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.subtext3title}}</h2>
+        <p>{{ xml.subtext3|raw }}</p>
+    {% endif %}
+
+    {% if xml.subtext4title is defined and xml.subtext4 is defined %}
+        <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.subtext4title}}</h2>
+        <p>{{ xml.subtext4|raw }}</p>
+    {% endif %}
+
+    {% if xml.subtext5title is defined and xml.subtext5 is defined %}
+        <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.subtext5title}}</h2>
+        <p>{{ xml.subtext5|raw }}</p>
+    {% endif %}
+{% endblock %}
+
+{% block serviceBenefits %}
+    <iframe src="/benefits/inspections?_locale={{app.request.locale}}" frameborder=0 scrolling="no" onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px';" style="width:100%;"></iframe>
+{% endblock %}

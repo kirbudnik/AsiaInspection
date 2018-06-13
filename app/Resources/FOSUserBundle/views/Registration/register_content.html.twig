@@ -1,0 +1,26 @@
+<h2>Leads Tool Registration</h2><h3>Please use the email address on your Zoho account (if you have one) to register for access to the leads tool.<br>If you have trouble registering, please contact <a href="mailto:michael.mesarch@asiainpection.com">Michael Mesarch</a>.  Your password is safe and encrypted, no one has access to see it.</h3>
+<form action="{{ path('fos_user_registration_register') }}" {{ form_enctype(form) }} method="POST" class="fos_user_registration_register">
+    {{ form_widget(form) }}
+    <div>
+        <label> </label><input type="submit" class="btn-primary" style="width:27em" value="{{ 'registration.submit'|trans({}, 'FOSUserBundle') }}" />
+    </div>
+</form>
+<style type="text/css"> <!--
+label {width:10em;margin-bottom: 10px;}
+input {width:25em;margin-bottom: 10px;}
+ --></style>
+
+ <script type="text/javascript">
+<!-- 
+var form = document.getElementsByClassName("fos_user_registration_register")[0];
+var errors = form.getElementsByTagName("ul");
+for (var i = errors.length - 1; i >= 0; i--) {
+	var label = errors[i].previousSibling;
+	errors[i].style.color = "red";
+	errors[i].style.listStyleType = "none";
+	errors[i].style.fontWeight = "bold";
+
+	label.parentNode.insertBefore(errors[i],label);
+}
+ -->
+ </script>

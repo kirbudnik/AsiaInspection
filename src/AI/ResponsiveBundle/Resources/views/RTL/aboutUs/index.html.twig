@@ -1,0 +1,52 @@
+{% extends 'AIResponsiveBundle:RTL:aboutUs/whoWeAreBase.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block bigTitle %}{% trans %}Who We Are{% endtrans %}{% endblock %}
+
+{% block whoWeAreText %}
+    <h2 style="padding-bottom:15px;margin-bottom:0px;">{{xml.section.title}}</h2>
+    {{xml.section.contents|raw}}
+    <h2 class="marginZero padding15">{{xml.section1.title|raw}}</h2>
+    {{xml.section1.contents|trans|raw}}
+    <h2 class="marginZero padding15">{{xml.section2.title|raw}}</h2>
+    {{xml.section2.contents |trans|raw}}
+    <h2 class="marginZero padding15">{{xml.section3.title|raw}}</h2>
+    {{xml.section3.contents|raw}}
+    <img src="https://s3.asiainspection.com/images/responsive/headerImages/who_we_are_%5Blg%5D.jpg" alt="Product Inspection Agency | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+    <img src="https://s3.asiainspection.com/images/responsive/Sebastien-Breteau.png" alt="CEO of AsiaInspection – Sebastien Breteau" style="position:absolute; top:-5000px; z-index:-1000" />
+{% endblock %}
+
+{% block offerbox1 %}
+    <div itemscope itemtype="http://schema.org/Person">
+        <div class="sidebarTitlebar">
+            <h5>{% trans %}A Note From our CEO{% endtrans %}</h5>
+        </div>
+        <div class="sidebarContentBox">
+            <div id="CEOimageBox"><img itemprop="image" src="https://s3.asiainspection.com/images/responsive/Sebastien-Breteau.png" width="100%"></div>
+            <p style="padding-top:10px;">{%trans%}"As global trade continues to increase, and supply chains get increasingly complex, buyers from brands, retailers, importers need increased visibility and control over their manufacturing worldwide.{%endtrans%}</p>
+            <p>{%trans%}Our ambition at AI is to make it easier for our clients to control the quality and compliance of their product and suppliers through the use of our services and the real-time supply intelligence we offer them."{%endtrans%}</p>
+            <p class="pBold">
+                <b>
+                    <span itemprop="name" style="color:black;">Sébastien Breteau</span><span itemprop="sameAs" href="http://en.wikipedia.org/wiki/Sébastien_Breteau"></span>,
+                    <span itemprop="jobTitle">{%trans%}CEO{%endtrans%}</span>
+                </b>
+            </p>
+        </div>
+    </div>
+{% endblock %}
+
+{% block offerbox2 %}
+    <div class="sidebarTitlebar">
+        <h5>{% trans %}Client Testimonial{% endtrans %}</h5>
+    </div>
+    <div class="sidebarContentBox">
+        <p>{%trans%}"If you need a service that is second to none, AsiaInspection can help your company move forward quickly. Making a booking with AsiaInspection could...{%endtrans%}</p>
+        <a href="/asiainspection-testimonials">{%trans%}Read More{%endtrans%}</a>
+        <p style="padding-top:15px;">{%trans%}Head Buyer{%endtrans%}</p>
+        <p style="font-weight:bold;">Garden Buildings Direct</p>
+        <a href="http://www.gardenbuildingsdirect.co.uk">gardenbuildingsdirect.co.uk</a>
+        <div id="banner">
+            <a href="http://www.gardenbuildingsdirect.co.uk" target="_blank"><img src="https://s3.asiainspection.com/images/gbd-logo.jpg" width="100%" alt="Garden Buildings Direct" /></a>
+        </div>
+    </div>
+{% endblock %}

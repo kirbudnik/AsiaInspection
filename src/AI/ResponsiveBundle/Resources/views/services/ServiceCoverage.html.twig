@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex,nofollow" />
+    {% block stylesheets %}
+        <link href="{{asset('/css/bootstrap.css')}}" rel="stylesheet"/>
+        <link href="{{asset('/css/bootstrap-theme.css')}}" rel="stylesheet"/>
+        {% stylesheets filter="scss" filter='?uglifycss' '@AIResponsiveBundle/Resources/public/css/styles.scss' %}
+            <link id="mainCSS" rel="stylesheet" href="{{asset_url}}"/>
+        {% endstylesheets %}
+        {% if app.request.locale == "ar" %}<link href="{{asset('/css/arabic.css')}}" rel="stylesheet"/>{% endif %}
+    {% endblock %}
+</head>
+
+<body>
+
+<div class="text-center vcenter_parent" style="background-color:white;">
+    <div class="wrapper container vcenter_parent serviceCoverageBlock" >
+        <div class="vcenter_parent" style="width:100%;">
+            <div class="vcenter container">
+                <h3  id="globalTitle">{{global.title}}</h3>
+                <div class="col-lg-6 col-lg-offset-3">
+                    <p id="globalSubTitle" >{{global.pgph|trans}}</p>
+                    <a href="/quality-control-coverage">{{global.clickMap}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

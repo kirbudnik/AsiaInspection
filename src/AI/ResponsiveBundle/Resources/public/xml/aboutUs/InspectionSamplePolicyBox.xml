@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <en>
+        <title>Inspection Sample Policy</title>
+        <boxContent>
+            <![CDATA[
+            It is standard AI policy to proceed with an inspection if no sample has reached the inspector by the
+            inspection date, unless instructed otherwise.
+            ]]>
+        </boxContent>
+    </en>
+    <es>
+        <title>Política de inspección de muestras</title>
+        <boxContent>
+            <![CDATA[
+            A menos que se indique lo contrario, la política de AsiaInspection es llevar a cabo una inspección si no hay muestras enviadas a nuestro inspector antes de la fecha prevista.
+            ]]>
+        </boxContent>
+    </es>
+
+    <ar>
+        <title>سياسة عينة الفحص</title>
+        <boxContent>
+            <![CDATA[
+            تتبع أسيا للفحص سياسة قياسية بمتابعة الفحص في حالة عدم وصول عينة إلى المفتش بحلول تاريخ الفحص، إلا إذا تم التوجيه بخلاف هذا.
+
+            ]]>
+        </boxContent>
+    </ar>
+
+    <fr>
+        <title>Politique d'inspection d'échantillons</title>
+        <boxContent>
+            <![CDATA[
+            Sauf instruction contraire, la politique d'AsiaInspection est de procéder à une inspection si aucun
+            échantillon n'a été envoyé à notre inspecteur avant la date planifiée.
+            ]]>
+        </boxContent>
+    </fr>
+
+    <zh>
+        <title>检验样品政策</title>
+        <boxContent>
+            <![CDATA[
+            AI亚检的政策是如果没有特殊说明，在验货日期以前若没有收到样品，我们将直接开始验货。
+            ]]>
+        </boxContent>
+    </zh>
+
+    <de>
+        <title>Richtlinien für Kontrollprobe</title>
+        <boxContent>
+            <![CDATA[
+            Es ist die Standard-Richtlinie von AI, mit einer Kontrolle fortzufahren, wenn den Kontrolleur bis zum Kontrolldatum keine Probe erreicht hat, falls keine anderen Anweisungen vorliegen.
+            ]]>
+        </boxContent>
+    </de>
+
+    <tr>
+        <title>Muayene Numune Poli̇ti̇kasi</title>
+        <boxContent>
+            <![CDATA[Başka türlü bir talimat alınmadıkça, muayene tarihinde denetçiye hiçbir numune ulaşmamışsa, muayeneye başlamak bir AI politikası standardıdır.]]>
+        </boxContent>
+    </tr>
+
+    <ru>
+        <title>Политика инспекции образцов</title>
+        <boxContent>
+            <![CDATA[
+            Если нет договоренности об ином, стандартная политика AI предполагает проведение инспекции, даже если инспектор не получил образец до даты инспекции.
+            ]]>
+        </boxContent>
+    </ru>
+
+</document>

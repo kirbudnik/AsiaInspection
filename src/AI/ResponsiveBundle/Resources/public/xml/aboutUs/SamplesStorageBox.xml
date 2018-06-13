@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <en>
+        <title>AI Sample Storage Policy</title>
+        <boxContent>
+            <![CDATA[
+            Please note that reference samples sent to AI are kept for a period of <strong>6 months</strong> and
+            then destroyed unless instructed otherwise.
+            ]]>
+        </boxContent>
+    </en>
+    <es>
+        <title>Política de almacenamiento de muestras</title>
+        <boxContent>
+            <![CDATA[
+            Tenga en cuenta que las muestras de referencia enviadas a AI se mantienen durante un período de <strong>6 meses</strong> y luego son destruidas a menos que se indique lo contrario.
+            ]]>
+        </boxContent>
+    </es>
+    <ar>
+        <title>سياسة تخزين العينة لدى أسيا للفحص</title>
+        <boxContent>
+            <![CDATA[
+            الرجاء ملاحظة أن العينات المرجعية المرسلة إلى أسيا للفحص يتم الاحتفاظ بها لفترة 6 أشهر ثم يتم تدميرها باستثناء ما يتم التوجيه بخلاف هذا.
+
+            ]]>
+        </boxContent>
+    </ar>
+
+    <fr>
+        <title>Politique d'AI de stockage d'échantillons</title>
+        <boxContent>
+            <![CDATA[
+            Sauf instruction contraire, les échantillons de référence envoyés à AI sont stockés pour une période de
+            <strong>6 mois</strong>, puis détruits.
+            ]]>
+        </boxContent>
+    </fr>
+
+    <zh>
+        <title>AI亚检样品储存政策</title>
+        <boxContent>
+            <![CDATA[
+            请注意，如果没有特殊说明，参考样品将在AI亚检保存<strong>6个月</strong>后销毁。
+            ]]>
+        </boxContent>
+    </zh>
+
+    <de>
+        <title>AI Probenlagerungs-Richtlinien</title>
+        <boxContent>
+            <![CDATA[
+            Bitte beachten Sie, dass die an AI gesendeten Referenzproben für eine Dauer von <strong>6 Monaten</strong> aufbewahrt und dann vernichtet werden, falls keine anderen Anweisungen vorliegen.
+            ]]>
+        </boxContent>
+    </de>
+
+    <pt>
+        <title>POLÍTICA DE ARMAZENAMENTO DE AMOSTRAS DA AI</title>
+        <boxContent>
+            <![CDATA[
+            Informamos que as amostras de referência enviadas à AI são mantidas durante um período de <strong>6 meses</strong> e depois serão destruídas a menos que se indique o contrário.
+            ]]>
+        </boxContent>
+    </pt>
+
+    <tr>
+        <title>ai numune saklama poli̇ti̇kasi</title>
+        <boxContent>
+            <![CDATA[
+            AI'ye gönderilen referans numunelerin 6 aylık bir süre boyunca muhafaza edildiğini ve ardından aksi bir talimat olmadıkça imha edildiğine dikkat edin.
+            ]]>
+        </boxContent>
+    </tr>
+
+</document>

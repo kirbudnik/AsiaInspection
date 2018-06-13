@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<pageMeta>
+		<pageTitle>
+			<en>Worldwide Quality Control Services - Contact Us for More Details | AsiaInspection</en>
+			<ar>خدمات مراقبة الجودة في جميع أنحاء العالم - تواصل معنا لمزيد من التفاصيل  | AsiaInspection</ar>
+			<ru>Услуги контроля качества - Свяжитесь с нами, чтобы получить больше информации |AsiaInspection</ru>
+		</pageTitle>
+		<pageDesc>
+			<en>Contact AsiaInspection today and get the quality assurance testing you need.</en>
+			<ar>تواصل مع شركة AsiaInspection اليوم وإحصل على اختبار ضمان الجوده الذي تحتاج له.</ar>
+			<ru>Свяжитесь с AsiaInspection сегодня и получите необходимую вам проверку гарантии качества.</ru>
+		</pageDesc>
+	</pageMeta>
+
+	<en>
+		<title>Thank You for Registering!</title>
+		<stepOne>You will soon receive an email with your login credentials. An account manager will be contacting you shortly to welcome you and answer any questions you may have.</stepOne>
+		<mobileTitle>AI Goes Mobile! Access Your Account, Wherever You Are!</mobileTitle>
+		<appBlurb>With the AI App, easily book inspections, get full reports and manage your account from the convenience of your mobile device.</appBlurb>
+		<mobileDoThis>Send the access links to your device's email:</mobileDoThis>
+		<mobilePlaceholder>Enter the email used on your mobile</mobilePlaceholder>
+		<mobileSubmit>Send me the App!</mobileSubmit>
+		<spam>
+			<title>Registration Failed.</title>
+			<regFailText>Your registration was not successful.</regFailText>
+			<beforeLink>Please contact us at</beforeLink>
+			<afterLink>to complete your registration.</afterLink>
+		</spam>
+		<confirm>
+			<title>Registration Confirmation Needed</title>
+			<regFailText><![CDATA[
+			Thank you for your interest in AsiaInspection!<br />
+			To complete your registration, please reply to the confirmation email sent to the address you registered with and confirm your details.<br />
+			]]></regFailText>
+		</confirm>
+	</en>
+	<ar>
+		<title>شكراً على التسجيل!</title>
+		<stepOne>سوف تتلقى قريبا رسالة بريد إلكتروني مع اعتماد تسجيل الدخول الخاص بك.  سوف يقوم مدير حساب الاتصال بك قريبا للترحيب بكم والرد على أية أسئلة قد تكون لديكم.</stepOne>
+		<mobileTitle>AI الأن على جوالك! سجل دخول في أي مكان </mobileTitle>
+		<appBlurb>مع تطبيق شركة AI, يمكنك حجز موعد، الحصول على تقارير وإدارة حسابك على الموبيل.</appBlurb>
+		<mobileDoThis>قم بإرسال ربط الدخول للبريد الإلكتروني على جهازك: </mobileDoThis>
+		<mobilePlaceholder>إدخل البريد الإلكتروني المستخدم على جهازك </mobilePlaceholder>
+		<mobileSubmit>ارسل التطبيق!</mobileSubmit>
+		<spam>
+			<title>فشل في التسجيل.</title>
+			<regFailText>لم يتم تسجيلك بنجاح </regFailText>
+			<beforeLink>يرجى التواصل معنا على</beforeLink>
+			<afterLink>لإتمام عملية التسجيل.</afterLink>
+		</spam>
+		<confirm>
+			<title>تأكيد التسجيل مطلوب</title>
+			<regFailText><![CDATA[
+			شكرا لاهتمامك في شركة AsiaInspection!<br />
+			لإتمام عملية التسجيل، يرجى الرد على رسالة التأكيد المرسلة إلى عنوان البريد الإلكتروني الذي تم إستخدامه وتأكيد التفاصيل الخاصة بك.<br />
+			]]></regFailText>
+		</confirm>
+	</ar>
+
+	<de>
+		<title>Danke für Ihre Registrierung!</title>
+		<stepOne>Sie erhalten Ihre Zugangsdaten in Kürze per Email. Ein Account Manager wird Sie kontaktieren, um Sie willkommen zu heißen und eventuelle Fragen zu beantworten. </stepOne>
+		<mobileTitle>AI wird Mobil! Nutzen Sie Ihren Account - egal wo Sie sind!</mobileTitle>
+		<appBlurb>Mit der AI App buchen Sie Inspektionen, erhalten Reports und managen Ihr Konto - und zwar bequem von Ihrem Smartphone aus.</appBlurb>
+		<mobileDoThis>Lassen Sie den Zugangslink an die Email-Adresse Ihres Mobilgeräts senden:</mobileDoThis>
+		<mobilePlaceholder>Die Email-Adresse ihres Smartphones</mobilePlaceholder>
+		<mobileSubmit>Schickt mir die App!</mobileSubmit>
+		<spam>
+			<title>Registration Failed.</title>
+			<regFailText>Your registration was not successful.</regFailText>
+			<beforeLink>Please contact us at</beforeLink>
+			<afterLink>to complete your registration.</afterLink>
+		</spam>
+		<confirm>
+			<title>Registration Confirmation Needed</title>
+			<regFailText><![CDATA[
+			Thank you for your interest in AsiaInspection!<br />
+			To complete your registration, please reply to the confirmation email sent to the address you registered with and confirm your details.<br />
+			]]></regFailText>
+		</confirm>
+	</de>
+
+	<it>
+		<title>Grazie per  aver effettuato la registrazione!</title>
+		<stepOne>Riceverai presto un'e-mail con le credenziali di accesso al tuo account AsiaInspection.com. Nota: se non trovi l'e-mail nella cartella della posta in arrivo, controlla quella degli spam.</stepOne>
+		<mobileTitle>AI Goes Mobile! Access Your Account, Wherever You Are!</mobileTitle>
+		<appBlurb>With the AI App, easily book inspections, get full reports and manage your account from the convenience of your mobile device.</appBlurb>
+		<mobileDoThis>Send the access links to your device's email:</mobileDoThis>
+		<mobilePlaceholder>Enter the email used on your mobile</mobilePlaceholder>
+		<mobileSubmit>Send me the App!</mobileSubmit>
+	</it>
+
+
+	<zh>
+		<title>感谢您的注册！</title>
+		<stepOne>很快您会收到含登录认证信息的电子邮件。客户经理会尽快联系您，欢迎您的加入，回答您的任何问题。</stepOne>
+		<appBlurb>With the AI亚检 App, easily book inspections, get full reports and manage your account from the convenience of your mobile device.</appBlurb>
+		<mobileTitle>移动AI亚检! 随时随地，进入您的账户！</mobileTitle>
+		<mobileLink>了解更多</mobileLink>
+		<mobileDoThis>将访问链接发送到您移动设备的邮箱：</mobileDoThis>
+		<mobilePlaceholder>输入您移动设备上使用的邮箱</mobilePlaceholder>
+		<mobileSubmit>发送链接</mobileSubmit>
+		<spam>
+			<title>Registration Failed.</title>
+			<regFailText>Your registration was not successful.</regFailText>
+			<beforeLink>Please contact us at</beforeLink>
+			<afterLink>to complete your registration.</afterLink>
+		</spam>
+		<confirm>
+			<title>Registration Confirmation Needed</title>
+			<regFailText><![CDATA[
+			Thank you for your interest in AsiaInspection!<br />
+			To complete your registration, please reply to the confirmation email sent to the address you registered with and confirm your details.<br />
+			]]></regFailText>
+		</confirm>
+	</zh>
+
+	<es>
+		<title>Gracias por darse de alta</title>
+		<stepOne>En unos minutos recibirá un e-mail con sus datos de acceso. Un consultor le contactará a la mayor brevedad para darle la bienvenida y resolver las dudas que pueda tener.</stepOne>
+		<mobileTitle>¡AI es Móvil! Acceda a su cuenta, esté donde esté.</mobileTitle>
+		<appBlurb>Con la APP de AI, reserve inspecciones fácilmente, obtenga su reporte completo y gestione su cuenta desde la comodidad de su smartphone.</appBlurb>
+		<mobileDoThis>Envie el link de acceso a su móvil:</mobileDoThis>
+		<mobilePlaceholder>Escriba el email que usa en su móvil</mobilePlaceholder>
+		<mobileSubmit>Enviarme la APP!</mobileSubmit>
+	</es>
+
+	<fr>
+		<title>Merci de Vous Inscrire!</title>
+		<stepOne>Vous recevrez bientôt un courriel avec vos identifiants de connexion. Un gestionnaire de compte vous contactera sous peu pour vous accueillir et répondre à toutes les questions que vous pourriez avoir.</stepOne>
+		<mobileTitle>AI Goes Mobile! Accéder à votre compte, où que vous soyez!</mobileTitle>
+		<appBlurb>Avec l'AI App, facilement ordonner des inspections, d'obtenir des rapports complets et de gérer votre compte dans le confort de votre appareil mobile.</appBlurb>
+		<mobileDoThis>Envoyez les liens d'accès à l'e-mail de votre appareil:</mobileDoThis>
+		<mobilePlaceholder>Entrez le email utilisée sur votre mobile</mobilePlaceholder>
+		<mobileSubmit>Envoyez-moi l'App!</mobileSubmit>
+	</fr>
+
+	<ru>
+		<title>Спасибо за регистрацию!</title>
+		<stepOne>Вскоре Вы получите письмо с реквизитами доступа. Аккаунт менеджер свяжется с Вами и ответит на все Ваши вопросы.</stepOne>
+		<mobileTitle>AI становится мобильным! Используйте Ваш аккаунт вне зависимости от того, где Вы находитесь!</mobileTitle>
+		<appBlurb>С приложением AI можно легко заказывать инспекции, получать полные отчеты и управлять аккаунтом с вашего мобильного устройства.</appBlurb>
+		<mobileDoThis>Прислать ссылку для доступа на электронный адрес вашего устройства:</mobileDoThis>
+		<mobilePlaceholder>войдите в электронную почту на вашем мобильном устройстве</mobilePlaceholder>
+		<mobileSubmit>Прислать мне приложение!</mobileSubmit>
+	</ru>
+</document>

@@ -1,0 +1,124 @@
+{% extends 'AIResponsiveBundle:services:serviceBase.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pagename %}{{labType}}{% endblock %}
+{% block bigTitle %} {{xml.title}} {% endblock %}
+{% block smallText %}
+    {% if ctaNMI is defined and ctaNMI == true %}
+        <div class="pwhite"> {{xml.subtext|raw}} </div> 
+        <!-- <a href="javascript:void" onClick="jump2NMI();" role="button"  class="btn btn-primary btn-regular headerButton">{{'Get Started'|trans}}</a> -->
+    {% else %}
+        {% if xml.subtext is defined %}
+            <div class="pwhite"> {{xml.subtext|raw}} </div> 
+            <!-- <a href="/register" role="button"  class="btn btn-primary btn-regular headerButton">{{'Get Started'|trans}}</a> -->
+        {% endif %}
+    {% endif %}
+{% endblock %}
+
+{# Set Template Variables [BEGIN] #}
+{% set demoLink = "/popup?video=labTestDemo&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=420&amp;width=730&amp;modal=true" %}
+{% set demoLinkSmall = "https://www.youtube.com/v/3uCnmUjtioM?version=3%26autoplay=%26showinfo=0%26vq=hd720" %}
+{% set displayNone = "display:none;" %}
+{% set videoLink = "/whitepaper/quick-guide-azo-dyes" %}
+{% set videoLinkSmall = "/whitepaper/quick-guide-azo-dyes" %}
+{# Set Template Variables [END] #}
+
+{% block serviceText %}
+    {% if labType == "LT" or labType == "FT" %}
+        {% if xml.section is defined %}
+            {% for section in xml.section %}
+                <section class="lab-test-section">
+                    <h2 class="marginZero padding15" style="font-weight:bold;">{{section.title}}</h2>
+                    {% if section.subtext is defined %}
+                        {{ section.subtext|trans|raw }}
+                    {% endif %}
+                    {% if section.tab is defined %}
+                        {% for tab in section.tab %}
+                            <div class="lt-tab">
+                                <div class="img-container">
+                                    <img src="https://s3.asiainspection.com/images/labtesting/{{ tab.image }}" />
+                                </div>
+                                <h3>{{ tab.tab_title }}</h3>
+                                {{ tab.text }}
+                                <a href="{{ path('' ~ tab.link ~ '') }}">{% trans %}Learn More{% endtrans %}</a>
+                                <div style="clear:both;"></div>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                </section>
+            {% endfor %}
+        {% else %}
+            <h2 class="marginZero padding15" style="font-weight:bold;">{{pe.title}}</h2>
+            {% for pgph in pe.pgph %}
+                <p> {{pgph|raw}}</p>
+            {% endfor %}
+            <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.title}}</h2>
+            <p> {{xml.description|raw}}</p>
+        {% endif %}
+    {% else %}
+        {% if labType=="ROHS" %}
+            <h2 class="marginZero padding15" style="font-weight:bold;">{{content.compliance.title }}</h2>
+            {% for pgph in content.compliance.pgph %}
+                <p> {{pgph|raw}}</p>
+            {% endfor %}
+            {% if app.request.locale == "en" %}
+                <!-- only show updates in English locales -->
+                <h2 class="marginZero padding15" style="font-weight:bold;">{{content.updates.title}}</h2>
+                {% for pgph in content.updates.section.pgph %}
+                    <p> {{pgph|raw}}</p>
+                {% endfor %}
+                <a href="http://eur-lex.europa.eu/JOHtml.do?uri=OJ%3AL%3A2011%3A174%3ASOM%3AEN%3AHTML">{{content.updates. section.link}}</a>
+            {% endif %}
+        {% endif %}
+
+        {% if labType=="REACH" %}
+            <h2 class="marginZero padding15" style="font-weight:bold;">{{content.compliance.title}}</h2>
+            <p class="marginZero">{{content.compliance.subtext}}
+            {% set i =0 %}
+            {% for bullet in content.compliance.bullet %}
+                <p class="marginZero padding15" style="font-weight:bold;">{{bullet.attributes.title}}</p>
+                {% if bullet.text is defined %}<p>{{bullet.text|raw}}</p>{% endif %}
+                <ul class="marginZero">
+                    {% if bullet.li is defined %}
+                        {% for list in bullet.li %}
+                            <li> {{list|raw}}</li>
+                        {% endfor %}
+                    {% endif %}
+                </ul>
+                {% set i =i+1 %}
+           {% endfor %}
+            <!--only displays updates on EN page-->
+            <h2 class="marginZero padding15" style="font-weight:bold;">{{content.updates.title}}</h2>
+            {% set i=0 %}
+            {% for section in content.updates.section %}
+                <p class="marginZero padding15" style="font-weight:bold;">{{section.title|raw}}</p>
+                    {% for pgph in section.pgph %}
+                        <p>{{pgph|raw}}</p>
+                    {% endfor %}
+                    {% if section.link is defined %}
+                        <a href="{{sectionUrl[i]}}">{{section.link}}</a>
+                    {% endif %}
+                    {% set i=i+1 %}
+            {% endfor %}
+        {% endif %}
+
+        {% if labType=="CPSIA" %}
+            <h2 class="marginZero padding15" style="font-weight:bold;">{{content.compliance.title}}</h2>
+            {% for pgph in content.compliance.pgph %}
+                <p>{{pgph}}</p>
+                {% if pgph.bullet is defined %}
+                    <ul>
+                        {% for list in pgph.bullet.li %}
+                            <li>{{list}}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+
+        <h2 class="marginZero padding15" style="font-weight:bold;">{{xml.title}}</h2>
+        {% if xml.subtext2 is defined %}<p>{{xml.subtext2|raw}}</p>{% endif %}
+    {% endif %}
+{% endblock %}
+
+{% block serviceCoverage %}{% endblock %}

@@ -1,0 +1,7 @@
+ai_responsive:
+    resource: "@AIResponsiveBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+ai_routing:
+    resource: "@AIResponsiveBundle/Resources/config/routing.yml"

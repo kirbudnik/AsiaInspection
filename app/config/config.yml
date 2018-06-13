@@ -1,0 +1,175 @@
+imports:
+    - { resource: parameters.yml }
+    - { resource: security.yml }
+    - { resource: services.yml }
+
+framework:
+    #esi:             ~
+    translator:      { fallbacks: [en] }
+    default_locale: en
+    secret:          "%secret%"
+    router:
+        resource: "%kernel.root_dir%/config/routing.yml"
+        strict_requirements: ~
+    form:            ~
+    csrf_protection: ~
+    validation:      { enable_annotations: true }
+    templating:
+        engines: ['twig','php']
+        assets_version: v12
+    default_locale:  "%locale%"
+    trusted_hosts:   ~
+    trusted_proxies: ~
+    session:
+        # handler_id set to null will use default session handler from php.ini
+        handler_id:  ~
+        cookie_lifetime: 0
+    fragments:       ~
+    http_method_override: true
+
+# Twig Configuration
+twig:
+    debug:            "%kernel.debug%"
+    strict_variables: "%kernel.debug%"
+    globals:
+        price_Inspect_Low: %price_Inspect_Low%
+        price_Inspect_High: %price_Inspect_High%
+        price_Inspect_Food: %price_Inspect_Food%
+        price_Audit_Low: %price_Audit_Low%
+        price_Audit_High: %price_Audit_High%
+        price_Reports: %price_Reports%
+        total_Inspections: %total_Inspections%
+        total_Inspectors: %total_Inspectors%
+        total_Offices: %total_Offices%
+        total_Staff: %total_Staff%
+        total_Nationality: %total_Nationality%
+        total_Client_Countries: %total_Client_Countries%
+        total_Operating_Countries: %total_Operating_Countries%
+        total_languages: %total_languages%
+        total_Labs: %total_Labs%
+        assets_domain: %assets_domain%
+        assets_china_domain: %assets_china_domain%
+
+
+# Assetic Configuration
+assetic:
+    debug:          "%kernel.debug%"
+    use_controller: false
+    bundles:        [ AIResponsiveBundle, FOSUserBundle ]
+    ruby: /usr/bin/ruby
+    sass: /var/lib/gems/1.9.1/gems/sass-3.4.14/bin/sass
+    #java: /usr/bin/java
+    node: /usr/bin/nodejs
+    filters:
+        cssrewrite: ~
+        sass:       ~
+        scss:       ~
+        uglifyjs2:
+            bin: /usr/bin/uglifyjs
+        uglifycss:
+            bin: /usr/bin/uglifycss
+    assets:
+        bootstrap_fonts_woff:
+            inputs:
+                - '%kernel.root_dir%/../vendor/twbs/bootstrap/fonts/glyphicons-halflings-regular.woff'
+            output: fonts/glyphicons-halflings-regular.woff
+        bootstrap_fonts_woff2:
+            inputs:
+                - '%kernel.root_dir%/../vendor/twbs/bootstrap/fonts/glyphicons-halflings-regular.woff'
+            output: fonts/glyphicons-halflings-regular.woff2
+        bootstrap_fonts_ttf:
+            inputs:
+                - '%kernel.root_dir%/../vendor/twbs/bootstrap/fonts/glyphicons-halflings-regular.ttf'
+            output: fonts/glyphicons-halflings-regular.ttf
+        bootstrap_fonts_svg:
+            inputs:
+                - '%kernel.root_dir%/../vendor/twbs/bootstrap/fonts/glyphicons-halflings-regular.svg'
+            output: fonts/glyphicons-halflings-regular.svg
+        bootstrap_fonts_eot:
+            inputs:
+                - '%kernel.root_dir%/../vendor/twbs/bootstrap/fonts/glyphicons-halflings-regular.eot'
+            output: fonts/glyphicons-halflings-regular.eot
+
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: AI\ResponsiveBundle\Entity\User
+    registration:
+        form:
+            handler: app.form.handler.registration
+    from_email:
+        address: noreply@asiainspection.com
+        sender_name: AI Leads Tool
+
+# Doctrine Configuration
+doctrine:
+    dbal:
+        default_connection:   default
+        connections:
+            default:
+                driver:   "%database_driver%"
+                host:     "%database_host%"
+                port:     "%database_port%"
+                dbname:   "%database_name%"
+                service:  "%database_service%"
+                user:     "%database_user%"
+                password: "%database_password%"
+                charset:  UTF8
+                server_version: 5.5.37-0ubuntu0.14.04.1
+                # if using pdo_sqlite as your database driver:
+                #   1. add the path in parameters.yml
+                #     e.g. database_path: "%kernel.root_dir%/data/data.db3"
+                #   2. Uncomment database_path in parameters.yml.dist
+                #   3. Uncomment next line:
+                #     path:     "%database_path%"
+
+    orm:
+        auto_generate_proxy_classes: "%kernel.debug%"
+        auto_mapping: true
+        connection: default
+
+
+# Swiftmailer Configuration
+swiftmailer:
+    transport: "%mailer_transport%"
+    host:      "%mailer_host%"
+    port:      "%mailer_port%"
+    username:  "%mailer_user%"
+    password:  "%mailer_password%"
+    spool:     { type: memory }
+
+services:
+    oracle.listener:
+        class: Doctrine\DBAL\Event\Listeners\OracleSessionInit
+        tags:
+            - { name: doctrine.event_listener, event: postConnect }
+
+    assets.packages:
+        synthetic: true
+
+vresh_twilio:
+    #(Required) Your Account SID from www.twilio.com/user/account
+    sid: 'AC586386c72c4ba66978d416e2e169bb09'
+    #(Required) Your Auth Token from www.twilio.com/user/account
+    authToken: '6d3936c796ca2950cd700c94fb5bd375'
+    #(Optional, default: '2010-04-01') Twilio API version
+    version: '2010-04-01'
+    #(Optional, default: 1) Number of times to retry failed requests
+    retryAttempts: 3
+
+mobile_detect:
+    redirect:
+        mobile: ~
+        tablet: ~
+    switch_device_view: ~
+
+seferov_aws:
+    credentials:
+        key: 'AKIAJJBTZLEVHBMRYIWA'
+        secret: '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'
+    region: 'us-east-1'
+    services:
+        s3:
+            credentials:
+                key: 'AKIAJJBTZLEVHBMRYIWA'
+                secret: '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'

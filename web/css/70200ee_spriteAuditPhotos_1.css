@@ -1,0 +1,241 @@
+/*****************************
+** See A Real Audit Sprites **
+******************************/
+.spriteSRAthumb_001 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") 0px -52px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_002 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") 0px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_003 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -52px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_004 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -104px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_005 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -52px -52px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_006 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -104px -52px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_007 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") 0px -104px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_008 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -52px -104px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_009 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -104px -104px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_010 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -156px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_011 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -156px -52px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_012 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -156px -104px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_013 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") 0px -156px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_014 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -52px -156px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_015 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -104px -156px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_016 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -156px -156px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_017 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -208px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_018 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -208px -52px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_019 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -208px -104px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_020 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -208px -156px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_021 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") 0px -208px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRAthumb_022 {
+  background: url("https://s3.asiainspection.com/sprites/audits_thumbs.jpg") -52px -208px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+/*************************************
+** See A Real Factory Audit Sprites **
+**************************************/
+.spriteSRFAthumb_001 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") 0px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_002 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -52px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_003 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -104px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_004 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -156px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_005 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -208px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_006 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") 0px -52px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_007 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -52px -52px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_008 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -104px -52px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_009 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -156px -52px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_010 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -208px -52px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_011 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") 0px -104px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_012 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -52px -104px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_013 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -104px -104px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_014 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -156px -104px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_015 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -208px -104px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_016 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") 0px -156px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+.spriteSRFAthumb_017 {
+  background: url("https://s3.asiainspection.com/sprites/factoryaudit_thumbs.jpg") -52px -156px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px; }
+
+/**end sprite**/

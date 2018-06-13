@@ -1,0 +1,35 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title %}Tradeshow Memo{% endblock %}
+{% block content %}
+    <h1 style="margin:20px 0px;">{% if not is_granted('ROLE_USER') %}Tradeshow Memo and Lead Management Tool{% else %}Tradeshow and Event Memo Upload{% endif %}</h1>
+    {% if is_granted('ROLE_USER') %}
+        <div class="tradeshowdrop_divbox" style="margin-bottom:20px;">
+            <span>Type of Memo: </span>
+            <select id="tradeshowMemoDropSelectType" >
+                <option value="">-- Please Choose --</option>
+                <option value="tradeshow-exhibiting">Exhibiting Tradeshow or Event (with Booth)</option>
+                <option value="tradeshow-visiting">Visiting Tradeshow (no booth)</option>
+                <option value="event-visiting">Sponsored or Visited Event (no booth)</option>
+                <option value="event-speaking">Speaking Event (no booth)</option>
+                <option value="event-hosted">Self-hosted Event</option>
+                <option value="webinar" selected="selected">Webinar</option>
+            </select>
+            <img src='https://s3.asiainspection.com/images/loading.gif' id="tradeshowMemoLoadingTypeGif" style='height:20px;vertical-align:middle;display:none;'>
+        </div>
+    {% endif %}
+    <div class="box-white">
+        <div style="margin-bottom:20px;">
+            {% if errors is defined %}
+                {% set i = 1 %}
+                <br />
+                <p style="font-weight:bold;color:red;">The following errors occurred during upload: 
+                {% for error in errors %}
+                    <p style="color:red">{{i}}: {{error}};</p>
+                    {% set i = i + 1 %}
+                {% endfor %}
+            {% endif %}
+            <input type="hidden" id="validateErrorText" value="">
+        </div>
+        <center><h2>Not Yet Supported</h2></center>
+    </div>
+{% endblock %}

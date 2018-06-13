@@ -1,0 +1,49 @@
+{% extends 'AIResponsiveBundle:salesLeads:leadsBase.html.twig' %}
+{% block title %}Affiliate Management{% endblock %}
+
+{% block content %}
+
+	<h1 class="margin20">Affiliate Management</h1>
+	<div class="box-white">
+		<div style="margin-bottom:20px;" id="salesLeadsData">
+			<table class="bordered tablesorter" style="width:100%;" id="salesLeadsTable">
+				<thead>
+					 <tr>
+						<th style="font-weight:bold; text-align:center;" width="10%">Affiliate Id</th>
+						<th style="font-weight:bold;" width="20%">Affiliate Name</th>
+						<th style="font-weight:bold;" width="20%">Company</th>
+						<th style="font-weight:bold;" width="30%">Url</th>
+						<th style="font-weight:bold; text-align:center;" width="10%">Registration Date</th>
+						<th style="font-weight:bold; text-align:center;" width="10%">Status</th>
+					</tr>
+				</thead>
+				<tbody>
+				{% for row in affiliates %}
+					<tr class="salesLeadsRow">
+						<td style="text-align:center;">{{row.affid}}</td>
+						<td>{{row.affiliatename}}</td>
+						<td>{{row.company}}</td>
+						<td>{{row.url}}</td>
+						<td style="text-align:center;">{{row.registrationdate}}</td>
+						{% if row.status == "Applied" %}
+							<td style="text-align:center;">
+								<span class="answers text-center" id="approvebox_{{row.id}}">
+									<button class="btn-primary approveAffiliateBtn" id="approve_{{row.id}}" value="{{row.id}}" style="width:100%; margin:3px 0px;">Accept</button><br />
+									<button class="btn-negative rejectAffiliateBtn" id="reject_{{row.id}}" value="{{row.id}}" style="width:100%; margin:3px 0px;">Decline</button>
+								</span>
+							</td>
+						{% elseif row.status == "Approved" %}
+							<td style="background-color:#bfffd9; text-align:center;">Approved</td>
+						{% elseif row.status == "Rejected" %}
+							<td style="background-color:#f5bcbf; text-align:center;">Rejected</td>
+						{% else %}
+							<td style="text-align:center;">{{row.status}}</td>
+						{% endif %}
+					</tr>
+				{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+{% endblock %}

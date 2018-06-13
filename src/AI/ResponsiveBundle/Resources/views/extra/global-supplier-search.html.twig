@@ -1,0 +1,88 @@
+{% if app.request.locale == "ar" %} {% set twigBase = "AIResponsiveBundle:RTL:extra/extraBase.html.twig" %} {% else %} {% set twigBase = "AIResponsiveBundle:extra:extraBase.html.twig" %} {% endif %}
+{% extends twigBase %}
+
+{% block title %}Global Supplier Search{% endblock %}
+{% block pageDescription %}{% endblock %}
+{% block pageKeywords %}{% endblock %}
+
+{% block bigTitle %}GlobalSources.com Supplier Search{% endblock %}
+{% block smallText %}{% endblock %}
+{% block pagename %}global-supplier-search{% endblock %}
+
+{% block mainBlock %}
+	<br />
+	<center>
+		<img src="https://s3.asiainspection.com/images/logo_AI_60x60.png" style="margin:0px 10px 15px 0px;"/>
+		<img src="https://s3.asiainspection.com/images/responsive/logo-globalsources.png" style="margin:0px 0px 15px 10px;"/>
+	</center>
+	<p>AI and GlobalSources.com partner to provide you additional insights on GlobalSources.com suppliers.</p>
+	<p>Enter a supplier name and country from the GlobalSources.com website below and we'll tell you if they have been inspected by AI:</p>
+	<div class="col-md-6 col-xs-12 paddingLeftRightZero" style="padding:0px; bordedr:1px dashed black;">
+		<input id="searchBox" type="text" placeholder="Supplier Name" class="form-control" />
+	</div>
+	<div class="col-md-5 col-md-offset-1 col-xs-12 paddingLeftRightZero" style="padding:0px; bordedr:1px dashed black;">
+		<select id="country" class="form-control">
+			<option key="" disabled="disabled" selected="selected">- Select Country -</option>
+			{% for key, country in countries %}
+				<option key="{{key}}" value="{{country.iso2}}">{{country.name}}</option>
+			{% endfor %}
+		</select>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="col-xs-12 paddingLeftRightZero" style="padding:0px; text-align:center; margin-top:20px;">
+		<button id="searchButton" type="button" class="btn-primary btn-big" style="min-width:200px;">Search</button><br />
+		<img id="loadingGif" src='https://s3.asiainspection.com/images/loading.gif' style='height:20px; display:none; margin-top:15px;'>
+	</div>
+
+	<div id="searchResultsWrapper" class="col-xs-12 paddingLeftRightZero" style="padding:0px; margin-top:20px; display:none;">
+		<!--
+		<hr class="hrgrey" />
+		<p><b>Your search returned <span id="rowCount">X</span> result(s):</b></p>
+		<div class="searchResultBox" style="background-color:#ddd; margin:5px 0px; padding:20px;">
+			<p><b>Everbright Sunshing Limited</b> located in <b>China</b></p>
+			<p><b style="color:#5BA331;">Inspected by AI on May 13, 2017</b></p>
+			<div class="col-xs-12 paddingLeftRightZero" style="padding:0px; text-align:center; margin-top:10px;">
+				<button type="button" class="btn-primary btn-big" style="min-width:200px;">Audit this Supplier</button>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		-->
+	</div>
+	<div style="clear:both;"></div>
+	<div style="text-align:center; margin-top:20px;"><a href="http://www.globalsources.com">Back to GlobalSources.com</a></div>
+
+	<script type="text/javascript">
+	$("#searchButton").click(function() {
+		$(".invalidFeild").removeClass("invalidFeild");
+		searchVal = $("#searchBox").val();
+		countryVal = $("#country").val();
+		if( countryVal == null || searchVal.length < 2 ) {
+			if(searchVal.length < 2) $("#searchBox").addClass("invalidFeild");
+			if(countryVal == null) $("#country").addClass("invalidFeild");
+		} else {
+			$("#searchResultsWrapper").hide();
+			$("#loadingGif").show();
+			$.ajax({
+				type: "POST",
+				url: "/global-sources-supplier-search/search",
+				async: "false",
+				data: "s="+searchVal+"&c="+countryVal,
+				dataType: "json",
+				success: function(e) {
+					$("#searchResultsWrapper").html("<hr class='hrgrey' /><div style='text-align:left; float:left;'><b>Your search returned "+e.count+" result(s):</b></div><p><div style='text-align:right; float:right;'><a href='http://www.globalsources.com'>Back to GlobalSources.com</a></div><div style='clear:both;'></div></p>");
+					$.each(e, function(i, obj) {
+						if(obj != 0) {
+							$("#searchResultsWrapper").append("<div class='searchResultBox' style='background-color:#ddd; margin:5px 0px; padding:20px;'><p><b>"+obj.Supplier+"</b> located in <b>"+obj.Country+"</b></p><p><b style='color:#5BA331;'>Inspected by AI on "+obj.Last_Inspection+"</b></p><div class='col-xs-12 paddingLeftRightZero' style='padding:0px; text-align:center; margin-top:10px;'><button type='button' onClick='document.location.href = \"/register\"' class='btn-primary btn-big' style='min-width:200px;'>Audit this Supplier</button></div><div style='clear:both;'></div></div>");
+						}
+					});
+					$("#loadingGif").hide();
+					$("#searchResultsWrapper").show();
+				}
+			});
+		}
+	});
+		
+	</script>
+
+{% endblock %}
+

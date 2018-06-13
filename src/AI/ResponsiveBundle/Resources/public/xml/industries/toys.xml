@@ -1,0 +1,1990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <pageMeta>
+        <pageTitle>
+            <en>Lab Testing &amp; Safety Standard Inspection for Toys &amp; Recreational Items | AsiaInspection</en>
+            <fr>Tests en Laboratoire &amp; Inspection de Sécurité Standard pour Jouets &amp; Articles de Loisir | AsiaInspection</fr>
+            <zh>玩具和娱乐用品检验及测试 | AI亚检</zh>
+            <ar>اختبارات مراقبة الجودة والسلامة الخاصة بصناعة الألعاب | AsiaInspection - ضمان الجودة والسلامة والمطابقة</ar>
+            <de>Qualitätskontrolle und Sicherheitsprüfung für die Spielzeugindustrie | AsiaInspection – Qualitätssicherung, Sicherheit &amp; Konformität</de>
+            <es>Control de calidad y pruebas de seguridad para la industria de los juguetes | AsiaInspection - Garantía de calidad, seguridad y cumplimiento</es>
+            <tr>Çocuk ve Eğlence Ürünleri için Laboratuvar Testi ve Güvenlik Sdandardı Muayenesi | AsiaInspection</tr>
+            <pt>Testes de Laboratório e Inspeção Normas Segurança para Brinquedos e Itens Recreativos | AsiaInspection</pt>
+            <ru>Лабораторные тестирования и инспекция соответствия стандартам безопасности для игрушек и товаров для отдыха | AsiaInspection</ru>
+            <it>Analisi di Laboratorio e Ispezione per gli Standard di Sicurezza per Giocattoli e Articoli per il Tempo Libero | AsiaInspection</it>
+        </pageTitle>
+        <pageDesc>
+            <en>AsiaInspection offers quality assurance and lab testing services for toys and recreational items. Ensure the quality and safety standards of your products with a third party test from AsiaInspection.</en>
+            <fr>AsiaInspection propose des services d'assurance qualité et des tests en laboratoire pour les jouets et articles de loisirs. Assurez-vous que vos produits respectent les normes de qualité et de sécurité avec des tests indépendants réalisés par AsiaInspection.</fr>
+            <ar>تُقدم AsiaInspection خدمات مراقبة الجودة والاختبارات المعملية لصانعي ومستوردي الألعاب في جميع أنحاء العالم. بإمكانكم ضمان سلامة الألعاب للسوق المُستهدف وحماية علامتكم التجارية.</ar>
+            <de>AsiaInspection bietet Spielzeugherstellern und Importeuren weltweit Qualitätskontrollen und Labortests an.  Garantieren Sie die Spielzeugsicherheit für Ihren Zielmarkt und schützen Sie Ihre Marke.</de>
+            <es>AsiaInspection ofrece controles de calidad y pruebas de laboratorio para fabricantes e importadores de juguetes en todo el mundo. Garantice la seguridad de los juguetes de su mercado objetivo y proteja su marca.</es>
+            <tr>AsiaInspection oyuncaklar ve eğlence ürünleri için kalite güvence ve laboratuvar testi hizmetleri sunar. AsiaInspection'ın üçüncü taraf testi ile ürünlerinizin kalite ve güvenlik standartlarından emin olun.</tr>
+            <pt>A AsiaInspection oferece serviços de garantia de qualidade e testes de laboratório para brinquedos e itens recreativos. Assegure os padrões de qualidade e segurança dos seus produtos com um teste de terceiros da AsiaInspection.</pt>
+            <ru>AsiaInspection предоставляет гарантию качества и услуги лабораторного тестирования для игрушек и товаров для отдыха. Гарантируйте качество и безопасность вашей продукции благодаря независимому тестированию от AsiaInspection.</ru>
+            <zh>AI亚检按照各种国际标准（包括 EN、ISO、ASTM、IEC），用专业知识可帮助品牌商和零售商确保其进口玩具的质量和安全性，包括儿童玩具、娱乐用品和电子玩具。可确保您的玩具和娱乐用品符合目标市场的质量和安全标准。</zh>
+            <it>AsiaInspection offre servizi di quality assurance e di analisi di laboratorio per giocattoli e articoli per il tempo libero Garantisci la qualità e il rispetto degli standard di sicurezza da parte dei tuoi prodotti ricorrendo all'analisi di una terza parte come AsiaInspection.</it>
+        </pageDesc>
+        <pageKeywords>
+            <en>toy testing lab, toy safety standards, toy inspection</en>
+            <fr>tests de jouets en laboratoire, normes de sécurité pour jouets, inspection de jouets</fr>
+            <ar>اختبار الألعاب، سلامة الألعاب، أعلى ضمان للجودة</ar>
+            <de>Spielzeugprüfung, Spielzeugsicherheit, Qualitätssicherung von Spielzeug</de>
+            <es>Pruebas de juguetes, seguridad de juguetes, garantía de calidad de juguetes</es>
+            <tr>oyuncak testi laboratuvarı, oyuncak güvenlik standartları, oyuncak muayenesi</tr>
+            <pt>laboratório de teste brinquedos, normas segurança brinquedos, inspeção brinquedos</pt>
+            <ru>лаборатория тестирования игрушек, стандарты безопасности для игрушек, инспекция игрушек</ru>
+            <zh>GB6675测试, 玩具测试公司, 玩具检测机构, 玩具测试标准, 玩具测试服务</zh>
+            <it>analisi di laboratorio giocattoli, standard di sicurezza giocattoli, ispezione giocattoli</it>
+        </pageKeywords>
+    </pageMeta>
+
+    <en>
+        <imageAlt>Lab Testing &amp; Safety Standard Inspection for Toys | AsiaInspection</imageAlt>
+        <title>Toys and Recreational Item Testing</title>
+        <subTitle>AsiaInspection offers quality assurance and lab testing services for every category of toys and recreational items against a number of international standards (including EN, ISO, ASTM, IEC).</subTitle>
+        <schedButton url="/register">Get Started</schedButton>
+        <soloutionTitle>QC Tailored for the Toys and Recreational Items Industry</soloutionTitle>
+        <soloutionContent>
+            <![CDATA[
+            <p>The safety of toys and recreational items has been in the spotlight ever since the discovery of lead in children's toys resulted in massive product recalls in 2007. Every year, as new research comes to light about the health impact of various substances used in the production of toys, the list of banned and restricted substances keeps growing.</p>
+            <p>AI's extensive testing expertise helps major brands and retailers ensure the quality and safety of their toy imports, including children's toys, recreational items, and electric toys.</p>
+
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Sharp point and sharp edge verification</li>
+                            <li>Pull test on small parts</li>
+                            <li>Pull test on seams</li>
+                            <li>Stuff checking for the plush toy</li>
+                            <li>Metal detection test</li>
+                            <li>Small parts verification</li>
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Workmanship check</li>
+                            <li>Function/performance of product</li>
+                            <li>Working distance check for remote control toys</li>
+                            <li>Frequency check for electronic toys</li>
+                            <li>Humidity test for the wooden toys</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Toys and Recreational Items Lab Testing Expertise</h2>
+
+            <p>AI <a href="/quality-control-services/laboratory-testing">laboratory tests</a> ensure that your toys and recreational items meet the standards and regulations of your destination market. AI's laboratories offer a wide range of tests covering every aspect of product quality and safety:</p>
+            <p><strong>International Requirements:</strong></p>
+            <ul class="marginzero">
+                <li>ISO 8124, Part 1, Safety of Toys, Mechanical Hazards</li>
+                <li>ISO 8124, Part 2, Safety of Toys, Flammability</li>
+                <li>ISO 8124, Part 3, Safety of Toys, Migration of Certain Elements</li>
+                <li>IEC 62115, Electric Toys – Safety</li>
+                <li>IEC 60825, Laser/LED Safety</li>
+                <li>Age appropriateness analysis</li>
+            </ul>
+            <br/>
+
+            <h5>US Toy Standards & Regulations</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%"><strong>General requirements</strong></td>
+                    <td width="50%"><strong>Children's products</strong></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>FDA Ext. Lead & Cadmium (Interior)</li>
+                            <li>FDA Indirect Food Additives (FSSE)</li>
+                            <li>Cal Prop 65 Settlement Review & Testing</li>
+                            <li>Cal Prop 65 Total Lead in Soft Food & Beverage Containers</li>
+                            <li>Cal Prop 65</li>
+                            <li>Cal Prop 65 Ext. Lead & Cadmium (Interior)</li>
+                            <li>Cal Prop 65 Phthalates (5)</li>
+                            <li>USP 61/62, Microbiological Examination of Non-Sterile Products</li>
+                            <li>USP 51 Preservative Effectiveness</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPSIA Total Lead Content in Surface Coatings</li>
+                            <li>CPSIA Total Lead Content Children’s Products (metal and non-metal substrates)</li>
+                            <li>CPSIA Total Lead Content in Children’s Metal Jewelry</li>
+                            <li>16 CFR 1500, Mechanical Hazards and Labeling</li>
+                            <li>16 CFR 1500.44, Flammability of Solids</li>
+                            <li>16 CFR 1511, Pacifiers</li>
+                            <li>CPSIA Tracking Labels</li>
+                            <li>Model Toxics in Packaging (formerly CONEG)</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+                <tr>
+                    <td width="100%" colspan="2" align="center"><strong>Toys and recreational items</strong></td>
+                </tr>
+                <tr>
+                    <td width="100%" colspan="2" valign="top">
+                        <ul style="margin:0px;">
+                            <li>16 CFR 1501, Small Parts</li>
+                            <li>16 CFR 1510, Rattles</li>
+                            <li>CPSIA Total Lead Content in Surface Coatings</li>
+                            <li>ASTM F963-11 Soluble Heavy Metals content in Surface Coatings</li>
+                            <li>CPSIA Total Lead Content in Children’s Products (metal & non-metal substrates)</li>
+                            <li>CPSIA Phthalate Content (non-mouthable and mouthable)</li>
+                            <li>ASTM F963-11, Mechanical Hazards & Labeling</li>
+                            <li>ASTM F963-11, Flammability of Solids</li>
+                            <li>ASTM F963-11, Flammability of Textiles</li>
+                            <li>16 CFR 1610, Flammability of Clothing Textiles</li>
+                            <li>ASTM 1148-11, Home Playgrounds</li>
+                            <li>ANSI Tricycle Testing</li>
+                            <li>Model Toxics in Packaging (formerly CONEG)</li>
+                            <li>CPSIA Tracking Labels</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Europe Toy Standards & Regulations</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Part 1, Safety of Toys, Mechanical and Physical Tests</li>
+                            <li>EN 71, Part 2, Safety of Toys, Flammability Test</li>
+                            <li>EN 71, Part 3, Safety of Toys, Migration of Certain Elements</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Part 8, Activity Toys for Domestic Use (swings, slides)</li>
+                            <li>EC No. 1907/2006 (REACH), Total Cadmium</li>
+                            <li>EC No. 1907/2006 (REACH), Phthalates (non-mouth & mouth)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Canada Toy Standards & Regulations</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2005-109, Surface Coating Materials Regulations</li>
+                            <li>SOR/2016-193, Total Lead & Mercury Content in Surface Coatings</li>
+                            <li>SOR/2011-17 amended by SOR/2016-195 Item 23(b), Leachable Metals in Surface Coatings</li>
+                            <li>SOR/2010-273 amended by SOR/2016-171, Lead in Substrate Materials</li>
+                            <li>SOR/2010-298, Phthalates Regulations</li>
+                            <li>SOR/2016-188, Phthalates (Vinyl Materials)</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2016-168, Lead in Children’s Jewelry</li>
+                            <li>SOR/2016-194, Textile Flammability Regulation</li>
+                            <li>SOR/2011-17 amended by SOR/2016-195, Canadian Toys Regulations (Mechanical Hazards & Flammability)</li>
+                            <li>Consumer Packaging and Labeling Act (R.S., 1985, c. C-38)</li>
+                            <li>Country of Origin (C.R.C., c.535)</li>
+                            <li>Quebec Labeling (R.S.Q., c.C-11)</li>
+                            <li>Canada Consumer Product Safety Act (CCPSA)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Australia / New Zealand Toy Standards & Regulations</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Part 1, Safety of Toys, Mechanical Hazards</li>
+                            <li>AS/NZS ISO 8124, Part 2, Safety of Toys, Flammability</li>
+                            <li>AS/NZS 62115, Electric Toys – Safety</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Part 3, Safety of Toys, Migration of Certain Elements</li>
+                            <li>Australia Consumer Protection Notice No. 11 of 2011 (DEHP Content)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Other Toy Standards & Regulations</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>
+                                <strong>China:</strong>
+                                <ul class="marginzero">
+                                    <li>GB 6675, Toy Safety Standard</li>
+                                    <li>GB 19865, Electric Toys – Safety</li>
+                                    <li>CNS 14276, Safety of Electric Toys</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Japan:</strong>
+                                <ul class="marginzero">
+                                    <li>Food Sanitation Law Section 4 – Toys</li>
+                                    <li>ST-2012, Toy Safety Standard</li>
+                                </ul>
+                            </li>
+                            <li><strong>Thailand:</strong> TIS 2236-2548, Electric Toys - Safety</li>
+                            <li><strong>Malaysia:</strong> MS 1725, Safety of Electric Toys</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPAI 75, Flammability of Sleeping Bags </li>
+                            <li>CPAI 84, Flame Resistant Materials Used in Camping Tentage</li>
+                            <li>SGCDpro Lip & Rim Test</li>
+                            <li>Labeling Evaluations</li>
+                            <li>LHAMA Evaluations</li>
+                            <li>TRA (Toxicological Risk Assessment)</li>
+                            <li>Toxins in Packaging</li>
+                            <li>GCC, General Certificate  of Conformance</li>
+                            <li>CPC, Children’s Product Certificate</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br />
+            ]]>
+        </soloutionContent>
+    </en>
+
+    <ar>
+        <imageAlt>Lab Testing &amp; Safety Standard Inspection for Toys | AsiaInspection</imageAlt>
+        <title>الألعاب والمواد الترفيهية</title>
+        <subTitle>تُقدم AsiaInspection خدمات ضمان الجودة والاختبارات المعملية لجميع فئات الألعاب والمواد الترفيهية وفقًا للمعايير الدولية (من بينها EN, ISO, ASTM, IEC).</subTitle>
+        <schedButton url="/register">ابدأ
+        </schedButton>
+        <soloutionTitle>عمليات فحص الجودة مُصممة خصيصًا لصناعة الألعاب والمواد الترفيهية</soloutionTitle>
+        <soloutionContent>
+            <![CDATA[
+            <p>أصبحت سلامة الألعاب والمواد الترفيهية في دائرة الضوء منذ اكتشاف مادة الرصاص في ألعاب الأطفال مما أدى إلى عمليات استعادة واسعة النطاق للمنتجات في عام 2007. فكل عام، تزداد قائمة المواد المحظورة والممنوعة مع ظهور المزيد من الأبحاث بشأن آثار العديد من المواد المُستخدمة في إنتاج تلك الألعاب.</p>
+            <p>تُساعد خبرة AI الواسعة في مجال الاختبارات العلامات التجارية الكبرى وتجار التجزئة في ضمان جودة وارداتهم من الألعاب وسلامتها بما فيها الألعاب والمواد الترفيهية والألعاب الكهربائية.</p>
+
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>التحقق من النقاط والحواف الحادة</li>
+                            <li>اختبار الشد على الأجزاء الصغيرة</li>
+                            <li>اختبار الشد على الدرزات</li>
+                            <li>فحص حشو ألعاب الأطفال</li>
+                            <li>اختبارات الكشف عن المعادن</li>
+                            <li>التحقق من الأجزاء الصغيرة.</li>
+
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>فحص المشغولات اليدوية</li>
+                            <li>اختبارات الكشف عن المعادن</li>
+                            <li>فحص مسافة العمل بالنسبة لألعاب التحكم عن بُعد</li>
+                            <li>فحص ترددات الألعاب الإلكترونية</li>
+                            <li>اختبار الرطوبة في الألعاب الخشبية</li>
+
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>الخبرة في مجال الاختبارات المعملية على الألعاب والمواد الترفيهية</h2>
+
+            <p>تضمن مختبرات AI أن تُلبي الألعاب والمواد الترفيهية الخاصة بكم معايير ولوائح السوق المُستهدف. تُقدم مختبرات AI مجموعة واسعة من الاختبارات التي تُغطي كافة جوانب جودة المنتجات وسلامتها:</p>
+            <p><strong>المتطلبات الدولية:</strong></p>
+            <ul class="marginzero">
+                <li>ISO 8124، القسم 1، سلامة الألعاب، المخاطر الميكانيكية</li>
+                <li>ISO 8124، القسم 2، سلامة الألعاب، القابلية للاشتعال</li>
+                <li>ISO 8124، القسم 3، سلامة الألعاب، تسرب بعض العناصر</li>
+                <li>IEC 62115، الألعاب الكهربائية – السلامة</li>
+                <li>IEC 60825، سلامة أشعة الليزر\ليد</li>
+                <li>تحليل ملاءمة الفئة العمرية</li>
+            </ul>
+            <br/>
+
+            <h5>المعايير والأنظمة المعمول بها داخل الولايات المتحدة</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%"><strong>متطلبات عامة</strong></td>
+                    <td width="50%"><strong>منتجات الأطفال</strong></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>FDA Ext. الرصاص والكادميوم (داخلي)</li>
+                            <li>قائمة إدارة الأغذية والدواء بشأن الإضافات الغذائية غير المباشرة (FSSE)</li>
+                            <li>Cal Prop 65 التسوية والمراجعة والاختبار</li>
+                            <li>Cal Prop 65 إجمالي الرصاص في حاويات الأغذية الطرية والمشروبات</li>
+                            <li>Cal Prop 65</li>
+                            <li>Cal Prop 65 Ext. الرصاص والكادميوم (داخلي)</li>
+                            <li>Cal Prop 65 الفثالات (5)</li>
+                            <li>USP 61/62، الاختبارات الميكروبيولوجية على المنتجات غير المُعقمة</li>
+                            <li>USP 51 فعالية المواد الحافظة</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPSIA إجمالي محتوى الرصاص في طلاء الأسطح</li>
+                            <li>CPSIA Total Lead Content Children’s Products CPSIA إجمالي محتوى الرصاص في منتجات الأطفال (الركائز المعدنية وغير المعدنية)</li>
+                            <li>CPSIA إجمالي محتوى الرصاص في مجوهرات الأطفال المعدنية</li>
+                            <li>16 CFR 1500 المخاطر الميكانيكية والملصقات</li>
+                            <li>16 CFR 1500.44، قابلية المواد الصلبة للاشتعال</li>
+                            <li>16 CFR 1511، لهًايات الرُضع</li>
+                            <li>مُلصقات قانون تحسين سلامة المنتجات الاستهلاكية CPSIA للتتبع</li>
+                            <li>النسب النموذجية للسُميات في مواد التغليف والتعبئة (والذي كان يُعرف سابقًا باسم ائتلاف حُكام الولايات الشمالية الشرقية CONEG)</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+                <tr>
+                    <td width="100%" colspan="2" align="center"><strong>الألعاب والمواد الترفيهية</strong></td>
+                </tr>
+                <tr>
+                    <td width="100%" colspan="2" valign="top">
+                        <ul style="margin:0px;">
+                            <li>16 CFR 1501، الأجزاء الصغيرة</li>
+                            <li>16 CFR 1510، الخشخيشات</li>
+                            <li>CPSIA إجمالي محتوى الرصاص في طلاء الأسطح</li>
+                            <li>ASTM F963-11 محتوى المعادن الثقيلة القابلة للذوبان في طلاء الأسطح</li>
+                            <li>CPSIA إجمالي محتوى الرصاص في منتجات الأطفال (الركائز المعدنية وغير المعدنية)</li>
+                            <li>CPSIA محتوى الفثالات (التي توضع أو لا توضع في الفم)</li>
+                            <li>ASTM F963-11، المخاطر الميكانيكية والملصقات</li>
+                            <li>ASTM F963-11، قابلية المواد الصلبة للاشتعال</li>
+                            <li>ASTM F963-11، قابلية المنسوجات للاشتعال</li>
+                            <li>16 ASTM F963-11، قابلية ملابس المنسوجات للاشتعال</li>
+                            <li>ASTM 1148-11، الملاعب المنزلية</li>
+                            <li>ANSI اختبارات الدراجات ثلاثية العجلات</li>
+                            <li>النسب النموذجية للسُميات في مواد التغليف والتعبئة (والذي كان يُعرف سابقًا باسم ائتلاف حُكام الولايات الشمالية الشرقية CONEG)</li>
+                            <li>مُلصقات قانون تحسين سلامة المنتجات الاستهلاكية CPSIA للتتبع</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>المعايير والأنظمة المعمول بها في أوروبا</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71، القسم 1، سلامة الألعاب، الاختبارات الميكانيكية والفيزيائية</li>
+                            <li>EN 71، القسم 2، سلامة الألعاب، اختبار القابلية للاشتعال</li>
+                            <li>EN 71، القسم 3، سلامة الألعاب، تسرب بعض العناصر</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71، القسم 8، ألعاب الأنشطة للاستخدامات المنزلية (الأرجوحات، الزلاجات)</li>
+                            <li>توجيه المطابقة الأوروبية EC No. 1907/2006 (REACH)، إجمالي الكادميوم</li>
+                            <li>توجيه المطابقة الأوروبية EC No. 1907/2006 (REACH)، الفثالات (التي توضع أو لا توضع في الفم)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>المعايير والأنظمة في كندا</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2005-109، لوائح مواد طلاء الأسطح</li>
+                            <li>SOR/2005-109، إجمالي محتوى الرصاص والزئبق في طلاء الأسطح</li>
+                            <li>SOR/2011-17 وتعديلاته SOR/2016-195 البند 23 (ب)، المعادن المرتشحة في طلاء الأسطح</li>
+                            <li>SOR/2010-273 وتعديلاته SOR/2016-171، الرصاص في مواد الركائز</li>
+                            <li>SOR/2010-298، الأنظمة الخاصة بالفثالات</li>
+                            <li>SOR/2016-188، الفثالات (مواد الفينيل)</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2016-168، الرصاص في مجوهرات الأطفال</li>
+                            <li>SOR/2016-194، اللوائح الخاصة بقابلية المنسوجات للاشتعال</li>
+                            <li>قانون SOR/2011-17 وتعديله SOR/2016-195، اللوائح الكندية بشأن الألعاب (المخاطر الميكانيكية والقابلية للاشتعال)</li>
+                            <li>قانون مواد التعبئة والتغليف الاستهلاكية (R.S., 1985, c. C-38)</li>
+                            <li>بلد المنشأ (C.R.C., c.535)</li>
+                            <li>الملصقات في مقاطعة كيبيك (R.S.Q., c.C-11)</li>
+                            <li>قانون سلامة المنتجات الاستهلاكية الكندي (CCPSA)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>اللوائح والأنظمة المعمول بها في استراليا ونيوزيلاندا</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124، القسم 1، سلامة الألعاب، المخاطر الميكانيكية</li>
+                            <li>AS/NZS ISO 8124، القسم 2، سلامة الألعاب، القابلية للاشتعال</li>
+                            <li>AS/NZS ISO 8124، الألعاب الكهربائية – السلامة</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>IAS/NZS ISO 8124، القسم 3، سلامة الألعاب، تسرب بعض العناصر</li>
+                            <li>إشعار حماية المستهلك الاسترالي رقم 11 لسنة 2011 (محتوى ثنائي-(2-ايثيل)-هيكسيل فثالات)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>المعايير والأنظمة الأخرى</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>
+                                <strong>الصين</strong>
+                                <ul class="marginzero">
+                                    <li>GB 6675، معيار سلامة الألعاب</li>
+                                    <li>GB 19865، الألعاب الكهربائية – السلامة</li>
+                                    <li>CNS 14276، سلامة الألعاب الكهربائية</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>اليابان:</strong>
+                                <ul class="marginzero">
+                                    <li>قانون صحة الغذاء القسم 4 - الألعاب</li>
+                                    <li>ST-2012، معيار سلامة الألعاب</li>
+                                </ul>
+                            </li>
+                            <li><strong>تايلند: TIS 2236-2548، الألعاب الكهربائية – السلامة</li>
+                            <li><strong>ماليزيا: MS 1725، سلامة الألعاب الكهربائية</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPAI 75، قابلية أكياس النوم للاشتعال</li>
+                            <li>CPAI 84، المواد المقاومة للهب المُستخدمة في خيام المعسكرات</li>
+                            <li>اختبار SGCDpro Lip & Rim Test</li>
+                            <li>تقييم المُلصقات</li>
+                            <li>تقييمات قانون مُلصقات المواد الفنية الخطرة LHAMA</li>
+                            <li>تقييم المخاطر السُمية (TRA)</li>
+                            <li>السُميات في مواد التعبئة والتغليف</li>
+                            <li>شهادة المطابقة العامة GCC</li>
+                            <li>شهادة منتجات الأطفال CPC</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br />
+            ]]>
+        </soloutionContent>
+    </ar>
+
+    <fr>
+        <title>Jouets et Articles de Loisirs</title>
+        <subTitle>AsiaInspection vous permet de vous assurer de la qualité de vos produits avec des services de tests en laboratoire et d’inspection pour tous les types de jouets et articles de loisirs pour vérifier qu'ils répondent aux normes internationales (y compris les normes EN, ISO, ASTM, IEC).</subTitle>
+        <schedButton url="/register">Démarrer</schedButton>
+        <soloutionTitle>Contrôle qualité sur-mesure pour les jouets et articles de loisir</soloutionTitle>
+        <soloutionContent>
+            <![CDATA[
+            <p>La sécurité des jouets et des articles de loisirs est encore plus importante depuis la découverte de plomb dans des jouets pour enfants qui a donné lieu à des rappels de produits massifs en 2007. Chaque année, de nouvelles recherches mettent en lumière l'impact sur la santé de diverses substances utilisées dans la production de jouets, la liste des substances interdites et restreintes ne cesse de croître.</p>
+            <p>La grande expertise d'AI en termes de tests permet aux grandes marques et revendeurs de s'assurer de la qualité et de la sécurité de leurs jouets importés, y compris les jouets pour enfants, les articles de loisirs, et les jouets électriques.</p>
+
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Vérification des angles pointus et bords tranchants</li>
+                            <li>Tests de tirage sur les petites pièces</li>
+                            <li>Tests de tirage sur les coutures</li>
+                            <li>Vérification du rembourrage pour les jouets en peluche</li>
+                            <li>Tests de détection de métaux</li>
+                            <li>Vérification des petites pièces</li>
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Contrôle des finitions</li>
+                            <li>Tests des fonctions/performances du produit</li>
+                            <li>Tests de fonctionnement à distance pour les jouets télécommandés</li>
+                            <li>Contrôle de fréquence pour les jouets électroniques</li>
+                            <li>Tests d'humidité pour les jouets en bois</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Expertise en tests de laboratoire pour jouets et articles de loisirs</h2>
+
+            <p>Les tests en laboratoire réalisés par AI veillent à ce que vos jouets et articles de loisirs répondent aux normes de qualité et de sécurité de votre marché de destination. Les laboratoires de l'AI proposent les tests suivants :</p>
+
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Conformité aux Normes Internationales pour les Jouets (ISO 8124)</li>
+                            <li>Directive de Conformité Européenne pour la Sécurité des Jouets (EN 71)</li>
+                            <li>Conformité aux Normes Américaines pour les Jouets (ASTM F963)</li>
+                            <li>Proposition 65 en Californie USA pour les Porduits de Consommation</li>
+                            <li>Conformité aux Normes Chinoises pour les Jouets (ISO 6675)</li>
+                            <li>Toxiques dans l'Emballage</li>
+                            <li>Inflammabilité des Sacs de Couchage (CPAI 75)</li>
+                            <li>Matériaux Résistants aux Flammes Utilisés pour les Tentes de Camping (CPAI 84)</li>
+                            <li>Normes Australiennes pour les Jouets (AS/NZS/ISO 8124)</li>
+                            <li>Sécurité Électrique des jouets (IEC 62115/MS 1725/TIS 2236-2548 / AS/NZS 62115 / GB 19865 / CNS 14276)</li>
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Sécurité Laser/LED (IEC 60825)</li>
+                            <li>Section 4 de la Loi Japonaise pour la Sécurité Alimentaire – Jouets</li>
+                            <li>Norme de Sécurité Japonaise pour les Jouets (ST-2012)</li>
+                            <li>Règlement Canadien pour les Jouets (SOR/2011-17)</li>
+                            <li>Règlement Canadien sur les Revêtements (SOR/2005-109)</li>
+                            <li>Règlement Canadien (sur les matériaux en contact avec la bouche) (SOR/2010-273)</li>
+                            <li>Règlement Canadien sur les Phtalates (SOR/2010-298)</li>
+                            <li>Règlement Canadien sur les Textiles Inflammables (SOR/2011-22)</li>
+                            <li>Loi Canadienne sur la Sécurité des Produits de Consommation</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Expertise en tests de laboratoire pour jouets et articles de loisirs</h2>
+            
+            <p>En plus des tests en laboratoire, AI dispose d’équipes d’inspecteurs spécialisés dans le jouet, qui peuvent se rendre dans vos usines pour vérifier la conformité des productions en cours.</p>
+            <p>AI vous aide à construire un protocole d’inspection correspondant à votre type de produit et marché de destination, et l’inspection peut être organisée facilement en ligne depuis votre compte ou votre mobile.</p>
+            <p>Pour plus de sécurité, commandez ensemble un test laboratoire et une inspection en usine : ainsi l’inspecteur prélèvera dans l’usine lui-même de façon aléatoire les échantillons de produits à tester en laboratoire, pour éviter qu’ils soient ‘sélectionnés’ par votre fournisseur.</p>
+            <br />
+            ]]>
+        </soloutionContent>
+    </fr>
+
+    <zh>
+        <imageAlt>Lab Testing &amp; Safety Standard Inspection for Toys | AsiaInspection</imageAlt>
+        <title>玩具和娱乐用品检测</title>
+        <subTitle>AI亚检可按照各种国际标准（包括 EN、ISO、ASTM、IEC），提供针对各类玩具和娱乐用品的质量保证和实验室测试服务。</subTitle>
+        <schedButton url="/register">Get Started</schedButton>
+        <soloutionTitle>专为玩具和娱乐用品行业提供的质量检测服务</soloutionTitle>
+        <soloutionContent>
+            <![CDATA[
+            <p>2007 年，人们发现儿童玩具中铅超标，导致了大量产品被召回。从那时起，玩具和娱乐用品的安全性就一直是关注焦点。每年，随着新的研究不断揭示玩具生产中使用的各种物质对健康的影响，被禁止和限制的物质的名单越来越长。</p>
+            <p>AI 亚检丰富的测试专业知识可帮助品牌商和零售商确保其进口玩具的质量和安全性，包括儿童玩具、娱乐用品和电子玩具。</p>
+
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li style="margin-bottom:5px;">尖角和锐边检测</li>
+                            <li style="margin-bottom:5px;">小部件拉力测试</li>
+                            <li style="margin-bottom:5px;">接缝处拉力测试</li>
+                            <li style="margin-bottom:5px;">毛绒玩具填充物检测</li>
+                            <li style="margin-bottom:5px;">金属探测</li>
+                            <li style="margin-bottom:5px;">小部件检测</li>
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li style="margin-bottom:5px;">工艺检测</li>
+                            <li style="margin-bottom:5px;">产品功能/性能</li>
+                            <li style="margin-bottom:5px;">遥控玩具的工作距离检测</li>
+                            <li style="margin-bottom:5px;">电子玩具的频率检测</li>
+                            <li style="margin-bottom:5px;">木制玩具的湿度测试</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>玩具和娱乐用品实验室测试专业测试</h2>
+
+            <p>AI 亚检实验室测试可确保您的玩具和娱乐用品符合目标市场的质量和安全标准。AI 实验室为玩具和娱乐用品提供以下测试项目:</p>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li style="margin-bottom:5px;">国际玩具标准合规性 (ISO 8124)</li>
+                            <li style="margin-bottom:5px;">欧洲玩具安全指令合规性 (EN 71)</li>
+                            <li style="margin-bottom:5px;">美国玩具标准合规性 (ASTM F963)</li>
+                            <li style="margin-bottom:5px;">针对消费类产品的美国加州第 65 号提案</li>
+                            <li style="margin-bottom:5px;">中国玩具标准合规性 (GB 6675)</li>
+                            <li style="margin-bottom:5px;">包装毒物</li>
+                            <li style="margin-bottom:5px;">睡袋阻燃性 (CPAI 75)</li>
+                            <li style="margin-bottom:5px;">露营帐篷使用的阻燃材料 (CPAI 84)</li>
+                            <li style="margin-bottom:5px;">澳大利亚玩具标准 (AS/NZS/ISO 8124)</li>
+                            <li style="margin-bottom:5px;">电子玩具安全 (IEC 62115/MS 1725/TIS 2236-2548/AS/NZS 62115/GB 19865/CNS 14276)</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li style="margin-bottom:5px;">激光/LED 安全 (IEC 60825)</li>
+                            <li style="margin-bottom:5px;">日本食品卫生法第 4 条 - 玩具</li>
+                            <li style="margin-bottom:5px;">日本玩具安全标准 (ST-2012)</li>
+                            <li style="margin-bottom:5px;">SOR/2011-17 已被加拿大玩具条例 SOR/2016-195 替代</li>
+                            <li style="margin-bottom:5px;">SOR/2016-193 加拿大表面涂层材料条例</li>
+                            <li style="margin-bottom:5px;">SOR/2010-273 已被加拿大（与嘴部接触产品）条例 SOR/2016-171 替代</li>
+                            <li style="margin-bottom:5px;">SOR/2016-188 加拿大邻苯二甲酸盐条例</li>
+                            <li style="margin-bottom:5px;">SOR/2016-194 加拿大纺织品阻燃性条例</li>
+                            <li style="margin-bottom:5px;">加拿大消费类产品安全法案</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            ]]>
+        </soloutionContent>
+    </zh>
+
+    <de>
+        <imageAlt>Lab Testing &amp; Safety Standard Inspection for Toys | AsiaInspection</imageAlt>
+        <title>Spielzeug und Freizeitartikel</title>
+        <subTitle>AsiaInspection bietet Qualitätssicherungs- und Labortestdienstleistungen für alle Spielzeug- und Freizeitartikelkategorien gemäß verschiedenen internationalen Normen an (einschließlich EN, ISO, ASTM, IEC).</subTitle>
+        <schedButton url="/register">Get Started</schedButton>
+        <soloutionTitle>QC Maßgeschneidert für die Spielzeug- und Freizeitartikelindustrie</soloutionTitle>
+        <soloutionContent>
+            <![CDATA[
+            <p>Seit der Entdeckung von Blei in Kinderspielzeug, die 2007 zu massiven Produktrückrufaktionen geführt hat, steht die Sicherheit von Spielzeug und Freizeitartikeln im Vordergrund. Jedes Jahr, wenn neue Forschungsarbeiten in Bezug auf die gesundheitliche Auswirkung von verschiedenen Substanzen, die in der Herstellung von Spielzeug verwendet werden, zutage treten, wird die Liste der verbotenen und eingeschränkten Substanzen länger.</p>
+            <p>Die umfassenden Fachkenntnisse von AI in den verschiedenen Prüfbereichen helfen führenden Marken und Einzelhändlern, die Qualität und Sicherheit ihrer importierten Produkte, einschließlich Kinderspielzeug, Freizeitartikel und elektrisches Spielzeug, zu gewährleisten</p>
+
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Prüfung auf scharfe Spitzen und scharfe Kanten</li>
+                            <li>Zugprüfung an Kleinteilen</li>
+                            <li>Zugprüfung an Nähten</li>
+                            <li>Überprüfung der Füllung von Plüschspielzeug</li>
+                            <li>Metallerkennungstest</li>
+                            <li>Überprüfung von Kleinteilen</li>
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Prüfung der Verarbeitungsqualität</li>
+                            <li>Funktion/Leistung des Produktes</li>
+                            <li>Prüfung des Funktionsabstands für ferngesteuerte Spielzeuge</li>
+                            <li>Frequenzprüfung für elektronisches Spielzeug</li>
+                            <li>Feuchtigkeitsprüfung für Holzspielzeug</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Labortest-Kompetenz für Spielzeug und Freizeitartikel</h2>
+
+            <p>Die von AI durchgeführten Labortests stellen sicher, dass Ihre Spielzeug- und Freizeitartikel die Normen und Verordnungen Ihres Zielmarktes erfüllen. Die AI-Laboratorien bieten eine Vielfalt von Tests an, die alle Aspekte hinsichtlich der Produktqualität und der Sicherheit umfassen.</p>
+            <p><strong>Internationale Anforderungen:</strong></p>
+            <ul class="marginzero">
+                <li>ISO 8124, Teil 1, Sicherheit von Spielzeug,  mechanische Gefährdungen</li>
+                <li>ISO 8124, Teil 2, Sicherheit von Spielzeug, Entflammbarkeit</li>
+                <li>ISO 8124, Teil 3, Sicherheit von Spielzeug, Migration bestimmter Elemente</li>
+                <li>IEC 62115, Elektrisches Spielzeug - Sicherheit</li>
+                <li>IEC 60825, Laser/LED-Sicherheit</li>
+                <li>Alterseignungsanalyse</li>
+            </ul>
+            <br/>
+
+            <h5>US-Normen & Verordnungen</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%"><strong>Allgemeine Anforderungen</strong></td>
+                    <td width="50%"><strong>Kinderprodukte</strong></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>FDA außen Blei & Cadmium (innen)</li>
+                            <li>FDA  Indirekte Lebensmittelzusätze</li>
+                            <li>Cal Prop 65 Bewertung der Erfüllung & Prüfung</li>
+                            <li>Cal Prop 65 Gesamtbleigehalt in Behältern von weicher Nahrung und Getränken</li>
+                            <li>Cal Prop 65</li>
+                            <li>Cal Prop 65 außen Blei & Cadmium (innen)</li>
+                            <li>Cal Prop 65 Phthalate (5)</li>
+                            <li>USP 61/62, Mikrobiologische Untersuchung von nicht sterilen Produkten</li>
+                            <li>USP 51 Konservierende Wirkung</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPSIA Gesamtbleigehalt in Oberflächenbeschichtungen</li>
+                            <li>CPSIA Gesamtbleigehalt Kinderprodukte (Metall- und Nichtmetall-Substrate)</li>
+                            <li>CPSIA Gesamtbleigehalt in Metallschmuck für Kinder</li>
+                            <li>16 CFR 1500, Mechanische Gefährdungen und Kennzeichnung</li>
+                            <li>16 CFR 1500.44, Entflammbarkeit von Feststoffen</li>
+                            <li>16 CFR 1511, Schnuller</li>
+                            <li>CPSIA Kontrollaufkleber</li>
+                            <li>Model Toxics in Verpackungen (ehemals CONEG)</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+                <tr>
+                    <td width="100%" colspan="2" align="center"><strong>Spielzeug und Freizeitartikel</strong></td>
+                </tr>
+                <tr>
+                    <td width="100%" colspan="2" valign="top">
+                        <ul style="margin:0px;">
+                            <li>16 CFR 1501, Kleinteile</li>
+                            <li>16 CFR 1510, Rasseln</li>
+                            <li>CPSIA Gesamtbleigehalt in Oberflächenbeschichtungen</li>
+                            <li>ASTM F963-11 Gehalt an löslichen Schwermetallen in Oberflächenbeschichtungen</li>
+                            <li>CPSIA Gesamtbleigehalt in Kinderprodukten (Metall- & Nichtmetall-Substrate)</li>
+                            <li>CPSIA Phthalatgehalt (für den Mund geeignet oder nicht geeignet)</li>
+                            <li>ASTM F963-11, Mechanische Gefährdungen & Kennzeichnung</li>
+                            <li>ASTM F963-11, Entflammbarkeit von Feststoffen</li>
+                            <li>ASTM F963-11, Entflammbarkeit von Textilien</li>
+                            <li>16 CFR 1610, Entflammbarkeit von Bekleidungstextilien</li>
+                            <li>ASTM 1148-11, Heimspielplätze</li>
+                            <li>ANSI Dreiradprüfung</li>
+                            <liModel Toxics in Verpackungen (ehemals CONEG)</li>
+                            <li>CPSIA Kontrollaufkleber</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Europa Normen und Verordnungen</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Teil 1, Sicherheit von Spielzeug, mechanische und physische Prüfungen</li>
+                            <li>EN 71, Teil 2, Sicherheit von Spielzeug, Entflammbarkeitsprüfung</li>
+                            <li>EN 71, Teil 3, Sicherheit von Spielzeug, Migration bestimmter Elemente</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Teil 8, Aktivitätsspielzeug für den Hausgebrauch (Schaukeln, Rutschbahnen)</li>
+                            <li>EC Nr. 1907/2006 (REACH), Gesamtcadmiumgehalt</li>
+                            <li>EC Nr. 1907/2006 (REACH), Phthalate (nicht für den Mund & für den Mund geeignet)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Kanada Normen & Verordnungen</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2005-109, Verordnung für Oberflächenbeschichtungsmaterialien</li>
+                            <li>SOR/2016-193, Gesamtblei- & Quecksilbergehalt in Oberflächenbeschichtungen</li>
+                            <li>SOR/2011-17 geändert durch SOR/2016-195 Artikel 23(b), Auslaugbare Metalle in Oberflächenbeschichtungen</li>
+                            <li>SOR/2010-273 geändert durch SOR/2016-171, Blei in Substratmaterialien</li>
+                            <li>SOR/2010-298, Verordnung für Phthalate</li>
+                            <li>SOR/2016-188, Phthalate (Vinylmaterialien)</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2016-168, Blei in Kinderschmuck</li>
+                            <li>SOR/2016-194, Verordnung über die Entflammbarkeit von Textilien</li>
+                            <li>SOR/2011-17 geändert durch SOR/2016-195, Kanadische Spielzeugverordnung (mechanische Gefährdungen & Entflammbarkeit)</li>
+                            <li>Verbraucherschutzgesetz für Packungen und Kennzeichnungen (R.S., 1985, c. C-38)</li>
+                            <li>Herkunftsland (C.R.C., c.535)</li>
+                            <li>Quebec Kennzeichnung (R.S.Q., c.C-11)</li>
+                            <li>Kanada Verbraucherschutzgesetz für Produktsicherheit (CCPSA)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Australien/Neuseeland Normen & Verordnungen</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Teil 1, Sicherheit von Spielzeug,  mechanische Gefährdungen</li>
+                            <li>AS/NZS ISO 8124, Teil 2, Sicherheit von Spielzeug, Entflammbarkeit</li>
+                            <li>AS/NZS IEC 62115, Elektrisches Spielzeug - Sicherheit</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Teil 3, Sicherheit von Spielzeug, Migration bestimmter Elemente</li>
+                            <li>Australien Verbraucherschutzhinweis Nr. 11 von 2011 (DEHP-Gehalt)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Sonstige Normen und Verordnungen</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>
+                                <strong>China:</strong>
+                                <ul class="marginzero">
+                                    <li>GB 6675, Sicherheitsnorm für Spielzeug</li>
+                                    <li>GB 19865, Elektrisches Spielzeug - Sicherheit</li>
+                                    <li>CNS 14276, Sicherheit von elektrischem Spielzeug</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Japan:</strong>
+                                <ul class="marginzero">
+                                    <li>Gesetz für Lebensmittelhygiene Abschnitt 4 - Spielzeug</li>
+                                    <li>ST-2012, Spielzeugsicherheitsnorm</li>
+                                </ul>
+                            </li>
+                            <li><strong>Thailand:</strong> TIS 2236-2548, Elektrisches Spielzeug - Sicherheit</li>
+                            <li><strong>Malaysia:</strong> MS 1725, Sicherheit von elektrischem Spielzeug</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPAI 75, Entflammbarkeit von Schlafsäcken</li>
+                            <li>CPAI 84, Flammhemmende Materialien zur Verwendung in Zelten</li>
+                            <li>SGCDpro Lip & Rim-Prüfung</li>
+                            <li>Kennzeichnungsbewertungen</li>
+                            <li>LHAMA-Bewertungen</li>
+                            <li>TRA (Toxikologische Risikobewertung)</li>
+                            <li>Giftstoffe in Verpackungen</li>
+                            <li>GCC, Allgemeine Konformitätbescheinigungen</li>
+                            <li>CPC, Zertifikat für Kinderprodukte</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br />
+            ]]>
+        </soloutionContent>
+    </de>
+
+    <es>
+        <imageAlt>Lab Testing &amp; Safety Standard Inspection for Toys | AsiaInspection</imageAlt>
+        <title>Juguetes y artículos recreativos</title>
+        <subTitle>AsiaInspection ofrece garantía de calidad y servicios de pruebas de laboratorio para todas las categorías de juguetes y artículos recreativos frente a una serie de normas internacionales (como EN, ISO, ASTM, IEC, etc.).</subTitle>
+        <schedButton url="/register">Get Started</schedButton>
+        <soloutionTitle>Controles de calidad adaptados a la industria de los juguetes y los artículos recreativos</soloutionTitle>
+        <soloutionContent>
+            <![CDATA[
+            <p>La seguridad de los juguetes y los artículos recreativos ha sido el centro de atención desde que la aparición de plomo en un juguete infantil provocó una retirada masiva de productos en 2007. Cada año crece lista de sustancias prohibidas y restringidas, conforme aparecen nuevas investigaciones sobre el impacto en la salud de diversas sustancias utilizadas en la producción de juguetes.</p>
+            <p>La amplia experiencia en pruebas de AI ayuda a las grandes marcas y distribuidores a garantizar la calidad y seguridad de sus importaciones de juguetes, como juguetes infantiles, artículos recreativos y juguetes eléctricos.</p>
+
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Verificación de puntas y bordes afilados</li>
+                            <li>Prueba de tracción en piezas pequeñas</li>
+                            <li>Prueba de tracción en costuras</li>
+                            <li>Comprobación de rellenos en juguetes de peluche</li>
+                            <li>Pruebas de detección de metales</li>
+                            <li>Comprobación de piezas pequeñas</li>
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Comprobación de la mano de obra</li>
+                            <li>Función/rendimiento del producto</li>
+                            <li>Comprobación de distancia de funcionamiento para juguetes con control remoto</li>
+                            <li>Comprobación de frecuencia para juguetes electrónicos</li>
+                            <li>Prueba de humedad para juguetes de madera</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Experiencia en pruebas de laboratorio para  juguetes y artículos recreativos</h2>
+
+            <p>Las pruebas de laboratorio de AI garantizan que sus juguetes y artículos recreativos cumplan con las normas y reglamentos de su mercado objetivo. Los laboratorios de AI ofrecen una amplia gama de pruebas que abarcan todos los aspectos de la calidad y la seguridad de sus productos:</p>
+            <p><strong>Requisitos internacionales:</strong></p>
+            <ul class="marginzero">
+                <li>ISO 8124, parte 1, seguridad de los juguetes, riesgos mecánicos</li>
+                <li>ISO 8124, parte 2, seguridad de los juguetes, inflamabilidad</li>
+                <li>ISO 8124, parte 3, seguridad de los juguetes, migración de ciertos elementos</li>
+                <li>IEC 62115, juguetes eléctricos - seguridad</li>
+                <li>IEC 60825, seguridad de láser/LED</li>
+                <li>Análisis correspondiente a la edad</li>
+            </ul>
+            <br/>
+
+            <h5>Normativas y reglamentos de EE. UU.</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%"><strong>Requerimientos generales</strong></td>
+                    <td width="50%"><strong>Productos infantiles</strong></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>FDA Ext. plomo y cadmio (interior)</li>
+                            <li>FDA Aditivos alimentarios indirectos (FSSE)</li>
+                            <li>Cal Prop 65 Revisión y pruebas de soluciones</li>
+                            <li>Cal Prop 65 Plomo total en envases ligeros de coimida y bebida</li>
+                            <li>Cal Prop 65</li>
+                            <li>Cal Prop 65 Ext. Plomo y cadmio (interior)</li>
+                            <li>Cal Prop 65 Ftalatos (5)</li>
+                            <li>USP 61/62, análisis microbiológico de productos no estériles</li>
+                            <li>USP 51 Eficacia de los conservantes</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPSIA Contenido total de plomo en coberturas superficiales</li>
+                            <li>CPSIA Contenido total de plomo en productos infantiles (sustratos metálicos y no metálicos)</li>
+                            <li>CPSIA Contenido total de plomo en joyería infantil de metal</li>
+                            <li>16 CFR 1500: riesgos mecánicos y etiquetado</li>
+                            <li>16 CFR 1500.44: inflamabilidad de sólidos.</li>
+                            <li>16 CFR 1511: chupetes</li>
+                            <li>Etiquetas de seguimiento CPSIA</li>
+                            <li>Modelo de tóxicos en el empaquetado (anteriormente CONEG)</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+                <tr>
+                    <td width="100%" colspan="2" align="center"><strong>Juguetes y artículos recreativos</strong></td>
+                </tr>
+                <tr>
+                    <td width="100%" colspan="2" valign="top">
+                        <ul style="margin:0px;">
+                            <li>16 CFR 1501: piezas pequeñas</li>
+                            <li>16 CFR 1510: sonajeros</li>
+                            <li>CPSIA Contenido total de plomo en coberturas superficiales</li>
+                            <li>ASTM F963-11: contenido de metales pesados ​​solubles en recubrimientos superficiales</li>
+                            <li>CPSIA Contenido total de plomo en productos infantiles (sustratos metálicos y no metálicos)</li>
+                            <li>CPSIA contenido de ftalato (aptos y no aptos para la boca)</li>
+                            <li>ASTM F963-11: riesgos mecánicos y etiquetado.</li>
+                            <li>ASTM F963-11: inflamabilidad de sólidos.</li>
+                            <li>ASTM F963-11, inflamabilidad de textiles</li>
+                            <li>16 CFR 1610: inflamabilidad de prendas de vestir textiles</li>
+                            <li>ASTM 1148-11: zonas de juego en el hogar</li>
+                            <li>ANSI Prueba del triciclo</li>
+                            <li>Modelo de tóxicos en el empaquetado (anteriormente CONEG).</li>
+                            <li>Etiquetas de seguimiento CPSIA</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Normativas y regulaciones de Europa</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, parte 1, seguridad de los juguetes, pruebas mecánicas y físicas</li>
+                            <li>EN 71, parte 2, seguridad de los juguetes, prueba de inflamabilidad</li>
+                            <li>EN 71, parte 3, seguridad de los juguetes, migración de ciertos elementos</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, parte 8, juguetes de actividad para uso doméstico (columpios, toboganes)</li>
+                            <li>CE n.º 1907/2006 (REACH): cadmio total</li>
+                            <li>CE n.º 1907/2006 (REACH): ftalatos (aptos y no aptos para la boca)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Normativas y regulaciones de Canadá</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2005-109: regulación sobre materiales de recubrimiento.</li>
+                            <li>SOR/2005-109: regulación sobre materiales de recubrimiento.</li>
+                            <li>SOR/2011-17 modificada por SOR/2016-195 Artículo 23 (b): metales lixiviables en recubrimientos</li>
+                            <li>SOR/2010-273 modificado por SOR/2016-171: plomo en materiales de sustrato</li>
+                            <li>SOR/2010-298: reglamento de ftalatos</li>
+                            <li>SOR/2016-188: ftalatos (materiales de vinilo)</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2016-168: plomo en joyería infantil</li>
+                            <li>SOR/2016-194: reglamento de inflamabilidad textil</li>
+                            <li>SOR/2011-17 modificado por SOR/2016-195: regulación canadiense sobre juguetes (riesgos mecánicos y de inflamabilidad)</li>
+                            <li>Ley de etiquetado y envases para consumo (R.S., 1985, c. C-38)</li>
+                            <li>País de origen (C.R.C., c.535)</li>
+                            <li>Etiquetado de Quebec (R.S.Q., c.C-11)</li>
+                            <li>Ley canadiense de seguridad de los productos para el consumidor (CCPSA)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Normas y regulaciones de Australia/Nueva Zelanda</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, parte 1: seguridad de los juguetes, riesgos mecánicos</li>
+                            <li>AS/NZS ISO 8124, parte 2: seguridad de los juguetes, inflamabilidad</li>
+                            <li>AS/NZS 62115: juguetes eléctricos, seguridad</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, parte 3: seguridad de los juguetes, migración de ciertos elementos</li>
+                            <li>Nota sobre protección al consumidor de Australia N.º 11 de 2011 (contenido DEHP)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Otras normativas y reglamentos</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>
+                                <strong>China:</strong>
+                                <ul class="marginzero">
+                                    <li>GB 6675: norma de seguridad de los juguetes</li>
+                                    <li>GB 19865: juguetes eléctricos, seguridad</li>
+                                    <li>SNC 14276: seguridad de los juguetes eléctricos</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Japón:</strong>
+                                <ul class="marginzero">
+                                    <li>Ley de higiene alimentaria, sección 4, juguetes</li>
+                                    <li>ST-2012: norma de seguridad de juguetes</li>
+                                </ul>
+                            </li>
+                            <li><strong>Tailandia:</strong> TIS 2236-2548: juguetes eléctricos, seguridad</li>
+                            <li><strong>Malasia:</strong> MS 1725: seguridad de los juguetes eléctricos</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPAI 75: inflamabilidad de los sacos de dormir</li>
+                            <li>CPAI 84: materiales resistentes al fuego usados ​​en tiendas de campaña</li>
+                            <li>SGCDpro: prueba de bordes y contornos</li>
+                            <li>Evaluaciones de etiquetado</li>
+                            <li>Evaluaciones LHAMA</li>
+                            <li>TRA (evaluación del riesgo toxicológico)</li>
+                            <li>Toxinas en el envasado</li>
+                            <li>GCC (certificado general de conformidad)</li>
+                            <li>CPC (certificado de producto para niños)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br />
+            ]]>
+        </soloutionContent>
+    </es>
+
+    <tr>
+        <imageAlt>Lab Testing &amp; Safety Standard Inspection for Toys | AsiaInspection</imageAlt>
+        <title>Oyuncaklar ve Eğlence Ürünleri Testi</title>
+        <subTitle>AsiaInspection bir dizi uluslararası standarda karşı her oyuncak ve eğlence ürünü kategorisi için kalite güvence ve laboratuvar testi hizmetleri sunar (EN, ISO, ASTM, IEC dahil).</subTitle>
+        <schedButton url="/register">Get Started</schedButton>
+        <soloutionTitle>Oyuncaklar ve Eğlence Ürünleri Sektörüne Özel Kalite Kontrol</soloutionTitle>
+        <soloutionContent>
+            <![CDATA[
+            <p>2017 yılındaki toplu ürün geri çağırmalarıyla sonuçlanan çocuk oyuncaklarında kurşun bulunmasından bu yana, oyuncak ve eğlence ürünlerinin güvenliği ön plana çıkmıştır. Her yıl oyuncak imalatında kullanılan çeşitli maddelerin sağlık üzerindeki etkilerini gün güzüne çıkartan yeni araştırmalar geldikte, yasaklı ve kısıtlı maddeler listesi büyümeye devam etmektedir.</p>
+            <p>AI'nin kapsamlı test uzmanlığı çocuk oyuncakları, eğlence ürünleri ve elektrikli oyuncakları da içeren, büyük marka ve perakendecilerin oyun ithalatlarında kalite ve güvenliği sağlamalarında yardımcı olur.</p>
+
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Keskin uç ve keskin kenar kontrolü</li>
+                            <li>Küçük parçalarda çekme testi</li>
+                            <li>Dikiş yerlerinde çekme testi</li>
+                            <li>Peluş oyuncak için dolgu kontrolü</li>
+                            <li>Metal algılama testi</li>
+                            <li>Küçük parça kontrolü</li>
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>İşçilik kontrolü</li>
+                            <li>Ürünün fonksiyon/performans testi</li>
+                            <li>Uzaktan kumandalı oyuncaklar için çalışma mesafesi kontrolü</li>
+                            <li>Elektronik oyuncaklar için frekans kontrolü</li>
+                            <li>Ahşap oyuncaklar için nem testi</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Oyuncak ve Eğlence Ürünleri Laboratuvar Testi Uzmanlığı</h2>
+
+            <p>AI <a href="/quality-control-services/laboratory-testing">laboratuvar testleri</a> oyuncak ve eğlence ürünlerinizin hedef piyasanızdaki standartlar ve düzenlemelerin karşılanmasını sağlar. AI laboratuvarları ürün kalite ve güvenliğinin her yönünü kapsayan çok sayıda test sunmaktadır:</p>
+            <p><strong>Uluslararası Gereksinimler:</strong></p>
+            <ul class="marginzero">
+                <li>ISO 8124, Bölüm 1, Oyuncakların Güvenliği, Mekanik Tehlikeler</li>
+                <li>ISO 8124, Bölüm 2, Oyuncakların Güvenliği, Tutuşabilirlik</li>
+                <li>ISO 8124, Bölüm 3, Oyuncakların Güvenliği, Bazı Elemanların Yer Değiştirmesi</li>
+                <li>IEC 62115, Elektrikli Oyuncaklar – Güvenlik</li>
+                <li>IEC 60825, Lazer/LED Güvenliği</li>
+                <li>Yaş uygunluk analizi</li>
+            </ul>
+            <br/>
+
+            <h5>ABD Oyuncak Standartları ve Düzenlemeleri</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%"><strong>Genel zorunluluklar</strong></td>
+                    <td width="50%"><strong>Çocuk ürünleri</strong></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>FDA Dış. Kurşun ve Kadmiyum (İç)</li>
+                            <li>FDA Endirekt Gıda Katkıları (FSSE)</li>
+                            <li>Cal Öne. 65 Uyuşma Değerlendirmesi ve Testi</li>
+                            <li>Cal Öne. 65 Yumuşak Yiyecek ve İçecek Kaplarında Toplam Kurşun</li>
+                            <li>Cal One 65</li>
+                            <li>Cal Öne. 65 Dış.  Kurşun ve Kadmiyum (İç)</li>
+                            <li>Cal Öne. 65 Fatalatlar (5)</li>
+                            <li>USP 61/62, Steril Olmayan Ürünlerin Mikrobiyolojik incelemesi</li>
+                            <li>USP 51 Koruyucu Tesirliliği</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPSIA Yüzey Kaplamalarında Toplam Kurşun Muhteviyatı</li>
+                            <li>CPSIA Çocuk Ürünlerinde Toplam Kurşun Muhteviyatı (metal ve metal olmayan sübstratlar)</li>
+                            <li>CPSIA Çocuk Metal Mücevherlerinde Toplam Kurşun Muhteviyatı</li>
+                            <li>16 CFR 1500, Mekanik Tehlikeler ve Etiketleme</li>
+                            <li>16 CFR 1500.44, Katıların Alev Alabilirliği</li>
+                            <li>16 CFR 1511, Emzikler</li>
+                            <li>CPSIA Takip Etiketleri</li>
+                            <li>Paketlemedeki Zehirli Maddeler (eskiden CONEG)</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+                <tr>
+                    <td width="100%" colspan="2" align="center"><strong>Oyuncak ve eğlence araçları</strong></td>
+                </tr>
+                <tr>
+                    <td width="100%" colspan="2" valign="top">
+                        <ul style="margin:0px;">
+                            <li>16 CFR 1501, Küçük Parçalar</li>
+                            <li>16 CFR 1510, Çıngıraklar</li>
+                            <li>CPSIA Yüzey Kaplamalarında Toplam Kurşun Muhteviyatı</li>
+                            <li>ASTM F963-11 Yüzey Kaplamalarındaki Çözünür Ağır Metal muhteviyatı</li>
+                            <li>CPSIA Çocuk Ürünlerinde Toplam Kurşun Muhteviyatı (metal ve metal olmayan sübstratlar)</li>
+                            <li>CPSIA Fatalat Muhteviyatı (ağzı alınamaz ve alınabilir)</li>
+                            <li>ASTM F963-11, Mekanik Tehlikeler ve Etiketleme</li>
+                            <li>ASTM F963-11, Katıların Tutuşabilirliği</li>
+                            <li>ASTM F963-11, Tekstil Ürünlerinin Tutuşabilirliği</li>
+                            <li>16 CFR 1610, Giyim Ürünlerinin Alev Alabiliriliği</li>
+                            <li>ASTM 1148-11, Evdeki Oyun Alanları</li>
+                            <li>ANSI Üç Tekerlekli Bisiklet Testi</li>
+                            <li>Paketlemedeki Zehirli Maddeler (eskiden CONEG)</li>
+                            <li>CPSIA Takip Etiketleri</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Avrupa Oyuncak Standartları ve Düzenlemeleri</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Bölüm 1, Oyuncakların Güvenliği, Mekanik ve Fiziksel Testler</li>
+                            <li>EN 71, Bölüm 2, Oyuncakların Güvenliği, Tutuşabilirlik Testi</li>
+                            <li>EN 71, Bölüm 3, Oyuncakların Güvenliği, Bazı Elemanların Yer Değiştirmesi</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Bölüm 8, Evde Kullanım Amaçlı Aktivite Oyuncakları (salıncaklar, kaydıraklar)</li>
+                            <li>EC No. 1907/2006 (REACH), Toplam Kadmiyum</li>
+                            <li>EC No. 1907/2006 (REACH), Fatalatlar (ağza alınabilir ve alınamaz)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Kanada Oyuncak Standartları ve Düzenlemeleri</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2005-109, Yüzey Kaplama Malzemeleri Düzenlemesi</li>
+                            <li>SOR/2016-193, Yüzey Kaplamalarında Toplam Kurşun ve Cıva Muhteviyatı</li>
+                            <li>SOR/2011-17, SOR/2016-195 madde 23(b) ile değiştirilmiş, Yüzey Kaplamalarında Filtre Edilebilir Metaller</li>
+                            <li>SOR/2010-273, SOR/2016-171 ile değiştirilmiş, Sübstrat Malzemelerinde Kurşun</li>
+                            <li>SOR/2010-298, Fatalat Düzenlemeleri</li>
+                            <li>SOR/2016-188 Fatalatlar (Vinil Malzemeler)</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2016-168 Çocuk Mücevherlerinde Kurşun</li>
+                            <li>SOR/2016-194, Tekstil Ürünleri Tutuşabilirlik Düzenlemesi</li>
+                            <li>SOR/2011-17, SOR/2016-195 ile değiştirilmiş, Kanada Oyuncak Düzenlemeleri (Mekanik Tehlikeler ve Tutuşabilirlik)</li>
+                            <li>Tüketim Ürünleri Paketleme ve Etiketleme Yasası (R.S., 1985, p. C-38)</li>
+                            <li>Menşei Ülke (C.R.C., p.535)</li>
+                            <li>Quebec Etiketleme (R.S.Q., p.C-11)</li>
+                            <li>Kanada Tüketim Ürünleri Güvenliği Yasası (CCPSA)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Avustralya/Yeni Zelanda Oyuncak Standartları ve Düzenlemeleri</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Bölüm 1, Oyuncakların Güvenliği, Mekanik Tehlikeler</li>
+                            <li>AS/NZS ISO 8124, Bölüm 2, Oyuncakların Güvenliği, Tutuşabilirlik</li>
+                            <li>AS/NZS 62115, Elektrikli Oyuncaklar – Güvenlik</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Bölüm 3, Oyuncakların Güvenliği, Bazı Elemanların Yer Değiştirmesi</li>
+                            <li>Australia Tüketim Ürünlerinin Korunması Bildirimi No. 11 / 2011 (DEHP İçeriği)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Diğer Oyuncak Standartları ve Düzenlemeleri</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>
+                                <strong>Çin:</strong>
+                                <ul class="marginzero">
+                                    <li>GB 6675, Oyuncak Güvenlik Standardı</li>
+                                    <li>GB 19865, Elektrikli Oyuncaklar – Güvenlik</li>
+                                    <li>CNS 14276, Elektrikli Oyuncakların Güvenliği</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Japonya:</strong>
+                                <ul class="marginzero">
+                                    <li>Gıda Güvenliği Kanunu Bölüm 4 – Oyuncaklar</li>
+                                    <li>ST-2012, Oyuncak Güvenliği Standardı</li>
+                                </ul>
+                            </li>
+                            <li><strong>Tayland:</strong>  TIS 2236-2548, Elektrikli Oyuncaklar - Güvenlik</li>
+                            <li><strong>Malezya:</strong>  MS 1725, Elektrikli Oyuncakların Güvenliği</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPAI 75, Uyku Tulumlarının Tutuşabilirliği</li>
+                            <li>CPAI 84, Kamp Çadırlarında Kullanılan Aleve Dayanıklı Malzemeler</li>
+                            <li>SGCDpro Dudak ve Ağız Testi</li>
+                            <li>Etiketleme Değerlendirmeleri</li>
+                            <li>LHAMA Değerlendirmeleri</li>
+                            <li>(TRA) Toksikolojik Risk Değerlendirmesi)</li>
+                            <li>Paketlemedeki Zehirli Maddeler</li>
+                            <li>GCC, Genele Uygunluk Belgesi</li>
+                            <li>CPC, Çocuk Ürünü Belgesi</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br />
+            ]]>
+        </soloutionContent>
+    </tr>
+
+    <pt>
+        <imageAlt>Lab Testing &amp; Safety Standard Inspection for Toys | AsiaInspection</imageAlt>
+        <title>Teste de Brinquedos e Itens Recreativos</title>
+        <subTitle>A AsiaInspection oferece garantia de qualidade e serviços de testes de laboratório para todas as categorias de brinquedos e itens recreativos contra uma série de normas internacionais (incluindo EN, ISO, ASTM, IEC, etc.).</subTitle>
+        <schedButton url="/register">Começar</schedButton>
+        <soloutionTitle>CQ Adaptado à Indústria dos Brinquedos e Itens Recreativos</soloutionTitle>
+        <soloutionContent>
+            <![CDATA[
+            <p>A segurança dos brinquedos e itens recreativos tem sido o centro de atenção desde a descoberta de chumbo nos brinquedos para crianças o que resultou numa retirada em grande escala de produtos em 2007.  Cada ano a lista de substâncias proibidas e restritas cresce, à medida que aparecem novas investigações sobre o impacto na saúde de diversas substâncias usadas na produção de brinquedos.</p>
+            <p>A ampla experiência em testes da AI ajuda as grandes marcas e distribuidores a garantir a qualidade e segurança das suas importações de brinquedos, tais como brinquedos infantis, itens recreativos e brinquedos elétricos.</p>
+
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Verificação de pontas e bordas agudas</li>
+                            <li>Teste de pressão nas partes pequenas</li>
+                            <li>Teste de pressão nas costuras</li>
+                            <li>Inspeção do enchimento nos brinquedos de peluche</li>
+                            <li>Testes de deteção de metais</li>
+                            <li>Verificação de peças pequenas</li>
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Inspeção da mão-de-obra</li>
+                            <li>Função/desempenho do produto</li>
+                            <li>Inspeção da distância de trabalho para brinquedos de controlo remoto</li>
+                            <li>Inspeção da frequência nos brinquedos eletrónicos</li>
+                            <li>Teste de humidade para brinquedos de madeira</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Experiência em Teste de Laboratório de Brinquedos e Itens Recreativos</h2>
+
+            <p>Os <a href="/quality-control-services/laboratory-testing">testes de laboratório</a> da AI garantem que os seus brinquedos e itens recreativos cumpram com as normas e regulamentações do seu mercado de destino. Os laboratórios da AI oferecem uma ampla gama de testes que abrangem todos os aspetos da qualidade e segurança do produto:</p>
+            <p><strong>Requisitos Internacionais:</strong></p>
+            <ul class="marginzero">
+                <li>ISO 8124, Parte 1, Segurança dos Brinquedos, Riscos Mecânicos</li>
+                <li>ISO 8124, Parte 2, Segurança dos Brinquedos, Teste de Inflamabilidade</li>
+                <li>ISO 8124, Parte 3, Segurança dos Brinquedos, Migração de Certos Elementos</li>
+                <li>IEC 62115, Brinquedos Elétricos - Segurança</li>
+                <li>IEC 60825, Segurança Laser/LED</li>
+                <li>Análises de Adequação da Idade</li>
+            </ul>
+            <br/>
+
+            <h5>Normas e Regulamentos de Brinquedos no EUA</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%"><strong>Requerimentos gerais</strong></td>
+                    <td width="50%"><strong>Produtos para crianças</strong></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>FDA Ext. Chumbo e Cádmio (Interior)</li>
+                            <li>FDA Aditivos Alimentares Indiretos (FSSE)</li>
+                            <li>Cal Prop 65 Teste de Revisão e Assentamento</li>
+                            <li>Cal Prop 65 Total Chumbo em Recipientes para Comida Ligeira e Bebida</li>
+                            <li>Proposta 65 Califórnia</li>
+                            <li>Cal Prop 65 Ext. Chumbo e Cádmio (Interior)</li>
+                            <li>Cal Prop 65 Ftalatos (5)</li>
+                            <li>USP 61/62, Análise Microbiológica de Productos Não-Estéreis</li>
+                            <li>USP Eficácia dos Conservantes</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPSIA Conteúdo Total de Chumbo em Revestimento de Superfície</li>
+                            <li>CPSIA Conteúdo Total de Chumbo em Produtos Infantis (substratos metálicos e não-metálicos)</li>
+                            <li>CPSIA Conteúdo Total de Chumbo na Joalharia de Metal para Crianças</li>
+                            <li>16 CFR 1500 Riscos Mecânicos e de Etiquetagem</li>
+                            <li>16 CFR 1500.44 Inflamabilidade de Sólidos</li>
+                            <li>16 CFR 1511, Chuchas</li>
+                            <li>Etiquetas de Rastreamento CPSIA</li>
+                            <li>Modelo de Tóxicos no Acondicionamento (anteriormente CONEG)</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+                <tr>
+                    <td width="100%" colspan="2" align="center"><strong>Brinquedos e Itens Recreativos</strong></td>
+                </tr>
+                <tr>
+                    <td width="100%" colspan="2" valign="top">
+                        <ul style="margin:0px;">
+                            <li>16 CFR 1501, Partes Pequenas</li>
+                            <li>16 CFR 1510, Chocalhos</li>
+                            <li>CPSIA Conteúdo Total de Chumbo em Revestimento de Superfície</li>
+                            <li>ASTM F963-11: conteúdo de Metais Pesados Solúveis em Revestimentos de Superfícies</li>
+                            <li>CPSIA Conteúdo Total de Chumbo em Produtos Infantis (substratos metálicos e não-metálicos)</li>
+                            <li>CPSIA Conteúdo de ftalato (aptos e não-aptos para a boca)</li>
+                            <li>ASTM F963-11, Riscos Mecânicos e de Etiquetagem</li>
+                            <li>ASTM F963-11, Inflamabilidade de Sólidos</li>
+                            <li>ASTM F963-11, Inflamabilidade de Têxteis</li>
+                            <li>16 CFR 1610, Inflamabilidade de Vestuário Têxtil</li>
+                            <li>ASTM 1148-11, Parques Infantis para Casa</li>
+                            <li>ANSI Teste de Triciclo</li>
+                            <li>Modelo de Tóxicos no Acondicionamento (anteriormente CONEG)</li>
+                            <li>Etiquetas de Rastreamento CPSIA</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Normas e Regulamentos de Brinquedos na Europa</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Parte 1, Segurança dos Brinquedos, Testes Mecânicos e Físicos</li>
+                            <li>EN 71, Parte 2, Segurança dos Brinquedos, Teste de Inflamabilidade</li>
+                            <li>EN 71, Parte 3, Segurança dos Brinquedos, Migração de Certos Elementos</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Parte 8, Brinquedos de Atividade para Uso Doméstico (baloiços, slides)</li>
+                            <li>EC No. 1907/2006 (REACH), Total Cádmio</li>
+                            <li>EC No. 1907/2006 (REACH), Ftalatos (aptos e não-aptos para a boca)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Normas e Regulamentos de Brinquedos no Canadá</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2005-109 Regulamento de Materiais no Revestimento da Superfície</li>
+                            <li>SOR/2016-193, Conteúdo Total de Chumbo e Mercúrio em Revestimento de Superfície</li>
+                            <li>SOR/2011-17 alterada por SOR/2016-195 Item 23(b), Materiais Lexiviáveis em Revestimento de Superfície</li>
+                            <liSOR/2010-273 alterada por SOR/2016-171, Chumbo em Materiais de Substrato</li>
+                            <li>SOR/2010-298, Regulamentos Ftalatos</li>
+                            <li>SOR/2016-188, Ftalatos (Materiais de Vinil)</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2016-168 Chumbo em Joalharia para Crianças</li>
+                            <li>SOR/2016-194, Regulamentação de Inflamabilidade Têxtil</li>
+                            <li>SOR/2011-17 alterado por SOR/2016-195: Regulamentação de Brinquedos Canadense (Riscos Mecânicos e Inflamabilidade)</li>
+                            <li>Lei de Acondicionamento e Etiquetagem do Consumidor (R.S., 1985, c. C-38) C-38)</li>
+                            <li>País de Origem (C.R.C., c.535)</li>
+                            <li>Etiquetagem Quebeque (R.S.Q., c.C-11)</li>
+                            <li>Lei de Segurança do Produto para o Consumidor do Canadá (CCPSA)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Normas e Regulamentos de Brinquedos no Austrália / Nova Zelândia</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Parte 1, Segurança dos Brinquedos, Riscos Mecânicos</li>
+                            <li>AS/NZS ISO 8124, Parte 2, Segurança dos Brinquedos, Teste de Inflamabilidade</li>
+                            <li>AS/NZS 62115, Brinquedos Elétricos - Segurança</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Parte 3, Segurança dos Brinquedos, Migração de Certos Elementos</li>
+                            <li>Nota Proteção do Consumidor da Austrália No. 11 of 2011 (conteúdo DEHP)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Outras Normas e Regulamentos de Brinquedos</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>
+                                <strong>China:</strong>
+                                <ul class="marginzero">
+                                    <li>GB 6675, Norma Segurança dos Brinquedos</li>
+                                    <li>GB 19865, Brinquedos Elétricos - Segurança</li>
+                                    <li>CNC 14276, Segurança dos Brinquedos Elétricos</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Japão:</strong>
+                                <ul class="marginzero">
+                                    <li>Lei de Higiene Alimentar Seção 4 - Brinquedos</li>
+                                    <li>ST-2012, Norma Segurança dos Brinquedos</li>
+                                </ul>
+                            </li>
+                            <li><strong>TIS 2236-2548:</strong> brinquedos elétricos - Segurança</li>
+                            <li><strong>MS 1725:</strong> Segurança dos Brinquedos Elétricos</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPAI 75: Inflamabilidade dos Sacos de Cama</li>
+                            <li>CPAI 84: Materiais resistentes ao fogo Usados em Tendas de Campismo</li>
+                            <li>SGCDpro: Teste de Bordas e Contornos</li>
+                            <li>Avaliações de Embalamento</li>
+                            <li>Avaliações LHAMA</li>
+                            <li>TRA (Avaliações de Riscos Toxicológicos)</li>
+                            <li>Tóxicos no Acondicionamento</li>
+                            <li>GCC, Certificado Geral de Conformidade</li>
+                            <li>CPC, Certificado de Produto para Crianças</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br />
+            ]]>
+        </soloutionContent>
+    </pt>
+
+    <ru>
+        <imageAlt>Lab Testing &amp; Safety Standard Inspection for Toys | AsiaInspection</imageAlt>
+        <title>Тестирование игрушек и товаров для отдыха</title>
+        <subTitle>AsiaInspection предлагает гарантию качества и услуги лабораторного тестирования для любой категории игрушек и товаров для отдыха на соответствие ряду международных стандартов (в том числе EN, ISO, ASTM, IEC).</subTitle>
+        <schedButton url="/register">Начать</schedButton>
+        <soloutionTitle>Контроль качества специально для производства игрушек и товаров для отдыха</soloutionTitle>
+        <soloutionContent>
+            <![CDATA[
+            <p>Безопасность игрушек и товаров для отдыха находится под пристальным вниманием с 2007 года, когда в детских игрушках был обнаружен свинец, что привело к массовому отзыву товаров. Каждый год появляются новые исследования о влиянии на здоровье различных веществ, используемых при производстве игрушек, и перечень запрещенных и подпадающих под ограничения субстанций постоянно растет.</p>
+            <p>Всесторонний опыт тестирования AI помогает крупным производителям и предприятиям розничной торговли обеспечить качество и безопасность импортируемых игрушек, в том числе игрушек для самых маленьких, товаров для отдыха и электронных игрушек.</p>
+
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Проверка остроты кончика и остроты края</li>
+                            <li>Тяговое испытание мелких деталей</li>
+                            <li>Испытание швов растяжением</li>
+                            <li>Проверка набивки плюшевых игрушек</li>
+                            <li>Тестирование на обнаружение металлов</li>
+                            <li>Проверка мелких деталей</li>
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Проверка качества работы</li>
+                            <li>Тестирование функций/эксплуатационных качеств продукта</li>
+                            <li>Проверка рабочего расстояния для игрушек с дистанционным управлением</li>
+                            <li>Проверка частоты для электронных игрушек</li>
+                            <li>Измерение влажности для деревянных игрушек</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Квалифицированное лабораторное тестирование игрушек и товаров для отдыха</h2>
+
+            <p>Лабораторные тесты AI гарантируют, что ваши игрушки и товары для отдыха отвечают потребительским стандартам безопасности и регулятивным нормам вашего целевого рынка. Лаборатории AI предлагают широкий спектр тестов, охватывающих все аспекты качества и безопасности продукции:</p>
+            <p><strong>Международные нормы:</strong></p>
+            <ul class="marginzero">
+                <li>ISO 8124, Часть 1, Безопасность игрушек, механические факторы риска</li>
+                <li>ISO 8124, Часть 2, Безопасность игрушек, Воспламеняемость</li>
+                <li>ISO 8124, Часть 3, Безопасность игрушек, Миграция некоторых элементов</li>
+                <li>IEC 62115, Электронные игрушки - безопасность</li>
+                <li>IEC 60825, Безопасность лазеров/LED</li>
+                <li>Анализ соответствия возрасту</li>
+            </ul>
+            <br/>
+
+            <h5>Стандарты и нормы США для игрушек</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%"><strong>Общие нормы</strong></td>
+                    <td width="50%"><strong>Товары для детей</strong></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>FDA расшир. Свинец и кадмий (внутренняя часть)</li>
+                            <li>FDA Косвенные пищевые добавки (FSSE)</li>
+                            <li>Законодательная инициатива 65 штата Калифорния, обзор урегулирований и тестирование</li>
+                            <li>Законодательная инициатива 65 штата Калифорния, Общее содержание свинца в мягких емкостях для пищевых продуктов и напитков</li>
+                            <li>Законодательная инициатива 65 штата Калифорния</li>
+                            <li>Законодательная инициатива 65 штата Калифорния расшир. Свинец и кадмий (внутренняя часть)</li>
+                            <li>Законодательная инициатива 65 штата Калифорния Фталаты (5)</li>
+                            <li>USP 61/62, Микробиологическое исследование нестерильной продукции</li>
+                            <li>USP 51 Эффективность консервантов</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPSIA Общее содержание свинца в поверхностных покрытиях</li>
+                            <li>CPSIA Общее содержание свинца в товарах для детей (металлических и неметаллических нижних слоях)</li>
+                            <li>CPSIA Общее содержание свинца в металлической бижутерии для детей</li>
+                            <li>16 CFR 1500, Механические факторы риска и маркировка</li>
+                            <li>16 CFR 1500.44, Воспламеняемость твердых тел</li>
+                            <li>16 CFR 1511, Соски-пустышки</li>
+                            <li>CPSIA Отслеживание ярлыков</li>
+                            <li>Токсичные вещества в упаковке (ранее CONEG)</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+                <tr>
+                    <td width="100%" colspan="2" align="center"><strong>Игрушки и товары для отдыха</strong></td>
+                </tr>
+                <tr>
+                    <td width="100%" colspan="2" valign="top">
+                        <ul style="margin:0px;">
+                            <li>16 CFR 1501, Мелкие детали</li>
+                            <li>16 CFR 1510, Погремушки</li>
+                            <li>CPSIA Общее содержание свинца в поверхностных покрытиях</li>
+                            <li>ASTM F963-11 Содержание растворимых тяжелых металлов в поверхностных покрытиях</li>
+                            <li>CPSIA Общее содержание свинца в товарах для детей (металлических и неметаллических нижних слоях)</li>
+                            <li>CPSIA Содержание фталатов (попадающих и не попадающих в рот)</li>
+                            <li>ASTM F963-11, Механические факторы риска и маркировка</li>
+                            <li>ASTM F963-11, Воспламеняемость твердых тел</li>
+                            <li>ASTM F963-11, Воспламеняемость текстиля</li>
+                            <li>16 CFR 1610, Воспламеняемость одежного текстиля</li>
+                            <li>ASTM 1148-11, Домашние площадки для игр</li>
+                            <li>ANSI Тестирование трехколесных велосипедов</li>
+                            <li>Токсичные вещества в упаковке (ранее CONEG)</li>
+                            <li>CPSIA Отслеживание ярлыков</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Европейские стандарты и нормы для игрушек</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Часть 1, Безопасность игрушек, Механические и физические тесты</li>
+                            <li>EN 71, Часть 2, Безопасность игрушек, Тест на воспламеняемость</li>
+                            <li>EN 71, Часть 3, Безопасность игрушек, Миграция некоторых элементов</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Часть 8, Игрушки активного типа для домашнего использования (качели, горки)</li>
+                            <li>EC No. 1907/2006 (REACH), Общий кадмий</li>
+                            <li>EC No. 1907/2006 (REACH), Фталаты (попадающие и не попадающие в рот)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Стандарты и нормы Канады для игрушек</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2005-109, Регламент по материалам для поверхностного покрытия</li>
+                            <li>SOR/2016-193, Общее содержание свинца и ртути в поверхностных покрытиях</li>
+                            <li>SOR/2011-17 с поправкой SOR/2016-195, пункт 23(b), Выщелачиваемые металлы в поверхностных покрытиях</li>
+                            <li>SOR/2010-273 с поправкой SOR/2016-171, Свинец в материалах нижних слоев</li>
+                            <li>SOR/2010-298, Нормы по фталатам</li>
+                            <li>SOR/2016-188, Фталаты (в виниловых материалах)</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2016-168, Свинец в детской бижутерии</li>
+                            <li>SOR/2016-194, Регламент по воспламеняемости текстиля</li>
+                            <li>SOR/2011-17 с поправкой SOR/2016-195, Канадский регламент по игрушкам (Механические факторы риска и воспламеняемость)</li>
+                            <li>Закон о потребительской упаковке и маркировке (R.S., 1985, c. C-38)</li>
+                            <li>Страна происхождения (C.R.C., c.535)</li>
+                            <li>Маркировка Квебека (R.S.Q., c.C-11)</li>
+                            <li>Закон о безопасности потребительской продукции Канады (CCPSA)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Стандарты и нормы для игрушек Австралии и Новой Зеландии</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Часть 1, Безопасность игрушек, механические факторы риска</li>
+                            <li>AS/NZS ISO 8124, Часть 2, Безопасность игрушек, Воспламеняемость</li>
+                            <li>AS/NZS 62115, Электронные игрушки - безопасность</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Часть 3, Безопасность игрушек, Миграция некоторых элементов</li>
+                            <li>Уведомление о защите прав потребителей Австралии № 11 от 2011 г. (Содержание DEHP)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Другие стандарты и регламенты для игрушек</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>
+                                <strong>Китай:</strong>
+                                <ul class="marginzero">
+                                    <li>GB 6675, Стандарт безопасности для игрушек</li>
+                                    <li>GB 19865, Электронные игрушки - безопасность</li>
+                                    <li>CNS 14276, Безопасность электронных игрушек</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Япония:</strong>
+                                <ul class="marginzero">
+                                    <li>Закон о продовольственной санитарии Раздел 4 - Игрушки</li>
+                                    <li>ST-2012, Стандарт безопасности игрушек</li>
+                                </ul>
+                            </li>
+                            <li><strong>Таиланд:</strong> TIS 2236-2548, Электронные игрушки - безопасность</li>
+                            <li><strong>Малайзия:</strong> MS 1725, Безопасность электронных игрушек</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPAI 75, Воспламеняемость спальных мешков</li>
+                            <li>CPAI 84, Огнеупорные материалы, используемые в туристических палатках</li>
+                            <li>Тестирование ободка и области контакта с губами SGCDpro</li>
+                            <li>Оценка маркировки</li>
+                            <li>Оценка LHAMA</li>
+                            <li>TRA (Оценка токсикологических рисков)</li>
+                            <li>Токсичные вещества в упаковке</li>
+                            <li>GCC, Общий сертификат соответствия</li>
+                            <li>CPC, Сертификат для товаров для детей</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br />
+            ]]>
+        </soloutionContent>
+    </ru>
+
+    <it>
+        <imageAlt>Lab Testing &amp; Safety Standard Inspection for Toys | AsiaInspection</imageAlt>
+        <title>Analisi di Giocattoli e Articoli per il Tempo Libero</title>
+        <subTitle>AsiaInspection offre servizi di quality assurance e analisi di laboratorio per ogni genere di giocattolo o articolo per il tempo libero sulla base di numerosi standard internazionali (tra i quali EN, ISO, ASTM, IEC).</subTitle>
+        <schedButton url="/register">Inizia Ora</schedButton>
+        <soloutionTitle>CQ su Misura per il Comparto dei Giocattoli e degli Articoli per il Tempo Libero</soloutionTitle>
+        <soloutionContent>
+            <![CDATA[
+            <p>La sicurezza dei giocattoli e degli articoli per il tempo libero è stata al centro del dibattito sin da quando la scoperta di piombo nei giocattoli per bambini ha dato luogo ad un'enorme quantità di richiami di prodotto nel 2007. Ogni anno, man mano che compaiono nuove ricerche sull'impatto sulla salute delle varie sostanze utilizzate nella produzione dei giocattoli, l'elenco delle sostanze vietate e limitate continua a crescere.</p>
+            <p>La vasta competenza di AI nei test di laboratorio aiuta i marchi e i rivenditori più importanti a garantire la qualità e la sicurezza dei loro giocattoli d'importazione, compresi i giocattoli per bambini, gli articoli per il tempo libero e i giocattoli elettrici.</p>
+
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Verifica delle punte acuminate e dei bordi taglienti</li>
+                            <li>Test di trazione sulle piccole parti</li>
+                            <li>Test di trazione sulle cuciture</li>
+                            <li>Controllo dell'imbottitura per pupazzi di peluche</li>
+                            <li>Test di rilevamento dei metalli</li>
+                            <li>Verifica delle piccole parti</li>
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul style="margin:0px;">
+                            <li>Controllo della Lavorazione</li>
+                            <li>Test di funzionalità/prestazione del prodotto</li>
+                            <li>Verifica della distanza operativa per i giocattoli telecomandati</li>
+                            <li>Controllo della frequenza per i giocattoli elettronici</li>
+                            <li>Test dell'umidità per i giocattoli in legno</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Competenza nell'Analisi di Laboratorio di Giocattoli e Articoli per il Tempo Libero</h2>
+
+            <p>Le analisi di laboratorio di AI garantiscono che i tuoi giocattoli e i tuoi articoli per il tempo libero rispettino gli standard e le normative vigenti nel tuo mercato di destinazione. I laboratori di AI offrono un'ampia gamma di test che coprono ogni aspetto della qualità e della sicurezza del prodotto.</p>
+            <p><strong>Requisiti Internazionali:</strong></p>
+            <ul class="marginzero">
+                <li>ISO 8124, Parte 1, Sicurezza dei Giocattoli, Rischi Meccanici</li>
+                <li>ISO 8124, Parte 2, Sicurezza dei Giocattoli, Infiammabilità</li>
+                <li>ISO 8124, Parte 3, Sicurezza dei Giocattoli, Migrazione di Alcuni Elementi</li>
+                <li>IEC 62115, Giocattoli Elettrici – Sicurezza</li>
+                <li>IEC 60825, Sicurezza Laser/LED</li>
+                <li>Analisi dell'età consigliabile</li>
+            </ul>
+            <br/>
+
+            <h5>Standard e Normative USA sui Giocattoli</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%"><strong>Requisiti generali</strong></td>
+                    <td width="50%"><strong>Prodotti per bambini</strong></td>
+                </tr>
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>Est. FDA Piombo e Cadmio (interno)</li>
+                            <li>FDA Additivi Indiretti per Alimenti (FSSE)</li>
+                            <li>Cal Prop 65, Accordo Controllo e Test</li>
+                            <li>Cal Prop 65, Piombo totale nei Contenitori Morbidi per Alimenti e Bevande</li>
+                            <li>Cal Prop 65</li>
+                            <li>Cal Prop 65 Est. Piombo e Cadmio (interno)</li>
+                            <li>Cal Prop 65 Ftalati (5)</li>
+                            <li>USP 61/62, Analisi Microbiologica di Prodotti Non-Sterili</li>
+                            <li>USP 51, Efficacia Conservanti</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPSIA Contenuto Totale di Piombo nei Rivestimenti Superficiali</li>
+                            <li>CPSIA Contenuto Totale di Piombo nei Prodotti per Bambini (substrati metallici e non metallici)</li>
+                            <li>CPSIA Contenuto Totale di Piombo nei Prodotti di Gioielleria Metallici per Bambini</li>
+                            <li>16 CFR 1500, Rischi Meccanici ed Etichettatura</li>
+                            <li>16 CFR 1500.44, Infiammabilità dei Solidi</li>
+                            <li>16 CFR 1511, Tettarelle</li>
+                            <li>CPSIA Etichette di tracking</li>
+                            <li>Sostanze Tossiche nelle Confezioni (ex CONEG)</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+                <tr>
+                    <td width="100%" colspan="2" align="center"><strong>Giocattoli e articoli per il tempo libero</strong></td>
+                </tr>
+                <tr>
+                    <td width="100%" colspan="2" valign="top">
+                        <ul style="margin:0px;">
+                            <li>16 CFR 1501, Piccole Parti</li>
+                            <li>16 CFR 1510, Sonaglini</li>
+                            <li>CPSIA Contenuto Totale di Piombo nei Rivestimenti Superficiali</li>
+                            <li>ASTM F963-11 Contenuto di Metalli Pesanti Solubili nei Rivestimenti Superficiali</li>
+                            <li>CPSIA Contenuto Totale di Piombo nei Prodotti per Bambini (substrati metallici e non metallici)</li>
+                            <li>CPSIA Contenuto di Ftalati (prodotti che possono/non possono essere messi in bocca)</li>
+                            <li>ASTM F963-11, Rischi Meccanici ed Etichettatura</li>
+                            <li>ASTM F963-11, Infiammabilità dei Solidi</li>
+                            <li>ASTM F963-11, Infiammabilità dei Tessuti</li>
+                            <li>16 CFR 1610, Infiammabilità dei Prodotti Tessili per Abbigliamento</li>
+                            <li>ASTM 1148-11, Aree per Ricreazione Domestiche</li>
+                            <li>Test dei tricicli ANSI</li>
+                            <li>Sostanze Tossiche nelle Confezioni (ex CONEG)</li>
+                            <li>CPSIA Etichette di tracking</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Standard e Normative Europee sui Giocattoli</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Parte 1, Sicurezza dei Giocattoli, Test Meccanici e Fisici</li>
+                            <li>EN 71, Parte 2, Sicurezza dei Giocattoli, Test di Infiammabilità</li>
+                            <li>EN 71, Parte 3, Sicurezza dei Giocattoli, Migrazione di Alcuni Elementi</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>EN 71, Parte 8, Giocattoli da Attività per Uso Domestico (dondoli, scivoli)</li>
+                            <li>EC No. 1907/2006 (REACH), Cadmio Totale</li>
+                            <li>EC No. 1907/2006 (REACH), Ftalati (che possono/non possono essere messi in bocca)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Standard e Normative Canadesi sui Giocattoli</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2005-109, Normativa sui Materiali per il Rivestimento Superficiale</li>
+                            <li>SOR/2016-193, Contenuto Totale di Piombo e Mercurio nei Rivestimenti Superficiali</li>
+                            <li>SOR/2011-17 emendato dal SOR/2016-195 Articolo 23(b), Metalli nei Rivestimenti Superficiali A Rischio di Rilascio</li>
+                            <li>SOR/2010-273 emendato dal SOR/2016-171, Piombo nei Materiali del Substrato</li>
+                            <li>SOR/2010-298, Normative sugli Ftalati</li>
+                            <li>SOR/2016-188, Ftalati (Materiali Vinilici)</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>SOR/2016-168, Piombo nei Prodotti di Gioielleria per Bambini</li>
+                            <li>SOR/2016-194, Normativa sull'Infiammabilità dei Prodotti Tessili</li>
+                            <li>SOR/2011-17 emendato dal SOR/2016-195, Normative Canadesi sui Giocattoli (Rischio Meccanico e Infiammabilità)</li>
+                            <li>Legge sul Confezionamento e l'Etichettatura per i Prodotti di Consumo (R.S., 1985, c. C-38)</li>
+                            <li>Paese d'Origine (C.R.C., c.535)</li>
+                            <li>Etichettatura Quebec (R.S.Q., c.C-11)</li>
+                            <li>Legge Canadese sulla Sicurezza dei Prodotti di Consumo (CCPSA)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Standard e Normative di Australia/Nuova Zelanda sui Giocattoli</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Parte 1, Sicurezza dei Giocattoli, Rischi Meccanici</li>
+                            <li>AS/NZS ISO 8124, Parte 2, Sicurezza dei Giocattoli, Infiammabilità</li>
+                            <li>AS/NZS 62115, Giocattoli Elettrici – Sicurezza</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>AS/NZS ISO 8124, Parte 3, Sicurezza dei Giocattoli, Migrazione di Alcuni Elementi</li>
+                            <li>Avvertimento N.11 del 2011 per la Protezione del Consumatore, Australia (Contenuto DEHP)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br/>
+
+            <h5>Altri Standard e Normative sui Giocattoli</h5>
+            <p><table border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>
+                                <strong>Cina:</strong>
+                                <ul class="marginzero">
+                                    <li>GB 6675, Standard di Sicurezza per i Giocattoli</li>
+                                    <li>GB 19865, Giocattoli Elettrici – Sicurezza</li>
+                                    <li>CNS 14276, Sicurezza dei Giocattoli Elettrici</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Giappone:</strong>
+                                <ul class="marginzero">
+                                    <li>Legge sull'Igiene Alimentare, Sezione 4 - Giocattoli</li>
+                                    <li>ST-2012, Standard di Sicurezza per i Giocattoli</li>
+                                </ul>
+                            </li>
+                            <li><strong>Thailandia:</strong> TIS 2236-2548, Giocattoli Elettrici - Sicurezza</li>
+                            <li><strong>Malesia:</strong> MS 1725, Sicurezza dei Giocattoli Elettrici</li>
+                        </ul>
+                    </td>
+                    <td width="50%" valign="top">
+                        <ul style="margin:0px;">
+                            <li>CPAI 75, Infiammabilità dei Sacchi a Pelo</li>
+                            <li>CPAI 84, Materiali Ignifughi Utilizzati nelle Tende da Campeggio</li>
+                            <li>SGCDpro Test "Lip & Rim"</li>
+                            <li>Valutazione dell'Etichettatura</li>
+                            <li>Valutazioni LHAMA</li>
+                            <li>TRA (Valutazione del Rischio Tossicologico)</li>
+                            <li>Tossine nelle Confezioni</li>
+                            <li>GCC, Certificato Generale di Conformità</li>
+                            <li>CPC, Certificato di Prodotto per Bambini</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table></p>
+            <br />
+            ]]>
+        </soloutionContent>
+    </it>
+
+</document>

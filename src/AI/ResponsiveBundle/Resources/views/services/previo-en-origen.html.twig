@@ -1,0 +1,70 @@
+{% if app.request.locale == "ar" %} {% set twigBase = "AIResponsiveBundle:RTL:services/serviceBase.html.twig" %} {% else %} {% set twigBase = "AIResponsiveBundle:services:serviceBase.html.twig" %} {% endif %}
+{% extends twigBase %}
+
+{% block title %}Importacion de China: Previo en Origen | Asia Inspection{% endblock %}
+{% block pageDescription %}Certificación y inspección de la importación de mercancíadesde China paraagilizar la liberación de los contendores en aduanasmexicanas. Contacte Asia Inspection, tenemosinfraestructurapropia en China, lo quenospermitebrindar la certificaciónPrevio en Origen.{% endblock %}
+{% block pageKeywords %}importacionfabrica china, previoorigenmexico, empresa china, mayoristas china, proveedores china, distribuidores china, comercio con china, fabricasTaiwán, mercancía china{% endblock %}
+{% block pagename %}previoOrigen{% endblock %}
+{% block bigTitle %}Previo en Origen{% endblock %}
+{% block smallText %}
+    <div class="pwhite">El previo en origen es una revisión del producto y de la carga en la bodega de su proveedor o en el puerto, en el país de origen.</div>
+    <!-- <a href="/register" role="button" class="btn btn-primary btn-regular headerButton">¡Empiece ya!</a> -->
+{% endblock %}
+
+{# Set Template Variables [BEGIN] #}
+{% set priceAsia = "$" + price_Inspect_Low %}
+{% set priceEurope = "$" + price_Inspect_High %}
+{% set demoLink = "/popup?video=watchdemo&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=420&amp;width=730&amp;modal=true" %}
+{% set videoLink = "/popup?video=watchinspection&amp;lang=en&amp;mobile=false&amp;TB_iframe=true&amp;ToDown=20&amp;height=440&amp;width=730&amp;modal=true" %}
+{% set watchWhat = "Watch a Real Inspection" %}
+{% set inspectionImage = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=psi" %}
+{% set videoLinkSmall = "https://www.youtube.com/v/gt1ZyhcOD78?version=3%26autoplay=%26showinfo=0%26vq=hd720" %}
+{% set inspectionImage1 = "/images/see_a_real_image.php?lang={{ app.request.getLocale() }}&type=psi" %}
+{# Set Template Variables [END] #}
+
+{% block serviceText %}
+    <h2 class="marginZero padding15" style="font-weight:bold;">Previo en Origen</h2>
+    <p>AsiaInspection cuenta con infraestructura propia para la inspección y certificación de la importación de mercancía desde Asia para agilizar la liberación de los contenedores en las aduanas Mexicanas.</p>
+    <p>No espere a revisar su embarque una vez que haya llegado a su destino, ahorrese dolores de cabeza y sorpresas no deseadas, en AsiaInspection tenemos la infraestructura y experiencia para llevar a cabo este tipo de revisión que le ahorrara tiempo y dinero.</p>
+    <p>El previo en origen ofrece varios beneficios subtstanciales:</p>
+    <ul>
+        <li style="margin-bottom:5px;">Reduce a 24-48 horas el tiempo de despacho aduanal en México, permitiendo la puesta inmediata del producto a la venta.</li>
+        <li style="margin-bottom:5px;">Evita la llegada de mercancias que no cumplan con la normativa y sus consecuencias negativas (demora en el despacho y costos consecuentes de almacenaje).</li>
+        <li style="margin-bottom:5px;">Permite la verificación de las cantidades exactas cargadas en el contenedor y evita el riesgo de robo en el puerto de arribo, suprimiendo así el costoso problema de unidades faltantes.</li>
+        <li style="margin-bottom:5px;">Se substituye ventajosamente al previo hecho en la aduana, suprimiendo el costo y tiempo del mismo</li>
+    </ul>
+    <p><b>Beneficios del Previo en Origen:</b></p>
+    <ul>
+        <li style="margin-bottom:5px;">Despacho de embarque express</li>
+        <li style="margin-bottom:5px;">Certeza en la entrega de tus mercancías</li>
+        <li style="margin-bottom:5px;">Eliminación de multas o sanciones aduaneras</li>
+        <li style="margin-bottom:5px;">Eliminación de costos en puerto mexicano como:
+            <ul>
+                <li style="margin-bottom:5px;">Validación del cumplimiento de regulaciones no arancelarias</li>
+                <li style="margin-bottom:5px;">Maniobras de previo</li>
+                <li style="margin-bottom:5px;">Almacenaje</li>
+                <li style="margin-bottom:5px;">Demoras</li>
+                <li style="margin-bottom:5px;">Re etiquetado de mercancías</li>
+            </ul>
+        </li>
+        <li style="margin-bottom:5px;">Conocimiento anticipado y exacto del embarque para:
+            <ul>
+                <li style="margin-bottom:5px;">Efectos de clasificación</li>
+                <li style="margin-bottom:5px;">Elaboración de pedimentos</li>
+                <li style="margin-bottom:5px;">Cálculo de impuestos</li>
+                <li style="margin-bottom:5px;">Determinación de regulaciones</li>
+            </ul>
+        </li>
+        <li style="margin-bottom:5px;">Reportes de desempeño para análisis de procesos</li>
+        <li style="margin-bottom:5px;">Evita penalizaciones comerciales</li>
+    </ul>
+    <h2 class="marginZero padding15" style="font-weight:bold;">Ahorre tiempo y dinero</h2>
+    <p>Este procedimiento trae consigo beneficios logísticos y económicos para los importadores.</p>
+    <p>Los costes de la importacíon disminuyen al evitar la revisión en aduana que alarga el tiempo de liberar los contenedores, dicha inspección en origen elimina el control previo en puerto Mexicano, así como su coste.</p>
+    <p>Gane tiempo generando certeza en el embarque antes de que llegue a Mexico y elimine la manipulación del contenedor en puerto de destino.</p>
+    <p>* Inicialmente disponible para importaciones a México</p>
+{% endblock %}
+
+{% block serviceBenefits %}
+    <iframe src="/benefits/inspections?_locale={{app.request.locale}}" frameborder=0 scrolling="no" onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px';" style="width:100%;"></iframe>
+{% endblock %}

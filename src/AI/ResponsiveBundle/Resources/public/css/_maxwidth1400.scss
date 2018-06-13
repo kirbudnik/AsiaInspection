@@ -1,0 +1,115 @@
+.navbar-ai {
+    .dropdown-menu{
+        .navMenuCol:last-of-type {border-right:0px;}
+        .navMenuCol{
+            padding:20px;
+            margin-left:25px;
+            .navSubtitle:before{ left:-15px; }
+        }
+        &.navmenu_Service {
+            left:-200px;
+            width:975px;
+        }
+        &.navmenu_Industry {
+            left:-380px;
+            width:965px;
+            .navMenuCol{
+                width:193px;
+           }
+        }
+
+        &.navmenu_About {
+            left:-160px;
+            width:450px;
+            .navMenuCol{
+                width:180px;
+            }
+        }
+    }
+}
+/* Xmas Logo [Begin]
+#AI_Logo {
+    background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_lg.png);
+    position:relative;
+    left:-130px;
+    width: 442px;
+    height: 89px;
+    margin-top:0px;
+}
+#ChinaInspection_Logo {
+    background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_lg_CN.png);
+    width: 459px;
+    height: 89px;
+    left:-130px;
+    margin-top:0px;
+    position:relative;
+}
+Xmas Logo [End] */
+
+.homeTestimonial .homeClientLogo{
+    &:nth-child(8) { display:none; }
+}
+
+.homeSupplyChainWrapper{
+    .homeSupplyChainBox{
+        min-height:67px;
+    }
+}
+
+#ethical-webinar-headerbox{
+    height:400px;
+}
+
+#ethicalWebinarHeader{
+    width:90%;
+}
+
+.slide-feature2 .homeSCP_content { height: 44%; }
+.slide-feature2 .homeSCP_image{ height: 47%; }
+
+.slide-feature1 {
+    background-image: none;
+}
+#ethical-webinar-subheader{
+    width:90%;
+}
+#appMobile{
+    top:155px;
+}
+
+#appTablet{
+     top:233px;
+}
+
+#page_Logout{
+    #logoutPhoneImage{
+        width:26%;
+    }
+    .mobileEmailSendLinks{
+        width:33%;
+    }
+}
+
+#pricingBottom{
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom:15px;
+}
+
+#pricingHr{
+    margin-left:15px;
+    margin-right:15px;
+}
+
+/** 
+
+Code for the client landing page, authored by Sam Coll
+questions - samcoll@gmail.com 
+
+**/
+#client-landing {
+    padding: 0 4.15% 0 8.33%;
+}

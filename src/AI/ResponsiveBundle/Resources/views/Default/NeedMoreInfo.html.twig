@@ -1,0 +1,55 @@
+<!-- Need More Information [Begin] -->
+<div id="nmiBox" class="offer-box" style="margin-top:20px; min-width:240px; padding:0px;">
+    <div style="background-color:#D2D2D2; padding:10px 30px;">
+        <h5 style="text-transform: uppercase;">{{nmi.data.title}}</h5>
+    </div>
+    <div style="padding:15px 30px;">
+        <script src="/js/needMoreInfo.js"></script>
+        <form class="NeedMoreInfoForm validate-form">
+            <input type="hidden" class="validateErrorText" value="{{nmi.data.error}}">
+            <input type="hidden" class="nmi_customMailType" value="{% if nmi.customType is defined %}{{nmi.customType}}{% endif %}">
+            {% if type is defined and type == "LAB" %}
+                <div class="mboxDefault">
+                    Call our US or Hong Kong Lab or fill this form and we'll respond within 24 hours.<br /><br />
+                    <b>US:</b> <a href="tel:+1-716-635-1180">+1-716-635-1180</a> (Toll free within the US)<br />
+                    <b>HK:</b> <a href="tel:+852-3185-8000">+852-3185-8000</a><br /><br />
+                </div>
+                <script type="text/javascript">mboxCreate("nmiCallUsNote");</script>
+            {% else %}
+                <div style="margin:0px 0px 10px 0px;">{{nmi.data.subtitle|raw}}</div>
+            {% endif %}
+            <input type="text" name="UserName" required placeholder="{{nmi.data.userName}}" class="nmi_UserName nmiElement" style="color:#5B5B5B; width:100%; margin-bottom:10px; height:28px;">
+            <input type="text" name="CompanyName"  required placeholder="{{nmi.data.companyName}}" class="nmi_CompanyName nmiElement" style="color:#5B5B5B; width:100%; margin-bottom:10px; height:28px;">
+            <input type="email" name="EmailAddress" required placeholder="{{nmi.data.emailAddress}}" class="nmi_EmailAddress nmiElement" style="color:#5B5B5B; width:100%; margin-bottom:10px; height:28px;">
+            <div>
+                <select name="CompanyCountry" id="" class="nmi_CompanyCountry nmiElement" style="color:#5B5B5B; width:100%; margin-bottom:10px; height:28px;">
+                    <option selected="selected"  areacode='' disabled="disabled" style="color:#a6a7b1;">{{nmi.data.country}}</option>
+                    {% for country in nmi.countries %}
+                    <option countrycode='{{country.iso2}}' areacode='{{country.phone}}'>{{country.name}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div dir="ltr">
+                <input type="text" name="Telephone" required id="" class="nmi_Telephone nmiElement" style="color:#5B5B5B; width:100%; margin-bottom:10px; height:28px;" placeholder="{{nmi.data.telephone}}">
+    
+            </div>
+            <div>
+                <select id="" name="AboutQuestion" class="nmi_AboutQuestion nmiElement" style="color:#5B5B5B; width:100%; margin-bottom:10px; height:28px;">
+                    <option value="5" selected="selected" disabled="disabled" style="color:#a6a7b1;">{{nmi.data.qstn}}</option>
+                    {% for question in nmi.data.questions.item %}
+                    <option value="{{question.attributes.val}}">{{question}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <textarea name="Message" id="" required rows="3" maxlength="1500" class="nmi_Message nmiElement" style="color:#5B5B5B; width:100%; margin-bottom:10px;" placeholder="{{nmi.data.messageTextBox}}"></textarea>
+            <button type="button" id="NeedMoreInfotmationSubmitButton" class="nmiSubmitButton btn-primary" style="width:100%; margin-bottom:10px;">{{nmi.data.submitButtonText}}</button>
+            <p style="color:grey; text-align:center; margin-bottom:0px; padding:0.5em; font-size:13px;">{%if app.request.locale == "ar" %}عن طريق الاتصال ب-AI فأنت توافق على {% else %} {{nmi.data.contactagree}} {% endif %}<a href="/conditions-of-service#privacyPolicy_8.1">{% if  app.request.locale == "ar" %}سياسة الخصوصية{%else %}{{nmi.data.policy}}{% endif %}</a></p>
+        </form>
+        <p class="submitFormSuccess" style="display:none; text-align:center;">{{nmi.data.formSubmitted|raw}}</p>
+        {#need to include link to custom js file to handle filling companyCountry form#}
+        <div class="mboxDefault"></div>
+        <script type="text/javascript">mboxCreate("countriesDropdown");</script>
+        <script src="/js/mbox.js"></script>
+    </div>
+</div>
+<!-- Need More Information [End] -->

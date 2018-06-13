@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<pageMeta>
+		<pageTitle>
+			<en>Pre Production Inspection - Initial Production Check (IPC)</en>
+			<ar>فحص مقابل التصنيع  - Initial Production Check (IPC)</ar>
+			<es>Servicios de Control de Calidad: Verificación de Producción Inicial | Asiainspection.com</es>
+			<fr>Contrôle Qualité : Contrôle intial de production, Initial production check | AsiaInspection.fr</fr>
+			<zh>质量检测服务：生产前检验服务 | ChinaInspection.com</zh>
+			<de>Kontrolle vor Produktionsbeginn - weltweit</de>
+			<ru>Предпроизводственная инспекция - Первоначальная проверка производства (IPC)</ru>
+			<tr>Ön Üretim Muayenesi - İlk Üretim Kontrolü (IPC)</tr>
+			<pt>Inspeção Pré-Produção - Inspeção Inicial de Produção (IPC)</pt>
+			<it>Ispezione Pre-Produzione - Controllo Iniziale della Produzione Iniziale</it>
+		</pageTitle>
+		<pageDesc>
+			<en>Our pre production inspection or initial production check (IPC) ensures your product will be consistent throughout production. Learn more about our pre production services here.</en>
+			<ar>خدمة الفحص قبل التصنيع تضمن أن يكون المنتج متناسق في كل مرحلة من مراحل التصنيع. تعلم المزيد عن خدمات الفحص قبل الإنتاج هنا </ar>
+			<fr>AsiaInspection propose des inspections d'usine initiales, dans toute la monde, afin de s'assurer que les machines et mattieres premières utilisent pendant la production sont convenables.</fr>
+			<zh>AsiaInspection 提供工厂生产前检验服务，确保生产使用机器和工具达标。</zh>
+			<ru>Наша предпроизводственная инспекция или первоначальная проверка производства (IPC) гарантирует постоянное качество вашей продукции на протяжении всего периода производства. Здесь вы можете узнать подробнее о наших предпроизводственных услугах.</ru>
+			<de>Eine Kontrolle vor Produktionsbeginn sichert die konstante Qualität der Erzeugnisse. Hier erfahren Sie mehr über unsere Qualitätskontrollen.</de>
+			<tr>Üretim öncesi muayene ya da ilk üretim kontrolümüz (IPC) ürününüzün üretimin başından sonuna kadar tutarlı olmasını sağlar. Buradan ön üretim hizmetlerimiz hakkında daha fazla bilgi alın.</tr>
+			<pt>A nossa inspeção de pré-produção ou inspeção inicial de produção (IPC) assegura que o produto será consistente durante toda a produção. Saiba mais sobre os nossos serviços de pré-produção aqui.</pt>
+			<it>La nostra ispezione pre-produzione o controllo iniziale della produzione (IPC) garantisce che il tuo prodotto sia omogeneo per tutto il processo produttivo. Scopri di più sui nostri servizi pre-produzione qui.</it>
+		</pageDesc>
+	</pageMeta>
+
+	<en>
+		<title>Initial Production Check</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">An Initial Production Inspection will ensure your specifications are understood by the factory and to prevent any potential flaws in the production resources, materials, schedules, management and more.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>Why You Need an Initial Production Check:</b> Avoid quality-related surprises during or after production. At the time of the IPC, consider <a href="/test-laboratorio">Lab Testing</a> services for quality assurance on materials.</p>
+			]]></subtext2>
+		<whyUsTitle>Neden AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD Her şey dahil fiyatlandırma]]></li>
+			<li><![CDATA[48 seat içinde sahada olan denetçi<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> Aynı gun denetim raporları[2]<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Kolay çevrimiçi hizmet düzenlemeleri</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</en>
+
+	<zh>
+		<title>生产初期检验 </title>
+		<subtext>
+			<![CDATA[
+			<p>生产初期检验将确保工厂充分理解您的规格要求，以防止在生产线资源、生产原料、生产进度、生产管理等方面存在任何潜在的缺陷。</p>
+
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>为什么您需要进行生产初期检验：</b> 避免在生产结束后才发现任何质量相关的问题。进行生产初期检验时您也可以考虑对产品原材料进行 <a href="/quality-control-services/laboratory-testing">实验室测试</a>，以确保质量达标。</p>
+			]]></subtext2>
+		<whyUsTitle>为什么选择 AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[每人每天检验仅需 US${{priceIA}}]]></li>
+			<li><![CDATA[检验人员48小时内<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> 到达现场并当天出具检验报告<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>自定义检验标准，简易在线安排日程</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection保证将在48小时内派遣验货员到达工厂。<br /><br />但是这个时间期限也有赖于工厂的准备工作是否完成，并且是否与AsiaInspection充分合作。此外，如果遭遇其它不可控因素如交通晚点或其他任何意外事故，该时间期限将不能保证。]]>
+		</hoverOne>
+		<hoverTwo>
+			正常情况下，80%的检验报告都将在检验当天出具。但是，报告是否能当天出具也取决于工厂是否配合。
+		</hoverTwo>
+		<schedButton url="/register">咨询详情</schedButton>
+	</zh>
+
+	<fr>
+		<title>Contrôle initial de production </title>
+		<subtext>
+			<![CDATA[
+			<p>Le contrôle initial de production assure la compréhension par l’usine du cahier des charges et anticipe les failles potentielles en termes de moyens de production, matériaux, délais ou encore gestion. </p>
+			<p><b>Pourquoi avez-vous besoin d'un contrôle initial de production:</b> anticipez les problèmes qualité en début de production. Organisez les <a href="/test-laboratoire-certification">tests de laboratoire </a> de vos premiers produits finis lors de cette étape.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Pourquoi AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD tout compris par jour-homme.]]></li>
+			<li><![CDATA[Inspecteur sur site sous 48 heures<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> et rapport le jour même<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Commande en ligne facile et protocole d'inspection personnalisé.</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantit l’intervention d’un inspecteur sur site dans les 48 heures.<br /><br />Cette fenêtre d’intervention est toutefois sujette à la coopération de l’usine et à son niveau de préparation. La garantie ne couvre pas les facteurs indépendants de la volonté d’AsiaInspection, tels que les retards dans les transports, ou tout autre cas de force majeure. ]]>
+		</hoverOne>
+		<hoverTwo>
+			80% des rapports sont remis le jour même de l’inspection. La remise du rapport le jour même dépend de la coopération totale de l’usine.
+		</hoverTwo>
+		<schedButton url="/register">Commencer</schedButton>
+	</fr>
+
+	<ar>
+		<title>خدمة الفحص قبل الإنتاج</title>
+		<subtext>
+			<![CDATA[
+			<p>فحص أولي للمنتج و عملية الإنتاج للتأكد من أن عملية التصنيع سوف تتم بناءآ علي المواصفات الخاصة بك و لمنع أي عيوب محتملة في موارد الإنتاج و الموارد و الجداول الزمنية و أكثرمن ذلك الإدارة</p>
+			<p><b>لماذا تحتاج إلي خدمة الفحص قبل الإنتاج؟</b>لتجنب المفاجأت الخاصة بالجودة في خلال أو بعد عملية الإنتاج و في نفس الوقت الذي يتم فيه الفحص قبل الإنتاج يمكنك إجراء<a href="/quality-control-services/laboratory-testing">الفحوص المعملية</a>علي المواد المستخدمة في عملية التصنيع لضمان الجودة</p>
+			]]>
+		</subtext>
+		<whyUsTitle>لماذا شركتنا هي الأفضل في هذا المجال</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[سعر الخدمة هو {{priceIE}} دولار امريكي شامل جميع التكاليف في اليوم للمفتش الواحد]]></li>
+			<li><![CDATA[مفتشنا في الوقع المحدد في أقل من ٤٨ ساعة<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> و التقارير الخاصة بمنتجاتك في نفس اليوم<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>يمكنك تحديد ميعاد للخدمة بكل سهولة عن طريق موقعنا علي الإنترنت</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">إبدأ الحجز الأن</schedButton>
+	</ar>
+	<ru>
+		<title>Первоначальная проверка производства</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">Первоначальная проверка производства будет гарантией того, что на заводе поняли ваши спецификации, и поможет предотвратить появление изъянов на уровне средств производства, сырья, сроков, управления и т. д.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>Why You Need an Initial Production Check:</b> Avoid quality-related surprises during or after production. At the time of the IPC, consider <a href="/test-laboratorio">Lab Testing</a> services for quality assurance on materials.</p>
+			]]></subtext2>
+		<whyUsTitle>Почему Вам необходимы услуги именно AsiaInspection?</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[{{priceIA}} долларов США за все аспекты работы в человеко-день]]></li>
+			<li><![CDATA[Инспектор на месте в течение 48 часов<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> и отчет в тот же день<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Удобная форма заказа онлайн с настраиваемыми перечнями</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection гарантирует есть аудитор готов быть на заводе по аудиту в течение 48 часов. <br/> <br/> Этот срок не означает, однако, гарантируют готовность завода или сотрудничества с AsiaInspection. Он также не гарантирует от ограничивающих факторов вне контроля AsiaInspection, таких, как транспорт задержками, или любое событие рассматривается Закон Божий.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% всех аудиторских отчетов доставляется в тот же день. Отчеты доставляются в тот же день зависит от того, полное сотрудничество завода.
+		</hoverTwo>
+		<schedButton url="/register">Регистрация</schedButton>
+	</ru>
+	<es>
+		<title>Inspección Inicial de Producción</title>
+		<subtext>
+			<![CDATA[
+			<p>Una inspección inicial asegurará que sus especificaciones han sido entendidas y le servirá para prevenir cualquier inconveniente en la capacidad productiva, materia prima, plazos y gestión de su pedido.</p>
+			]]>
+		</subtext>
+				<subtext2>
+			<![CDATA[<p><b>¿Por qué necesita un Control Inicial de Producción?</b> Evita sorpresas relacionadas con la calidad durante y después de producción. A la hora de reservar un IPC, tenga en cuenta que un <a href="/quality-control-services/laboratory-testing">Test de Laboratorio</a> le garantizará la calidad de la materia prima empleada y evitará sorpresas.</p>
+			]]></subtext2>
+		<whyUsTitle>¿Por qué elegir AsiaInspection?:</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[{{priceIA}} USD todo incluido por persona y día]]></li>
+			<li><![CDATA[Un inspector irá a su fábrica en menos de 48 horas<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> y usted recibirá el informe el mismo día<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Reserve online y cree su protocolo de inspección a medida.</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection garantiza disponer de un inspector en su fábrica en menos de 48 horas.<br /><br />Este plazo, sin embargo, no garantiza que la fábrica está preparada o que colabore con AsiaInspection. Tampoco está garantizada nuestra presencia debida a factores externos fuera del control de AsiaInspection, como retrasos en el transporte o cualquier otro evento de fuerza mayor.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% de nuestros informes de inspección son enviados el mismo día. Siempre dependiendo de la colaboración por parte de la fábrica durante nuestra visita.
+		</hoverTwo>
+		<schedButton url="/crear-cuenta">¡Empiece ya!</schedButton>
+	</es>
+
+	<de>
+		<title>Kontrolle vor Produktionsbeginn</title>
+		<subtext>
+			<![CDATA[
+			<p>Eine Kontrolle vor Produktionsbeginn stellt sicher, dass Ihre Anforderungen verstanden wurden und vermeidet eventuelle Mißstände hinsichtlich Produktionsfaktoren.</p>
+			<p><b>Wozu Kontrollen vor Produktionsbeginn:</b> Vermeiden Sie frühzeitig eventuelle Überraschungen und lassen Sie Ihre Waren im Labor auf Konformität mit europäischen Importvorschriften prüfen.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Warum AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} pro Manntag all-inclusive]]></li>
+			<li><![CDATA[Vorbuchungsfrist von 48 Stunden<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> und Berichte am gleichen Tag<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Einfaches online-Buchungssystem und vielfältige Optionen zur Anpassung an Ihre Bedürfnisse</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInsepction garantiert, einen Kontrolleur oder einen Auditor bereitzustellen, der innerhalb von 48 Stunden in der Fabrik sein kann.<br /><br />Dieser Zeitrahmen garantiert jedoch in keinem Fall, dass die Fabrik vorbereitet ist oder mit AsiaInspection kooperieren wird. Die Garantie gilt auch nicht auf Faktoren, auf die AsiaInspection keinen Einfluss hat, wie zum Beispiel Transportverzögerungen oder höhere Gewalt.]]>
+		</hoverOne>
+		<hoverTwo>
+			80 % aller Prüfberichte werden noch am selben Tag geliefert. Berichte, die am gleichen Tag geliefert werden sollen, erfordern die  volle Unterstützung der Fabrik.
+		</hoverTwo>
+		<schedButton url="/register">Erste Schritte</schedButton>
+	</de>
+
+	<it>
+		<title>Controllo Iniziale della Produzione</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">Un'Ispezione della Produzione Iniziale garantirà che le tue specifiche siano state comprese dalla fabbrica e preverrà qualunque potenziale difetto nelle risorse produttive, nei materiali, nella programmazione, nella gestione e molto altro ancora.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>Why You Need an Initial Production Check:</b> Avoid quality-related surprises during or after production. At the time of the IPC, consider <a href="/test-laboratorio">Lab Testing</a> services for quality assurance on materials.</p>
+			]]></subtext2>
+		<whyUsTitle>Neden AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD Her şey dahil fiyatlandırma]]></li>
+			<li><![CDATA[48 seat içinde sahada olan denetçi<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> Aynı gun denetim raporları[2]<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Kolay çevrimiçi hizmet düzenlemeleri</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</it>
+
+	<pt>
+		<title>Verificação inicial da produção</title>
+		<subtext>
+			<![CDATA[
+			<p>Uma Inspeção inicial da produção coloca um inspetor na fábrica antes do início da produção, para garantir que as suas especificações sejam entendidas pela fábrica e para identificar qualquer falha potencial nos recursos da cadeia de produção, materiais, prazos, gerenciamento e mais.</p>
+			]]>
+		</subtext>
+		<whyUsTitle>Por que usar a AsiaInspection?</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[US${{priceIA}} com tudo incluso por dia de trabalho]]></li>
+			<li><![CDATA[Um inspetor no local em 48 horas<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> and same day reports<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Agendamento fácil com listas de verificação personalizáveis</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[A AsiaInspection garante ter um inspetor ou auditor pronto para se apresentar na fábrica num prazo de 48 horas.<br/><br/> Este prazo não garante, no entanto, a preparação ou cooperação da fábrica com a AsiaInspection. Também não oferece garantias contra fatores limitadores fora do controlo da AsiaInspection, como atrasos de viagem, ou qualquer evento considerado de força maior.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% de todos os relatórios de auditoria são entregues no mesmo dia. Os relatórios entregues no mesmo dia dependem da total cooperação da fábrica.
+		</hoverTwo>
+		<schedButton url="/register">Introdução</schedButton>
+	</pt>
+
+	<tr>
+		<title>İlk Üretim Kontrolü</title>
+		<subtext>
+			<![CDATA[
+			<p class="pwhite">İlk Üretim Muayenesi şartnamelerinizin fabrika tarafından anlaşılmasını ve üretim kaynakları, malzemeleri, programları, yönetim ve daha fazlasında herhangi bir potansiyel kusurun önlenmesini sağlayacaktır.</p>
+			]]>
+		</subtext>
+		<subtext2>
+			<![CDATA[<p><b>Why You Need an Initial Production Check:</b> Avoid quality-related surprises during or after production. At the time of the IPC, consider <a href="/test-laboratorio">Lab Testing</a> services for quality assurance on materials.</p>
+			]]></subtext2>
+		<whyUsTitle>Why AsiaInspection</whyUsTitle>
+		<whyUsList>
+			<li><![CDATA[${{priceIA}} USD all-inclusive per man-day]]></li>
+			<li><![CDATA[An inspector onsite within 48 hours<sup class="hoverText" cargo="txtAuditor"><a href="javascript://">[1]</a></sup> and same day reports<sup class="hoverText" cargo="txtSameDayAudit"><a href="javascript://">[2]</a></sup>]]></li>
+			<li>Easy online scheduling with customizable checklists</li>
+		</whyUsList>
+		<hoverOne>
+			<![CDATA[AsiaInspection guarantees to have an inspector or auditor ready to be at the factory within 48 hours.<br /><br />This timeframe does not, however, guarantee factory preparedness or cooperation with AsiaInspection. Nor does it guarantee against limiting factors out of the control of AsiaInspection, such as transportation delays, or any event considered an Act of God.]]>
+		</hoverOne>
+		<hoverTwo>
+			80% of all audit reports are delivered the same day. Reports being delivered the same day are contingent upon full factory cooperation.
+		</hoverTwo>
+		<schedButton url="/register">Get Started</schedButton>
+	</tr>
+
+</document>

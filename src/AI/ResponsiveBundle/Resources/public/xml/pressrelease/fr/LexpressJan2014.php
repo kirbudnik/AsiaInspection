@@ -1,0 +1,1 @@
+<img src="https://s3.asiainspection.com/files/Jan22_2014_Lexpress.jpg" width="670px" />

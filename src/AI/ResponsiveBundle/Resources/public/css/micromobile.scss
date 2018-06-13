@@ -1,0 +1,396 @@
+@import 'variables';
+
+
+select { color: #5b5b5b; }
+
+/* Telephone country code placeholder */
+select:invalid { color: #9a9a9a; }
+
+
+.mobileOnly {
+  display: none;
+}
+
+
+.sendLinkMobileEmail{
+  max-width:304px;
+}
+
+.mobilePhoneCountry{
+  max-width:100px;
+  padding:6px 0px 6px 8px;
+}
+
+.sendLinkMobileNumber{
+  max-width:200px;
+}
+
+a.btn.btn-primary.submitButton {
+  max-width:120px;
+  margin-left:10px;
+  height:34px;
+  top:-6px;
+  line-height:32px;
+}
+
+#mastheadSection {
+  width:100%; background-color:#3b3838;
+
+}
+
+#mastheadContainer {
+  position:relative;
+  width:100%;
+
+}
+
+#mastheadBG {
+  background-image:url('https://s3.asiainspection.com/images/responsive/masthead_desktop.jpg');
+  background-size:cover;
+  background-position: 40% 60%;
+  height: 750px;
+  max-height: 750px;
+
+}
+
+
+#desktopMastHeadFG {
+  color:white; position:absolute; max-width:500px; top:36%; left:55%;
+}
+
+#mobileMastHeadFG {
+  display: none;
+}
+
+
+#mobileSubMasthead {
+  display: none;
+}
+
+
+#demoButton {
+  margin-top:15px;
+  text-align: center;
+  padding:20px;
+
+  a {
+    max-width:200px;
+  }
+}
+
+#serviceSectionDesktop {
+  display: block;
+  padding: 20px 15px 20px 0px;
+  font-size: 14px;
+  .serviceText,.serviceImage {
+    width: 50%;
+  }
+}
+#serviceSectionMobile {
+  display: none;
+  background-color: white;
+  width: 100%;
+  padding: 20px 10%;
+  .serviceText {
+    width: 100%;
+    text-align:left;
+  }
+  .serviceImage {
+    width: 48%;
+    position: absolute;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+
+#processSection {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #3b3838;
+}
+
+#processBG {
+  padding: 50px 0px;
+  background-size: cover;
+  background-image: url('https://s3.asiainspection.com/images/mobilemicro/desktop/Process_bkg_2000x1020.jpg');
+}
+
+
+#processImagesDesktop {
+  text-align:center; padding:20px 20px;
+
+  img {
+    min-width:24%;
+    max-width:24%;
+  }
+}
+
+#processImagesMobile {
+  display: none;
+}
+
+#processDownload {
+  max-width:700px;
+  padding: 60px 0px 100px 0px;
+  text-align: center;
+}
+
+
+
+#featuresRow {
+  padding:5% 0px 5% 0px;
+  background-color:white;
+  text-align:center;
+
+}
+#featuresSectionDesktop {
+  display: inline-block;
+  padding-left:0px;
+  padding-right:15px;
+}
+
+#featuresSectionMobile {
+  display: none;
+}
+
+
+#contactContainer {
+  position:relative;
+  width:100%;
+
+}
+
+#contactBG {
+  background-image:url('https://s3.asiainspection.com/images/mobilemicro/desktop/Contact_bkg_2000x900.jpg');
+  background-size:cover;
+  background-position: 30% 50%;
+}
+
+
+#contactFG {
+  color:white;
+  position:relative;
+  padding-top:10%;
+  padding-bottom:10%;
+  padding-left: 0;
+
+}
+
+
+#contactHeading {
+  text-align:left;
+  font-size:2.2em;
+  width:430px;
+  color:white;
+}
+
+#contactDownload {
+  text-align:left;
+  width:45%;
+}
+
+
+@media screen and(max-width: 768px) {
+
+
+  .sendLinkMobileEmail{
+    max-width:224px;
+    font-size: 14px;
+  }
+
+  .mobilePhoneCountry{
+    max-width:60px;
+    font-size: 14px;
+  }
+
+  .sendLinkMobileNumber{
+    max-width:160px;
+    font-size: 14px;
+  }
+
+  a.btn.btn-primary.submitButton {
+    max-width:100px;
+    padding: 0px 8px;
+    font-size: 14px;
+    margin-right: 0;
+    top:-5px;
+  }
+
+  .mobileOnly {
+    display: block;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #mastheadSection {
+    max-height: 1380px;
+
+   }
+
+  #mastheadContainer {
+    height: 0;
+    padding-bottom: 65%;
+
+   }
+
+  #mastheadBG {
+    background-image: url('https://s3.asiainspection.com/images/responsive/masthead_mobile.jpg');
+    height: 100%;
+    width: 100%;
+    max-height: 690px;
+    max-width: 1056px;
+    position:absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-size:cover;
+    background-position: 0% 0%;
+
+   }
+
+  #desktopMastHeadFG {
+    /*display: none;*/
+    top:-3000px;
+  }
+
+  #mobileMastHeadFG {
+    display: block;
+    width:50%; top:50%; right:0;
+    color:white; position:absolute;
+  }
+
+
+  #mobileSubMasthead {
+    display: block;
+    color:white;
+    background-color: $aiRed;
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+  }
+
+  #demoButton {
+    text-align: left;
+    margin: 15px 15px 0px 15px;
+    padding:20px 0;
+  }
+
+  #serviceSectionDesktop {
+    display: none;
+  }
+  #serviceSectionMobile {
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  #processBG {
+    max-width: 1056px;
+    max-height: 1375px;
+    padding: 20px 15px;
+    background-image: url('https://s3.asiainspection.com/images/mobilemicro/mobile/Process_bkg_1056x1375.jpg');
+  }
+
+  #processSubcontainer {
+    padding-right: 0;
+  }
+
+  #processImagesDesktop {
+    display: none;
+  }
+
+  #processImagesMobile {
+    display: block;
+    padding:0px 20px;
+
+    .stageImage {
+      padding: 4%;
+      min-width:48%;
+      max-width:48%;
+    }
+  }
+
+  #processDownload {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  #featuresRow {
+    padding: 7% 10%;
+
+  }
+  #featuresSectionDesktop {
+    display: none;
+  }
+
+  #featuresSectionMobile {
+    display: block;
+    max-width:750px;
+    width:100%;
+    h4 {
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+
+  #contactBG {
+    background-image: url('https://s3.asiainspection.com/images/mobilemicro/mobile/Contact_1056x675.jpg');
+    position:relative;
+    background-size:cover;
+    background-position: 0% 0%;
+    max-width:2000px;
+  }
+
+
+
+  #contactFG {
+    padding-top: 5%;
+    top: 0;
+    left: 0;
+    position: relative;
+    padding-right: 0;
+
+  }
+  #contactHeading {
+    text-align: center;
+    width: 100%;
+  }
+
+  #contactDownload {
+    text-align: center;
+    padding: 15px;
+    width:100%;
+
+  }
+
+}
+
+@media screen and(max-width: 500px) {
+    .mobileFullWidth {
+      width:100% !important;
+      max-width:none !important;
+      margin-left:0px !important;
+    }
+    .mobilePhoneCountry {
+      width:28%;
+      max-width:none;
+    }
+    .sendLinkMobileNumber {
+      width:70%;
+      max-width:none;
+    }
+    .appBadgeBox{
+      text-align:center;
+    }
+    #mobileMastHeadFG{
+      top:12%;
+    }
+}

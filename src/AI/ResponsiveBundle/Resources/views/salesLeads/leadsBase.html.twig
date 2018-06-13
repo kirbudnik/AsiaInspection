@@ -1,0 +1,91 @@
+{% extends '::base.html.twig' %}
+{%block title%}Sales Leads{%endblock%}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {%stylesheets filter="cssrewrite"
+        '@AIResponsiveBundle/Resources/public/css/salesLeads.css'
+    %}
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="{{asset_url}}"/>
+    {%endstylesheets%}
+    <style type="text/css">.navbar-ai { display:none !important; } #fixedNavSpacer { display:none !important; } </style>
+{% endblock %}
+
+{% block body %}
+<div class="container wrapper">
+    <div class="col-xs-12 wrapper">
+        <div class="col-xs-12  margin20">
+            {% if is_granted('ROLE_USER') %}
+                <!-- Home Button -->
+                <a href="/leads-tool"><img src="https://s3.asiainspection.com/images/ico_home.png" style="width:25px; height:25px; float:left; margin:8px 8px 8px 0px;" border="0" /></a>
+                <ul class="nav nav-tabs salesNav">
+                    <!-- Tradeshow and Events Menu -->
+                    <li class="dropdown-sales-leads">
+                        <a class="dropdown-toggle" data-toggle="dropdown" class="sales-leads-nav">Tradeshow and Events <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/tradeshow-memo" class="sales-leads-nav">Submit a Tradeshow Memo</a></li>
+                            <li><a href="/view-tradeshow-memo" class="sales-leads-nav" >View Memos</a></li>
+                        </ul>
+                    </li>
+                    <!-- Leads Menu -->
+                    <li class="dropdown-sales-leads">
+                        <a class=" dropdown-toggle"  data-toggle="dropdown" class="sales-leads-nav">Leads <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/sales-leads" class="sales-leads-nav">Submit Leads</a></li>
+                            <li><a href="/leads-count" class="sales-leads-nav">Leads Uploaded vs. Leads Reported</a></li>
+                        </ul>
+                    </li>
+                    <!-- Admin Menu -->
+                    {% if is_granted('ROLE_ADMIN') %}
+                    <li class="dropdown-sales-leads">
+                        <a class=" dropdown-toggle"  data-toggle="dropdown" class="sales-leads-nav">Admin Tools <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/addTradeshow" class="sales-leads-nav" >Manage Tradeshows</a></li>
+                            <li><a href="/approve-sales-leads" class="sales-leads-nav">Approve Leads</a></li>
+                            <li><a href="/check-contact-file" class="sales-leads-nav">Check Contact File</a></li>
+                            <li><a href="/contact-lookup" class="sales-leads-nav">Look Up Contact Details</a></li>
+                            <li><a href="/leads-tool/affiliate-management" class="sales-leads-nav">Affiliate Management</a></li>
+                            <li><a href="/leads-tool/mass-update" class="sales-leads-nav">Mass Update/Insert</a></li>
+                            <!--<li><a href="/RebuildLeads" class="sales-leads-nav">Rebuild Leads Table</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="dropdown-sales-leads">
+                        <a class=" dropdown-toggle"  data-toggle="dropdown" class="sales-leads-nav">Non-Opt In Tools <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/check-non-opt-file" class="sales-leads-nav">Check Non-Opt In File</a></li>
+                            <li><a href="/upload-non-opt-file" class="sales-leads-nav">Upload Approved Non-Opt In File</a></li>
+                        </ul>
+                    </li>
+                    {% endif %}
+                    <!-- Logout Link -->
+                    <li style="float:right;"><a href="/leads-tool/logout" style="border:0px !important;">Logout</a></li>
+                    {% if fullname is defined %} <li style="float:right;padding: 10px 15px">Hi {{ fullname }}! </li> {% endif %}
+                </ul>
+                <div style="clear:both;"></div>
+
+                <!-- Page Content [Begin] -->
+                {%block content%}{%endblock%}
+                <!-- Page Content [End] -->
+            {%else%}
+                <div class="box-white" id="uploadSalesLeadsForm" style="text-align:center;">
+                    <h2 class="margin20">Sorry, you have been logged out.  Click <a href="leads-tool/login">here</a> to log in.</h2>
+                    
+                </div>
+            {%endif%}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts
+        '@AIResponsiveBundle/Resources/public/js/salesLeads.js' 
+        filter='?uglifyjs2' 
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    <script src="/js/jquery.tablesorter.js"></script>
+    <script src="/js/html2canvas.min.js"></script>
+    {% endjavascripts %}
+{% endblock %}

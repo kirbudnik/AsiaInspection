@@ -1,0 +1,52 @@
+{% if app.request.locale == "ar" %} {% set twigBase = "AIResponsiveBundle:RTL:extra/extraBase.html.twig" %} {% else %} {% set twigBase = "AIResponsiveBundle:extra:extraBase.html.twig" %} {% endif %}
+{% extends twigBase %}
+
+{% block title %}{% if pageTitle is defined %}{{pageTitle}}{% endif %}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined %}{{pageKeywords}}{% endif %}{% endblock %}
+
+{% block bigTitle %}{{xml.title}}{% endblock %}
+{% block smallText %}
+    {% if xml.subTitle is defined %}
+        <p>{{xml.subTitle}}</p>
+        <!-- <a href="/register" role="button" class="btn btn-primary btn-regular headerButton">{{'Book Now'|trans}}</a> -->
+    {% endif %}
+{% endblock %}
+{% block pagename %}SASOCertification{% endblock %}
+
+{% block mainBlock %}
+    <style type="text/css">
+        table { width:100%; }
+        th { color:white; background-color:#b11820;text-align:center; padding:5px; }
+        td { padding:5px; }
+        .blueArrow {
+            background:url('/images/bluearrow.png');
+            background-size:100% 100%;
+            background-repeat:no-repeat;
+            width:33%;
+            min-height:120px;
+            display:inline-block;
+            text-align:center;
+            color:white;
+            padding:20px 0px;
+            font-size:12px;
+        }
+        .blueArrow > div {
+            display:inline-block;
+            max-width:65%;
+        }
+    </style>
+
+    {% for section in xml.section %}
+        <h2 class="marginZero padding15">{{section.title}}</h2>
+        {{section.content|raw}}
+    {% endfor %}
+    <img src="{{assetsDomain}}/images/responsive/headerImages/SASO_[lg].jpg" alt="SASO Certificate of Conformity | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts  '@AIResponsiveBundle/Resources/public/js/industryFixedMenu_v2.js' filter='?uglifyjs2' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

@@ -1,0 +1,45 @@
+{% if app.request.locale == "ar" %} {% set twigBase = "AIResponsiveBundle:RTL:extra/extraBase.html.twig" %} {% else %} {% set twigBase = "AIResponsiveBundle:extra:extraBase.html.twig" %} {% endif %}
+{% extends twigBase %}
+
+{% block title %}Safety & Compliance of Eyewear & PPE in EU: REACH, CE Marking & Other Requirements | AsiaInspection{% endblock %}
+{% block pageDescription %}This presentation covers the safety and compliance of eyewear and PPE, with a focus on EU regulations, including REACH, CE marking, and more. Watch the full video here.{% endblock %}
+{% block pageKeywords %}reach eu, ce marking eu{% endblock %}
+
+{% block bigTitle %}Eyewear Testing to European Directives{% endblock %}
+{% block smallText %}<p>Watch our video below to learn more about the safety and compliance of eyewear and PPE, with a focus on EU regulations, including REACH, CE Marking, and other mandatory and optional requirements.</p>{% endblock %}
+{% block pagename %}comptuesday{% endblock %}
+
+{% block mainBlock %}
+  
+    <p style="margin-top:15px;">Learn more out about the testing and labeling requirements for all categories of ophthalmic eyewear and PPE, as well as:</p>
+    <ul>
+        <li style="margin-bottom:5px;">Classification of eyewear products for the purposes of compliance</li>
+        <li style="margin-bottom:5px;">EU legislations regulating eyewear safety</li>
+        <li style="margin-bottom:5px;">What REACH regulations mean for eyewear brands</li>
+    </ul><br />
+
+    <div itemprop="video" itemscope itemtype="http://schema.org/VideoObject" style="margin-bottom:15px;">
+        <meta itemprop="name" content="Safety & Compliance of Eyewear & PPE in EU: REACH, CE Marking & Other Requirements | AsiaInspection" />
+        <meta itemprop="description" content="This presentation covers the safety and compliance of eyewear and PPE, with a focus on EU regulations, including REACH, CE marking, and more. Watch the full video here." />
+        <meta itemprop="duration" content="T30M25S" />
+        <meta itemprop="thumbnailUrl" content="{{assetsDomain}}/images/responsive/thumb_comptuesday.jpg" />
+        <meta itemprop="contentURL" content="https://youtu.be/FMuVOpYi0l4" />
+        <meta itemprop="uploadDate" content="2017-02-03" />
+        <object width='690' height='387' style="max-width:100%;">
+          <param name='movie' value='https://www.youtube.com/v/FMuVOpYi0l4?version=3%26autoplay=%26showinfo=0%26vq=hd720'></param>
+          <param name='allowScriptAccess' value='always'></param>
+          <embed src='https://www.youtube.com/v/FMuVOpYi0l4?version=%26autoplay=1%26showinfo=%26vq=hd720'
+                 type='application/x-shockwave-flash'
+                 allowscriptaccess='always'
+                 width='690' height='387' style="max-width:100%;"></embed>
+        </object>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts  '@AIResponsiveBundle/Resources/public/js/industryFixedMenu_v2.js' filter='?uglifyjs2' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

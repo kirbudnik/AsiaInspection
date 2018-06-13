@@ -1,0 +1,315 @@
+{% extends '::base.html.twig' %}
+{%block title%}{{pageTitle}}{%endblock%}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+{%block body%}
+<div class="container wrapper">
+   <div class="col-xs-12 wrapper">
+
+	  <div class="col-md-10 col-md-offset-1 col-xs-12 wrapper margin20">
+
+		<h1  class="margin20">{{xml.title}}</h1>
+		 <div class="box-white">
+			<div style="margin-bottom:20px;">
+
+	<input type="hidden" id="validateErrorText" value="{{xml.errors.general}}">
+	<form action="/affiliate-success" method="post" enctype="multipart/form-data" id="affiliateCompleteForm" novalidate>
+	<input type="hidden" name="type" value="affiliateapp">
+		<div class="fieldHeading">
+			<h2 class="padding15 marginZero">{{xml.userInfo.title}}</h2>
+			<p style="font-weight:bold;margin-right:20px;color:rgb(179,24,32);margin-bottom:15px;">{{xml.userInfo.required}}</p>
+			<div style="clear:both;"></div>
+		</div>
+		<div class="col-lg-6 col-xs-12 paddingLeftRightZero" style="padding:0px;">
+				<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 paddingLeftRightZero" >
+					  <label>{{xml.userInfo.company}}:</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					<input type="text" class="textInputWidth"  name="affCompany" required>
+				  </div>
+				  <div style="clear:both;"></div>
+
+			  </div><br/>
+			   <div class="wrap">
+				  <div class="col-lg-4 col-sm-5 paddingLeftRightZero" >
+					  <label>{{xml.userInfo.fname}}:</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					 <input type="text" class="textInputWidth"  name="affFirstName" required>
+				  </div>
+				  <div style="clear:both;"></div>
+			  </div><br/>
+			  <div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.userInfo.lname}}:</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					<input type="text" class="textInputWidth"  name="affLastName" required>
+				  </div>
+				  <div style="clear:both;"></div>
+			  </div><br/>
+			  <div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.userInfo.address}}:</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					<textarea rows="3" class="textInputWidth" style="margin-right:0px;" name="affAddress" required></textarea>
+				  </div>
+				  <div style="clear:both;"></div>
+			  </div><br/>
+			  <div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.userInfo.city}}:</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					<input type="text" class="textInputWidth"  name="affCity" required>
+				  </div>
+				  <div style="clear:both;"></div>
+			  </div><br/>
+			<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.userInfo.country}}: </label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+				   <select class="textInputWidth" style="margin:0px;height:25px;" name="affCountry" required>
+						<option selected="selected"></option>
+						{%set i = 0%}
+						{%for country in countries%}
+
+						<option areacode="{{country.phone}}" >{{countryNames[i]}}</option>
+						{%set i =i+1%}
+						{%endfor%}
+
+					</select>
+				  </div>
+				  <div style="clear:both;"></div>
+			  </div><br/>
+
+		</div>
+		<div class="col-lg-6 col-xs-12 paddingLeftRightZero"  style="padding:0px;">
+		   <div class="wrap">
+			  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+				<label>{{xml.userInfo.email}}:</label>
+			  </div>
+			  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+				 <input type="email" class="textInputWidth"  name="affEmail" required>
+			  </div>
+			  <div style="clear:both;"></div>
+			</div><br/>
+			<div class="wrap">
+			  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+				<label>{{xml.userInfo.confirmEmail}}:</label>
+			  </div>
+			  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+				 <input type="email" class="textInputWidth"  name="affConfirmEmail" required>
+			  </div>
+			  <div style="clear:both;"></div>
+			</div><br/>
+
+			<div class="wrap">
+				<p style="color:rgb(179,24,32);" class="marginZero">{{xml.userInfo.emailLogin}}</p>
+			</div><br/>
+			 <div class="wrap">
+			  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+				<label>{{xml.userInfo.choosePass}}:</label>
+			  </div>
+			  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+				 <input type="password" style="margin-bottom:5px;"  class="textInputWidth" name="affPassword" required>
+			  </div>
+			  <div style="clear:both;"></div>
+			</div><br/>
+			<div class="wrap">
+			  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+				<label>{{xml.userInfo.confirmPass}}:</label>
+			  </div>
+			  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+				 <input type="password" class="textInputWidth"  name="affConfirmPassword" required>
+			  </div>
+			  <div style="clear:both;"></div>
+			</div>
+		</div>
+
+
+
+			<div class="col-xs-12 paddingLeftRightZero" >
+				<br/>
+				<div class="col-lg-3 col-sm-5 col-xs-12 paddingLeftRightZero" >
+				<label>{{xml.userInfo.bannerurl}}:</label>
+			  </div>
+			  <div class="col-lg-9 col-sm-7 col-xs-12 paddingLeftRightZero" >
+				 <input type="text" style="width:91%;" class="width100" name="affBannerURL" required>
+			  </div>
+			  <div style="clear:both;"></div>
+
+			</div>
+			<div style="clear:both;"></div>
+			<div class="fieldHeading">
+			<h2 class=" marginZero" style="padding:20px 0px;">{{xml.payInfo.title}}</h2>
+			<p style="font-weight:bold;margin-right:20px;color:rgb(179,24,32);margin-bottom:15px;">* {{xml.payInfo.required}}</p>
+			<div style="clear:both;"></div>
+		</div>
+
+		<p class="marginZero padding15">{{xml.payInfo.desc|raw}}</p>
+
+		<div class="fieldContainer" style="padding:5px;">
+			<span class="affShowMore" box="affPaypalContent"><span class="plusminus">[+]</span> <a href="javascript:">{{xml.payInfo.paypal}}</a></span>
+		</div>
+		<div class="col-xs-12 paddingLeftRightZero padding15" id="affPaypalContent" style="display:none;">
+
+				<div class="col-lg-3 col-sm-5 col-xs-12 paddingLeftRightZero" >
+				<label>{{xml.payInfo.paypalAddress}}:*</label>
+			  </div>
+			  <div class="col-lg-9 col-sm-7 col-xs-12 paddingLeftRightZero" >
+				 <input type="email" style="width:91%;" class="width100" name="affPaypalEmail" >
+			  </div>
+			  <div style="clear:both;"></div>
+
+			</div>
+
+
+		<div class="fieldContainer" style="padding:5px;">
+			<span class="affShowMore" box="affWireTransContent"><span class="plusminus">[+]</span> <a href="javascript:">{{xml.payInfo.TT}}</a></span>
+		</div>
+		<div class="formContainer" id="affWireTransContent" style="display:none;">
+			<div class="col-lg-6 col-xs-12 paddingLeftRightZero" style="padding:0px;">
+				<p class="marginZero padding15" style="font-weight:bold;text-align:left;">{{xml.payInfo.accountInfo}}</p>
+				<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.payInfo.beneficiary}}:*</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					 <input type="text" class="textInputWidth"  name="affBeneficiary">
+				  </div>
+				  <div style="clear:both;"></div>
+				</div><br/>
+				<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.payInfo.beneAddress}}:</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					  <input type="text" class="textInputWidth"  name="affBenefAddress">
+				  </div>
+				  <div style="clear:both;"></div>
+				</div><br/>
+				<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.payInfo.bankNum}}:*</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					  <input type="text" class="textInputWidth"  name="affAccountNumber">
+				  </div>
+				  <div style="clear:both;"></div>
+				</div>
+			</div>
+
+			<div class="col-lg-6 col-xs-12 paddingLeftRightZero" style="padding:0px;">
+				<p class="marginZero padding15" style="font-weight:bold;text-align:left;width:325px;">{{xml.payInfo.bankInfo}}</p>
+				<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.payInfo.bankName}}:*</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					<input type="text" class="textInputWidth" name="affBankName">
+				  </div>
+				  <div style="clear:both;"></div>
+				</div><br/>
+				<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.payInfo.branch}}:</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					  <input type="text" class="textInputWidth"  name="affBranchName">
+				  </div>
+				  <div style="clear:both;"></div>
+				</div><br/>
+				<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.payInfo.bankAdd}}:* </label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					  <input type="text" class="textInputWidth"  name="affBankAddress">
+				  </div>
+				  <div style="clear:both;"></div>
+				</div><br/>
+				<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.payInfo.swift}}:* </label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					  <input type="text" class="textInputWidth"  name="affSwiftCode">
+				  </div>
+				  <div style="clear:both;"></div>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+
+
+			<div style="margin:5px 0px 5px 0px;">
+				<p class="marginZero padding15" style="text-align:left;">{{xml.payInfo.routeInfo|raw}}</p>
+				<div style="clear:both;"></div>
+			</div>
+			 <div class=" col-xs-12 paddingLeftRightZero" style="padding:0px;">
+				<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.payInfo.iban}}:</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					  <input type="text" style="width:91%;" class="width100" name="affIBAN">
+				  </div>
+				  <div style="clear:both;"></div>
+				</div><br/>
+				<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.payInfo.bankSort}}: </label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					 <input type="text" style="width:91%;" class="width100" name="affBankSortNumber">
+				  </div>
+				  <div style="clear:both;"></div>
+				</div><br/>
+				<div class="wrap">
+				  <div class="col-lg-4 col-sm-5 col-xs-12 paddingLeftRightZero" >
+					  <label>{{xml.payInfo.fedwire}}:</label>
+				  </div>
+				  <div class="col-lg-8 col-sm-7 col-xs-12 paddingLeftRightZero inputField">
+					  <input type="text" style="width:91%;" class="width100" name="affFedWire">
+				  </div>
+				  <div style="clear:both;"></div>
+				</div>
+			</div>
+
+			</div>
+	<div style="clear:both;"></div>
+
+		<div class="fieldContainer" style="padding-top:15px;">
+			<input type="checkbox" style="margin-bottom:3px; vertical-align:bottom;" name="affUnderstand" required><span> &nbsp;{{xml.understand|raw}}</span>
+			<div class='validateErrorBox' style='position:relative;font-size:11px;text-align:left;display:none;'><div class='spriteValidateError' style='vertical-align:middle;'></div>{{xml.errors.spamCond}} </div>
+		</div>
+
+		<div class="fieldContainer padding15">
+			<input type="checkbox" style="margin-bottom:3px; vertical-align:bottom;"  name="affAcceptTerms" required><span> &nbsp;{{xml.acceptTerms|raw}}</span>
+			<div class='validateErrorBox' style='position:relative;font-size:11px;text-align:left;display:none;'><div class='spriteValidateError' style='vertical-align:middle;'></div>{{xml.errors.acceptTerms|raw}}</div>
+			<div id="termsAndConditions" class="marginZero" style="display:none;padding-bottom:30px;">
+					<p class="marginZero padding15">{{termsAndConditions.topText|raw}}</p>
+						{%for section in termsAndConditions.section%}
+						<h2 class="marginZero padding15">
+							{{section.title}}
+						</h2>
+							{{section.text|raw}}
+							{%endfor%}
+			</div>
+		</div>
+
+		<div style="text-align:center;">
+			<div id="errorMessage" style="background-color:#b31820; color:white; font-size:1em; display:none;"></div>
+			<button type="submit" class="btn-primary smallButton" style="margin:20px 0px;">{{xml.submitBut}}</button>
+		</div>
+	</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+{%endblock%}

@@ -1,0 +1,133 @@
+{% extends 'AIResponsiveBundle:RTL:aboutUs/whoWeAreBase.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pagename %}{{type}}{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block bigTitle %} {{xml.title}} {% endblock %}
+
+{% block whoWeAreText %}
+<div id="bigbox"  >
+	<h1 class="marginZero" style="padding-bottom:20px;">{{xml.title}}</h1>
+	<div id="block-one">
+		<div class="col-xs-12 col-md-6 col-xl-7 paddingLeftRightZero">
+			{% if type=="toyLabTest" %}	{{xml.topText|raw}} {% else %} {{xml.firstParagraph|raw}}{% endif %}
+
+		</div>
+		<div class="col-xs-12 col-md-6 col-xl-5 paddingLeftRightZero">
+		{% if type=="toyLabTest" %}
+			<img src="https://s3.asiainspection.com/images/responsive/toysafety2010.png" width="100%" alt="Toxic Toys – Safety Regulations for PVC &amp; Phthalates">
+		{% else %}
+			<img src="https://s3.asiainspection.com/images/responsive/toysLabtest.png" width="100%" alt="Made in China Toys Not Phthalate Free – Phthalate Testing">
+		{% endif %}
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="para-two">
+	{% if type=="toyLabTest" %}
+		<p>{{xml.textTwo|raw}}</p>
+		<div style="border-top:1px solid #b31820;border-bottom:1px solid #b31820;margin:15px 0px;">
+			<p  style="font-weight:bold; font-size:20px;margin:10px 0px; color:#636363;"><img style="margin-top:-5px;" src="https://s3.asiainspection.com/images/responsive/symbol.png"> {{xml.rapex}}</p>
+	</div>
+		<p style="margin-top:10px;"> {{xml.realRegs.text|raw}}</p>
+		<ul class="smallbullet">
+			{% for li in xml.realRegs.bullet.li %}
+				{{li|raw}}
+			{% endfor %}
+		</ul>
+		<p>{{xml.consumerResponse.text|raw}}</p>
+		<ul class="smallbullet">
+			{% for li in xml.realRegs.bullet.li %}
+				{{li|raw}}
+			{% endfor %}
+		</ul>
+		<p>
+			<strong>{{xml.safeSource.title}}</strong>
+		</p>
+		{{xml.safeSource.text|raw}}
+	{% else %}
+		{{xml.secondParagraph|raw}}
+		<div style="border-top:1px solid #b31820;border-bottom:1px solid #b31820;margin:15px 0px;">
+			<p  style="font-weight:bold; font-size:20px;margin:10px 0px; color:#636363;"><img style="margin-top:-5px;" src="https://s3.asiainspection.com/images/responsive/symbol.png"> {{xml.bigQuote}} </p>
+		</div>
+		{{xml.thirdParagraph|raw}}
+		<p><i>{{xml.footnote}}</i></p>
+		{% endif %}
+	</div>
+		 <div id="share-this" class="marginZero padding15">
+			<div style="display:inline-block;padding-top:8px;float:left;font-weight:bold;">{{xml.shareThis}}</div>
+			<div id="shareBtnSmall"  style="display:inline-block;padding-left:15px;">
+			  <span class='st_twitter_large' displayText='Tweet'></span>
+			  <span class='st_facebook_large' displayText='Facebook'></span>
+			  <span class='st_linkedin_large' displayText='LinkedIn'></span>
+			  <span class='st_email_large' displayText='Email'></span>
+			  <span class='st_sharethis_large' displayText='ShareThis'></span>
+			</div>
+			<div style="clear:both;"></div>
+		  </div>
+		</div>
+		<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">
+	stLight.options({
+	  publisher:'12345',
+	  doNotHash:true,
+	  doNotCopy:true,
+	  hashAddressBar:false
+	});
+  </script>
+{% endblock %}
+
+{% block offerbox1 %}
+	<div class="sidebarTitlebar">
+		<h5>{{toybox.title}}</h5>
+	</div>
+	<div class="sidebarContentBox">
+		<div id="toybox1" style="display:block;">
+		<div class="col-xs-5 col-md-12 col-lg-6 paddingLeftRightZero">
+		
+				<p>{{toybox.blurb}}</p>
+		</div>
+		<div class="col-xs-7 col-md-12 col-lg-6 paddingLeftRightZero">
+			<img src="https://s3.asiainspection.com/images/baby.png" width="100%" >
+		</div>
+		</div>
+		<p style="text-align:right;padding-top:15px;font-weight:bold;margin-bottom:0px;"><a href="/quality-control-services/laboratory-testing">» {% trans %}Check It Out{% endtrans %}!</a></p>
+	</div>
+{% endblock %}
+
+
+{% block offerbox2 %}
+	<div class="sidebarTitlebar">
+		<h5>{% trans %}Contact Us{% endtrans %}</h5>
+	</div>
+	<div class="sidebarContentBox">
+		<a href="mailto:press@AsiaInspection.com">{% trans %}About This Study{% endtrans %}</a>
+		<hr />
+		<div class="gradient-grey servicelinks_subbox">
+			<a href="/quality-control-services">{% trans %}About Our Services{% endtrans %}</a>
+		</div>
+	</div>
+{% endblock %}
+
+{% block offerbox3 %}
+	<div class="offer-box" style="margin-top:20px;">
+		<div class="sidebarTitlebar">
+			<h5>{{'Follow Us'|trans}}</h5>
+		</div>
+		<div class="sidebarContentBox">
+			<div style="width:100%;margin-bottom:20px 0px;padding-bottom:5px;text-align:center;">
+				<div class="footerlinksFollowIcon" style="padding-right:4px;">
+					<a href="http://www.facebook.com/asiainspection" target="_blank"><div class="ico_facebook"></div></a>
+				</div>
+				<div class="footerlinksFollowIcon" style="padding-right:4px;">
+					<a href="http://twitter.com/asiainspection" target="_blank"><div class="ico_twitter"></div></a>
+				</div>
+				<div class="footerlinksFollowIcon" style="padding-right:4px;">
+					<a href="https://www.youtube.com/user/asiainspection" target="_blank"><div class="ico_youtube"></div></a>
+				</div>
+				<div class="footerlinksFollowIcon">
+					<a href="http://www.linkedin.com/company/asiainspection" target="_blank"><div class="ico_linkedin"></div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

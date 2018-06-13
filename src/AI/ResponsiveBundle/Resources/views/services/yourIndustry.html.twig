@@ -1,0 +1,89 @@
+{% extends '::base.html.twig' %}
+{% block title %}{{pageTitle}}{% endblock %}
+{% block pagename %}IndustryLanding{% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+{% block body %}
+
+<div class="container wrapper">
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h1 class="mainHeader" style="color:black; margin-top:0.9em;">{{xml.title}}</h3>
+            <div class="mainSubHeader" style="color:black;">{{xml.subtext|trans|raw}}</div>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="background-color:white; width:100%; padding-bottom:20px;">
+    <div class="col-md-6 col-xs-12">
+        <div class="col-md-10 col-md-offset-2 col-xs-12 col-lg-offset-4 col-lg-8">
+            {%set i =0%}
+            {%for section in xml.section%}
+                {%if(i==0 or i==3)%}
+                    <div class="box" style="margin-top:20px;">
+                        <div class="text-center" style="background:url('{{section.img}}'); background-size:cover; background-repeat:no-repeat; height:250px; background-position:top;">
+                            <div class="vcenter">
+                                <h3 class="h3white textShadow">{{section.title}}</h3>
+                                <a href="{{section.url}}" role="button" class="btn btn-primary btn-regular feature3button upcase" style="margin-left:10px;">{% trans %}Learn More{% endtrans %}</a>
+                            </div>
+                        </div>
+                        <div class="box-list">
+                            <ul style="padding:20px;">
+                                {% for link in section.link %}
+                                    <div class="col-xs-6">
+                                        {% if link.attributes.url is defined and link.attributes.url != "" %}
+                                            <li><a href="{{ link.attributes.url }}">{{ link }}</a></li>
+                                        {% else %}
+                                            <li>{{ link }}</li>
+                                        {% endif %}
+                                    </div>
+                                {%endfor%}
+                                <div style="clear:both;"></div>
+                            </ul>
+                        </div>
+                    </div>
+                {%endif%}
+                {%set i =i+1%}
+            {%endfor%}
+        </div>
+    </div>
+    <div class="col-md-6 col-xs-12">
+        <div class="col-md-10 col-xs-12 col-lg-8">
+            {%set i =0%}
+            {%for section in xml.section%}
+                {%if(i==1 or i==2)%}
+                    <div class="box" style="margin-top:20px;">
+                        <div class="text-center" style="background:url('{{section.img}}'); background-size:cover; background-repeat:no-repeat; height:250px; background-position:top;">
+                            <div class="vcenter">
+                                <h3 class="h3white textShadow">{{section.title}}</h3>
+                                <a href="{{section.url}}" role="button" class="btn btn-primary btn-regular feature3button upcase" style="margin-left:10px;">{% trans %}Learn More{% endtrans %}</a>
+                            </div>
+                        </div>
+                        <div class="box-list">
+                            <ul style="padding:20px;">
+                                {%for link in section.link %}
+                                    <div class="col-xs-6">
+                                        {% if link.attributes.url is defined and link.attributes.url != "" %}
+                                            <li><a href="{{ link.attributes.url }}">{{ link }}</a></li>
+                                        {% else %}
+                                            <li>{{ link }}</li>
+                                        {% endif %}
+                                    </div>
+                                {%endfor%}
+                                <div style="clear:both;"></div>
+                            </ul>
+                        </div>
+                    </div>
+                {%endif%}
+                {%set i =i+1%}
+            {%endfor%}
+        </div>
+    </div>
+</div>
+
+<img src="{{assetsDomain}}/images/responsive/industrythumb_softlines.jpg" alt="Softline Industry Inspections | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+<img src="{{assetsDomain}}/images/responsive/industrythumb_hardlines.jpg" alt="Hardline Industry Inspections | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+<img src="{{assetsDomain}}/images/responsive/industrythumb_food.jpg" alt="Food Industry Inspections | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+<img src="{{assetsDomain}}/images/responsive/industrythumb_techparts.jpg" alt="Technical Parts Industry Inspections | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />
+
+{% endblock %}

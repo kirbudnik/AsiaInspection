@@ -1,0 +1,84 @@
+{% extends '::base.html.twig' %}
+{%block title%}{{pageTitle}}{%endblock%}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+
+{%block body%}
+<div class="container wrapper">
+   <div class="col-xs-12 wrapper">
+
+	  <div class="col-md-10 col-md-offset-1 col-xs-12 wrapper margin20">
+
+		<h1  class="margin20">{{xml.title}}</h1>
+		<p style="margin-bottom:20px;">{{xml.titleSubText}}
+		 <div class="box-white">
+			<div style="margin-bottom:20px;">
+				<div id="block-two">
+				<div class="displayNone768"	>
+					<img src="{{assetsDomain}}/images/responsive/asia[affiliate_program]_lg.png" width="100%">
+				</div>
+				<div id="affiliate-programSmallImg" style="display:none;">
+					<img src="{{assetsDomain}}/images/responsive/asia[affiliate_program]_sm.png" width="100%">
+				</div>
+
+					<div style="clear:both;"></div>
+					<div class="text-center" style="margin:20px 0px;">
+
+							 <a href="{{url}}" id="affiliate-program-join" class="btn btn-primary" role="button" >{{xml.joinButton}}</a>
+
+					</div>
+				</div>
+					<div id="block-three">
+		<div class="col-md-8 paddingLeftZero ">
+			<div id="head-bis">
+				<h4>{{xml.programDetailsTitle}}</h4>
+			</div>
+			{{xml.programDetailsText|raw}}
+			<p>
+				<a id="viewTermsAndConditionsBigScreen" href="/termsAndConditionsAlliaffiliate?width=853&amp;height=420&amp;TB_iframe=true" class="thickbox" title="TERMS AND CONDITIONS">{{xml.termsNconditions}}</a><a id="viewTermsAndConditionsSmallScreen" href="javascript:" style="display:none;font-size:13px; padding-bottom:20px;">{{xml.termsNconditions}}</a>
+
+
+			</p>
+			<div id="termsAndConditions" class="marginZero" style="display:none;padding-bottom:30px;">
+					<p class="marginZero padding15">{{termsAndConditions.topText|raw}}</p>
+						{%for section in termsAndConditions.section%}
+						<h2 class="marginZero padding15">
+							{{section.title}}
+						</h2>
+							{{section.text|raw}}
+							{%endfor%}
+			</div>
+		</div>
+		<div  class="offer-box col-md-4" style="background-color:#E6E6E6; padding:15px 30px;">
+			<div id="heady">
+				<div id="blok">
+				<div id="small-head" style="float:left;">
+					<h4>{{xml.howWorksTitle}}</h4>
+					</div>
+				</div>
+					<div id="button" style="float:right">
+						<img src="{{assetsDomain}}/images/cogs_icon.gif">
+					</div>
+				<div style="clear:both;"></div>
+			</div>
+
+			<div id="para-one">
+				<p><strong>{{xml.linksNbannersTitle}}</strong><br/>
+				{{xml.linksNbannersText|raw}}
+				</p>
+			</div>
+
+			<div id="para-two">
+				<p><strong>{{xml.newsletterTitle}}</strong><br/>
+				{{xml.newsletterText|raw}}
+				</p>
+			</div>
+		</div>
+	<div style="clear:both;"></div>
+	</div>
+
+		 </div>
+	  </div>
+   </div>
+</div>
+</div>
+{%endblock%}

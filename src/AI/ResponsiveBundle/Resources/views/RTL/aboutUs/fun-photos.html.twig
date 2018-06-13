@@ -1,0 +1,98 @@
+{% extends 'AIResponsiveBundle:aboutUs:aboutUsBase.html.twig' %}
+{%block title%}{{ xml.pageMeta.pageTitle is defined ? xml.pageMeta.pageTitle|trans : parent() }}{%endblock%}
+{%block pageDescription%}{{ xml.pageMeta.pageDesc is defined ? xml.pageMeta.pageDesc|trans : parent() }}{%endblock%}
+{%block pageKeywords%}{{  xml.pageMeta.pageKeywords is defined ? xml.pageMeta.pageKeywords : parent() }}{%endblock%}
+{%  block meta %}<meta name="robots" content="noindex, nofollow">{% endblock %}
+
+{%block stylesheets %}
+    {{ parent() }}
+{#
+    {%stylesheets '@AIResponsiveBundle/Resources/public/css/prettyPhoto.css'%}
+    <link type="text/css" media="screen" href="{{asset_url}}" rel="stylesheet"/>
+    {%endstylesheets%}
+#}
+    <style>
+        #TB_Image {
+            /*margin-top: 0px;*/
+            /*margin-bottom: 15px;*/
+        }
+        #TB_window   {
+            /*display: table;*/
+            background-color: #E6E6E6;
+        }
+        /*#TB_ImageOff { display: table-footer-group;  float: none; }*/
+        /*#TB_caption  { display: table-header-group;  float: none; }*/
+        #TB_closeWindow {
+            /*display: table-header-group;*/
+            height:35px;
+            padding: 9px 13px 8px 0;
+            float: right;
+        }
+
+    </style>
+
+{%endblock%}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts '@AIResponsiveBundle/Resources/public/js/modernizr-flexwrap.min.js' filter='?uglifyjs2' %}
+    <script src="{{asset_url}}"></script>
+    {% endjavascripts %}
+{#
+    {% javascripts '@AIResponsiveBundle/Resources/public/js/jquery.prettyPhoto.js' filter='?uglifyjs2' %}
+    <script src="{{asset_url}}"></script>
+    {% endjavascripts %}
+#}
+    {% javascripts '@AIResponsiveBundle/Resources/public/js/imagesloaded.pkgd.min.js' filter='?uglifyjs2' %}
+    <script src="{{asset_url}}"></script>
+    {% endjavascripts %}
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){
+            $('.fp-gallery').imagesLoaded(function() {
+                $('.fp-gallery').show();
+            });
+/*
+            $("a[rel^='prettyPhoto']").prettyPhoto({
+                social_tools: false,
+                theme: 'light_square',
+            });
+*/
+        });
+    </script>
+
+{%endblock%}
+
+{%block pagename%}FunPhotos{%endblock%}
+{%block bigTitle%}{{xml.section.bigTitle|trans|raw}}{%endblock%}
+
+{%block aboutUsMainBlock%}
+    <div id="aboutUs" class="col-xl-10 col-lg-10 col-lg-offset-1 col-xs-10 col-md-10 col-md-offset-1 col-xl-offset-1 col-xs-offset-1" style="padding:20px;">
+        <h2 style="padding-bottom:15px;margin-bottom:0px;">{{xml.section.title|trans}}</h2>
+        {% for par in xml.section.paragraph %}
+            <p>{{par|trans|raw}}</p>
+        {% endfor %}
+        <hr class='hrgrey' style='margin:5px 0px 10px 0px;'>
+        <div class="fp-gallery" style="display:none;margin-top:10px;">
+        {% for image in xml.images.image %}
+            {%if image.filename is defined%}
+                <div class="photoThumb">
+                    <a class="thumbLink thickbox"
+                    {#<a class="thumbLink{{ pp is defined ? "" : " thickbox" }}"#}
+                        {#href="/popup?type=funphotos&amp;height=480&amp;width=540&amp;modal=true"#}
+                        {#href="{{photoPath}}{{image.filename|raw}}?keepThis=true&amp;TB_iframe=true&amp;modal=true&amp;height=480&amp;width=540"#}
+                        href="{{photoPath}}{{image.filename|raw}}"
+                        special="funPhotos" {#this attribute is needed to alter thickbox defaults#}
+                        rel="gallery1"
+                        {#rel="{{ pp is defined ? "prettyPhoto[gallery1]" : "gallery1" }}"#}
+                        title="{{ image.caption is defined ? image.caption|trans : " "}}
+                        {{ image.submitter is defined ? "["~xml.images.submittedBy|trans~":"~image.submitter|raw~"]" : "" }}">
+                        <img src="{{photoPath}}{%if image.thumbpath is defined%}{{image.thumbpath|raw}}{%endif%}{{image.filename|raw}}"
+                                 height="120"  alt="{{ image.name is defined ? image.name|trans }}"/>
+                    </a>
+                    </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+{%endblock%}
+

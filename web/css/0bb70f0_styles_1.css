@@ -1,0 +1,5242 @@
+/*****************************************************************************/
+/* This is our main CSS Styles, we can override base elements here if needed */
+/*****************************************************************************/
+/****************************************************************************/
+/* This file is for anything that can be a variable to be used in ours CSS */
+/****************************************************************************/
+/* to be renamed something more readable or removed if no longer used */
+/* Client Logos for Testimonials Slider */
+/* Header Images */
+/********************************************/
+/* This file is for SCSS Mixins to be used */
+/********************************************/
+/************************************************************************************************/
+/* This is for the base format for our main elements (can be extended in styles.scss if needed) */
+/************************************************************************************************/
+@font-face {
+  font-family: 'Open Sans';
+  src: url("https://s3.asiainspection.com/fonts/opensans-regular.ttf") format("truetype");
+  src: url("/fonts/opensans-regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Open Sans';
+  src: url("https://s3.asiainspection.com/fonts/opensans-bold.ttf") format("truetype");
+  src: url("/fonts/opensans-bold.ttf") format("truetype");
+  font-weight: bold; }
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url(/fonts/ProximaNova-RegWeb.woff) format("woff");
+  font-weight: 400; }
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url(/fonts/ProximaNova-LightWeb.woff) format("woff");
+  font-weight: 100; }
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url(/fonts/ProximaNova-BoldWeb.woff) format("woff");
+  font-weight: 700; }
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url(/fonts/ProximaNova-SboldWeb.woff) format("woff");
+  font-weight: 600; }
+h1, h2 {
+  color: black;
+  font-size: 1.9em;
+  font-weight: bold;
+  margin: 0 0 10px 0; }
+
+.btn-black:hover, .btn-black:focus, .btn-black.focus, .btn-black:active, .btn-black.active, .open > .dropdown-toggle.btn-black {
+  color: white;
+  background-color: #1a1a1a;
+  border-color: #666666; }
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 1.19em;
+  margin-bottom: 13px;
+  margin-top: 0; }
+
+p {
+  font-size: 1em; }
+
+html, body {
+  background-color: white;
+  font-size: 14px;
+  font-family: "Open Sans";
+  height: 100%; }
+
+* {
+  font-family: "Open Sans"; }
+
+.AI_heading {
+  font-family: "Open Sans" !important;
+  font-size: 30px !important; }
+
+.AI_subheading {
+  font-family: "Open Sans" !important;
+  font-size: 15px !important; }
+
+.AI_text {
+  font-family: "Open Sans" !important;
+  font-size: 14px !important; }
+
+h5 {
+  color: #454545;
+  font-size: 15px;
+  font-weight: bold; }
+
+hr {
+  border-color: white; }
+
+#sideboxH1 {
+  color: black; }
+
+.h1 {
+  /* this simulates an h1 tag so that we just have one on each page */
+  display: block;
+  color: black;
+  font-size: 1.9em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-family: inherit; }
+
+.headerButton {
+  margin-right: 10px;
+  margin-top: 1.3em;
+  min-width: 100px; }
+
+.textInputWidth {
+  width: 80%; }
+
+#applyBtn_LinkedIn {
+  width: 28%;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 15px;
+  margin-top: 4px;
+  display: inline-block;
+  background: url("https://s3.asiainspection.com/images/applylinkedin.png") center no-repeat;
+  background-size: 100% 100%; }
+
+#applyBtn_LinkedIn:hover {
+  background-image: url("https://s3.asiainspection.com/images/applylinkedin_hover.png"); }
+
+#applyBtn_LinkedIn:active {
+  background-image: url("https://s3.asiainspection.com/images/applylinkedin_active.png"); }
+
+#appMobile {
+  position: absolute;
+  top: 185px;
+  left: 32px; }
+
+#appTablet {
+  position: absolute;
+  top: 263px;
+  left: 31px; }
+
+#AI_Logo {
+  width: 313px;
+  height: 50px;
+  background-image: url(/images/logo.png?v27);
+  background-size: 100% 100%;
+  margin-top: 8px;
+  display: inline-block;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+#ChinaInspection_Logo {
+  width: 283px;
+  height: 45px;
+  background-image: url(https://s3.asiainspection.com/images/logo-cn.png?v27);
+  background-size: 100% 100%;
+  margin-top: 8px;
+  display: inline-block;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.trackingOutputBox {
+  color: black;
+  font-size: 11px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 15px;
+  height: 20px; }
+
+.sidebarTitlebar {
+  background-color: #D2D2D2;
+  padding: 10px 30px; }
+  .sidebarTitlebar h5 {
+    text-transform: uppercase; }
+
+.sidebarContentBox {
+  padding: 15px 30px;
+  background-color: #E6E6E6; }
+
+/* Xmas Logo [Begin]
+#AI_Logo {
+	background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_md.png);
+	position:relative;
+	left:-130px;
+	width: 326px;
+	height: 81px;
+	margin-top:0px;
+}
+.navbar-ai {
+	background-image: url(https://s3.asiainspection.com/images/xmas/2017/bg_xmas_md.png);
+	background-size:cover;
+}
+#ChinaInspection_Logo {
+	background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_md_CN.png);
+	width: 341px;
+	height: 81px;
+	left:-130px;
+	margin-top:0px;
+}
+Xmas Logo [End] */
+.navbar {
+  text-align: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  border-radius: 0px;
+  z-index: 1999;
+  top: 0px;
+  border-bottom: 1px solid #333333;
+  -webkit-transition: height .5s, line-height .5s;
+  /* Safari */
+  transition: height .5s, line-height .5s; }
+
+.upcase {
+  text-transform: uppercase; }
+
+.lowcase {
+  text-transform: lowercase; }
+
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%); }
+
+.vcenter_parent {
+  height: 100%;
+  position: relative; }
+
+.ScrollSection {
+  min-height: 500px; }
+
+.mainHeader {
+  margin-bottom: 0.55em;
+  font-size: 2.7em;
+  color: white;
+  font-weight: bold; }
+
+.mainSubHeader {
+  margin-bottom: 2em;
+  font-size: 1.23em;
+  color: white; }
+
+.above990Display {
+  display: block; }
+
+.above990DisplayNone {
+  display: none; }
+
+.display500 {
+  display: none; }
+
+.sectionHeader {
+  font-size: 1.9em;
+  font-weight: bold; }
+
+.contactMapPopup {
+  padding: 15px;
+  font-family: "Open Sans";
+  width: 100%; }
+  .contactMapPopup > div {
+    margin-top: 6px; }
+
+.btn {
+  background-image: none; }
+
+.mobileEmailSendLinks {
+  width: 250px;
+  margin-right: 2px; }
+
+.headerbox {
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 330px; }
+
+.storyContainer {
+  background-color: #E6E6E6;
+  padding: 2.5em;
+  margin-top: 3em;
+  margin-bottom: 3em; }
+
+#map-bangladesh {
+  width: 303px;
+  float: right;
+  margin-left: 10px; }
+
+#share-this {
+  width: 80%;
+  float: left; }
+
+.storyContainer a {
+  white-space: pre-wrap;
+  /* css-3 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */ }
+
+/**following important is needed for loading individual news page**/
+#specialIframe {
+  width: 255px !important;
+  height: 227px !important; }
+
+#specialImg {
+  width: 255px !important;
+  height: 173px !important; }
+
+/**ends**/
+/**form validation**/
+/* .invalid class prevents CSS from automatically applying */
+.invalid input:required:invalid {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #b21820;
+  outline: 0 none; }
+
+.invalid textarea:required:invalid {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #b21820;
+  outline: 0 none; }
+
+.invalid select:required:invalid {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #b21820;
+  outline: 0 none; }
+
+.invalidFeild {
+  -webkit-appearance: none;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #b21820;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #b21820;
+  outline: 0 none; }
+
+/**end form validation**/
+.navbar-ai {
+  /* End of .navbar-right .dropdown-menu */ }
+  .navbar-ai a {
+    color: #333;
+    background-color: transparent; }
+    .navbar-ai a:hover {
+      color: #333;
+      background-color: transparent; }
+    .navbar-ai a:focus {
+      color: #333;
+      background-color: transparent;
+      border-bottom: 2px solid transparent; }
+    .navbar-ai a:active {
+      color: #333;
+      background-color: transparent; }
+  .navbar-ai .subNavSplitDivParent {
+    display: none; }
+  .navbar-ai .subNavSplitDiv {
+    visibility: hidden; }
+  .navbar-ai .dropdown-menu {
+    text-align: center;
+    left: -60px; }
+    .navbar-ai .dropdown-menu .navMenuCol {
+      display: inline-block;
+      padding: 20px;
+      margin-left: 25px;
+      text-align: left;
+      color: #5e5e5e;
+      position: relative;
+      vertical-align: top;
+      border-right: 1px solid #c6c6c6; }
+      .navbar-ai .dropdown-menu .navMenuCol li {
+        list-style-type: none; }
+        .navbar-ai .dropdown-menu .navMenuCol li a {
+          display: block;
+          margin: 5px 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_aboutAI {
+        background-position: -25px -25px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_audits {
+        background-position: -25px 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_food {
+        background-position: -0px -50px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_hardlines {
+        background-position: -50px -25px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_inspections {
+        background-position: 0px 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_labTest {
+        background-position: -50px 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_serviceDetails {
+        background-position: 0px -25px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_softlines {
+        background-position: -75px 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_techParts {
+        background-position: -25px -50px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_News {
+        background-position: -75px -25px; }
+      .navbar-ai .dropdown-menu .navMenuCol .navSubtitle {
+        font-weight: bold;
+        color: #5e5e5e;
+        text-decoration: none;
+        display: block;
+        margin: 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol .navSubtitle:before {
+        content: "";
+        background: url(https://s3.asiainspection.com/images/responsive/submenu_icons.png?v27);
+        background-position: inherit;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+        position: absolute;
+        left: -15px; }
+    .navbar-ai .dropdown-menu.navmenu_Service {
+      width: 940px; }
+    .navbar-ai .dropdown-menu.navmenu_Industry {
+      width: 877px; }
+    .navbar-ai .dropdown-menu.navmenu_About {
+      width: 340px; }
+      .navbar-ai .dropdown-menu.navmenu_About .navMenuCol {
+        width: 137px; }
+  .navbar-ai .navbar-toggle {
+    background-color: white;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 9px 10px;
+    padding-bottom: 23px;
+    position: relative; }
+    .navbar-ai .navbar-toggle:hover {
+      background-color: #ddd; }
+    .navbar-ai .navbar-toggle:focus {
+      background-color: #ddd; }
+    .navbar-ai .navbar-toggle .icon-bar {
+      background-color: #888; }
+  .navbar-ai .navbar-right {
+    position: relative;
+    display: block;
+    margin-right: 0px;
+    padding-right: 10px; }
+    .navbar-ai .navbar-right .dropdown-menu {
+      visibility: visible; }
+    .navbar-ai .navbar-right li > a {
+      padding: 0px;
+      margin-right: 2em;
+      font-size: 0.8em; }
+    .navbar-ai .navbar-right #phoneNumber > .dropdown-menu {
+      left: -360px; }
+  .navbar-ai .navbar-left {
+    position: relative;
+    display: block;
+    margin-left: 0px;
+    padding-left: 10px; }
+    .navbar-ai .navbar-left .dropdown-menu {
+      visibility: visible; }
+    .navbar-ai .navbar-left li > a {
+      padding: 0px;
+      margin-right: 2em;
+      font-size: 0.8em; }
+    .navbar-ai .navbar-left #phoneNumber > .dropdown-menu {
+      font-size: 0.8em;
+      right: -360px;
+      position: absolute; }
+      .navbar-ai .navbar-left #phoneNumber > .dropdown-menu .contactSelect_sectionBox {
+        box-sizing: border-box;
+        text-align: left;
+        margin-left: 20px;
+        position: relative;
+        float: left; }
+        .navbar-ai .navbar-left #phoneNumber > .dropdown-menu .contactSelect_sectionBox ul {
+          padding: 0px;
+          list-style-image: none;
+          list-style-position: outside;
+          list-style-type: none;
+          margin-bottom: 20px;
+          cursor: pointer; }
+          .navbar-ai .navbar-left #phoneNumber > .dropdown-menu .contactSelect_sectionBox ul li {
+            padding: 3px 3px 2px 3px;
+            margin-bottom: 3px; }
+  .navbar-ai .navbar-header {
+    margin-left: 8.33333333%;
+    padding-left: 0px;
+    text-align: left;
+    padding-bottom: 20px;
+    bottom: 0px; }
+  .navbar-ai .navbar-right .dropdown-menu {
+    font-size: 0.8em;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #c6c6c6;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px;
+    text-align: left;
+    z-index: 1500;
+    margin: 5px 0 0 -5px;
+    min-width: 0px;
+    /* End of .contactSelect_sectionBox */ }
+    .navbar-ai .navbar-right .dropdown-menu ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 0 20px 0; }
+      .navbar-ai .navbar-right .dropdown-menu ul:last-of-type {
+        margin: 0; }
+    .navbar-ai .navbar-right .dropdown-menu li {
+      margin-bottom: 3px;
+      padding: 3px 3px 2px 3px; }
+      .navbar-ai .navbar-right .dropdown-menu li:hover {
+        background-color: #b31820;
+        color: white; }
+        .navbar-ai .navbar-right .dropdown-menu li:hover a {
+          background-color: #b31820;
+          background-image: none;
+          color: white; }
+      .navbar-ai .navbar-right .dropdown-menu li a:hover {
+        color: white; }
+    .navbar-ai .navbar-right .dropdown-menu .contactSelect_sectionBox {
+      position: relative;
+      float: left;
+      margin-right: 20px; }
+
+/* End of .navbar-ai */
+.navbar-brand {
+  padding: 5px 15px; }
+
+.nav > li > a {
+  border-bottom: 2px solid transparent; }
+  .nav > li > a:hover {
+    border-bottom: 2px solid transparent;
+    background-color: transparent;
+    border-bottom: 2px solid #b31820; }
+  .nav > li > a:focus {
+    background-color: transparent;
+    border-bottom: 2px solid #b31820; }
+.nav .open > a {
+  background-color: transparent;
+  border-bottom: 2px solid transparent; }
+  .nav .open > a:hover {
+    background-color: transparent;
+    border-bottom: 2px solid transparent; }
+  .nav .open > a:focus {
+    background-color: transparent;
+    border-bottom: 2px solid transparent; }
+
+.nav-active {
+  border-bottom: 2px solid #b31820 !important; }
+
+.slide-feature {
+  height: 400px; }
+  .slide-feature h3 {
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: bold; }
+
+.multipleLoginRow {
+  background-color: white;
+  cursor: pointer; }
+  .multipleLoginRow:hover {
+    background-color: #c1c1c1; }
+
+.pwhite {
+  color: white; }
+
+.h3white {
+  font-size: 1.9em;
+  color: white;
+  font-weight: bold; }
+
+.main-container {
+  width: 100%;
+  padding: 0;
+  padding-top: 80px; }
+
+.wrapper {
+  max-width: 1300px; }
+
+.h3black {
+  font-size: 24px;
+  color: black;
+  font-weight: bold; }
+
+.slide-featureSpecialHeight {
+  height: 850px; }
+
+.slide-feature1 {
+  text-align: center;
+  background-image: url(https://s3.asiainspection.com/images/responsive/main_right.jpg?v27);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+.slide-feature1-ipad {
+  text-align: center;
+  background-image: url(https://s3.asiainspection.com/images/responsive/main_right.jpg?v27);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+#mainText {
+  font-size: 2.7em;
+  color: white;
+  font-weight: bold; }
+
+.hrgrey {
+  border-color: #c3c3c3; }
+
+.slide-feature2 {
+  text-align: center;
+  overflow: hidden; }
+  .slide-feature2 h3 {
+    color: #333;
+    font-weight: bold;
+    margin: 0px; }
+  .slide-feature2 p {
+    font-family: "Open Sans";
+    color: grey; }
+  .slide-feature2 a {
+    display: block;
+    color: #38508f;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20px; }
+  .slide-feature2 .homeSCP_title {
+    height: 14%; }
+  .slide-feature2 .homeSCP_content {
+    height: 47%; }
+  .slide-feature2 .homeSCP_image {
+    height: 40%;
+    background-image: url(https://s3.asiainspection.com/images/responsive/AI-on-multiple-devices.png?v27);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    width: 100%; }
+
+.feature2button {
+  margin-right: 5px; }
+
+.slide-feature3 {
+  text-align: center;
+  background-color: black; }
+  .slide-feature3 a {
+    font-family: "Open Sans";
+    font-weight: bold; }
+
+.feature3button {
+  width: 33%;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+.slide-feature4 {
+  text-align: center;
+  background-color: #ddd; }
+  .slide-feature4 a {
+    font-size: 13px;
+    font-family: "Open Sans";
+    font-weight: bold; }
+
+#valuesGreyList li {
+  font-weight: bold;
+  font-size: 16px; }
+
+.pBold {
+  color: black;
+  font-weight: bold; }
+
+#pricing {
+  padding: 20px;
+  color: black;
+  font-weight: bold; }
+
+.serviceCoverageBlock {
+  background-image: url("https://s3.asiainspection.com/images/responsive/global-coverage-bg2.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+#sidebox-downSample {
+  padding: 0px;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+  overflow: hidden; }
+
+.offer-box, .pricing-offer-box, .home-pricing-box {
+  background-color: #e6e6e6;
+  /* padding: 15px 30px 15px 30px; */ }
+  .offer-box h5, .pricing-offer-box h5, .home-pricing-box h5 {
+    font-size: 12;
+    font-weight: bold;
+    color: black; }
+  .offer-box h1, .pricing-offer-box h1, .home-pricing-box h1 {
+    color: black; }
+
+.pricing-offer-box {
+  -webkit-border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  position: relative; }
+
+.pricing-offer-box-titlebar {
+  background-color: #b31820;
+  text-align: center;
+  padding: 15px 10px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px; }
+
+.whitePaperSmallScreen {
+  width: 23%;
+  float: left;
+  margin: 1%;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #e3e7ea; }
+
+#industryMainText h2 {
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.home-pricing-box {
+  position: relative;
+  height: 85%;
+  background-color: white; }
+  .home-pricing-box .homePriceContent {
+    padding: 15px 30px;
+    background-color: white;
+    overflow: hidden; }
+    .home-pricing-box .homePriceContent .learnMoreLink {
+      bottom: 0px;
+      position: absolute;
+      text-align: right;
+      right: 1em; }
+
+.pgrey {
+  color: black;
+  font-weight: 10px; }
+
+.sep1 {
+  text-align: center; }
+
+/**************************
+** Press Release Sprites **
+***************************/
+.spritechinese-toy-safety {
+  background: url("https://s3.asiainspection.com/sprites/sprite_press.png") 0px 0px no-repeat;
+  display: inline-block;
+  width: 669px;
+  height: 36px; }
+
+.spritechinese-toys {
+  background: url("https://s3.asiainspection.com/sprites/sprite_press.png") 0px -76px no-repeat;
+  display: inline-block;
+  width: 332px;
+  height: 183px; }
+
+.spritehazardous-level-of-phthalates {
+  background: url("https://s3.asiainspection.com/sprites/sprite_press.png") 0px -38px no-repeat;
+  display: inline-block;
+  width: 669px;
+  height: 36px; }
+
+.spritephthalate-toys {
+  background: url("https://s3.asiainspection.com/sprites/sprite_press.png") -334px -76px no-repeat;
+  display: inline-block;
+  width: 332px;
+  height: 183px; }
+
+.spriteSeparator_h1 {
+  background: url(https://s3.asiainspection.com/sprites/sprite_global.png?v27) 0 0 no-repeat;
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.slider {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #ddd; }
+
+.slide {
+  background: url(https://s3.asiainspection.com/images/responsive/testimonials.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: none;
+  position: absolute; }
+  .slide h1 {
+    color: white;
+    font-size: 18px; }
+  .slide p {
+    color: #cccccc;
+    font-family: "Open Sans";
+    font-weight: 10px; }
+
+.active-slide {
+  display: block; }
+
+.slide-feature5 {
+  text-align: center;
+  background-image: url(https://s3.asiainspection.com/images/responsive/testimonials.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: none;
+  position: absolute;
+  width: 100%; }
+
+.homeTestimonial {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  position: absolute; }
+  .homeTestimonial .sliderText {
+    font-size: 1.23em;
+    line-height: 1.23em;
+    font-family: "Open Sans";
+    color: black; }
+  .homeTestimonial p {
+    color: #cccccc;
+    font-family: "Open Sans";
+    font-weight: 10px; }
+  .homeTestimonial .sectionHeader {
+    color: black; }
+  .homeTestimonial #TestimonialSlider p {
+    color: black; }
+  .homeTestimonial .homeClientLogo {
+    width: calc(16% - 1em);
+    height: 8em;
+    display: inline-block;
+    margin-right: 1em;
+    background-size: 85% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative; }
+    .homeTestimonial .homeClientLogo:nth-child(1) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/GAP.png?v27);
+      width: calc(12% - 1em); }
+    .homeTestimonial .homeClientLogo:nth-child(2) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/ace.png?v27);
+      width: calc(12% - 1em); }
+    .homeTestimonial .homeClientLogo:nth-child(3) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/3M.png?v27);
+      width: calc(12% - 1em); }
+    .homeTestimonial .homeClientLogo:nth-child(4) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/dior.png?v27);
+      width: calc(23% - 1em);
+      background-position: center 42%; }
+    .homeTestimonial .homeClientLogo:nth-child(5) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/quicksilver.png?v27);
+      width: calc(24% - 1em); }
+    .homeTestimonial .homeClientLogo:nth-child(6) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/guess.png?v27);
+      width: calc(13% - 1em); }
+    .homeTestimonial .homeClientLogo:nth-child(7) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/avon.png?v27); }
+    .homeTestimonial .homeClientLogo:nth-child(8) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/best&less.png?v27); }
+    .homeTestimonial .homeClientLogo:nth-child(9) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/fred_perry.png?v27); }
+    .homeTestimonial .homeClientLogo:nth-child(10) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/perry_ellis.png?v27); }
+    .homeTestimonial .homeClientLogo:nth-child(11) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/target.png?v27); }
+    .homeTestimonial .homeClientLogo:nth-child(12) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/trek.png?v27); }
+    .homeTestimonial .homeClientLogo:nth-child(13) {
+      background-image: url(https://s3.asiainspection.com/images/responsive/client_logos/turner.png?v27); }
+
+.mainBlock {
+  background-color: white;
+  width: 100%;
+  padding-bottom: 20px; }
+
+.subMainBlock {
+  padding-top: 20px;
+  padding-left: 0px; }
+
+.paddingLeftZero {
+  padding-left: 0px; }
+
+.homeSupplyChainWrapper {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top; }
+  .homeSupplyChainWrapper .homeSupplyChainBox {
+    display: block;
+    padding-right: 1.35em;
+    margin-bottom: 1.35em;
+    min-height: 85px; }
+    .homeSupplyChainWrapper .homeSupplyChainBox img {
+      margin-right: 1em; }
+    .homeSupplyChainWrapper .homeSupplyChainBox .title {
+      font-size: 1.19em;
+      font-weight: bold;
+      display: block; }
+    .homeSupplyChainWrapper .homeSupplyChainBox .content {
+      display: block;
+      padding-left: calc(34px + 1em);
+      padding-right: 1.35em; }
+
+.paddingLeftRightZero {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+#sitemapContainer {
+  background-color: #E6E6E6;
+  padding: 20px; }
+
+.homeSCP_content .homeWatchDemoLinks {
+  margin-top: -14px; }
+.homeSCP_content #demomobilelink {
+  display: none; }
+.homeSCP_content #demodesktoplink {
+  display: block; }
+
+.slide-feature7 {
+  text-align: center;
+  background-image: url(https://s3.asiainspection.com/images/responsive/main.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: none;
+  position: absolute; }
+
+.slide-feature8 {
+  text-align: center;
+  background-color: grey; }
+
+.slider-dots {
+  list-style: none;
+  color: white;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  cursor: pointer; }
+  .slider-dots li {
+    display: inline-block;
+    margin-left: 3px;
+    width: 15px;
+    height: 15px;
+    vertical-align: top;
+    background-image: url(https://s3.asiainspection.com/images/ico_circle.png?v27);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .slider-dots li.activedot {
+      background-image: url(https://s3.asiainspection.com/images/ico_disc.png?v27); }
+
+.slide-feature9 {
+  text-align: center;
+  height: 400px;
+  background-color: #f0f0f0; }
+
+.downloadSampleReportLink {
+  float: left;
+  margin-top: 20px;
+  display: none; }
+
+.infoBlock {
+  display: none !important;
+  background-size: cover; }
+
+.active-infoBlock {
+  display: block !important; }
+
+.jobsPositionTD {
+  padding-left: 30px;
+  padding-top: 10px; }
+
+#jobsTable {
+  padding: 20px;
+  margin-bottom: 20px; }
+  #jobsTable td {
+    height: 60px; }
+
+.tabContainer {
+  border: 1px solid #c7c8ca;
+  border-top: 0px;
+  background-color: white;
+  height: 100%;
+  padding-bottom: 15px;
+  margin-bottom: 20px; }
+
+.referenceSampleTitle {
+  font-size: 20px; }
+
+.RST_China RST_HongKong {
+  background-color: #F1F1F1;
+  padding: 15px; }
+
+#referenceSampleGrey4 {
+  border: 0px;
+  background-color: white; }
+
+#tabContent_labtest {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 20px; }
+
+.newsContainer {
+  padding-left: 0px; }
+
+#newsH {
+  margin-bottom: 20px;
+  background-color: #E6E6E6;
+  margin-top: 20px; }
+
+.news {
+  height: 580px;
+  margin-top: 20px;
+  width: 100%;
+  background-color: white; }
+
+.date {
+  color: grey;
+  margin-top: 0.8em; }
+
+.text {
+  padding: 10px; }
+
+.pricingContent {
+  padding: 15px 30px; }
+  .pricingContent h5 {
+    font-size: 17px; }
+  .pricingContent h1 {
+    font-size: 2.5em; }
+
+.pDeepGrey {
+  color: #8a8a8a; }
+
+#aboutUsNav {
+  height: 45px;
+  width: 100%;
+  background-color: #b31820; }
+  #aboutUsNav ul li {
+    display: inline;
+    padding: 20px; }
+
+#aboutUsNavList {
+  padding-left: 100px;
+  padding-top: 12px;
+  list-style-type: none; }
+  #aboutUsNavList a {
+    color: #e6e6e6; }
+
+#banner {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.deactive {
+  color: grey; }
+
+.btn-black {
+  color: white;
+  background-color: #404040;
+  border-color: #666666; }
+  .btn-black:active {
+    background-image: none; }
+  .btn-black.active {
+    background-image: none; }
+  .btn-black.disabled {
+    background-color: #404040;
+    border-color: #666666; }
+    .btn-black.disabled:hover {
+      background-color: #404040;
+      border-color: #666666; }
+    .btn-black.disabled:focus {
+      background-color: #404040;
+      border-color: #666666; }
+    .btn-black.disabled.focus {
+      background-color: #404040;
+      border-color: #666666; }
+    .btn-black.disabled:active {
+      background-color: #404040;
+      border-color: #666666; }
+    .btn-black.disabled.active {
+      background-color: #404040;
+      border-color: #666666; }
+  .btn-black .badge {
+    color: black;
+    background-color: white; }
+
+.btn-black[disabled] {
+  background-color: #404040;
+  border-color: #666666; }
+  .btn-black[disabled]:hover {
+    background-color: #404040;
+    border-color: #666666; }
+  .btn-black[disabled]:focus {
+    background-color: #404040;
+    border-color: #666666; }
+  .btn-black[disabled].focus {
+    background-color: #404040;
+    border-color: #666666; }
+  .btn-black[disabled]:active {
+    background-color: #404040;
+    border-color: #666666; }
+  .btn-black[disabled].active {
+    background-color: #404040;
+    border-color: #666666; }
+
+.submitButton {
+  display: block;
+  margin-top: 10px;
+  margin-right: 17px; }
+
+#inspection-services-links-1-us {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  cursor: pointer; }
+
+#inspection-services-links-1-us:hover {
+  text-decoration: underline; }
+
+#page_wrapper {
+  display: block;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#HoverText {
+  position: absolute;
+  font-size: 11px;
+  background-color: #e5e9ec;
+  width: 280px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(157, 160, 162, 0.75);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(157, 160, 162, 0.75);
+  box-shadow: 0px 0px 10px 5px rgba(157, 160, 162, 0.75);
+  behavior: url("https://s3.asiainspection.com/libs/pie.htc");
+  z-index: 1000; }
+
+/*add CSS Pie Behavior http://css3pie.com */
+.pie {
+  position: relative;
+  behavior: url("https://s3.asiainspection.com/libs/pie.htc"); }
+
+/*adding standard box model to something*/
+.standardbox {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*service pages box tabs*/
+.gradient-grey4 {
+  behavior: url("https://s3.asiainspection.com/libs/pie.htc"); }
+
+#cityName {
+  color: #b31820;
+  font-size: 15px; }
+
+.jobdrop_divbox {
+  padding-right: 0px; }
+
+/*In the box at the bottom of the service pages, this is the style for the selection tabs at the top*/
+.serviceTab {
+  font-weight: bold;
+  float: left;
+  padding: 15px 10px 15px 10px;
+  border-right: 1px solid #c7c8ca;
+  color: #707070;
+  cursor: pointer;
+  width: 50%;
+  border: 1px solid #c7c8ca;
+  background-color: #F6F6F6; }
+
+/*In the box at the bottom of the service pages, this is the style for the selected tab at the top*/
+.selectedServiceTab {
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid white;
+  border-left: 0px;
+  border-right: 0px; }
+
+.formRow {
+  margin-bottom: 5px; }
+
+.regSideDivTop {
+  text-align: left;
+  padding-right: 20px; }
+
+.ico_facebook_socnet {
+  background: url(https://s3.asiainspection.com/images/responsive/socialIcons/socnet-facebook-white.png?v27) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 35px;
+  height: 35px; }
+
+.ico_twitter_socnet {
+  background: url(https://s3.asiainspection.com/images/responsive/socialIcons/socnet-twitter-white.png?v27) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 35px;
+  height: 35px; }
+
+.ico_youtube_socnet {
+  background: url(https://s3.asiainspection.com/images/responsive/socialIcons/socnet-youtube-white.png?v27) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 35px;
+  height: 35px; }
+
+.ico_gplus_socnet {
+  background: url(https://s3.asiainspection.com/images/responsive/socialIcons/socnet-google-plus-white.png?v27) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 35px;
+  height: 35px; }
+
+.ico_linkedin_socnet {
+  background: url(https://s3.asiainspection.com/images/responsive/socialIcons/socnet-linkedin-white.png?v27) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 35px;
+  height: 35px; }
+
+.spriteallibert {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) 0 -48px no-repeat;
+  display: inline-block;
+  width: 195px;
+  height: 35px; }
+
+.spriteaudio-traveler {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -261px 0 no-repeat;
+  display: inline-block;
+  width: 180px;
+  height: 36px; }
+
+.spritebamko {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -261px -177px no-repeat;
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -197px -177px no-repeat;
+  display: inline-block;
+  width: 106px;
+  height: 54px; }
+
+.spriteboy-scouts-of-america {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) 0 0 no-repeat;
+  display: inline-block;
+  width: 259px;
+  height: 46px; }
+
+.spritecorep {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) 0 -246px no-repeat;
+  display: inline-block;
+  width: 141px;
+  height: 70px; }
+
+.spriteCloseBut {
+  background: url("https://s3.asiainspection.com/sprites/sprite_global.png") -471px -266px no-repeat;
+  display: inline-block;
+  width: 18px;
+  height: 18px; }
+
+.spriteClose_button {
+  background: url("https://s3.asiainspection.com/sprites/sprite_global.png") -41px -312px no-repeat;
+  display: inline-block;
+  width: 13px;
+  height: 13px; }
+
+.spritefotorama {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) 0 -85px no-repeat;
+  display: inline-block;
+  width: 195px;
+  height: 53px; }
+
+.spritefoxrunbrands {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) 0 -140px no-repeat;
+  display: inline-block;
+  width: 195px;
+  height: 62px; }
+
+.spritefoxrunbrandssmall {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -261px -107px no-repeat;
+  display: inline-block;
+  width: 156px;
+  height: 68px; }
+
+.spritegriddlygames {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) 0 -204px no-repeat;
+  display: inline-block;
+  width: 195px;
+  height: 40px; }
+
+.spriteunger-enterprises {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -261px -38px no-repeat;
+  display: inline-block;
+  width: 170px;
+  height: 67px; }
+
+.bobbarker {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -305px -177px no-repeat;
+  display: inline-block;
+  width: 140px;
+  height: 44px; }
+
+.bobbarker_s {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -266px -246px no-repeat;
+  display: inline-block;
+  width: 121px;
+  height: 38px; }
+
+.spriteallibert_s {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -143px -272px no-repeat;
+  display: inline-block;
+  width: 121px;
+  height: 22px; }
+
+.spriteaudio-traveler_s {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -261px 0 no-repeat;
+  display: inline-block;
+  width: 180px;
+  height: 35px; }
+
+.spriteboy-scouts-of-america_s {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -173px -379px no-repeat;
+  display: inline-block;
+  width: 215px;
+  height: 38px; }
+
+.spritecorep_s {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) 0 -319px no-repeat;
+  display: inline-block;
+  width: 121px;
+  height: 61px; }
+
+.spritefotorama_s {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -266px -286px no-repeat;
+  display: inline-block;
+  width: 121px;
+  height: 30px; }
+
+.spritefoxrunbrands_s {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -123px -319px no-repeat;
+  display: inline-block;
+  width: 121px;
+  height: 53px; }
+
+.spritegriddlygames_s {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) 0 -382px no-repeat;
+  display: inline-block;
+  width: 171px;
+  height: 35px; }
+
+.spriteunger-enterprises_s {
+  background: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27) -246px -319px no-repeat;
+  display: inline-block;
+  width: 121px;
+  height: 48px; }
+
+.spritebox_inThePress {
+  background: url(https://s3.asiainspection.com/sprites/sprite_sideboxes.png?v27) -522px 0 no-repeat;
+  display: inline-block;
+  width: 281px;
+  height: 129px; }
+
+.spriteboyEthics {
+  background: url(https://s3.asiainspection.com/sprites/sprite_aboutUs.png?v27) 0 0 no-repeat;
+  display: inline-block;
+  width: 188px;
+  height: 211px; }
+
+.spritejobLanding_img1 {
+  background: url(https://s3.asiainspection.com/sprites/sprite_aboutUs.png?v27) 0 -200px no-repeat;
+  display: inline-block;
+  width: 256px;
+  height: 160px; }
+
+.spritejobLanding_img2 {
+  background: url(https://s3.asiainspection.com/sprites/sprite_aboutUs.png?v27) -190px 0 no-repeat;
+  display: inline-block;
+  height: 160px; }
+
+.spritebox_careerOpport {
+  background: url(https://s3.asiainspection.com/sprites/sprite_sideboxes.png?v27) -116px -308px no-repeat;
+  display: inline-block;
+  width: 249px;
+  height: 133px; }
+
+.spriteservice_sidebox_box {
+  background: url(https://s3.asiainspection.com/sprites/sprite_sideboxes.png?v27) -522px -247px no-repeat;
+  display: inline-block;
+  width: 63px;
+  height: 53px; }
+
+.spriteservice_sidebox_redcircle {
+  background: url(https://s3.asiainspection.com/sprites/sprite_sideboxes.png?v27) -587px -247px no-repeat;
+  display: inline-block;
+  width: 43px;
+  height: 43px; }
+
+.spritesamplestoragepolicy_box {
+  background: url("https://s3.asiainspection.com/images/ico_samplestoragepolicy.png") no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 47px; }
+
+/**********************
+Partners Page Images
+***********************/
+.partnerWorldFirst {
+  background: url("https://s3.asiainspection.com/images/responsive/worldfirst_logo.png") 0px 0px no-repeat;
+  display: inline-block;
+  width: 209px;
+  height: 57px; }
+
+.partnerUlula {
+  background: url("https://s3.asiainspection.com/images/responsive/partner-ulula-logo.png") 0px 0px no-repeat;
+  display: inline-block;
+  width: 145px;
+  height: 77px; }
+
+.globalSources {
+  background: url("https://s3.asiainspection.com/images/partners.png") 0px -77px no-repeat;
+  display: inline-block;
+  width: 240px;
+  height: 35px; }
+
+.mfg {
+  background: url("https://s3.asiainspection.com/images/partners.png") -146px 0px no-repeat;
+  display: inline-block;
+  width: 249px;
+  height: 52px; }
+
+.productIP {
+  background: url("https://s3.asiainspection.com/images/partners.png") 0px 0px no-repeat;
+  display: inline-block;
+  width: 144px;
+  height: 75px; }
+
+.partnerQCA {
+  background: url("https://s3.asiainspection.com/images/responsive/QCA-logo.png") 0px 0px no-repeat;
+  display: inline-block;
+  width: 245px;
+  height: 67px; }
+
+.partnerCoface {
+  background: url("https://s3.asiainspection.com/images/responsive/coface.png") 0px 0px no-repeat;
+  display: inline-block;
+  width: 206px;
+  height: 79px; }
+
+.partnerNGCCompany {
+  background: url("https://s3.asiainspection.com/images/responsive/NGC_Logo.png") 0px 0px no-repeat;
+  display: inline-block;
+  width: 211px;
+  height: 80px; }
+
+.partnerCBX {
+  background: url("https://s3.asiainspection.com/images/responsive/CBX.png") 0px 0px no-repeat;
+  display: inline-block;
+  width: 144px;
+  height: 65px; }
+
+.partnerSegura {
+  background: url("https://s3.asiainspection.com/images/segura-logo.png") 0px 0px no-repeat;
+  display: inline-block;
+  width: 186px;
+  height: 75px; }
+
+.partnerEcVision {
+  background: url("https://s3.asiainspection.com/images/ecvision_logo.png") 0px 0px no-repeat;
+  display: inline-block;
+  width: 127px;
+  height: 27px; }
+
+.partnerTradeStone {
+  background: url("https://s3.asiainspection.com/images/tradestone_logo.gif") 0px 0px no-repeat;
+  display: inline-block;
+  width: 261px;
+  height: 43px; }
+
+.partnerOztomeca {
+  background: url("https://s3.asiainspection.com/images/oztomeca_logo.png") 0px 0px no-repeat;
+  display: inline-block;
+  width: 260px;
+  height: 115px; }
+
+#globalTitle {
+  margin-bottom: 0.55em;
+  font-size: 2.7em;
+  font-weight: bold; }
+
+#globalSubTitle {
+  margin-bottom: 2em;
+  font-size: 1.23em; }
+
+#viewJob p {
+  font-size: 14px; }
+
+#viewJob li {
+  padding-bottom: 5px; }
+
+#viewJob li h3 {
+  padding-top: 7px !important; }
+
+#aboutUs p {
+  color: black; }
+
+.smallWindowLinks a {
+  font-size: 13px;
+  padding: 10px; }
+
+.open > .dropdown-toggle.btn-black {
+  background-image: none; }
+
+fieldset[disabled] .btn-black {
+  background-color: #404040;
+  border-color: #666666; }
+  fieldset[disabled] .btn-black:hover {
+    background-color: #404040;
+    border-color: #666666; }
+  fieldset[disabled] .btn-black:focus {
+    background-color: #404040;
+    border-color: #666666; }
+  fieldset[disabled] .btn-black.focus {
+    background-color: #404040;
+    border-color: #666666; }
+  fieldset[disabled] .btn-black:active {
+    background-color: #404040;
+    border-color: #666666; }
+  fieldset[disabled] .btn-black.active {
+    background-color: #404040;
+    border-color: #666666; }
+
+#homePricingBoxWrapper {
+  height: 50%;
+  margin-bottom: 25px; }
+  #homePricingBoxWrapper .homePriceCTA {
+    display: none; }
+
+#homePricingBoxTitle {
+  height: 17.5%;
+  margin: 1em 0px; }
+
+#homePriceCTA {
+  height: 17.5%; }
+
+.homePublications {
+  text-align: center; }
+  .homePublications h1 {
+    color: #38508f; }
+  .homePublications .ourLatestBox {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 1.9em;
+    height: 90%; }
+    .homePublications .ourLatestBox h3 {
+      color: black;
+      /*font-weight:bold;*/ }
+    .homePublications .ourLatestBox .buttonbox {
+      bottom: 1em;
+      padding: 0 10px;
+      margin: 0 auto; }
+  .homePublications img {
+    max-width: 100%; }
+
+#homePublicationsRow .ourLatestBox a {
+  padding: 0; }
+
+.box .box-list {
+  width: 100%;
+  background-color: #E6E6E6; }
+  .box .box-list li {
+    margin-bottom: 6px; }
+.box .qcs-box-background {
+  background-size: cover;
+  height: 250px; }
+
+.box-white {
+  padding: 20px;
+  background-color: #E6E6E6; }
+
+.inline {
+  display: inline-block; }
+
+.textShadow {
+  text-shadow: 1px 1px 1px #2B2B2B; }
+
+.overviewBanner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-color: grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 330px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px #2B2B2B; }
+  .overviewBanner .row {
+    width: 100%; }
+  .overviewBanner .col-xs-12 {
+    padding-left: 0; }
+  .overviewBanner .mainSubHeader {
+    width: 70%; }
+
+/* Contact Us */
+.contactUsContent .box {
+  margin-bottom: 30px; }
+.contactUsContent .locationsBox .row {
+  padding: 0; }
+.contactUsContent .locationsBox .location {
+  margin-bottom: 15px; }
+.contactUsContent #map {
+  width: 100% !important;
+  display: block !important; }
+
+/* Services Landing Page */
+.servicesLandingContent .qcs-box-background ul {
+  list-style: none; }
+
+/* Sample Reports */
+.sampleReportsBox {
+  width: 80%;
+  margin: 35px auto;
+  font-size: 1.00em;
+  padding: 30px 20px;
+  text-align: center; }
+  .sampleReportsBox .industryMenu, .sampleReportsBox .itemMenu, .sampleReportsBox .serviceMenu {
+    margin-top: 1em;
+    margin-bottom: 1em; }
+  .sampleReportsBox .menu-label {
+    width: 85px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: right; }
+  .sampleReportsBox .dropdown {
+    margin-bottom: 5px; }
+    .sampleReportsBox .dropdown .btn {
+      font-size: 12px; }
+    .sampleReportsBox .dropdown .dropdown-menu {
+      width: 250px;
+      padding: 2px 0;
+      font-size: 12px; }
+      .sampleReportsBox .dropdown .dropdown-menu li {
+        padding: 4px 0; }
+    .sampleReportsBox .dropdown #dropdownMenu2 .optionSel {
+      display: none; }
+  .sampleReportsBox #sampleReportTypeSelectBox {
+    background-color: #E6E6E6;
+    padding: 15px 0px;
+    margin-bottom: 25px;
+    text-align: left;
+    padding-left: 30px; }
+  .sampleReportsBox #sampleDrop_service {
+    margin-left: 20px; }
+  .sampleReportsBox .displaySampleReport {
+    position: relative;
+    margin: 15px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 0px; }
+    .sampleReportsBox .displaySampleReport img {
+      width: 100%;
+      height: 100%;
+      opacity: 0.5; }
+    .sampleReportsBox .displaySampleReport .buttonContainer {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      z-index: 1; }
+    .sampleReportsBox .displaySampleReport #dlSampleReport {
+      display: inline;
+      padding: 7px 50px; }
+
+#page404 .offer-box, #page404 .pricing-offer-box, #page404 .home-pricing-box {
+  width: 83%;
+  margin: 0 auto; }
+  #page404 .offer-box img#boxQuestionMark, #page404 .pricing-offer-box img#boxQuestionMark, #page404 .home-pricing-box img#boxQuestionMark {
+    width: 100%;
+    height: 100%; }
+
+#TestDiv {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  background-color: white;
+  min-height: 100px;
+  color: black;
+  border: 1px solid black;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  z-index: 2000;
+  padding: 5px; }
+
+.textRight {
+  text-align: right; }
+
+.marginZero {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.padding15 {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.margin20 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.paddingRight20 {
+  padding-right: 20px; }
+
+.showSmall {
+  display: none; }
+
+.hideSmall {
+  display: block; }
+
+#sitemapColumn {
+  width: 20%;
+  float: left;
+  display: inline-block;
+  padding-left: 5px; }
+
+#testimonialBanner {
+  padding-top: 10px;
+  text-align: right; }
+
+/* START- AI specific file input button*/
+.input-group-btn {
+  cursor: pointer !important; }
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer !important; }
+
+.btn-file input[type=file] {
+  top: 0;
+  right: 0;
+  min-height: 100%;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  cursor: pointer !important;
+  display: block;
+  position: absolute;
+  width: 100%; }
+
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important; }
+
+/* END - AI specific file input button*/
+.mobilePhoneCountry {
+  max-width: 100px; }
+
+select {
+  height: 24px;
+  background: url("https://s3.asiainspection.com/images/fieldarrow.png") no-repeat center right;
+  background-color: #f9f9f9; }
+
+input, select {
+  border: 1px solid #cecfd1;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #dfe0e1 inset;
+  background-color: #f9f9f9;
+  padding: 1px 0px 1px 3px;
+  box-sizing: border-box; }
+
+textarea {
+  border: 1px solid #cecfd1;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #dfe0e1 inset;
+  background-color: #f9f9f9;
+  padding-left: 3px;
+  padding-top: 2px; }
+
+#TestimonialSlider {
+  position: relative;
+  overflow: auto; }
+  #TestimonialSlider li {
+    list-style: none; }
+  #TestimonialSlider ul li {
+    float: left; }
+
+#viewJob font {
+  font-family: "Open Sans"; }
+
+#IndustryBGslider {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: auto;
+  top: 0px; }
+  #IndustryBGslider ul {
+    min-height: 100%; }
+    #IndustryBGslider ul li {
+      list-style: none;
+      min-height: 100%;
+      float: left;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center top; }
+      #IndustryBGslider ul li:nth-child(1) {
+        background-image: url(https://s3.asiainspection.com/images/responsive/slider/Industry-1-Softlines.jpg?v27); }
+      #IndustryBGslider ul li:nth-child(2) {
+        background-image: url(https://s3.asiainspection.com/images/responsive/slider/Industry-2-Hardlines.jpg?v27); }
+      #IndustryBGslider ul li:nth-child(3) {
+        background-image: url(https://s3.asiainspection.com/images/responsive/slider/Industry-3-Technical-Parts.jpg?v27); }
+      #IndustryBGslider ul li:nth-child(4) {
+        background-image: url(https://s3.asiainspection.com/images/responsive/slider/Services-Audits-1-Manufacturing-Audits.jpg?v27); }
+      #IndustryBGslider ul li:nth-child(5) {
+        background-image: url(https://s3.asiainspection.com/images/responsive/slider/Services-Audits-2-Ethical-Audits.jpg?v27); }
+
+.slide-feature3-ipad {
+  text-align: center;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://s3.asiainspection.com/images/responsive/slider/Industry-2-Hardlines.jpg?v27);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(50%); }
+  .slide-feature3-ipad a {
+    font-family: "Open Sans";
+    font-weight: bold; }
+
+#firstName {
+  width: 100%;
+  margin-left: 2px; }
+
+.paddinglr15 {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+#leftAlignSmall {
+  text-align: right; }
+
+#jobSupportComments {
+  height: 105px;
+  margin: 0px;
+  width: 100%; }
+
+#jobAddress {
+  width: 100%;
+  height: 68px;
+  margin: 0px; }
+
+#jobappTitle {
+  color: #b31820;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 0px; }
+
+input.check {
+  background-color: transparent; }
+
+#labtest {
+  padding-top: 40px; }
+
+#RegPopup {
+  position: absolute;
+  z-index: 20;
+  top: 8.6em;
+  background-color: #e8e8e8;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  max-width: 95%; }
+  #RegPopup #formBlock {
+    width: 65%;
+    float: left;
+    padding: 15px 30px 15px 30px;
+    text-align: right;
+    box-sizing: border-box; }
+    #RegPopup #formBlock label {
+      height: 32px;
+      line-height: 34px;
+      text-align: right; }
+  #RegPopup #regSideBar {
+    width: 35% !important; }
+  #RegPopup #ai_responsivebundle_register_submit {
+    max-width: 90%; }
+  #RegPopup #regLoginWrapper {
+    float: right;
+    text-align: right; }
+  #RegPopup #regTitleBar {
+    height: 3.2em;
+    padding-top: 0.9em;
+    padding-left: 0.9em;
+    background-color: white; }
+    #RegPopup #regTitleBar #regLoginWrapper div {
+      font-family: "Open Sans"; }
+    #RegPopup #regTitleBar font {
+      color: #b31820;
+      font-size: 1.3em;
+      line-height: 1em;
+      font-weight: bold;
+      font-family: "Open Sans";
+      padding-right: 0.9em; }
+  #RegPopup #regLookingForTitleBar {
+    height: 3.2em;
+    padding-top: 0.9em;
+    padding-left: 0.9em;
+    background-color: white; }
+    #RegPopup #regLookingForTitleBar #regLoginWrapper div {
+      font-family: "Open Sans"; }
+    #RegPopup #regLookingForTitleBar font {
+      color: #b31820;
+      font-size: 1.3em;
+      line-height: 1em;
+      font-weight: bold;
+      font-family: "Open Sans";
+      padding-right: 0.9em;
+      padding-top: 25px; }
+  #RegPopup #regLoginButtonWrapper .one-btn {
+    font-size: 1.1em; }
+  #RegPopup ul.checkmark {
+    padding-left: 25px; }
+  #RegPopup ul.checkmark li {
+    list-style: none; }
+  #RegPopup ul.checkmark li:before {
+    content: "\2713\0020";
+    margin-left: -1.5em;
+    margin-right: .5em; }
+
+.regWarningText {
+  text-align: left;
+  color: #b31820;
+  font-size: 12px;
+  display: none;
+  padding-left: 3px; }
+
+#page_ServiceLanding .landingPageBoxContent {
+  width: 100%;
+  background-color: #E6E6E6;
+  padding: 20px; }
+  #page_ServiceLanding .landingPageBoxContent li {
+    margin-top: 0.5em; }
+
+.smallButton {
+  width: 32%;
+  margin-left: 2%;
+  text-align: center; }
+
+#page_Logout #logoutConfirmText {
+  font-size: 1.5em;
+  color: #5ba331;
+  padding: 1.5em 0em;
+  margin-bottom: 0px; }
+#page_Logout #logoutPhoneImage {
+  position: relative;
+  float: right;
+  display: inline-block;
+  width: 22%;
+  text-align: center; }
+  #page_Logout #logoutPhoneImage img {
+    width: 100%; }
+#page_Logout .mobileEmailSendLinks {
+  width: 50%;
+  height: 30px;
+  margin-bottom: 0px;
+  padding-top: 0px; }
+
+.presstable td {
+  padding: 5px; }
+
+#homeGetStartedBox {
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.68);
+  padding: 1.3em; }
+
+#ethicalWebinarHeader {
+  font-size: 2.4em;
+  padding-top: 15px; }
+
+#ethical-webinar-imageDiv {
+  background-image: url(https://s3.asiainspection.com/images/responsive/webinar2_md.jpg?v27);
+  background-size: cover; }
+
+/**
+ * Fun Photos
+ */
+/* Flexbox is not supported by IE <= 9 */
+.fp-gallery {
+  text-align: center; }
+
+.flexwrap .fp-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.photoThumb {
+  display: inline-block;
+  /* overridden by .flexwrap below */
+  margin-left: 10px;
+  /* overridden by .flexwrap below */
+  margin-right: 10px;
+  /* overridden by .flexwrap below */
+  /*width:23%;*/
+  /*overflow: hidden;*/
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 3%;
+  border-style: solid;
+  border-color: darkgrey;
+  border-width: 1px;
+  /*background-color:#e3e7ea;*/ }
+
+.flexwrap .photoThumb {
+  display: inline;
+  margin-left: 0px;
+  margin-right: 0px;
+  float: left; }
+
+#CEOimageBox {
+  overflow: hidden;
+  max-height: 390px; }
+
+/* Sample Report Page Dropdowns */
+#serviceDropdownMain, #industryDropdownMain, #industryDropDown, #serviceDropDown {
+  margin: 14px auto;
+  position: relative;
+  left: 23%; }
+
+.sampleReportLabel {
+  display: inline-block; }
+
+sampleReportTypeSelectBox {
+  text-align: center; }
+
+/**
+ * Homepage Animated Tablets
+ */
+#homepageTabletAnimationBox {
+  width: 70%;
+  height: 300px;
+  position: relative;
+  overflow: hidden; }
+
+#animateHomepageTablet {
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+  left: 0px;
+  bottom: -380px;
+  width: 41.86875%; }
+
+#animateHomepageDesktop {
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+  left: 0px;
+  bottom: -380px;
+  width: 82.5%;
+  margin-left: 8.75%; }
+
+#animateHomepageMobile {
+  position: absolute;
+  display: inline-block;
+  z-index: 3;
+  right: 0px;
+  bottom: -380px;
+  width: 17.634375%; }
+
+#registrationPopup {
+  background-color: white;
+  padding: 20px;
+  width: 450px;
+  max-width: calc(100% - 60px);
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  margin: 30px;
+  overflow: hidden; }
+
+#regFooterBarLinksTextBox {
+  text-align: left; }
+
+#sideBoxContainer {
+  top: -150px; }
+
+#nmiBox {
+  transition: all 300ms ease-out; }
+
+/**
+ * Header Images
+ */
+#page_ethical-webinarl .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/webinar_md.png?v27); }
+
+#page_PSI .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-1-psi_[md].jpg?v27); }
+
+#page_PM .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/production_monitoring_[md].jpg?v27); }
+
+#page_DUPRO .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-3-during-production-check_[md].jpg?v27); }
+
+#page_IPC .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-4-initial-production-check_[md].jpg?v27); }
+
+#page_CLC .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/container-loading-check_[md].jpg?v27); }
+
+#page_FPSI .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food_inspections_[md].jpg?v27); }
+
+#page_SMETAAudit .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/smetaaudit_[md].jpg?v27); }
+
+#page_FA .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-1-Manufacturing-Audits_[md].jpg?v27); }
+
+#page_CTPAT .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ctpat_[md].png?v27); }
+
+#page_ENVIRO .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/enviro_audit_[md].jpg?v27); }
+
+#page_SA .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-2-Ethical-Audits_[md].jpg?v27); }
+
+#page_REACH .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-1_[md].jpg?v27); }
+
+#page_FoodA .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food_audit_[md].jpg?v27); }
+
+#page_LT .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-6_[md].jpg?v27); }
+
+#page_FT .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food_testing_[md].jpg?v27); }
+
+#page_CPSIA .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-2_[md].jpg?v27); }
+
+#page_ROHS .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-3_[md].jpg?v27); }
+
+#page_softline .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-1-Softlines_[md].jpg?v27); }
+
+#page_hardline .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-2-Hardlines_[md].jpg?v27); }
+
+#page_techpart .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/technical_parts_[md].jpg?v27); }
+
+#page_GHP .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ghp_audit_[md].jpg?v27); }
+
+#page_GMP .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/gmp_audit_[md].jpg?v27); }
+
+#page_food .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/industry_food_[md].jpg?v27); }
+
+#page_food-containers .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food-containers_[md].jpg?v27); }
+
+#page_meat-poultry .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/meat_[md].jpg?v27); }
+
+#page_food-produce .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/fruits1_[md].jpg?v27); }
+
+#page_seafood .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/seafood_[md].jpg?v27); }
+
+#page_whitePapers .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/white_papers_[md].jpg?v27); }
+
+#page_WhoWeAre .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/who_we_are_[md].jpg?v27); }
+
+#page_SampleReports .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/sample_reports_[md].jpg?v27); }
+
+#page_Testimonials .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/testimonials_[md].jpg?v27); }
+
+#page_CompanyValues .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/company_values_[md].png?v27); }
+
+#page_Accreditations .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/accredidation_[md].jpg?v27); }
+
+#page_Partners .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/partners_[md].jpg?v27); }
+
+#page_Pricing .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/pricing_[md].jpg?v27); }
+
+#page_ServiceCoverage .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/service_coverage_[md].jpg?v27); }
+
+#page_CareerOps .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[md].jpg?v27); }
+
+#page_ViewJob .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[md].jpg?v27); }
+
+#page_JobApplication .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[md].jpg?v27); }
+
+#page_News .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/news_[md].jpg?v27); }
+
+#page_RefSamples .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/reference_samples_[md].jpg?v27); }
+
+#page_vietnam .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/vietnam_[md].jpg?v27); }
+
+#page_bangladesh .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[md].jpg?v27); }
+
+#page_india .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[md].jpg?v27); }
+
+#page_ContactUs .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Contact_[md].jpg?v27); }
+
+#page_tapwater .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/tapwater_[md].png?v27); }
+
+#page_trainads .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/laboratory_testing_[md].jpg?v27); }
+
+#page_apparel .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/apparel_garment_[md].jpg?v27); }
+
+#page_textiles .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/textile_testing_[md].jpg?v27); }
+
+#page_footwear .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/footwear_[md].jpg?v27); }
+
+#page_toys .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/toys_[md].jpg?v27); }
+
+#page_promotional-products .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/promotional_products_[md].jpg?v27); }
+
+#page_jewelry .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/jewelry_[md].jpg?v27); }
+
+#page_electrical .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/electronics_[md].jpg?v27); }
+
+#page_cosmetics .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/cosmetics_[md].jpg?v27); }
+
+#page_structuralAudit .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/structural-audits_[md].jpg?v27); }
+
+#page_RegulatoryUpdates .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/RegulatoryUpdates_[md].jpg?v27); }
+
+#page_AQLstandards .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/AQL_[md].jpg?v27); }
+
+#page_FunPhotos .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/fun_[md].jpg?v27); }
+
+#page_eyewear .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/eyewear_[md].jpg?v27); }
+
+#page_eyewearTesting .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/eyewear_[md].jpg?v27); }
+
+#page_reading-glasses .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ready_spectacles_[md].jpg?v27); }
+
+#page_optical-lenses .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/optical_lenses_[md].jpg?v27); }
+
+#page_spectacle-frames .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/spectacle_frames_[md].jpg?v27); }
+
+#page_surveyThanks .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/thankYou_[md].jpg?v27); }
+
+#page_phthalate .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/phthalate_[md].jpg?v27); }
+
+#page_toyLabTest .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/phthalate_[md].jpg?v27); }
+
+#page_mobileMicro .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/mobile_micro_[md].jpg?v27); }
+
+#page_QCinChina .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/qc_china_[md].jpg?v27); }
+
+#page_emailPref .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/email_prefs_[md].jpg?v27); }
+
+#page_inspectionservices .headerbox {
+  background-image: url(https://s3.amazonaws.com/s3.asiainspection.com/images/inspection_[md].jpg?v27); }
+
+#page_supplierauditprograms .headerbox {
+  background-image: url(https://s3.amazonaws.com/s3.asiainspection.com/images/audit_[md].jpg?v27); }
+
+#page_laboratorytesting .headerbox {
+  background-image: url(https://s3.amazonaws.com/s3.asiainspection.com/images/labtest_[md].jpg?v27); }
+
+#page_ASTMtoys .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/astm-toy_[md].jpg?v27); }
+
+#page_SASOCertification .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/SASO_[md].jpg?v27); }
+
+#page_view360 .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/view360_[md].jpg?v27); }
+
+#page_beverages .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/beverages_[md].jpg?v27); }
+
+#page_meat-poultry .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/meat_[md].jpg?v27); }
+
+#page_processed-food .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/processed_food_[md].jpg?v27); }
+
+#page_eye-protectors .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/eye_protectors_[md].jpg?v27); }
+
+#page_sports-eyewear-goggles .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/goggles_[md].jpg?v27); }
+
+#page_sunglasses .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/sunglasses_[md].jpg?v27); }
+
+#page_PressRelease .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/barometer_[md].jpg?v27); }
+
+#page_caliprop65 .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/prop65_[md].jpg?v27); }
+
+#page_previoOrigen .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-1-psi_[md].jpg?v27); }
+
+#page_quality-assurance-services .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/quality_assurance_[md].jpg?v27); }
+
+#page_berries .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/blueberry_[md].jpg?v27); }
+
+#page_ILOinfographic .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ILO_infographic_[md].jpg?v27); }
+
+#page_SourcingSurvey2018 .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/survey_results_[md].jpg?v27); }
+
+#page_BSCI .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/bsci_audit_[md].jpg?v27); }
+
+#page_global-supplier-search .headerbox {
+  background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/globalsources_[md].jpg?v27); }
+
+/* New Industry Pages Layout [Start] */
+.industrySection {
+  background-color: #E6E6E6;
+  margin-bottom: 20px; }
+
+.industrySectionImageLeft {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+  max-width: 40%;
+  text-align: center; }
+
+.industrySectionImageRight {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  float: right;
+  max-width: 40%;
+  text-align: center; }
+
+.industrySectionContentWithImage {
+  float: left;
+  padding: 15px;
+  display: inline-block;
+  max-width: 60%; }
+
+.industrySectionContentNoImage {
+  float: left;
+  margin: 15px;
+  display: inline-block;
+  max-width: 100%; }
+
+.industrySectionImageRight img, .industrySectionImageLeft img {
+  height: 100%; }
+
+/* New Industry Pages Layout [End] */
+/*targeting ipad portrait*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homePricingBoxWrapper {
+    height: 65%; }
+
+  #rowPriceCTA {
+    display: none; }
+
+  .slide-feature4 {
+    height: 100% !important;
+    padding-bottom: 30px; }
+
+  #scrollAnchor_2 {
+    height: 600px !important; }
+
+  #demomobilelink {
+    margin-top: 40px; }
+
+  #section2HeaderWrap {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+
+  #scrollAnchor_5 {
+    height: 600px !important; }
+
+  .homeTestimonial {
+    height: 600px !important; }
+
+  #ipadSpectialHomeClientTestimonialRow {
+    height: 65% !important; }
+
+  #TestimonialSlider {
+    height: 300px !important; }
+
+  #TestimonialSlider ul {
+    height: 300px !important; } }
+#container-client-custom {
+  width: 36%;
+  padding: 0 1rem;
+  margin: 1rem auto;
+  background-color: white; }
+  #container-client-custom #client-reg-header {
+    background-color: gray;
+    height: 180px; }
+  #container-client-custom #client-logo {
+    border: 5px solid white;
+    margin-top: -75px;
+    z-index: 2; }
+
+.custom-form-row {
+  margin-top: 15px; }
+
+.custom-form-label {
+  margin-top: 7px; }
+
+.DE_box_layout {
+  font-size: 0.9rem; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .ourLatestBox h3 {
+    min-height: 95px; } }
+/** 
+
+Code for the client landing page, authored by Sam Coll
+questions - samcoll@gmail.com 
+
+**/
+#client-landing-nav #AI_Logo {
+  background-image: none;
+  background-size: initial;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 0;
+  left: -120px;
+  overflow: hidden;
+  top: 4px; }
+
+#client-landing {
+  height: 100%;
+  position: relative; }
+  #client-landing a {
+    text-decoration: none; }
+  #client-landing .content {
+    padding-right: 40px; }
+    #client-landing .content .inspector {
+      text-align: center; }
+  #client-landing .introduction {
+    margin-top: 25px;
+    padding-bottom: 50px; }
+    #client-landing .introduction div:nth-child(2) {
+      margin-bottom: 30px; }
+    #client-landing .introduction h1 {
+      font-size: 2.7em;
+      margin-bottom: 15px; }
+    #client-landing .introduction .btn-primary {
+      display: block;
+      position: relative;
+      margin: 0 auto; }
+    #client-landing .introduction .inspector {
+      height: 175px; }
+    #client-landing .introduction .intro {
+      padding-right: 40px; }
+  #client-landing .resources {
+    border-top: 1px solid lightgray;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center; }
+    #client-landing .resources h3 {
+      font-weight: bold;
+      margin-bottom: 30px;
+      text-align: left; }
+    #client-landing .resources .btn-primary {
+      display: block;
+      position: relative;
+      margin: 0 auto; }
+    #client-landing .resources .col-resources {
+      text-align: center;
+      margin-bottom: 30px; }
+      #client-landing .resources .col-resources hr {
+        border-color: #c6c6c6;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 15%; }
+      #client-landing .resources .col-resources img {
+        max-width: 204px;
+        width: 100%; }
+      #client-landing .resources .col-resources p {
+        height: 40px; }
+      #client-landing .resources .col-resources span {
+        color: #c6c6c6;
+        font-size: 0.7em;
+        text-transform: uppercase; }
+      #client-landing .resources .col-resources .btn-primary {
+        max-width: 220px;
+        width: 100%; }
+  #client-landing .sidebar {
+    background-color: #ddecf4;
+    bottom: 0;
+    display: block;
+    padding-top: 25px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    z-index: 1000; }
+    #client-landing .sidebar button {
+      background-color: #0265a5;
+      color: white;
+      text-align: center;
+      width: 100%; }
+      #client-landing .sidebar button:hover {
+        background-color: #004472; }
+    #client-landing .sidebar h2 {
+      font-size: 1.19em;
+      margin-bottom: 3px; }
+    #client-landing .sidebar img {
+      max-width: 100%;
+      margin: 15px 0 20px 0; }
+    #client-landing .sidebar input {
+      padding: 5px;
+      width: 100%; }
+    #client-landing .sidebar #Email {
+      display: none; }
+    #client-landing .sidebar .apple {
+      margin-top: 10px;
+      padding-left: 5px;
+      text-align: left; }
+      #client-landing .sidebar .apple a {
+        height: 24px !important;
+        margin: 6px 0 0 0;
+        width: 115px !important; }
+    #client-landing .sidebar .google {
+      margin-top: 10px;
+      padding-right: 5px;
+      text-align: right; }
+      #client-landing .sidebar .google img {
+        height: 35px;
+        margin: 0; }
+    #client-landing .sidebar .phone-number {
+      margin-bottom: 20px; }
+      #client-landing .sidebar .phone-number div:nth-child(1) {
+        padding-right: 0; }
+      #client-landing .sidebar .phone-number select {
+        height: 32px;
+        width: 100%; }
+    #client-landing .sidebar .divider {
+      border-top: 1px solid #c6c6c6;
+      display: block;
+      height: 20px;
+      margin-top: 15px;
+      position: relative;
+      text-align: center;
+      width: 100%; }
+      #client-landing .sidebar .divider .or {
+        background-color: #ddecf4;
+        font-size: 11px;
+        padding: 5px 10px;
+        position: absolute;
+        left: 50%;
+        top: -2px;
+        transform: translateX(-50%) translatey(-50%);
+        -moz-transform: translateX(-50%) translatey(-50%); }
+    #client-landing .sidebar .mktoFieldDescriptor {
+      display: none !important; }
+
+.lt-tab {
+  clear: both;
+  margin-bottom: 30px; }
+  .lt-tab h3 {
+    font-weight: 700; }
+  .lt-tab .img-container {
+    display: inline-block;
+    float: left;
+    margin-right: 15px; }
+
+.image-list {
+  list-style-type: none;
+  margin-top: 25px;
+  padding-left: 0; }
+  .image-list li {
+    display: inline-block;
+    margin-right: 25px; }
+
+.lab-test-section {
+  margin-bottom: 40px; }
+
+.take-a-tour-pane {
+  background: url("https://s3.asiainspection.com/images/labtesting/BG_take_tour.jpg");
+  height: 207px;
+  padding: 25px; }
+  .take-a-tour-pane button {
+    background-color: #0265a5;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    margin: 25px auto;
+    position: relative; }
+    .take-a-tour-pane button:hover {
+      background-color: #004472; }
+    .take-a-tour-pane button:before {
+      content: url("https://s3.asiainspection.com/images/labtesting/ico_tour.png");
+      padding-right: 10px; }
+
+/**end ipad**/
+#footerlinks {
+  font-family: "Open Sans", "Open Sans";
+  font-size: 0.928em;
+  color: #999999;
+  margin: 20px 0 0 0;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  behavior: url(https://s3.asiainspection.com/libs/pie.htc); }
+  #footerlinks a {
+    font-size: 0.928em;
+    text-decoration: none;
+    color: #38508f; }
+    #footerlinks a:hover {
+      text-decoration: underline; }
+  #footerlinks ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside; }
+  #footerlinks li {
+    padding-left: 3px;
+    font-family: "Open Sans";
+    line-height: 1.65em;
+    font-size: 0.928em; }
+  #footerlinks #bigWindowLinks {
+    display: block; }
+    #footerlinks #bigWindowLinks a {
+      font-family: "Open Sans";
+      font-size: 0.928em;
+      line-height: 1.22em;
+      color: #4c4c4c; }
+    #footerlinks #bigWindowLinks .footerlinks_box_title {
+      color: #272727;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 14px;
+      margin-bottom: 7px;
+      display: block; }
+
+#footCopyright {
+  font-family: "Open Sans", "Open Sans";
+  color: #888;
+  padding-top: 13px; }
+
+.footer {
+  background-color: #ddd;
+  margin-top: 0;
+  text-align: center; }
+
+.footerlinksFollowIcon {
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.footerlinks_box {
+  display: inline-block;
+  padding: 10px 30px 0;
+  padding-bottom: 0;
+  vertical-align: top;
+  line-height: 14px;
+  text-align: left;
+  max-width: 23%; }
+  .footerlinks_box ul {
+    position: relative;
+    left: -3px;
+    list-style-type: none; }
+  .footerlinks_box li {
+    display: list-item; }
+  .footerlinks_box .dropdown-menu {
+    text-align: left;
+    border: 0px;
+    background-color: transparent;
+    box-shadow: 0px 0px;
+    display: block; }
+    .footerlinks_box .dropdown-menu li > a {
+      padding: 3px 0px; }
+    .footerlinks_box .dropdown-menu li > a:hover, .footerlinks_box .dropdown-menu li > a:focus {
+      background-image: none;
+      background-color: transparent; }
+
+.firstFooter {
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 13px; }
+
+#FooterISO {
+  margin: auto;
+  width: 536px; }
+  #FooterISO .sep {
+    margin: 20px auto 17px auto;
+    text-align: center; }
+
+.spriteSeparator_h {
+  background: url(https://s3.asiainspection.com/sprites/sprite_global.png?v27) 0 0 no-repeat;
+  width: 536px;
+  height: 1px; }
+
+.spriteSeparator_v {
+  display: inline-block;
+  width: 1px;
+  height: 147px; }
+
+.spriteAQSIQgrey {
+  background: url(https://s3.asiainspection.com/sprites/greyaccreditations.png?v27) -87px 0px no-repeat;
+  display: inline-block;
+  width: 39px;
+  height: 46px; }
+
+.spriteCNASgrey {
+  background: url(https://s3.asiainspection.com/sprites/greyaccreditations.png?v27) -35px 0px no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 39px; }
+
+.spriteIso-license-grey {
+  background: url(https://s3.asiainspection.com/sprites/greyaccreditations.png?v27) 0px 0px no-repeat;
+  display: inline-block;
+  width: 32px;
+  height: 36px; }
+
+.ico_facebook {
+  background: url(https://s3.asiainspection.com/sprites/sprite_global.png?v27) -124px -310px no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 23px; }
+
+.ico_twitter {
+  background: url(https://s3.asiainspection.com/sprites/sprite_global.png?v27) -138px -310px no-repeat;
+  display: inline-block;
+  width: 28px;
+  height: 23px; }
+
+.ico_youtube {
+  background: url(https://s3.asiainspection.com/sprites/sprite_global.png?v27) -167px -310px no-repeat;
+  display: inline-block;
+  width: 21px;
+  height: 23px; }
+
+.ico_gplus {
+  background: url(https://s3.asiainspection.com/sprites/sprite_global.png?v27) -190px -310px no-repeat;
+  display: inline-block;
+  width: 25px;
+  height: 23px; }
+
+.ico_linkedin {
+  background: url(https://s3.asiainspection.com/sprites/sprite_global.png?v27) -216px -310px no-repeat;
+  display: inline-block;
+  width: 23px;
+  height: 23px; }
+
+.ico_youku {
+  background: url("https://s3.asiainspection.com/images/ico_youku.png") center no-repeat;
+  display: inline-block;
+  width: 32px;
+  height: 25px; }
+
+.ico_weibo {
+  background: url("https://s3.asiainspection.com/images/ico_weibo.png") center no-repeat;
+  display: inline-block;
+  width: 28px;
+  height: 23px; }
+
+.ico_slideshare {
+  background: url("https://s3.asiainspection.com/images/ico_slideshare_footer.png") center no-repeat;
+  display: inline-block;
+  width: 95px;
+  height: 24px; }
+
+.ico_instagram {
+  background: url("https://s3.asiainspection.com/images/ico_instagram_web.png") center no-repeat;
+  display: inline-block;
+  width: 23px;
+  height: 23px; }
+
+.ico_wechat {
+  background: url("https://s3.asiainspection.com/images/ico_wechat_web.png") center no-repeat;
+  display: inline-block;
+  width: 23px;
+  height: 23px; }
+
+.ico_QR_code {
+  background: url("https://s3.asiainspection.com/images/QR_code.png") center no-repeat;
+  display: inline-block;
+  width: 65px;
+  height: 65px; }
+
+#FooterISOLogos {
+  text-align: center; }
+  #FooterISOLogos div {
+    display: inline-block;
+    text-align: center; }
+
+hr.fancy-line {
+  border: 0;
+  height: 1px;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1) 0, rgba(0, 0, 0, 0) 75%); }
+  hr.fancy-line:before {
+    top: -0.5em;
+    height: 1em;
+    content: '';
+    width: 100%;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1) 0, rgba(0, 0, 0, 0) 75%); }
+  hr.fancy-line:after {
+    content: '';
+    height: 0.5em;
+    top: 1px;
+    content: '';
+    width: 100%; }
+
+/* CSS for different screen sizes */
+@media screen and (min-width: 1401px) {
+  .col-xl-offset-0 {
+    margin-left: 0; }
+
+  .col-xl-offset-1 {
+    margin-left: 8.33333%; }
+
+  .col-xl-12 {
+    width: 100%; }
+
+  .col-xl-11 {
+    width: 91.66666667%; }
+
+  .col-xl-10 {
+    width: 83.33333333%; }
+
+  .col-xl-9 {
+    width: 75%; }
+
+  .col-xl-8 {
+    width: 66.66666667%; }
+
+  .col-xl-7 {
+    width: 58.33333333%; }
+
+  .col-xl-6 {
+    width: 50%; }
+
+  .col-xl-5 {
+    width: 41.66666667%; }
+
+  .col-xl-4 {
+    width: 33.33333333%; }
+
+  .col-xl-3 {
+    width: 25%; }
+
+  .col-xl-2 {
+    width: 16.66666667%; }
+
+  .col-xl-1 {
+    width: 8.33333333%; }
+
+  /* Xmas Logo [Begin]
+  #AI_Logo {
+  	background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_lg.png);
+  	position:relative;
+  	left:-130px;
+  	width: 442px;
+  	height: 89px;
+  	margin-top:0px;
+  }
+  .navbar-ai {
+  	background-image: url(https://s3.asiainspection.com/images/xmas/2017/bg_xmas_lg.png);
+  }
+  #ChinaInspection_Logo {
+  	background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_lg_CN.png);
+  	width: 459px;
+  	height: 89px;
+  	left:-130px;
+  	margin-top:0px;
+  	position:relative;
+  }
+  Xmas Logo [End] */
+  .homeSupplyChainWrapper .homeSupplyChainBox {
+    min-height: 67px; }
+
+  .slide-feature2 .homeSCP_content {
+    height: 44%; }
+
+  .slide-feature2 .homeSCP_image {
+    height: 47%; }
+
+  .slide-feature1 {
+    background-image: none; }
+
+  #rightNavWrapper {
+    width: 66%; }
+
+  .navbar-ai .dropdown-menu .navMenuCol:last-of-type {
+    border-right: 0px; }
+  .navbar-ai .dropdown-menu.navmenu_Service {
+    width: 990px; }
+  .navbar-ai .dropdown-menu.navmenu_Industry {
+    left: -165px;
+    width: 960px; }
+    .navbar-ai .dropdown-menu.navmenu_Industry .navMenuCol {
+      width: 193px; }
+  .navbar-ai .dropdown-menu.navmenu_About {
+    left: -160px;
+    width: 450px; }
+    .navbar-ai .dropdown-menu.navmenu_About .navMenuCol {
+      width: 180px; }
+
+  /* End of .navbar-ai */
+  #page_Logout #logoutPhoneImage {
+    margin-right: 60px; }
+
+  /**
+   * Header Images
+   */
+  #page_PSI .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-1-psi_[lg].jpg?v27); }
+
+  #page_PM .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/production_monitoring_[lg].jpg?v27); }
+
+  #page_DUPRO .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-3-during-production-check_[lg].jpg?v27); }
+
+  #page_IPC .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-4-initial-production-check_[lg].jpg?v27); }
+
+  #page_CLC .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/container-loading-check_[lg].jpg?v27); }
+
+  #page_FPSI .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food_inspections_[lg].jpg?v27); }
+
+  #page_SMETA .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/smetaaudit_[sm].jpg?v27); }
+
+  #page_FA .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-1-Manufacturing-Audits_[lg].jpg?v27); }
+
+  #page_CTPAT .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ctpat_[lg].png?v27); }
+
+  #page_ENVIRO .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/enviro_audit_[lg].jpg?v27); }
+
+  #page_SA .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-2-Ethical-Audits_[lg].jpg?v27); }
+
+  #page_REACH .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-1_[lg].jpg?v27); }
+
+  #page_FoodA .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food_audit_[lg].jpg?v27); }
+
+  #page_LT .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-6_[lg].jpg?v27); }
+
+  #page_FT .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food_testing_[lg].jpg?v27); }
+
+  #page_CPSIA .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-2_[lg].jpg?v27); }
+
+  #page_ROHS .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-3_[lg].jpg?v27); }
+
+  #page_softline .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-1-Softlines_[lg].jpg?v27); }
+
+  #page_hardline .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-2-Hardlines_[lg].jpg?v27); }
+
+  #page_techpart .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/technical_parts_[lg].jpg?v27); }
+
+  #page_GHP .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ghp_audit_[lg].jpg?v27); }
+
+  #page_GMP .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/gmp_audit_[lg].jpg?v27); }
+
+  #page_food .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/industry_food_[lg].jpg?v27); }
+
+  #page_food-containers .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food-containers_[lg].jpg?v27); }
+
+  #page_meat-poultry .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/meat_[lg].jpg?v27); }
+
+  #page_food-produce .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/fruits1_[lg].jpg?v27); }
+
+  #page_seafood .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/seafood_[lg].jpg?v27); }
+
+  #page_whitePapers .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/white_papers_[lg].jpg?v27); }
+
+  #page_WhoWeAre .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/who_we_are_[lg].jpg?v27); }
+
+  #page_SampleReports .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/sample_reports_[lg].jpg?v27); }
+
+  #page_Testimonials .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/testimonials_[lg].jpg?v27); }
+
+  #page_CompanyValues .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/company_values_[lg].png?v27); }
+
+  #page_Accreditations .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/accredidation_[lg].jpg?v27); }
+
+  #page_Partners .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/partners_[lg].jpg?v27); }
+
+  #page_Pricing .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/pricing_[lg].jpg?v27); }
+
+  #page_ServiceCoverage .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/service_coverage_[lg].jpg?v27); }
+
+  #page_CareerOps .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[lg].jpg?v27); }
+
+  #page_ViewJob .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[lg].jpg?v27); }
+
+  #page_JobApplication .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[lg].jpg?v27); }
+
+  #page_News .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/news_[lg].jpg?v27); }
+
+  #page_RefSamples .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/reference_samples_[lg].jpg?v27); }
+
+  #page_vietnam .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/vietnam_[lg].jpg?v27); }
+
+  #page_bangladesh .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[lg].jpg?v27); }
+
+  #page_india .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[lg].jpg?v27); }
+
+  #page_ContactUs .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Contact_[lg].jpg?v27); }
+
+  #page_tapwater .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/tapwater_[lg].png?v27); }
+
+  #page_trainads .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/laboratory_testing_[lg].jpg?v27); }
+
+  #page_apparel .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/apparel_garment_[lg].jpg?v27); }
+
+  #page_textiles .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/textile_testing_[lg].jpg?v27); }
+
+  #page_footwear .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/footwear_[lg].jpg?v27); }
+
+  #page_toys .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/toys_[lg].jpg?v27); }
+
+  #page_promotional-products .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/promotional_products_[lg].jpg?v27); }
+
+  #page_jewelry .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/jewelry_[lg].jpg?v27); }
+
+  #page_electrical .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/electronics_[lg].jpg?v27); }
+
+  #page_cosmetics .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/cosmetics_[lg].jpg?v27); }
+
+  #page_ethical-webinarl .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/webinar_lg.png?v27); }
+
+  #page_structuralAudit .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/structural-audits_[lg].jpg?v27); }
+
+  #ethical-webinar-imageDiv {
+    background-image: url(https://s3.asiainspection.com/images/responsive/webinar2_lg.jpg?v27); }
+
+  #page_RegulatoryUpdates .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/RegulatoryUpdates_[lg].jpg?v27); }
+
+  #page_AQLstandards .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/AQL_[lg].jpg?v27); }
+
+  #page_eyewear .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/eyewear_[lg].jpg?v27); }
+
+  #page_eyewearTesting .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/eyewear_[lg].jpg?v27); }
+
+  #page_reading-glasses .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ready_spectacles_[lg].jpg?v27); }
+
+  #page_optical-lenses .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/optical_lenses_[lg].jpg?v27); }
+
+  #page_spectacle-frames .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/spectacle_frames_[lg].jpg?v27); }
+
+  #page_surveyThanks .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/thankYou_[lg].jpg?v27); }
+
+  #page_phthalate .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/phthalate_[lg].jpg?v27); }
+
+  #page_toyLabTest .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/phthalate_[lg].jpg?v27); }
+
+  #page_mobileMicro .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/mobile_micro_[lg].jpg?v27); }
+
+  #page_QCinChina .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/qc_china_[lg].jpg?v27); }
+
+  #page_emailPref .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/email_prefs_[lg].jpg?v27); }
+
+  #page_inspectionservices .headerbox {
+    background-image: url(https://s3.amazonaws.com/s3.asiainspection.com/images/inspection_[lg].jpg?v27); }
+
+  #page_supplierauditprograms .headerbox {
+    background-image: url(https://s3.amazonaws.com/s3.asiainspection.com/images/audit_[lg].jpg?v27); }
+
+  #page_laboratorytesting .headerbox {
+    background-image: url(https://s3.amazonaws.com/s3.asiainspection.com/images/labtest_[lg].jpg?v27); }
+
+  #page_ASTMtoys .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/astm-toy_[lg].jpg?v27); }
+
+  #page_SASOCertification .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/SASO_[lg].jpg?v27); }
+
+  #page_view360 .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/view360_[lg].jpg?v27); }
+
+  #page_beverages .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/beverages_[lg].jpg?v27); }
+
+  #page_meat-poultry .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/meat_[lg].jpg?v27); }
+
+  #page_processed-food .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/processed_food_[lg].jpg?v27); }
+
+  #page_eye-protectors .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/eye_protectors_[lg].jpg?v27); }
+
+  #page_sports-eyewear-goggles .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/goggles_[lg].jpg?v27); }
+
+  #page_sunglasses .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/sunglasses_[lg].jpg?v27); }
+
+  #page_PressRelease .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/barometer_[lg].jpg?v27); }
+
+  #page_caliprop65 .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/prop65_[lg].jpg?v27); }
+
+  #page_previoOrigen .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-1-psi_[lg].jpg?v27); }
+
+  #page_quality-assurance-services .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/quality_assurance_[lg].jpg?v27); }
+
+  #page_berries .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/blueberry_[lg].jpg?v27); }
+
+  #page_ILOinfographic .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ILO_infographic_[lg].jpg?v27); }
+
+  #page_SourcingSurvey2018 .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/survey_results_[lg].jpg?v27); }
+
+  #page_BSCI .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/bsci_audit_[lg].jpg?v27); }
+
+  #page_global-supplier-search .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/globalsources_[lg].jpg?v27); } }
+@media screen and (max-width: 1400px) {
+  .navbar-ai .dropdown-menu .navMenuCol:last-of-type {
+    border-right: 0px; }
+  .navbar-ai .dropdown-menu .navMenuCol {
+    padding: 20px;
+    margin-left: 25px; }
+    .navbar-ai .dropdown-menu .navMenuCol .navSubtitle:before {
+      left: -15px; }
+  .navbar-ai .dropdown-menu.navmenu_Service {
+    left: -200px;
+    width: 975px; }
+  .navbar-ai .dropdown-menu.navmenu_Industry {
+    left: -380px;
+    width: 965px; }
+    .navbar-ai .dropdown-menu.navmenu_Industry .navMenuCol {
+      width: 193px; }
+  .navbar-ai .dropdown-menu.navmenu_About {
+    left: -160px;
+    width: 450px; }
+    .navbar-ai .dropdown-menu.navmenu_About .navMenuCol {
+      width: 180px; }
+
+  /* Xmas Logo [Begin]
+  #AI_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_lg.png);
+      position:relative;
+      left:-130px;
+      width: 442px;
+      height: 89px;
+      margin-top:0px;
+  }
+  #ChinaInspection_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_lg_CN.png);
+      width: 459px;
+      height: 89px;
+      left:-130px;
+      margin-top:0px;
+      position:relative;
+  }
+  Xmas Logo [End] */
+  .homeTestimonial .homeClientLogo:nth-child(8) {
+    display: none; }
+
+  .homeSupplyChainWrapper .homeSupplyChainBox {
+    min-height: 67px; }
+
+  #ethical-webinar-headerbox {
+    height: 400px; }
+
+  #ethicalWebinarHeader {
+    width: 90%; }
+
+  .slide-feature2 .homeSCP_content {
+    height: 44%; }
+
+  .slide-feature2 .homeSCP_image {
+    height: 47%; }
+
+  .slide-feature1 {
+    background-image: none; }
+
+  #ethical-webinar-subheader {
+    width: 90%; }
+
+  #appMobile {
+    top: 155px; }
+
+  #appTablet {
+    top: 233px; }
+
+  #page_Logout #logoutPhoneImage {
+    width: 26%; }
+  #page_Logout .mobileEmailSendLinks {
+    width: 33%; }
+
+  #pricingBottom {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 15px; }
+
+  #pricingHr {
+    margin-left: 15px;
+    margin-right: 15px; }
+
+  /** 
+  
+  Code for the client landing page, authored by Sam Coll
+  questions - samcoll@gmail.com 
+  
+  **/
+  #client-landing {
+    padding: 0 4.15% 0 8.33%; } }
+@media screen and (max-width: 1200px) {
+  #AI_Logo {
+    width: 190px;
+    height: 30px;
+    margin-top: 20px; }
+
+  #ChinaInspection_Logo {
+    width: 190px;
+    height: 30px;
+    margin-top: 20px; }
+
+  /* Xmas Logo [Begin]
+  #AI_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_md.png);
+      position:relative;
+      left:-130px;
+      width: 326px;
+      height: 81px;
+      margin-top:0px;
+  }
+  #ChinaInspection_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_md_CN.png);
+      width: 341px;
+      height: 81px;
+      left:-145px;
+      margin-top:0px;
+      position:relative;
+  }
+  Xmas Logo [End] */
+  /* #AI_Logo:after{ content:"1200"; color:white; } */
+  #aboutUsNavList {
+    padding-top: 0; }
+
+  #aboutUsNav {
+    height: 70px; }
+
+  .navbar.floating #rightNavWrapper {
+    width: 73%; }
+
+  #footerlinks {
+    max-width: 900px; }
+
+  /* #AI_Logo:after{ content:"1200"; color:white; } */
+  .navbar-ai .dropdown-menu .navMenuCol:last-of-type {
+    border-right: 0px; }
+  .navbar-ai .dropdown-menu .navMenuCol {
+    padding: 20px;
+    margin-left: 25px; }
+    .navbar-ai .dropdown-menu .navMenuCol .navSubtitle:before {
+      left: -15px; }
+  .navbar-ai .dropdown-menu.navmenu_Service {
+    left: -250px;
+    width: 965px; }
+  .navbar-ai .dropdown-menu.navmenu_Industry {
+    left: -415px;
+    width: 970px; }
+    .navbar-ai .dropdown-menu.navmenu_Industry .navMenuCol {
+      width: 193px; }
+  .navbar-ai .dropdown-menu.navmenu_About {
+    left: -160px;
+    width: 450px; }
+    .navbar-ai .dropdown-menu.navmenu_About .navMenuCol {
+      width: 180px; }
+
+  #share-this {
+    width: 90%; }
+
+  input[type="checkbox"] {
+    -webkit-appearance: checkbox !important; }
+
+  #appMobile {
+    top: 85px; }
+
+  #appTablet {
+    top: 163px; }
+
+  .width100 {
+    width: 80% !important; }
+
+  .displayNone1200 {
+    display: none; }
+
+  .display1200 {
+    display: block !important; }
+
+  .contractType {
+    display: none !important; }
+
+  .news {
+    height: 610px; }
+
+  #ethicalWebinarHeader {
+    width: 55% !important; }
+
+  .paddingLeftZero1200 {
+    padding-left: 0px; }
+
+  #followUs {
+    display: none !important; }
+
+  .feature3button {
+    width: 32%; }
+
+  .homeTestimonial .homeClientLogo:nth-child(7) {
+    display: none; }
+  .homeTestimonial .homeClientLogo:nth-child(8) {
+    display: none; }
+
+  #ethical-webinar-headerbox {
+    height: 400px; }
+
+  #ethical-webinar-subheader {
+    width: 55%; }
+
+  .box .qcs-box-background {
+    height: 275px; }
+
+  .slide-feature1 {
+    background-image: none; }
+
+  #pricingBottom {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 15px; }
+
+  #pricingHr {
+    margin-left: 15px;
+    margin-right: 15px; }
+
+  .slide-feature2 .homeSCP_image {
+    background-size: auto 78%; }
+
+  #page_Logout #logoutPhoneImage {
+    width: 29%; }
+  #page_Logout .mobileEmailSendLinks {
+    width: 50%; }
+
+  .responsive-lg {
+    width: 100%; }
+
+  /* New Industry Pages Layout [Start] */
+  .industrySectionImageLeft {
+    max-width: 50%; }
+
+  .industrySectionImageRight {
+    max-width: 50%; }
+
+  .industrySectionContentWithImage {
+    max-width: 50%; }
+
+  /* New Industry Pages Layout [End] */ }
+@media screen and (max-width: 990px) {
+  #AI_Logo {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://s3.asiainspection.com/images/logo_AI_60x60.png?v27);
+    margin-top: 0px; }
+
+  #ChinaInspection_Logo {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://s3.asiainspection.com/images/logo_AI_60x60.png?v27);
+    margin-top: 0px; }
+
+  .navbar.floating #rightNavWrapper {
+    display: none; }
+
+  /* Xmas Logo [Begin]
+  #AI_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm1.png);
+      width: 271px;
+      height: 89px;
+      margin-top:0px;
+  }
+  #ChinaInspection_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm1.png);
+      width: 271px;
+      height: 89px;
+      left:-130px;
+      margin-top:0px;
+      position:relative;
+  }
+  Xmas Logo [End] */
+  .slide-feature4 h1 {
+    font-size: 1.9em;
+    padding: 10px; }
+  .slide-feature4 p {
+    font-size: 12px;
+    padding: 2px; }
+
+  #applyBtn_LinkedIn {
+    width: 40%; }
+
+  .whitePaperSmallScreen {
+    width: 31%; }
+
+  #ethicalWebinarHeader {
+    width: 100%; }
+
+  .spriteSeparator_h1 {
+    width: 100px; }
+
+  .slide-feature9 img {
+    display: none; }
+  .slide-feature9 h2 {
+    font-size: 13px; }
+
+  .above990Display {
+    display: none !important; }
+
+  .above990DisplayNone {
+    display: block; }
+
+  #appMobile {
+    top: 45px; }
+
+  #appTablet {
+    top: 113px; }
+
+  #sitemapColumn {
+    width: 33.3%; }
+
+  .displayNone990 {
+    display: none; }
+
+  #printButton {
+    padding-top: 20px; }
+
+  .left {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
+  .right {
+    width: 92%;
+    padding-left: 8% !important; }
+
+  .column {
+    width: 50%; }
+
+  .paddingTopBottom15_990To768 {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+  .slide-feature3 a {
+    padding: 10px; }
+
+  .mobileEmailSendLinks {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 0px; }
+
+  #footerlinks #bigWindowLinks a {
+    font-size: 1em;
+    line-height: 1em;
+    color: #272727;
+    font-weight: bold;
+    padding: 1em 0px;
+    display: block; }
+  #footerlinks #bigWindowLinks .footerlinks_box, #footerlinks #bigWindowLinks .footerlinks_box_title {
+    padding: 0px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 100%; }
+    #footerlinks #bigWindowLinks .footerlinks_box .dropdown-menu, #footerlinks #bigWindowLinks .footerlinks_box_title .dropdown-menu {
+      width: 100%;
+      text-align: center;
+      display: none;
+      background-color: white; }
+  #footerlinks #bigWindowLinks .footerlinks_box_title {
+    margin: 1em 0em; }
+  #footerlinks #bigWindowLinks .open .dropdown-menu {
+    display: block; }
+
+  .navbar-ai li > a {
+    padding-left: 12px;
+    padding-right: 12px; }
+  .navbar-ai .dropdown-menu .navMenuCol:last-of-type {
+    border-right: 0px; }
+  .navbar-ai .dropdown-menu .navMenuCol {
+    padding: 20px;
+    margin-left: 25px; }
+    .navbar-ai .dropdown-menu .navMenuCol .navSubtitle:before {
+      left: -15px; }
+  .navbar-ai .dropdown-menu.navmenu_Service {
+    left: -100px;
+    width: 600px; }
+    .navbar-ai .dropdown-menu.navmenu_Service .navMenuCol {
+      width: 250px; }
+      .navbar-ai .dropdown-menu.navmenu_Service .navMenuCol:nth-child(2) {
+        border-right: 0px; }
+  .navbar-ai .dropdown-menu.navmenu_Industry {
+    left: -100px;
+    width: 600px; }
+    .navbar-ai .dropdown-menu.navmenu_Industry .navMenuCol {
+      width: 250px; }
+      .navbar-ai .dropdown-menu.navmenu_Industry .navMenuCol:nth-child(2) {
+        border-right: 0px; }
+  .navbar-ai .dropdown-menu.navmenu_About {
+    left: -160px;
+    width: 450px; }
+    .navbar-ai .dropdown-menu.navmenu_About .navMenuCol {
+      width: 180px; }
+
+  .showSmall {
+    display: block !important; }
+
+  .countryPadding {
+    margin-top: 10px; }
+
+  .middleIcon {
+    float: right !important; }
+
+  .spriteservice_sidebox_redcircle {
+    margin-right: 11px !important; }
+
+  .spritesamplestoragepolicy_box {
+    margin-right: -9px !important; }
+    .spritesamplestoragepolicy_box .home-pricing-box {
+      height: auto; }
+      .spritesamplestoragepolicy_box .home-pricing-box .homePriceCTA {
+        display: block; }
+        .spritesamplestoragepolicy_box .home-pricing-box .homePriceCTA a {
+          width: 65%; }
+
+  .slide-feature2 .homeSCP_image {
+    display: none; }
+
+  .jobdrop_divbox {
+    padding-left: 0px;
+    margin-top: 15px;
+    width: 70%; }
+
+  #jobdrop_Type {
+    margin-bottom: 15px; }
+
+  .marginBottomSmallScreen {
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  .noMarginSmallScreen {
+    margin-top: 0px !important; }
+
+  #jobAppSubmit {
+    padding-top: 3px;
+    margin-bottom: 25px; }
+
+  .textRight {
+    text-align: left; }
+
+  .box .qcs-box-background {
+    height: 290px; }
+
+  .overviewBanner #bigWidth {
+    margin-left: 15px; }
+
+  .slide-feature1 {
+    background-image: none; }
+
+  .displaynone990 {
+    display: none !important; }
+
+  #display990 {
+    display: inline-block !important; }
+
+  .home-pricing-box {
+    height: 100%; }
+
+  #page_ServiceLanding .landingPageBoxContent {
+    height: auto; }
+
+  #page_Logout #logoutPhoneImage {
+    width: 100%;
+    margin-bottom: 1em; }
+    #page_Logout #logoutPhoneImage img {
+      width: 33%; }
+  #page_Logout .mobileEmailSendLinks {
+    width: 100%; }
+  #page_Logout .box_MobileLinks_submit {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+  .responsive-md {
+    width: 100%; }
+
+  #pricingBottom {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 15px; }
+
+  #pricingHr {
+    margin-left: 0px;
+    margin-right: 0px; }
+
+  .home-pricing-box .homePriceContent .learnMoreLink {
+    display: none; }
+
+  #homePriceCTA {
+    display: none; }
+
+  #homePricingBoxTitle {
+    height: 7.5%; }
+
+  #homePricingBoxWrapper .margin20Small {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #homePricingBoxWrapper .offer1, #homePricingBoxWrapper .offer2, #homePricingBoxWrapper .offer3 {
+    height: auto;
+    margin-bottom: 15px; }
+  #homePricingBoxWrapper .homePriceCTA {
+    display: block; }
+
+  .smHide {
+    display: none; }
+
+  /* New Industry Pages Layout [Start] */
+  .industrySectionImageLeft {
+    display: block;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    max-width: 100%;
+    width: 100%;
+    text-align: center; }
+
+  .industrySectionImageRight {
+    display: block;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    max-width: 100%;
+    width: 100%;
+    text-align: center; }
+
+  .industrySectionImageRight img, .industrySectionImageLeft img {
+    width: 50%;
+    height: auto;
+    margin-top: 20px; }
+
+  .industrySectionContentWithImage {
+    float: left;
+    padding: 20px;
+    display: inline-block;
+    max-width: 100%; }
+
+  /* New Industry Pages Layout [End] */
+  #homepageTabletAnimationBox {
+    height: 280px; }
+
+  #regFooterBarLinksTextBox {
+    text-align: center; } }
+@media screen and (max-width: 850px) {
+  #AI_Logo {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://s3.asiainspection.com/images/logo_AI_60x60.png?v27); }
+
+  #ChinaInspection_Logo {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://s3.asiainspection.com/images/logo_AI_60x60.png?v27); }
+
+  /* Xmas Logo [Begin]
+  #AI_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm2.png);
+      width: 271px;
+      height: 89px;
+      margin-top:0px;
+  }
+  #ChinaInspection_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm1.png);
+      width: 271px;
+      height: 89px;
+      left:-108px;
+      margin-top:0px;
+      position:relative;
+  }
+  Xmas Logo [End] */
+  /* #AI_Logo:after{ content:"850"; color:white; } */
+  #client-landing-nav #AI_Logo {
+    left: -70px; }
+
+  .slide-feature1 {
+    background-image: none; }
+
+  .navbar-ai .navbar-header {
+    margin-left: 20px; }
+  .navbar-ai #rightNavWrapper {
+    width: 88%; }
+  .navbar-ai li > a {
+    padding-left: 9px;
+    padding-right: 9px; }
+  .navbar-ai .dropdown-menu .navMenuCol {
+    padding: 20px;
+    margin-left: 25px; }
+    .navbar-ai .dropdown-menu .navMenuCol .navSubtitle:before {
+      left: -15px; }
+  .navbar-ai .dropdown-menu.navmenu_Service {
+    width: 548px; }
+    .navbar-ai .dropdown-menu.navmenu_Service .navMenuCol {
+      width: 240px; }
+  .navbar-ai .dropdown-menu.navmenu_Industry {
+    width: 500px; }
+    .navbar-ai .dropdown-menu.navmenu_Industry .navMenuCol {
+      width: 217px; }
+  .navbar-ai .dropdown-menu.navmenu_About {
+    width: 380px; }
+    .navbar-ai .dropdown-menu.navmenu_About .navMenuCol {
+      width: 157px; }
+
+  #mobildAppDispayNone850 {
+    display: none; }
+
+  #testimonialBanner {
+    text-align: left; }
+
+  .news {
+    height: 650px; }
+
+  .textH {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  .homeTestimonial .homeClientLogo:nth-child(6) {
+    display: none; }
+
+  .slide-feature2 .homeSCP_image {
+    display: none; }
+
+  #regFormBackGroundImage {
+    display: none; }
+
+  #ethical-webinar-headerbox {
+    height: 500px; }
+
+  #ethical-webinar-subheader {
+    text-align: center;
+    width: 100%; }
+
+  #ethicalWebinarHeader {
+    text-align: center;
+    width: 100% !important; }
+
+  .dateH {
+    display: none; }
+
+  #back {
+    display: none; }
+
+  .locationText {
+    display: none !important; }
+
+  #regLookingfor_radioWrap {
+    margin-left: 27%; }
+
+  .RegLookingfor_marginLeftSmall {
+    padding-left: 40px !important; }
+
+  #RegPopup {
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    width: 100% !important;
+    min-height: 100%;
+    max-width: 100%;
+    padding: 15px; }
+    #RegPopup #formBlock {
+      width: 100%;
+      float: none;
+      text-align: left; }
+      #RegPopup #formBlock .formRow {
+        position: relative;
+        padding: 0.5em; }
+        #RegPopup #formBlock .formRow label {
+          text-align: left; }
+        #RegPopup #formBlock .formRow .col-xs-12 {
+          width: 100%; }
+    #RegPopup #regSideBar {
+      display: none; }
+    #RegPopup #regTitleBar {
+      padding: 30px 20px 30px 40px;
+      margin-top: 0px;
+      background-color: #e8e8e8; }
+      #RegPopup #regTitleBar #regLoginWrapper {
+        margin-top: 5px; }
+    #RegPopup #regLookingForTitleBar {
+      text-align: center;
+      padding: 30px 20px 30px 40px;
+      margin-top: 0px;
+      background-color: #e8e8e8; }
+      #RegPopup #regLookingForTitleBar #regLoginWrapper {
+        margin-top: 5px; }
+    #RegPopup #ai_responsivebundle_register_submit {
+      max-width: 100%; }
+
+  #regLegalFooter {
+    background-color: #e8e8e8 !important;
+    color: black !important; }
+
+  #imgEthical {
+    display: block !important; }
+
+  .sampleReportsBox .menu-label {
+    width: 100%;
+    text-align: center; }
+
+  #coverageSmall {
+    display: inline-block !important; }
+
+  #coverage {
+    display: none; }
+
+  #page_ethical-webinarl .headerbox {
+    background-image: none;
+    background-color: #E6E6E6; } }
+@media screen and (max-width: 768px) {
+  .mainHeader {
+    font-size: 2.2em; }
+
+  .mainSubHeader {
+    font-size: 1.1em;
+    padding-right: 1.2em; }
+
+  .sectionHeader {
+    font-size: 1.8em; }
+
+  #AI_Logo {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://s3.asiainspection.com/images/logo_AI_60x60.png?v27); }
+
+  #ChinaInspection_Logo {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://s3.asiainspection.com/images/logo_AI_60x60.png?v27); }
+
+  /* Xmas Logo [Begin]
+  #AI_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm1.png);
+      width: 271px;
+      height: 89px;
+      margin-top:0px;
+  }
+  #rightNavWrapper { background-color:white; }
+  .navbar-ai {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/bg_xmas_sm3.png);
+      background-size:cover;
+  }
+  #ChinaInspection_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm1.png);
+      width: 271px;
+      height: 89px;
+      left:-130px;
+      margin-top:0px;
+      position:relative;
+  }
+  Xmas Logo [End] */
+  .displayNone768 {
+    display: none; }
+
+  .hideSmall {
+    display: none !important; }
+
+  #share-this {
+    width: 100%; }
+
+  #newsHTextSmall {
+    display: none !important; }
+
+  #newsReadMore {
+    display: block !important; }
+
+  .whitePaperSmallScreen {
+    width: 48%; }
+
+  .margin20Small {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+  .textInputWidth {
+    width: 100%; }
+
+  #viewJobSmallScreen {
+    display: inline-block !important; }
+
+  #viewJobBigScreen {
+    display: none !important; }
+
+  #viewTermsAndConditionsSmallScreen {
+    display: inline-block !important; }
+
+  #viewTermsAndConditionsBigScreen {
+    display: none !important; }
+
+  .sidebox {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+
+  .slide-feature1-ipad {
+    background-image: url(https://s3.asiainspection.com/images/responsive/main_right_small.jpg?v27);
+    background-size: cover; }
+
+  .storyContainer {
+    padding: 10px !important; }
+
+  .width100 {
+    width: 100% !important; }
+
+  #map-bangladesh {
+    margin-bottom: 15px; }
+
+  .paddingTopBottom15_990To768 {
+    padding-top: 0px;
+    padding-bottom: 0px; }
+
+  .mainBlock {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+
+  .subMainBlock {
+    padding-right: 0px; }
+
+  .paddingleftSmall {
+    padding-left: 0px; }
+
+  .storyContainer div {
+    padding-left: 0px !important; }
+
+  #bigScreen {
+    display: none !important; }
+
+  #smallScreen {
+    display: block !important; }
+
+  .pricing-offer-box {
+    height: auto; }
+
+  #sitemapColumn {
+    width: 50%; }
+
+  #pricingBottom {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 15px; }
+
+  #pricingHr {
+    margin-left: 0px;
+    margin-right: 0px; }
+
+  .home-pricing-box .homePriceContent .learnMoreLink {
+    display: none; }
+
+  .navbar-ai .navbar-header {
+    margin-left: 8.33333333%; }
+  .navbar-ai #rightNavWrapper {
+    display: block !important;
+    width: 100% !important; }
+  .navbar-ai #navSubmenuContainer {
+    display: none !important;
+    visibility: hidden; }
+  .navbar-ai .navbar-header {
+    padding-bottom: 0px; }
+    .navbar-ai .navbar-header #rightNavWrapper {
+      right: auto; }
+  .navbar-ai #mainNav > li > .dropdown-menu {
+    left: 0px; }
+  .navbar-ai .dropdown-menu {
+    text-align: center;
+    position: absolute;
+    display: none; }
+    .navbar-ai .dropdown-menu .navMenuCol {
+      display: none;
+      padding: 0px;
+      margin-left: 0px;
+      text-align: center;
+      color: #5e5e5e;
+      position: relative;
+      vertical-align: top;
+      border-right-width: 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol li {
+        list-style-type: none; }
+        .navbar-ai .dropdown-menu .navMenuCol li a {
+          display: block;
+          margin: 0.55em 0px;
+          font-size: 1.35em; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_aboutAI {
+        background-position: -25px -25px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_audits {
+        background-position: -25px 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_food {
+        background-position: -50px -50px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_hardlines {
+        background-position: -50px -25px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_inspections {
+        background-position: 0px 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_labTest {
+        background-position: -50px 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_serviceDetails {
+        background-position: 0px -25px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_softlines {
+        background-position: -75px 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_techParts {
+        background-position: -25px -50px; }
+      .navbar-ai .dropdown-menu .navMenuCol .ico_News {
+        background-position: -75px -25px; }
+      .navbar-ai .dropdown-menu .navMenuCol .navSubtitle {
+        font-weight: normal;
+        color: #333;
+        text-decoration: none;
+        display: block;
+        margin: 0.55em 0px; }
+      .navbar-ai .dropdown-menu .navMenuCol .navSubtitle:hover {
+        text-decoration: underline; }
+      .navbar-ai .dropdown-menu .navMenuCol .navSubtitle:before {
+        display: none; }
+    .navbar-ai .dropdown-menu.navmenu_Service, .navbar-ai .dropdown-menu.navmenu_Industry, .navbar-ai .dropdown-menu.navmenu_About {
+      width: 100%; }
+      .navbar-ai .dropdown-menu.navmenu_Service .navMenuCol, .navbar-ai .dropdown-menu.navmenu_Industry .navMenuCol, .navbar-ai .dropdown-menu.navmenu_About .navMenuCol {
+        width: 100%;
+        display: block; }
+  .navbar-ai .navbar-header {
+    padding-right: 0px; }
+  .navbar-ai #rightNavWrapper > .navbar-right {
+    display: none; }
+  .navbar-ai #rightNavWrapper > .navbar-left {
+    display: none; }
+  .navbar-ai #mainNav {
+    max-height: 500px;
+    overflow-y: scroll;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 0px; }
+    .navbar-ai #mainNav .dropdown .dropdown-toggle, .navbar-ai #mainNav .tab > a, .navbar-ai #mainNav .subNavSplitDiv a {
+      font-size: 1.35em; }
+    .navbar-ai #mainNav .tab {
+      display: block;
+      width: 100%;
+      float: none;
+      text-align: center; }
+    .navbar-ai #mainNav .dropdown-menu {
+      padding: 1px 0px; }
+  .navbar-ai .subNavSplitDivParent {
+    display: block; }
+  .navbar-ai .subNavSplitDiv {
+    visibility: visible;
+    width: 50%;
+    float: left; }
+    .navbar-ai .subNavSplitDiv a {
+      display: block;
+      border-bottom: 2px solid transparent;
+      text-decoration: none !important;
+      padding: 10px 15px; }
+    .navbar-ai .subNavSplitDiv a:hover {
+      background-color: transparent;
+      border-bottom: 2px solid #b31820;
+      text-decoration: none; }
+  .navbar-ai .open .dropdown-menu {
+    position: relative;
+    display: block;
+    background-color: #eaeaea; }
+  .navbar-ai #bs-example-navbar-collapse-1 {
+    width: 100%;
+    margin: 0px; }
+
+  #affiliate-programSmallImg {
+    display: block !important; }
+
+  .slide-feature3-ipad {
+    text-align: center;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://s3.asiainspection.com/images/responsive/slider/industrySlider_SM.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(50%); }
+    .slide-feature3-ipad a {
+      font-family: "Open Sans";
+      font-weight: bold; }
+
+  #footerlinks #bigWindowLinks .footerlinks_box, #footerlinks #bigWindowLinks .footerlinks_box_title {
+    max-width: 100%; }
+    #footerlinks #bigWindowLinks .footerlinks_box a, #footerlinks #bigWindowLinks .footerlinks_box_title a {
+      font-size: 1.35em; }
+    #footerlinks #bigWindowLinks .footerlinks_box .dropdown-menu li > a, #footerlinks #bigWindowLinks .footerlinks_box_title .dropdown-menu li > a {
+      font-size: 1.35em; }
+
+  /**news page**/
+  .newsContainer {
+    width: 100% !important;
+    padding-left: 15px; }
+
+  .column {
+    width: 60%;
+    padding-left: 20% !important;
+    padding-right: 20% !important; }
+
+  .sideBoxNewsContainer {
+    width: 100% !important; }
+
+  .sideBoxColumn {
+    width: 60%;
+    padding-left: 20% !important;
+    padding-right: 20% !important; }
+
+  #firstNewsSamllScreen {
+    display: block !important;
+    width: 60%;
+    margin-left: 20% !important;
+    margin-right: 20% !important; }
+
+  #marginNewsH {
+    margin-left: 0px; }
+
+  #newsH {
+    display: none !important; }
+
+  .news {
+    height: 660px !important; }
+
+  #followUs {
+    display: none !important; }
+
+  .storyContainer {
+    width: 100% !important;
+    margin: 0 !important; }
+
+  /**end news page**/
+  .homeTestimonial h1 {
+    font-size: 1.19em; }
+
+  .feature3button {
+    width: 43%; }
+
+  .homeTestimonial .homeClientLogo:nth-child(1), .homeTestimonial .homeClientLogo:nth-child(2), .homeTestimonial .homeClientLogo:nth-child(3), .homeTestimonial .homeClientLogo:nth-child(4) {
+    top: 0%;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    margin: 3% 2%; }
+  .homeTestimonial .homeClientLogo:nth-child(1) {
+    width: 15%; }
+  .homeTestimonial .homeClientLogo:nth-child(2) {
+    width: 15%; }
+  .homeTestimonial .homeClientLogo:nth-child(3) {
+    width: 15%; }
+  .homeTestimonial .homeClientLogo:nth-child(4) {
+    width: 30%; }
+  .homeTestimonial .homeClientLogo:nth-child(5) {
+    display: none; }
+  .homeTestimonial .homeClientLogo:nth-child(6) {
+    display: none; }
+  .homeTestimonial .homeClientLogo:nth-child(7) {
+    display: none; }
+  .homeTestimonial .homeClientLogo:nth-child(8) {
+    display: none; }
+
+  .homeSupplyChainWrapper {
+    display: inline-block;
+    width: 100%; }
+    .homeSupplyChainWrapper .homeSupplyChainBox {
+      min-height: 0px;
+      width: 100%;
+      display: block; }
+
+  .homeSCP_content .homeWatchDemoLinks {
+    margin-top: 0px; }
+  .homeSCP_content #demomobilelink {
+    display: block; }
+  .homeSCP_content #demodesktoplink {
+    display: none; }
+
+  .slide-feature2 {
+    background-image: none; }
+    .slide-feature2 .homeSCP_image {
+      display: none; }
+
+  #homePriceCTA {
+    display: none; }
+
+  #homePricingBoxTitle {
+    height: 7.5%; }
+
+  #homePricingBoxWrapper .offer1, #homePricingBoxWrapper .offer2, #homePricingBoxWrapper .offer3 {
+    height: auto;
+    margin-bottom: 15px; }
+
+  #homePricingBoxWrapper .homePriceCTA {
+    display: block; }
+
+  .homePublications h1 {
+    width: 100%;
+    text-align: center;
+    top: 0%;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    margin: 1.35em 0px; }
+  .homePublications .ourLatestBox {
+    height: auto; }
+    .homePublications .ourLatestBox .buttonbox {
+      position: relative;
+      bottom: auto;
+      width: 100%;
+      text-align: center; }
+
+  #homePublicationsRow {
+    height: auto; }
+
+  .slide-feature1 {
+    background-image: url(https://s3.asiainspection.com/images/responsive/main_right_small.jpg?v27);
+    background-size: cover; }
+
+  #webinar-sidebox {
+    margin-top: 0px !important; }
+
+  .contactUsContent #map {
+    height: 270px !important; }
+
+  /* Services Landing Page */
+  .servicesLandingContent .qcs-box-background ul li {
+    text-align: center; }
+
+  /* Sample Reports */
+  .sampleReportsBox {
+    width: 87%;
+    text-align: left; }
+    .sampleReportsBox p, .sampleReportsBox .industryMenu, .sampleReportsBox .itemMenu, .sampleReportsBox .serviceMenu {
+      text-align: left; }
+    .sampleReportsBox .menu-label {
+      display: inline;
+      text-align: left; }
+    .sampleReportsBox .displaySampleReport {
+      margin: 0px;
+      width: 100%; }
+
+  #sampleReportTypeSelectBox {
+    background-color: #E6E6E6 !important;
+    padding: 0px 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important; }
+
+  #ethical-webinar-headerbox {
+    height: 630px; }
+
+  #ethicalWebinarHeader {
+    margin-top: -60px !important; }
+
+  #homeGetStartedBox {
+    background-color: transparent;
+    padding: 0em; }
+    #homeGetStartedBox .btn-primary {
+      max-width: 200px; }
+
+  #regLookingfor_radioWrap {
+    margin-left: 45px; }
+
+  #RegPopup #regLookingForTitleBar {
+    text-align: left; }
+
+  #page_Logout #logoutConfirmText {
+    padding-left: 1em; }
+
+  #page_SampleReports > .wrapper {
+    padding: 10px; }
+
+  #CEOimageBox {
+    max-height: 550px; }
+
+  #sideBoxContainer {
+    top: 0px; }
+
+  /* Sample Report Page Dropdowns */
+  #serviceDropdownMain, #industryDropdownMain, #industryDropDown, #serviceDropDown {
+    margin: 14px auto;
+    position: relative;
+    left: 0%; }
+
+  .sampleReportLabel {
+    display: none; }
+
+  sampleReportTypeSelectBox {
+    text-align: left; }
+
+  /**
+   * Header Images
+   */
+  #page_PSI .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-1-psi_[sm].jpg?v27); }
+
+  #page_PM .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/production_monitoring_[sm].jpg?v27); }
+
+  #page_DUPRO .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-3-during-production-check_[sm].jpg?v27); }
+
+  #page_IPC .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-4-initial-production-check_[sm].jpg?v27); }
+
+  #page_CLC .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/container-loading-check_[sm].jpg?v27); }
+
+  #page_FPSI .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food_inspections_[sm].jpg?v27); }
+
+  #page_SMETA .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/smetaaudit_[sm].jpg?v27); }
+
+  #page_FA .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-1-Manufacturing-Audits_[sm].jpg?v27); }
+
+  #page_CTPAT .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ctpat_[sm].png?v27); }
+
+  #page_ENVIRO .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/enviro_audit_[sm].jpg?v27); }
+
+  #page_SA .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-2-Ethical-Audits_[sm].jpg?v27); }
+
+  #page_REACH .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-1_[sm].jpg?v27); }
+
+  #page_FoodA .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food_audit_[sm].jpg?v27); }
+
+  #page_LT .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-6_[sm].jpg?v27); }
+
+  #page_FT .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food_testing_[sm].jpg?v27); }
+
+  #page_CPSIA .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-2_[sm].jpg?v27); }
+
+  #page_ROHS .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-3_[sm].jpg?v27); }
+
+  #page_softline .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-1-Softlines_[sm].jpg?v27); }
+
+  #page_hardline .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-2-Hardlines_[sm].jpg?v27); }
+
+  #page_techpart .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/technical_parts_[sm].jpg?v27); }
+
+  #page_GHP .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ghp_audit_[sm].jpg?v27); }
+
+  #page_GMP .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/gmp_audit_[sm].jpg?v27); }
+
+  #page_food .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/industry_food_[sm].jpg?v27); }
+
+  #page_food-containers .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/food-containers_[sm].jpg?v27); }
+
+  #page_meat-poultry .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/meat_[sm].jpg?v27); }
+
+  #page_food-produce .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/fruits1_[sm].jpg?v27); }
+
+  #page_seafood .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/seafood_[sm].jpg?v27); }
+
+  #page_whitePapers .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/white_papers_[sm].jpg?v27); }
+
+  #page_WhoWeAre .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/who_we_are_[sm].jpg?v27); }
+
+  #page_SampleReports .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/sample_reports_[sm].jpg?v27); }
+
+  #page_Testimonials .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/testimonials_[sm].jpg?v27); }
+
+  #page_CompanyValues .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/company_values_[sm].png?v27); }
+
+  #page_Accreditations .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/accredidation_[sm].jpg?v27); }
+
+  #page_Partners .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/partners_[sm].jpg?v27); }
+
+  #page_Pricing .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/pricing_[sm].jpg?v27); }
+
+  #page_ServiceCoverage .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/service_coverage_[sm].jpg?v27); }
+
+  #page_CareerOps .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[sm].jpg?v27); }
+
+  #page_ViewJob .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[sm].jpg?v27); }
+
+  #page_JobApplication .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[sm].jpg?v27); }
+
+  #page_News .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/news_[sm].jpg?v27); }
+
+  #page_RefSamples .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/reference_samples_[sm].jpg?v27); }
+
+  #page_vietnam .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/vietnam_[sm].jpg?v27); }
+
+  #page_bangladesh .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[sm].jpg?v27); }
+
+  #page_india .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[sm].jpg?v27); }
+
+  #page_ContactUs .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Contact_[sm].jpg?v27); }
+
+  #page_tapwater .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/tapwater_[sm].png?v27); }
+
+  #page_trainads .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/laboratory_testing_[sm].jpg?v27); }
+
+  #page_apparel .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/apparel_garment_[sm].jpg?v27); }
+
+  #page_textiles .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/textile_testing_[sm].jpg?v27); }
+
+  #page_footwear .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/footwear_[sm].jpg?v27); }
+
+  #page_toys .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/toys_[sm].jpg?v27); }
+
+  #page_promotional-products .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/promotional_products_[sm].jpg?v27); }
+
+  #page_jewelry .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/jewelry_[sm].jpg?v27); }
+
+  #page_electrical .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/electronics_[sm].jpg?v27); }
+
+  #page_cosmetics .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/cosmetics_[sm].jpg?v27); }
+
+  #page_structuralAudit .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/structural-audits_[sm].jpg?v27); }
+
+  #ethical-webinar-imageDiv {
+    background-image: url(https://s3.asiainspection.com/images/responsive/webinar2_sm.jpg?v27); }
+
+  #page_RegulatoryUpdates .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/RegulatoryUpdates_[sm].jpg?v27); }
+
+  #page_AQLstandards .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/AQL_[sm].jpg?v27); }
+
+  #page_eyewear .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/eyewear_[sm].jpg?v27); }
+
+  #page_eyewearTesting .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/eyewear_[sm].jpg?v27); }
+
+  #page_reading-glasses .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ready_spectacles_[sm].jpg?v27); }
+
+  #page_optical-lenses .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/optical_lenses_[sm].jpg?v27); }
+
+  #page_spectacle-frames .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/spectacle_frames_[sm].jpg?v27); }
+
+  #page_surveyThanks .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/thankYou_[sm].jpg?v27); }
+
+  #page_phthalate .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/phthalate_[sm].jpg?v27); }
+
+  #page_toyLabTest .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/phthalate_[sm].jpg?v27); }
+
+  #page_mobileMicro .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/mobile_micro_[sm].jpg?v27); }
+
+  #page_QCinChina .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/qc_china_[sm].jpg?v27); }
+
+  #page_inspectionservices .headerbox {
+    background-image: url(https://s3.amazonaws.com/s3.asiainspection.com/images/inspection_[sm].jpg?v27); }
+
+  #page_supplierauditprograms .headerbox {
+    background-image: url(https://s3.amazonaws.com/s3.asiainspection.com/images/audit_[sm].jpg?v27); }
+
+  #page_laboratorytesting .headerbox {
+    background-image: url(https://s3.amazonaws.com/s3.asiainspection.com/images/labtest_[sm].jpg?v27); }
+
+  #page_ASTMtoys .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/astm-toy_[sm].jpg?v27); }
+
+  #page_SASOCertification .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/SASO_[sm].jpg?v27); }
+
+  #page_view360 .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/view360_[sm].jpg?v27); }
+
+  #page_beverages .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/beverages_[sm].jpg?v27); }
+
+  #page_meat-poultry .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/meat_[sm].jpg?v27); }
+
+  #page_processed-food .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/processed_food_[sm].jpg?v27); }
+
+  #page_eye-protectors .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/eye_protectors_[sm].jpg?v27); }
+
+  #page_sports-eyewear-goggles .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/goggles_[sm].jpg?v27); }
+
+  #page_sunglasses .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/sunglasses_[sm].jpg?v27); }
+
+  #page_emailPref .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/email_prefs_[sm].jpg?v27); }
+
+  #page_PressRelease .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/barometer_[sm].jpg?v27); }
+
+  #page_caliprop65 .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/prop65_[sm].jpg?v27); }
+
+  #page_previoOrigen .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-1-psi_[sm].jpg?v27); }
+
+  #page_quality-assurance-services .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/quality_assurance_[sm].jpg?v27); }
+
+  #page_berries .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/blueberry_[sm].jpg?v27); }
+
+  #page_ILOinfographic .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/ILO_infographic_[sm].jpg?v27); }
+
+  #page_SourcingSurvey2018 .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/survey_results_[sm].jpg?v27); }
+
+  #page_BSCI .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/bsci_audit_[sm].jpg?v27); }
+
+  #page_global-supplier-search .headerbox {
+    background-image: url(https://s3.asiainspection.com/images/responsive/headerImages/globalsources_[sm].jpg?v27); }
+
+  /* India Inspections */
+  h2.indiaServices {
+    text-align: left;
+    margin-left: 29px; }
+
+  #regFooterBar {
+    display: none; }
+
+  /* Client landing page, authored by Sam Coll (samcoll@gmail.com) */
+  #client-landing .introduction {
+    text-align: center; }
+    #client-landing .introduction .intro {
+      padding-right: 0; }
+      #client-landing .introduction .intro h1, #client-landing .introduction .intro p {
+        margin-bottom: 30px; }
+  #client-landing .sidebar {
+    display: block;
+    padding: 25px 15px 50px;
+    position: relative;
+    right: 0;
+    text-align: center; }
+  #client-landing .resources h3 {
+    text-align: center; }
+  #client-landing .resources .col-resources img {
+    width: 200px; } }
+@media screen and (max-width: 500px) {
+  /* Xmas Logo [Begin]
+  #AI_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm2.png);
+      width: 271px;
+      height: 89px;
+      margin-top:0px;
+  }
+  #ChinaInspection_Logo {
+      background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_sm1.png);
+      position:relative;
+  }
+  Xmas Logo [End] */
+  #yourAccount {
+    display: none !important; }
+
+  #yourAccountSmall {
+    display: block !important; }
+
+  .otherSectionBox {
+    display: none !important; }
+
+  #contactSelect_options {
+    min-width: 100px !important; }
+
+  .navbar-brand {
+    padding-right: 0 !important; }
+
+  .smallWindowFont {
+    font-size: 12px; }
+
+  #jobAppField {
+    padding-right: 0px; }
+
+  .inputField {
+    padding-right: 0px; }
+
+  #firstName {
+    margin-left: 10%;
+    width: 92%; }
+
+  #map-bangladesh {
+    width: 100%; }
+
+  .whitePaperSmallScreen {
+    width: 98%; }
+
+  #bangladesh_map_img {
+    width: 250px; }
+
+  #footerlinksFollowIcon {
+    padding-right: 0px !important; }
+
+  .mainBlock {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    overflow-x: hidden; }
+
+  .slide-feature1 {
+    background-image: url(https://s3.asiainspection.com/images/responsive/main_right_tiny.jpg?v27);
+    background-size: cover; }
+
+  .slide-feature3 a {
+    font-size: 10px !important;
+    font-weight: normal; }
+
+  .smallButton {
+    width: 58%;
+    margin-left: 2%;
+    text-align: center; }
+
+  #ethical-webinar-headerbox {
+    height: 720px; }
+
+  #ethicalWebinarHeader {
+    margin-top: -40px !important; }
+
+  .feature3button {
+    width: 43%; }
+
+  .slide-feature4 h1 {
+    font-size: 1.9em;
+    padding: 10px; }
+  .slide-feature4 p {
+    font-size: 12px;
+    padding: 2px; }
+
+  .slide-feature9 img {
+    display: none; }
+  .slide-feature9 h2 {
+    font-size: 13px; }
+
+  .downloadSampleReport {
+    display: none; }
+
+  .downloadSampleReportLink {
+    display: block !important; }
+
+  .getInTouch {
+    width: 100%; }
+
+  .news {
+    height: 625px !important; }
+
+  #bigWidth {
+    width: 95% !important; }
+
+  #aboutUs {
+    padding-left: 0 !important; }
+
+  .phoneBox1 {
+    display: block !important; }
+
+  .phoneBox2 {
+    display: none !important; }
+
+  #FooterISO {
+    width: 300px !important; }
+
+  .displayNone {
+    display: none !important; }
+
+  #middleISO {
+    width: 95px !important;
+    margin: 2px !important; }
+
+  .spriteSeparator_h {
+    width: 280px !important; }
+
+  #footerIcon {
+    border-left: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-top: 15px; }
+
+  .footer_iso_CHB {
+    width: 95px !important;
+    margin: 2px !important; }
+
+  .spriteSeparator_h1 {
+    width: 100px; }
+
+  #firstISO {
+    width: 95px !important;
+    margin: 2px !important; }
+
+  #lastISO {
+    width: 85px !important;
+    margin: 2px !important; }
+
+  .column {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
+  .sideBoxColumn {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
+  #contentWhitePaper {
+    padding: 0px !important; }
+
+  #firstNewsSamllScreen {
+    display: block !important;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+
+  .serviceTab {
+    border-left: 1px solid #c7c8ca;
+    border-right: 1px solid #c7c8ca;
+    padding: 10px 3px 10px 3px; }
+
+  #imageShipChina {
+    display: none !important; }
+
+  .referenceSampleTitle {
+    font-size: 19px !important; }
+
+  .tabContent {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    background-color: white;
+    width: 110% !important;
+    height: 100% !important; }
+
+  .tabContainer {
+    border: none !important;
+    background-color: #E6E6E6 !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    border-radius: 0px; }
+
+  #toTop {
+    display: inline-block !important; }
+
+  #sitemapColumn {
+    width: 80%;
+    padding-left: 0px; }
+
+  .display500 {
+    display: block; }
+
+  #HoverText {
+    width: 150px !important; }
+
+  .jobdrop_divbox {
+    width: 100%;
+    margin-bottom: 5px; }
+
+  #selectJobType {
+    margin-top: 5px !important; }
+
+  #jobdrop_Type {
+    margin-bottom: 5px; }
+
+  .headerTitle {
+    position: absolute !important;
+    top: 173px !important; }
+
+  #globalTitle {
+    font-size: 16px; }
+
+  #globalSubTitle {
+    font-size: 13px; }
+
+  #applyBtn_LinkedIn {
+    width: 50%; }
+
+  #viewJob h2 {
+    font-size: 1.5em !important; }
+
+  .marginBottom500 {
+    margin-bottom: 20px; }
+
+  #paddingSideSmallScreen {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  #jobappTitle {
+    padding-bottom: 15px !important; }
+
+  .box_MobileLinks_submit {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+  #shareBtnSmall {
+    padding-top: 15px;
+    padding-left: 20px !important;
+    padding-bottom: 15px; }
+
+  .paddingZero {
+    padding: 0px !important; }
+
+  #share-this {
+    width: 100% !important; }
+
+  #gender-box {
+    width: 48px; }
+
+  #labtest {
+    padding-top: 20px; }
+
+  #leftAlignSmall {
+    text-align: left !important; }
+
+  .homeTestimonial .homeClientLogo {
+    width: 5em;
+    height: 5em; }
+    .homeTestimonial .homeClientLogo:nth-child(1), .homeTestimonial .homeClientLogo:nth-child(2), .homeTestimonial .homeClientLogo:nth-child(3), .homeTestimonial .homeClientLogo:nth-child(4) {
+      top: 0%;
+      transform: translateY(0%);
+      -webkit-transform: translateY(0%);
+      margin: 3% 4%; }
+    .homeTestimonial .homeClientLogo:nth-child(1) {
+      width: 22%; }
+    .homeTestimonial .homeClientLogo:nth-child(2) {
+      width: 22%; }
+    .homeTestimonial .homeClientLogo:nth-child(3) {
+      width: 22%; }
+    .homeTestimonial .homeClientLogo:nth-child(4) {
+      width: 66%; }
+    .homeTestimonial .homeClientLogo:nth-child(5) {
+      display: none; }
+    .homeTestimonial .homeClientLogo:nth-child(6) {
+      display: none; }
+    .homeTestimonial .homeClientLogo:nth-child(7) {
+      display: none; }
+    .homeTestimonial .homeClientLogo:nth-child(8) {
+      display: none; }
+    .homeTestimonial .homeClientLogo #homeClientLogoWrapper {
+      padding-top: 30px; }
+
+  .h3white {
+    font-size: 1.9em;
+    margin-top: 1em; }
+
+  .homeTestimonial h1 {
+    font-size: 1.19em;
+    line-height: 1.19em; }
+  .homeTestimonial .h3white {
+    font-size: 1.5em; }
+
+  .box .qcs-box-background {
+    height: 250px; }
+
+  .margin20Small {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+  #RegPopup #regLoginWrapper {
+    float: none;
+    display: block;
+    text-align: left; }
+  #RegPopup #formBlock {
+    padding: 1.2em 0em; }
+  #RegPopup #regTitleBar {
+    padding: 0px 10px;
+    margin-top: 0px; }
+    #RegPopup #regTitleBar #regLoginWrapper {
+      margin-top: 5px;
+      width: 100%; }
+      #RegPopup #regTitleBar #regLoginWrapper #regLoginButtonWrapper {
+        margin-right: 0px !important;
+        float: right;
+        position: relative;
+        top: -20px; }
+  #RegPopup #regLookingForTitleBar {
+    height: auto;
+    padding: 0px 10px;
+    margin-top: 30px; }
+    #RegPopup #regLookingForTitleBar #regLoginWrapper {
+      margin-top: 5px;
+      width: 100%; }
+      #RegPopup #regLookingForTitleBar #regLoginWrapper #regLoginButtonWrapper {
+        margin-right: 0px !important;
+        float: right;
+        position: relative;
+        top: -20px; }
+  #RegPopup #ai_responsivebundle_register_submit {
+    width: 90%;
+    margin-left: 5%; }
+
+  .overviewBanner .mainSubHeader {
+    width: 88%; }
+
+  .sampleReportsBox .displaySampleReport {
+    margin: 0px; }
+    .sampleReportsBox .displaySampleReport img {
+      height: 100%;
+      min-height: 225px; }
+  .sampleReportsBox p, .sampleReportsBox .menu-label, .sampleReportsBox .industryMenu, .sampleReportsBox .itemMenu {
+    text-align: left; }
+  .sampleReportsBox .menu-label {
+    display: block;
+    text-align: left; }
+  .sampleReportsBox #dlSampleReport {
+    padding: 6px 30px !important; }
+
+  .homePublications.col-lg-11 {
+    height: auto; }
+
+  #page_Logout #logoutConfirmText {
+    padding-left: 1em; }
+  #page_Logout #logoutPhoneImage {
+    width: 100%; }
+    #page_Logout #logoutPhoneImage img {
+      width: 45%; }
+  #page_Logout .mobileEmailSendLinks {
+    width: 100% !important; }
+
+  #regLookingfor_radioWrap {
+    margin-left: 10px; }
+
+  .RegLookingfor_marginLeftSmall {
+    padding-left: 10px !important; }
+
+  #regLookingforTitle {
+    margin-top: 10px; }
+
+  .regLookingfor_marginTopSmall {
+    margin-top: 20px; }
+
+  .col-xs-12 {
+    padding: 0px; }
+
+  #homePricingBoxWrapper {
+    margin-left: -10px;
+    margin-right: 0px; }
+
+  /* New Industry Pages Layout [Start] */
+  .industrySectionImageRight img, .industrySectionImageLeft img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px; }
+
+  /* New Industry Pages Layout [End] */
+  #registrationPopup {
+    width: 100%;
+    margin: 0px;
+    max-width: 100% !important; } }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #footerlinks {
+    width: 100%; }
+
+  #TestimonialSlider li > p {
+    margin: 0px 10px; }
+
+  #IndustryBGslider {
+    width: 100% !important; } }
+/* Temp code to see where the media query breaks are */
+@media screen and (min-width: 1401px) {
+  body:before {
+    content: "> 1400 [col-lg (col-xl)]";
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 2500;
+    bottom: 0px;
+    left: 30px;
+    font-weight: bold;
+    background-color: #c1ebff;
+    padding: 10px; } }
+@media screen and (max-width: 1400px) {
+  body:before {
+    content: "1400 [col-lg]";
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 2500;
+    bottom: 0px;
+    left: 0px;
+    font-weight: bold;
+    background-color: #c1ebff;
+    padding: 10px; } }
+@media screen and (max-width: 1200px) {
+  body:before {
+    content: "1200 [col-md]";
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 2500;
+    bottom: 0px;
+    left: 0px;
+    font-weight: bold;
+    background-color: #c1ebff;
+    padding: 10px; } }
+@media screen and (max-width: 990px) {
+  body:before {
+    content: "990 [col-sm]";
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 2500;
+    bottom: 0px;
+    left: 0px;
+    font-weight: bold;
+    background-color: #c1ebff;
+    padding: 10px; } }
+@media screen and (max-width: 850px) {
+  body:before {
+    content: "850 [col-sm]";
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 2500;
+    bottom: 0px;
+    left: 0px;
+    font-weight: bold;
+    background-color: #c1ebff;
+    padding: 10px; } }
+@media screen and (max-width: 768px) {
+  body:before {
+    content: "768 [col-xs]";
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 2500;
+    bottom: 0px;
+    left: 0px;
+    font-weight: bold;
+    background-color: #c1ebff;
+    padding: 10px; }
+
+  .navbar-right {
+    display: none !important; } }
+@media screen and (max-width: 500px) {
+  body:before {
+    content: "500 [col-xs]";
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 2500;
+    bottom: 0px;
+    left: 0px;
+    font-weight: bold;
+    background-color: #c1ebff;
+    padding: 10px; } }
+@media screen and (min-width: 768px) {
+  .navbar.floating {
+    height: 70px; }
+    .navbar.floating #AI_Logo, .navbar.floating #ChinaInspection_Logo {
+      width: 40px;
+      height: 40px;
+      background-image: url(https://s3.asiainspection.com/images/logo_AI_60x60.png?v27);
+      margin-top: 0px; }
+    .navbar.floating .navbar-header {
+      margin-top: 5px;
+      margin-left: 2%;
+      width: 30px; }
+    .navbar.floating .tab.pull-right {
+      float: left !important; }
+    .navbar.floating .navbar-right {
+      margin-top: 15px; } }

@@ -1,0 +1,9 @@
+<div id="affiliateTerms" style="padding-left:15px;padding-right:15px;font-size:13px;">
+	<p class="marginZero padding15">{{xml.topText|raw}}</p>
+	{%for section in xml.section%}
+	<h2 class="marginZero padding15">
+		{{section.title}}
+	</h2>
+		{{section.text|raw}}
+		{%endfor%}
+</div>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+
+		<en>
+			<title>Contact Us</title>
+			<aboutStudy>About This Study</aboutStudy>
+			<aboutService url="/contact-us">About Our Services</aboutService>
+		</en>
+		
+		<zh>
+			<title>联系我们</title>
+			<aboutStudy>关于这篇报道</aboutStudy>
+			<aboutService url="/contact-us">关于我们的服务</aboutService>
+		</zh>
+		
+		<fr>
+			<title>Contact</title>
+			<aboutStudy>A propos de cette étude</aboutStudy>
+			<aboutService url="/contact-us">A propos de nos services</aboutService>
+		</fr>
+		
+		<ar>
+			<title>إتصل بنا</title>
+			<aboutStudy>نبذة عن هذه الدراسة</aboutStudy>
+			<aboutService url="/contact-us">نبذة عن خدماتتنا</aboutService>
+		</ar>
+		
+		<es>
+			<title>Contacto</title>
+			<aboutStudy>Sobre este estudio</aboutStudy>
+			<aboutService url="/contacto">Sobre nuestros servicios</aboutService>
+		</es>
+		
+		<ru>
+			<title>Контакты</title>
+			<aboutStudy>Об этом исследовании</aboutStudy>
+			<aboutService url="/contact-us">О наших услугах</aboutService>
+		</ru>
+		
+		<de>
+			<title>Kontakt</title>
+			<aboutStudy>Über diese Studie</aboutStudy>
+			<aboutService url="/contact-us">Über unsere Dienstleistungen</aboutService>
+		</de>
+
+		<pt>
+			<title>Contate-nos</title>
+			<aboutStudy>Acerca deste Estudo</aboutStudy>
+			<aboutService url="/contato">Acerca dos nossos serviços</aboutService>
+		</pt>
+
+		<it>
+			<title>Contattaci</title>
+			<aboutStudy>Informazioni su Questo Studio</aboutStudy>
+			<aboutService url="/contact-us">Informazioni Sui Nostri Servizi</aboutService>
+		</it>
+
+</document>

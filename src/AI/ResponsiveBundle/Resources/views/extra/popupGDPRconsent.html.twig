@@ -1,0 +1,15 @@
+<div style="overflow-x:hidden; background-color:white !important; padding:20px; text-align:left;">
+	{# tb_show("ACTION REQUIRED","/popup/gdpr-consent/joachim.schmid@fakir.de"); #}
+	<p><b>We will no longer be able to email you without your clear and active consent. If you would like to continue hearing from AI, please click the link below.</b></p>
+	<p>This is due to a new law called the General Data Protection Regulation (GDPR) that will come into effect in the EU starting May 25th.</p>
+	<center><a href="/emailPreferences?email={{email}}&activeConsent=Yes"><button type="button" class="btn-primary btn-big" style="min-width:180px;">Continue Receiving Our Emails</button></a></center>
+	<p style="margin-top:10px;">We usually only send a couple of marketing emails per month, on topics ranging from the latest insights on supply chain issues to tradeshow announcements.</p>
+</div>
+<script type="text/javascript">
+	$("#TB_ajaxContent").css({
+		"height":"auto",
+		"width":"auto"
+	});
+	setCookie("showGDPRpopup",1,1);
+</script>
+

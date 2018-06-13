@@ -1,0 +1,46 @@
+{% extends '::account.html.twig' %}
+{%block title%}Register Now to Schedule Product Inspections, Lab Testing, and Audits | AsiaInspection{%endblock%}
+
+ {%block regLookingForTitleOverwrite%}
+            <div id="regLookingForTitleBar">
+                <font>{{xml.title}}</font>
+
+                {% set _block = block('popup_switch_button_label') %}
+                {% if _block is not empty %}
+                    <div id="regLoginWrapper">
+                        <div style="display:inline-block; padding-right:1em; color:#193B5C; font-size:1.1em;">{% block popup_switch_button_caption %}{% endblock %}</div>
+                        <div id="regLoginButtonWrapper" style="display:inline-block; margin-right:1.45em;"><a href="{% block popup_switch_button_url %}/login{% endblock %}" role="button" class="one-btn btn btn-primary btn-small">{% block popup_switch_button_label %}{% endblock %}</a></div>
+                    </div>                    
+                {% endif %}
+
+            </div>
+ {%endblock%}
+{% block popup_width %}600px{% endblock %}
+
+{% block content %}
+		<div id="reglookingfor_whatwant"  style="padding:10px; text-align:center;">
+			<div id="regLookingfor_radioWrap" style="padding-top:10px; text-align:left; display:inline-block;">
+				<input type="radio" value="collaborate" name="whatiwant" style="vertical-align:middle; margin: 3px 10px 5px 5px; box-shadow:none;">{{xml.Collaborate}}<br />
+				<input type="radio" value="information" name="whatiwant" style="vertical-align:middle;margin: 3px 10px 5px 5px;  box-shadow:none;">{{xml.Info}}<br />
+				<input type="radio" value="confirm" name="whatiwant" style="vertical-align:middle;margin: 3px 10px 5px 5px;   box-shadow:none;">{{xml.ConfirmDate}}<br />
+				<input type="radio" value="job" name="whatiwant" style="vertical-align:middle;margin: 3px 10px 5px 5px;  box-shadow:none;">{{xml.FindJob}}<br />
+				<input type="radio" value="booking" name="whatiwant" style="vertical-align:middle; margin: 3px 10px 5px 5px;  box-shadow:none;">{{xml.BookInspect}}<br />
+			</div>
+			<center>
+				<button id="reglookingforBtn" class="three-btn btn-primary" style="margin-top:15px;margin-bottom:15px;" >{{xml.submit}}</button>
+			</center>
+		</div>
+
+		<div id="reglookingfor_emailmarket" class="RegLookingfor_marginLeftSmall regLookingfor_marginTopSmall" style="padding:10px 20px 20px;text-align:left;display:none; margin-top:10px;">
+			<span>{{xml.EmailMarket|raw}}</span>
+			<span style="float:right;margin-top:30px; margin-right:20px;" ><a href="/">{{xml.HomeButton}}</a></span><div style="clear:both;"></div>
+		</div>
+		<div id="reglookingfor_confirminspect" class="RegLookingfor_marginLeftSmall regLookingfor_marginTopSmall" style="padding:10px 20px 20px;text-align:left;display:none;margin-top:10px;">
+			<span>{{xml.ConfirmEmail|raw}}</span>
+			<span style="float:right;margin-top:30px; margin-right:20px;"><a href="/">{{xml.HomeButton}}</a></span><div style="clear:both;"></div>
+		</div>
+		<div id="reglookingfor_jobposts"  class="RegLookingfor_marginLeftSmall regLookingfor_marginTopSmall" style="padding:10px 20px 20px;text-align:left;display:none;margin-top:10px;">
+			<span>{{xml.JobPosts|raw}}</span>
+			<span style="float:right;margin-top:30px; margin-right:20px;"><a href="/">{{xml.HomeButton}}</a></span><div style="clear:both;"></div>
+		</div>
+{% endblock %}

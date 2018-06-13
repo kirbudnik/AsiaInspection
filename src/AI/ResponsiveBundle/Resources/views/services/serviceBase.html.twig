@@ -1,0 +1,101 @@
+{% extends '::base.html.twig' %}
+{% block title %}Our Services {% endblock %}
+{% block pageDescription %}{% if pageDesc is defined %}{{pageDesc}}{% endif %}{% endblock %}
+{% block pageKeywords %}{% if pageKeywords is defined %}{{pageKeywords}}{% endif %}{% endblock %}
+
+{% block body %}
+<div class="headerbox">
+    <div class="container vcenter_parent wrapper">
+        <div class="col-xs-12 vcenter_parent wrapper paddingleftSmall paddingLeftRightZero">
+            <div class=" col-lg-7 col-lg-offset-1 col-xs-10 col-md-8 col-md-offset-1 col-xl-offset-0 col-xs-offset-1 vcenter_parent paddingLeftRightZero" id="bigWidth" >
+                <div class="vcenter  {% if isSafari is defined %}{% if isSafari==true %}headerTitle{% endif %}{% endif %}">
+                    <h1 class="mainHeader">{% block bigTitle %}{% endblock %}</h1>
+                    <div class="mainSubHeader"> {% block smallText %}{% endblock %}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container wrapper mainBlock">
+    <div class="col-xs-12 subMainBlock">
+        <div class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-offset-1 col-md-7 col-lg-7 col-xl-offset-0 col-xl-8 sidebox paddingLeftRightZero" >
+            {% block serviceText %}  {% endblock %}
+            {% block serviceBenefits %}  {% endblock %}
+        </div>
+        <div class="sidebox col-xs-offset-1 col-xs-10 col-sm-offset-0  col-sm-5 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
+            <div class="sidebox col-xs-12 col-md-offset-1" id="sideBoxContainer">
+                
+                <!-- Need More Information Box [Begin] -->
+                {% include 'AIResponsiveBundle:Default:NeedMoreInfo.html.twig' %}
+                <!-- Need More Information Box [End] -->
+
+                {% block offerbox %}
+                    {% include 'AIResponsiveBundle:Default:PricingBox.html.twig' %}
+                {% endblock %}
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block serviceCoverage %}
+    <div id="globalNetworkBox" class="text-center vcenter_parent" style="background-color:white; width:100%; height:350px;">
+        <div class="wrapper container vcenter_parent serviceCoverageBlock" >
+            <div class="vcenter_parent" style="width:100%;">
+                <div class="vcenter container">
+                    <h3  id="globalTitle">{{global.title}}</h3>
+                    <div class="col-lg-6 col-lg-offset-3">
+                        <p id="globalSubTitle" >{{global.pgph|trans}}</p>
+                        <a href="/quality-control-coverage">{{global.clickMap}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% if type is defined %}
+    {% if type == "PSI" %}<img src="{{assetsDomain}}/images/responsive/headerImages/Services-Inspections-1-psi_[lg].jpg" alt="Pre-Shipment Inspection – PSI | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "PM" %}<img src="{{assetsDomain}}/images/responsive/headerImages/production_monitoring_[lg].jpg" alt="Production Monitoring | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "DUPRO" %}<img src="{{assetsDomain}}/images/responsive/headerImages/Services-Inspections-3-during-production-check_[lg].jpg" alt="During Production Check – DUPRO | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "IPC" %}<img src="{{assetsDomain}}/images/responsive/headerImages/Services-Inspections-4-initial-production-check_[lg].jpg" alt="Initial Production Check | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "CLC" %}<img src="{{assetsDomain}}/images/responsive/headerImages/container-loading-check_[lg].jpg" alt="Container Loading Check – CLC | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "FPSI" %}<img src="{{assetsDomain}}/images/responsive/headerImages/food_inspections_[lg].jpg" alt="Food Inspection Services – Quality & Safety | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "FA" %}<img src="{{assetsDomain}}/images/responsive/headerImages/Services-Audits-1-Manufacturing-Audits_[lg].jpg" alt="Manufacturing Audit | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "SA" %}<img src="{{assetsDomain}}/images/responsive/headerImages/Services-Audits-2-Ethical-Audits_[lg].jpg" alt="Ethical (Social) Audits | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "CTPAT" %}<img src="{{assetsDomain}}/images/responsive/headerImages/ctpat_[lg].png" alt="C-TPAT Audit & Compliance | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "FoodA" %}<img src="{{assetsDomain}}/images/responsive/headerImages/food_audit_[lg].jpg" alt="Third Party Food Safety Audits & Reports | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "ENVIRO" %}<img src="{{assetsDomain}}/images/responsive/headerImages/enviro_audit_[lg].jpg" alt="Environmental Audits | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "structuralAudit" %}<img src="{{assetsDomain}}/images/responsive/headerImages/structural-audits_[lg].jpg" alt="Structural Audits | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "GHP" %}<img src="{{assetsDomain}}/images/responsive/headerImages/ghp_audit_[lg].jpg" alt="GHP Audits – Good Hygiene Practices for Food Industry | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "GMP" %}<img src="{{assetsDomain}}/images/responsive/headerImages/gmp_audit_[lg].jpg" alt="GMP Compliance Audits for Food Industry | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "food" %}<img src="{{assetsDomain}}/images/responsive/headerImages/industry_food_[lg].jpg" alt="AsiaInspection Food Safety Testing – Quality Control for Food Products" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "food-containers" %}<img src="{{assetsDomain}}/images/responsive/headerImages/food-containers_[lg].jpg" alt="Food Packaging Audits & Inspection | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "meat-poultry" %}<img src="{{assetsDomain}}/images/responsive/headerImages/meat-poultry_[lg].jpg" alt="Poultry Tests & Inspections | AsiaInspection – Meat Testing Laboratories" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "food-produce" %}<img src="{{assetsDomain}}/images/responsive/headerImages/fruits1_[lg].jpg" alt="Fresh Produce Inspections | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "seafood" %}<img src="{{assetsDomain}}/images/responsive/headerImages/seafood_[lg].jpg" alt="Seafood Tests & Inspections | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "processed-food" %}<img src="{{assetsDomain}}/images/responsive/headerImages/processed_food_[lg].jpg" alt="Food Processing Quality Control | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "beverages" %}<img src="{{assetsDomain}}/images/responsive/headerImages/beverages_[lg].jpg" alt="Beverage Testing & Quality Control | AsiaInspection – Safety Standards Experts" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "inspection_services" %}<img src="{{assetsDomain}}/images/responsive/headerImages/beverages_[lg].jpg" alt="Product Inspection Services | AsiaInspection – Manufacturing Quality Control" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "supplier_audit_programs" %}<img src="{{assetsDomain}}/images/audit_[lg].jpg" alt="Supplier Quality Audit Program | AsiaInspection – Supply Chain Audits" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "sunglasses" %}<img src="{{assetsDomain}}/images/responsive/headerImages/sunglasses_[lg].jpg" alt="Sunglasses Inspections & Testing | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "eye-protectors" %}<img src="{{assetsDomain}}/images/responsive/headerImages/eye_protectors_[lg].jpg" alt="Inspections & Tests for Safety Glasses / Goggles | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "sports-eyewear-goggles" %}<img src="{{assetsDomain}}/images/responsive/headerImages/goggles_[lg].jpg" alt="Sports Eyewear Testing & Inspections | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% if type == "LAB" %}    
+        {% if labType == "LT" %}<img src="{{assetsDomain}}/images/responsive/headerImages/Services-Lab-Testing-6_[lg].jpg" alt="Laboratory Testing Services | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" /><img src="{{assetsDomain}}/images/responsive/lab-testing-map.png" alt="AsiaInspection Lab Testing Coverage" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if labType == "FT" %}<img src="{{assetsDomain}}/images/responsive/headerImages/food_testing_[lg].jpg" alt="AsiaInspection Food Testing Laboratory – Food Quality Labs" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if labType == "CPSIA" %}<img src="{{assetsDomain}}/images/responsive/headerImages/Services-Lab-Testing-2_[lg].jpg" alt="CPSIA Testing – Consumer Product Safety Improvement Act | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if labType == "REACH" %}<img src="{{assetsDomain}}/images/responsive/headerImages/Services-Lab-Testing-1_[lg].jpg" alt="REACH Compliance Testing – Registration, Evaluation, Authorization and restriction of Chemicals" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+        {% if labType == "ROHS" %}<img src="{{assetsDomain}}/images/responsive/headerImages/Services-Lab-Testing-3_[lg].jpg" alt="RoHS Compliance Certification & Testing | AsiaInspection" style="position:absolute; top:-5000px; z-index:-1000" />{% endif %}
+    {% endif %}
+{% endif %}
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts  '@AIResponsiveBundle/Resources/public/js/industryFixedMenu_v2.js' filter='?uglifyjs2' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

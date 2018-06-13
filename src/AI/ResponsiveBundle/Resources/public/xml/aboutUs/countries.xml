@@ -1,0 +1,2083 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+
+	<Afghanistan>
+		<name>Afghanistan</name>
+		<iso2>AF</iso2>
+		<iso3>AFG</iso3>
+		<phone>93</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Afghanistan>
+
+	<Albania>
+		<name>Albania</name>
+		<iso2>AL</iso2>
+		<iso3>ALB</iso3>
+		<phone>355</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Albania>
+
+	<Algeria>
+		<name>Algeria</name>
+		<iso2>DZ</iso2>
+		<iso3>DZA</iso3>
+		<phone>213</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Algeria>
+
+	<American-Samoa>
+		<name>American Samoa</name>
+		<iso2>AS</iso2>
+		<iso3>ASM</iso3>
+		<phone>1 684</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</American-Samoa>
+
+	<Andorra>
+		<name>Andorra</name>
+		<iso2>AD</iso2>
+		<iso3>AND</iso3>
+		<phone>376</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Andorra>
+
+	<Angola>
+		<name>Angola</name>
+		<iso2>AO</iso2>
+		<iso3>AGO</iso3>
+		<phone>244</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Angola>
+
+	<Anguilla>
+		<name>Anguilla</name>
+		<iso2>AI</iso2>
+		<iso3>AIA</iso3>
+		<phone>1 264</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Anguilla>
+
+	<Antigua-and-Barbuda>
+		<name>Antigua and Barbuda</name>
+		<iso2>AG</iso2>
+		<iso3>ATG</iso3>
+		<phone>1 268</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Antigua-and-Barbuda>
+
+	<Argentina>
+		<name>Argentina</name>
+		<iso2>AR</iso2>
+		<iso3>ARG</iso3>
+		<phone>54</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Argentina>
+
+	<Armenia>
+		<name>Armenia</name>
+		<iso2>AM</iso2>
+		<iso3>ARM</iso3>
+		<phone>374</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Armenia>
+
+	<Aruba>
+		<name>Aruba</name>
+		<iso2>AW</iso2>
+		<iso3>ABW</iso3>
+		<phone>297</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Aruba>
+
+	<Australia>
+		<name>Australia</name>
+		<iso2>AU</iso2>
+		<iso3>AUS</iso3>
+		<phone>61</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Australia>
+
+	<Austria>
+		<name>Austria</name>
+		<iso2>AT</iso2>
+		<iso3>AUT</iso3>
+		<phone>43</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Austria>
+
+	<Azerbaijan>
+		<name>Azerbaijan</name>
+		<iso2>AZ</iso2>
+		<iso3>AZE</iso3>
+		<phone>994</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Azerbaijan>
+
+	<Bahamas>
+		<name>Bahamas</name>
+		<iso2>BS</iso2>
+		<iso3>BHS</iso3>
+		<phone>1 242</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Bahamas>
+
+	<Bahrain>
+		<name>Bahrain</name>
+		<iso2>BH</iso2>
+		<iso3>BHR</iso3>
+		<phone>973</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Bahrain>
+
+	<Bangladesh>
+		<name>Bangladesh</name>
+		<iso2>BD</iso2>
+		<iso3>BGD</iso3>
+		<phone>880</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Bangladesh>
+
+	<Barbados>
+		<name>Barbados</name>
+		<iso2>BB</iso2>
+		<iso3>BRB</iso3>
+		<phone>1 246</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Barbados>
+
+	<Belarus>
+		<name>Belarus</name>
+		<iso2>BY</iso2>
+		<iso3>BLR</iso3>
+		<phone>375</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Belarus>
+
+	<Belgium>
+		<name>Belgium</name>
+		<iso2>BE</iso2>
+		<iso3>BEL</iso3>
+		<phone>32</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Belgium>
+
+	<Belize>
+		<name>Belize</name>
+		<iso2>BZ</iso2>
+		<iso3>BLZ</iso3>
+		<phone>501</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Belize>
+
+	<Benin>
+		<name>Benin</name>
+		<iso2>BJ</iso2>
+		<iso3>BEN</iso3>
+		<phone>229</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Benin>
+
+	<Bermuda>
+		<name>Bermuda</name>
+		<iso2>BM</iso2>
+		<iso3>BMU</iso3>
+		<phone>1 441</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Bermuda>
+
+	<Bhutan>
+		<name>Bhutan</name>
+		<iso2>BT</iso2>
+		<iso3>BTN</iso3>
+		<phone>975</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Bhutan>
+
+	<Bolivia>
+		<name>Bolivia</name>
+		<iso2>BO</iso2>
+		<iso3>BOL</iso3>
+		<phone>591</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Bolivia>
+
+	<Bosnia-and-Herzegovina>
+		<name>Bosnia and Herzegovina</name>
+		<iso2>BA</iso2>
+		<iso3>BIH</iso3>
+		<phone>387</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Bosnia-and-Herzegovina>
+
+	<Botswana>
+		<name>Botswana</name>
+		<iso2>BW</iso2>
+		<iso3>BWA</iso3>
+		<phone>267</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Botswana>
+
+	<Brazil>
+		<name>Brazil</name>
+		<iso2>BR</iso2>
+		<iso3>BRA</iso3>
+		<phone>55</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Brazil>
+
+	<British-Indian-Ocean-Territory>
+		<name>British Indian Ocean Territory</name>
+		<iso2>IO</iso2>
+		<iso3>IOT</iso3>
+		<phone>246</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</British-Indian-Ocean-Territory>
+
+	<British-Virgin-Islands>
+		<name>British Virgin Islands</name>
+		<iso2>VG</iso2>
+		<iso3>VGB</iso3>
+		<phone>1 284</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</British-Virgin-Islands>
+
+	<Brunei>
+		<name>Brunei</name>
+		<iso2>BN</iso2>
+		<iso3>BRN</iso3>
+		<phone>673</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Brunei>
+
+	<Bulgaria>
+		<name>Bulgaria</name>
+		<iso2>BG</iso2>
+		<iso3>BGR</iso3>
+		<phone>359</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Bulgaria>
+
+	<Burkina-Faso>
+		<name>Burkina Faso</name>
+		<iso2>BF</iso2>
+		<iso3>BFA</iso3>
+		<phone>226</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Burkina-Faso>
+
+	<Burundi>
+		<name>Burundi</name>
+		<iso2>BI</iso2>
+		<iso3>BDI</iso3>
+		<phone>257</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Burundi>
+
+	<Cambodia>
+		<name>Cambodia</name>
+		<iso2>KH</iso2>
+		<iso3>KHM</iso3>
+		<phone>855</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Cambodia>
+
+	<Cameroon>
+		<name>Cameroon</name>
+		<iso2>CM</iso2>
+		<iso3>CMR</iso3>
+		<phone>237</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Cameroon>
+
+	<Canada>
+		<name>Canada</name>
+		<iso2>CA</iso2>
+		<iso3>CAN</iso3>
+		<phone>1</phone>
+		<inspectPrice>800</inspectPrice>
+		<auditPrice>1100</auditPrice>
+	</Canada>
+
+	<Cape-Verde>
+		<name>Cape Verde</name>
+		<iso2>CV</iso2>
+		<iso3>CPV</iso3>
+		<phone>238</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Cape-Verde>
+
+	<Cayman-Islands>
+		<name>Cayman Islands</name>
+		<iso2>KY</iso2>
+		<iso3>CYM</iso3>
+		<phone>1 345</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Cayman-Islands>
+
+	<Central-African-Republic>
+		<name>Central African Republic</name>
+		<iso2>CF</iso2>
+		<iso3>CAF</iso3>
+		<phone>236</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Central-African-Republic>
+
+	<Chad>
+		<name>Chad</name>
+		<iso2>TD</iso2>
+		<iso3>TCD</iso3>
+		<phone>235</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Chad>
+
+	<Chile>
+		<name>Chile</name>
+		<iso2>CL</iso2>
+		<iso3>CHL</iso3>
+		<phone>56</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Chile>
+
+	<China>
+		<name>China</name>
+		<iso2>CN</iso2>
+		<iso3>CHN</iso3>
+		<phone>86</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</China>
+
+	<Christmas-Island>
+		<name>Christmas Island</name>
+		<iso2>CX</iso2>
+		<iso3>CXR</iso3>
+		<phone>61</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Christmas-Island>
+
+	<Cocos-Keeling-Islands>
+		<name>Cocos-Keeling Islands</name>
+		<iso2>CC</iso2>
+		<iso3>CCK</iso3>
+		<phone>61</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Cocos-Keeling-Islands>
+
+	<Colombia>
+		<name>Colombia</name>
+		<iso2>CO</iso2>
+		<iso3>COL</iso3>
+		<phone>57</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Colombia>
+
+	<Comoros>
+		<name>Comoros</name>
+		<iso2>KM</iso2>
+		<iso3>COM</iso3>
+		<phone>269</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Comoros>
+
+	<Congo>
+		<name>Congo</name>
+		<iso2>CG</iso2>
+		<iso3>COG</iso3>
+		<phone>242</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Congo>
+
+	<Cook-Islands>
+		<name>Cook Islands</name>
+		<iso2>CK</iso2>
+		<iso3>COK</iso3>
+		<phone>682</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Cook-Islands>
+
+	<Costa-Rica>
+		<name>Costa Rica</name>
+		<iso2>CR</iso2>
+		<iso3>CRI</iso3>
+		<phone>506</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Costa-Rica>
+
+	<Ivory-Coast>
+		<name>Ivory Coast</name>
+		<iso2>CI</iso2>
+		<iso3>CIV</iso3>
+		<phone>225</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Ivory-Coast>
+
+	<Croatia>
+		<name>Croatia</name>
+		<iso2>HR</iso2>
+		<iso3>HRV</iso3>
+		<phone>385</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Croatia>
+
+	<Cuba>
+		<name>Cuba</name>
+		<iso2>CU</iso2>
+		<iso3>CUB</iso3>
+		<phone>53</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Cuba>
+
+	<Curacao>
+		<name>Curacao</name>
+		<iso2>CW</iso2>
+		<iso3>CUW</iso3>
+		<phone>599</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Curacao>
+
+	<Cyprus>
+		<name>Cyprus</name>
+		<iso2>CY</iso2>
+		<iso3>CYP</iso3>
+		<phone>357</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Cyprus>
+
+	<Czech-Republic>
+		<name>Czech Republic</name>
+		<iso2>CZ</iso2>
+		<iso3>CZE</iso3>
+		<phone>420</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Czech-Republic>
+
+	<Denmark>
+		<name>Denmark</name>
+		<iso2>DK</iso2>
+		<iso3>DNK</iso3>
+		<phone>45</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Denmark>
+
+	<Diego-Garcia>
+		<name>Diego Garcia</name>
+		<iso2>DG</iso2>
+		<iso3>DGA</iso3>
+		<phone>246</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Diego-Garcia>
+
+	<Djibouti>
+		<name>Djibouti</name>
+		<iso2>DJ</iso2>
+		<iso3>DJI</iso3>
+		<phone>253</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Djibouti>
+
+	<Dominica>
+		<name>Dominica</name>
+		<iso2>DM</iso2>
+		<iso3>DMA</iso3>
+		<phone>1 767</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Dominica>
+
+	<Dominican-Republic>
+		<name>Dominican Republic</name>
+		<iso2>DO</iso2>
+		<iso3>DOM</iso3>
+		<phone>1 809</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Dominican-Republic>
+
+	<Ecuador>
+		<name>Ecuador</name>
+		<iso2>EC</iso2>
+		<iso3>ECU</iso3>
+		<phone>593</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Ecuador>
+
+	<Egypt>
+		<name>Egypt</name>
+		<iso2>EG</iso2>
+		<iso3>EGY</iso3>
+		<phone>20</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Egypt>
+
+	<El-Salvador>
+		<name>El Salvador</name>
+		<iso2>SV</iso2>
+		<iso3>SLV</iso3>
+		<phone>503</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</El-Salvador>
+
+	<Equatorial-Guinea>
+		<name>Equatorial Guinea</name>
+		<iso2>GQ</iso2>
+		<iso3>GNQ</iso3>
+		<phone>240</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Equatorial-Guinea>
+
+	<Eritrea>
+		<name>Eritrea</name>
+		<iso2>ER</iso2>
+		<iso3>ERI</iso3>
+		<phone>291</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Eritrea>
+
+	<Estonia>
+		<name>Estonia</name>
+		<iso2>EE</iso2>
+		<iso3>EST</iso3>
+		<phone>372</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Estonia>
+
+	<Ethiopia>
+		<name>Ethiopia</name>
+		<iso2>ET</iso2>
+		<iso3>ETH</iso3>
+		<phone>251</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Ethiopia>
+
+	<Falkland-Islands>
+		<name>Falkland Islands</name>
+		<iso2>FK</iso2>
+		<iso3>FLK</iso3>
+		<phone>500</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Falkland-Islands>
+
+	<Faroe-Islands>
+		<name>Faroe Islands</name>
+		<iso2>FO</iso2>
+		<iso3>FRO</iso3>
+		<phone>298</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Faroe-Islands>
+
+	<Fiji>
+		<name>Fiji</name>
+		<iso2>FJ</iso2>
+		<iso3>FJI</iso3>
+		<phone>679</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Fiji>
+
+	<Finland>
+		<name>Finland</name>
+		<iso2>FI</iso2>
+		<iso3>FIN</iso3>
+		<phone>358</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Finland>
+
+	<France>
+		<name>France</name>
+		<iso2>FR</iso2>
+		<iso3>FRA</iso3>
+		<phone>33</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</France>
+
+	<French-Guiana>
+		<name>French Guiana</name>
+		<iso2>GF</iso2>
+		<iso3>GUF</iso3>
+		<phone>594</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</French-Guiana>
+
+	<French-Polynesia>
+		<name>French Polynesia</name>
+		<iso2>PF</iso2>
+		<iso3>PYF</iso3>
+		<phone>689</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</French-Polynesia>
+
+	<Gabon>
+		<name>Gabon</name>
+		<iso2>GA</iso2>
+		<iso3>GAB</iso3>
+		<phone>241</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Gabon>
+
+	<Gambia>
+		<name>Gambia</name>
+		<iso2>GM</iso2>
+		<iso3>GMB</iso3>
+		<phone>220</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Gambia>
+
+	<Georgia>
+		<name>Georgia</name>
+		<iso2>GE</iso2>
+		<iso3>GEO</iso3>
+		<phone>995</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Georgia>
+
+	<Germany>
+		<name>Germany</name>
+		<iso2>DE</iso2>
+		<iso3>DEU</iso3>
+		<phone>49</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Germany>
+
+	<Ghana>
+		<name>Ghana</name>
+		<iso2>GH</iso2>
+		<iso3>GHA</iso3>
+		<phone>233</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Ghana>
+
+	<Gibraltar>
+		<name>Gibraltar</name>
+		<iso2>GI</iso2>
+		<iso3>GIB</iso3>
+		<phone>350</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Gibraltar>
+
+	<Greece>
+		<name>Greece</name>
+		<iso2>GR</iso2>
+		<iso3>GRC</iso3>
+		<phone>30</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Greece>
+
+	<Greenland>
+		<name>Greenland</name>
+		<iso2>GL</iso2>
+		<iso3>GRL</iso3>
+		<phone>299</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Greenland>
+
+	<Grenada>
+		<name>Grenada</name>
+		<iso2>GD</iso2>
+		<iso3>GRD</iso3>
+		<phone>1 473</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Grenada>
+
+	<Guadeloupe>
+		<name>Guadeloupe</name>
+		<iso2>GP</iso2>
+		<iso3>GLP</iso3>
+		<phone>590</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Guadeloupe>
+
+	<Guam>
+		<name>Guam</name>
+		<iso2>GU</iso2>
+		<iso3>GUM</iso3>
+		<phone>1 671</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Guam>
+
+	<Guatemala>
+		<name>Guatemala</name>
+		<iso2>GT</iso2>
+		<iso3>GTM</iso3>
+		<phone>502</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Guatemala>
+
+	<Guinea>
+		<name>Guinea</name>
+		<iso2>GN</iso2>
+		<iso3>GIN</iso3>
+		<phone>224</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Guinea>
+
+	<Guinea-Bissau>
+		<name>Guinea-Bissau</name>
+		<iso2>GW</iso2>
+		<iso3>GNB</iso3>
+		<phone>245</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Guinea-Bissau>
+
+	<Guyana>
+		<name>Guyana</name>
+		<iso2>GY</iso2>
+		<iso3>GUY</iso3>
+		<phone>592</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Guyana>
+
+	<Haiti>
+		<name>Haiti</name>
+		<iso2>HT</iso2>
+		<iso3>HTI</iso3>
+		<phone>509</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Haiti>
+
+	<Honduras>
+		<name>Honduras</name>
+		<iso2>HN</iso2>
+		<iso3>HND</iso3>
+		<phone>504</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Honduras>
+
+	<Hong-Kong>
+		<name>Hong Kong SAR China</name>
+		<iso2>HK</iso2>
+		<iso3>HKG</iso3>
+		<phone>852</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Hong-Kong>
+
+	<Hungary>
+		<name>Hungary</name>
+		<iso2>HU</iso2>
+		<iso3>HUN</iso3>
+		<phone>36</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Hungary>
+
+	<Iceland>
+		<name>Iceland</name>
+		<iso2>IS</iso2>
+		<iso3>ISL</iso3>
+		<phone>354</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Iceland>
+
+	<India>
+		<name>India</name>
+		<iso2>IN</iso2>
+		<iso3>IND</iso3>
+		<phone>91</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</India>
+
+	<Indonesia>
+		<name>Indonesia</name>
+		<iso2>ID</iso2>
+		<iso3>IDN</iso3>
+		<phone>62</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Indonesia>
+
+	<Iran>
+		<name>Iran</name>
+		<iso2>IR</iso2>
+		<iso3>IRN</iso3>
+		<phone>98</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Iran>
+
+	<Iraq>
+		<name>Iraq</name>
+		<iso2>IQ</iso2>
+		<iso3>IRQ</iso3>
+		<phone>964</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Iraq>
+
+	<Ireland>
+		<name>Ireland</name>
+		<iso2>IE</iso2>
+		<iso3>IRL</iso3>
+		<phone>353</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Ireland>
+
+	<Israel>
+		<name>Israel</name>
+		<iso2>IL</iso2>
+		<iso3>ISR</iso3>
+		<phone>972</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Israel>
+
+	<Italy>
+		<name>Italy</name>
+		<iso2>IT</iso2>
+		<iso3>ITA</iso3>
+		<phone>39</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Italy>
+
+	<Jamaica>
+		<name>Jamaica</name>
+		<iso2>JM</iso2>
+		<iso3>JAM</iso3>
+		<phone>1 876</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Jamaica>
+
+	<Japan>
+		<name>Japan</name>
+		<iso2>JP</iso2>
+		<iso3>JPN</iso3>
+		<phone>81</phone>
+		<inspectPrice>1200</inspectPrice>
+		<auditPrice>1220</auditPrice>
+	</Japan>
+
+	<Jordan>
+		<name>Jordan</name>
+		<iso2>JO</iso2>
+		<iso3>JOR</iso3>
+		<phone>962</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Jordan>
+
+	<Kazakhstan>
+		<name>Kazakhstan</name>
+		<iso2>KZ</iso2>
+		<iso3>KAZ</iso3>
+		<phone>7 6</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Kazakhstan>
+
+	<Kenya>
+		<name>Kenya</name>
+		<iso2>KE</iso2>
+		<iso3>KEN</iso3>
+		<phone>254</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Kenya>
+
+	<Kiribati>
+		<name>Kiribati</name>
+		<iso2>KI</iso2>
+		<iso3>KIR</iso3>
+		<phone>686</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Kiribati>
+
+	<Kosovo>
+		<name>Kosovo</name>
+		<iso2>XK</iso2>
+		<iso3>XKX</iso3>
+		<phone>383</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Kosovo>
+
+	<South-Korea>
+		<name>South Korea</name>
+		<iso2>KR</iso2>
+		<iso3>KOR</iso3>
+		<phone>82</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</South-Korea>
+
+	<Kuwait>
+		<name>Kuwait</name>
+		<iso2>KW</iso2>
+		<iso3>KWT</iso3>
+		<phone>965</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Kuwait>
+
+	<Kyrgyzstan>
+		<name>Kyrgyzstan</name>
+		<iso2>KG</iso2>
+		<iso3>KGZ</iso3>
+		<phone>996</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Kyrgyzstan>
+
+	<Laos>
+		<name>Laos</name>
+		<iso2>LA</iso2>
+		<iso3>LAO</iso3>
+		<phone>856</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Laos>
+
+	<Latvia>
+		<name>Latvia</name>
+		<iso2>LV</iso2>
+		<iso3>LVA</iso3>
+		<phone>371</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Latvia>
+
+	<Lebanon>
+		<name>Lebanon</name>
+		<iso2>LB</iso2>
+		<iso3>LBN</iso3>
+		<phone>961</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Lebanon>
+
+	<Lesotho>
+		<name>Lesotho</name>
+		<iso2>LS</iso2>
+		<iso3>LSO</iso3>
+		<phone>266</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Lesotho>
+
+	<Liberia>
+		<name>Liberia</name>
+		<iso2>LR</iso2>
+		<iso3>LBR</iso3>
+		<phone>231</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Liberia>
+
+	<Libya>
+		<name>Libya</name>
+		<iso2>LY</iso2>
+		<iso3>LBY</iso3>
+		<phone>218</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Libya>
+
+	<Liechtenstein>
+		<name>Liechtenstein</name>
+		<iso2>LI</iso2>
+		<iso3>LIE</iso3>
+		<phone>423</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Liechtenstein>
+
+	<Lithuania>
+		<name>Lithuania</name>
+		<iso2>LT</iso2>
+		<iso3>LTU</iso3>
+		<phone>370</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Lithuania>
+
+	<Luxembourg>
+		<name>Luxembourg</name>
+		<iso2>LU</iso2>
+		<iso3>LUX</iso3>
+		<phone>352</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Luxembourg>
+
+	<Macau-SAR-China>
+		<name>Macau SAR China</name>
+		<iso2>MO</iso2>
+		<iso3>MAC</iso3>
+		<phone>853</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Macau-SAR-China>
+
+	<Macedonia>
+		<name>Macedonia</name>
+		<iso2>MK</iso2>
+		<iso3>MKD</iso3>
+		<phone>389</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Macedonia>
+
+	<Madagascar>
+		<name>Madagascar</name>
+		<iso2>MG</iso2>
+		<iso3>MDG</iso3>
+		<phone>261</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Madagascar>
+
+	<Malawi>
+		<name>Malawi</name>
+		<iso2>MW</iso2>
+		<iso3>MWI</iso3>
+		<phone>265</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Malawi>
+
+	<Malaysia>
+		<name>Malaysia</name>
+		<iso2>MY</iso2>
+		<iso3>MYS</iso3>
+		<phone>60</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Malaysia>
+
+	<Maldives>
+		<name>Maldives</name>
+		<iso2>MV</iso2>
+		<iso3>MDV</iso3>
+		<phone>960</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Maldives>
+
+	<Mali>
+		<name>Mali</name>
+		<iso2>ML</iso2>
+		<iso3>MLI</iso3>
+		<phone>223</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Mali>
+
+	<Malta>
+		<name>Malta</name>
+		<iso2>MT</iso2>
+		<iso3>MLT</iso3>
+		<phone>356</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Malta>
+
+	<Marshall-Islands>
+		<name>Marshall Islands</name>
+		<iso2>MH</iso2>
+		<iso3>MHL</iso3>
+		<phone>692</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Marshall-Islands>
+
+	<Martinique>
+		<name>Martinique</name>
+		<iso2>MQ</iso2>
+		<iso3>MTQ</iso3>
+		<phone>596</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Martinique>
+
+	<Mauritania>
+		<name>Mauritania</name>
+		<iso2>MR</iso2>
+		<iso3>MRT</iso3>
+		<phone>222</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Mauritania>
+
+	<Mauritius>
+		<name>Mauritius</name>
+		<iso2>MU</iso2>
+		<iso3>MUS</iso3>
+		<phone>230</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Mauritius>
+
+	<Mayotte>
+		<name>Mayotte</name>
+		<iso2>YT</iso2>
+		<iso3>MYT</iso3>
+		<phone>262</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Mayotte>
+
+	<Mexico>
+		<name>Mexico</name>
+		<iso2>MX</iso2>
+		<iso3>MEX</iso3>
+		<phone>52</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Mexico>
+
+	<Micronesia>
+		<name>Micronesia</name>
+		<iso2>FM</iso2>
+		<iso3>FSM</iso3>
+		<phone>691</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Micronesia>
+
+	<Moldova>
+		<name>Moldova</name>
+		<iso2>MD</iso2>
+		<iso3>MDA</iso3>
+		<phone>373</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Moldova>
+
+	<Monaco>
+		<name>Monaco</name>
+		<iso2>MC</iso2>
+		<iso3>MCO</iso3>
+		<phone>377</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Monaco>
+
+	<Mongolia>
+		<name>Mongolia</name>
+		<iso2>MN</iso2>
+		<iso3>MNG</iso3>
+		<phone>976</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Mongolia>
+
+	<Montenegro>
+		<name>Montenegro</name>
+		<iso2>ME</iso2>
+		<iso3>MNE</iso3>
+		<phone>382</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Montenegro>
+
+	<Montserrat>
+		<name>Montserrat</name>
+		<iso2>MS</iso2>
+		<iso3>MSR</iso3>
+		<phone>1 664</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Montserrat>
+
+	<Morocco>
+		<name>Morocco</name>
+		<iso2>MA</iso2>
+		<iso3>MAR</iso3>
+		<phone>212</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Morocco>
+
+	<Mozambique>
+		<name>Mozambique</name>
+		<iso2>MZ</iso2>
+		<iso3>MOZ</iso3>
+		<phone>258</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Mozambique>
+
+	<Myanmar>
+		<name>Myanmar</name>
+		<iso2>MM</iso2>
+		<iso3>MMR</iso3>
+		<phone>95</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Myanmar>
+
+	<Namibia>
+		<name>Namibia</name>
+		<iso2>NA</iso2>
+		<iso3>NAM</iso3>
+		<phone>264</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Namibia>
+
+	<Nauru>
+		<name>Nauru</name>
+		<iso2>NR</iso2>
+		<iso3>NRU</iso3>
+		<phone>674</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Nauru>
+
+	<Nepal>
+		<name>Nepal</name>
+		<iso2>NP</iso2>
+		<iso3>NPL</iso3>
+		<phone>977</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Nepal>
+
+	<Netherlands>
+		<name>Netherlands</name>
+		<iso2>NL</iso2>
+		<iso3>NLD</iso3>
+		<phone>31</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Netherlands>
+
+	<Netherlands-Antilles>
+		<name>Netherlands Antilles</name>
+		<iso2>AN</iso2>
+		<iso3>ANT</iso3>
+		<phone>599</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Netherlands-Antilles>
+
+	<New-Caledonia>
+		<name>New Caledonia</name>
+		<iso2>NC</iso2>
+		<iso3>NCL</iso3>
+		<phone>687</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</New-Caledonia>
+
+	<New-Zealand>
+		<name>New Zealand</name>
+		<iso2>NZ</iso2>
+		<iso3>NZL</iso3>
+		<phone>64</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</New-Zealand>
+
+	<Nicaragua>
+		<name>Nicaragua</name>
+		<iso2>NI</iso2>
+		<iso3>NIC</iso3>
+		<phone>505</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Nicaragua>
+
+	<Niger>
+		<name>Niger</name>
+		<iso2>NE</iso2>
+		<iso3>NER</iso3>
+		<phone>227</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Niger>
+
+	<Nigeria>
+		<name>Nigeria</name>
+		<iso2>NG</iso2>
+		<iso3>NGA</iso3>
+		<phone>234</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Nigeria>
+
+	<Niue>
+		<name>Niue</name>
+		<iso2>NU</iso2>
+		<iso3>NIU</iso3>
+		<phone>683</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Niue>
+
+	<Norfolk-Island>
+		<name>Norfolk Island</name>
+		<iso2>NF</iso2>
+		<iso3>NFK</iso3>
+		<phone>672</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Norfolk-Island>
+
+	<Northern-Mariana-Islands>
+		<name>Northern Mariana Islands</name>
+		<iso2>MP</iso2>
+		<iso3>MNP</iso3>
+		<phone>1 670</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Northern-Mariana-Islands>
+
+	<Norway>
+		<name>Norway</name>
+		<iso2>NO</iso2>
+		<iso3>NOR</iso3>
+		<phone>47</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Norway>
+
+	<Oman>
+		<name>Oman</name>
+		<iso2>OM</iso2>
+		<iso3>OMN</iso3>
+		<phone>968</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Oman>
+
+	<Pakistan>
+		<name>Pakistan</name>
+		<iso2>PK</iso2>
+		<iso3>PAK</iso3>
+		<phone>92</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Pakistan>
+
+	<Palau>
+		<name>Palau</name>
+		<iso2>PW</iso2>
+		<iso3>PLW</iso3>
+		<phone>680</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Palau>
+
+	<Palestinian-Territory>
+		<name>Palestinian Territory</name>
+		<iso2>PS</iso2>
+		<iso3>PSE</iso3>
+		<phone>970</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Palestinian-Territory>
+
+	<Panama>
+		<name>Panama</name>
+		<iso2>PA</iso2>
+		<iso3>PAN</iso3>
+		<phone>507</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Panama>
+
+	<Papua-New-Guinea>
+		<name>Papua New Guinea</name>
+		<iso2>PG</iso2>
+		<iso3>PNG</iso3>
+		<phone>675</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Papua-New-Guinea>
+
+	<Paraguay>
+		<name>Paraguay</name>
+		<iso2>PY</iso2>
+		<iso3>PRY</iso3>
+		<phone>595</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Paraguay>
+
+	<Peru>
+		<name>Peru</name>
+		<iso2>PE</iso2>
+		<iso3>PER</iso3>
+		<phone>51</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Peru>
+
+	<Philippines>
+		<name>Philippines</name>
+		<iso2>PH</iso2>
+		<iso3>PHL</iso3>
+		<phone>63</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Philippines>
+
+	<Poland>
+		<name>Poland</name>
+		<iso2>PL</iso2>
+		<iso3>POL</iso3>
+		<phone>48</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Poland>
+
+	<Portugal>
+		<name>Portugal</name>
+		<iso2>PT</iso2>
+		<iso3>PRT</iso3>
+		<phone>351</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Portugal>
+
+	<Puerto-Rico>
+		<name>Puerto Rico</name>
+		<iso2>PR</iso2>
+		<iso3>PRI</iso3>
+		<phone>1 787</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Puerto-Rico>
+
+	<Qatar>
+		<name>Qatar</name>
+		<iso2>QA</iso2>
+		<iso3>QAT</iso3>
+		<phone>974</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Qatar>
+
+	<Romania>
+		<name>Romania</name>
+		<iso2>RO</iso2>
+		<iso3>ROU</iso3>
+		<phone>40</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Romania>
+
+	<Russia>
+		<name>Russia</name>
+		<iso2>RU</iso2>
+		<iso3>RUS</iso3>
+		<phone>7</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Russia>
+
+	<Rwanda>
+		<name>Rwanda</name>
+		<iso2>RW</iso2>
+		<iso3>RWA</iso3>
+		<phone>250</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Rwanda>
+
+	<Saint-Kitts-and-Nevis>
+		<name>Saint Kitts and Nevis</name>
+		<iso2>KN</iso2>
+		<iso3>KNA</iso3>
+		<phone>1 869</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Saint-Kitts-and-Nevis>
+
+	<Saint-Lucia>
+		<name>Saint Lucia</name>
+		<iso2>LC</iso2>
+		<iso3>LCA</iso3>
+		<phone>1 758</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Saint-Lucia>
+
+	<Saint-Martin>
+		<name>Saint Martin</name>
+		<iso2>MF</iso2>
+		<iso3>MAF</iso3>
+		<phone>590</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Saint-Martin>
+
+	<Saint-Pierre-and-Miquelon>
+		<name>Saint Pierre and Miquelon</name>
+		<iso2>PM</iso2>
+		<iso3>SPM</iso3>
+		<phone>508</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Saint-Pierre-and-Miquelon>
+
+	<Saint-Vincent-and-the-Grenadines>
+		<name>Saint Vincent and the Grenadines</name>
+		<iso2>VC</iso2>
+		<iso3>VCT</iso3>
+		<phone>1 784</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Saint-Vincent-and-the-Grenadines>
+
+	<Samoa>
+		<name>Samoa</name>
+		<iso2>WS</iso2>
+		<iso3>WSM</iso3>
+		<phone>685</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Samoa>
+
+	<San-Marino>
+		<name>San Marino</name>
+		<iso2>SM</iso2>
+		<iso3>SMR</iso3>
+		<phone>378</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</San-Marino>
+
+	<Sao-Tome-and-Principe>
+		<name>Sao Tome and Principe</name>
+		<iso2>ST</iso2>
+		<iso3>STP</iso3>
+		<phone>239</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Sao-Tome-and-Principe>
+
+	<Saudi-Arabia>
+		<name>Saudi Arabia</name>
+		<iso2>SA</iso2>
+		<iso3>SAU</iso3>
+		<phone>966</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Saudi-Arabia>
+
+	<Senegal>
+		<name>Senegal</name>
+		<iso2>SN</iso2>
+		<iso3>SEN</iso3>
+		<phone>221</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Senegal>
+
+	<Serbia>
+		<name>Serbia</name>
+		<iso2>RS</iso2>
+		<iso3>SRB</iso3>
+		<phone>381</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Serbia>
+
+	<Seychelles>
+		<name>Seychelles</name>
+		<iso2>SC</iso2>
+		<iso3>SYC</iso3>
+		<phone>248</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Seychelles>
+
+	<Sierra-Leone>
+		<name>Sierra Leone</name>
+		<iso2>SL</iso2>
+		<iso3>SLE</iso3>
+		<phone>232</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Sierra-Leone>
+
+	<Singapore>
+		<name>Singapore</name>
+		<iso2>SG</iso2>
+		<iso3>SGP</iso3>
+		<phone>65</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Singapore>
+
+	<Slovakia>
+		<name>Slovakia</name>
+		<iso2>SK</iso2>
+		<iso3>SVK</iso3>
+		<phone>421</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Slovakia>
+
+	<Slovenia>
+		<name>Slovenia</name>
+		<iso2>SI</iso2>
+		<iso3>SVN</iso3>
+		<phone>386</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Slovenia>
+
+	<Solomon-Islands>
+		<name>Solomon Islands</name>
+		<iso2>SB</iso2>
+		<iso3>SLB</iso3>
+		<phone>677</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Solomon-Islands>
+
+	<Somalia>
+		<name>Somalia</name>
+		<iso2>SO</iso2>
+		<iso3>SOM</iso3>
+		<phone>252</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Somalia>
+
+	<South-Africa>
+		<name>South Africa</name>
+		<iso2>ZA</iso2>
+		<iso3>ZAF</iso3>
+		<phone>27</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</South-Africa>
+
+	<Spain>
+		<name>Spain</name>
+		<iso2>ES</iso2>
+		<iso3>ESP</iso3>
+		<phone>34</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Spain>
+
+	<Sri-Lanka>
+		<name>Sri Lanka</name>
+		<iso2>LK</iso2>
+		<iso3>LKA</iso3>
+		<phone>94</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Sri-Lanka>
+
+	<Sudan>
+		<name>Sudan</name>
+		<iso2>SD</iso2>
+		<iso3>SDN</iso3>
+		<phone>249</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Sudan>
+
+	<Suriname>
+		<name>Suriname</name>
+		<iso2>SR</iso2>
+		<iso3>SUR</iso3>
+		<phone>597</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Suriname>
+
+	<Swaziland>
+		<name>Swaziland</name>
+		<iso2>SZ</iso2>
+		<iso3>SWZ</iso3>
+		<phone>268</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Swaziland>
+
+	<Sweden>
+		<name>Sweden</name>
+		<iso2>SE</iso2>
+		<iso3>SWE</iso3>
+		<phone>46</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Sweden>
+
+	<Switzerland>
+		<name>Switzerland</name>
+		<iso2>CH</iso2>
+		<iso3>CHE</iso3>
+		<phone>41</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>1400</auditPrice>
+	</Switzerland>
+
+	<Syria>
+		<name>Syria</name>
+		<iso2>SY</iso2>
+		<iso3>SYR</iso3>
+		<phone>963</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Syria>
+
+	<Taiwan>
+		<name>Taiwan</name>
+		<iso2>TW</iso2>
+		<iso3>TWN</iso3>
+		<phone>886</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Taiwan>
+
+	<Tajikistan>
+		<name>Tajikistan</name>
+		<iso2>TJ</iso2>
+		<iso3>TJK</iso3>
+		<phone>992</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Tajikistan>
+
+	<Tanzania>
+		<name>Tanzania</name>
+		<iso2>TZ</iso2>
+		<iso3>TZA</iso3>
+		<phone>255</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Tanzania>
+
+	<Thailand>
+		<name>Thailand</name>
+		<iso2>TH</iso2>
+		<iso3>THA</iso3>
+		<phone>66</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Thailand>
+
+	<Timor-Leste>
+		<name>Timor-Leste</name>
+		<iso2>TL</iso2>
+		<iso3>TLS</iso3>
+		<phone>670</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Timor-Leste>
+
+	<Togo>
+		<name>Togo</name>
+		<iso2>TG</iso2>
+		<iso3>TGO</iso3>
+		<phone>228</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Togo>
+
+	<Tokelau>
+		<name>Tokelau</name>
+		<iso2>TK</iso2>
+		<iso3>TKL</iso3>
+		<phone>690</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Tokelau>
+
+	<Tonga>
+		<name>Tonga</name>
+		<iso2>TO</iso2>
+		<iso3>TON</iso3>
+		<phone>676</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Tonga>
+
+	<Trinidad-and-Tobago>
+		<name>Trinidad and Tobago</name>
+		<iso2>TT</iso2>
+		<iso3>TTO</iso3>
+		<phone>1 868</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Trinidad-and-Tobago>
+
+	<Tunisia>
+		<name>Tunisia</name>
+		<iso2>TN</iso2>
+		<iso3>TUN</iso3>
+		<phone>216</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Tunisia>
+
+	<Turkey>
+		<name>Turkey</name>
+		<iso2>TR</iso2>
+		<iso3>TUR</iso3>
+		<phone>90</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Turkey>
+
+	<Turkmenistan>
+		<name>Turkmenistan</name>
+		<iso2>TM</iso2>
+		<iso3>TKM</iso3>
+		<phone>993</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Turkmenistan>
+
+	<Turks-and-Caicos-Islands>
+		<name>Turks and Caicos Islands</name>
+		<iso2>TC</iso2>
+		<iso3>TCA</iso3>
+		<phone>1 649</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Turks-and-Caicos-Islands>
+
+	<Tuvalu>
+		<name>Tuvalu</name>
+		<iso2>TV</iso2>
+		<iso3>TUV</iso3>
+		<phone>688</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Tuvalu>
+
+	<Uganda>
+		<name>Uganda</name>
+		<iso2>UG</iso2>
+		<iso3>UGA</iso3>
+		<phone>256</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Uganda>
+
+	<Ukraine>
+		<name>Ukraine</name>
+		<iso2>UA</iso2>
+		<iso3>UKR</iso3>
+		<phone>380</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Ukraine>
+
+	<United-Arab-Emirates>
+		<name>United Arab Emirates</name>
+		<iso2>AE</iso2>
+		<iso3>ARE</iso3>
+		<phone>971</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</United-Arab-Emirates>
+
+	<United-Kingdom>
+		<name>United Kingdom</name>
+		<iso2>GB</iso2>
+		<iso3>GBR</iso3>
+		<phone>44</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</United-Kingdom>
+
+	<United-States>
+		<name>United States</name>
+		<iso2>US</iso2>
+		<iso3>USA</iso3>
+		<phone>1</phone>
+		<inspectPrice>629</inspectPrice>
+		<auditPrice>1149</auditPrice>
+	</United-States>
+
+	<Uruguay>
+		<name>Uruguay</name>
+		<iso2>UY</iso2>
+		<iso3>URY</iso3>
+		<phone>598</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Uruguay>
+
+	<US-Virgin-Islands>
+		<name>U.S. Virgin Islands</name>
+		<iso2>VI</iso2>
+		<iso3>VIR</iso3>
+		<phone>1 340</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</US-Virgin-Islands>
+
+	<Uzbekistan>
+		<name>Uzbekistan</name>
+		<iso2>UZ</iso2>
+		<iso3>UZB</iso3>
+		<phone>998</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Uzbekistan>
+
+	<Vanuatu>
+		<name>Vanuatu</name>
+		<iso2>VU</iso2>
+		<iso3>VUT</iso3>
+		<phone>678</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Vanuatu>
+
+	<Vatican>
+		<name>Vatican</name>
+		<iso2>VA</iso2>
+		<iso3>VAT</iso3>
+		<phone>39</phone>
+		<inspectPrice>609</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Vatican>
+
+	<Venezuela>
+		<name>Venezuela</name>
+		<iso2>VE</iso2>
+		<iso3>VEN</iso3>
+		<phone>58</phone>
+		<inspectPrice>409</inspectPrice>
+		<auditPrice>849</auditPrice>
+	</Venezuela>
+
+	<Vietnam>
+		<name>Vietnam</name>
+		<iso2>VN</iso2>
+		<iso3>VNM</iso3>
+		<phone>84</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Vietnam>
+
+	<Wallis-and-Futuna>
+		<name>Wallis and Futuna</name>
+		<iso2>WF</iso2>
+		<iso3>WLF</iso3>
+		<phone>681</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Wallis-and-Futuna>
+
+	<Yemen>
+		<name>Yemen</name>
+		<iso2>YE</iso2>
+		<iso3>YEM</iso3>
+		<phone>967</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Yemen>
+
+	<Zambia>
+		<name>Zambia</name>
+		<iso2>ZM</iso2>
+		<iso3>ZMB</iso3>
+		<phone>260</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Zambia>
+
+	<Zimbabwe>
+		<name>Zimbabwe</name>
+		<iso2>ZW</iso2>
+		<iso3>ZWE</iso3>
+		<phone>263</phone>
+		<inspectPrice>309</inspectPrice>
+		<auditPrice>649</auditPrice>
+	</Zimbabwe>
+
+</document>

@@ -1,0 +1,135 @@
+#2017-04-17:
+ALTER TABLE  `tradeshowMemo` ADD  `concurrent` TINYINT NOT NULL AFTER  `reasons` ,
+ADD  `concurrentreasons` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER  `concurrent` ;
+
+#2017-04-18
+# copy table tradeShowMemo to eventMemos
+
+ALTER TABLE  `eventMemos` CHANGE  `repeat_next`  `do_next` TINYINT NOT NULL ;
+ALTER TABLE  `eventMemos` CHANGE  `feedback`  `booth_feedback` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ;
+ALTER TABLE  `eventMemos` CHANGE  `concurrentreasons`  `concurrent_reasons` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ;
+ALTER TABLE  `eventMemos` CHANGE  `reasons`  `next_reasons` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ;
+
+ALTER TABLE  `eventMemos` ADD  `exhibitors` SMALLINT NOT NULL AFTER  `clientsMet` ,
+ADD  `exhibitor_countries` TEXT NOT NULL AFTER  `exhibitors` ,
+ADD  `is_competitors` TINYINT NOT NULL AFTER  `exhibitor_countries` ;
+
+ALTER TABLE  `eventMemos` ADD  `exhibitor_feedback` TEXT NOT NULL AFTER  `suggestions` ,
+ADD  `visitors` TEXT NOT NULL AFTER  `exhibitor_feedback` ,
+ADD  `visitor_countries` TEXT NOT NULL AFTER  `visitors` ,
+ADD  `visitor_poll` TEXT NOT NULL AFTER  `visitor_countries` ,
+ADD  `exhibitor_opinion` TEXT NOT NULL AFTER  `visitor_poll` ;
+
+ALTER TABLE  `eventMemos` ADD  `event_type` ENUM(  'tradeshow-exhibiting',  'tradeshow-visiting',  'event-visiting',  'event-speaking', 'event-hosted',  'webinar' ) NOT NULL AFTER  `id` ;
+# This appears to default to using the first value, which is what we want here.
+# If not: UPDATE  `eventMemos` SET  `event_type` =  'tradeshow-exhibiting' WHERE 1
+
+
+# copy table tradeShowMemo to temp_table
+
+ALTER TABLE  `temp_table` DROP  `comeback` ;
+ALTER TABLE  `temp_table` DROP  `traffic` ;
+ALTER TABLE  `temp_table` DROP  `location` ;
+
+ALTER TABLE  `temp_table` CHANGE  `percentage`  `exhibitor_countries` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ;
+ALTER TABLE  `temp_table` CHANGE  `isCompetitors`  `is_competitors` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ;
+ALTER TABLE  `temp_table` CHANGE  `feedback`  `exhibitor_feedback` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ;
+ALTER TABLE  `temp_table` CHANGE  `country`  `visitor_countries` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ;
+ALTER TABLE  `temp_table` CHANGE  `poll`  `visitor_poll` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ;
+ALTER TABLE  `temp_table` CHANGE  `opinion`  `exhibitor_opinion` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ;
+
+
+ALTER TABLE  `temp_table` ADD  `do_next` TINYINT NOT NULL AFTER  `attend` ;
+UPDATE  `temp_table` SET  `do_next` = CASE  `attend` WHEN  'Yes' THEN 1 WHEN  'No' THEN 0 ELSE 0 END ;
+
+ALTER TABLE  `temp_table` DROP  `attend` ;
+ALTER TABLE  `temp_table` CHANGE  `reasons`  `next_reasons` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ;
+
+ALTER TABLE  `temp_table` ADD  `event_type` ENUM(  'tradeshow-exhibiting',  'tradeshow-visiting',  'event-visiting',  'event-speaking', 'event-hosted',  'webinar' ) NOT NULL AFTER  `id` ;
+UPDATE  `temp_table` SET  `event_type` =  'tradeshow-visiting' WHERE 1
+
+# export/import records from temp_table to eventMemos
+
+
+
+# 2017-04-20
+
+ALTER TABLE  `tradeshowList` ADD  `event_type` ENUM(  'tradeshow-exhibiting',  'tradeshow-visiting',  'event-visiting', 'event-speaking',  'event-hosted',  'webinar' ) NOT NULL ;
+UPDATE  `tradeshowList` SET  `event_type` = CASE  `booth` WHEN 1 THEN  'tradeshow-exhibiting' WHEN 0 THEN 'tradeshow-visiting' ELSE  'tradeshow-visiting' END ;
+
+
+# 2017-04-21
+ALTER TABLE  `eventMemos` ADD  `sponsor_details` TEXT NOT NULL AFTER  `traffic` ;
+ALTER TABLE  `eventMemos` ADD  `low_qual_reason` TEXT NULL AFTER  `leadQuality` ;
+
+# 2017-04-26
+ALTER TABLE  `eventMemos` DROP  `exhibitor_opinion` ;
+
+
+ALTER TABLE  `eventMemos` ADD  `attendee_industry` TEXT NOT NULL AFTER  `totalleads` ,
+ADD  `int_topic` TEXT NOT NULL AFTER  `attendee_industry` ,
+ADD  `sug_topic` TEXT NOT NULL AFTER  `int_topic` ,
+ADD  `attendee_count` INT NOT NULL AFTER  `sug_topic` ,
+ADD  `seminar_rating` ENUM(  'Excellent',  'Good',  'Fair',  'Poor' ) NULL DEFAULT NULL AFTER  `attendee_count` ,
+ADD  `how_heard` TEXT NOT NULL AFTER  `seminar_rating` ;
+
+# 2017-04-27
+ALTER TABLE  `eventMemos` ADD  `attendee_opinion` TEXT NOT NULL AFTER  `attendee_industry` ;
+
+# 2017-06-06
+ALTER TABLE  `UnsubscribeList` ADD  `Audits` TINYINT( 1 ) NOT NULL AFTER  `Events` ,
+ADD  `Inspections` TINYINT( 1 ) NOT NULL AFTER  `Audits` ,
+ADD  `LabTesting` TINYINT( 1 ) NOT NULL AFTER  `Inspections` ;
+
+UPDATE  `UnsubscribeList` SET  `Audits` =1,
+`Inspections` =1,
+`LabTesting` =1,
+`is_preference_updated` =1
+
+# 2017-06-12
+ALTER TABLE  `salesInfo` CHANGE  `active_status`  `active_status` TINYINT( 2 ) NOT NULL DEFAULT  '1';
+ALTER TABLE  `salesInfo` CHANGE  `email`  `email` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ;
+ALTER TABLE  `salesInfo` ADD UNIQUE (`email`);
+
+# 2017-07-18
+ALTER TABLE  `UnsubscribeList` ADD  `Language` ENUM(  "Arabic",  "English",  "French",  "German",  "Spanish",  "Chinese" ) NULL DEFAULT NULL AFTER  `LabTesting` ;
+
+# 2017-08-16
+ALTER TABLE  `UnsubscribeList` ADD  `FirstName` VARCHAR( 32 ) NOT NULL AFTER  `LabTesting` ,
+ADD  `LastName` VARCHAR( 32 ) NOT NULL AFTER  `FirstName` ,
+ADD  `JobTitle` VARCHAR( 32 ) NOT NULL AFTER  `LastName` ,
+ADD  `Industry` ENUM(  'Bodycare, Fashion & Accessories',  'Electrical & Electronic Products',  'Food & Food Packaging',  'Gifts & Premiums', 'Homeware & Gardenware',  'Industrial, Construction & Mechanical Items',  'Printing & Packaging',  'Textile, Apparel, Footwear & Accessories', 'Toys & Recreational Items' ) NULL DEFAULT NULL AFTER  `JobTitle` ,
+ADD  `Country` VARCHAR( 32 ) NOT NULL AFTER  `Industry` ;
+
+# 2017-08-17
+ALTER TABLE  `newsletters` ADD  `first_name` VARCHAR( 32 ) NOT NULL AFTER  `country` ,
+ADD  `last_name` VARCHAR( 32 ) NOT NULL AFTER  `first_name` ,
+ADD  `job_title` VARCHAR( 32 ) NOT NULL AFTER  `last_name` ,
+ADD  `industry` ENUM(  'Bodycare, Fashion & Accessories',  'Electrical & Electronic Products',  'Food & Food Packaging',  'Gifts & Premiums', 'Homeware & Gardenware',  'Industrial, Construction & Mechanical Items',  'Printing & Packaging',  'Textile, Apparel, Footwear & Accessories', 'Toys & Recreational Items' ) NULL DEFAULT NULL AFTER  `job_title` ;
+
+# 2017-08-22
+ALTER TABLE  `UnsubscribeList` ADD  `LastUpdated` TIMESTAMP ON UPDATE CURRENT_TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER  `Language` ,
+ADD  `UserSet` TINYINT NOT NULL DEFAULT  '1' AFTER  `LastUpdated` ;
+
+UPDATE UnsubscribeList SET LastUpdated = CURRENT_TIMESTAMP
+
+# 2017-10-06
+CREATE TABLE IF NOT EXISTS `twilio_numbers` (
+  `phone` varchar(32) NOT NULL,
+  `lastsend` datetime NOT NULL,
+  `requests` tinyint(4) NOT NULL,
+  PRIMARY KEY (`phone`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+# 2017-11-2
+ALTER TABLE  `newsletters` ADD  `reg_recap` VARCHAR( 16 ) NOT NULL ;
+
+# 2018-2-1
+ALTER TABLE  `newsletters` ADD  `login` VARCHAR( 64 ) NULL ,
+ADD  `company_name` VARCHAR( 64 ) NULL ,
+ADD  `client_name` VARCHAR( 64 ) NULL ,
+ADD  `oracle_id` VARCHAR( 32 ) NULL ,
+ADD  `zoho_id` VARCHAR( 24 ) NULL ;
+
+# 2018-2-5
+ALTER TABLE  `newsletters` ADD  `is_eu` ENUM(  'Yes',  'No' ) NULL AFTER  `country` ;

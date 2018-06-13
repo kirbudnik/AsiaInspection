@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<pageMeta>
+        <pageTitle>
+            <en>Quality Control Services in Vietnam: Inspection Agencies in Vietnam | Asia Inspection</en>
+            <de>Services zur Qualitätskontrolle in Vietnam: Inspektionsagenturen in Vietnam | Asia Inspection</de>
+			<ru>Услуги контроля качества во Вьетнаме: Инспекционные агентства во Вьетнаме |Asia Inspection</ru>
+        </pageTitle>
+        <pageDesc>
+            <en>As Western-based companies continue to move manufacturing and labor force overseas, inspection services in Vietnam are more important for efficient business operations.</en>
+			<ru>Западные компании продолжают перемещать производства и рабочей сила заграницу, поэтому услуги инспекций во Вьетнаме важны для обеспечения эффективности бизнес-операций.</ru>
+        </pageDesc>
+    </pageMeta>
+
+	<en>
+		<InspAndAudit>
+			<title>Inspections and Audits in Vietnam</title>
+			<subtitle>AsiaInspection offers the #1 online platform for quality control.</subtitle>
+			<listitem>Guaranteed on-site inspections anywhere in Vietnam within 48 hours for ${{priceIA}}.</listitem>
+			<listitem>Inspection reports are delivered within 24 hours of the inspection and include detailed pictures. You see what our inspector sees.</listitem>
+			<footText>Create your free account and see how the service works</footText>
+			<buttonText url="/register">Get Started</buttonText>
+		</InspAndAudit>
+		<QCinNam>
+			<title>Quality Control Services in Vietnam</title>
+			<leftList>
+				<li>On-site inspectors provide assessments and troubleshooting as needed throughout the manufacturing process. </li>
+				<li>AsiaInspection offers the highest caliber of inspectors within Vietnam. Our inspector network is highly trained and skilled in their areas of expertise. </li>
+			</leftList>
+			<rightList>
+				<li>All manufacturing audits (MA) in Vietnam conform to the internationally recognized ISO 9000 Standards for Quality Management Systems </li>
+				<li>Clients are allowed to modify or cancel orders up until 4:00 p.m. (China time) the day before the scheduled inspection at a Vietnam-based facility. </li>
+			</rightList>
+		</QCinNam>
+		<Obstacles>
+			<obTitle>Obstacles with Doing Business in Vietnam</obTitle>
+			<obText>
+				<![CDATA[
+				<p>
+					In recent years, Vietnam has become more involved in the world economy, opening its doors to international business interests and opportunities.
+					The 21st century has brought a number of technological advances and significant economic growth to the country. As a result of increased relations and negotiations,
+					the number of laborers within Vietnam who have technical training and skill sets has grown dramatically, while the costs of both production and living remain lower than China,
+					the quality is known for not being as high or as consistent. China has had a decade head-start working with and adapting to foreign quality expectations.
+				</p>
+				<p>
+					These changes have offered many advantages to businesses based in the Western world who wish to open manufacturing facilities abroad, creating a greater international business presence within Vietnam.
+					The emerging international business community within Vietnam's borders calls for trustworthy on-site inspection throughout the
+					<a href="/during-production-inspection">production process</a>, which can be difficult for Western-based businesses to staff.
+				</p>
+				<p>
+					In the business world, particularly within industries where competition is fierce, quality assurance can make or break a company's reputation.
+					Manufacturing and packing facilities are often located far from company headquarters, and busy executives must trust that their far-flung
+					production lines are running in a timely and efficient fashion in order to stay at the top of their fields. When problems arise, they must be
+					handled by trustworthy personnel.
+				</p>
+				]]>
+			</obText>
+			<agTitle>Inspection Agencies in Vietnam</agTitle>
+			<agText>
+				Companies based in Vietnam can trust that our regionally based, on-site inspection agents are achieving and maintaining appropriate levels of quality control.
+				Every step of production can be regulated through the use of a reliable inspection service.
+				Our inspection services in Vietnam include the assessment of pre-production schedules and plans to ensure timely outcomes and adequate materials.
+			</agText>
+			<learnMore>
+				<title>Learn More [+/-]</title>
+				<text>
+					<![CDATA[
+					<p>
+						As production comes to a close, a
+						<a href="/pre-shipment-inspection">pre-shipment inspection</a>
+						will have an inspector test products for proper functioning and quality requirements,
+						sending product the does not meet client specifications back into production before being shipped off-site.
+						After manufactured product has been confirmed, inspectors can perform a
+						<a href="/container-loading-check">container loading check</a>
+						to insure that the proper product and quantity are packaged and securely loaded before final payment is made and the product shipped.
+						All inspection results and client specifications are confirmed in detailed reports supported with photographs delivered the same day as the inspection.
+					</p>
+					<p>
+						Reports are also compiled and supplied to our clients to keep them apprised of the development and resolution of issues at Vietnam-based production facilities.
+						The output and reporting methods of our quality assurance inspectors ensure satisfaction, allowing our clients to focus on other, pressing aspects of multinational business.
+						The consistent communication from the production site to company headquarters is designed to put clients at ease with the international manufacturing process.
+					</p>
+					<p>
+						Our quality control measures in Vietnam ensure that your goods meet all industry and international standards and requirements.
+						Reports are filed in a timely fashion to keep our clients up-to-date on the issues that can affect company output.
+					</p>
+					]]>
+				</text>
+			</learnMore>
+			<footText><![CDATA[For more information on the services we provide in Vietnam and other Asian countries, please <a href="/contact-us">contact us</a>]]></footText>
+		</Obstacles>
+	</en>
+
+	<de>
+		<InspAndAudit>
+			<title>Inspektionen und Prüfungen in Vietnam</title>
+			<subtitle>AsiaInspection bietet die Plattform Nr.1 für Qualitätskontrolle.</subtitle>
+			<listitem>Garantierte Vor-Ort-Inspektionen überall in Vietnam innerhalb 48 Stunden für ${{priceIA}}.</listitem>
+			<listitem>Die Inspektionsberichte werden Ihnen innerhalb von 24 Stunden geliefert und enthalten detaillierte Darstellungen. Sie sehen das, was unser Inspektor sieht.</listitem>
+			<footText>Erstellen Sie kostenlos ein Konto und erfahren Sie, wie der Service funktioniert</footText>
+			<buttonText url="/register">Erste Schritte</buttonText>
+		</InspAndAudit>
+		<QCinNam>
+			<title>Services zur Qualitätskontrolle in Vietnam</title>
+			<leftList>
+				<li>Vor-Ort-Inspektoren liefern Bewertungen und Fehlerbehebungen, wie sie im Herstellungsprozess benötigt werden.</li>
+				<li>AsiaInspection bietet die besten Inspektoren innerhalb Vietnams. Das Netzwerk unserer Inspektoren ist bestens ausgebildet und erfahren in ihrem Fachgebiet.</li>
+			</leftList>
+			<rightList>
+				<li>Alle Herstellungsprüfungen (MA) in Vietnam entsprechen den international anerkannten ISO 9000 Standards für Qualitätsmanagementsysteme</li>
+				<li>Kunden dürfen Aufträge bis 16:00 Uhr (chinesischer Zeit) am Tag vor der angesetzten Inspektion in einer Einrichtung in Vietnam ändern oder zurückziehen.</li>
+			</rightList>
+		</QCinNam>
+		<Obstacles>
+			<obTitle>Hindernisse beim Geschäftsbetrieb in Vietnam</obTitle>
+			<obText>
+				<![CDATA[
+				<p>
+					In den letzten Jahren wurde Vietnam mehr in die Weltwirtschaft eingebunden, da es die Türen für internationale Geschäftsinteressen und Geschäftsmöglichkeiten öffnete.  Das 21. Jahrhundert hat dem Land eine Menge technischer Fortschritte und ein signifikantes Wirtschaftswachstum gebracht. Als Resultat der wachsenden Zahl an Beziehungen und Verhandlungen hat die Zahl der Arbeiter, die über eine technische Ausbildung und Fertigkeiten verfügen, in Vietnam drastisch zugenommen, während sowohl die Lebens-, wie auch die Produktionskosten niedriger als in China geblieben sind, aber die Qualität ist nicht so hoch und nicht so gleichbleibend. China hat bereits ein Jahrzehnt Vorsprung in der Zusammenarbeit mit und der Anpassung an ausländische Qualitätserwartungen.
+				</p>
+				<p>
+					Diese Veränderungen haben zu vielen Vorteilen für in der westlichen Welt ansässige Unternehmen geführt, die Produktionsstätten im Land eröffnen wollen und so eine höhere internationale Geschäftspräsenz in Vietnam geschaffen. Die aufkommende internationale Businessgemeinschaft innerhalb Vietnams verlangt nach vertrauenswürdigen Vor-Ort-Inspektionen durch den ganzen <a href="/during-production-inspection">Produktionsprozess</a> hindurch, was für westliche Unternehmen in Bezug auf die Personalbeschaffung schwierig sein kann.
+				</p>
+				<p>
+					In der Geschäftswelt, besonders in Branchen mit hartem Wettbewerb, kann Qualitätssicherung den Ausschlag in Bezug auf die Firmenreputation geben. Produktions- und Verpackungseinrichtungen sind oft weit von den Firmenzentralen entfernt und sehr beschäftigte Führungskräfte müssen sich darauf verlassen können, dass die entlegenen Produktionslinien im zeitlichen Rahmen effektiv arbeiten, um an der Spitze ihrer Tätigkeitsbereiche zu bleiben. Wenn Probleme auftreten, müssen diese von vertrauenswürdigem Personal bearbeitet werden.
+				</p>
+				]]>
+			</obText>
+			<agTitle>Inspektionsagenturen in Vietnam</agTitle>
+			<agText>
+				Unternehmen mit Sitz in Vietnam können darauf vertrauen, dass unsere regional ansässigen Vor-Ort-Inspektoren die höchstmögliche Stufe der Qualitätssicherung erreichen und halten. Jeder Produktionsschritt kann durch die Nutzung eines verlässlichen Inspektionsservices beeinflusst werden. Unsere Inspektionsdienstleistungen in Vietnam umfassen die Bewertung von Zeitplänen vor der Produktion und Produktionsplänen, die zeitgerechte Fertigstellung und adäquate Materialien sicherstellen.
+			</agText>
+			<learnMore>
+				<title>Weitere Infos [+/-]</title>
+				<text>
+					<![CDATA[
+					<p>
+						Gegen Ende des Produktionsprozesses wird im Rahmen einer <a href=/pre-shipment-inspection>Vor-Versandüberprüfung</a> ein Inspektor die Produkte auf ordnungsgemäße Funktion und auf Qualitätsanforderungen hin testen und Produkte, die die Kundenanforderungen nicht erfüllen, in die Produktion zurücksenden, bevor diese an den Kunden ausgeliefert werden. Anforderungen, Nachdem das hergestellte Produkt abgenommen wurde, können die Inspektoren einen <a href=/container-loading-check>Container-Beladungscheck</a> vornehmen, um sicherzustellen, dass das richtige Produkt in der richtigen Menge gepackt und sicher verladen wird, bevor Sie die abschließende Zahlung leisten und das Produkt versandt wird. Alle Inspektionsergebnisse und Kundenspezifikationen werden in detaillierten Berichten bestätigt und von Fotos unterstützt und werden am Tage der Inspektion an den Auftraggeber geliefert.
+					</p>
+					<p>
+						Die Berichte werden auch erstellt und unseren Kunden zur Verfügung gestellt, um sie über die Entwicklung und die Lösung von Problemen in den in Vietnam liegenden Produktionseinrichtungen informiert zu halten. Die Arbeitsergebnisse und die Berichtsmethoden unserer Qualitätssicherungsinspektoren garantieren Zufriedenheit und erlauben so unseren Kunden, sich auf andere, dringende Aspekte multinationaler Geschäftsbeziehungen zu konzentrieren. Die konsistente Kommunikation zwischen der Produktionsstätte und der Firmenzentrale wird so gestaltet, dass Kunden bequem mit dem internationalen Herstellungsprozess umgehen können.
+					</p>
+					<p>
+						Unsere Qualitätskontrollmaßnahmen in Vietnam stellen sicher, dass Ihre Güter allen internationalen Standards und Anforderungen ihrer Branche entsprechen. Die Berichte werden zeitnah erstellt, um unsere Kunden auf dem Laufenden zu halten über die Probleme, die den Ausstoß des Unternehmens beeinflussen können.
+					</p>
+					]]>
+				</text>
+			</learnMore>
+			<footText><![CDATA[Bitte <a href="/contact-us">kontaktieren Sie uns</a>, um weitere Informationen über unsere Leistungen in Vietnam und anderen asiatischen Ländern zu erhalten.]]></footText>
+		</Obstacles>
+	</de>
+
+	<zh>
+		<InspAndAudit>
+			<title>检验和审核–越南</title>
+			<subtitle>AsiaInspection 提供最佳在线质量控制平台。</subtitle>
+			<listitem><![CDATA[$<span style='font-size:inherit;' class='priceIA'></span> 美元保证 48 小时内可在越南任何地点进行现场检验。]]></listitem>
+			<listitem>24 小时内发送检验报告，包含详细图片信息。您所见即检验员所见。</listitem>
+			<footText>建立您的免费账户并了解我们的服务</footText>
+			<buttonText url="/register">开始</buttonText>
+		</InspAndAudit>
+		<QCinNam>
+			<title>质量控制服务–越南</title>
+			<leftList>
+				<li>现场检验员提供整个制造流程所需的评估并解决相关问题。</li>
+				<li>AsiaInspection提供越南最优秀的检验员。我公司检验员训练有素，专业技能过硬。</li>
+			</leftList>
+			<rightList>
+				<li>越南所有工厂审核都遵循 ISO 9000 质量管理体系的国际标准。</li>
+				<li>在对越南工厂定期检验前，客户可在下午 1:00（越南时间）前修改或取消订单。</li>
+			</rightList>
+		</QCinNam>
+		<Obstacles>
+			<obTitle>在越南经商所面临的挑战</obTitle>
+			<obText>
+				<![CDATA[
+				<p>
+					近年来，越南开放市场、吸引外资、抓住机遇，逐步进入世界经济市场。21 世纪，技术进步飞快，经济发展迅速，为越南提供了便利条件。随着事务交往和业务谈判的增加，越来越多的越南劳动力受到了技术培训并掌握了专业技能，但是越南的生产和生活水平仍低于中国，质量也并未与中国持平。中国在同行业有十年经验，能够满足国外对质量的期望要求。
+				</p>
+				<p>
+					西方国家希望开发海外制造工厂，在越南开展更多的国际贸易合作，上述发展为西方企业进行相关贸易提供了许多便利条件。越南边界新兴的国际商业区在
+					<a href="/during-production-inspection">生产流程</a>中急需可信赖的现场检验员，而西方企业进行相关人员配备存在一定困难。
+				</p>
+				<p>
+					在商界，尤其是竞争激烈的行业，质量控制既可令公司扬名天下，亦可令公司名誉一败涂地。制造和包装工厂通常远离公司总部，繁忙的高管们必须保证遥远的生产线及时高效运行，以处于行业领先地位。出现问题时，需由信得过的人员解决。
+				</p>
+				]]>
+			</obText>
+			<agTitle>检验机构 – 越南</agTitle>
+			<agText>
+				位于越南的公司可以相信，我们的区域现场检验员取得并维护了相当的质量控制水平。每一生产环节都可借助可信赖的检验服务进行调控。我们在越南的检验服务包含产前调度和计划评估，确保及时的产出和充足的材料。
+			</agText>
+			<learnMore>
+				<title>了解更多 [+/-]</title>
+				<text>
+					<![CDATA[
+					<p>
+						生产结束时将安排
+						<a href="/pre-shipment-inspection">装运前检验</a>，
+						由检验员对产品的正常运行和质量要求进行测试，在装运离岸前将不符合客户要求的产品退回生产。制成品经过确认后，检验员可执行
+						<a href="/container-loading-check">集装箱装箱检验</a>
+						，在最终付款和装运货物前确保包装的产品及数量无误，并安全装箱。详细报告在检验当日出具，附有图片，确保检验结果以及客户规范一目了然。
+					</p>
+					<p>
+						报告后期还将进行编译并提供给客户，告知他们越南生产工厂的发展情况及存在的问题的解决方案。质检员的输出和报告方式确保客户满意，客户可以将目光转移到跨国贸易的其他紧迫事务中。生产现场与公司总部保持沟通，旨在使客户轻松应对国际制造流程。
+					</p>
+					<p>
+						公司在越南的质量控制措施能够确保客户产品符合所有行业和国际标准与要求。报告将及时归档，以保证客户适时了解影响公司产出的问题所在。
+					</p>
+					]]>
+				</text>
+			</learnMore>
+			<footText><![CDATA[有关本公司在越南及其他亚洲国家所提供服务的详细信息，请<a href="/contact-us">联系我们</a>]]></footText>
+		</Obstacles>
+	</zh>
+
+	<es>
+		<InspAndAudit>
+			<title>Inspecciones y Auditorías en Vietnam</title>
+			<subtitle>AsiaInspection es la 1ª plataforma online para Control de Calidad.</subtitle>
+			<listitem>Garantiza disponer de inspectores in-situ en cualquier lugar de Vietnam en 48 horas por ${{priceIA}} USD.</listitem>
+			<listitem>Los reportes de inspección se envían dentro de las 24 horas siguientes a la visita e incluyen imágenes detalladas. Vea lo que nuestro inspector ve.</listitem>
+			<footText>Dese de alta y compruebe cómo funciona el servicio</footText>
+			<buttonText url="/crear-cuenta">Comenzar</buttonText>
+		</InspAndAudit>
+		<QCinNam>
+			<title>Servicios de Control de Calidad en Vietnam</title>
+			<leftList>
+				<li>Las inspecciones in situ proporcionar evaluaciones y resolución de problemas como sea necesario durante el proceso de fabricación.</li>
+				<li>AsiaInspection ofrece el más alto nivel de formación y capacitación de sus inspectores en Vietnam.</li>
+			</leftList>
+			<rightList>
+				<li>Todas las auditorías de fábrica en Vietnam se ajustan a las normas internacionalmente reconocidas ISO 9000 de Sistemas de Gestión de Calidad </li>
+				<li>Los clientes pueden modificar o cancelar los pedidos hasta 4:00 de la tarde (hora China) el día anterior a la inspección programada en un centro de Vietnam-based.</li>
+			</rightList>
+		</QCinNam>
+		<Obstacles>
+			<obTitle>Obstáculos con hacer negocios en Vietnam</obTitle>
+			<obText>
+				<![CDATA[
+				<p>
+					En los últimos años, Vietnam ha involucrado más en la economía mundial, abriendo sus puertas a los intereses de las empresas internacionales y las oportunidades.
+					El siglo 21 ha traído una serie de avances tecnológicos y el crecimiento económico importante para el país. Como resultado del aumento de las relaciones y negociaciones,
+					el número de trabajadores dentro de Vietnam que tienen conjuntos de capacitación técnica y habilidad ha aumentado de forma espectacular, mientras que los costos de la producción y la vida siguen siendo inferiores a China,
+					la calidad es conocida por no ser tan alta o tan consistente. China ha tenido una década de ventaja trabajando y adaptándose a las expectativas de calidad extranjeros.
+				</p>
+				<p>
+					Estos cambios han ofrecido muchas ventajas a las empresas radicadas en el mundo occidental que desea abrir fábricas en el extranjero, la creación de una mayor presencia internacional de negocios en Vietnam.
+					La nueva comunidad empresarial internacional dentro de las fronteras de Vietnam exige confianza en la inspección in situ en todo el
+					<a href="/during-production-inspection">proceso de producción</a>,que puede ser difícil para el oeste de los negocios basados ​​en el personal.
+				</p>
+				<p>
+					En el mundo empresarial, sobre todo en las industrias donde la competencia es feroz, la garantía de calidad puede hacer o deshacer la reputación de una empresa.
+					Las instalaciones de fabricación y empaque a menudo se encuentran lejos de la sede de la empresa, y los ejecutivos ocupados que deben confiar en su vasto
+					líneas de producción se están ejecutando de manera oportuna y eficiente a fin de mantenerse en la cima de sus campos. Cuando surgen problemas, deben ser
+					a cargo de personal de confianza.
+				</p>
+				]]>
+			</obText>
+			<agTitle>Agencias de Inspección en Vietnam</agTitle>
+			<agText>
+				Las empresas con sede en Vietnam puede confiar en que nuestra base regional, en el lugar agentes de inspección se logro y mantenimiento de niveles adecuados de control de calidad.
+				Cada paso de la producción se puede regular mediante el uso de un servicio de inspección fiable.
+				Nuestros servicios de inspección en Vietnam incluir la evaluación de pre-producción de programas y planes para garantizar resultados oportunos y materiales adecuados.
+			</agText>
+			<learnMore>
+				<title>Más información [+/-]</title>
+				<text>
+					<![CDATA[
+					<p>
+						Dado que la producción llega a su fin, un
+						<a href="/pre-shipment-inspection">inspección pre-embarque</a>
+						tendrá un inspector de productos de prueba para el buen funcionamiento y requisitos de calidad,
+						enviar el producto no cumple con las especificaciones del cliente nuevo en producción antes de ser enviados fuera de sitio.
+						Después que el producto fabricado se ha confirmado, los inspectores pueden realizar una
+						<a href="/container-loading-check">Compruebe la carga de contenedores</a>
+						para asegurar que el producto apropiado y la cantidad se empaquetan y se carga con seguridad antes de final de los pagos y enviado el producto.
+Todos los resultados de la inspección y las especificaciones del cliente se confirman en los informes detallados compatibles con las fotografías entregadas el mismo día de la inspección.
+					</p>
+					<p>
+						Los informes también son compilados y suministrados a nuestros clientes para mantenerlos informados del desarrollo y la resolución de problemas en las instalaciones de producción basados ​​en Vietnam.
+						Los métodos de salida y presentación de informes de los inspectores de control de calidad garantizar la satisfacción, lo que permite a nuestros clientes centrarse en otros aspectos urgentes de la empresa multinacional.
+						La comunicación consistente desde el lugar de producción hasta la sede de la empresa está diseñado para poner a los clientes a gusto con el proceso de fabricación internacional.
+					</p>
+					<p>
+						Nuestras medidas de control de calidad en Vietnam garantizar que sus productos cumplen todas las industrias y las normas internacionales y los requisitos.
+						Los informes que se presenten de manera oportuna para mantener a nuestros clientes puesta al día sobre los problemas que pueden afectar la producción de la empresa.
+					</p>
+					]]>
+				</text>
+			</learnMore>
+			<footText><![CDATA[Para obtener más información sobre los servicios que ofrecemos en Vietnam y otros países asiáticos, por favor <a href="/contact-us">póngase en contacto con nosotros </a>]]></footText>
+		</Obstacles>
+	</es>
+
+	<fr>
+		<InspAndAudit>
+			<title>Inspections et audits au Vietnam</title>
+			<subtitle>AsiaInspection propose la plate-forme en ligne n° 1 pour le contrôle qualité.</subtitle>
+			<listitem><![CDATA[Les inspections sont effectuées dans un délai de 48 h garanti partout au Vietnam pour {{priceIA}} $.]]></listitem>
+			<listitem>Les rapports d'inspection sont remis dans les 24 heures suivant l'inspection et incluent des images détaillées. Vous voyez ce que notre inspecteur voit.</listitem>
+			<footText>Create you free account and see how the service works</footText>
+			<buttonText url="/enregistrement">Commencer!</buttonText>
+		</InspAndAudit>
+		<QCinNam>
+			<title>Services de Contrôle Qualité au Vietnam</title>
+			<leftList>
+				<li>Nos inspecteurs sur site fournissent des évaluations et des solutions aux problèmes constatés, le cas échéant, tout au long du processus de fabrication.</li>
+				<li>AsiaInspection offre le plus haut niveau d'inspection au Vietnam. Notre réseau d'inspecteurs comprend uniquement des personnes hautement qualifiées et compétentes dans leurs domaines d'expertise.</li>
+			</leftList>
+			<rightList>
+				<li>Tous les audits de fabrication (MA – manufacturing audits) au Vietnam sont conformes à la norme internationalement reconnue ISO 9000 pour les Systèmes de Gestion de la Qualité</li>
+				<li>Les clients peuvent modifier ou annuler leurs commandes jusqu'à 13 h 00 (heure du Vietnam) le jour précédent l'inspection prévue dans un site au Vietnam.</li>
+			</rightList>
+		</QCinNam>
+		<Obstacles>
+			<obTitle>Obstacles au Commerce au Vietnam</obTitle>
+			<obText>
+				<![CDATA[
+				<p>
+					Ces dernières années, le Vietnam est de plus en plus impliqué dans l'économie mondiale, ouvrant ses portes à des intérêts et à des opportunités commerciales venus de l'étranger. Le 21e siècle a apporté de nombreuses avancées technologiques dans le pays qui ont notamment permis une forte croissance économique. Suite à l'augmentation des relations et des négociations avec des pays étrangers, le nombre de travailleurs formés et techniquement compétents a augmenté de façon spectaculaire au sein du Vietnam. Dans le même temps, les coûts de la vie et de production restent inférieurs à ceux pratiqués en Chine, mais la qualité des produits est connue pour ne pas être si grande ou cohérente. La Chine dispose de plus d'une décennie d'expérience de travail avec les pays occidentaux et s’est adaptée aux attentes en termes de qualité des pays étrangers.
+				</p>
+				<p>
+					Ces changements ont permis à des entreprises occidentales qui souhaitent ouvrir des sites de fabrication à l'étranger de bénéficier de nombreux avantages, créant une plus grande présence commerciale au Vietnam. La communauté commerciale internationale émergente au Vietnam appelle à la confiance dans les inspections menées sur site tout au long du <a href="/inspection-en-cours-de-production">processus de production</a>. Mais cela peut se révéler difficile pour les entreprises occidentales.
+				</p>
+				<p>
+					Dans le monde des affaires, en particulier dans les secteurs où la concurrence est âpre, l'assurance de proposer des produits de qualité ou non peut faire ou défaire la réputation d'une entreprise. Les installations de fabrication et conditionnement sont souvent situées loin du siège de l'entreprise, et les cadres débordés doivent faire confiance à leurs lointaines lignes de production pour fonctionner efficacement et produire dans les temps pour continuer à dominer le marché. Lorsque des problèmes surviennent, ils doivent être réglés par du personnel en qui l'on peut avoir confiance.
+				</p>
+				]]>
+			</obText>
+			<agTitle>Organismes d'Inspection au Vietnam</agTitle>
+			<agText>
+				Les entreprises basées au Vietnam peuvent faire confiance à nos agents d'inspection basés sur place pour atteindre et maintenir les niveaux escomptés de contrôle qualité. Chaque étape de la production peut être surveillée et régulée en utilisant un service d'inspection fiable. Nos services d'inspection au Vietnam comprennent l'évaluation des programmes et des plans de préproduction pour assurer des résultats à temps et l'utilisation de matériaux adéquats.
+			</agText>
+			<learnMore>
+				<title>En Savoir [+/-]</title>
+				<text>
+					<![CDATA[
+					<p>
+						As production comes to a close, a
+						<a href="/inspection-produit-avant-expedition">pre-shipment inspection</a>
+						will have an inspector test products for proper functioning and quality requirements,
+						sending product the does not meet client specifications back into production before being shipped off-site.
+						After manufactured product has been confirmed, inspectors can perform a
+						<a href="/controle-de-chargement-conteneur">container loading check</a>
+						to insure that the proper product and quantity are packaged and securely loaded before final payment is made and the product shipped.
+						All inspection results and client specifications are confirmed in detailed reports supported with photographs delivered the same day as the inspection.
+					</p>
+					<p>
+						Reports are also compiled and supplied to our clients to keep them apprised of the development and resolution of issues at Vietnam-based production facilities.
+						The output and reporting methods of our quality assurance inspectors ensure satisfaction, allowing our clients to focus on other, pressing aspects of multinational business.
+						The consistent communication from the production site to company headquarters is designed to put clients at ease with the international manufacturing process.
+					</p>
+					<p>
+						Our quality control measures in Vietnam ensure that your goods meet all industry and international standards and requirements.
+						Reports are filed in a timely fashion to keep our clients up-to-date on the issues that can affect company output.
+					</p>
+					]]>
+				</text>
+			</learnMore>
+			<footText><![CDATA[Pour plus d'informations sur nos services au Vietnam et dans d'autres pays asiatiques, veuillez <a href="/contact">nous contacter</a>]]></footText>
+		</Obstacles>
+	</fr>
+
+	<pt>
+		<InspAndAudit>
+			<title>Inspections and Audits in Vietnam</title>
+			<subtitle>AsiaInspection offers the #1 online platform for quality control.</subtitle>
+			<listitem><![CDATA[Guaranteed on-site inspections anywhere in Vietnam within 48 hours for $<span style='font-size:inherit;' class='priceIA'></span>.]]></listitem>
+			<listitem>Inspection reports are delivered within 24 hours of the inspection and include detailed pictures. You see what our inspector sees.</listitem>
+			<footText>Create you free account and see how the service works</footText>
+			<buttonText url="/register">Get Started</buttonText>
+		</InspAndAudit>
+		<QCinNam>
+			<title>Quality Control Services in Vietnam</title>
+			<leftList>
+				<li>On-site inspectors provide assessments and troubleshooting as needed throughout the manufacturing process. </li>
+				<li>AsiaInspection offers the highest caliber of inspectors within Vietnam. Our inspector network is highly trained and skilled in their areas of expertise. </li>
+			</leftList>
+			<rightList>
+				<li>All manufacturing audits (MA) in Vietnam conform to the internationally recognized ISO 9000 Standards for Quality Management Systems </li>
+				<li>Clients are allowed to modify or cancel orders up until 4:00 p.m. (China time) the day before the scheduled inspection at a Vietnam-based facility. </li>
+			</rightList>
+		</QCinNam>
+		<Obstacles>
+			<obTitle>Obstacles with Doing Business in Vietnam</obTitle>
+			<obText>
+				<![CDATA[
+				<p>
+					In recent years, Vietnam has become more involved in the world economy, opening its doors to international business interests and opportunities.
+					The 21st century has brought a number of technological advances and significant economic growth to the country. As a result of increased relations and negotiations,
+					the number of laborers within Vietnam who have technical training and skill sets has grown dramatically, while the costs of both production and living remain lower than China,
+					the quality is known for not being as high or as consistent. China has had a decade head-start working with and adapting to foreign quality expectations.
+				</p>
+				<p>
+					These changes have offered many advantages to businesses based in the Western world who wish to open manufacturing facilities abroad, creating a greater international business presence within Vietnam.
+					The emerging international business community within Vietnam's borders calls for trustworthy on-site inspection throughout the
+					<a href="/during-production-inspection">production process</a>, which can be difficult for Western-based businesses to staff.
+				</p>
+				<p>
+					In the business world, particularly within industries where competition is fierce, quality assurance can make or break a company's reputation.
+					Manufacturing and packing facilities are often located far from company headquarters, and busy executives must trust that their far-flung
+					production lines are running in a timely and efficient fashion in order to stay at the top of their fields. When problems arise, they must be
+					handled by trustworthy personnel.
+				</p>
+				]]>
+			</obText>
+			<agTitle>Inspection Agencies in Vietnam</agTitle>
+			<agText>
+				Companies based in Vietnam can trust that our regionally based, on-site inspection agents are achieving and maintaining appropriate levels of quality control.
+				Every step of production can be regulated through the use of a reliable inspection service.
+				Our inspection services in Vietnam include the assessment of pre-production schedules and plans to ensure timely outcomes and adequate materials.
+			</agText>
+			<learnMore>
+				<title>Learn More [+/-]</title>
+				<text>
+					<![CDATA[
+					<p>
+						As production comes to a close, a
+						<a href="/pre-shipment-inspection">pre-shipment inspection</a>
+						will have an inspector test products for proper functioning and quality requirements,
+						sending product the does not meet client specifications back into production before being shipped off-site.
+						After manufactured product has been confirmed, inspectors can perform a
+						<a href="/container-loading-check">container loading check</a>
+						to insure that the proper product and quantity are packaged and securely loaded before final payment is made and the product shipped.
+						All inspection results and client specifications are confirmed in detailed reports supported with photographs delivered the same day as the inspection.
+					</p>
+					<p>
+						Reports are also compiled and supplied to our clients to keep them apprised of the development and resolution of issues at Vietnam-based production facilities.
+						The output and reporting methods of our quality assurance inspectors ensure satisfaction, allowing our clients to focus on other, pressing aspects of multinational business.
+						The consistent communication from the production site to company headquarters is designed to put clients at ease with the international manufacturing process.
+					</p>
+					<p>
+						Our quality control measures in Vietnam ensure that your goods meet all industry and international standards and requirements.
+						Reports are filed in a timely fashion to keep our clients up-to-date on the issues that can affect company output.
+					</p>
+					]]>
+				</text>
+			</learnMore>
+			<footText><![CDATA[For more information on the services we provide in Vietnam and other Asian countries, please <a href="/contact-us">contact us</a>]]></footText>
+		</Obstacles>
+	</pt>
+
+	<ru>
+		<InspAndAudit>
+			<title>Инспекция и аудит во Вьетнаме</title>
+			<subtitle>AsiaInspection - это онлайн платформа для контроля качества №1.</subtitle>
+			<listitem>Инспекция на местах с гарантией на всей территории Вьетнама в течение 48 часов по цене от {{priceIA}} длр США.</listitem>
+			<listitem>Отчеты об инспекции будут доставлены в течение 24 часов после инспекции и будут содержать подробные изображения. Вы увидите то, что видит инспектор.</listitem>
+			<footText>Create your free account and see how the service works</footText>
+			<buttonText url="/register">Начать</buttonText>
+		</InspAndAudit>
+		<QCinNam>
+			<title>Услуги по контролю качества во Вьетнаме</title>
+			<leftList>
+				<li>Инспекторы на местах обеспечивают оценку, а также поиск и должное устранение проблем в течение всего процесса производства.</li>
+				<li>AsiaInspection предлагает инспекторов самого высокого качества на территории Вьетнама. Инспекторы нашей сети имеют прекрасный опыт и образование в своих областях квалификации.</li>
+			</leftList>
+			<rightList>
+				<li>Все производственные аудиты (MA) во Вьетнаме проходят в соответствии с международно признанными стандартами ISO 9000, касающимися системы менеджмента качества. </li>
+				<li>Клиенты могут отменять или изменять заказы до 16:00 (время Китая) накануне запланированной инспекции для объектов на территории Вьетнама.</li>
+			</rightList>
+		</QCinNam>
+		<Obstacles>
+			<obTitle>Препятствия для бизнеса во Вьетнаме</obTitle>
+			<obText>
+				<![CDATA[
+				<p>
+					В последние годы Вьетнам все больше включается в мировую экономику, открывая свои двери международному бизнесу и новым возможностям. 21 век принес стране технологический прогресс и значительный рост экономики. В результате расширения взаимоотношений с миром число вьетнамских работников, получивших техническое образование и имеющих профессиональные навыки, резко увеличилось, и в то же время цены на жизнь и производство остаются гораздо ниже, чем в Китае, а качество не настолько высоко и постоянно. У Китая имеется преимущество в десять лет работы и адаптации к иностранным требованиям качества.
+				</p>
+				<p>
+					Все эти изменения дали множество преимуществ западному бизнесу, желающему открыть производственные площадки в других странах, и привели к существенному присутствию международного бизнеса во Вьетнаме. Развивающееся международное бизнес-сообщество на территории Вьетнама нуждается в надежной инспекции на местах на всем протяжении процесса производства, что западному бизнесу сложно реализовать в плане кадров.
+				</p>
+				<p>
+					В мире бизнеса, особенно в тех областях, где конкуренция высока, услуги по гарантии качества могут спасти или подорвать репутацию компании. Производственные и упаковочные площадки часто расположены вдали от головного офиса компании, и занятые руководители должны быть уверены, что их широко раскинувшиеся производственные линии работают эффективно и по графику, чтобы оставаться на вершине своей сферы деятельности. Когда возникают проблемы, их нужно решать с помощью надежного персонала.
+				</p>
+				]]>
+			</obText>
+			<agTitle>Инспекционные агентства во Вьетнаме</agTitle>
+			<agText>
+				Компании, базирующиеся во Вьетнаме, могут быть уверены, что наши региональные агенты на местах поддерживают контроль качества на должном уровне. Каждый этап производства может быть отрегулирован благодаря использованию надежных инспекционных услуг. Наши инспекционные услуги во Вьетнаме включают в себя оценку предпроизводственных графиков и планов, чтобы гарантировать своевременные результаты и соответствие материалов.
+			</agText>
+			<learnMore>
+				<title>Learn More [+/-]</title>
+				<text>
+					<![CDATA[
+					<p>
+						Когда производство подходит к концу, специалист по инспекции проводит предотгрузочную проверку на соответствие требованиям качества и правильное функционирование и отправляет продукцию, не отвечающую спецификациям заказчика, обратно на производство. После того как качество произведенной продукции будет подтверждено, инспекторы смогут осуществить проверку погрузки в контейнеры, чтобы гарантировать, что должное количество должной продукции упаковано и безопасно погружено, перед тем как будет проведен финальный платеж и продукция будет отправлена. Все результаты инспекции и спецификации клиента будут отражены в подробном отчете с фотографиями, который будет доставлен вам прямо в день инспекции.
+					</p>
+					<p>
+						Отчеты составляются и доставляются нашим клиентам, чтобы держать их в курсе развития и решения проблем на производстве во Вьетнаме. Выводы и методики создания отчетов наших инспекторов по гарантии качества гарантируют удовлетворенность клиентов, тем самым позволяя последним сфокусироваться на других важных аспектах межнационального бизнеса. Постоянная связь производства с головным офисом компании служит для того, чтобы клиенты чувствовали себя спокойно в процессе международного производства.
+					</p>
+					<p>
+						Наши меры контроля качества во Вьетнаме гарантируют, что ваши товары отвечают всем международным и отраслевым стандартам и требованиям. Отчеты регистрируются своевременно, чтобы клиенты всегда были в курсе проблем, которые могут иметь последствия для производительности компании.
+					</p>
+					]]>
+				</text>
+			</learnMore>
+			<footText><![CDATA[Свяжитесь с нами для более подробной информации о наших услугах во Вьетнаме и <a href="/contact-us">других азиатских странах</a>]]></footText>
+		</Obstacles>
+	</ru>
+
+</document>

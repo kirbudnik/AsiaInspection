@@ -1,0 +1,39 @@
+/********************************************/
+/* This file is for SCSS Mixins to be used */
+/********************************************/
+
+@mixin border-radius($r1, $r2:"", $r3:"", $r4:"") {
+    @if $r1 and $r2 != "" and $r3 != "" and $r4 != "" {
+        -webkit-border-radius: unquote($r1) unquote($r2) unquote($r3) unquote($r4);
+        -moz-border-radius: unquote($r1) unquote($r2) unquote($r3) unquote($r4);
+        border-radius: unquote($r1) unquote($r2) unquote($r3) unquote($r4);
+    } @else {
+        -webkit-border-radius: unquote($r1);
+        -moz-border-radius: unquote($r1);
+        border-radius: unquote($r1);
+    }
+}
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex:  $values;
+}
+
+@mixin order($val) {
+  -webkit-box-ordinal-group: $val;  
+  -moz-box-ordinal-group: $val;     
+  -ms-flex-order: $val;     
+  -webkit-order: $val;  
+  order: $val;
+}

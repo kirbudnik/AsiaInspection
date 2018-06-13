@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex,nofollow" />
+    {% block stylesheets %}
+        <link href="{{asset('/css/bootstrap.css')}}" rel="stylesheet"/>
+        <link href="{{asset('/css/bootstrap-theme.css')}}" rel="stylesheet"/>
+        {% stylesheets filter="scss" filter='?uglifycss' '@AIResponsiveBundle/Resources/public/css/styles.scss' %}
+        <link id="mainCSS" rel="stylesheet" href="{{asset_url}}"/>
+        {% endstylesheets %}
+        {% if app.request.locale == "ar" %}<link href="{{asset('/css/arabic.css')}}" rel="stylesheet"/>{% endif %}
+    {% endblock %}
+    <link href="/css/thickbox.css" rel="stylesheet"/>
+    <script src="/js/jquery-1.11.2.min.js"></script>
+</head>
+<body {% if app.request.locale == "ar" %}dir="rtl"{% endif %}>
+
+    {# INSPECTIONS #}
+    {% if type is defined and type == "inspections" %}
+
+        <h2 class="marginZero padding15" style="font-weight:bold;">{% trans %}Inspections.Benefits.title{% endtrans %}</h2>
+        <div class="marginZero " style="padding-bottom:5px;">
+            <p style="font-weight:bold;">{% trans %}Inspections.Benefits.whyUsTitle{% endtrans %}</p>
+            <ul class="marginZero">
+                {% trans %}Inspections.Benefits.whyUsList{% endtrans %}
+            </ul>
+        </div>
+        <div class="marginZero padding15">{% trans %}Inspections.Benefits.whyUse.reason{% endtrans %}</div>
+
+    {# AUDITS #}
+    {% elseif type is defined and type == "audits" %}
+
+        <h2 class="marginZero padding15" style="font-weight:bold;">{% trans %}Inspections.Benefits.title{% endtrans %}</h2>
+        <div class="marginZero " style="padding-bottom:5px;">
+            <p style="font-weight:bold;">{% trans %}Inspections.Benefits.whyUsTitle{% endtrans %}</p>
+            <ul class="marginZero">
+                {% trans %}Audits.Benefits.whyUsList{% endtrans %}
+            </ul>
+        </div>
+        <div class="marginZero padding15">{% trans %}Audits.Benefits.whyUse.reason{% endtrans %}</div>
+
+    {# LAB TESTS #}
+    {% elseif type is defined and type == "labtests" %}
+
+        <h2 class="marginZero padding15" style="font-weight:bold;">{% trans %}Benefits.LabTests.Title{% endtrans %}</h2>
+        <div class="marginZero " style="padding-bottom:5px;">
+            <!-- {% if app.request.locale == "zh" %}<p>{% trans %}AI亚检专业致力于轻工业产品、玩具和儿童用品及纺织服装产品的测试，AI实验室提供6000余种测试服务，帮助您降低风险，验证产品的质量和安全。测试服务包括 ：{% endtrans %}</p>{% endif %} -->
+            <ul class="marginZero">
+                <li style="margin-bottom:5px;">{% trans %}Benefits.LabTests.WhyList.One{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}Benefits.LabTests.WhyList.Two{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}Benefits.LabTests.WhyList.Three{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}Benefits.LabTests.WhyList.Four{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}Benefits.LabTests.WhyList.Five{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}Benefits.LabTests.WhyList.Six{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}Benefits.LabTests.WhyList.Seven{% endtrans %}</li>
+            </ul>
+            <p><strong>{% trans %}Benefits.LabTests.LearnMore{% endtrans %}</strong></p>
+            <ul>
+                <li style="margin-bottom:5px;"><a href="/testing/toy-safety-and-lab-testing">{% trans %}Benefits.LabTests.CatLink.ChildrenProducts{% endtrans %}</a></li>
+                <li style="margin-bottom:5px;"><a href="/testing/promotional-products">{% trans %}Benefits.LabTests.CatLink.Promotional{% endtrans %}</a></li>
+                <li style="margin-bottom:5px;"><a href="http://www.asiafoodinspection.com/">{% trans %}Benefits.LabTests.CatLink.Food{% endtrans %}</a></li>
+                <li style="margin-bottom:5px;"><a href="/industry-hardline">{% trans %}Benefits.LabTests.CatLink.Hardlines{% endtrans %}</a></li>
+                <li style="margin-bottom:5px;"><a href="/industry-softline">{% trans %}Benefits.LabTests.CatLink.Textiles{% endtrans %}</a></li>
+                <li style="margin-bottom:5px;"><a href="/testing/jewelry">{% trans %}Benefits.LabTests.CatLink.Jewlery{% endtrans %}</a></li>
+            </ul>
+        </div>
+
+    {# PRODUCE #}
+    {% elseif type is defined and type == "produce" %}
+        
+        <h2 class="marginZero padding15" style="font-weight:bold;">{% trans %}benefitsBox-title1{% endtrans %}</h2>
+        <div class="marginZero " style="padding-bottom:5px;">
+            <p style="font-weight:bold;">{% trans %}benefitsBox-ourBenefits{% endtrans %}</p>
+            <ul class="marginZero">
+                <li style="margin-bottom:5px;">{% trans %}benefitsBox-onlineManagement{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}benefitsBox-flexibility{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}benefitsBox-globalCoverage{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}benefitsBox-expertInspectors{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}benefitsBox-industryExpertise{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}benefitsBox-strictSampling{% endtrans %}</li>
+            </ul>
+        </div>
+
+    {# DEFAULT #}
+    {% else %}
+
+        <h2 class="marginZero padding15" style="font-weight:bold;">{% trans %}benefitsBox-title1{% endtrans %}</h2>
+        <div class="marginZero " style="padding-bottom:5px;">
+            <p style="font-weight:bold;">{% trans %}benefitsBox-ourBenefits{% endtrans %}</p>
+            <ul class="marginZero">
+                <li style="margin-bottom:5px;">{% trans %}benefitsBox-supplyIntelligence{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}benefitsBox-leadingTurnaround{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}benefitsBox-onlineMobile{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}benefitsBox-allIncPricing{% endtrans %}</li>
+                <li style="margin-bottom:5px;">{% trans %}benefitsBox-totals{% endtrans %}</li>
+            </ul>
+        </div>
+
+    {% endif %}
+
+    <div id="txtAuditor" class="notshow" style="display:none;">{% trans %}Inspections.Benefits.hoverOne{% endtrans %}</div>
+    <div id="txtSameDayAudit" class="notshow" style="display:none;">{% trans %}Inspections.Benefits.hoverTwo{% endtrans %}</div>
+    <div id="txtFastReport" style="display:none;">{% trans %}Inspections.Benefits.whyUse.hoverOne{% endtrans %}</div>
+    
+    <style type="text/css">
+        #HoverText {
+            position: absolute;
+            font-size: 11px;
+            background-color: #e5e9ec;
+            width: 280px;
+            padding: 10px;
+            -webkit-box-shadow: 0px 0px 10px 5px rgba(157, 160, 162, 0.75);
+            -moz-box-shadow: 0px 0px 10px 5px rgba(157, 160, 162, 0.75);
+            box-shadow: 0px 0px 10px 5px rgba(157, 160, 162, 0.75);
+            behavior: url("{{assetsDomain}}/libs/pie.htc");
+            z-index: 1000;
+        }
+    </style>
+
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/thickbox.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+        $(".hoverText").click(function(){
+        hovCargo = "#" + $(this).attr("cargo");
+        if($(hovCargo).hasClass('notshow')){
+            $(hovCargo).removeClass('notshow');
+            if($(window).width()>900) {
+                hovPosLeft = (parseInt($(this).position().left,10) + parseInt($(this).css("width"),10) + 20) +"px";
+                hovPosTop = (parseInt($(this).position().top,10) + parseInt($(this).css("height"),10) + 10) + "px";
+            } else {
+                hovPosLeft = (parseInt($(this).position().left,10) + parseInt($(this).css("width"),10) - 100) +"px";
+                hovPosTop = (parseInt($(this).position().top,10) + parseInt($(this).css("height"),10) + 10) + "px";
+            }
+            x = $("<div id='HoverText'></div>").css({
+            'left': hovPosLeft,
+            'top': hovPosTop,
+            }).html($(hovCargo).html()).insertAfter(this);
+
+            // test if out of bounds (outside iFrame width)
+            var rightOffset = $(window).width() - ( $(x).position().left + $(x).width() );
+            if( rightOffset < 0) $(x).css({"right":"10px","left":"auto"});
+            var bottomOffset = $(window).height() - ( $(x).position().top + $(x).height() );
+            if( bottomOffset < 0) {
+                newPos = ($(x).position().top - $(x).height()) - 40;
+                $(x).css("top", newPos+"px");
+            }
+        }
+        else{
+             $("#HoverText").remove();
+             $(hovCargo).addClass('notshow');
+         }
+        });
+       });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+	<title>
+		<en>Subscribe to Our Newsletter</en>
+		<zh>订阅我们的企业资讯</zh>
+		<fr>S'inscrire à notre newsletter</fr>
+		<ar>إشترك في نشرتنا إلاخباريه</ar>
+		<de>Newsletter abonnieren</de>
+		<ru>Подпишитесь на новости</ru>
+		<es>Suscríbase a nuestro boletín</es>
+		<it>Iscriviti alla newsletter</it>
+		<pt>Assine nossa Newsletter</pt>
+        <tr>Bültenimize Kaydolun</tr>
+	</title>
+
+	<placeholderEmail>
+		<en>Your email address</en>
+		<zh>您的邮箱地址</zh>
+		<fr>Votre adresse mail</fr>
+		<ar>بريدك الإلكتروني</ar>
+		<de>Ihre E-Mail-Adresse</de>
+		<ru>Электронный адрес:</ru>
+		<es>Su e-mail</es>
+		<it>Il tuo indirizzo e-mail</it>
+		<pt>Seu endereço de e-mail</pt>
+        <tr>Email Adresiniz</tr>
+	</placeholderEmail>
+
+	<submitText>
+		<en>Submit</en>
+		<fr>Envoyer</fr>
+		<zh>提交</zh>
+		<ar>إرسال</ar>
+		<de>Abschicken</de>
+		<ru>Отправить</ru>
+		<es>Enviar</es>
+		<it>Inviare</it>
+		<pt>Enviar</pt>
+        <tr>Gönder</tr>
+	</submitText>
+
+</document>

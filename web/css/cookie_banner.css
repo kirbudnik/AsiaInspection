@@ -1,0 +1,26 @@
+div.cc_banner{
+  text-align: left;
+  font-size: 1em;
+  padding: 14px 30px 10px 30px;
+  display:flex;
+}
+
+p.cc_message{
+  order: 1;
+  display:inline!important;
+  float:left!important;
+  display: inline!important;
+
+}
+
+a.cc_btn{
+  order: 2;
+  width:auto!important;
+  color:white!important;
+  border:1px white solid;
+  background-color: rgba(0, 0, 0, 0.0)!important;
+}
+
+a.cc_logo{
+  display:none!important;
+}

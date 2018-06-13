@@ -1,0 +1,420 @@
+/****************************************************************************/
+/* This file is for anything that can be a variable to be used in ours CSS */
+/****************************************************************************/
+
+//Variables
+$mainWidth: 1300px;
+
+//Colors
+$white: white;
+$black: black;
+$grey: grey;
+$aiRed: #b31820;
+$lightgrey: #b6b6b6;
+$whitegrey: #eaeaea;
+
+$color_mine_shaft_approx: #333;
+$color_alto_approx: #ddd;
+$color_suva_gray_approx: #888;
+$color_chicago_approx: rgb(94,94,94);
+$color_pumice_approx: rgb(198,198,198);
+$color_silver_approx: #c1c1c1;
+$color_viking_approx: #6fc5e0;
+$color_powder_blue: #ddecf4;
+$color_cobalt_blue: #0265a5;
+$color_cobalt_blue_hover: #004472;
+$color_tuatara_approx: #363636;
+$color_celeste_approx: #cccccc;
+$color_gallery_approx: #f0f0f0;
+$color_mercury_approx: #e6e6e6;
+$color_stack_approx: #8a8a8a;
+$color_cape_cod_approx: #404040;
+$color_storm_dust_approx: #666666;
+$color_rangoon_green_approx: #1a1a1a;
+$color_pale_slate_approx: #c3c3c3;
+$color_chambray_approx: rgb(56,80,143);
+$color_mountain_mist_approx: rgb(153,153,153);
+$color_gravel_approx: #4c4c4c;
+$color_shark_approx: #272727;
+$black_10: rgba(0,0,0,0.1);
+
+//Fonts
+$font_primary: 'Open Sans';	//Arial
+$font_secondary: 'Open Sans';  //Helvetica
+
+//Font Sizes
+$base_font_size: 14px;
+$font_size_1: 1em;		// 14px (base: 14px)
+$font_size_2: 0.928em;	// 13px (base: 14px)
+$font_size_3: 3em;		// 42px (base: 14px)
+$font_size_4: 0.8em;	// 11px (base: 14px)
+$font_size_5: 1.35em;	// 19px (base: 14px)
+$font_size_6: 1.19em;	// 16px (base: 14px)
+$font_size_7: 1.3em;	// ??px (base: 14px)
+$font_size_8: 1.9em;	// 24px (base: 14px)
+$font_size_9: 1.5em;	// ??px (base: 14px)
+$font_size_10: 2.7em;	// ??px (base: 14px)
+$font_size_11: 1.23em;	// ??px (base: 14px)
+$font_size_12: 0.7em;
+
+
+//URLs
+$url_circle: url(https://s3.asiainspection.com/images/ico_circle.png?v27);
+$url_disc: url(https://s3.asiainspection.com/images/ico_disc.png?v27);
+$url_vertsep: url(/images/vertsep.png?v27);
+
+
+$url_full_logo: url(/images/logo.png?v27);
+$url_60x60_logo: url(https://s3.asiainspection.com/images/logo_AI_60x60.png?v27);
+$url_ChinaInspection_logo: url(https://s3.asiainspection.com/images/logo-cn.png?v27);
+
+$url_submenu_icons: url(https://s3.asiainspection.com/images/responsive/submenu_icons.png?v27);
+$url_pie: url(https://s3.asiainspection.com/libs/pie.htc);
+$url_grey_accred: url(https://s3.asiainspection.com/sprites/greyaccreditations.png?v27);
+$url_global_sprite: url(https://s3.asiainspection.com/sprites/sprite_global.png?v27);
+
+/* to be renamed something more readable or removed if no longer used */
+$url_0: url(https://s3.asiainspection.com/images/responsive/main.png?v27);
+$url_1: url(https://s3.asiainspection.com/images/responsive/devices1.jpg?v27);
+$url_4: url(https://s3.asiainspection.com/images/responsive/testimonials.jpeg);
+$url_5: url(https://s3.asiainspection.com/images/responsive/main.jpeg);
+$url_6: url(https://s3.asiainspection.com/images/responsive/02devices.jpeg);
+$url_7: url(https://s3.asiainspection.com/images/responsive/AI-on-multiple-devices.png?v27);
+$url_8: url(https://s3.asiainspection.com/images/responsive/main_right_small.jpg?v27);
+$url_9: url(https://s3.asiainspection.com/images/responsive/slide3Middle.png?v27);
+$url_10: url(https://s3.asiainspection.com/images/responsive/main_right_tiny.jpg?v27);
+$url_11: url(https://s3.asiainspection.com/images/responsive/slide3Small.png?v27);
+$url_12: url(https://s3.asiainspection.com/images/responsive/socialIcons/socnet-facebook-white.png?v27);
+$url_13: url(https://s3.asiainspection.com/images/responsive/socialIcons/socnet-twitter-white.png?v27);
+$url_14: url(https://s3.asiainspection.com/images/responsive/socialIcons/socnet-youtube-white.png?v27);
+$url_15: url(https://s3.asiainspection.com/images/responsive/socialIcons/socnet-google-plus-white.png?v27);
+$url_16: url(https://s3.asiainspection.com/images/responsive/socialIcons/socnet-linkedin-white.png?v27);
+$url_17: url(https://s3.asiainspection.com/sprites/sprite_testimonials.png?v27);
+$url_18: url(https://s3.asiainspection.com/sprites/sprite_sideboxes.png?v27);
+$url_19: url(https://s3.asiainspection.com/sprites/sprite_aboutUs.png?v27);
+$url_20: url(https://s3.asiainspection.com/images/responsive/small_devices.png?v27);
+$url_34: url(https://s3.asiainspection.com/images/responsive/main_right.jpg?v27);
+$url_35: url(https://s3.asiainspection.com/images/responsive/slider/Industry-1-Softlines.jpg?v27);
+$url_36: url(https://s3.asiainspection.com/images/responsive/slider/Industry-2-Hardlines.jpg?v27);
+$url_37: url(https://s3.asiainspection.com/images/responsive/slider/Industry-3-Technical-Parts.jpg?v27);
+$url_38: url(https://s3.asiainspection.com/images/responsive/slider/Services-Audits-1-Manufacturing-Audits.jpg?v27);
+$url_39: url(https://s3.asiainspection.com/images/responsive/slider/Services-Audits-2-Ethical-Audits.jpg?v27);
+
+/* Client Logos for Testimonials Slider */
+$url_ClientLogo_1: url(https://s3.asiainspection.com/images/responsive/client_logos/3M.png?v27);
+$url_ClientLogo_2: url(https://s3.asiainspection.com/images/responsive/client_logos/ace.png?v27);
+$url_ClientLogo_3: url(https://s3.asiainspection.com/images/responsive/client_logos/GAP.png?v27);
+$url_ClientLogo_4: url(https://s3.asiainspection.com/images/responsive/client_logos/dior.png?v27);
+$url_ClientLogo_5: url(https://s3.asiainspection.com/images/responsive/client_logos/quicksilver.png?v27);
+$url_ClientLogo_6: url(https://s3.asiainspection.com/images/responsive/client_logos/guess.png?v27);
+$url_ClientLogo_7: url(https://s3.asiainspection.com/images/responsive/client_logos/avon.png?v27);
+$url_ClientLogo_8: url(https://s3.asiainspection.com/images/responsive/client_logos/best&less.png?v27);
+$url_ClientLogo_9: url(https://s3.asiainspection.com/images/responsive/client_logos/fred_perry.png?v27);
+$url_ClientLogo_10: url(https://s3.asiainspection.com/images/responsive/client_logos/perry_ellis.png?v27);
+$url_ClientLogo_11: url(https://s3.asiainspection.com/images/responsive/client_logos/target.png?v27);
+$url_ClientLogo_12: url(https://s3.asiainspection.com/images/responsive/client_logos/trek.png?v27);
+$url_ClientLogo_13: url(https://s3.asiainspection.com/images/responsive/client_logos/turner.png?v27);
+$url_ClientLogo_14: url(https://s3.asiainspection.com/images/responsive/client_logos/speedo.png?v27);
+
+/* Header Images */
+$url_WhoWeAreHeader_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/who_we_are_[sm].jpg?v27);
+$url_WhoWeAreHeader_md: url(https://s3.asiainspection.com/images/responsive/headerImages/who_we_are_[md].jpg?v27);
+$url_WhoWeAreHeader_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/who_we_are_[lg].jpg?v27);
+$url_SampleReports_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/sample_reports_[sm].jpg?v27);
+$url_SampleReports_md: url(https://s3.asiainspection.com/images/responsive/headerImages/sample_reports_[md].jpg?v27);
+$url_SampleReports_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/sample_reports_[lg].jpg?v27);
+$url_Accreditations_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/accredidation_[sm].jpg?v27);
+$url_Accreditations_md: url(https://s3.asiainspection.com/images/responsive/headerImages/accredidation_[md].jpg?v27);
+$url_Accreditations_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/accredidation_[lg].jpg?v27);
+$url_CompanyValues_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/company_values_[sm].png?v27);
+$url_CompanyValues_md: url(https://s3.asiainspection.com/images/responsive/headerImages/company_values_[md].png?v27);
+$url_CompanyValues_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/company_values_[lg].png?v27);
+$url_Testimonials_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/testimonials_[sm].jpg?v27);
+$url_Testimonials_md: url(https://s3.asiainspection.com/images/responsive/headerImages/testimonials_[md].jpg?v27);
+$url_Testimonials_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/testimonials_[lg].jpg?v27);
+$url_Partners_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/partners_[sm].jpg?v27);
+$url_Partners_md: url(https://s3.asiainspection.com/images/responsive/headerImages/partners_[md].jpg?v27);
+$url_Partners_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/partners_[lg].jpg?v27);
+$url_Pricing_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/pricing_[sm].jpg?v27);
+$url_Pricing_md: url(https://s3.asiainspection.com/images/responsive/headerImages/pricing_[md].jpg?v27);
+$url_Pricing_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/pricing_[lg].jpg?v27);
+$url_ENVIRO_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/enviro_audit_[lg].jpg?v27);
+$url_ENVIRO_md: url(https://s3.asiainspection.com/images/responsive/headerImages/enviro_audit_[md].jpg?v27);
+$url_ENVIRO_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/enviro_audit_[sm].jpg?v27);
+$url_careers_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[lg].jpg?v27);
+$url_careers_md: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[md].jpg?v27);
+$url_careers_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/About-Us-Careers_[sm].jpg?v27);
+$url_contactus_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Contact_[lg].jpg?v27);
+$url_contactus_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Contact_[md].jpg?v27);
+$url_contactus_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Contact_[sm].jpg?v27);
+$url_softline_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-1-Softlines_[lg].jpg?v27);
+$url_softline_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-1-Softlines_[md].jpg?v27);
+$url_softline_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-1-Softlines_[sm].jpg?v27);
+$url_hardline_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-2-Hardlines_[lg].jpg?v27);
+$url_hardline_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-2-Hardlines_[md].jpg?v27);
+$url_hardline_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Industry-2-Hardlines_[sm].jpg?v27);
+$url_techpart_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/technical_parts_[lg].jpg?v27);
+$url_techpart_md: url(https://s3.asiainspection.com/images/responsive/headerImages/technical_parts_[md].jpg?v27);
+$url_techpart_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/technical_parts_[sm].jpg?v27);
+$url_FA_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-1-Manufacturing-Audits_[lg].jpg?v27);
+$url_FA_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-1-Manufacturing-Audits_[md].jpg?v27);
+$url_FA_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-1-Manufacturing-Audits_[sm].jpg?v27);
+$url_SA_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-2-Ethical-Audits_[lg].jpg?v27);
+$url_SA_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-2-Ethical-Audits_[md].jpg?v27);
+$url_SA_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Audits-2-Ethical-Audits_[sm].jpg?v27);
+$url_PSI_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-1-psi_[lg].jpg?v27);
+$url_PSI_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-1-psi_[md].jpg?v27);
+$url_PSI_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-1-psi_[sm].jpg?v27);
+$url_PM_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/production_monitoring_[lg].jpg?v27);
+$url_PM_md: url(https://s3.asiainspection.com/images/responsive/headerImages/production_monitoring_[md].jpg?v27);
+$url_PM_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/production_monitoring_[sm].jpg?v27);
+$url_DUPRO_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-3-during-production-check_[lg].jpg?v27);
+$url_DUPRO_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-3-during-production-check_[md].jpg?v27);
+$url_DUPRO_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-3-during-production-check_[sm].jpg?v27);
+$url_IPC_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-4-initial-production-check_[lg].jpg?v27);
+$url_IPC_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-4-initial-production-check_[md].jpg?v27);
+$url_IPC_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Inspections-4-initial-production-check_[sm].jpg?v27);
+$url_CLC_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/container-loading-check_[lg].jpg?v27);
+$url_CLC_md: url(https://s3.asiainspection.com/images/responsive/headerImages/container-loading-check_[md].jpg?v27);
+$url_CLC_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/container-loading-check_[sm].jpg?v27);
+$url_FPSI_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/food_inspections_[lg].jpg?v27);
+$url_FPSI_md: url(https://s3.asiainspection.com/images/responsive/headerImages/food_inspections_[md].jpg?v27);
+$url_FPSI_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/food_inspections_[sm].jpg?v27);
+$url_REACH_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-1_[lg].jpg?v27);
+$url_REACH_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-1_[md].jpg?v27);
+$url_REACH_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-1_[sm].jpg?v27);
+$url_FoodA_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/food_audit_[lg].jpg?v27);
+$url_FoodA_md: url(https://s3.asiainspection.com/images/responsive/headerImages/food_audit_[md].jpg?v27);
+$url_FoodA_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/food_audit_[sm].jpg?v27);
+$url_CPSIA_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-2_[lg].jpg?v27);
+$url_CPSIA_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-2_[md].jpg?v27);
+$url_CPSIA_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-2_[sm].jpg?v27);
+$url_ROHS_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-3_[lg].jpg?v27);
+$url_ROHS_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-3_[md].jpg?v27);
+$url_ROHS_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-3_[sm].jpg?v27);
+$url_LT_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-6_[lg].jpg?v27);
+$url_LT_md: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-6_[md].jpg?v27);
+$url_LT_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/Services-Lab-Testing-6_[sm].jpg?v27);
+$url_FT_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/food_testing_[lg].jpg?v27);
+$url_FT_md: url(https://s3.asiainspection.com/images/responsive/headerImages/food_testing_[md].jpg?v27);
+$url_FT_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/food_testing_[sm].jpg?v27);
+$url_service_coverage_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/service_coverage_[lg].jpg?v27);
+$url_service_coverage_md: url(https://s3.asiainspection.com/images/responsive/headerImages/service_coverage_[md].jpg?v27);
+$url_service_coverage_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/service_coverage_[sm].jpg?v27);
+$url_CTPAT_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/ctpat_[lg].png?v27);
+$url_CTPAT_md: url(https://s3.asiainspection.com/images/responsive/headerImages/ctpat_[md].png?v27);
+$url_CTPAT_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/ctpat_[sm].png?v27);
+$url_whitePapers_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/white_papers_[lg].jpg?v27);
+$url_whitePapers_md: url(https://s3.asiainspection.com/images/responsive/headerImages/white_papers_[md].jpg?v27);
+$url_whitePapers_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/white_papers_[sm].jpg?v27);
+$url_bangladesh_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[lg].jpg?v27);
+$url_bangladesh_md: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[md].jpg?v27);
+$url_bangladesh_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[sm].jpg?v27);
+$url_vietnam_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/vietnam_[lg].jpg?v27);
+$url_vietnam_md: url(https://s3.asiainspection.com/images/responsive/headerImages/vietnam_[md].jpg?v27);
+$url_vietnam_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/vietnam_[sm].jpg?v27);
+$url_india_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[lg].jpg?v27);
+$url_india_md: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[md].jpg?v27);
+$url_india_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/bangladesh_[sm].jpg?v27);
+$url_News_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/news_[lg].jpg?v27);
+$url_News_md: url(https://s3.asiainspection.com/images/responsive/headerImages/news_[md].jpg?v27);
+$url_News_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/news_[sm].jpg?v27);
+$url_RefSamples_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/reference_samples_[lg].jpg?v27);
+$url_RefSamples_md: url(https://s3.asiainspection.com/images/responsive/headerImages/reference_samples_[md].jpg?v27);
+$url_RefSamples_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/reference_samples_[sm].jpg?v27);
+$url_tapwater_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/tapwater_[lg].png?v27);
+$url_tapwater_md: url(https://s3.asiainspection.com/images/responsive/headerImages/tapwater_[md].png?v27);
+$url_tapwater_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/tapwater_[sm].png?v27);
+
+$url_GHP_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/ghp_audit_[lg].jpg?v27);
+$url_GHP_md: url(https://s3.asiainspection.com/images/responsive/headerImages/ghp_audit_[md].jpg?v27);
+$url_GHP_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/ghp_audit_[sm].jpg?v27);
+$url_GMP_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/gmp_audit_[lg].jpg?v27);
+$url_GMP_md: url(https://s3.asiainspection.com/images/responsive/headerImages/gmp_audit_[md].jpg?v27);
+$url_GMP_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/gmp_audit_[sm].jpg?v27);
+$url_food_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/industry_food_[lg].jpg?v27);
+$url_food_md: url(https://s3.asiainspection.com/images/responsive/headerImages/industry_food_[md].jpg?v27);
+$url_food_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/industry_food_[sm].jpg?v27);
+$url_food-containers_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/food-containers_[lg].jpg?v27);
+$url_food-containers_md: url(https://s3.asiainspection.com/images/responsive/headerImages/food-containers_[md].jpg?v27);
+$url_food-containers_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/food-containers_[sm].jpg?v27);
+$url_meat-poultry_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/meat-poultry_[lg].jpg?v27);
+$url_meat-poultry_md: url(https://s3.asiainspection.com/images/responsive/headerImages/meat-poultry_[md].jpg?v27);
+$url_meat-poultry_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/meat-poultry_[sm].jpg?v27);
+$url_food-produce_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/fruits1_[lg].jpg?v27);
+$url_food-produce_md: url(https://s3.asiainspection.com/images/responsive/headerImages/fruits1_[md].jpg?v27);
+$url_food-produce_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/fruits1_[sm].jpg?v27);
+$url_seafood_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/seafood_[lg].jpg?v27);
+$url_seafood_md: url(https://s3.asiainspection.com/images/responsive/headerImages/seafood_[md].jpg?v27);
+$url_seafood_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/seafood_[sm].jpg?v27);
+
+$url_SMETA_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/smetaaudit_[sm].jpg?v27);
+$url_SMETA_md: url(https://s3.asiainspection.com/images/responsive/headerImages/smetaaudit_[md].jpg?v27);
+$url_SMETA_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/smetaaudit_[sm].jpg?v27);
+
+$url_trainads_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/laboratory_testing_[lg].jpg?v27);
+$url_trainads_md: url(https://s3.asiainspection.com/images/responsive/headerImages/laboratory_testing_[md].jpg?v27);
+$url_trainads_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/laboratory_testing_[sm].jpg?v27);
+
+$url_apparel_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/apparel_garment_[lg].jpg?v27);
+$url_apparel_md: url(https://s3.asiainspection.com/images/responsive/headerImages/apparel_garment_[md].jpg?v27);
+$url_apparel_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/apparel_garment_[sm].jpg?v27);
+$url_textiles_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/textile_testing_[lg].jpg?v27);
+$url_textiles_md: url(https://s3.asiainspection.com/images/responsive/headerImages/textile_testing_[md].jpg?v27);
+$url_textiles_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/textile_testing_[sm].jpg?v27);
+$url_footwear_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/footwear_[lg].jpg?v27);
+$url_footwear_md: url(https://s3.asiainspection.com/images/responsive/headerImages/footwear_[md].jpg?v27);
+$url_footwear_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/footwear_[sm].jpg?v27);
+
+$url_toys_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/toys_[lg].jpg?v27);
+$url_toys_md: url(https://s3.asiainspection.com/images/responsive/headerImages/toys_[md].jpg?v27);
+$url_toys_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/toys_[sm].jpg?v27);
+$url_promotional-products_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/promotional_products_[lg].jpg?v27);
+$url_promotional-products_md: url(https://s3.asiainspection.com/images/responsive/headerImages/promotional_products_[md].jpg?v27);
+$url_promotional-products_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/promotional_products_[sm].jpg?v27);
+$url_jewelry_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/jewelry_[lg].jpg?v27);
+$url_jewelry_md: url(https://s3.asiainspection.com/images/responsive/headerImages/jewelry_[md].jpg?v27);
+$url_jewelry_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/jewelry_[sm].jpg?v27);
+$url_electronics_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/electronics_[lg].jpg?v27);
+$url_electronics_md: url(https://s3.asiainspection.com/images/responsive/headerImages/electronics_[md].jpg?v27);
+$url_electronics_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/electronics_[sm].jpg?v27);
+$url_cosmetics_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/cosmetics_[lg].jpg?v27);
+$url_cosmetics_md: url(https://s3.asiainspection.com/images/responsive/headerImages/cosmetics_[md].jpg?v27);
+$url_cosmetics_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/cosmetics_[sm].jpg?v27);
+
+$url_eyewear_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/eyewear_[lg].jpg?v27);
+$url_eyewear_md: url(https://s3.asiainspection.com/images/responsive/headerImages/eyewear_[md].jpg?v27);
+$url_eyewear_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/eyewear_[sm].jpg?v27);
+$url_reading-glasses_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/ready_spectacles_[lg].jpg?v27);
+$url_reading-glasses_md: url(https://s3.asiainspection.com/images/responsive/headerImages/ready_spectacles_[md].jpg?v27);
+$url_reading-glasses_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/ready_spectacles_[sm].jpg?v27);
+$url_optical-lenses_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/optical_lenses_[lg].jpg?v27);
+$url_optical-lenses_md: url(https://s3.asiainspection.com/images/responsive/headerImages/optical_lenses_[md].jpg?v27);
+$url_optical-lenses_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/optical_lenses_[sm].jpg?v27);
+$url_spectacle-frames_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/spectacle_frames_[lg].jpg?v27);
+$url_spectacle-frames_md: url(https://s3.asiainspection.com/images/responsive/headerImages/spectacle_frames_[md].jpg?v27);
+$url_spectacle-frames_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/spectacle_frames_[sm].jpg?v27);
+
+$url_surveyThanks_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/thankYou_[lg].jpg?v27);
+$url_surveyThanks_md: url(https://s3.asiainspection.com/images/responsive/headerImages/thankYou_[md].jpg?v27);
+$url_surveyThanks_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/thankYou_[sm].jpg?v27);
+
+$url_toyTesting_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/phthalate_[lg].jpg?v27);
+$url_toyTesting_md: url(https://s3.asiainspection.com/images/responsive/headerImages/phthalate_[md].jpg?v27);
+$url_toyTesting_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/phthalate_[sm].jpg?v27);
+
+$url_ethical-webinarl_md: url(https://s3.asiainspection.com/images/responsive/webinar_md.png?v27);
+$url_ethical-webinarl_lg: url(https://s3.asiainspection.com/images/responsive/webinar_lg.png?v27);
+$url_ethical-webinarl_sm: url(https://s3.asiainspection.com/images/responsive/webinar-sm.png?v27);
+
+$url_ethical-webinarl2_md: url(https://s3.asiainspection.com/images/responsive/webinar2_md.jpg?v27);
+$url_ethical-webinarl2_lg: url(https://s3.asiainspection.com/images/responsive/webinar2_lg.jpg?v27);
+$url_ethical-webinarl2_sm: url(https://s3.asiainspection.com/images/responsive/webinar2_sm.jpg?v27);
+
+$url_structuralaudit_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/structural-audits_[lg].jpg?v27);
+$url_structuralaudit_md: url(https://s3.asiainspection.com/images/responsive/headerImages/structural-audits_[md].jpg?v27);
+$url_structuralaudit_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/structural-audits_[sm].jpg?v27);
+
+$url_regulatoryupdate_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/RegulatoryUpdates_[lg].jpg?v27);
+$url_regulatoryupdate_md: url(https://s3.asiainspection.com/images/responsive/headerImages/RegulatoryUpdates_[md].jpg?v27);
+$url_regulatoryupdate_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/RegulatoryUpdates_[sm].jpg?v27);
+
+$url_AQL_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/AQL_[lg].jpg?v27);
+$url_AQL_md: url(https://s3.asiainspection.com/images/responsive/headerImages/AQL_[md].jpg?v27);
+$url_AQL_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/AQL_[sm].jpg?v27);
+
+$url_funPhotos_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/fun_[lg].jpg?v27);
+$url_funPhotos_md: url(https://s3.asiainspection.com/images/responsive/headerImages/fun_[md].jpg?v27);
+$url_funPhotos_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/fun_[sm].jpg?v27);
+
+$url_mobileMicro_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/mobile_micro_[lg].jpg?v27);
+$url_mobileMicro_md: url(https://s3.asiainspection.com/images/responsive/headerImages/mobile_micro_[md].jpg?v27);
+$url_mobileMicro_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/mobile_micro_[sm].jpg?v27);
+
+$url_qcinchina_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/qc_china_[lg].jpg?v27);
+$url_qcinchina_md: url(https://s3.asiainspection.com/images/responsive/headerImages/qc_china_[md].jpg?v27);
+$url_qcinchina_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/qc_china_[sm].jpg?v27);
+
+$url_inspectionservices_lg: url(https://s3.amazonaws.com/s3.asiainspection.com/images/inspection_[lg].jpg?v27);
+$url_inspectionservices_md: url(https://s3.amazonaws.com/s3.asiainspection.com/images/inspection_[md].jpg?v27);
+$url_inspectionservices_sm: url(https://s3.amazonaws.com/s3.asiainspection.com/images/inspection_[sm].jpg?v27);
+
+$url_email_pref_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/email_prefs_[lg].jpg?v27);
+$url_email_pref_md: url(https://s3.asiainspection.com/images/responsive/headerImages/email_prefs_[md].jpg?v27);
+$url_email_pref_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/email_prefs_[sm].jpg?v27);
+
+$url_supplierauditprograms_lg: url(https://s3.amazonaws.com/s3.asiainspection.com/images/audit_[lg].jpg?v27);
+$url_supplierauditprograms_md: url(https://s3.amazonaws.com/s3.asiainspection.com/images/audit_[md].jpg?v27);
+$url_supplierauditprograms_sm: url(https://s3.amazonaws.com/s3.asiainspection.com/images/audit_[sm].jpg?v27);
+
+$url_laboratorytesting_lg: url(https://s3.amazonaws.com/s3.asiainspection.com/images/labtest_[lg].jpg?v27);
+$url_laboratorytesting_md: url(https://s3.amazonaws.com/s3.asiainspection.com/images/labtest_[md].jpg?v27);
+$url_laboratorytesting_sm: url(https://s3.amazonaws.com/s3.asiainspection.com/images/labtest_[sm].jpg?v27);
+
+$url_astmtoys_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/astm-toy_[lg].jpg?v27);
+$url_astmtoys_md: url(https://s3.asiainspection.com/images/responsive/headerImages/astm-toy_[md].jpg?v27);
+$url_astmtoys_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/astm-toy_[sm].jpg?v27);
+
+$url_sasocert_lg: url(https://s3.asiainspection.com/images/responsive/headerImages/SASO_[lg].jpg?v27);
+$url_sasocert_md: url(https://s3.asiainspection.com/images/responsive/headerImages/SASO_[md].jpg?v27);
+$url_sasocert_sm: url(https://s3.asiainspection.com/images/responsive/headerImages/SASO_[sm].jpg?v27);
+
+$url_beverages_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/beverages_[lg].jpg?v27 );
+$url_beverages_md: url( https://s3.asiainspection.com/images/responsive/headerImages/beverages_[md].jpg?v27 );
+$url_beverages_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/beverages_[sm].jpg?v27 );
+
+$url_meat-poultry_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/meat_[lg].jpg?v27 );
+$url_meat-poultry_md: url( https://s3.asiainspection.com/images/responsive/headerImages/meat_[md].jpg?v27 );
+$url_meat-poultry_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/meat_[sm].jpg?v27 );
+
+$url_processed-food_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/processed_food_[lg].jpg?v27 );
+$url_processed-food_md: url( https://s3.asiainspection.com/images/responsive/headerImages/processed_food_[md].jpg?v27 );
+$url_processed-food_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/processed_food_[sm].jpg?v27 );
+
+$url_eye-protectors_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/eye_protectors_[lg].jpg?v27 );
+$url_eye-protectors_md: url( https://s3.asiainspection.com/images/responsive/headerImages/eye_protectors_[md].jpg?v27 );
+$url_eye-protectors_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/eye_protectors_[sm].jpg?v27 );
+
+$url_sports-eyewear-goggles_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/goggles_[lg].jpg?v27 );
+$url_sports-eyewear-goggles_md: url( https://s3.asiainspection.com/images/responsive/headerImages/goggles_[md].jpg?v27 );
+$url_sports-eyewear-goggles_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/goggles_[sm].jpg?v27 );
+
+$url_sunglasses_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/sunglasses_[lg].jpg?v27 );
+$url_sunglasses_md: url( https://s3.asiainspection.com/images/responsive/headerImages/sunglasses_[md].jpg?v27 );
+$url_sunglasses_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/sunglasses_[sm].jpg?v27 );
+
+$url_pressRelease_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/barometer_[lg].jpg?v27 );
+$url_pressRelease_md: url( https://s3.asiainspection.com/images/responsive/headerImages/barometer_[md].jpg?v27 );
+$url_pressRelease_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/barometer_[sm].jpg?v27 );
+
+$url_caliprop65_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/prop65_[lg].jpg?v27 );
+$url_caliprop65_md: url( https://s3.asiainspection.com/images/responsive/headerImages/prop65_[md].jpg?v27 );
+$url_caliprop65_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/prop65_[sm].jpg?v27 );
+
+$url_view360_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/view360_[lg].jpg?v27 );
+$url_view360_md: url( https://s3.asiainspection.com/images/responsive/headerImages/view360_[md].jpg?v27 );
+$url_view360_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/view360_[sm].jpg?v27 );
+
+$url_qas_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/quality_assurance_[lg].jpg?v27 );
+$url_qas_md: url( https://s3.asiainspection.com/images/responsive/headerImages/quality_assurance_[md].jpg?v27 );
+$url_qas_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/quality_assurance_[sm].jpg?v27 );
+
+$url_berry_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/blueberry_[lg].jpg?v27 );
+$url_berry_md: url( https://s3.asiainspection.com/images/responsive/headerImages/blueberry_[md].jpg?v27 );
+$url_berry_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/blueberry_[sm].jpg?v27 );
+
+$url_ILOinfographic_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/ILO_infographic_[lg].jpg?v27 );
+$url_ILOinfographic_md: url( https://s3.asiainspection.com/images/responsive/headerImages/ILO_infographic_[md].jpg?v27 );
+$url_ILOinfographic_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/ILO_infographic_[sm].jpg?v27 );
+
+$url_BsciAudit_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/bsci_audit_[lg].jpg?v27 );
+$url_BsciAudit_md: url( https://s3.asiainspection.com/images/responsive/headerImages/bsci_audit_[md].jpg?v27 );
+$url_BsciAudit_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/bsci_audit_[sm].jpg?v27 );
+
+$url_SourcingSurvey2018_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/survey_results_[lg].jpg?v27 );
+$url_SourcingSurvey2018_md: url( https://s3.asiainspection.com/images/responsive/headerImages/survey_results_[md].jpg?v27 );
+$url_SourcingSurvey2018_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/survey_results_[sm].jpg?v27 );
+
+$url_globalSupplierSearch_lg: url( https://s3.asiainspection.com/images/responsive/headerImages/globalsources_[lg].jpg?v27 );
+$url_globalSupplierSearch_md: url( https://s3.asiainspection.com/images/responsive/headerImages/globalsources_[md].jpg?v27 );
+$url_globalSupplierSearch_sm: url( https://s3.asiainspection.com/images/responsive/headerImages/globalsources_[sm].jpg?v27 );

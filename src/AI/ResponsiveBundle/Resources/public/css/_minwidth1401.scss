@@ -1,0 +1,180 @@
+.col-xl-offset-0{ margin-left: 0; }
+.col-xl-offset-1{ margin-left: 8.33333%; }
+.col-xl-12 { width: 100%; }
+.col-xl-11 { width: 91.66666667%; }
+.col-xl-10 { width: 83.33333333%; }
+.col-xl-9 { width: 75%; }
+.col-xl-8 { width: 66.66666667%; }
+.col-xl-7 { width: 58.33333333%; }
+.col-xl-6 { width: 50%; }
+.col-xl-5 { width: 41.66666667%; }
+.col-xl-4 { width: 33.33333333%; }
+.col-xl-3 { width: 25%; }
+.col-xl-2 { width: 16.66666667%; }
+.col-xl-1 { width: 8.33333333%; }
+
+/* Xmas Logo [Begin]
+#AI_Logo {
+	background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_lg.png);
+	position:relative;
+	left:-130px;
+	width: 442px;
+	height: 89px;
+	margin-top:0px;
+}
+.navbar-ai {
+	background-image: url(https://s3.asiainspection.com/images/xmas/2017/bg_xmas_lg.png);
+}
+#ChinaInspection_Logo {
+	background-image: url(https://s3.asiainspection.com/images/xmas/2017/logo_xmas_lg_CN.png);
+	width: 459px;
+	height: 89px;
+	left:-130px;
+	margin-top:0px;
+	position:relative;
+}
+Xmas Logo [End] */
+
+.homeSupplyChainWrapper{
+	.homeSupplyChainBox{
+		min-height:67px;
+	}
+}
+
+.slide-feature2 .homeSCP_content { height: 44%; }
+.slide-feature2 .homeSCP_image{ height: 47%; }
+
+.slide-feature1 {
+	background-image: none;
+}
+
+#rightNavWrapper{
+	width:66%;
+}
+
+.navbar-ai {
+	.dropdown-menu{
+		.navMenuCol:last-of-type {border-right:0px;}
+		&.navmenu_Service { width:990px; }
+		&.navmenu_Industry {
+			left:-165px;
+			width:960px;
+			.navMenuCol{
+				width:193px;
+		   }
+		}
+		&.navmenu_About {
+			left:-160px;
+			width:450px;
+			.navMenuCol{
+				width:180px;
+			}
+		}
+	}
+} /* End of .navbar-ai */
+
+#page_Logout{
+	#logoutPhoneImage{
+		margin-right:60px;
+	}
+}
+
+/**
+ * Header Images
+ */
+#page_PSI{ .headerbox{ background-image: $url_PSI_lg; } }
+#page_PM{ .headerbox{ background-image: $url_PM_lg; } }
+#page_DUPRO{ .headerbox{ background-image: $url_DUPRO_lg; } }
+#page_IPC{ .headerbox{ background-image: $url_IPC_lg; } }
+#page_CLC{ .headerbox{ background-image: $url_CLC_lg; } }
+#page_FPSI{ .headerbox{ background-image: $url_FPSI_lg; } }
+#page_SMETA{ .headerbox{ background-image: $url_SMETA_lg; } }
+
+#page_FA{ .headerbox{ background-image: $url_FA_lg; } }
+#page_CTPAT{ .headerbox{ background-image: $url_CTPAT_lg; } }
+#page_ENVIRO{ .headerbox{ background-image: $url_ENVIRO_lg; } }
+#page_SA{ .headerbox{ background-image: $url_SA_lg; } }
+#page_REACH{ .headerbox{ background-image: $url_REACH_lg; } }
+#page_FoodA{ .headerbox{ background-image: $url_FoodA_lg; } }
+
+#page_LT { .headerbox{ background-image: $url_LT_lg; } }
+#page_FT { .headerbox{ background-image: $url_FT_lg; } }
+#page_CPSIA{ .headerbox{ background-image: $url_CPSIA_lg; } }
+#page_ROHS{ .headerbox{ background-image: $url_ROHS_lg; } }
+#page_softline{ .headerbox{ background-image: $url_softline_lg; } }
+#page_hardline{ .headerbox{ background-image: $url_hardline_lg; } }
+#page_techpart{ .headerbox{ background-image: $url_techpart_lg; } }
+
+#page_GHP { .headerbox{ background-image: $url_GHP_lg; } }
+#page_GMP { .headerbox{ background-image: $url_GMP_lg; } }
+#page_food { .headerbox{ background-image: $url_food_lg; } }
+#page_food-containers { .headerbox{ background-image: $url_food-containers_lg; } }
+#page_meat-poultry { .headerbox{ background-image: $url_meat-poultry_lg; } }
+#page_food-produce { .headerbox{ background-image: $url_food-produce_lg; } }
+#page_seafood { .headerbox{ background-image: $url_seafood_lg; } }
+
+#page_whitePapers{ .headerbox{ background-image: $url_whitePapers_lg; } }
+#page_WhoWeAre{ .headerbox{ background-image: $url_WhoWeAreHeader_lg; } }
+#page_SampleReports{ .headerbox{ background-image: $url_SampleReports_lg; } }
+#page_Testimonials{ .headerbox{ background-image: $url_Testimonials_lg; } }
+#page_CompanyValues{ .headerbox{ background-image: $url_CompanyValues_lg; } }
+#page_Accreditations{ .headerbox{ background-image: $url_Accreditations_lg; } }
+#page_Partners{ .headerbox{ background-image: $url_Partners_lg; } }
+#page_Pricing{ .headerbox{ background-image: $url_Pricing_lg; } }
+#page_ServiceCoverage { .headerbox{ background-image: $url_service_coverage_lg; } }
+#page_CareerOps { .headerbox{ background-image: $url_careers_lg; } }
+#page_ViewJob { .headerbox{ background-image: $url_careers_lg; } }
+#page_JobApplication { .headerbox{ background-image: $url_careers_lg; } }
+#page_News { .headerbox{ background-image: $url_News_lg; } }
+#page_RefSamples { .headerbox{ background-image: $url_RefSamples_lg; } }
+#page_vietnam { .headerbox{ background-image: $url_vietnam_lg; } }
+#page_bangladesh { .headerbox{ background-image: $url_bangladesh_lg; } }
+#page_india { .headerbox{ background-image: $url_india_lg; } }
+#page_ContactUs { .headerbox{ background-image: $url_contactus_lg; } }
+#page_tapwater { .headerbox{ background-image: $url_tapwater_lg; } }
+#page_trainads { .headerbox{ background-image: $url_trainads_lg; } }
+#page_apparel { .headerbox{ background-image: $url_apparel_lg; } }
+#page_textiles { .headerbox{ background-image: $url_textiles_lg; } }
+#page_footwear { .headerbox{ background-image: $url_footwear_lg; } }
+#page_toys { .headerbox{ background-image: $url_toys_lg; } }
+#page_promotional-products { .headerbox{ background-image: $url_promotional-products_lg; } }
+#page_jewelry { .headerbox{ background-image: $url_jewelry_lg; } }
+#page_electrical { .headerbox{ background-image: $url_electronics_lg; } }
+#page_cosmetics { .headerbox{ background-image: $url_cosmetics_lg; } }
+#page_ethical-webinarl{ .headerbox{background-image: $url_ethical-webinarl_lg;  } }
+#page_structuralAudit { .headerbox{ background-image: $url_structuralaudit_lg; } }
+#ethical-webinar-imageDiv{background-image: $url_ethical-webinarl2_lg;}
+#page_RegulatoryUpdates{.headerbox{ background-image: $url_regulatoryupdate_lg; }}
+#page_AQLstandards{ .headerbox{ background-image: $url_AQL_lg; } }
+#page_eyewear{ .headerbox{ background-image: $url_eyewear_lg; } }
+#page_eyewearTesting{ .headerbox{ background-image: $url_eyewear_lg; } }
+#page_reading-glasses{ .headerbox{ background-image: $url_reading-glasses_lg; } }
+#page_optical-lenses{ .headerbox{ background-image: $url_optical-lenses_lg; } }
+#page_spectacle-frames{ .headerbox{ background-image: $url_spectacle-frames_lg; } }
+#page_surveyThanks{ .headerbox{ background-image: $url_surveyThanks_lg; } }
+#page_phthalate{ .headerbox{ background-image: $url_toyTesting_lg; } }
+#page_toyLabTest{ .headerbox{ background-image: $url_toyTesting_lg; } }
+#page_mobileMicro{ .headerbox{ background-image: $url_mobileMicro_lg; } }
+#page_QCinChina{ .headerbox{ background-image: $url_qcinchina_lg; } }
+#page_emailPref { .headerbox{ background-image: $url_email_pref_lg; } }
+#page_inspectionservices{ .headerbox{ background-image: $url_inspectionservices_lg; } }
+#page_supplierauditprograms{ .headerbox{ background-image: $url_supplierauditprograms_lg; } }
+#page_laboratorytesting{ .headerbox{ background-image: $url_laboratorytesting_lg; } }
+#page_ASTMtoys { .headerbox{ background-image: $url_astmtoys_lg; } }
+#page_SASOCertification { .headerbox{ background-image: $url_sasocert_lg; } }
+#page_view360 { .headerbox{ background-image: $url_view360_lg; } }
+#page_beverages { .headerbox{ background-image: $url_beverages_lg; } }
+#page_meat-poultry { .headerbox{ background-image: $url_meat-poultry_lg; } }
+#page_processed-food { .headerbox{ background-image: $url_processed-food_lg; } }
+#page_eye-protectors { .headerbox{ background-image: $url_eye-protectors_lg; } }
+#page_sports-eyewear-goggles { .headerbox{ background-image: $url_sports-eyewear-goggles_lg; } }
+#page_sunglasses { .headerbox{ background-image: $url_sunglasses_lg; } }
+#page_PressRelease { .headerbox{ background-image: $url_pressRelease_lg; } }
+#page_caliprop65 { .headerbox{ background-image: $url_caliprop65_lg; } }
+#page_previoOrigen{ .headerbox{ background-image: $url_PSI_lg; } }
+#page_quality-assurance-services { .headerbox{ background-image: $url_qas_lg; } }
+#page_berries { .headerbox{ background-image: $url_berry_lg; } }
+#page_ILOinfographic { .headerbox{ background-image: $url_ILOinfographic_lg; } }
+#page_SourcingSurvey2018 { .headerbox{ background-image: $url_SourcingSurvey2018_lg; } }
+#page_BSCI{ .headerbox{ background-image: $url_BsciAudit_lg; } }
+#page_global-supplier-search { .headerbox{ background-image: $url_globalSupplierSearch_lg; } }
